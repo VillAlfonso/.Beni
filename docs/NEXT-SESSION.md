@@ -3,13 +3,11 @@
 ## Overnight results (chain finished ~03:40, all verified)
 - **52/52 transcribed** → `pipeline\transcribe\work\epNN.segments.json`; 49–52 confirmed
   Japanese (0.90–0.98) and whisper-translated to English. KoboldCpp restarted, API answering.
-- **Labeling clips exported** for eps 2/14/33/46/49 → `review\epNN\`. ⚠ Clustering scattered
-  badly (music bed pollutes ECAPA embeddings): hundreds of tiny clusters. **User should ONLY
-  label clusters having ≥2 sample files** (multi-sample = real speech-heavy voice); ignore
-  singletons. Better fix for this session, in order: (1) get user's free HF token + accept
-  pyannote/speaker-diarization-3.1 terms → `pip install pyannote.audio`, set HF_TOKEN, rerun
-  diarize_match (proper diarization, music-robust); or (2) add per-SEGMENT direct matching
-  against enrolled profiles (bypasses clusters entirely) in diarize_match.py.
+- **Labeling clips READY** for eps 2/18/33/46/49 → `review\epNN\`, now **12–27 clusters each**
+  (was 130–300 — fixed: cluster only on ≥2s clips, agglomerative cut 0.72; see commit 2a2586c).
+  Each cluster = up to 3 `SNN_sampleN.wav`. Optional further upgrade if labels still bleed:
+  free HF token + `pip install pyannote.audio` + accept speaker-diarization-3.1 terms + set
+  HF_TOKEN → diarize_match auto-uses pyannote. Not required; token-free path is labelable now.
 - **Sparse eps 6, 14–17, 47 were NOT bad downloads** (user confirmed audio is fine by ear).
   Cause: heavy compression + music bed fooled Whisper's VAD. Fix shipped: `isolate.py`
   (demucs htdemucs vocal separation, GPU) → `work/epNN.vocals.wav`; transcribe.py &
@@ -36,10 +34,13 @@ For the next Claude session (any model). Phase 1 + infra are DONE and live — d
   eps 2/14/33/46/49 → `pipeline\transcribe\review\epNN\*.wav`. Log: `logs\` + task output.
 
 ## Morning workflow
-1. **User listens** to `review\epNN\` clips and labels each cluster once:
-   `pipeline\transcribe\.venv\Scripts\python.exe pipeline\transcribe\enroll.py --episode 14 S00=Beni S01=Guren …`
+1. **User listens** to `review\epNN\` clips (eps 2/18/33/46/49 ready) and labels each cluster once:
+   `pipeline\transcribe\.venv\Scripts\python.exe pipeline\transcribe\enroll.py --episode 18 S03=Beni S01=Guren …`
+   Multiple clusters CAN be the same person (`S03=Beni S07=Beni` merges) — expected, not a bug.
    Names to expect: Guren, Ceylan, Toxsa, Chooki, Gen, Beni, Mr. White, Vilius, Boreas, Kiiro
    (late eps), Granox, Slyger. Eps 49–52 store separate JP profiles automatically (different VAs).
+   Note: ep14 clips are gone (its old cluster npz was purged with the crushed-audio artifacts);
+   ep18 replaced it as a stage-1 labeling episode. Re-run diarize on 14 after it's re-isolated.
 2. `…python.exe pipeline\transcribe\diarize_match.py` — all episodes auto-label; any voice it
    can't match exports more clips (enrollment is incremental — new characters appear over the
    series, label them as they surface; user explicitly flagged this).
