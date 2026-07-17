@@ -27,24 +27,31 @@ Launches fullscreen with her face as the icon. Updates ship automatically: rebui
 `tools\cloudflared.exe service install` as admin installs the tunnel as a Windows service, plus
 Task Scheduler → `start-all.bat` at logon for the app + model.
 
-## Moving to quert.site (planned 2026-07-17)
+## Moving to beni.quert.site (planned 2026-07-17)
 
-quert.site is registered at Namecheap but not on Cloudflare yet. The switch is:
+quert.site stays the Vercel portfolio — Beni takes **only the `beni` subdomain**. The
+apex A (76.76.21.21) and `www` CNAME (Vercel) are never touched.
 
-1. **Cloudflare dashboard** (same account as revelator.site) → *Add a domain* → `quert.site` → Free plan. It shows two `*.ns.cloudflare.com` nameservers.
-2. **Namecheap** → Domain List → quert.site → *Nameservers: Custom DNS* → paste those two. Wait for Cloudflare's "site active" email (usually well under an hour).
+1. **Cloudflare** → finish *Add a domain* for quert.site (Continue to activation, keep
+   the imported records). Recommended: flip the two Vercel records (A apex + CNAME www)
+   to **DNS only** (gray cloud) — that reproduces today's behavior 1:1; proxied-orange in
+   front of Vercel works only with SSL mode Full (strict) and buys nothing for a portfolio.
+2. **Namecheap** → quert.site → *Nameservers: Custom DNS* → the two `*.ns.cloudflare.com`
+   names Cloudflare shows → wait for the "site active" email.
+   ⚠ The `eforward*` MX records are Namecheap email forwarding, which officially requires
+   Namecheap DNS. If @quert.site mail forwarding matters, test it after the switch —
+   Cloudflare **Email Routing** (free, dashboard → Email) is the drop-in replacement.
 3. One command (opens browser once — pick quert.site):
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\win\setup-named-tunnel.ps1 -Hostname quert.site -Relogin
+powershell -ExecutionPolicy Bypass -File scripts\win\setup-named-tunnel.ps1 -Hostname beni.quert.site -Relogin
 ```
 
-It backs up the revelator-scoped cert, logs in for the new zone, routes apex + www,
-rewrites `beni-config.yml`, and restarts the tunnel. Old URL beni.revelator.site keeps
-working until step 3, then serves 404 (its DNS record can be deleted in the dashboard,
-along with the junk `quert.site.revelator.site` CNAME a mis-scoped route attempt created).
+It backs up the revelator-scoped cert, logs in for the new zone, routes the subdomain,
+rewrites `beni-config.yml`, and restarts the tunnel. Old URL beni.revelator.site works
+until step 3, then serves 404 — afterwards delete its DNS record plus the junk
+`quert.site.revelator.site` CNAME (dashboard → revelator.site → DNS).
 
-⚠ quert.site's apex currently points at a Vercel IP (76.76.21.21) — step 3 replaces it.
 ⚠ Phones with the PWA installed on the old URL must reinstall from the new one (new origin).
 
 ## Gotcha worth remembering (cost an hour once)
