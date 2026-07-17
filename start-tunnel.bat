@@ -2,7 +2,7 @@
 title Beni - Tunnel
 cd /d "%~dp0"
 if exist "%USERPROFILE%\.cloudflared\beni-config.yml" (
-  echo Permanent tunnel: https://beni.revelator.site
+  echo Permanent tunnel: https://beni.quert.site
   tools\cloudflared.exe tunnel --config "%USERPROFILE%\.cloudflared\beni-config.yml" run beni
 ) else (
   echo No named tunnel config found - starting a throwaway quick tunnel.
