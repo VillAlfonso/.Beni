@@ -1,0 +1,13 @@
+# Python 3.11. Install torch with CUDA first (your RTX 5060 Ti):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# then:
+#   pip install -r requirements.txt
+# ffmpeg must be on PATH (winget install Gyan.FFmpeg).
+# pyannote diarization needs a free Hugging Face token with access accepted at
+#   https://huggingface.co/pyannote/speaker-diarization-3.1
+# set it as HF_TOKEN in your environment.
+faster-whisper>=1.0.3
+pyannote.audio>=3.1.1
+speechbrain>=1.0.0
+numpy
+soundfile
