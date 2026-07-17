@@ -1,0 +1,46 @@
+{
+  "name": "beni-rp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first, character-accurate AI roleplay app for Beni (Tenkai Knights)",
+  "scripts": {
+    "dev": "concurrently -n srv,web -c blue,magenta \"tsx watch src/server/index.ts\" \"vite\"",
+    "build": "vite build",
+    "start": "tsx src/server/index.ts",
+    "scrape": "tsx scripts/scrape-all.ts",
+    "ingest": "tsx scripts/ingest.ts",
+    "search": "tsx scripts/search.ts",
+    "images": "tsx scripts/download-images.ts",
+    "icons": "tsx scripts/make-icons.ts",
+    "export-lora": "tsx scripts/export-lora-dataset.ts",
+    "test": "tsx --test src/server/core/tree.test.ts src/server/core/vector.test.ts src/server/core/chunker.test.ts",
+    "typecheck": "tsc --noEmit",
+    "tunnel:quick": "cloudflared tunnel --url http://localhost:3001"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.2.4",
+    "better-sqlite3": "^11.7.0",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "gray-matter": "^4.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "wtf_wikipedia": "^10.3.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "sharp": "^0.33.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
