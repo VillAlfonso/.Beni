@@ -2,18 +2,18 @@
 
 The app talks to any OpenAI-compatible `/chat/completions` endpoint. Set it in **Settings** inside the app (or `.env` for first-boot defaults).
 
-## Recommended local setup (your RTX 5060 Ti 16GB)
+## Installed setup (done — RTX 5060 Ti 16GB)
 
-**Cydonia 24B** (TheDrummer) — the roleplay fine-tune you asked about — is a strong pick for 16GB local, and running locally is the only path where your future voice-LoRA can actually be loaded.
+**Cydonia 24B v4.3** (TheDrummer, bartowski imatrix **IQ4_XS**, 11.9GB) + **KoboldCpp v1.117.1** live in the repo:
 
-1. Download **KoboldCpp** (single .exe): https://github.com/LostRuins/koboldcpp/releases
-2. Download a Cydonia GGUF, quant **Q4_K_M** (~14GB) or **IQ4_XS** (~13GB, more context headroom):
-   search "Cydonia 24B GGUF" on Hugging Face (TheDrummer's page or bartowski's quants — pick the newest Cydonia version available).
-3. Launch KoboldCpp → load the GGUF → GPU layers: max / `-1` (fits fully) → context 8192–12288 → start.
-   It serves an OpenAI-compatible API on **http://127.0.0.1:5001/v1**.
-4. In the app's Settings: endpoint `http://127.0.0.1:5001/v1`, model name anything (Kobold ignores it), no API key. Done.
+- `models\TheDrummer_Cydonia-24B-v4.3-IQ4_XS.gguf`
+- `tools\koboldcpp.exe`
+- **`start-model.bat`** launches it: every layer on the GPU, **16k context**, FlashAttention, q8 KV cache → ~14GB VRAM used, ~1.4GB headroom for the desktop.
+- Serves the OpenAI-compatible API at **http://127.0.0.1:5001/v1** — already the app's default endpoint; nothing to configure.
 
-Expected speed: ~15–30 tok/s. If it's tight on VRAM, drop to IQ4_XS or reduce context.
+Expected speed: ~20–30 tok/s. IQ4_XS over Q4_K_M was deliberate: near-identical quality (imatrix), but room for 16k context instead of 8k — long scenes + RAG win.
+
+⚠ **GPU sharing**: the model and the Whisper transcription pipeline both want the full GPU. Close the model window (or don't start it) while transcribing episodes.
 
 **Lighter/faster local option**: Mag-Mell 12B or Rocinante 12B (Q5/Q6 GGUF) — very good RP for their size, huge context headroom, and a 12B is also the size you could QLoRA-train **on your own GPU**.
 

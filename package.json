@@ -16,7 +16,7 @@
     "export-lora": "tsx scripts/export-lora-dataset.ts",
     "test": "tsx --test src/server/core/tree.test.ts src/server/core/vector.test.ts src/server/core/chunker.test.ts",
     "typecheck": "tsc --noEmit",
-    "tunnel:quick": "cloudflared tunnel --url http://localhost:3001"
+    "tunnel:quick": "tools\\cloudflared.exe tunnel --url http://localhost:3001"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",

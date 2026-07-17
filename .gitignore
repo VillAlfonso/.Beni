@@ -1,6 +1,9 @@
 node_modules/
 dist/
 .env
+models/
+tools/
+logs/
 data/beni.db*
 data/raw/
 data/images/
