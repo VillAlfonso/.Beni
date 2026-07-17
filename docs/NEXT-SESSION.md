@@ -23,6 +23,10 @@ For the next Claude session (any model). Phase 1 + infra are DONE and live — d
    series, label them as they surface; user explicitly flagged this).
 3. `…python.exe pipeline\transcribe\scene_tag.py` — adds quarton/quarton-battle/earth tags
    (user's heuristic: tenkai names ⇒ Quarton).
+3b. `…python.exe pipeline\transcribe\beni_frames.py` — frame per Beni line + index.json
+   pairing frame ↔ her words ↔ scene (user's idea: study her expressions/body language;
+   feeds the P4 image LoRA and the world bible's mannerisms section — LOOK at a sample
+   of line+frame pairs from pivotal scenes and write what you see).
 4. `npm run ingest` — transcripts → RAG. Then leak-test: stage-1 chat must not retrieve >ep25.
 5. `npm run export-lora` (gates on ≥300 real Beni lines) → then `docs\LORA-TEXT.md` path.
 6. After ingest works: read transcripts (SAMPLED — watch token spend) + all 51 synopses and

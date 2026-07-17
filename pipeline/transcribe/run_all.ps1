@@ -8,5 +8,6 @@ taskkill /IM koboldcpp.exe /F 2>$null
 & $py (Join-Path $PSScriptRoot "transcribe.py") *>> $log
 & $py (Join-Path $PSScriptRoot "diarize_match.py") *>> $log
 & $py (Join-Path $PSScriptRoot "scene_tag.py") *>> $log
+& $py (Join-Path $PSScriptRoot "beni_frames.py") *>> $log
 Start-Process "C:\.Beni\start-model.bat" -WorkingDirectory "C:\.Beni"
 "[$(Get-Date)] batch done — next: npm run ingest" | Out-File -Append $log -Encoding utf8
