@@ -38,8 +38,9 @@ OUT = ROOT / "data" / "transcripts"
 
 JP_EPS = set(range(49, 53))
 MATCH_THRESHOLD = 0.55
-CLUSTER_THRESHOLD = 0.50  # 0.60 over-split one voice into many clusters (ep14: 29)
-MIN_CLIP_SECONDS = 0.8
+CLUSTER_DIST = 0.72  # cosine-distance cut (validated on ep18: ~14 clusters)
+CLUSTER_MIN_SECONDS = 2.0  # ECAPA embeddings on <2s anime clips are noise → cluster on long clips only
+MIN_CLIP_SECONDS = 0.8  # min clip length still exported for review
 
 
 def voices_file(ep: int) -> Path:
@@ -85,37 +86,57 @@ def overlap(a0: float, a1: float, b0: float, b1: float) -> float:
 
 
 def cluster_by_embedding(segments: list[dict], audio: np.ndarray, sr: int) -> dict[str, np.ndarray]:
-    """Token-free fallback: greedy cosine clustering of per-segment ECAPA embeddings.
-    Sets s["cluster"] on every segment; returns final cluster centroids."""
-    centroids: list[tuple[str, np.ndarray, int]] = []  # (name, vec, count)
-    for s in segments:
+    """Token-free speaker clustering of per-segment ECAPA embeddings.
+
+    Agglomerative (average-linkage, cosine) over ALL segments at once, cut at a
+    distance threshold. Order-independent — unlike online greedy clustering,
+    which shattered single voices into 100+ clusters. Sets s["cluster"] on every
+    segment; returns cluster centroids."""
+    from collections import defaultdict
+
+    idx: list[int] = []
+    embs: list[np.ndarray] = []
+    for i, s in enumerate(segments):
         clip = audio[int(s["start"] * sr) : int(s["end"] * sr)]
-        if len(clip) < sr * MIN_CLIP_SECONDS:
+        if len(clip) < sr * CLUSTER_MIN_SECONDS:
             s["cluster"] = None
             continue
-        emb = embed_clip(clip)
-        s["_emb"] = emb
-        best_i, best_cos = -1, -1.0
-        for i, (_, vec, _) in enumerate(centroids):
-            cos = float(np.dot(emb, vec))
-            if cos > best_cos:
-                best_i, best_cos = i, cos
-        if best_i >= 0 and best_cos >= CLUSTER_THRESHOLD:
-            name, vec, n = centroids[best_i]
-            merged = (vec * n + emb) / (n + 1)
-            centroids[best_i] = (name, merged / (np.linalg.norm(merged) + 1e-9), n + 1)
-            s["cluster"] = name
-        else:
-            name = f"S{len(centroids):02d}"
-            centroids.append((name, emb, 1))
-            s["cluster"] = name
+        idx.append(i)
+        embs.append(embed_clip(clip))
+
+    if not embs:
+        for s in segments:
+            s["cluster"] = "UNKNOWN"
+        return {}
+
+    X = np.vstack(embs)  # rows already L2-normalized
+    if len(embs) == 1:
+        labels = np.array([1])
+    else:
+        from scipy.cluster.hierarchy import fcluster, linkage
+        from scipy.spatial.distance import pdist
+
+        Z = linkage(pdist(X, metric="cosine"), method="average")
+        labels = fcluster(Z, t=CLUSTER_DIST, criterion="distance")
+
+    for j, i in enumerate(idx):
+        segments[i]["cluster"] = f"S{int(labels[j]):02d}"
+
     # short segments inherit the nearest labeled neighbor in time
     for i, s in enumerate(segments):
-        if s["cluster"] is None:
-            prev = next((segments[j]["cluster"] for j in range(i - 1, -1, -1) if segments[j]["cluster"]), None)
-            nxt = next((segments[j]["cluster"] for j in range(i + 1, len(segments)) if segments[j]["cluster"]), None)
+        if s.get("cluster") is None:
+            prev = next((segments[j]["cluster"] for j in range(i - 1, -1, -1) if segments[j].get("cluster")), None)
+            nxt = next((segments[j]["cluster"] for j in range(i + 1, len(segments)) if segments[j].get("cluster")), None)
             s["cluster"] = prev or nxt or "UNKNOWN"
-    return {name: vec for name, vec, _ in centroids}
+
+    groups: dict[str, list[np.ndarray]] = defaultdict(list)
+    for j, i in enumerate(idx):
+        groups[segments[i]["cluster"]].append(X[j])
+    centroids: dict[str, np.ndarray] = {}
+    for name, vecs in groups.items():
+        v = np.mean(vecs, axis=0)
+        centroids[name] = v / (np.linalg.norm(v) + 1e-9)
+    return centroids
 
 
 def export_review_clips(ep: int, clusters: dict[str, list[dict]], audio: np.ndarray, sr: int, only: set[str] | None = None) -> None:
