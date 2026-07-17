@@ -8,8 +8,14 @@
   Each cluster = up to 3 `SNN_sampleN.wav`. Optional further upgrade if labels still bleed:
   free HF token + `pip install pyannote.audio` + accept speaker-diarization-3.1 terms + set
   HF_TOKEN → diarize_match auto-uses pyannote. Not required; token-free path is labelable now.
-- **Sparse eps 6, 14–17, 47 were NOT bad downloads** (user confirmed audio is fine by ear).
-  Cause: heavy compression + music bed fooled Whisper's VAD. Fix shipped: `isolate.py`
+- **CORRECTION (morning 2026-07-18): eps 6, 14–17, 47 ARE truncated downloads** — the
+  original size flag was right. Proof: ep14.mp4 = 8.2MB vs healthy ~55MB; ffmpeg reports
+  "partial file" and extracts only 2.9 of 21.5 min; container header lies about duration so
+  players show a full seekbar. Vocal isolation could NOT recover them (nothing to recover past
+  ~3 min). **User must re-download these 6** (14–17 = Beni's debut arc, high value). The
+  isolation/clustering work below still stands for the other 46 healthy episodes.
+- (superseded) earlier theory that these were compression/music-bed VAD failures — WRONG:
+  `isolate.py`
   (demucs htdemucs vocal separation, GPU) → `work/epNN.vocals.wav`; transcribe.py &
   diarize_match.py auto-prefer it. Pilot ep14 recovered. A background job is isolating these
   6 + the 5 labeling eps and regenerating clean clips (crushed-ep artifacts already purged).
