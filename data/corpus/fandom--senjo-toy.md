@@ -1,0 +1,42 @@
+---
+source: fandom
+title: "Senjo (toy)"
+kind: merch
+episode: null
+url: "https://tenkai-knights.fandom.com/wiki/Senjo_(toy)"
+---
+
+## Facts
+
+North America: }}
+
+Senjo (Japanese: スペクトロス・イエローウォーリアー, Supekutorosu Lerō Wōriā, Spectros Yellow Warrior) is a toy released under the Tenkai Knights toyline by Spin Master, Happinet, and Academy.
+
+## Western Edition
+
+On the back of Senjo's North American box, it says "Senjo, leader of the Corekai Blitz Corps!".
+
+## Description
+
+Senjo, leader of the Corekai Blitz Corps is ready for battle against Vilius and his Corrupted army! Shapeshift from brick to robot and build his armor and shield. Swing into battle by unleashing his all-powerful Tenkai Energy Lance. And when the battle gets tough, unlock even more Tenkai energy by calling on the combined power of Lydendor, Senjo, Valorn, and Tavox. Shift and combine each character to create Robofusion and soar into battle as the mighty Air Lancer Jet! Build your Tenkai army and discover an entire world of shapeshifting bricks: humanoid, winged, 4-legged, action, titan, power, and weapon bricks. Each one contains its own unique shapeshifting power and is compatible with leading construction brands. Collect them all to unleash your Tenkai energy. Recreate epic battles from the Tenkai Knights anime series. Only you can master your Tenkai energy to defeat Vilius and his Corrupted army! IONIX: the revolutionary line of never before seen construction bricks that change their shape before your eyes! These construction bricks shapeshift and change to become mini figures, action figures, weapons, gear, gadgets, and more. What's more, our bricks snap together with other leading construction systems. IONIX: Shapeshift, build, unleash!
+
+## Features
+
+- Revolutionize construction play with the shapeshifting bricks of Tenkai Knights powered by the IONIX construction system!
+- Compatible with major construction brands, these bricks are like nothing you've ever seen before. Bricks that come alive with unexpected surprises.
+- Shapeshift Senjo, leader of the Corekai Blitz Corps into a poseable figure. Arm him with his shield and Tenkai energy Lance.
+- Collect Lydendor 10009, Senjo 10013, Valorn 10011, and Tavox 10014 to build the Robofusion Air Lancer Jet! Download instructions at www.tenkaiknights.com.
+
+## Contents
+
+- 8 Pieces
+- 1 Shapeshifting Mini Figure Brick
+- 7 Additional Pieces
+- Instruction Guide
+
+## Japanese Edition
+
+【ベーシックフィギュア スペクトロス・イエローウォーリアー】
+惑星キューブで戦うテンカイナイトや、ブロック兵士達を完全再現したミニフィギュアです。
+
+スペクトロス・イエローウォーリアー・・・スピードに優れ、テンカイナイトのために道を切り開く戦士。
