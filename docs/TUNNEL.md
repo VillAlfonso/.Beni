@@ -27,15 +27,25 @@ Launches fullscreen with her face as the icon. Updates ship automatically: rebui
 `tools\cloudflared.exe service install` as admin installs the tunnel as a Windows service, plus
 Task Scheduler → `start-all.bat` at logon for the app + model.
 
-## Moving to a different domain later
+## Moving to quert.site (planned 2026-07-17)
 
-Add the domain to your Cloudflare account, then:
+quert.site is registered at Namecheap but not on Cloudflare yet. The switch is:
+
+1. **Cloudflare dashboard** (same account as revelator.site) → *Add a domain* → `quert.site` → Free plan. It shows two `*.ns.cloudflare.com` nameservers.
+2. **Namecheap** → Domain List → quert.site → *Nameservers: Custom DNS* → paste those two. Wait for Cloudflare's "site active" email (usually well under an hour).
+3. One command (opens browser once — pick quert.site):
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\win\setup-named-tunnel.ps1 -Hostname beni.newdomain.com
+powershell -ExecutionPolicy Bypass -File scripts\win\setup-named-tunnel.ps1 -Hostname quert.site -Relogin
 ```
 
-Reuses the same tunnel, only re-points DNS + rewrites `beni-config.yml`.
+It backs up the revelator-scoped cert, logs in for the new zone, routes apex + www,
+rewrites `beni-config.yml`, and restarts the tunnel. Old URL beni.revelator.site keeps
+working until step 3, then serves 404 (its DNS record can be deleted in the dashboard,
+along with the junk `quert.site.revelator.site` CNAME a mis-scoped route attempt created).
+
+⚠ quert.site's apex currently points at a Vercel IP (76.76.21.21) — step 3 replaces it.
+⚠ Phones with the PWA installed on the old URL must reinstall from the new one (new origin).
 
 ## Gotcha worth remembering (cost an hour once)
 
