@@ -10,9 +10,17 @@
   pyannote/speaker-diarization-3.1 terms → `pip install pyannote.audio`, set HF_TOKEN, rerun
   diarize_match (proper diarization, music-robust); or (2) add per-SEGMENT direct matching
   against enrolled profiles (bypasses clusters entirely) in diarize_match.py.
-- **Re-download needed (audio too crushed for Whisper — sparse transcripts): eps 6, 14, 15,
-  16, 17, and ideally 47.** ep14–17 are Beni's debut arc — these matter most. Everything else
-  is healthy (~250–400 segments/ep).
+- **Sparse eps 6, 14–17, 47 were NOT bad downloads** (user confirmed audio is fine by ear).
+  Cause: heavy compression + music bed fooled Whisper's VAD. Fix shipped: `isolate.py`
+  (demucs htdemucs vocal separation, GPU) → `work/epNN.vocals.wav`; transcribe.py &
+  diarize_match.py auto-prefer it. Pilot ep14 recovered. A background job is isolating these
+  6 + the 5 labeling eps and regenerating clean clips (crushed-ep artifacts already purged).
+  **Morning: verify that job finished, then run the full pipeline with isolation for all 52**
+  (`isolate.py` then re-`transcribe.py`) so every episode benefits, not just the noisy ones.
+- Frame capture (`beni_frames.py`) now samples 3 frames/line (0.2/0.5/0.8), not 1 — live-
+  watching ep22 showed single midpoint frames land on reaction shots / back of her head.
+  The mannerisms-interpretation pass (LOOK at her frames, write how she carries herself)
+  is real and demonstrated but GATED on labeled transcripts → gated on user's voice labeling.
 
 For the next Claude session (any model). Phase 1 + infra are DONE and live — do not redo or
 "verify" them from scratch. Project memory index: `~\.claude\projects\C---Beni\memory\MEMORY.md`.
