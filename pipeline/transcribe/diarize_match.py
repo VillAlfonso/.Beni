@@ -55,19 +55,26 @@ def hf_token() -> str | None:
     return f.read_text(encoding="utf-8").strip() if f.exists() else None
 
 
+_pyannote_pipe = None
+
+
 def diarize_pyannote(wav: Path):
+    import torch
     from pyannote.audio import Pipeline
 
-    token = hf_token()
-    pipe = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=token)
-    try:
-        import torch
-
+    global _pyannote_pipe
+    if _pyannote_pipe is None:
+        token = hf_token()
+        _pyannote_pipe = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=token)
         if torch.cuda.is_available():
-            pipe.to(torch.device("cuda"))
-    except Exception:
-        pass
-    dia = pipe(str(wav))
+            _pyannote_pipe.to(torch.device("cuda"))
+    # feed a pre-loaded waveform (soundfile) so pyannote never invokes the
+    # torchaudio/torchcodec decode path (its DLL fails to load on this box).
+    data, sr = sf.read(str(wav))
+    if data.ndim > 1:
+        data = data.mean(axis=1)
+    wf = torch.from_numpy(data).float().unsqueeze(0)  # (channel, time)
+    dia = _pyannote_pipe({"waveform": wf, "sample_rate": sr})
     return [(turn.start, turn.end, speaker) for turn, _, speaker in dia.itertracks(yield_label=True)]
 
 
