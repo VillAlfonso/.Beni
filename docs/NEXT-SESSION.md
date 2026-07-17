@@ -1,5 +1,19 @@
 # Next-session briefing (written 2026-07-18 — read me first)
 
+## Overnight results (chain finished ~03:40, all verified)
+- **52/52 transcribed** → `pipeline\transcribe\work\epNN.segments.json`; 49–52 confirmed
+  Japanese (0.90–0.98) and whisper-translated to English. KoboldCpp restarted, API answering.
+- **Labeling clips exported** for eps 2/14/33/46/49 → `review\epNN\`. ⚠ Clustering scattered
+  badly (music bed pollutes ECAPA embeddings): hundreds of tiny clusters. **User should ONLY
+  label clusters having ≥2 sample files** (multi-sample = real speech-heavy voice); ignore
+  singletons. Better fix for this session, in order: (1) get user's free HF token + accept
+  pyannote/speaker-diarization-3.1 terms → `pip install pyannote.audio`, set HF_TOKEN, rerun
+  diarize_match (proper diarization, music-robust); or (2) add per-SEGMENT direct matching
+  against enrolled profiles (bypasses clusters entirely) in diarize_match.py.
+- **Re-download needed (audio too crushed for Whisper — sparse transcripts): eps 6, 14, 15,
+  16, 17, and ideally 47.** ep14–17 are Beni's debut arc — these matter most. Everything else
+  is healthy (~250–400 segments/ep).
+
 For the next Claude session (any model). Phase 1 + infra are DONE and live — do not redo or
 "verify" them from scratch. Project memory index: `~\.claude\projects\C---Beni\memory\MEMORY.md`.
 
