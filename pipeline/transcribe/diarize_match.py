@@ -38,7 +38,7 @@ OUT = ROOT / "data" / "transcripts"
 
 JP_EPS = set(range(49, 53))
 MATCH_THRESHOLD = 0.55
-CLUSTER_THRESHOLD = 0.60
+CLUSTER_THRESHOLD = 0.50  # 0.60 over-split one voice into many clusters (ep14: 29)
 MIN_CLIP_SECONDS = 0.8
 
 
@@ -178,7 +178,7 @@ def process(ep: int) -> None:
     if not voices.exists():
         export_review_clips(ep, clusters_of, audio, sr)
         lang = "JP-audio " if ep in JP_EPS else ""
-        print(f"  no {lang}enrollment yet → listen to clips in {REVIEW / f'ep{ep:02d}'}")
+        print(f"  no {lang}enrollment yet -> listen to clips in {REVIEW / f'ep{ep:02d}'}")
         print(f"  then: python enroll.py --episode {ep} " + " ".join(f"{c}=Name" for c in list(clusters_of)[:3]) + " …")
         return
 
@@ -194,7 +194,7 @@ def process(ep: int) -> None:
         else:
             labeled[cname] = f"UNKNOWN({cname})"
             unmatched.add(cname)
-        print(f"  {cname} → {labeled[cname]} ({scores[best]:.2f})")
+        print(f"  {cname} -> {labeled[cname]} ({scores[best]:.2f})")
 
     lines = [
         {"speaker": labeled.get(s["cluster"], "UNKNOWN"), "text": s["text"], "t0": round(s["start"], 2), "t1": round(s["end"], 2)}

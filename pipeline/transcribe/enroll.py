@@ -55,7 +55,7 @@ def main() -> None:
 
     VOICES.parent.mkdir(parents=True, exist_ok=True)
     np.savez(VOICES, **existing)
-    print(f"saved {len(existing)} voice profiles → {VOICES}")
+    print(f"saved {len(existing)} voice profiles -> {VOICES}")
     print("rerun diarize_match.py to auto-label all episodes.")
 
 
