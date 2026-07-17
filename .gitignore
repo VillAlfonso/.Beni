@@ -13,3 +13,7 @@ pipeline/transcribe/models/
 *.log
 .DS_Store
 Thumbs.db
+
+.playwright-mcp/
+shot*.png
+desktop-*.png
