@@ -111,6 +111,9 @@ def main() -> None:
         print(f"ep{ep:02d}: {m.name}")
         if not wav.exists():
             extract_audio(m, wav)
+        vocals = WORK / f"ep{ep:02d}.vocals.wav"
+        if vocals.exists():
+            wav = vocals  # isolated speech: better VAD + cleaner text
 
         sub = next((m.with_suffix(ext) for ext in (".srt", ".vtt") if m.with_suffix(ext).exists()), None)
         if sub:

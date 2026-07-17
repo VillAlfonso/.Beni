@@ -5,6 +5,7 @@ $py = Join-Path $PSScriptRoot ".venv\Scripts\python.exe"
 $log = "C:\.Beni\logs\batch.log"
 "[$(Get-Date)] batch start" | Out-File -Append $log -Encoding utf8
 taskkill /IM koboldcpp.exe /F 2>$null
+& $py (Join-Path $PSScriptRoot "isolate.py") *>> $log
 & $py (Join-Path $PSScriptRoot "transcribe.py") *>> $log
 & $py (Join-Path $PSScriptRoot "diarize_match.py") *>> $log
 & $py (Join-Path $PSScriptRoot "scene_tag.py") *>> $log

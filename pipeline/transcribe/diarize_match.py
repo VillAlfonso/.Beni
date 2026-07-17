@@ -133,6 +133,9 @@ def export_review_clips(ep: int, clusters: dict[str, list[dict]], audio: np.ndar
 def process(ep: int) -> None:
     seg_file = WORK / f"ep{ep:02d}.segments.json"
     wav_file = WORK / f"ep{ep:02d}.wav"
+    vocals = WORK / f"ep{ep:02d}.vocals.wav"
+    if vocals.exists():
+        wav_file = vocals  # isolated speech: coherent voice embeddings
     data = json.loads(seg_file.read_text(encoding="utf-8"))
     segments = data["segments"]
     audio, sr = sf.read(wav_file)
