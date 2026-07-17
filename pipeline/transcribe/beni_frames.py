@@ -54,16 +54,25 @@ def main() -> None:
         outdir.mkdir(parents=True, exist_ok=True)
         index = []
         for l in lines:
-            t = (l["t0"] + l["t1"]) / 2
-            name = f"ep{ep:02d}_{t:07.1f}.jpg"
-            dest = outdir / name
-            if not dest.exists():
-                subprocess.run(
-                    [FFMPEG, "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", str(media),
-                     "-frames:v", "1", "-q:v", "2", str(dest)],
-                    check=False,
-                )
-            index.append({"file": name, "t": round(t, 1), "text": l["text"], "scene": l.get("scene", "unknown")})
+            dur = max(0.0, l["t1"] - l["t0"])
+            # sample across the line, not just the midpoint: anime cuts between
+            # speaker and listener, so one frame often catches a reaction shot or
+            # the back of her head. 3 frames per line raises the odds of a clean
+            # Beni shot; the world-bible pass then keeps the good ones.
+            fracs = [0.2, 0.5, 0.8] if dur >= 2.0 else [0.5]
+            frames = []
+            for fr in fracs:
+                t = l["t0"] + dur * fr
+                name = f"ep{ep:02d}_{t:07.1f}.jpg"
+                dest = outdir / name
+                if not dest.exists():
+                    subprocess.run(
+                        [FFMPEG, "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", str(media),
+                         "-frames:v", "1", "-q:v", "2", str(dest)],
+                        check=False,
+                    )
+                frames.append(name)
+            index.append({"frames": frames, "t0": l["t0"], "t1": l["t1"], "text": l["text"], "scene": l.get("scene", "unknown")})
         (outdir / "index.json").write_text(json.dumps(index, indent=1), encoding="utf-8")
         total += len(index)
         print(f"ep{ep:02d}: {len(index)} {a.speaker} frames")
