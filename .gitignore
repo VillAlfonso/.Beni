@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+data/beni.db*
+data/raw/
+data/images/
+data/episodes/
+data/transcripts/*.json
+data/transcripts/*.srt
+data/transcripts/*.vtt
+pipeline/transcribe/.venv/
+pipeline/transcribe/models/
+*.log
+.DS_Store
+Thumbs.db
