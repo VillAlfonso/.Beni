@@ -35,10 +35,10 @@ export function siblingsOf(db: Db, messageId: string): { ids: string[]; index: n
   if (!msg) return { ids: [], index: -1 };
   const rows = (msg.parent_id
     ? db
-        .prepare("SELECT id FROM messages WHERE chat_id=? AND parent_id=? ORDER BY created_at, id")
+        .prepare("SELECT id FROM messages WHERE chat_id=? AND parent_id=? ORDER BY created_at, rowid")
         .all(msg.chat_id, msg.parent_id)
     : db
-        .prepare("SELECT id FROM messages WHERE chat_id=? AND parent_id IS NULL ORDER BY created_at, id")
+        .prepare("SELECT id FROM messages WHERE chat_id=? AND parent_id IS NULL ORDER BY created_at, rowid")
         .all(msg.chat_id)) as { id: string }[];
   const ids = rows.map((r) => r.id);
   return { ids, index: ids.indexOf(messageId) };
@@ -49,7 +49,7 @@ export function latestLeafFrom(db: Db, messageId: string): string {
   let curId = messageId;
   for (;;) {
     const child = db
-      .prepare("SELECT id FROM messages WHERE parent_id=? ORDER BY created_at DESC, id DESC LIMIT 1")
+      .prepare("SELECT id FROM messages WHERE parent_id=? ORDER BY created_at DESC, rowid DESC LIMIT 1")
       .get(curId) as { id: string } | undefined;
     if (!child) return curId;
     curId = child.id;
@@ -124,15 +124,18 @@ export function forkChat(
     }
     db.prepare("UPDATE chats SET head_message_id=? WHERE id=?").run(lastNew, newChatId);
 
-    const mems = db
-      .prepare("SELECT * FROM memories WHERE chat_id=? AND created_at<=? ORDER BY created_at")
-      .all(opts.chatId, upto.created_at) as {
+    // copy memories that existed by the fork point OR were distilled from
+    // messages inside the copied path (extraction can lag a few ms behind)
+    const pathIds = new Set(path.map((m) => m.id));
+    const mems = (db
+      .prepare("SELECT * FROM memories WHERE chat_id=? ORDER BY created_at")
+      .all(opts.chatId) as {
       text: string;
       importance: number;
       src_message_id: string | null;
       embedding: Buffer | null;
       created_at: number;
-    }[];
+    }[]).filter((m) => m.created_at <= upto.created_at || (m.src_message_id !== null && pathIds.has(m.src_message_id)));
     const insMem = db.prepare(
       "INSERT INTO memories(id,chat_id,text,importance,src_message_id,embedding,created_at) VALUES(?,?,?,?,?,?,?)"
     );

@@ -61,43 +61,55 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
     res.on("close", () => abort.abort());
 
     let full = "";
+    let aborted = false;
     send("meta", {
       retrieved: canon.map((c) => ({ title: c.docTitle, episode: c.episode, score: Number(c.score.toFixed(3)) })),
       memories: memories.map((m) => m.text)
     });
 
-    for await (const tok of streamChat(messages, {
-      baseUrl: settings.llm.baseUrl,
-      apiKey: settings.llm.apiKey,
-      model: settings.llm.model,
-      temperature: settings.gen.temperature,
-      maxTokens: settings.gen.maxTokens,
-      topP: settings.gen.topP,
-      signal: abort.signal
-    })) {
-      full += tok;
-      send("token", { t: tok });
+    try {
+      for await (const tok of streamChat(messages, {
+        baseUrl: settings.llm.baseUrl,
+        apiKey: settings.llm.apiKey,
+        model: settings.llm.model,
+        temperature: settings.gen.temperature,
+        maxTokens: settings.gen.maxTokens,
+        topP: settings.gen.topP,
+        signal: abort.signal
+      })) {
+        full += tok;
+        send("token", { t: tok });
+      }
+    } catch (err) {
+      if ((err as Error).name === "AbortError" || abort.signal.aborted) aborted = true;
+      else throw err;
     }
 
-    if (!full.trim()) throw new Error("empty reply from model");
+    if (!full.trim()) {
+      if (aborted) {
+        res.end();
+        return;
+      }
+      throw new Error("empty reply from model");
+    }
 
+    // stopped streams keep whatever Beni already said
     const assistant = createMessage(db, {
       chatId: chat.id,
       parentId: parent.id,
       role: "assistant",
       content: full.trim(),
-      meta: { model: settings.llm.model }
+      meta: { model: settings.llm.model, ...(aborted ? { aborted: true } : {}) }
     });
     setHead(db, chat.id, assistant.id);
-    send("done", { messageId: assistant.id, userMessageId: parent.role === "user" ? parent.id : null });
+    if (!aborted) {
+      send("done", { messageId: assistant.id, userMessageId: parent.role === "user" ? parent.id : null });
+    }
     res.end();
 
     void maybeExtract(db, chat.id);
   } catch (err) {
-    const aborted = (err as Error).name === "AbortError";
-    if (!aborted) {
-      send("error", { message: (err as Error).message });
-    }
+    send("error", { message: (err as Error).message });
     res.end();
   }
 }

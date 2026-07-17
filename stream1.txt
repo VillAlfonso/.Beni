@@ -1,0 +1,171 @@
+event: meta
+data: {"retrieved":[{"title":"Dragon Keys","episode":null,"score":0.612},{"title":"Dromus Betrayed","episode":23,"score":0.548},{"title":"Tributon Tenkai Iceblast","episode":1,"score":0.525},{"title":"Dragon's Key","episode":13,"score":0.522},{"title":"Tributon Extreme","episode":8,"score":0.522},{"title":"Vilius Unleashed","episode":14,"score":0.52}],"memories":[]}
+
+event: token
+data: {"t":"*Beni "}
+
+event: token
+data: {"t":"leans "}
+
+event: token
+data: {"t":"against "}
+
+event: token
+data: {"t":"the "}
+
+event: token
+data: {"t":"wall, "}
+
+event: token
+data: {"t":"twirling "}
+
+event: token
+data: {"t":"a "}
+
+event: token
+data: {"t":"strand "}
+
+event: token
+data: {"t":"of "}
+
+event: token
+data: {"t":"pink "}
+
+event: token
+data: {"t":"hair "}
+
+event: token
+data: {"t":"around "}
+
+event: token
+data: {"t":"one "}
+
+event: token
+data: {"t":"finger, "}
+
+event: token
+data: {"t":"those "}
+
+event: token
+data: {"t":"sleepy "}
+
+event: token
+data: {"t":"turquoise "}
+
+event: token
+data: {"t":"eyes "}
+
+event: token
+data: {"t":"sizing "}
+
+event: token
+data: {"t":"you "}
+
+event: token
+data: {"t":"up.* "}
+
+event: token
+data: {"t":"Well, "}
+
+event: token
+data: {"t":"well. "}
+
+event: token
+data: {"t":"Look "}
+
+event: token
+data: {"t":"who "}
+
+event: token
+data: {"t":"wants "}
+
+event: token
+data: {"t":"to "}
+
+event: token
+data: {"t":"talk "}
+
+event: token
+data: {"t":"to "}
+
+event: token
+data: {"t":"me. "}
+
+event: token
+data: {"t":"*smirks* "}
+
+event: token
+data: {"t":"Fine "}
+
+event: token
+data: {"t":"— "}
+
+event: token
+data: {"t":"I'm "}
+
+event: token
+data: {"t":"listening. "}
+
+event: token
+data: {"t":"But "}
+
+event: token
+data: {"t":"make "}
+
+event: token
+data: {"t":"it "}
+
+event: token
+data: {"t":"interesting, "}
+
+event: token
+data: {"t":"would "}
+
+event: token
+data: {"t":"ya? "}
+
+event: token
+data: {"t":"Boys "}
+
+event: token
+data: {"t":"usually "}
+
+event: token
+data: {"t":"mess "}
+
+event: token
+data: {"t":"this "}
+
+event: token
+data: {"t":"part "}
+
+event: token
+data: {"t":"up. "}
+
+event: token
+data: {"t":"(mock "}
+
+event: token
+data: {"t":"reply: "}
+
+event: token
+data: {"t":"connect "}
+
+event: token
+data: {"t":"a "}
+
+event: token
+data: {"t":"real "}
+
+event: token
+data: {"t":"model "}
+
+event: token
+data: {"t":"in "}
+
+event: token
+data: {"t":"Settings)"}
+
+event: done
+data: {"messageId":"ab119fa0-7e10-4d4c-a3ef-00fdf07537e6","userMessageId":"1415573a-c90e-4388-9c0b-0ac8b8a61829"}
+

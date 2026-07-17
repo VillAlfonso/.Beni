@@ -48,6 +48,10 @@ test("forkChat copies path and past memories only", () => {
   db.prepare("INSERT INTO memories(id,chat_id,text,importance,created_at) VALUES(?,?,?,?,?)").run(
     newId(), chat, "future memory", 3, u2.created_at + 60_000
   );
+  // extracted later but anchored to a message inside the fork path → copied
+  db.prepare("INSERT INTO memories(id,chat_id,text,importance,src_message_id,created_at) VALUES(?,?,?,?,?,?)").run(
+    newId(), chat, "late-extracted memory", 3, a1.id, u2.created_at + 120_000
+  );
 
   const { newChatId } = forkChat(db, { chatId: chat, uptoMessageId: a1.id, title: "fork" });
 
@@ -57,7 +61,7 @@ test("forkChat copies path and past memories only", () => {
   assert.deepEqual(msgs.map((m) => m.content), ["one", "two"]);
 
   const mems = db.prepare("SELECT text FROM memories WHERE chat_id=?").all(newChatId) as { text: string }[];
-  assert.deepEqual(mems.map((m) => m.text), ["early memory"]);
+  assert.deepEqual(mems.map((m) => m.text).sort(), ["early memory", "late-extracted memory"]);
 
   const nc = db.prepare("SELECT head_message_id h, forked_from f FROM chats WHERE id=?").get(newChatId) as {
     h: string; f: string;
