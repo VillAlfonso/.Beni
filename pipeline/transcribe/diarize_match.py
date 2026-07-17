@@ -47,10 +47,18 @@ def voices_file(ep: int) -> Path:
     return HERE / "voices" / ("enrolled_jp.npz" if ep in JP_EPS else "enrolled.npz")
 
 
+def hf_token() -> str | None:
+    tok = os.environ.get("HF_TOKEN")
+    if tok:
+        return tok.strip()
+    f = HERE / "hf_token.txt"
+    return f.read_text(encoding="utf-8").strip() if f.exists() else None
+
+
 def diarize_pyannote(wav: Path):
     from pyannote.audio import Pipeline
 
-    token = os.environ["HF_TOKEN"]
+    token = hf_token()
     pipe = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=token)
     try:
         import torch
@@ -165,7 +173,7 @@ def process(ep: int) -> None:
     segments = data["segments"]
     audio, sr = sf.read(wav_file)
 
-    use_pyannote = bool(os.environ.get("HF_TOKEN"))
+    use_pyannote = bool(hf_token())
     if use_pyannote:
         print(f"ep{ep:02d}: diarizing (pyannote)…")
         turns = diarize_pyannote(wav_file)
