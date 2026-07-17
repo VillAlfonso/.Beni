@@ -145,8 +145,12 @@ def export_review_clips(ep: int, clusters: dict[str, list[dict]], audio: np.ndar
     for cname, segs in clusters.items():
         if only is not None and cname not in only:
             continue
-        segs_sorted = sorted(segs, key=lambda s: s["end"] - s["start"], reverse=True)[:3]
-        for i, s in enumerate(segs_sorted):
+        # prefer segments near ~3.5s: long enough for a clean voiceprint, short
+        # enough to usually be ONE speaker (the longest segments are the ones
+        # most likely to contain two characters, so don't just take the max).
+        ideal = 3.5
+        picks = sorted(segs, key=lambda s: abs((s["end"] - s["start"]) - ideal))[:3]
+        for i, s in enumerate(picks):
             clip = audio[int(s["start"] * sr) : int(s["end"] * sr)]
             sf.write(rev / f"{cname}_sample{i}.wav", clip, sr)
 
