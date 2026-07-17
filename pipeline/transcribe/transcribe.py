@@ -27,6 +27,14 @@ MEDIA_EXT = {".mkv", ".mp4", ".avi", ".m4a", ".mp3", ".wav", ".webm", ".ts"}
 # eps without an English dub (Japanese audio): Whisper translates ja→en directly
 JP_EPS = set(range(49, 53))
 
+# proper nouns Whisper would otherwise mangle ("brave and wolf", "kwarton"…)
+HOTWORDS = (
+    "Tenkai Knights, Quarton, Bravenwolf, Tributon, Valorn, Lydendor, Venetta, "
+    "Dromus, Vilius, Guren Nash, Ceylan, Toxsa, Chooki, Beni, Kiiro, Gen Inukai, "
+    "Corekai, Corrupted, Benham City, Boreas, Eurus, Notus, Granox, Slyger, "
+    "Beag, Tenkai Energy, Core Bricks, Dragon Cube, robofusion, Mr. White"
+)
+
 
 def episode_number(name: str) -> int | None:
     m = re.search(r"(?:ep|episode|-\s*)(\d{1,2})", name, re.I) or re.search(r"\b(\d{1,2})\b", name)
@@ -73,7 +81,7 @@ def whisper_segments(wav: Path, language: str | None = "en", task: str = "transc
         except Exception:
             print("  CUDA unavailable, falling back to CPU int8 (slow)")
             _whisper = WhisperModel("large-v3", device="cpu", compute_type="int8")
-    segments, info = _whisper.transcribe(str(wav), language=language, task=task, vad_filter=True)
+    segments, info = _whisper.transcribe(str(wav), language=language, task=task, vad_filter=True, hotwords=HOTWORDS)
     out = [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments if s.text.strip()]
     if language is None:
         print(f"  detected language: {info.language} ({info.language_probability:.2f})")
