@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Guren_Nash"
 
 ## Facts
 
+<!--ep:51-->
 Dubbed: Guren Nash
 Katakana: 大神グレン
 Romanized: Ōgami Guren

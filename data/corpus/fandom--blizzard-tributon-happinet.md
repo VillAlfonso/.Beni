@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Blizzard Tributon (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Blizzard_Tributon_(Happinet)"
 ---

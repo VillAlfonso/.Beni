@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Oh_No%2C_I_Didn't"
 
 ## Facts
 
-<!--ep:16-->
+<!--ep:17-->
 Season: Tenkai Knights
 Japanese: July 26, 2014
 International: December 07, 2013

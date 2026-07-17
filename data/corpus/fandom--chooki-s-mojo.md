@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Chooki's_Mojo"
 
 ## Facts
 
-<!--ep:8-->
+<!--ep:9-->
 Season: Tenkai Knights
 Japanese: May 24, 2014
 International: October 12, 2013 (USA)

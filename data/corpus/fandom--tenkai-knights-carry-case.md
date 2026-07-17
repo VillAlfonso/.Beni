@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights Carry Case"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_Carry_Case"
 ---

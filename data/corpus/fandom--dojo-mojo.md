@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Dojo_Mojo"
 
 ## Facts
 
-<!--ep:31-->
+<!--ep:32-->
 Season: Tenkai Knights
 Japanese: November 01, 2014
 International: April 06, 2014

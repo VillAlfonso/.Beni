@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights Cube Wars"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_Cube_Wars"
 ---

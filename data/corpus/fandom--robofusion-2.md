@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Robofusion!"
 
 ## Facts
 
-<!--ep:17-->
+<!--ep:18-->
 Season: Tenkai Knights
 Japanese: August 02, 2014
 International: December 29, 2013

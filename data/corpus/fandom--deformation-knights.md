@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Deformation Knights"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Deformation_Knights"
 ---

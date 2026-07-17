@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Extreme_Titan"
 
 ## Facts
 
-<!--ep:19-->
+<!--ep:20-->
 Season: Tenkai Knights
 Japanese: August 16, 2014
 International: January 12, 2014

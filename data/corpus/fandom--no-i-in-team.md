@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/No_%22I%22_in_Team"
 
 ## Facts
 
-<!--ep:29-->
+<!--ep:30-->
 Season: Tenkai Knights
 Japanese: October 18, 2014
 International: March 23, 2014

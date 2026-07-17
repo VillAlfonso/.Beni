@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Corrupted_Earth"
 
 ## Facts
 
-<!--ep:30-->
+<!--ep:31-->
 Season: Tenkai Knights
 Japanese: October 25, 2014
 International: March 30, 2014

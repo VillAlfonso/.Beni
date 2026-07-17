@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Toxsa_2.0"
 
 ## Facts
 
-<!--ep:10-->
+<!--ep:11-->
 Season: Tenkai Knights
 Japanese: June 07, 2014
 International: October 26, 2013

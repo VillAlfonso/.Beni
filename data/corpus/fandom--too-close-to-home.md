@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Too_Close_to_Home"
 
 ## Facts
 
-<!--ep:47-->
+<!--ep:48-->
 Season: Tenkai Knights
 Japanese: February 28, 2015
 International: August 03, 2014

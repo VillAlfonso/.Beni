@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Orangor"
 
 ## Facts
 
+<!--ep:39-->
 Hair: None
 Eyes: Blue
 Origin: Beast World
@@ -18,18 +19,22 @@ Status: Neutral}}
 <!--ep:39-->
 Orangor (Japanese: ウッキッキー, Ukkikkī, Korean: 우낏끼, Ukkiskki, Hebrew: אורנג'ר) is a supporting character in Tenkai Knights. He first appeared in "Welcome to the Jungle". His armor animal represents a monkey.
 
+<!--ep:39-->
 He is voiced by Ben Diskin in English Dub and is Misaki Kuno in Original.
 
 ## Earth Form
 
+<!--ep:39-->
 His main form is a cartoonish orangutan.
 
 ## Personality
 
+<!--ep:39-->
 Wacky, wild, and all around fun, hard to understand sometimes, but other than that he has a similar personality to discord, he just wasn't evil, then reformed and is not a lord of chaos (look up the picture of discord of you don't know who we're talking about), and his funniest moments are coming out of nowhere scaring the life out of the Knights and Beag.
 
 ## Abilities
 
+<!--ep:39-->
 - Shapeshifting
 - Spear
 - Shield
@@ -54,4 +59,5 @@ Scorpidon is Orangor's king and is very loyal to him, and they play games with t
 
 ## The Tenkai Knights
 
+<!--ep:39-->
 - Friend used to play jokes on them.

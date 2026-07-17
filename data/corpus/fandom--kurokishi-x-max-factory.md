@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Kurokishi X (Max Factory)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Kurokishi_X_(Max_Factory)"
 ---

@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Dragon%C2%B2"
 
 ## Facts
 
-<!--ep:38-->
+<!--ep:39-->
 Season: Tenkai Knights
 Japanese: December 20, 2014
 International: May 29, 2014

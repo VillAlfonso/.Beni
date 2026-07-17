@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Granox/Notus/Tavox"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Granox%2FNotus%2FTavox"
 ---

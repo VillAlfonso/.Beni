@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Hang_Tenkai"
 
 ## Facts
 
-<!--ep:36-->
+<!--ep:37-->
 Season: Tenkai Knights
 Japanese: December 06, 2014
 International: May 11, 2014

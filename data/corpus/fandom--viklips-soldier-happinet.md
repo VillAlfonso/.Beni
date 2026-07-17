@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Viklips Soldier (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Viklips_Soldier_(Happinet)"
 ---

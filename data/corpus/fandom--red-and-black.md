@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Red_and_Black"
 
 ## Facts
 
-<!--ep:44-->
+<!--ep:45-->
 Season: Tenkai Knights
 Japanese: February 07, 2015
 International: July 13, 2014

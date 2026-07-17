@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Gen_Inukai"
 
 ## Facts
 
+<!--ep:7-->
 Origin: Earth
 Age: 13 (English)
 Hair: Auburn/Brown
@@ -16,12 +17,15 @@ Occupation: Tenkai Knight
 Tenkai Knight: Dromus
 First Appearance: Tributon Extreme
 
+<!--ep:7-->
 Gen (Full name: Gen Inukai, Japanese: 犬飼ゲン, Inukai Gen, Gen Inukai, Korean: 켄, Gen, Hebrew: גן אינוקאי, Inukai Gen) was a major antagonist, but later became one of the main protagonists in Tenkai Knights. He was in the possession of the core of Dromus, a formerly evil character and anti-hero who now works with the Tenkai Knights and bears a strong resemblance to Bravenwolf. However, ever since he unlocked Elemental Mode, he goes by the name Dromus Tenkai Whirlwind.
 
+<!--ep:7-->
 He is voiced by Yuri Lowenthal in English and by Miyuki Sawashiro in Japanese.
 
 ## Appearance
 
+<!--ep:7-->
 Gen is a tall, 13-year-old boy. His eyes have a sharp red color, with the right eye being covered by an emo flip from his hair. His hair is also spiky in the back, and is auburn on the upper half, while brown on the lower half. He wears a high-collared, zipped up black jacket made of what appears to be leather. The jacket usually covers his mouth and has two buttons on each side that connect to each other. Gen's lower attire consists of long pants are made of the same material that his coat is made of, which is held up by a belt with a golden-yellow buckle. Also, he wears dull lavender leg warmers and black slip-on shoes.
 
 ## Personality

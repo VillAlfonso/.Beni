@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Key_to_Evil"
 
 ## Facts
 
-<!--ep:18-->
+<!--ep:19-->
 Season: Tenkai Knights
 Japanese: August 09, 2014
 International: January 05, 2014

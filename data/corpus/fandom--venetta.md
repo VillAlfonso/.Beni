@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Venetta"
 
 ## Facts
 
+<!--ep:15-->
 Origin: Quarton
 Owner: Beni
 Race: Corekai

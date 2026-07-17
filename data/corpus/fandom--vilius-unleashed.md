@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Vilius_Unleashed"
 
 ## Facts
 
-<!--ep:13-->
+<!--ep:14-->
 Season: Tenkai Knights
 Japanese: July 05, 2014
 International: November 16, 2013

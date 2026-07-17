@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Dark_Unlock"
 
 ## Facts
 
-<!--ep:25-->
+<!--ep:26-->
 Season: Tenkai Knights
 Japanese: September 20, 2014
 International: February 23, 2014

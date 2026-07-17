@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Fight_Knight"
 
 ## Facts
 
-<!--ep:33-->
+<!--ep:34-->
 Season: Tenkai Knights
 Japanese: November 15, 2014
 International: April 20, 2014

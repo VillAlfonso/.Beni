@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Beware_Betrayal"
 
 ## Facts
 
-<!--ep:34-->
+<!--ep:35-->
 Season: Tenkai Knights
 Japanese: November 22, 2014
 International: April 27, 2014

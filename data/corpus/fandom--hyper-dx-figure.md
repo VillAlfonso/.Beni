@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Hyper DX Figure"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Hyper_DX_Figure"
 ---

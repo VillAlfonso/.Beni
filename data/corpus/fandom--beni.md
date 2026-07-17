@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Beni"
 
 ## Facts
 
+<!--ep:14-->
 Origin: Earth
 Age: 13 (English)
 Hair: Pink
@@ -16,12 +17,15 @@ Occupation: Tenkai Knight
 Tenkai Knight: Venetta
 First Appearance: Lost Key
 
+<!--ep:14-->
 Beni (Japanese: ベニ, Beni, Korean: 베니, Beni, Hebrew: בני) is one of the protagonists in Tenkai Knights. At first she was a major antagonist, but eventually joined the Knights. She is in the possession of the core of the formerly evil Tenkai Knight, Venetta, and is also the first female Tenkai Knight.
 
+<!--ep:14-->
 She is voiced by Nika Futterman in English and by Masumi Asano in Japanese.
 
 ## Appearance
 
+<!--ep:14-->
 Beni is a thirteen-year-old girl with long pink hair past her waist that splits into twin tails and sleepy, turquoise eyes. She wears a small light, lime green neckerchief, a black top, and a dark red headband. Her lower outfit consists of a pair of white-belted magenta shorts with red suspenders, and orchid boots.
 
 ## Personality
@@ -46,6 +50,7 @@ Beni can be curious, but acknowledges Quarton more than most characters. She see
 
 ## Quotes From Beni
 
+<!--ep:14-->
 - "I think I'm going to hurl"
 - "Ha you slow poke, you couldn't catch a cold"
 - "Friends are boring and anyone, who thinks they aren't, is boring"
@@ -100,8 +105,10 @@ In "A New Knight", she complains at Gen for failing to awaken the Tenkai Dragon 
 <!--ep:34-->
 Her status changed from rogue to evil in "Beware Betrayal", where she decided to help Vilius find the Tenkai Fortress by finding the Tenkai Stone, which was located in her room. Later, Beni saw Guren twice. The first time was telling Guren which side she's on and the second time was telling him and Ceylan why its best to work alone. On Quarton, she was about to defeat Bravenwolf, which caused Ceylan, as Tributon, to unlock Elemental Titan Mode and save Bravenwolf. Beni then escapes and tells Vilius the location of the Tenkai Fortress. Vilius then trusts her and gives her the right to do anything she wants, as long as the Fortress is found.
 
+<!--ep:14-->
 At one point, she was working for Vilius, as shown when Granox and Slyger recognize Venetta on Earth. At another point, she was working for Gen.
 
+<!--ep:14-->
 As of now, she helps the knights when they are in trouble at Quarton and Earth.
 
 ## Guren Nash
@@ -111,14 +118,17 @@ Guren and Beni met when she approached him and staged herself tripping nearby. H
 
 ## Ceylan Jones
 
+<!--ep:14-->
 Ceylan met Beni the same time the other Tenkai Knights did (aside from Guren). He was lured into her trap and has always been very cautious and mistrusting around her. He also has a nickname for her, often calling her 'Pinky' whenever she shows up.
 
 ## Toxsa Dalton
 
+<!--ep:14-->
 Just like the other Tenkai Knights, Toxsa met Beni the day they were trapped. He also seems irritated with her presence, and will often express his annoyance when she is around.
 
 ## Chooki Mason
 
+<!--ep:14-->
 Chooki also met her the day the other Tenkai Knights were deceived. He is also not pleased whenever she happens to be around, but he's the most indifferent to her, as well.
 
 ## Gen
@@ -128,10 +138,12 @@ Beni and Gen used to work with each other to find the Black Key. In "A New Knigh
 
 ## Eurus
 
+<!--ep:14-->
 Beni was once working with Eurus for the search of the Black Key and he was one of her mentors
 
 ## Kiiro
 
+<!--ep:14-->
 Beni met Kiiro when she was running down the hill and then bumped into her. She then ask Beni, as well as Guren to play with her but Beni refuses, causing Kiiro to yell so much until she will play with her. Beni then plays with her but she didn't enjoyed it. While Guren ask Beni to watch Kiiro while he get drinks. After Beni ruined Kiiro's sandcastle and walked away, Kiiro went missing, but eventually Beni found her and Kiiro gave her a four-leaf clover to make her feel better as well as Kiiro wanting to be Beni's best friend. Later on, Beni decided to play with Kiiro again and gave her the Tenkai Stone to give to Guren the next time she sees him.
 
 ## List of Appearences

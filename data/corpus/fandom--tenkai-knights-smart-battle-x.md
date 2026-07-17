@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights Smart Battle X"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_Smart_Battle_X"
 ---

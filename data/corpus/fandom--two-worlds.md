@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Two_Worlds"
 
 ## Facts
 
-<!--ep:1-->
+<!--ep:2-->
 Season: Tenkai Knights
 Japanese: April 05, 2014
 International: August 24, 2013 (USA)

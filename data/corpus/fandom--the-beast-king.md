@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Beast_King"
 
 ## Facts
 
+<!--ep:43-->
 Origin: Beast World
 First Appearance: Welcome to the Jungle (Voice Role)
 Modes: Scorpidon Mode

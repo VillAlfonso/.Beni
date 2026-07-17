@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Thunder Lydendor (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Thunder_Lydendor_(Happinet)"
 ---

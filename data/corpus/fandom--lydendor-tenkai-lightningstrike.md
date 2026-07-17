@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Lydendor_Tenkai_Lightningstrike"
 
 ## Facts
 
+<!--ep:2-->
 Origin: Quarton
 Owner: Chooki Mason
 Race: Corekai

@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Roberto"
 
 ## Facts
 
+<!--ep:1-->
 Origin: Earth
 Hair: Indigo
 Eyes: Light Brown

@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Spectros Blue Warrior (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Spectros_Blue_Warrior_(Happinet)"
 ---

@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Toxic_Toxsa"
 
 ## Facts
 
-<!--ep:32-->
+<!--ep:33-->
 Season: Tenkai Knights
 Japanese: November 08, 2014
 International: April 13, 2014

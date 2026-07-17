@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Slyger (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Slyger_(Happinet)"
 ---

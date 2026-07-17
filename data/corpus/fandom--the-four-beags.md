@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Four_Beags"
 
 ## Facts
 
-<!--ep:45-->
+<!--ep:46-->
 Season: Tenkai Knights
 Japanese: February 14, 2015
 International: July 20, 2014

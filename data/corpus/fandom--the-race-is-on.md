@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Race_is_On"
 
 ## Facts
 
-<!--ep:40-->
+<!--ep:41-->
 Season: Tenkai Knights
 Japanese: January 10, 2015
 International: June 15, 2014

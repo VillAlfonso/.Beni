@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Vilius_Revealed"
 
 ## Facts
 
-<!--ep:5-->
+<!--ep:6-->
 Season: Tenkai Knights
 Japanese: May 03, 2014
 International: September 21, 2013 (USA)

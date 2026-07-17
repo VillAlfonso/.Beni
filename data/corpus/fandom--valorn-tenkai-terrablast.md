@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Valorn_Tenkai_Terrablast"
 
 ## Facts
 
+<!--ep:2-->
 Origin: Quarton
 Owner: Toxsa Dalton
 Race: Corekai

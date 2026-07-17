@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Gaia Valorn (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Gaia_Valorn_(Happinet)"
 ---

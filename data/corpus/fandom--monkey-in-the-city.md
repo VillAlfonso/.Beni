@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Monkey_in_the_City"
 
 ## Facts
 
-<!--ep:41-->
+<!--ep:42-->
 Season: Tenkai Knights
 Japanese: January 17, 2015
 International: June 22, 2014

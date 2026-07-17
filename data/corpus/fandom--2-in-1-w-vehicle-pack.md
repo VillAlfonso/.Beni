@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "2-in-1/ W Vehicle Pack"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/2-in-1%2F_W_Vehicle_Pack"
 ---

@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Granox"
 
 ## Facts
 
+<!--ep:2-->
 Race: Corrupted
 Status: Evil
 Modes: Titan Mode

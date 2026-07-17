@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Neo Vilius Σ (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Neo_Vilius_%CE%A3_(Happinet)"
 ---

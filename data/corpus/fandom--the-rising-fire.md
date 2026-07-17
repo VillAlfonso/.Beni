@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Rising_Fire"
 
 ## Facts
 
-<!--ep:3-->
+<!--ep:4-->
 Season: Tenkai Knights
 Japanese: April 19, 2014
 International: September 07, 2013 (USA)

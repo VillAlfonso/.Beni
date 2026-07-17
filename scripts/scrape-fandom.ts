@@ -30,7 +30,7 @@ const CHARACTER_CATS = new Set([
 const LOCATION_CATS = new Set(["places", "cities", "planets", "locations", "worlds"]);
 const ITEM_CATS = new Set(["devices", "vehicles", "modes", "weapons", "items", "keys", "cubes"]);
 const CONCEPT_CATS = new Set([
-  "terms", "tenkai knights terms", "webisodes", "tenkai knights webisodes", "events", "media"
+  "terms", "tenkai knights terms", "webisodes", "tenkai knights webisodes", "events"
 ]);
 const MERCH_RX =
   /toys?$|figures?$|dvd|volume|companies|broadcasters?|retail|websites?|toy maker|action packs?|toy line|broadcast market|internet retailers|games|merchandise|stores?$|packs?$/i;
@@ -44,8 +44,10 @@ function classify(cats: string[], title: string): string {
   if (has(CHARACTER_CATS)) return "character";
   if (has(LOCATION_CATS)) return "location";
   if (has(ITEM_CATS)) return "item";
-  if (has(CONCEPT_CATS)) return "concept";
+  // merch before the concept fallback so "Media"-tagged toys/games/retailers
+  // never slip into RP retrieval
   if ([...set].some((c) => MERCH_RX.test(c))) return "merch";
+  if (has(CONCEPT_CATS)) return "concept";
   return "concept";
 }
 

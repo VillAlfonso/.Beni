@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Bravenwolf/Shadius/Deviak"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Bravenwolf%2FShadius%2FDeviak"
 ---

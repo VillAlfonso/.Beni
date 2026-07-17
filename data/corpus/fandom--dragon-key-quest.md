@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Dragon_Key_Quest"
 
 ## Facts
 
-<!--ep:23-->
+<!--ep:24-->
 Season: Tenkai Knights
 Japanese: September 06, 2014
 International: February 09, 2014

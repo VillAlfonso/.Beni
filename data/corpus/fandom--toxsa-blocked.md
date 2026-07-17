@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Toxsa_Blocked"
 
 ## Facts
 
-<!--ep:49-->
+<!--ep:50-->
 Season: Tenkai Knights
 Japanese: March 14, 2015
 International: August 17, 2014

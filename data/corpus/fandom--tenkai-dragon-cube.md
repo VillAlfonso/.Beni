@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Dragon_Cube"
 
 ## Facts
 
-<!--ep:2-->
+<!--ep:3-->
 Season: Tenkai Knights
 Japanese: April 12, 2014
 International: August 31, 2013 (USA)

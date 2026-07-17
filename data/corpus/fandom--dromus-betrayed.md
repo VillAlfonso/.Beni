@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Dromus_Betrayed"
 
 ## Facts
 
-<!--ep:22-->
+<!--ep:23-->
 Season: Tenkai Knights
 Japanese: August 30, 2014
 International: February 02, 2014

@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Rogue"
 
 ## Facts
 
-<!--ep:15-->
+<!--ep:16-->
 Season: Tenkai Knights
 Japanese: July 19, 2014
 International: November 30, 2013

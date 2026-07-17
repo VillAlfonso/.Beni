@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Tributon_Extreme"
 
 ## Facts
 
-<!--ep:7-->
+<!--ep:8-->
 Season: Tenkai Knights
 Japanese: May 17, 2014
 International: October 05, 2013 (USA)

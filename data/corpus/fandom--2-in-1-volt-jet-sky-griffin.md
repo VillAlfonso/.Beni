@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "2-in-1 Volt Jet/Sky Griffin"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/2-in-1_Volt_Jet%2FSky_Griffin"
 ---

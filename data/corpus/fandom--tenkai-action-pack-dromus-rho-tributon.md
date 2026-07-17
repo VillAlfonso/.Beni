@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Dromus/Rho/Tributon"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Dromus%2FRho%2FTributon"
 ---

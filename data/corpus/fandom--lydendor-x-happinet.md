@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Lydendor X (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Lydendor_X_(Happinet)"
 ---

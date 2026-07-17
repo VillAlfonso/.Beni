@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Tributon_Tenkai_Iceblast"
 
 ## Facts
 
+<!--ep:1-->
 Origin: Quarton
 Owner: Ceylan Jones
 Race: Corekai

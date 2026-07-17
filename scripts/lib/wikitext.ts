@@ -135,13 +135,19 @@ const SKIP_SECTIONS =
 
 /**
  * Parse page wikitext into cleaned blocks with per-paragraph episode tags.
- * `defaultEpisode` (for episode pages) floors every block's tag.
+ * `defaultEpisode` (for episode pages) floors every block's tag. For pages
+ * with an infobox "First Appearance", that episode floors every block instead —
+ * nothing about a character/thing can be retrieved before it exists in the show.
  */
 export function parsePage(wikitext: string, defaultEpisode: number | null = null): ParsedBlock[] {
   let body = stripGalleries(stripTables(wikitext));
   // keep infobox fields before dropping templates
   const infobox = extractInfoboxFacts(wikitext);
   body = stripTemplates(body);
+
+  const floor = defaultEpisode ?? infobox?.firstAppearance ?? null;
+  const tag = (ref: number | null): number | null =>
+    floor !== null ? Math.max(floor, ref ?? floor) : ref;
 
   const lines = body.split(/\r?\n/);
   const blocks: ParsedBlock[] = [];
@@ -157,12 +163,7 @@ export function parsePage(wikitext: string, defaultEpisode: number | null = null
     for (const para of raw.split(/\n\s*\n/)) {
       const clean = cleanBlock(para);
       if (clean.length < 30) continue;
-      const ref = maxEpisodeRef(para);
-      const episode =
-        defaultEpisode !== null
-          ? Math.max(defaultEpisode, ref ?? defaultEpisode)
-          : ref;
-      blocks.push({ heading, text: clean, episode });
+      blocks.push({ heading, text: clean, episode: tag(maxEpisodeRef(para)) });
     }
   };
 
@@ -177,12 +178,19 @@ export function parsePage(wikitext: string, defaultEpisode: number | null = null
   }
   flush();
 
-  if (infobox) blocks.unshift({ heading: "Facts", text: infobox, episode: defaultEpisode });
+  if (infobox) {
+    blocks.unshift({ heading: "Facts", text: infobox.text, episode: tag(maxEpisodeRef(infobox.text)) });
+  }
   return blocks;
 }
 
+export interface InfoboxFacts {
+  text: string;
+  firstAppearance: number | null;
+}
+
 /** Pull simple |key = value fields out of the first infobox template. */
-export function extractInfoboxFacts(wikitext: string): string | null {
+export function extractInfoboxFacts(wikitext: string): InfoboxFacts | null {
   const start = wikitext.search(/\{\{\s*Infobox/i);
   if (start === -1) return null;
   // find matching close
@@ -204,15 +212,18 @@ export function extractInfoboxFacts(wikitext: string): string | null {
   if (end === -1) return null;
   const box = wikitext.slice(start, end);
   const facts: string[] = [];
+  let firstAppearance: number | null = null;
   const rx = /\|\s*([A-Za-z][A-Za-z0-9 _/-]*?)\s*=\s*([^\n|][^\n]*)/g;
   let m: RegExpExecArray | null;
   while ((m = rx.exec(box))) {
     const key = m[1].trim();
     if (/^(image|imagewidth|name|caption)$/i.test(key)) continue;
     const val = cleanBlock(m[2]);
-    if (val && val.length < 200) facts.push(`${key}: ${val}`);
+    if (!val || val.length >= 200) continue;
+    facts.push(`${key}: ${val}`);
+    if (/first\s*appearance/i.test(key)) firstAppearance = episodeNumberFor(val);
   }
-  return facts.length ? facts.join("\n") : null;
+  return facts.length ? { text: facts.join("\n"), firstAppearance } : null;
 }
 
 /** <gallery> file entries plus infobox image, for the image downloader. */

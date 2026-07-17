@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "2-in-1 Dimensional Dropship/Portal"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/2-in-1_Dimensional_Dropship%2FPortal"
 ---

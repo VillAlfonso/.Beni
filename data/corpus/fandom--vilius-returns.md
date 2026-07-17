@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Vilius_Returns"
 
 ## Facts
 
-<!--ep:27-->
+<!--ep:28-->
 Season: Tenkai Knights
 Japanese: October 04, 2014
 International: March 09, 2014

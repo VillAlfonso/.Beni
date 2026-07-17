@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "The Battle for Quarton"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/The_Battle_for_Quarton"
 ---

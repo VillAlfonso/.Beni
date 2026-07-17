@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Gorzorv"
 
 ## Facts
 
+<!--ep:39-->
 Origin: Beast World
 First Appearance: Welcome to the Jungle
 Weapons: Hammer
@@ -27,4 +28,5 @@ Gorzorv first appeared in "Welcome to the Jungle", where a bunch of them were wa
 <!--ep:43-->
 They are loyal to Scorpidon because he is their king and ruler and they protect him from any attack.
 
+<!--ep:39-->
 ===Orangor=== Loyal to Oranger as well.

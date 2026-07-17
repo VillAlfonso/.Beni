@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Elemental Titan/Hyper DX Pack"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Elemental_Titan%2FHyper_DX_Pack"
 ---

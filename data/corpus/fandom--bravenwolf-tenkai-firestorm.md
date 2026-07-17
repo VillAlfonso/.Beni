@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Bravenwolf_Tenkai_Firestorm"
 
 ## Facts
 
+<!--ep:1-->
 Origin: Quarton
 Owner: Guren Nash
 Race: Corekai

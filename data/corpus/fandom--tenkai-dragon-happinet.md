@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Dragon (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Dragon_(Happinet)"
 ---

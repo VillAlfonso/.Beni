@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Basic Figure"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Basic_Figure"
 ---

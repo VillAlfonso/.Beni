@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Double_Crossed"
 
 ## Facts
 
-<!--ep:20-->
+<!--ep:21-->
 Season: Tenkai Knights
 Japanese: August 23, 2014
 International: January 19, 2014

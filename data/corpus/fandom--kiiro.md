@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Kiiro"
 
 ## Facts
 
+<!--ep:37-->
 Origin: Earth
 Age: 5
 Hair: Blonde
@@ -15,16 +16,20 @@ Eyes: Green
 Occupation: Chooki's Cousin
 First Appearance: Fortress Revealed
 
+<!--ep:37-->
 Kiiro (Japanese: キイロ, Kīro, Eng. Translated: Yellow, Korean: 유이, Ui, Hebrew: קירו) is a minor character in Tenkai Knights. She is also Chooki's younger cousin.
 
+<!--ep:37-->
 She is voiced by Laura Bailey in English and unknown in Japanese.
 
 ## Appearance
 
+<!--ep:37-->
 Kiiro is a 5 year old girl with blonde hair and green eyes. She wears her hair in pigtails and wears a pale yellow dress. She is also always seen holding her stuffed dog named Sandy (橙 Daidai).
 
 ## Personality
 
+<!--ep:37-->
 Kiiro has a childish personality and sometimes gets mad when she doesn't get what she wants. But she has a kind demeanor if she trusts them, like her friendship with Beni and Ceylan.
 
 ## In the Series
@@ -44,10 +49,12 @@ Guren, as well as Ceylan and Toxsa, has to babysit Kiiro for the first time whil
 
 ## Beni
 
+<!--ep:37-->
 Beni met Kiiro when she was running down the hill and then bumped into her. She then ask Beni, as well as Guren to play with her but Beni refuses, causing Kiiro to yell so much until she will play with her. Beni then plays with her but she didn't enjoyed it. While Guren ask Beni to watch Kiiro while he get drinks. After Beni ruined Kiiro's sandcastle and walked away, Kiiro went missing, but eventually Beni found her and Kiiro gave her a four-leaf clover to make her feel better as well as Kiiro wanting to be Beni's best friend. Later on, Beni decided to play with Kiiro again and gave her the Tenkai Stone to give to Guren the next time she sees him.
 
 ## Max
 
+<!--ep:37-->
 Kiro met Max when she tried to put lipstick on him and wanted to play with him roughly, but Guren stoped her saying Max is just a animal.
 
 ## Trivia

@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Bravenwolf's Run"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Bravenwolf's_Run"
 ---

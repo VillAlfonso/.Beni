@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Toxsa_Dalton"
 
 ## Facts
 
+<!--ep:3-->
 Origin: Earth
 Age: 12 (English)
 Hair: Green

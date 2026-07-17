@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Braven X (Max Factory)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Braven_X_(Max_Factory)"
 ---

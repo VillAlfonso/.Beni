@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Checkmate"
 
 ## Facts
 
-<!--ep:21-->
+<!--ep:22-->
 Season: Tenkai Knights
 Japanese: August 30, 2014
 International: January 26, 2014

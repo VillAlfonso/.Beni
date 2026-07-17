@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Beast Figure"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Beast_Figure"
 ---

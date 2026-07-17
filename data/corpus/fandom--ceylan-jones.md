@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Ceylan_Jones"
 
 ## Facts
 
+<!--ep:1-->
 Origin: Earth
 Age: 13 (English)
 Hair: Blue

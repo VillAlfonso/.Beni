@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Www.tenkaiknight.jp"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Www.tenkaiknight.jp"
 ---

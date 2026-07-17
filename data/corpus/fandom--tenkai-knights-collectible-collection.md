@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights Collectible Collection"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_Collectible_Collection"
 ---

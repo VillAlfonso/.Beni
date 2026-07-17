@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Ape_Knight"
 
 ## Facts
 
-<!--ep:42-->
+<!--ep:43-->
 Season: Tenkai Knights
 Japanese: January 24, 2015
 International: June 29, 2014

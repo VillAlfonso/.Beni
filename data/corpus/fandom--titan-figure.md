@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Titan Figure"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Titan_Figure"
 ---

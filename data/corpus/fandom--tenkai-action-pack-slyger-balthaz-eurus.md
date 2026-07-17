@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Slyger/Balthaz/Eurus"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Slyger%2FBalthaz%2FEurus"
 ---

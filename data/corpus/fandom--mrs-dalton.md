@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Mrs._Dalton"
 
 ## Facts
 
+<!--ep:19-->
 Origin: Earth
 Age: Early 40's
 Hair: Teal

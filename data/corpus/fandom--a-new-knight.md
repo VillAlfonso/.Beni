@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/A_New_Knight"
 
 ## Facts
 
-<!--ep:26-->
+<!--ep:27-->
 Season: Tenkai Knights
 Japanese: September 27, 2014
 International: March 02, 2014

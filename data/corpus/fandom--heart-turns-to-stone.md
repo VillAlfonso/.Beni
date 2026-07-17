@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Heart_Turns_to_Stone"
 
 ## Facts
 
-<!--ep:46-->
+<!--ep:47-->
 Season: Tenkai Knights
 Japanese: February 21, 2015
 International: July 27, 2014

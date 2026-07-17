@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "2-in-1 BlasTank/War Stallion"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/2-in-1_BlasTank%2FWar_Stallion"
 ---

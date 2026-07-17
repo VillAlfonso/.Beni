@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Scorpidon"
 
 ## Facts
 
-<!--ep:43-->
+<!--ep:44-->
 Season: Tenkai Knights
 Japanese: January 31, 2015
 International: July 06, 2014

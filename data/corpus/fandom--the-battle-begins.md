@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Battle_Begins"
 
 ## Facts
 
-<!--ep:24-->
+<!--ep:25-->
 Season: Tenkai Knights
 Japanese: September 13, 2014
 International: February 16, 2014

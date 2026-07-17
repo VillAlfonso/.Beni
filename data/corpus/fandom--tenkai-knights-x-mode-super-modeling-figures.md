@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights X Mode Super Modeling Figures"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_X_Mode_Super_Modeling_Figures"
 ---

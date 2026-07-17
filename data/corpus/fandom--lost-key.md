@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Lost_Key"
 
 ## Facts
 
-<!--ep:14-->
+<!--ep:15-->
 Season: Tenkai Knights
 Japanese: July 12, 2014
 International: November 23, 2013

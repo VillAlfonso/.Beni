@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Dragon's_Key"
 
 ## Facts
 
-<!--ep:12-->
+<!--ep:13-->
 Season: Tenkai Knights
 Japanese: June 28, 2014
 International: November 09, 2013

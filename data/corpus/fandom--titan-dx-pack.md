@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Titan/DX Pack"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Titan%2FDX_Pack"
 ---

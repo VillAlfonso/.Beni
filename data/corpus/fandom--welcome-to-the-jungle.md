@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Welcome_to_the_Jungle"
 
 ## Facts
 
-<!--ep:39-->
+<!--ep:40-->
 Season: Tenkai Knights
 Japanese: December 27, 2014
 International: May 30, 2014

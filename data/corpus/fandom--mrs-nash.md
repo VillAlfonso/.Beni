@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Mrs._Nash"
 
 ## Facts
 
+<!--ep:1-->
 Origin: Earth
 Age: Early 30's
 Hair: Dark Red
@@ -20,10 +21,12 @@ Mrs. Nash (Japanese: グレンのママ, Guren no mama, Mrs. Ōgami, Korean: 글
 
 ## Appearance
 
+<!--ep:1-->
 While Mrs. Nash has never appeared in the series yet, her appearance is described in a picture. Mrs. Nash has dark red shoulder length hair, and it covers her forehead with two bangs. She wears an orange shirt with white essentials. She is 38 years old.
 
 ## Trivia
 
+<!--ep:1-->
 - She only appears in a picture on a wooden table in Guren's house.
 - She's currently the only character without a voice actor and was never mentioned throughout the series. 
 - Throughout the series she was never mentioned. Possibly in Season 2, she will be mentioned.

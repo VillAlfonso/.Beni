@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Tower_of_Bricks"
 
 ## Facts
 
-<!--ep:50-->
+<!--ep:51-->
 Season: Tenkai Knights
 Japanese: March 21, 2015
 International: August 24, 2014

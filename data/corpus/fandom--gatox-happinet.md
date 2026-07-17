@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Gatox (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Gatox_(Happinet)"
 ---

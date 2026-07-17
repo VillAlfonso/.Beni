@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Burning Braven (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Burning_Braven_(Happinet)"
 ---

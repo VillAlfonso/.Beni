@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Shippu no Kurokishi (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Shippu_no_Kurokishi_(Happinet)"
 ---

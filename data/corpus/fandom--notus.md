@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Notus"
 
 ## Facts
 
+<!--ep:20-->
 Origin: Quarton
 Age: Unknown
 Hair: None
@@ -15,12 +16,15 @@ Eyes: None
 Occupation: Guardian
 First Appearance: Double Crossed
 
+<!--ep:20-->
 Guardian Notus (Japanese: ガーデイアン・ゼピユロス, Gādeian Zepiyurosu, Eng. Translated: Guardian Zephyrus, Korean: 가디언 제피로스, Gadieon Jepiroseu, Hebrew: זֶפירוּס) is one of the four Guardians of the portal to Quarton and Earth in Mr. White's shop and the Guardians Sanctuary, as shown in "Tenkai Knights: Origins".
 
+<!--ep:20-->
 He is voiced by Ben Diskin in English and by Junichi Yanagida in Japanese.
 
 ## Original Form
 
+<!--ep:20-->
 - Flight
 - Deflection 
 - Enhanced Speed
@@ -29,6 +33,7 @@ He is voiced by Ben Diskin in English and by Junichi Yanagida in Japanese.
 
 ## Black Guardian Form
 
+<!--ep:20-->
 - Flight
 - Deflection
 - Enhanced Speed
@@ -37,6 +42,7 @@ He is voiced by Ben Diskin in English and by Junichi Yanagida in Japanese.
 
 ## Trivia
 
+<!--ep:20-->
 - He was the last Guardian to have his name revealed.
 - He was the only Guardian under Villus's influence who was attempting to avoid hurting the Knights.
 - In the Japanese version of the show, Notus' name is Zephyrus.

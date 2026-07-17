@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Knights DVD Volume 02"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Knights_DVD_Volume_02"
 ---

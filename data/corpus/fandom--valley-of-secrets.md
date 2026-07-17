@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Valley_of_Secrets"
 
 ## Facts
 
-<!--ep:9-->
+<!--ep:10-->
 Season: Tenkai Knights
 Japanese: May 31, 2014
 International: October 19, 2013

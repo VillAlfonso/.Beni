@@ -125,7 +125,12 @@ async function main(): Promise<void> {
 
   for (const doc of docs) {
     const content = doc.blocks.map((b) => `${b.heading}\n${b.text}`).join("\n\n");
-    const hash = createHash("sha1").update(content).digest("hex");
+    // hash covers kind + episode tags + text: any reclassification or
+    // retagging must invalidate stored chunks, not just text edits
+    const hash = createHash("sha1")
+      .update(`${doc.kind}|${doc.episode ?? "-"}\n`)
+      .update(doc.blocks.map((b) => `${b.episode ?? "-"}|${b.heading}\n${b.text}`).join("\n\n"))
+      .digest("hex");
     const existing = db
       .prepare("SELECT id, hash FROM docs WHERE source=? AND title=?")
       .get(doc.source, doc.title) as { id: string; hash: string } | undefined;

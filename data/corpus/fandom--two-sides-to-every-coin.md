@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Two_Sides_to_Every_Coin"
 
 ## Facts
 
-<!--ep:11-->
+<!--ep:12-->
 Season: Tenkai Knights
 Japanese: June 21, 2014
 International: November 02, 2013

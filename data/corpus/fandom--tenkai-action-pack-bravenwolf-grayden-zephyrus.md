@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Bravenwolf/Grayden/Zephyrus"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Bravenwolf%2FGrayden%2FZephyrus"
 ---

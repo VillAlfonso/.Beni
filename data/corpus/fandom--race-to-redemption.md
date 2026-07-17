@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Race to Redemption"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Race_to_Redemption"
 ---

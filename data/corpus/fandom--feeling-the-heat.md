@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Feeling_the_Heat"
 
 ## Facts
 
-<!--ep:35-->
+<!--ep:36-->
 Season: Tenkai Knights
 Japanese: November 29, 2014
 International: May 04, 2014

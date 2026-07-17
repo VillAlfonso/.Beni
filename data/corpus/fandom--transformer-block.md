@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Transformer Block"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Transformer_Block"
 ---

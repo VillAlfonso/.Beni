@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Power_of_Four"
 
 ## Facts
 
-<!--ep:4-->
+<!--ep:5-->
 Season: Tenkai Knights
 Japanese: April 26, 2014
 International: September 14, 2013 (USA)

@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Tenkai Action Pack: Vilius/Sho/Lydendor"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Tenkai_Action_Pack%3A_Vilius%2FSho%2FLydendor"
 ---

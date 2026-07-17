@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/The_Tenkai_Kid"
 
 ## Facts
 
-<!--ep:6-->
+<!--ep:7-->
 Season: Tenkai Knights
 Japanese: May 10, 2014
 International: September 28, 2013 (USA)

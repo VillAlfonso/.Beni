@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Vilius (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Vilius_(Happinet)"
 ---

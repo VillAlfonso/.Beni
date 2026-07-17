@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Single Pack"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Single_Pack"
 ---

@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/A_New_Element"
 
 ## Facts
 
-<!--ep:48-->
+<!--ep:49-->
 Season: Tenkai Knights
 Japanese: March 07, 2015
 International: August 10, 2014

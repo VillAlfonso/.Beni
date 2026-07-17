@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Mystery Figure"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Mystery_Figure"
 ---

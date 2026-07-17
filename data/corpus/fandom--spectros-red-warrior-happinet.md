@@ -1,7 +1,7 @@
 ---
 source: fandom
 title: "Spectros Red Warrior (Happinet)"
-kind: concept
+kind: merch
 episode: null
 url: "https://tenkai-knights.fandom.com/wiki/Spectros_Red_Warrior_(Happinet)"
 ---

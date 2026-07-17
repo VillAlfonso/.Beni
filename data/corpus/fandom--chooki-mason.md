@@ -8,6 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Chooki_Mason"
 
 ## Facts
 
+<!--ep:3-->
 Origin: Earth
 Age: 13 (English)
 Hair: Yellow, Ginger

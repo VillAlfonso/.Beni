@@ -8,7 +8,7 @@ url: "https://tenkai-knights.fandom.com/wiki/Elemental_Knights"
 
 ## Facts
 
-<!--ep:28-->
+<!--ep:29-->
 Season: Tenkai Knights
 Japanese: October 11, 2014
 International: March 16, 2014
