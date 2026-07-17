@@ -112,6 +112,7 @@ input, textarea, select { font: inherit; color: inherit; }
 }
 .iconbtn { color: var(--ghost); padding: 6px; border-radius: 6px; font-size: 13px; line-height: 1; }
 .iconbtn:hover { color: var(--text); background: var(--panel); }
+.iconbtn.on { color: var(--text); background: var(--panel); }
 .burger { display: none; }
 
 /* ---------- messages ---------- */

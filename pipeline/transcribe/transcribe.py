@@ -24,6 +24,9 @@ WORK = Path(__file__).resolve().parent / "work"
 
 MEDIA_EXT = {".mkv", ".mp4", ".avi", ".m4a", ".mp3", ".wav", ".webm", ".ts"}
 
+# eps without an English dub (Japanese audio): Whisper translates ja→en directly
+JP_EPS = set(range(49, 53))
+
 
 def episode_number(name: str) -> int | None:
     m = re.search(r"(?:ep|episode|-\s*)(\d{1,2})", name, re.I) or re.search(r"\b(\d{1,2})\b", name)
@@ -57,16 +60,24 @@ def parse_subtitles(path: Path) -> list[dict]:
     return out
 
 
-def whisper_segments(wav: Path) -> list[dict]:
+_whisper = None
+
+
+def whisper_segments(wav: Path, language: str | None = "en", task: str = "transcribe") -> list[dict]:
     from faster_whisper import WhisperModel
 
-    try:
-        model = WhisperModel("large-v3", device="cuda", compute_type="float16")
-    except Exception:
-        print("  CUDA unavailable, falling back to CPU int8 (slow)")
-        model = WhisperModel("large-v3", device="cpu", compute_type="int8")
-    segments, _ = model.transcribe(str(wav), language="en", vad_filter=True)
-    return [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments if s.text.strip()]
+    global _whisper
+    if _whisper is None:
+        try:
+            _whisper = WhisperModel("large-v3", device="cuda", compute_type="float16")
+        except Exception:
+            print("  CUDA unavailable, falling back to CPU int8 (slow)")
+            _whisper = WhisperModel("large-v3", device="cpu", compute_type="int8")
+    segments, info = _whisper.transcribe(str(wav), language=language, task=task, vad_filter=True)
+    out = [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments if s.text.strip()]
+    if language is None:
+        print(f"  detected language: {info.language} ({info.language_probability:.2f})")
+    return out
 
 
 def main() -> None:
@@ -97,6 +108,9 @@ def main() -> None:
         if sub:
             segs = parse_subtitles(sub)
             print(f"  using subtitles ({len(segs)} cues)")
+        elif ep in JP_EPS:
+            segs = whisper_segments(wav, language=None, task="translate")
+            print(f"  whisper translated {len(segs)} segments to English")
         else:
             segs = whisper_segments(wav)
             print(f"  whisper produced {len(segs)} segments")

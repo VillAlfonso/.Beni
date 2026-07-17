@@ -133,7 +133,14 @@ export function ChatView() {
           {state.chat.mode === "story" ? `story · after ep ${state.chat.story_episode}` : `knows ≤ ep ${state.chat.episode_cap === 999 ? "end" : state.chat.episode_cap}`}
         </span>
         <span className="spacer" />
-        <button className="iconbtn" title="Checkpoints" onClick={() => actions.setPanel("checkpoints")}>⚑</button>
+        <button
+          className={state.branchUi ? "iconbtn on" : "iconbtn"}
+          title={state.branchUi ? "Hide branch tools" : "Show branch tools"}
+          onClick={() => actions.setBranchUi(!state.branchUi)}
+        >⑂</button>
+        {state.branchUi && (
+          <button className="iconbtn" title="Checkpoints" onClick={() => actions.setPanel("checkpoints")}>⚑</button>
+        )}
         <button className="iconbtn" title="Memories" onClick={() => { void actions.loadMemories(); actions.setPanel("memories"); }}>✦</button>
         <button className="iconbtn" title="Delete chat" onClick={() => {
           if (window.confirm("Delete this chat and its memories?")) void actions.deleteChat(state.chat!.id);

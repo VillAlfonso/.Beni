@@ -72,13 +72,15 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
         ) : (
           <div className="body">{m.content}</div>
         )}
-        <div className="mtools">
-          <Sibnav m={m} />
-          <button onClick={copy}>copy</button>
-          {!busy && <button onClick={() => { setDraft(m.content); setEditing(true); }}>edit</button>}
-          {!busy && <button onClick={fork}>branch chat</button>}
-          {!busy && <button onClick={checkpoint}>checkpoint</button>}
-        </div>
+        {state.branchUi && (
+          <div className="mtools">
+            <Sibnav m={m} />
+            <button onClick={copy}>copy</button>
+            {!busy && <button onClick={() => { setDraft(m.content); setEditing(true); }}>edit</button>}
+            {!busy && <button onClick={fork}>branch chat</button>}
+            {!busy && <button onClick={checkpoint}>checkpoint</button>}
+          </div>
+        )}
       </div>
     );
   }
@@ -94,13 +96,15 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
           {m.content}
         </Markdown>
       </div>
-      <div className="mtools">
-        <Sibnav m={m} />
-        <button onClick={copy}>copy</button>
-        {!busy && isLast && <button onClick={() => void actions.regenerate(m.id)}>regenerate</button>}
-        {!busy && <button onClick={fork}>branch chat</button>}
-        {!busy && <button onClick={checkpoint}>checkpoint</button>}
-      </div>
+      {state.branchUi && (
+        <div className="mtools">
+          <Sibnav m={m} />
+          <button onClick={copy}>copy</button>
+          {!busy && isLast && <button onClick={() => void actions.regenerate(m.id)}>regenerate</button>}
+          {!busy && <button onClick={fork}>branch chat</button>}
+          {!busy && <button onClick={checkpoint}>checkpoint</button>}
+        </div>
+      )}
     </div>
   );
 }

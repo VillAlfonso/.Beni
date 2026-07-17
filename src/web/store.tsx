@@ -69,6 +69,7 @@ interface State {
   settings: Record<string, any> | null;
   streaming: { forChat: string; text: string; meta: RetrievalMeta | null } | null;
   panel: "none" | "settings" | "memories" | "checkpoints" | "newchat";
+  branchUi: boolean;
   sidebarOpen: boolean;
   error: string | null;
 }
@@ -86,6 +87,7 @@ const initial: State = {
   settings: null,
   streaming: null,
   panel: "none",
+  branchUi: localStorage.getItem("beni.branchUi") === "1",
   sidebarOpen: false,
   error: null
 };
@@ -103,6 +105,7 @@ type Action =
   | { type: "stream-token"; v: string }
   | { type: "stream-end" }
   | { type: "panel"; v: State["panel"] }
+  | { type: "branchUi"; v: boolean }
   | { type: "sidebar"; v: boolean }
   | { type: "error"; v: string | null };
 
@@ -120,6 +123,7 @@ function reducer(s: State, a: Action): State {
     case "stream-token": return s.streaming ? { ...s, streaming: { ...s.streaming, text: s.streaming.text + a.v } } : s;
     case "stream-end": return { ...s, streaming: null };
     case "panel": return { ...s, panel: a.v };
+    case "branchUi": return { ...s, branchUi: a.v };
     case "sidebar": return { ...s, sidebarOpen: a.v };
     case "error": return { ...s, error: a.v };
   }
@@ -273,6 +277,10 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
     },
 
     setPanel: (v: State["panel"]) => dispatch({ type: "panel", v }),
+    setBranchUi: (v: boolean) => {
+      localStorage.setItem("beni.branchUi", v ? "1" : "0");
+      dispatch({ type: "branchUi", v });
+    },
     setSidebar: (v: boolean) => dispatch({ type: "sidebar", v }),
     setError: (v: string | null) => dispatch({ type: "error", v })
   };

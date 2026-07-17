@@ -18,7 +18,7 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parent
 WORK = HERE / "work"
-VOICES = HERE / "voices" / "enrolled.npz"
+JP_EPS = set(range(49, 53))  # Japanese audio → separate voice profiles
 
 
 def main() -> None:
@@ -31,6 +31,7 @@ def main() -> None:
     if not clusters_file.exists():
         raise SystemExit(f"{clusters_file} not found — run diarize_match.py first.")
     clusters = np.load(clusters_file)
+    VOICES = HERE / "voices" / ("enrolled_jp.npz" if args.episode in JP_EPS else "enrolled.npz")
 
     existing: dict[str, np.ndarray] = {}
     if VOICES.exists():

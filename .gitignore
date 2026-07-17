@@ -13,6 +13,8 @@ data/transcripts/*.srt
 data/transcripts/*.vtt
 pipeline/transcribe/.venv/
 pipeline/transcribe/models/
+pipeline/transcribe/work/
+pipeline/transcribe/review/
 *.log
 .DS_Store
 Thumbs.db
