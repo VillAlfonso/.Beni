@@ -196,6 +196,9 @@ def process(ep: int) -> None:
     for s in segments:
         s.pop("_emb", None)
 
+    # persist cluster tags so the label sheet can show each voice's spoken lines
+    seg_file.write_text(json.dumps({"episode": ep, "segments": segments}, indent=1), encoding="utf-8")
+
     voices = voices_file(ep)
     np.savez(WORK / f"ep{ep:02d}.clusters.npz", **cluster_emb)
 
