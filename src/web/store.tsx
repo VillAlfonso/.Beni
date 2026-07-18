@@ -212,7 +212,7 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
     regenerate: (messageId: string) => runStream(`/chats/${getState().activeId}/regenerate`, { messageId }),
     editUser: (messageId: string, content: string) => runStream(`/messages/${messageId}/edit`, { content }),
 
-    newChat: async (opts: { title?: string; mode: string; stageId: string; storyEpisode?: number }) => {
+    newChat: async (opts: { title?: string; mode: string; stageId: string; storyEpisode?: number; userLooks?: string }) => {
       const { id } = await api<{ id: string }>("POST", "/chats", opts);
       await refreshChats();
       await openChat(id);

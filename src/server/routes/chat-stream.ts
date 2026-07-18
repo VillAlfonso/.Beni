@@ -13,6 +13,7 @@ interface ChatRow {
   stage_id: string;
   episode_cap: number;
   story_episode: number | null;
+  user_looks: string | null;
   head_message_id: string | null;
 }
 
@@ -53,7 +54,7 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
       canon,
       memories,
       userName: settings.userName,
-      userLooks: settings.userLooks
+      userLooks: chat.user_looks || settings.userLooks
     });
 
     const messages = [{ role: "system" as const, content: system }, ...buildHistory(path)];

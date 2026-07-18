@@ -85,6 +85,11 @@ export function openDb(file: string): Db {
   db.pragma("journal_mode = WAL");
   db.pragma("foreign_keys = ON");
   db.exec(SCHEMA);
+  // migrations: columns added after first release
+  const chatCols = db.prepare("PRAGMA table_info(chats)").all() as { name: string }[];
+  if (!chatCols.some((c) => c.name === "user_looks")) {
+    db.exec("ALTER TABLE chats ADD COLUMN user_looks TEXT");
+  }
   return db;
 }
 

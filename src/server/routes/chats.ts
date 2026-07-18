@@ -23,9 +23,10 @@ export function chatsRouter(db: Db): Router {
     const cap = mode === "story" ? (storyEpisode as number) : stage.cap;
     const id = newId();
     const now = Date.now();
+    const userLooks = String(b.userLooks ?? "").trim() || null;
     db.prepare(
-      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)"
-    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, now, now);
+      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?)"
+    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, now, now);
 
     // Beni opens the chat in-character with the stage greeting.
     if (stage.greeting) {
@@ -73,6 +74,13 @@ export function chatsRouter(db: Db): Router {
     if (b.storyEpisode !== undefined && chat.mode === "story") {
       const ep = Number(b.storyEpisode) || 1;
       db.prepare("UPDATE chats SET story_episode=?, episode_cap=?, updated_at=? WHERE id=?").run(ep, ep, Date.now(), req.params.id);
+    }
+    if (typeof b.userLooks === "string") {
+      db.prepare("UPDATE chats SET user_looks=?, updated_at=? WHERE id=?").run(
+        b.userLooks.trim() || null,
+        Date.now(),
+        req.params.id
+      );
     }
     if (typeof b.headMessageId === "string") {
       const msg = getMessage(db, b.headMessageId);

@@ -8,6 +8,7 @@ export function NewChatModal() {
   const [stageId, setStageId] = useState(stages[stages.length - 1]?.id ?? "");
   const [episode, setEpisode] = useState<number>(14);
   const [title, setTitle] = useState("");
+  const [userLooks, setUserLooks] = useState("");
   const [busy, setBusy] = useState(false);
 
   const stage = stages.find((s) => s.id === stageId) ?? stages[0];
@@ -25,7 +26,8 @@ export function NewChatModal() {
         title: title.trim() || undefined,
         mode,
         stageId: mode === "story" ? stageForEpisode.id : stageId,
-        storyEpisode: mode === "story" ? episode : undefined
+        storyEpisode: mode === "story" ? episode : undefined,
+        userLooks: userLooks.trim() || undefined
       });
     } finally {
       setBusy(false);
@@ -93,6 +95,15 @@ export function NewChatModal() {
         <div className="field">
           <label>Title (optional)</label>
           <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="New chat" />
+        </div>
+
+        <div className="field">
+          <label>You in this chat — what she can see at a glance (optional)</label>
+          <input
+            value={userLooks}
+            onChange={(e) => setUserLooks(e.target.value)}
+            placeholder="e.g. short girl her age, freckles, denim jacket — blank uses Settings"
+          />
         </div>
 
         <div style={{ display: "flex", justifyContent: "flex-end", gap: 10 }}>
