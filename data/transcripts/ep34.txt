@@ -9,19 +9,21 @@
 [quarton] Beni: You bet. As Vilius commands. I
 [quarton] Beni: knew that shiny bling thing my dad gave me must be important. But this important? That explains the fancy gift box. So Vilius thinks this will help him find the Tenkai Fortress, huh? Hmph. Not if I happen to find it first. Come on, Tenkai Stone. Do your thing. Fetch the Fortress. What's that? It's a cute trick, but it's not really what I- Ugh. The Fortress! Find it! Hello? Anyone in there speak English? Ugh! Piece of junk! Dad gave me a knuckle! Is it a rainbow?
 [quarton] Slyger: Or a bridge? A bridge!
-[quarton] Mr._White: You guys felt that too?
+[quarton] Ceylan: You guys felt that too?
 [quarton] Toxsa: Yeah, I thought you'd pinched me again.
-[quarton] Mr._White: It wasn't like the bricks were summoning us. No, it felt different somehow. A low battery warning? I think we better go tell Mr. White. Yeah. Oh, yeah.
+[quarton] Ceylan: It wasn't like the bricks were summoning us. No, it felt different somehow. A low battery warning? I think we better go tell Mr. White. Yeah. Oh, yeah.
 [earth] Slyger: Hmm. It
-[earth] Mr._White: wasn't like we were being summoned. It was, I don't know, almost like a distress signal.
+[earth] Ceylan: wasn't like we were being summoned. It was, I don't know, almost like a distress signal.
 [earth] Mr._White: Oh, please. My tea's not that bad.
-[earth] Toxsa: Look, Mr. White! It wasn't like that before. I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this! I think we're gonna need a lot of glue.
-[earth] Mr._White: It's happening. Brickification.
-[quarton] Slyger: Huh? Brickiful what?
+[earth] Ceylan: Look, Mr. White! It wasn't like that before.
+[earth] Ceylan: I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this!
+[quarton] Toxsa: I think we're gonna need a lot of glue.
+[quarton] Mr._White: It's happening. Brickification.
+[quarton] Ceylan: Huh? Brickiful what?
 [quarton] Mr._White: Something on Quarton is disrupting the balance. And affecting the very fabric of our world. Is this like what happened before? This could be even more serious. Unless we can reverse it.
-[quarton] Toxsa: Is
-[quarton] Mr._White: that why our core bricks were acting so
-[quarton] Toxsa: strangely?
+[quarton] Ceylan: Is that why our
+[quarton] Mr._White: core
+[quarton] Ceylan: bricks were acting so strangely?
 [quarton] Mr._White: Yes. In a way, you were right. They must have sensed the imbalance between the two energies. It was a sort of distress signal.
 [quarton] Toxsa: Guess we won't be drinking any more tea, too bad. Just watch.
 [quarton] Mr._White: Hopefully this'll work. The
@@ -35,27 +37,132 @@
 [quarton] Toxsa: Even chili dogs?
 [quarton] Mr._White: Yes, everything.
 [quarton] Toxsa: Even peanut butter cheeseburgers?
-[quarton] Mr._White: Right at the moment, Toxsa. We have bigger concerns than your bizarre eating habits, if you don't mind. Oh. I'll see.
-[quarton] Toxsa: In time.
-[quarton] Mr._White: As I said before, the same will happen to everything on Earth.
-[quarton] Toxsa: Okay then, how do we stop it, Mr. White?
-[quarton] Slyger: That's the question.
-[quarton] Mr._White: What
-[quarton] Slyger: made it start happening now?
+[quarton] Mr._White: Right at the moment, Toxsa. We have bigger concerns than your bizarre eating habits, if you don't mind. Oh. I'll see. In
+[quarton] Ceylan: time. As
+[quarton] Mr._White: I said before, the same will happen to everything on Earth.
+[quarton] Ceylan: Okay
+[quarton] Ceylan: then, how do we stop it, Mr. White? That's the question. What made it start happening now?
 [quarton] Mr._White: A mystery indeed.
-[quarton] Slyger: If that jerk Vilius is behind it, what's he
-[quarton] Toxsa: hope to gain?
-[quarton] Mr._White: Another mystery. Yeah,
-[quarton] Toxsa: why destroy a planet that you're hoping to conquer? Yes, it's puzzling.
-[quarton-battle] Mr._White: The
-[quarton-battle] Toxsa: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't know!
-[quarton-battle] Mr._White: Uh, sorry. As a matter of fact, there's one thing I do know. You have to go to Quarton and find out what's happened there. Sounds like a plan. Sure beats sitting around here. Let's move.
-[quarton-battle] Beag: This is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course. Uh,
-[quarton-battle] Slyger: Beag? Ah!
-[quarton] Beag: Quick! Strike the set! What the heck are you doing? Oh, uh, training! Yes. Training for, uh, possible amphibious assault. Yes. It's me on the unscreened, say. What brings you here, Knights? You
+[quarton] Ceylan: If that jerk Vilius is behind it, what's he hope to gain? Another mystery. Yeah, why destroy a
+[quarton] Toxsa: planet that you're hoping to conquer? Yes, it's puzzling.
+[quarton] Mr._White: The
+[quarton] Toxsa: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't
+[quarton-battle] Slyger: know!
+[quarton-battle] Mr._White: Uh, sorry. As a matter of fact, there's one thing I do know. You have to go to Quarton and find out what's happened there. Sounds like a plan. Sure beats
+[quarton] Ceylan: sitting around here. Let's
+[quarton] Slyger: move.
+[quarton] Unknown: This is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course.
+[quarton] Slyger: Uh, Beag? Ah! Quick! Strike
+[quarton] Unknown: the set! What the heck are you doing? Oh, uh, training! Yes. Training for, uh, possible amphibious assault. Yes. It's me on the unscreened, say. What brings you here, Knights? You
 [quarton] Toxsa: notice anything peculiar here lately? Even more peculiar than usual? Peculiar? Uh,
-[quarton] Beag: no, not really. Except maybe... Except what? That thing up there!
-[quarton] Toxsa: Huh? Tenkai Rainbow! What does it mean?
-[quarton] Beag: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll fight you later! I'm busy right now! Busy doing
-[quarton] Toxsa: what, Buckethead?
-[quarton] Beag: You think I'd tell you that I'm about to find the Tenkai Fortress?
+[quarton] Unknown: no, not really. Except maybe... Except what? That thing up there!
+[quarton-battle] Toxsa: Huh? Tenkai Rainbow! What does it mean?
+[quarton-battle] Beag: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll find you later! I'm busy right now!
+[quarton] Slyger: Busy doing what, Buckethead?
+[quarton] Beag: You think I'd tell you that I'm about to find the Tenkai Fortress? What kind of fool you think I am?
+[quarton] Slyger: The kind with a big mouth!
+[quarton] Beag: Well, anyway, you won't live long enough to do anything about it. Blast them!
+[quarton] Slyger: Come on! Let's level up! Right! You
+[quarton] Beag: think you're so smart? How smart's this?
+[quarton] Slyger: Bravenwolf! Watch out, buddy!
+[quarton] Beag: Nuts I missed!
+[quarton] Slyger: But we won't! You're in titanic trouble, Goombot!
+[quarton] Beag: Oh, not again!
+[quarton] Slyger: I was so close! Whatever that thing is, it's disappearing!
+[quarton] Ceylan: From what Granox said, the Tenkai Fortress is right there in that pit. Think you and your men can dig it out, Beag? Leave it to us! We're
+[quarton] Mr._White: back, Mr. White! Look, everything's fit as a fiddle. The brickification has been reversed. Whatever you boys did must have fixed it.
+[quarton] Ceylan: Now we know. It's all connected to that fortress somehow.
+[quarton] Mr._White: Yes, we've taken the first step, but we have a long, difficult journey ahead.
+[quarton] Ceylan: Especially if Guren doesn't learn to duck when they're shooting at him.
+[quarton] Ceylan: Yeah, you should have seen the way Ceylan totally saved my bot, Mr. White.
+[quarton] Mr._White: I don't doubt it. Isn't that what friends are for? So, how about a friendly cup of tea?
+[quarton] Beni: Did you miss me? Uh, sorta. I hear you've been kicking bot up on Quarton. Sure hope I don't have to fight you again.
+[quarton] Ceylan: Well,
+[quarton] Beni: you will.
+[quarton] Ceylan: If you're still working for Vilius.
+[quarton] Beni: Don't be silly. I never worked for Vilius. Well, you sure haven't been working for our side, Beni! I'm on no one's side but my own. You should try it sometime. Makes life a lot more fun. Seriously, flying solo's the only way to go. It's true, Guren. Friends, other people, they just tie you down. What are you doing? What's so funny? You're cute when you try to think. You look just like a confused puppy. I'll see you later! Beni, Beni, Beni. You're such a troublemaker. You should be ashamed of yourself. Messing with poor Guren like that. That wasn't bad enough. It's nothing compared to this. Just think of all the trouble you could cause. Unleashing the power of the Tenkai Fortress. Disrupting the cosmic balance. Ending life on Earth as we know it. Destroying the Tenkai Knights. Whoa! Talk about fun!
+[quarton] Ceylan: If they only knew they're about to become bricks. Not gonna happen, Ceylon. You sure about that?
+[quarton] Toxsa: Man, you guys are depressing.
+[quarton] Ceylan: Uh-huh.
+[quarton] Toxsa: Never thought I'd be the one to say, let's go kick the ball around.
+[quarton] Ceylan: You're right. That is weird.
+[quarton] Toxsa: Ceylon!
+[quarton] Slyger: Get in! Got it! Incoming!
+[quarton] Toxsa: Okay, best two out of three. Toxsa with the last kick at the finish line. The next one's the finish line. Huh? Wait a minute. Since when? In that case, both of you lose. Watch
+[quarton] Ceylan: it. Puddle! Are you lucky I'm around or what? I'll say. I really owe you one. Dig in. It's on Guren.
+[quarton] Ceylan: Seriously, dude. Thanks. For what? The way you saved my neck back on Quarton. Ah, it's no big deal. Just do me a favor and don't make a habit of it. It was a pretty big deal to me, Ceylon. Where would I be without you guys watching my back all the time?
+[quarton] Ceylan: Hey, man, you've saved all our necks I don't know how many times.
+[quarton] Ceylan: That's what friends are for.
+[quarton] Ceylan: Bleah! I think I'm gonna hurl. Oh,
+[quarton] Ceylan: Beni.
+[quarton] Beni: Oh, great. Princess Pain in the neck is back. If that's your idea of a friend, Guren, I guess it's no wonder you're such a hopeless loser.
+[quarton] Ceylan: I know what your game is, Little Miss Troublemaker. I can read
+[quarton] Beni: you like a book. Yeah, as if you can even read.
+[quarton] Ceylan: That does it. Come here, you.
+[quarton] Slyger: Where'd you go? Oh, there you are. What? Ha!
+[quarton] Beni: You slowpoke.
+[quarton] Ceylan: You couldn't catch a cold. Beni. Hm? All that stuff you said the other day, it's totally bogus. Everybody needs friends. You
+[quarton] Beni: get that off a greeting card? Yes. Oh, honestly, when are you gonna grow up? Friends are boring, and anyone who thinks they aren't is boring. Says the girl who's probably never had one. That's because I don't want one. What's so great about them anyway? Friends tie you down and hold you back. They're just one more hassle that gets in your way, and you needs that. Wait. Beni, hold
+[quarton] Ceylan: up! Friends don't hold you back. You're wrong. Just the opposite. They help you do things you can never do alone. Oh, really? Is
+[quarton] Beni: that what you think? Just wait. One day, your friends are gonna get in your way. Then you'll be sorry you had them. Who
+[quarton] Ceylan: cares? Let her go. Good riddance. It's strange. It's almost like she was about to cry. That's awesome. Despite the way she acts,
+[quarton] Ceylan: I
+[quarton] Ceylan: don't think
+[quarton] Ceylan: she's all bad. Well, 99.9% bad, or she wouldn't be on Vilius's side.
+[quarton] Ceylan: She says she's not on anyone's side.
+[quarton] Ceylan: So she's a loose cannon. That's better. Careful, dude. She's just gonna make trouble for us again. It's just like
+[quarton] Ceylan: before. The low battery warning. I think things are about to get messy. Let's get back to Mr. White's shop. Fast! Wait! Fine. What is it? Are we stopping to smell the roses or... Oh, whoa. That's weird. Well, whatever's going on. It's spreading. Let's call the others. Maybe we can figure out if there's some kind of pattern to it. It's a plan.
+[quarton] Ceylan: Sorta.
+[quarton] Ceylan: Maybe
+[earth] Slyger: Toxsa can find the pattern. He's our resident techie.
+[earth] Toxsa: Yes. I've seen this before. Where?
+[quarton] Ceylan: And don't say doom-sploder. It seems to randomly affect living and non-living things. Maybe the pattern is that there is no pattern.
+[quarton] Toxsa: Exactly. Like the spinning orbs of power in the goblin mage maze. Okay. You're fired. I knew you were gonna go gamer
+[quarton] Ceylan: geek on us. All
+[quarton] Ceylan: right. Maybe let's just forget about finding the pattern. Forget Ceylan, maybe.
+[quarton] Ceylan: Just a temporary fix, like Mr. White said. Well, we know where that signal's coming from. It's Quarton. Let's go.
+[quarton] Slyger: Tenkai Knights! I was hoping you'd come. Be careful what you wish for. Slyger! Tenkai Titan Mode! Activate! Rax! As Vilius commands! We can play that game, too. Oh, yeah. Titan Mode! Hey!
+[quarton] Slyger: Now it's our turn! Tributon! Venetta!
+[quarton] Beni: Well. Be
+[quarton] Slyger: careful. I'd worry about yourselves if
+[quarton] Vilius: I were you.
+[quarton] Slyger: Your friends can't help you. Not this. I
+[quarton] Beni: might give you cooties or just scared. That's a big no to both.
+[quarton] Slyger: I
+[quarton] Slyger: was close. Wait. I got you, buddy. Nice
+[quarton] Beni: catch. Poor Bravenwolf. Tried to warn you. Friends just tie you down. But you had to learn the hard way. Ah!
+[quarton] Slyger: Bravenwolf!
+[quarton] Beni: Let
+[quarton] Slyger: go. I'll be all right. I'll bounce. I can sprinkle my shoes. No, you don't. If any way, I owe you one. Remember? You can buy me a lime parfait later. Now's not the time. You've got a big fight on your hands. Don't worry about me. Alas. The time has come for
+[quarton-battle] Beni: this perfect friendship
+[quarton-battle] Slyger: to come to an end.
+[quarton-battle] Beni: Buh
+[quarton-battle] Slyger: -bye, Bravenwolf! No! You mess with my friend. You mess with me! What
+[quarton-battle] Vilius: happened? Elemental Titan Mode online and operational. Awaiting instructions. Finally.
+[quarton-battle] Slyger: Well, let's do it. Tributon, Tenkai, Ice Blast, Titan Mode, engage!
+[quarton-battle] Ceylan: It's not gonna happen. Not today.
+[quarton-battle] Ceylan: Now I owe you another one. Make it two scoops with whipped cream. And a cherry on top.
+[quarton-battle] Ceylan: Meanwhile, leave Little Miss Mischief to me. To us, you mean? What about Slyger? Ah, we
+[quarton-battle] Toxsa: totally owned his bot.
+[quarton-battle] Ceylan: Yeah. Now
+[quarton] Slyger: it's her turn. Really?
+[quarton] Beni: Three against one? And I thought knights were supposed to be gallant. Well, I've got reinforcements, too. Corrupted, fallen!
+[quarton-battle] Ceylan: Good. I want to see what this new Titan Mode can do. Stand back! Time to put these guys in
+[quarton-battle] Slyger: the
+[quarton-battle] Ceylan: freezer!
+[quarton-battle] Beni: Excuse me if I don't stick around for the group hug. Later! Just wait, amigos. I'd just say one of me is worth four of you.
+[quarton-battle] Mr._White: I gather congratulations are in order.
+[quarton-battle] Ceylan: Well, I guess I was pretty awesome in my new elemental Titan Mode, wasn't I?
+[quarton] Mr._White: Yes, that too, but I was really addressing the whole team.
+[quarton] Toxsa: Friends working together, we can solve anything. Even level nine of the Goblin Mage Maze. Right? Sure. Whatever that is,
+[quarton] Ceylan: everything's back to normal, like nothing ever happened. Yeah, but it did happen, and it'll happen again if we don't do something. That fortress.
+[quarton] Vilius: Trust
+[quarton] Beni: me. You're looking in the wrong place, Vilius. But
+[quarton] Vilius: Granox assured me he'd finally locate the Tenkai Fortress.
+[quarton] Beni: Seriously, Granox? He couldn't find his own gearbox in both hands. You
+[quarton] Vilius: think you can do better?
+[quarton] Beni: Oh, definitely. With the right incentive, of course. You
+[quarton] Vilius: are impudent, aren't you? Very well.
+[quarton] Beag: Whatever
+[quarton] Vilius: you want, just find me the fortress.
+[quarton] Beni: You've got a deal.

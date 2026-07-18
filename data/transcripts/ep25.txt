@@ -1,28 +1,142 @@
-[quarton] Guren: My name's Guren, and my friend Ceylan, Chooki, Toxsa, and I were chosen by the guardians of the planet Quarton to be the new Tenkai Knights. Our mission is to defeat the evil warlord, Vilius, and his army of shapeshifting robots, which was a tough enough job when all he wanted was to be master of Quarton. Now this power-mad goonbot is out to destroy and conquer the Earth, too.
-[quarton] Beag: Eradicate the humans!
-[quarton-battle] Guren: When two of Vilius' strongest henchmen had a nasty falling out, we thought, cool, a weak spot in the enemy's ranks. Then he told us she was tired of serving the bad guys, and needed our help to find the Black Dragon Key. We should have known better. No sooner did we help her find it, than her pal Gin showed up and claimed it for himself. Remember how you said I wouldn't be able to get away? You were wrong about that. Bye-bye. We've been totally playing. On Quarton, Vilius has attacked the guardians and destabilized the dimensional portal. The
-[quarton-battle] Beag: portal is mine! Soon, I will rule both worlds!
-[quarton-battle] Guren: And what about Earth during all of this? That's the scariest part. Thanks to the Haywire Portal, Quarton and the Earth are about to merge into one world. Which will actually mean the destruction of both, unless we can stop it. So it's planetary crunch time for the Tenkai Knights!
-[quarton-battle] 4_Guardians: Is
-[quarton] Gen: there nothing we can do, Boreas? It
+[quarton] Ceylan: My name's Guren, and my friend Ceylan, Chooki, Toxsa, and I were chosen by the guardians of the planet Quarton to be the new Tenkai Knights. Our mission is to defeat the evil warlord, Vilius, and his army of shapeshifting robots, which was a tough enough job when all he wanted was to be master of Quarton. Now this power-mad goonbot is out to destroy and conquer the Earth, too.
+[quarton] Vilius: Eradicate the humans!
+[quarton] Ceylan: When two of Vilius' strongest henchmen had a nasty falling out, we thought, cool, a weak spot in the enemy's ranks. Then he told us she was tired of serving the bad guys, and needed our help to find the Black Dragon Key. We should have known better. No sooner did we help her find it, than her pal Gin showed up and claimed it for himself. Remember how you said I wouldn't be able to get away?
+[quarton] Slyger: You
+[quarton-battle] Ceylan: were wrong about that. Bye-bye. We've been totally playing. On Quarton, Vilius has attacked the guardians and destabilized the dimensional portal.
+[quarton-battle] Vilius: The portal is mine! Soon, I will rule both worlds!
+[quarton] Ceylan: And what about Earth during all of this? That's the scariest part. Thanks to the Haywire Portal, Quarton and the Earth are about to merge into one world. Which will actually mean the destruction of both, unless we can stop it. So it's planetary crunch time for the Tenkai Knights!
+[quarton] 4_Guardians: Is
+[quarton] Slyger: there nothing we can do, Boreas? It
 [quarton] 4_Guardians: is out of our hands, old friend. This battle will be won or lost on Quarton.
-[quarton-battle] Toxsa: Corekai! Quarton, out of our way! Yeah, and make it snappy, will ya? We're kind of in a race here. It's not a race, Toxsa. Let's just take these two goons down. Well, let's do it fast. I want to beat Ceylon. The important thing is achieving our objective. Oh, sure. And beating Ceylon.
-[quarton-battle] Guren: Dromus,
-[quarton-battle] Toxsa: any last
-[quarton-battle] Guren: words, Bravenwolf? Yeah.
+[quarton] Toxsa: Corekai! Quarton, out of our way! Yeah, and make it snappy, will ya? We're kind of in a race here. It's not a race, Toxsa. Let's just take these two
+[quarton] Slyger: goons down.
+[quarton-battle] Toxsa: Well, let's do it fast. I want to beat Ceylon.
+[quarton-battle] Slyger: The important thing is achieving our objective. Oh, sure.
+[quarton-battle] Toxsa: And beating Ceylon.
+[quarton-battle] Slyger: Dromus, any last words, Bravenwolf? Yeah.
 [quarton-battle] Toxsa: And... This
 [quarton-battle] Beag: is it, Slyger! There's no retreat this
-[quarton-battle] Toxsa: time! There's not? But I thought... Sure you can retreat. We won't tell. Valorn, wait a minute. What for? More. Look, every time we KO these Palookas, they just jump up
-[quarton-battle] Gen: and get back in the ring.
+[quarton-battle] Toxsa: time! There's not? But I thought... Sure you can retreat. We won't tell. Valorn, wait a minute. What for? For more. Look, every time
+[quarton-battle] Slyger: we KO these Palookas, they just jump up and get back in the ring.
 [quarton-battle] Toxsa: What's a Palooka?
-[quarton-battle] Gen: Never mind. Just listen. Let's take out the reassembly device and then fight them. Oh. That way they can't put themselves back together. So the next time
-[quarton-battle] Toxsa: we beat them, they'll stay beaten. Yeah, right. And we'll beat Ceylon. Whatever. You ready? Most dead. Then let's give these guys a swing.
+[quarton-battle] Slyger: Never mind. Just listen. Let's take out the reassembly device and then fight them. Oh. That way they can't put themselves back together. So the next time we beat them, they'll stay beaten. Yeah,
+[quarton-battle] Toxsa: right. And we'll beat Ceylon. Whatever. You ready? Most dead. Then let's give these guys a swing.
 [quarton] Beag: That's right. Come to your doom!
-[quarton] Toxsa: Bye. Bye-bye, rust buckets. Huh?
-[quarton] Beag: Hey! They're running away!
-[quarton] Toxsa: No, you fool! They're getting away! After them!
-[quarton] Beag: Okay.
-[quarton] Gen: Stop this game before it's too late! You don't know what you're doing! Talk, talk, talk. I know exactly what I'm doing. Can you say the same? What's
-[quarton] Gen: going on? It must be another side effect caused by the malfunctioning portal. Doesn't matter. I can beat you in any dimension. No, kid, don't! Stop calling me that! But it's who you are! Who I used to be! What's that supposed to mean? You would never understand! You're right, I won't! Not unless you can explain it to me! Why bother? You'll never understand until you know what I know. That life means absolutely nothing unless you have power! When I was younger, I didn't realize I was powerless. I thought my happy life would go on forever. But it didn't. One day, my family wasn't a family anymore. And the life I'd known was over. My whole world was taken from me. And I could do nothing, nothing to get back the way it was. But it's not like any of it was your fault! Of course it wasn't my fault, you fool! That would have meant that I mattered! That I had control over things. But I didn't have control. Nobody does!
-[quarton] Guren: Come on!
-[quarton] Gen: Back then, I was too ignorant to understand that. So I tried hard to make myself better. I drove myself relentlessly. I became an athlete. I got straight As in school.
+[quarton] Toxsa: Bye! Bye-bye, rust buckets!
+[quarton] Beag: Huh? Hey! They're running away! No,
+[quarton] Toxsa: you fool! They're getting away! After them!
+[quarton] Beag: Okay!
+[quarton] Slyger: Stop this game before it's too late! You don't know what you're doing! Talk, talk, talk. I know exactly what I'm doing. Can you say the same? What's
+[quarton] Gen: going on? It must be another side effect caused by the malfunctioning portal. Doesn't matter.
+[quarton] Slyger: I can beat you in any dimension. No, kid! Don't! Stop calling me that! But it's who you are! Who I used to be! What's that supposed to mean? You would never understand! You're right, I won't! Not unless you can explain it to me! Why bother? You'll never understand until you know what I know. That life means absolutely nothing unless you have power!
+[quarton] Gen: When I was younger, I didn't realize I was powerless. I thought my happy life would go on forever. But it didn't. One day, my family wasn't a family anymore. And the life I'd known was over. My whole world was taken from me. And I could do nothing, nothing to get back the way it was. But it's not like any of it was your fault! Of course it wasn't my fault, you fool! That would have meant that I mattered. That I had control over things. But I didn't have control. Nobody does! Come on! Back then, I was too ignorant to understand that. So I tried hard to make myself better. I drove myself relentlessly. I became an athlete. I got straight A's in school.
+[quarton] Vilius: Pathetic, wasn't
+[quarton] Slyger: it?
+[quarton] Vilius: I
+[quarton] Gen: thought if I... if I was a good boy, surely that would be enough to make everything right again. And it would be like nothing ever happened. And my life would be the way it was. It wasn't, of course. Nothing I did changed a thing. For the first time in my life, I knew what it was like to be truly powerless.
+[quarton] Slyger: Don't say that! It's never wrong to try and make yourself a better person!
+[quarton] Gen: No, Guren. There's no right or wrong. No good or evil. There
+[quarton] Slyger: is only power!
+[quarton] Beag: So far, there is still no official explanation for the bizarre cubification phenomenon, despite the best efforts of scientific experts. But a government spokesman stated there is no cause for alarm.
+[quarton] Slyger: There definitely is cause for alarm, but then what do you expect the authorities to say?
+[quarton] Beag: Meanwhile, reports of similar disturbances are coming in from all over the globe.
+[quarton] Toxsa: I think our plan to beat those guys later might not fly. They're right on our tails! Oh, no! You're right! I don't know where this thing is, but we gotta win this race! Look who wants to win now. Hey, as long as the bad guys are after us, we know we're going in the right direction. Oh, well,
+[quarton] Slyger: you've got a point, I guess.
+[quarton] Toxsa: Well, of course, we could just rely on our sensors, which are telling us to go this way. Where's the fun in that?
+[quarton] Beag: Stop and fight, you cowards! The
+[quarton] Vilius: time draws near. That's
+[quarton] Slyger: why you turned your back on the world because of family problems? That's why you decided to serve Vilius? I don't serve anyone but myself!
+[quarton] Gen: And why should I care about the world? My world was lost long ago. The happy, make-believe dream world of my childhood. We all have to grow up sometime, Guren.
+[quarton] Ceylan: You can't mean that.
+[quarton] Gen: Look at you. That look of pity on your face. Save your pity for yourself and your friends. You'll need it more than I will. And save it for all the people living on those two worlds that are about to merge. What?
+[quarton] Slyger: You would really let that happen?
+[quarton] Gen: Yes, I would. To gain power,
+[quarton] Slyger: I'd burn half the universe down! Nothing matters but power.
+[quarton] Gen: Without it, you're nothing. Just a weak and helpless slave to circumstance.
+[quarton] Slyger: Power sets you free! And somewhere deep down inside you, Guren, you know I'm right! I know you're crazy! Whatever. Like I said, you'll never understand! Aaaaah! Bravenwolf!
+[quarton] Gen: What happened? Where'd you go? You're lucky I have more important things to do than waste my time on YouTube. Come on! We've gotta stop him! You
+[quarton] Ceylan: got
+[quarton] Gen: it!
+[quarton] Beni: Did you forget about me? I was beginning to feel left out. You
+[quarton] Slyger: sure this is right? It's gotta be. Yep, we're close alright. How do you know? Because of all the guards. Either that or it's a really long line for the bathroom. Watch it! We're gonna need backup! Uh-oh. You're
+[quarton] Beag: gonna need a lot more than that, Knights. Yes! You're going to
+[quarton] Slyger: need the reassembly device yourselves by the time we're done with you!
+[quarton] Beag: Huh?
+[quarton] Beag: What happened? Beag, what happened? Alright! Move out, heroes! We'll hold off these two renegades while you continue on and fulfill
+[quarton] Beag: your objective! Thanks, Beag. Don't go too easy on them. Stand aside or be destroyed, you underling! Who are you calling an underling, you underling? Build a Tenkai wall! Yes, sir! Come
+[quarton] Gen: on! You asked why I turned my back on the world, Guren. The world turned its back on me. And I accepted that. I'd lost my family, and one by one my friends. I was alone. Then, one day, there was Eurus. You had your guardian. I had mine. He alone understood what I wanted. Not family or friends, but power. He offered me powers I'd never imagined. The promise of an even greater power. The most terrible of all. The power of the Tenkai Dragon. The promise is about to be fulfilled! All the power I ever dreamed of is finally mine!
+[quarton] Slyger: I don't think so, Dromus! You and I have unfinished business!
+[quarton] Gen: You should have stayed where you were!
+[quarton] Toxsa: The what? The final obstacle in Tombs Belonger 3. These things always have, like, a secret password. Password? We don't need
+[quarton] Slyger: no stinking password! Yeah.
+[quarton] Toxsa: Or, uh, or that.
+[quarton] Slyger: Where is it? AI, can you locate the reassembly device? Nothing could be simpler.
+[quarton] Vilius: You
+[quarton] Slyger: are currently standing in it.
+[quarton] Vilius: This chamber is the reassembly device.
+[quarton] Toxsa: Wow, it's like the living mothership in the StarSploder expansion module. Toxsa! What? Not now. Let's shut
+[quarton] Slyger: this thing down. Got it. The wrecking crew has arrived! Knock it out of the pudding!
+[quarton] Toxsa: Yeah,
+[quarton] Slyger: I wonder how the others
+[quarton] Toxsa: are
+[quarton] Beag: doing. Okay, I do like winning. You haven't won yet! I know. You'll
+[quarton] Slyger: pay for that! You can't escape us this time. And you can't be reassembled. So there. I never liked how that thing felt anyway. Too much for my delicate servants.
+[quarton] Beag: And besides, they're the ones who are going to get smashed to pieces! Gah!
+[quarton] Slyger: So life's not fair! Things aren't so perfect in my life either! Glad to hear you finally admit it. Like I've always said, you and I are two sides of the same coin. Give me a break! Not that coin speech again! Tell the truth! You'd be going after the same thing I am if only you had the guts! You couldn't be more wrong. Oh, really? What you're doing doesn't take guts. It doesn't, huh? No! It's easy being bad! Taking your anger out on the rest of the world? Anybody can do that! That's the easy way out! But getting past the pain and turning the bad into something good? That's the hard way! It's also the right way! Why would anyone who suffered want to inflict that pain on someone else? You should know better, Gan! Huh.
+[quarton] Gen: That's the thing about the two sides of a coin. You can't ever make them come together.
+[quarton] Slyger: Just like we'll never understand each other! You're wrong, Gan! I think you do understand me! And I think there's still a part of you that knows I'm right! Just fight! Let's get it over with! Enough talking!
+[quarton] Vilius: More than enough, if you ask me! You can finish this little debate later. Right now, it's the Black Key I'm interested in. You have it, I assume, Dromus? I have it. Excellent. Hand it over. What's the meaning of this hesitation?
+[quarton] Gen: What if I refuse to hand it over?
+[quarton] Vilius: Are you saying you would disobey me? Think well before you answer.
+[quarton] Gen: I'm saying I don't need to obey you. Not anymore. Those days were... Those days are over, Vilius. How foolish. You're the fool if you can't see it! I have the Black Dragon Key! I hold all the power! I'm the master now! If you're lucky, I'll let you serve me!
+[quarton] Vilius: Lovely speech, Dromus. Very dramatic. But you seem to have forgotten one thing. What's that? You hold only the means to power. Not power itself. Not yet!
+[quarton] Slyger: Well, you're both out of luck as long as I'm around!
+[quarton] Vilius: Enough of this pointless exercise! So, you crave power, do you, Dromus? Very well. Here's a taste of it! Out
+[quarton] Vilius: the key! Imagine what it will be like when I've revived the Dragon! Some are destined to be masters, but you are not one of them. You need a very excellent lackey, though, and for that I'm grateful.
+[quarton] Slyger: Wait a second, Vilius! Be
+[quarton] Vilius: silent and watch! Such
+[quarton] Vilius: immeasurable power you have. And with this key, it all becomes mine at last.
+[quarton] Vilius: Awaken, Dragon! Vilius commands you!
+[quarton] Slyger: Darkseid has revived!
+[quarton] 4_Guardians: I fear this means the Knights have been captured. Or worse.
+[quarton] Gen: Boreas, you don't think...
+[quarton] Vilius: Conquer both worlds! And worlds beyond!
+[quarton] Slyger: Think again!
+[quarton] Vilius: What?
+[quarton] Slyger: I'm gonna knock you off that dragon, dumpster bot!
+[quarton] Vilius: Ha! Bold words to the last, eh, Bravenwolf? Destroy them, Dragon! What
+[quarton] Slyger: is that?
+[quarton] Toxsa: Bad
+[quarton] Slyger: news. I think it means we won the race. Well,
+[quarton] Beni: it would have been fun, boys. But from the sound of things, my job here is finished. What? Hear that? The Tenkai Dragon's awake, and he's in a bad mood. I think I'll just let him finish you off. You two chicken to fight? I don't fight battles that others can fight for me. Why risk getting a dent in my pretty armor? I
+[quarton] Slyger: got news for you, Pinkie. You're gonna have more than a dent in you when I'm done.
+[quarton] Beni: Sorry. Tell it to the puff of smoke I'm about to turn into. Bye. Don't even try! At least
+[quarton] Ceylan: the puff of smoke doesn't talk back! Do
+[quarton] Slyger: what you mean. Some power, all right. You
+[quarton] Gen: haven't seen the half of it, and it should have been mine.
+[quarton] Beag: Okay!
+[quarton] Slyger: Game on!
+[quarton] Beag: Your lucky streak's about to end, Knights! We're gonna crush you this time! Yes!
+[quarton] Slyger: This time you will taste defeat!
+[quarton] Toxsa: I feel a rush of confidence surging through my circuitry! Static buildup, more likely. You know what? I'm
+[quarton] Slyger: really gonna miss having you guys around to beat up on.
+[quarton] Beag: By the way, Slyger, the worst should happen. Just wanna say... No
+[quarton] Vilius: need, Granox. I know you've always admired me more than you've admit. Well,
+[quarton] Beag: I wouldn't put it quite like that, but anyway, if we don't win this fight, I...
+[quarton] Slyger: Oh, we're going to win, all right. Don't worry, you'll have plenty of chances to tell me how you secretly looked up to me all this time. That's
+[quarton] Beag: not even remotely what I... Oh, never mind. Forget I even brought it up.
+[quarton] Toxsa: Are these guys gonna attack us, or just talk us to death?
+[quarton] Slyger: Let them talk. At this rate, they may end up attacking each other.
+[quarton] Beag: Now or never, Slyger! Let's make this one count! Agreed!
+[quarton] Slyger: Hey,
+[quarton] Toxsa: we can do that!
+[quarton] Slyger: Oh, yeah! For Vilius and victory! Victory! Tenkai Knights!
+[quarton] Beag: Missed this part.
+[quarton] Slyger: Yeah,
+[quarton] Beag: no way, it's kind
+[quarton] Slyger: of a rela...
+[quarton] Toxsa: Lydendor, my man. Who are we gonna use for target practice now? We'll come up with something. On
+[quarton] Vilius: Corekai, matter the walls down. What does a mere fortress matter to one who is master of worlds?
+[quarton] Slyger: It's over. What do you mean, over? Speak for yourself, dude. I'm just getting started! All
+[quarton] Beag: traffic and commercial activity, and indeed just about everything, has come to a standstill. As the effects continue to spread, it's becoming increasingly clear that no one, not even the experts, know what this strange ubification is. Or what's causing it. Or what it means for planet Earth.
+[quarton] Slyger: Shotenma just got a new babe. Run, Simura Ipren! And this time, he's waiting for power. Oh, yeah, baby! With the help of old friends. We did it, show! And new ones. Yahoo! A friend! He'll go beast mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now! Only on Cartoon Network. Beast mode!

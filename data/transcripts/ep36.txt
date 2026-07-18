@@ -1,42 +1,161 @@
-[quarton-battle] Guren: We're in here, and in case you've missed it, we've been trying to keep Vilius and his corrupted goon squad from getting their hands on the Tenkai Fortress, a mysterious and powerful source of Tenkai Energy. It hasn't been easy, especially now that Vilius has got the Guardians fighting on his side, but we've held our own, thanks to this awesome new elemental type mode we've learned. Well, most of us have learned, for some strange reason. We can't get it to work every time. Poor Bravenwolf. Well, poor at all. That's really starting to bum me out. I
-[quarton-battle] Guren: just wanted to say that. Five's
-[quarton-battle] Ceylan: around the line, five times for sure. Bravenwolf, Tenkai...
-[quarton-battle] Vilius: Tenkai Energy runs low. I will finish you next time.
-[quarton-battle] Ceylan: Don't get your hopes up. Well done, Knights! Once again, you've won the day! Why can't I go Titan?
-[quarton-battle] Toxsa: Bravo! Good job, everyone. That was no biggie. Hardly broke a sweat. We're getting to be pros at elemental Titan mode. Well,
-[quarton-battle] Guren: at least... ...most of us are. Slowpoke. Eh, you're right.
-[quarton-battle] Vilius: I had thought that the power of the Guardians would be more than a match for the Tenkai Knights. Apparently, I was mistaken. Your only mistake was in sending the wrong Guardians to do your bidding, Vilius. Power is nothing without the will to use it. What do you mean? You're weak, every one of you. Your powers are held in check by fear of the old laws that demanded we remain neutral. You, on the other hand, don't have such qualms? And why is that? Because I know the best way to restore the balance is to serve you, and the best way to serve you is to destroy the Knights. Well, I must say, Ulyss, I
-[quarton-battle] Slyger: like your attitude. ***
-[quarton-battle] Toxsa: ***
-[quarton-battle] Guren: Dude, are you hiding out? Huh? Of course not! I just thought that... Look, I didn't really mean that Slowpoke crack. Oh. That's okay. But, hey, I can't talk right now, Ceylan. I've gotta get going.
-[quarton] Ceylan: I thought we were hanging. Sorry.
-[quarton] Guren: Something came up. Huh? Like what? Oh,
-[quarton] Unknown: it's you, Guren.
-[quarton] Guren: Orange juice, please. Hold the ice.
-[quarton] Unknown: There you go. Don't hurt yourself with the straw.
-[quarton] Guren: Wakame, you're, like, really good at sports, right?
-[quarton] Unknown: Well, yeah, I'm not gonna lie.
-[quarton] Guren: Have you ever had a shot or a special move that you just can't seem to make anymore?
-[quarton] Unknown: Whenever that happens to me, it's back to the basics. Training, training, training.
-[quarton] Guren: I see. It's that simple, huh? Thanks for the advice. Uh,
-[quarton] Toxsa: Guren? Was that Guren? Hey, what's up with that? He bugged out without saying hello?
-[earth] Unknown: No, worse. He bugged out without paying. I
-[earth] Guren: don't know what it
-[earth] Toxsa: is, but there's something funny going on with Guren. Yeah, he's not right. I'll say he's not. I just had to pay for a large orange juice out of my own pocket. You know what's wrong with him, Mr. White?
-[earth] Slyger: I don't, but I will say this. There is no rock. So great and mighty, it cannot crumble.
-[earth] Guren: Thanks, Big Help, as always. I think he means.
-[earth] Slyger: The pressure's getting to him. You know? What pressure? Homework? I mean, always having to be the leader. That kind of pressure can cause performance anxiety.
-[earth] Toxsa: You
-[earth] Slyger: think?
-[quarton-battle] Toxsa: So that's why he can't go Titan mode
-[quarton-battle] Slyger: anymore? Yeah. It's like a pitcher suddenly losing his slider. One day, he's pitching a shutout. Next day, he can't hit the strike zone. You saying we should trade him? I'm saying we've all got to try and take the pressure off him. Especially you, Ceylan. Me? Sounds like a plan, Chooki. So it's agreed. We keep Guren's mind off the Tenkai Knights.
-[quarton-battle] Ceylan: Seven. Seven?
-[quarton-battle] Gen: What's the point of cheating on yourself? Come on, that was more like five. So you're trying to get your mojo back?
-[quarton-battle] Guren: Yeah. Something like that.
-[quarton-battle] Gen: Okay, but why are you keeping it a secret from the other guys? Isn't that why you have a team? They're there to help.
-[quarton-battle] Guren: Admit it. I shouldn't keep this to myself. Yeah. Yo, whatcha lookin' at? Perfect timing. Ceylan? Mm-hmm? I've been kinda... underperforming lately. Know what I mean? I'm saying... we've all gotta try and take the pressure off him. Mm-hmm. Yeah, great. But never mind that now. More important, did you watch Overboard Heroes last night? No, I had too much homework, but that's not what I want... You didn't watch it? Well, don't worry, I did. You know the princess with the mustache, the one from outer space? Turns out she's a ghost, and there's this giant squid. At least he looks like a squid. Anyway, he goes berserk from nuclear poisoning. Chooki, hey, you got a minute? Sure, Guren. What's up? I know, I haven't been pulling my weight lately. I'm all ears. I
-[quarton-battle] Slyger: just hope the bell doesn't ring and, you know, interrupt us. We're just getting started, and I've gotta go! I promise I'd leave karate practice today! I feel terrible! Just terrible!
-[quarton-battle] Guren: It's cool. Don't break the table. Okay. Later. That was weird. No one wants to listen.
-[quarton-battle] Toxsa: Guren! Wait up! Oh,
-[quarton-battle] Ceylan: hi, Toxsa.
-[quarton-battle] Guren: Hello. I was starting to think you guys might be avoiding me. I signed up for a new job.
+[quarton] Ceylan: Guren here, and in case you missed me, for a while there, I was having trouble leveling up to elemental type mode like the other guys. Luckily, when the pressure was on, I finally came through. So now I've got my mojo and my confidence back. Good thing too, because if we don't stop Vilius and his goons from finding the Tenkai Fortress, we're going to be in some serious trouble. Yeah, talk about pressure. And
+[quarton] Beag: then at last I saw it glowing
+[quarton] Vilius: there. Actually, I saw it first. You're not enough, you clattering clods. You're saying that you finally found the Tenkai Fortress?
+[quarton] Slyger: Yes, oh mighty master. I'm proud to report that we have indeed.
+[quarton] Beag: Yes, but to be completely accurate, I found it. You?
+[quarton] Slyger: Vilius, I'm the one who calculated the coordinates and led us there. Granox was useless.
+[quarton] Beag: Useless? Who blasted a hole through the mountain while you were twiddling your claws? Oh,
+[quarton] Slyger: any grunt can
+[quarton] Beag: blast a hole. You're the useless one,
+[quarton-battle] Vilius: Sly. I can't decide which of you is the most useless. Oh,
+[quarton-battle] Ceylan: Tidus. Ah,
+[quarton-battle] Vilius: in any case, if the fortress has really been found, then I am one step closer to victory, but I won't believe it
+[quarton-battle] Beag: until I see it for myself. I will be honored to take you to it, Vilius. You, I was in command of the search party, I should be the one to go.
+[quarton-battle] Slyger: You couldn't even find it. You just stay here and practice blasting holes
+[quarton-battle] Beag: and things. I'll blast a hole in you if you don't watch out. When you're in, breathe.
+[quarton-battle] Ceylan: Good boy. You can blast a hole in your foot.
+[quarton-battle] Vilius: We'll just shoot it. Whoever is the first to back on his feet gets to go. Almost
+[quarton-battle] Ceylan: like a normal kid?
+[quarton-battle] Toxsa: Yeah, yeah. You're just jealous.
+[quarton-battle] Ceylan: Is that the new Turbo 90? I
+[quarton-battle] Ceylan: thought they
+[quarton-battle] Ceylan: were sold
+[quarton-battle] Ceylan: out everywhere.
+[quarton-battle] Ceylan: They're probably not as popular in that color, huh? What is it, eggplant? You finally got your folks to buy you one? You must have had to do a lot of chores. Well,
+[earth] Toxsa: let's just say the diner's never been cleaner.
+[earth] Ceylan: You're lucky. I could practically sterilize my room and my
+[earth] Toxsa: parents still would never buy me one. I'll let you guys use it sometimes, if you're careful. Watch this. Nice riding, Toxsa. That's nothing. Look, a lolly-golly into a deep, slow-dermid twist and it'll get you. Okay,
+[earth] Unknown: let's see. Carpet cleaner. Carpet cleaner. Where would I find carpet cleaner? If it's my luck, it'll be way up on the top shelf.
+[earth] Ceylan: Hey,
+[earth] Ceylan: Dad, I found it!
+[earth] Unknown: Boy, was I in the wrong aisle. Great. Good job.
+[earth] Ceylan: And the toothpaste? I got two, because they're buy one, get one free. Well,
+[earth] Unknown: aren't you being helpful today, Guren. I really appreciate it. Whatever your ulterior motives are.
+[earth] Ceylan: What?
+[earth] Unknown: So, how was school? Did you have a good day? All systems still go for your ancient history test? Mm-hmm. Are you sure? I mean, I don't know much about Mesopotamia, but I could probably fake it for you.
+[earth] Ceylan: Oh, sure.
+[earth] Unknown: I'll never help you out, right? Anyway, I just want you to remember. Max isn't the only friend you've got lying around the house. Ah, speaking of Max, we forgot to buy those little catnip thingies for him. Huh? Guren? I
+[earth] Unknown: see, something caught your eye. Pretty sweet board.
+[earth] Ceylan: Yep. Toxsa's folks got him one. You know, for helping at the diner.
+[earth] Unknown: Is that right? And I suppose you think you've earned one by helping me do some of the shopping today, huh? Oh,
+[earth] Ceylan: well...
+[earth] Unknown: No way. However, if you ace that big ancient history test you've got coming up next week, then maybe we'll talk about it. What do you say?
+[earth] Ceylan: Really? It's a deal!
+[earth] Unknown: So, you hungry? Because I could... Sorry, Dad.
+[earth] Ceylan: Can't talk now. Gotta study. History test! Your history! Hmph! The Romans beat the Persians. Or was it the Greeks? The Persians beat the Assyrians. Before that, the Assyrians beat the Babylonians.
+[earth] Ceylan: Can't hang today, guys! Abyssinia! Abyssinia! The
+[earth] Ceylan: Babylonians beat the Sumerians. Oh, wait. Who did the Romans beat? I know they beat somebody. I know
+[earth] Ceylan: how you've all been looking forward to this test. So, if everyone's ready... You are ready, Guren! You're gonna nail...
+[earth] Ceylan: Uh... Gesundheit? Whoa! That was the deal. I did well on the test. You must have got a hundred on it. Hundred and ten. Man,
+[earth] Ceylan: did you score! And the color combo's a lot less lame than Toxsa's. Well, I guess that explains why you haven't been hanging around much lately.
+[earth] Ceylan: Yeah. I've been hanging with the Babylonians, mostly.
+[earth] Ceylan: Whoever they are. We've got two boards, and now we can race them! Yeah, but it's so nice and shiny and new, I almost don't want to use it. Why don't you frame it? All
+[earth] Toxsa: right.
+[earth] Ceylan: Who gets to race
+[earth] Toxsa: against Guren first?
+[earth] Ceylan: Meanie,
+[quarton] Toxsa: meanie, miney. Moa, I win. That's fair.
+[quarton] Ceylan: I should warn you that during all that time you were with the Babahoosawatts, I was mastermin' this thing. So if you want to back out, bring it on, dude.
+[quarton] Ceylan: Okay, Max. That's enough. Oh, you're gonna scratch it. Go play somewhere else, Max.
+[quarton] Unknown: It's just a skateboard, Guren. It's bound to get a little scratched up sometime. A
+[quarton] Ceylan: skater takes pride in his board, Dad. Oh, yeah. Lookin' good. Be
+[quarton] Slyger: behind and hold down the fort. I didn't expect to have to scrub down the fort, too. So not fair. I'm the one who found the Tenkai Fortress, not that clunk, Granox. Yes,
+[quarton] Vilius: indeed. That must be the fortress. I told you, didn't I, Vilius? I was right, wasn't I? For once. Now the question is, can you keep it from falling into the hands of the Corekai? Yeah, you know it. No, actually, I don't. So just to make sure, I'm going to enhance the powers of your war stallion.
+[quarton] Beag: Ooh, shiny. I don't like the look of that, Commander. That makes two of us. We're going to meet the Knights.
+[quarton] Ceylan: Okay, check this out. Classic kickflip. Oh, yeah? Oh, the air walk. Watch this. Double Doom-Sploder wheelie. Yeah.
+[quarton] Toxsa: Toxsa! Hey, you okay? Yeah. Nothing like a big finish. The
+[quarton] Ceylan: best part of the finale is when the ambulance shows up. Hey, Guren, can I try your board? I'll be more careful than Toxsa. I trust ya. Watch. I've mastered moves they haven't even invented yet.
+[quarton] Ceylan: Not bad. Yeah. Now watch this move. It's so amazing, I don't even have a name for it yet. Ah! Oh, stop! Ah! No,
+[quarton] Ceylan: my board! He
+[quarton] Ceylan: was driving way too fast. Don't you think?
+[quarton] Ceylan: I
+[quarton] Ceylan: mean...
+[quarton] Ceylan: Um...
+[quarton] Ceylan: Hey, dude. I'm sorry. Really, I'm sorry. It's okay. What's there to be sorry about? Huh? Hey, it wasn't like it was your fault that doll got loose, right? It was just bad luck. Yeah, but I know how much you loved that thing. You said it's okay. You sure? Well,
+[quarton] Toxsa: meanwhile, we're being summoned. Guren, sure
+[quarton] Ceylan: you're not mad? We need you focused on Quarton. I'm fine. Let's go. There you are, prompt as usual.
+[quarton] Ceylan: What have you got there, Guren? Some kind of... Aboriginal... Shield? Or... No, it's just another piece of junk. Is everything all right with Guren?
+[quarton] Ceylan: That's what we're not sure of, Mr. White.
+[quarton] Ceylan: Yeah. What took you guys so long? Listen, I don't blame you if you're mad. But Chooki's right. You don't want... Hey, I'm not mad. Wow, how many times do I have to say it? So come on, let's go.
+[quarton] Ceylan: Obviously.
+[quarton] Beag: Uh, yes. In any case, after all their searching, the Corrupted have finally located the Tenkai Fortress. It must not fall into their hands. Don't
+[quarton] Ceylan: worry. It won't. Roger that. We own these goons. Yeah, but first we better scope out the situation and make sure it's not a trap or anything. How many times do we have to go through this? What do you mean? I don't know about you guys, but I'm sick and tired of it. I say we put these corrupted goonbots out of commission once and for all. Right now! Bravenwolf! Wait! They have a powerful new weapon!
+[quarton] Beag: Here
+[quarton] Ceylan: they come!
+[quarton] Beag: They're fools.
+[quarton] Ceylan: Yeah! Let's kick some butt!
+[quarton] Beag: Welcome, Knights! Thank you for rushing right into the trap! Did you really think it would be that easy? My Ice Rhino's gonna freeze you to your frozen... stuff!
+[quarton] Ceylan: Snowcone, that's my trick! This is just what I was afraid of. Look, Bravenwolf. It's one thing to be mad, but you don't want to let it cloud
+[quarton] Toxsa: your judgement. Yeah, you kind of jumped the gun. It's like the time I played in a Doom's Floater tournament and I was mad about my ranking because... I'm not mad! Watch out!
+[quarton] Beag: Freeze, you Korokaisikos! I made that up!
+[quarton] Ceylan: Just go tight. We need to buy some time.
+[quarton] Beag: What's wrong, Knights? Too cold for ya?
+[quarton] Ceylan: Almost had him. No, you didn't. What? And what's more, you won't, until you get a grip. Look, if you're still mad at Ceylon for wrecking your new board, just admit it. Get it out and put it behind you. I keep telling you, I am not mad! Yeah, right. And that's why I can see your eyes buggin' out even through your visor.
+[quarton] Vilius: Why should I let a mere flunky like Granox have all the fun?
+[quarton] Ceylan: Vilius!
+[quarton] Vilius: So, we meet again, Knights. I'm delighted you're all here, because I have a very special surprise in store for you.
+[quarton] Ceylan: Yeah, and what's that?
+[quarton] Vilius: You're in annihilation. I'm disappointed in you, Knights. You've all seen any stronger than the last time we met. Quite the opposite, in fact.
+[quarton] Ceylan: We haven't even warmed up yet. Just wait. You guys take care of Granox. Leave Vilius to me. Hold on. Pause button? Shouldn't we? Hey! No, wait! Like I said, it's time to finish this once and for all! Bravenwolf! Tenkai Firestorm! Typhoon! Engage! Not
+[quarton] Ceylan: quite. It's just
+[quarton-battle] Vilius: beginning.
+[quarton-battle] Ceylan: What the? You think that's gonna stop me?
+[quarton-battle] Vilius: So, this is the elemental Titan mode you're all so proud of. Well, I'm sorry to disappoint you, but you'll have to do better than that.
+[quarton-battle] Beag: A lot better!
+[quarton-battle] Ceylan: Dude! His
+[quarton-battle] Ceylan: Titan mode's gone south!
+[quarton-battle] Beag: Did you forget about me?
+[quarton-battle] Ceylan: You? You're nothing. We got bigger problems. Bravenwolf, pull up, dude! You
+[quarton] Beag: looked like you needed a pick-me-up. Uh-uh.
+[quarton] Ceylan: Thanks, Meek.
+[quarton-battle] Beag: It's an honor. Besides, I'm an expert Volt Jet pilot, and I love flying these things.
+[quarton-battle] Vilius: What's this? You're fleeing already? I'm not impressed.
+[quarton-battle] Ceylan: Take me back, Meek. I've got a fight to finish.
+[quarton-battle] Beag: At once, Bravenwolf. But first, may I tell you a little story? Seriously?
+[quarton-battle] Ceylan: I,
+[quarton-battle] Beag: myself, was once guilty of going into battle full of anger. Oh, no. Not this again. I know the feeling. I've been there. I was jealous of another Corekai, because he got to lead the charge and not me. Made me so mad, I-
+[quarton-battle] Ceylan: I am not mad, okay?
+[quarton-battle] Beag: Anyway, the point is, I fought so badly, I barely survived the battle. My anger had clouded my judgment. I'm not angry.
+[quarton-battle] Ceylan: But I'm getting there.
+[quarton-battle] Beag: I was blind to strategic advantages that lay right in front of me. Just as you seem unaware that you could shapeshift this jet into the Flame Phoenix.
+[quarton-battle] Ceylan: Shapeshift? Really? Well, why didn't you say so? Flame Phoenix! Flame
+[quarton-battle] Ceylan: Phoenix? That's a new one. I didn't mean to have the joy at this minute! Ha ha ha! Oh,
+[quarton-battle] Ceylan: Vilius! Because you're playing with fire!
+[quarton-battle] Beag: What? A snook from the sky!
+[quarton-battle] Ceylan: That's right, Granox. Come and get it while it's hot!
+[quarton-battle] Beag: Ah, I'm sick of that!
+[quarton-battle] Ceylan: Flame Phoenix Supernova!
+[quarton-battle] Beag: Go! Retreat!
+[quarton] Ceylan: Turn
+[quarton-battle] Beag: around, you dumb rhino! Not again! We're
+[quarton-battle] Beag: cooked. Ah, ferret. Are you joking? Just take a look around.
+[quarton-battle] Vilius: Oop. A
+[quarton-battle] Beag: height,
+[quarton] Vilius: Vilius. We pushed the knights nearly to the breaking point. Next time, we'll break them to pieces. Next time? Oh, good. I can hardly wait.
+[quarton] Ceylan: Retreat!
+[quarton] Beag: Bravenwolf done did it. Thanks to all of you. The Tenkai Fortress, along with its awesome power, belongs to us. Guard it well, Beag. And if Vilius and his goons show up again, so will we. Excellent! And together, we'll send them packing once again!
+[quarton] Ceylan: Hooray! Hooray!
+[quarton] Ceylan: Guren couldn't still be mad at me, could he?
+[quarton] Ceylan: Well done, boys. Such a wonderful victory deserves a celebration. Well, how about a nice cup of tea? Or perhaps you need to be getting home?
+[quarton] Ceylan: Afraid so.
+[quarton] Ceylan: Don't forget this, Guren. It may be broken, but
+[quarton] Ceylan: something else can be repaired. You're right. The
+[quarton] Toxsa: problem with owning a dinosaur? The fact that the designer is deciding what to have for dinner? There's just so many great things! And not to rub it in or anything.
+[quarton] Ceylan: I'm sorry, Ceylan. Huh? I was mad. But mostly, I was mad at myself for getting mad at you when it wasn't your fault. Uh, it's
+[quarton] Toxsa: cool.
+[quarton] Ceylan: Anyway... Thanks, Guren. For what? Well, you know, for being honest with me. No prob. I'm the one who's sorry. I mean, after all, I did break your new board. Forget it. We're both sorry. Heh.
+[quarton] Toxsa: Something we can all agree on. You're both pretty sorry.
+[quarton] Ceylan: You should know. Talk about the popcorn in the kettle black.
+[quarton] Ceylan: Turbo Scooter 850!
+[quarton] Toxsa: How'd you score that? Kind of a weird color, isn't it?
+[quarton] Ceylan: Jealous much?
+[quarton] Ceylan: They're,
+[quarton] Toxsa: like,
+[quarton] Ceylan: sold out everywhere. How'd you even find one?
+[quarton] Toxsa: What color is that? Sour
+[quarton] Ceylan: grapes. Well, Guren, I saved you the first ride. You wanna break it in? I figured it's the least I could do.
+[quarton] Ceylan: Just
+[quarton] Ceylan: steer clear
+[quarton] Ceylan: of Gustav. Oh,
+[quarton] Ceylan: you don't have to do that. Come on, dude. I'm trying to make a gesture here, you know? Yeah, I know. Thanks. But really, you oughta... Just get on, will ya? Don't make it so difficult.
+[quarton] Ceylan: Fine. I'll break it in. Hey! Toxsa! Hehe! Later! Don't even think about it! No fair! Hey, it's back! Come on, Toxsa! I wanted you, my great friend! You put my friend in the back!

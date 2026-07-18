@@ -1,30 +1,33 @@
 [quarton] Ceylan: Guren here, and in case you missed it, the Knights and I were transported to Beast World, and we've been trying to get back home ever since. The Beast King promised to let us go if we won a soccer tournament. Then he changed his mind, and said he'd only send us home after we competed in a high-speed robofusion race. Then it was a treasure hunt in the jungle, and ended up with us running for our lives from a bunch of monkey pods. The Beast King and his goofball sidekicker, Rangor, keep changing the game. Even worse, they keep changing the rules. There's just no winning with these guys. That's it. I'm starting to get a sinking feeling. We're never going home. Where
 [quarton] Ceylan: have they sent us to now? It's Venom City again. It's even crazier than ever. My
 [quarton] Beag: hometown with polka dots. The home of the Tenkai Knights. I can see why you're all so eager to get back to it. The color scheme is simply exquisite! What?
-[quarton] Ceylan: Remind me not to hire you as a decorator, Beak. I wonder what game they've got in store for us this time. Huh.
-[quarton] Unknown: Doesn't
+[quarton] Toxsa: Remind me not to hire you as a decorator, Beak. I
+[quarton] Ceylan: wonder what game they've got in store for us this time. Huh.
+[quarton] Toxsa: Doesn't
 [quarton] Ceylan: matter.
-[quarton] Unknown: Whatever it is, they'll come up with some excuse to
-[quarton] Ceylan: say we didn't win.
-[quarton] Unknown: It's like they're never going to let us get back to the real
-[quarton] Ceylan: Venom City.
+[quarton] Toxsa: Whatever it is, they'll come up with some excuse to say we didn't win. It's
+[quarton] Ceylan: like they're
+[quarton] Toxsa: never
+[quarton] Ceylan: going to let us get back to the real Venom City.
 [quarton] Toxsa: Wait till I catch that Arangor. I'm going to frag his motherboard.
 [quarton] Beag: Leave Arangor to me, Valorn. The next time we encounter that deceitful imp, I'll-
 [quarton] Unknown: Oh, tell me, tell me. What are you going to do to me? I can't wait to find out what you've got in my eyes. What
-[quarton] Unknown: are you
-[quarton] Ceylan: going to do to me, Mr. Long-Eared Nose? Worse if you try and trick us again.
+[quarton] Unknown: are you going
+[quarton] Ceylan: to do to me, Mr. Long-Eared Nose? Worse if you try and trick us again.
 [quarton] Beag: Yes, watch out, Orile. Just a simple you, like a- Did I just do that? Oh,
-[quarton] Unknown: yeah, I'd like to see you try it. Come on, guys. Let's go. Bring it! Hey! What are you doing? Ignoring me? How are you going to hurt my feelings like that? Just
+[quarton] Ceylan: yeah,
+[quarton] Unknown: I'd like to see you try it. Come on, guys. Let's go. Bring it! Hey! What are you doing? Ignoring me? How are you going to hurt my feelings like that? Just
 [quarton] Ceylan: stop bugging us, will ya?
-[quarton] Unknown: Puffy ass, I dare you to resist. Sorry, not going to work this time. Yeah, try it on somebody else. We're not playing any more of your games, you big cheater. Right! Wait, hold on! It's the last one, I promise. Win this one and you'll get your wish. Why should we believe you? Come on, please, please, ow, ow, ow, ow. Seriously, this one's for the whole enchilada. Win and you get to go home. Lose and you stay here forever. So, deal? Mm-hmm. You guys'll love this game, really. Okay, so it's called Tag the Flag and I'm in. You ready? It's capture the flag meets hide-and-seek meets freeze tag, especially freeze tag. Okay, ready, huh, brother? Are you ready? Are you ready? Uh
-[quarton] Ceylan: -uh, forget it.
-[quarton] Unknown: Why
-[quarton] Ceylan: not? Why not? Why not? And I repeat, why not? Because you'll just make yourself vanish or change the rules again halfway through or something.
-[quarton] Unknown: Okay, no disappearing and no changing the rules, I promise. No funny stuff, no cheating, you promise? I promise and I'm not even crossing my fingers. Here's the deal. If you get this flag off my head before I can tag all of you, you win. Easy, right? But here's the twist. If I tag you, you turn to stone. What? Yes, I think those are the rules. Let's try it. Yep, I thought so. I no longer sense my feet.
+[quarton] Toxsa: Puffy ass,
+[quarton] Unknown: I dare
+[quarton] Toxsa: you to resist. Sorry, not going to work this time. Yeah, try it on somebody else. We're not playing any more of your games, you big cheater.
+[quarton] Unknown: Right! Wait, hold on! It's the last one, I promise. Win this one and you'll get your wish. Why should we believe you? Come on, please, please, ow, ow, ow, ow. Seriously, this one's for the whole enchilada. Win and you get to go home. Lose and you stay here forever. So, deal? Mm-hmm. You guys'll love this game, really. Okay, so it's called Tag the Flag and I'm in. You ready? It's capture the flag meets hide-and-seek meets freeze tag, especially freeze tag. Okay, ready, huh, brother? Are you ready? Are you ready? Uh
+[quarton] Ceylan: -uh, forget it. Why not? Why not? Why not? And I repeat, why not? Because you'll just make yourself vanish or change the rules again halfway through or something. Okay, no disappearing and
+[quarton] Unknown: no changing the rules, I promise. No funny stuff, no cheating, you promise? I promise and I'm not even crossing my fingers. Here's the deal. If you get this flag off my head before I can tag all of you, you win. Easy, right? But here's the twist. If I tag you, you turn to stone. What? Yes, I think those are the rules. Let's try it. Yep, I thought so. I no longer sense my feet.
 [quarton] Beag: We understand the rules. You can stop now.
 [quarton] Unknown: Sorry, forgot to mention, once you've been tagged, I'm afraid there's no stopping yet.
-[quarton] Beag: Searching man, any last words? It has been an honor, Knights, and my only regret is that I could not serve you longer. Beag. Tell the Corekai that Commander Beag
-[quarton] Unknown: never, never... What? Never liked playing marbles? Get it? Marble? Okie dokie, I'm gonna start counting now, so if I were you guys, I'd get moving.
+[quarton] Beag: Searching man, any last words? It has been an honor, Knights, and my only regret is that I could not serve you longer. Beag. Tell the Corekai
+[quarton] Unknown: that Commander Beag never, never... What? Never liked playing marbles? Get it? Marble? Okie dokie, I'm gonna start counting now, so if I were you guys, I'd get moving.
 [quarton] Toxsa: One, two,
 [quarton] Unknown: three, four, times five equals twenty, twenty-one, twenty-two, twenty-three. I feel bad about Beag. Yeah, me
 [quarton] Ceylan: too, but he's a machine. We can always call tech support. Do we have a plan, Guren? First, we've got to split up. Why do that? That way, he can't get us all at once. Okay, okay, let's do it.
@@ -32,21 +35,110 @@
 [quarton] Toxsa: Hiding in my own diner. Reminds me of the time I put crayons in the waffle maker.
 [quarton] Unknown: Keep down if you ever want to eat waffles again.
 [quarton] Toxsa: I miss the real diner. You
-[earth] Unknown: know what I miss? Soccer practice. And even though she's a drag, I miss my sis. And football. I
+[earth] Unknown: know what I miss? Soccer practice.
+[earth] Toxsa: And even though she's a drag, I miss my sis. And football. I
 [earth] Ceylan: think we've been stuck here. Is anyone even missing us in the real world?
 [earth] Ceylan: Ceylan, we're never going to get home by running away.
-[earth] Toxsa: Or by getting turned into granite. So
-[earth] Ceylan: how are we supposed to do it? The flag. I'll distract him and you grab it. We're out!
+[earth] Toxsa: Or by getting turned into granite. So how are we supposed to do it? The
+[earth] Ceylan: flag. I'll distract him and you grab it. We're out!
 [earth] Unknown: Good for them, they recycle. Are
 [earth] Unknown: you crazy? Are you lost? What's wrong with you? Hello? Like a wise man once said...
 [earth] Ceylan: Like everyone else in this stupid place, your sense of humor is lousy. Oh,
 [earth] Unknown: no, no, no, no, no, no, no! I hate so much! I'm gonna leave a wet spot!
 [earth] Ceylan: Like a wise man once said...
-[earth] Unknown: Oh, no, no,
-[earth] Toxsa: no, it's not that funny.
-[earth] Unknown: But this jerk rocks! Did you really think I'd fall for a trick like that?
+[earth] Unknown: Oh, no,
+[earth] Toxsa: no, no, it's not that funny. But
+[earth] Unknown: this jerk rocks!
+[earth] Toxsa: Did
+[earth] Unknown: you really think I'd fall for a trick like that?
 [earth] Ceylan: I'll be back! Chooki, Toxsa, Ceylan's out of the game! Nice
 [earth] Unknown: try, guys, but there's no way I'm falling for the old Slippin' on the Banana Peel trick. Still, it is a classic comedic bit. Oh, the temptation! It's too powerful, I can't...
-[earth] Unknown: Again with the bananas. Do they really think I can't see that it's a trap? Oh, monkey store, not bananas, no, everyone knows that! But I know it's a trap, but I just can't stop myself! It's a trap! He fell for it! That
-[earth] Ceylan: was easy! Okay, when he falls out, grab the flag. Whoever's closest to it.
-[earth] Unknown: Ready? Here we go!
+[earth] Unknown: Again with the bananas. Do they really think I can't see that it's a trap? Oh, monkey store, not bananas, no, everyone knows that! But I know it's a trap, but I just can't stop myself! It's a trap! He fell for it!
+[earth] Ceylan: That was easy. Okay, when he falls out, grab the flag. Whoever's closest to it.
+[earth] Vilius: Ready?
+[earth] Ceylan: Here we go! What? Vanished again. What a little cheater.
+[earth] Unknown: I heard that. Thanks for the banana, by the way.
+[earth] Toxsa: Two, microchip. Hi, Beni, how you doing?
+[earth] Ceylan: So, Beni, you in this too? You on the run from that crazy Urengor? Yeah, but
+[earth] Beni: I can handle that chimp. In fact, I was doing fine until I ran into you guys.
+[earth] Toxsa: The feeling's mutual. That chimp turned Ceylon to stone!
+[earth] Ceylan: Yeah, and he got beat, too. Now there's only the four of us left. Todd, your grant is... ...sublime.
+[earth] Unknown: Chooki!
+[earth] Toxsa: No way, that is so dumb! Just go on and do it, will ya? See
+[earth] Toxsa: him anywhere? This is clear. So what now? If we could just distract him long enough to grab that flag. That would work. If someone let himself get caught while the others went for the flag, now who'd want to be turned into a statue?
+[earth] Beni: That's a good idea. Like sacrificing a pawn. Huh? I think you should volunteer yourself. We already determined that you're the pawn.
+[earth] Toxsa: You stay out of it!
+[earth] Beni: You let yourself get tagged while
+[earth] Toxsa: Gurn and I grab the flag. Why isn't it you who gets tagged? Because it was your idea. Not for me to do it. And because you're the shortest. One day I'll grow up and get... Hey, come on guys, chill. Tell him to chill! Look,
+[earth] Ceylan: we've got to get it together and stick together. We can't let him pick us off one by one.
+[earth] Unknown: Sure you can, it's worked so far.
+[earth] Unknown: Your head is full of rocks. And you've got... Hm? Concrete socks!
+[earth] Beni: Why did you find me? I don't need your help. So just leave me alone. Why are you so hung up on being a team? Sorry dude, we're not friends and we're not a team. We're all that's left. Maybe so. But things have always worked better for me on my own. That's just the way it is. Really, Beni? Really. So get it through your thick skull. We are not a team.
+[earth] Unknown: Somebody call? Har har har, baby boom! You are a silly goon. So just admit your doom. You'll be a statue soon.
+[earth] Unknown: Nice work! Dads and me, we're a team. Yeah! Huh? It's glued to my head. So you see, Mighty Knights, I've outsmarted you again. I'm a Raccoon D.A. You can take my flag away. So obnoxious. Huh? Huh? Beni! I've been saving you for last.
+[earth] Unknown: Okay, so the plan wasn't flawless. You
+[earth] Ceylan: can't get around it, and you can't get through it. You could try going over. Oh! Good idea!
+[earth] Unknown: I should have turned them into a snowman. I
+[earth] Unknown: think I almost had you, and now you and your friends get to advance to the final level. I
+[earth] Toxsa: was
+[quarton] Unknown: kidding, by the way,
+[quarton] Toxsa: about them being
+[quarton] Unknown: statues forever. Okay,
+[quarton] Toxsa: that's ready up
+[quarton] Unknown: there.
+[quarton] Unknown: Robofusion race. Missing again. And
+[quarton] Toxsa: thunk and re-thunk. Yeah. We're on strike. Every time one of us wins this race, the Beast Game is rigged.
+[quarton] Beag: Your king has no honor. He's certainly not like any king I've ever met. Not that I've met many, but still.
+[quarton] Ceylan: We want to see your boss!
+[quarton] Unknown: Okay, you asked for it. Oh, Beast
+[quarton] Ceylan: King! Who
+[quarton] Unknown: wants me?
+[quarton] Ceylan: We do! Come out of there and show yourself! Show myself?
+[quarton] Vilius: Haven't done that for a while. Are you sure? Well, okay. Wait, let me make myself presentable. There! Ready? Oh, no, wait.
+[quarton] Toxsa: This guy's worse than a prom date.
+[quarton] Vilius: There. All right. Ready or not, here I come!
+[quarton] Vilius: Corpodon robofusion, engage!
+[quarton] Vilius: Much better. Now you see me as I truly am.
+[quarton] Ceylan: Whoa. A giant crab. Who'd have thought?
+[quarton] Vilius: A crab?
+[quarton] Ceylan: Who are you calling a crab? You
+[quarton] Unknown: big dog. Gonna sit this one out.
+[quarton] Vilius: Vilius does not fight alongside the Tenkai Knights. Besides, I'd rather stay here and deal with you. Oh, why me? For one thing, you're smaller. And for another, you're incredibly
+[quarton] Vilius: annoying! Get him! Just
+[quarton] Unknown: try that! You dare? Ash
+[quarton] Vilius: the monkey! So you want to fight me? That
+[quarton] Ceylan: could be amusing. Wait, who said we had to fight? We just- Oh, come on! Amuse me!
+[quarton] Vilius: If
+[quarton] Ceylan: that's what you want! Gotta give the first round to him. Yeah, this is more than a one-man job. We need a mass attack! Right. Let's go! Game on! Tenkai
+[quarton] Toxsa: arrow! Plug it!
+[quarton] Ceylan: No! Maybe it's more than a four-guys-and-a-girl job.
+[quarton] Vilius: So far, I'm disappointed. That tickles in me, but I'd hardly call it amusing. I hope you can do better than that. Running away?
+[quarton] Ceylan: That's
+[quarton] Vilius: not very original.
+[quarton] Ceylan: We need to buy some time. Yeah, but for what? I've
+[quarton] Vilius: got it!
+[quarton] Beag: Plan X-9! Plan what? Follow me, Knights! I have an idea!
+[quarton] Vilius: Where could they have gone? It's
+[quarton] Toxsa: Plan X-9.
+[quarton] Beag: Why
+[quarton] Beni: doesn't he
+[quarton] Ceylan: just call it hiding?
+[quarton] Beag: Well, that doesn't sound as good.
+[quarton] Ceylan: Okay, enough running, enough hiding!
+[quarton-battle] Beag: There
+[quarton-battle] Vilius: you are! Did
+[quarton-battle] Ceylan: you miss me? Watch out, you big crawdaddy! Cause I'm not gonna miss you!
+[quarton-battle] Vilius: Ooh!
+[quarton-battle] Vilius: That sting! Tributon! Me! This is our chance!
+[quarton-battle] Ceylan: Cellar strike! Robo fusion! End game!
+[quarton-battle] Ceylan: Erase! Now let's see how this thing handles in a battle!
+[quarton-battle] Vilius: Very well, that was entertaining! Bye-bye! In
+[quarton-battle] Toxsa: Titan mode? Was it all a dream? If so, we all had the same one. Does that mean... We finally got out of the Beast World?
+[quarton-battle] Unknown: For real? Totally! Congratulations, Tenkai Kanites! Ta-ra-ra-boom! No, never mind. You won! And for being such good sports, we want to reward you with this mysterious and important emblem. Well, the one of the...
+[quarton-battle] Vilius: A wolf
+[quarton-battle] Unknown: emblem? It's goodbye, but feel free to come back and see us anytime, Orangor!
+[quarton] Ceylan: So long, Orangor. Guys, if I ever even suggest going back there, hit me over the head with something.
+[quarton] Vilius: Now where were we before we were interrupted? Oh yes, I remember!
+[quarton] Ceylan: So we're
+[quarton] Vilius: right
+[quarton] Ceylan: back where we started. Come on, don't we even get a snack break? Seriously? In that case, guys, nothing's changed.

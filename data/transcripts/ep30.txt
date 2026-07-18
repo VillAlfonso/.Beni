@@ -1,67 +1,209 @@
 [quarton-battle] Ceylan: Hey, Guren here. The other knights and I have got to stop Vilius' goons from finding the legendary Tenkai Fortress. Sure, we've learned how to shapeshift from our old forms into these amazing new elemental forms. Things still look bad. And the reason? We can't use our Titan Mode!
 [quarton-battle] Vilius: Ha! But I can! Granox! Tenkai Titan Mode! Activate! And
 [quarton-battle] Vilius: victory!
-[quarton-battle] Ceylan: Give it up, Granox! Always
+[quarton-battle] Ceylan: Give
+[quarton-battle] Vilius: it
+[quarton-battle] Ceylan: up, Granox! Always
 [quarton-battle] Vilius: with the bold words. If I were you, I'd be talking less and running away more! Run
-[quarton-battle] Ceylan: from you? The only thing scary about you is your face, dumpster puss. You'll
-[quarton-battle] Vilius: be sorry you said that!
+[quarton] Ceylan: from you? The only thing scary about you is your face, dumpster
+[quarton] Ceylan: puss.
+[quarton] Ceylan: You'll
+[quarton] Vilius: be sorry you said that!
 [quarton] Ceylan: Watch out! Let's attack this bot from all sides! You got it! Now!
 [quarton] Vilius: That's right. Come and get it!
 [quarton] Ceylan: Scatter! He's off balance after he throws that thing! And here's my opening. Eat Tenkai Arrows! Ha! So
-[quarton-battle] Vilius: I don't scare you home! Ha! Nope! How about now?
-[quarton-battle] Ceylan: Maybe. Maybe not. That was just scary dumb.
+[quarton] Vilius: I don't scare you home! Ha! Nope! How about now?
+[quarton] Ceylan: Maybe.
+[quarton-battle] Ceylan: Maybe not. That was just scary dumb.
 [quarton-battle] Vilius: Just wait, Tributon! You're gonna pay for this!
-[quarton-battle] Ceylan: Okay, come back and I'll pay you to do it again! I'll pay you double if you can knock your own block off! I'll pay you double if you can knock your own block off! Who's running now? Who's running now? This time,
-[quarton-battle] Vilius: Tributon and I meet, I'll crush him! I'll dismantle him! Unless you end up dismantling yourself! Who asked you? I'm just saying, your last encounter didn't go so well! And
-[quarton-battle] Ceylan: Tributon hasn't even mastered his elemental attack!
-[quarton-battle] Vilius: And he never will, Sly! Toilets, you clattering fools! Enough of this endless squabbling! Not another word! As Vilius commands! As Vilius commands! Granox! Have you found anything yet at the excavation site? Totally! Rocks, a lot of rocks, and dirt! But, uh, no sign of the fortress. And yet you took time off to launch an attack on the knights! An attack I did not order! No, Vilius!
+[quarton-battle] Ceylan: Okay, come back and I'll pay you to do it again!
+[quarton-battle] Ceylan: I'll pay you double if you can knock your own block off! I'll pay you double if you can knock your own block off! Who's running now? Who's running now? Last
+[quarton-battle] Vilius: time Tributon and I meet, I'll crush him! I'll dismantle him! Unless you end up
+[quarton-battle] Ceylan: dismantling yourself! Who asked you? I'm just saying your last encounter didn't go so well! And Tributon hasn't even mastered his elemental attack!
+[quarton-battle] Vilius: And he never will, Sly! Silence, you clattering fools! Enough of this endless squabbling! Not another word! As Vilius commands! Granox! Have you found anything yet at the excavation site? Totally! Rocks! Lotta rocks! And dirt! But uh, no sign of the fortress. And yet you took time off to launch an attack on the knights! An attack I did not order! No, Vilius!
 [quarton-battle] Ceylan: I mean, yes,
-[quarton-battle] Vilius: Vilius! But it only took a few minutes, and, well, I know how much you don't
-[quarton-battle] Ceylan: like the- Finding the fortress is your one and only priority, you fool! Perhaps this will
-[quarton-battle] Vilius: motivate you! Yes! Yes! Very motivating! Inspiring! So pumped, man! But wait! On second thought! Oh! Yes? Perhaps I'll let you take your revenge on Tributon! How would you like to go to the planet Earth, Granox?
-[quarton-battle] Unknown: Will it be painful?
-[quarton-battle] Ceylan: Define painful!
-[quarton-battle] Vilius: Like when you do something to me that makes me full of pain, like you always do?
-[quarton-battle] Ceylan: Oh! I knew
-[quarton-battle] Vilius: it! Well, that wasn't so bad! Oh!
-[quarton-battle] Ceylan: Spytosa! Welcome back! Welcome back! But... why the glum looks? You won, didn't you? We didn't lose. But it sure made me wish we had our Titan Mode back again. Why, dude? Look what it did for Granox! I know, but we may not be so lucky next time.
-[quarton-battle] Toxsa: Yeah, not being able to level up to Titan Mode. It's like taking the field without your first-string quarterback. Meh. Being vertically challenged, I know that bigger isn't always better.
-[quarton-battle] Ceylan: Very wise, Toxsa. Anyway, we've got to fix whatever it is that's keeping us from leveling up.
-[quarton-battle] Toxsa: Mm
-[quarton-battle] Vilius: -hmm. Come
-[quarton-battle] Ceylan: on! What's the big deal? Who needs Titan Mode? We're talking Granox here! I can beat that guy in snooze mode! Anytime, anywhere! Oh, it's a lot later than I thought. Wonder what's for dinner?
-[quarton-battle] Vilius: Tributon. It
-[quarton] Ceylan: sounded like my name. Do we know each other? Oh, god. Get a
-[quarton] Vilius: grip,
-[quarton] Ceylan: dude. You're imagining
-[quarton] Vilius: things. No, you're not. Uncle
-[quarton] Ceylan: Chuck?
-[quarton] Vilius: You don't know me? Gimme
-[quarton] Ceylan: a hint.
-[quarton] Vilius: Old friend Granox.
-[quarton] Ceylan: Hi.
-[quarton] Vilius: Are you scared of me now, Tributon?
-[quarton] Ceylan: No, just late for dinner. There goes the neighborhood. What's he doing here? Ceylan? That you? Yeah,
-[quarton] Unknown: sorry I'm late. Hope you remembered to wipe your feet. Dinner's in the fridge, honey. Need any help? No
+[quarton-battle] Vilius: Vilius, but it only took a few minutes, and well, I know how much you don't like the- Finding
+[quarton-battle] Ceylan: the fortress is your one and only priority, you fool! Perhaps this will
+[quarton-battle] Vilius: motivate you! Yes! Yes! Very motivating! Inspiring! So pumped, man! But wait! On second thought... But wait! On second thought... What on Earth, Granox? Will
+[quarton-battle] Beag: it be painful?
+[quarton-battle] Vilius: Define painful! Like when you do something to me that makes me full of pain, like you already do? Like when you
+[quarton-battle] Ceylan: do something to me that makes me full of pain, like you already do? Oh, I
+[quarton-battle] Vilius: knew it! Well, that wasn't so bad. Well, that wasn't so bad.
+[quarton-battle] Ceylan: Welcome back! But... Why the glum looks? You won, didn't you? We didn't lose. But it sure made me wish we had our Titan Mode back again. Why
+[quarton-battle] Ceylan: dude, look what it did for Granox! I know, but we may not be so lucky next time. I
+[quarton-battle] Ceylan: know, but we may not be so lucky next time. Titan Mode? It's like taking the field without your first string quarterback.
+[quarton-battle] Toxsa: Titan Mode? It's like taking the field without your first string quarterback. Being vertically challenged, I know that bigger isn't always better.
+[quarton-battle] Ceylan: Very wise, Toxa. Anyway, we've gotta fix whatever it is that's keeping us from leveling up.
+[quarton-battle] Ceylan: Mhm.
+[quarton-battle] Ceylan: Come
+[quarton-battle] Ceylan: on, what's the big deal? Who needs Titan Mode? We're talking Granox here. I could beat that guy in Snooze Mode. Anytime, anywhere. Oh, it's a lot later than I thought. Wonder what's for dinner.
+[quarton-battle] Vilius: Tributon.
+[quarton] Ceylan: Sounded like my name. Do we know each other? Get a grip dude, you're imagining things. Do
+[quarton] Vilius: we know each other? No you're not.
+[quarton] Ceylan: Uncle Chuck?
+[quarton] Vilius: You don't know me?
+[quarton] Ceylan: Give me a hint.
+[quarton] Vilius: Your old friend Granox.
+[quarton] Ceylan: Are
+[quarton] Vilius: you scared of me now, Tributon?
+[quarton] Ceylan: Are you scared of me now, Tributon? No, just late for dinner. There goes the neighborhood. There goes the neighborhood. What's he doing here? Ceylan? That you? Yeah,
+[quarton] Ceylan: sorry I'm late. Hope you remembered to wipe your feet. Dinner's in the fridge, honey. Need any help?
+[quarton] Ceylan: No
 [quarton] Ceylan: thanks, Mom. I'm good.
-[quarton] Toxsa: Can't
-[quarton] Ceylan: tell them. Not that they'd believe it anyway. Okay, when in doubt, hydrate. If the poor goon really came all this way just to try and scare me, then okay. I'll pretend I'm scared. Just like that. I gotta call Guren. He's gonna love this. Ceylan, who's that calling? Wrong number.
-[quarton] Unknown: Calls after seven on a school night.
+[quarton] Ceylan: Can't tell them. Not that they'd believe it anyway.
+[quarton] Ceylan: Can't tell them. Not that they'd believe it anyway. Just like that. Just like that. I gotta call Guren. He's gonna love this.
+[quarton] Ceylan: Ceylan, who's that calling? Wrong number. You know you're not supposed to get calls after seven on a school night. You know you're not supposed to get calls after seven on a school night.
 [quarton] Ceylan: So who is this? Your
-[quarton] Vilius: worst nightmare, Tributon. Who
-[quarton] Ceylan: is it, dear? Nobody. Just one of those telemarketers. We're not interested. Take this number off your list.
-[quarton] Toxsa: Great. Now he's sending
-[quarton] Ceylan: me junk mail.
-[quarton] Vilius: I'm watching your every move.
+[quarton] Vilius: worst nightmare, Tributon. Who is
+[quarton] Ceylan: it, dear? Nobody. Just one of those telemarketers. Nobody. Just one of those telemarketers. We're not interested. Take
+[quarton] Ceylan: this number off your list.
+[quarton] Ceylan: Great. Now he's sending me junk mail.
+[quarton] Vilius: Great. Now he's sending me junk mail. I'm watching your every move.
 [quarton] Ceylan: That's
-[quarton] Vilius: flattering. But that's not. Yeah, it is.
-[quarton] Ceylan: And that's out of focus.
-[quarton] Vilius: Everyone's a critic.
-[quarton] Ceylan: Hey, how about a little privacy? Okay. Great slideshow, but...
-[quarton] Vilius: You can't delete me. Your torment's just beginning. There is no escape. Eh, eh. Tributon. It's fun. Nowhere to run and nowhere to hide. You
+[quarton] Ceylan: flattering.
+[quarton] Vilius: That's not.
+[quarton] Ceylan: That's out of focus. Everyone's
+[quarton] Vilius: a critic.
+[quarton] Ceylan: Hey, how about a little privacy? Hey, how about a little privacy? Okay. Great slideshow, but...
+[quarton] Vilius: Okay. Great slideshow, but... You can't delete me. Your torment's just beginning. You can't delete me. Your torment's just beginning. There is no escape. Tributon. It's fun. Nowhere to run and nowhere to hide. You
 [quarton] Ceylan: can't watch anything that's not in high def!
-[quarton] Vilius: So far, so good. You'll be a quivering mess when I'm done.
-[quarton] Ceylan: Done with what?
-[quarton] Vilius: Huh? Oh, Venetta! Don't do that. You
-[quarton] Ceylan: scared me.
-[quarton] Vilius: My strategy.
+[quarton] Vilius: You can't watch anything that's not in high def! So far, so good. So far, so good. He'll be a quivering mess when I'm done.
+[quarton] Beni: Done with what?
+[quarton] Vilius: Oh, Venetta! Don't do that. You scared me. My strategy is to terrify Tributon until he's a quivering mess.
+[quarton] Beni: Oh, I see. Don't you think Vilius might have sent you here to do more than just frighten Tributon?
+[quarton] Vilius: I'm gonna scare him, too.
+[quarton] Beni: Yeah. Well, okay. But don't you think it would be a whole lot quicker and easier if you just, like, destroyed him or whatever?
+[quarton] Vilius: Maybe. Not. Now let's see. What should I do next? Ring his doorbell and run away? That would be a good one. Well,
+[quarton] Beni: Gen, what brings you here? Don't tell me you've been missing me.
+[quarton] Ceylan: Not really. So whose side are you on now, Beni?
+[quarton] Beni: I'm a free agent. I do what I want. Hm. Like you used to. You could always come back, you know. Well, whatever. I hope we can still be friends.
+[quarton] Ceylan: That's entirely up to you. That's
+[quarton] Ceylan: weird. Ceylan's body's usually at school even if his mind isn't. Ceylan! You home, dude? They
+[quarton] Ceylan: go on a trip? Is
+[quarton] Ceylan: he watching? Who? Never mind. Just look scared. What's with the gear? Are you making up sports again?
+[quarton] Ceylan: Just get in here before you ruin everything!
+[quarton] Vilius: See,
+[quarton] Ceylan: I figure as long as I can keep him busy on Earth, at least he's not on Quarton looking for that fortress thing. Who the heck are you talking about? Who?
+[quarton] Ceylan: Granox,
+[quarton] Ceylan: of course. Did
+[quarton] Ceylan: you say... Granox. What? Yes. Granox is here? On this planet? Yup. Why didn't you tell me? Or one of the other guys? Frankly, I was having too much fun.
+[quarton] Ceylan: That's him doing his boogeyman thing. He thinks he's scaring me. And
+[quarton] Ceylan: I'm playing along. This is no joke, Ceylan. He is scary. Who? Dumpster head bucket puss? Yeah. Where are your folks? They went out for Hawaiian barbecue. What was that? The door. I think he's coming in. Of course. Now
+[quarton] Ceylan: remember... Look scared. Who wants some poi?
+[quarton] Ceylan: How's our sick boy doing? Oh, did
+[quarton] Ceylan: you bring Ceylan his homework, Guren?
+[quarton] Ceylan: Yeah, something like that. He must be feeling better.
+[quarton] Ceylan: Huh?
+[quarton] Ceylan: I think I just saw him jump the back fence.
+[quarton] Ceylan: Ugh, I can't be around them when they wear those shirts. It's worse than scary. It's embarrassing. You
+[quarton] Vilius: can't run away! Just watch me.
+[quarton] Ceylan: Running away. Running away.
+[quarton] Vilius: It's useless, Tributon. You can't escape. Sure I can. I
+[quarton] Ceylan: know this neighborhood like the back of my... Oh, rats.
+[quarton] Vilius: Give me that.
+[quarton] Ceylan: That was a present.
+[quarton] Vilius: I was just gonna terrify you and scare you until you're a quivering mess. But now I'm gonna crush you as easily as I crush this puny helmet. But
+[quarton] Ceylan: now I'm gonna crush you as easily as I crush this puny helmet.
+[quarton] Vilius: Because you're puny too. You
+[quarton] Ceylan: guys call people puny a lot, you know. That's kinda sizist. Be
+[quarton] Beag: alert! Report the slightest disturbance! Set scanners for maximum raids! Yeah, I'm not sure we need scanners... Well, of course we do! In our forward position, we can be attacked by the Corrupted at any moment! I want plenty of warning, and that's why we need scanners.
+[quarton] Ceylan: Understood! But Cam...
+[quarton] Beag: They're already here. Look. What! By the Guardians. Just as I suspected. Captain! Well, don't just stand there, get moving! Sound the alarm! Yes, Commander! Prepare for
+[quarton] Ceylan: battle! Mr.
+[quarton] Beag: White!
+[quarton] Ceylan: Ah,
+[quarton] Beni: what
+[quarton] Ceylan: perfect
+[quarton] Beni: timing. There's trouble on Quarton.
+[quarton] Ceylan: No time for that now! Where is it? We've got trouble down here! I'm just borrowing the portal weapon! But boys, please wait! I'll bring it back, promise!
+[quarton] Beni: Trouble. It seems to grow on trees nowadays.
+[quarton] Ceylan: Up
+[quarton] Vilius: hiding, Tributon! I was just kidding about the helmet. Come on, I won't hurt you. Much. Seriously, let's be friends! We could be a team! Granox
+[quarton] Ceylan: and
+[quarton] Vilius: Tributon!
+[quarton] Ceylan: Sheesh, now that's a scary idea. Is he gone? Man, what a loony.
+[quarton] Vilius: Peek-a-boo!
+[quarton] Ceylan: Whoa, your breath!
+[quarton] Vilius: Actually, I was just kidding! I don't really want to be friends with you at all!
+[quarton] Ceylan: Okay, that hurt my feelings.
+[quarton] Vilius: Yeah! Good. Uh, so you're finally ready to stand and fight? You're not scared anymore?
+[quarton] Ceylan: No, no, I'm still scared. Look, see? Nice. I'm totally petrified.
+[quarton] Vilius: Eh, what's petrified?
+[quarton] Ceylan: No! Don't worry. We got him, Ceylon. That's a relief. Faking being scared is hard work.
+[quarton] Vilius: This is working out better than I thought. So don't do that often. I'll destroy you all at the same time! That is one cheap-looking suit.
+[quarton] Toxsa: Seriously, how could you be scared by a guy wearing a tie like that? I was pretending, dude!
+[quarton] Vilius: Um, is that the piece of junk you used to send Slyger back to the portal?
+[quarton] Ceylan: Yes?
+[quarton] Vilius: Better make your first shot count, because I've heard that thing takes a long time to warm up again. So don't be nervous, and CAREFULLY!
+[quarton] Ceylan: I don't know about you guys. Where you
+[quarton] Vilius: going?
+[quarton] Ceylan: But I'm not pretending anymore! Guren, why didn't you zap them? Couldn't risk it. I've gotta wait until I can get a clean shot. The only problem is... Good luck getting one while we're running. You know how I hate running.
+[quarton] Toxsa: Give me that. No, Toxsa, wait! I'm a pro at first-person shooters.
+[quarton] Vilius: How
+[quarton] Toxsa: do you... adjust the trajectory? Why do you
+[quarton] Ceylan: need to do that? For maximum damage. Speaking of damage... Karabunga! Toxsa!
+[quarton] Toxsa: You
+[quarton] Ceylan: okay? Anything hurt? Just my ranking. Alright, back to plan A! Run! I'm down with that!
+[quarton] Vilius: Karabunga! Again!
+[quarton] Ceylan: Gotcha! I haven't healed up! What's plan C? Well, I'm open to suggestions! Oh, I so got you that time! Can I borrow that? Thanks! I'll bring it back! We've got an alien robot we've gotta get rid of! I
+[quarton] Vilius: know you're around here somewhere! You can't hide forever!
+[quarton] Ceylan: Okay, you win!
+[quarton] Vilius: What are you up to?
+[quarton] Ceylan: A little game.
+[quarton] Vilius: What kind of game?
+[quarton] Ceylan: Guess which one of us has the portal weapon and win a prize!
+[quarton] Vilius: Is
+[quarton] Toxsa: player one ready?
+[quarton] Vilius: I hate games!
+[quarton] Toxsa: You only get one guess. Guess wrong, and it's game over, man. Game over.
+[quarton] Vilius: So
+[quarton] Toxsa: choose carefully. Don't be nervous. Weapon, weapon, who's got the weapon?
+[quarton] Vilius: I don't know. You've got it, don't you, Bravenwolf? Not too obvious. What about... Not too scared? Maybe... Chupiuni? No? Still too obvious. Nope. Chupon? Too... You've got it, don't ya? I knew it! Gonna
+[quarton] Ceylan: pick the
+[quarton] Vilius: beauty guy! All
+[quarton] Toxsa: your base are belong to us!
+[quarton] Ceylan: Ugh, I'm exhausted. Nice shootin', Tex. Yee-haw. Hey, guys. It's too soon for a victory lap. Huh? My core brick's telling me there's still plenty of game left to play. And that's why I wanted to keep
+[quarton] Ceylan: Granox off of Quarton.
+[quarton] Ceylan: Run
+[quarton] Ceylan: it, Commander!
+[quarton-battle] Beag: The new Tenkai Knights are nowhere to be found! They've never let us down yet, Couture. We will hold our position until they come. Ha!
+[quarton-battle] Ceylan: Granox gets sent to the other world while I have all the fun of crushing the Corekai! Oh, well. I think I've toyed with them long enough. It's time to... What? Amnesia? A large hailstone? Now it's those cursed knights! Sorry we're late, B. Late?
+[quarton-battle] Vilius: Of course not! You're right on time! Right on time to be blasted to smithereens! Over here! What? I'll give you one guess how I'm gonna destroy you! I
+[quarton-battle] Ceylan: thought you didn't like guessing games.
+[quarton-battle] Vilius: Not the way you play them, because you cheat. Anyway, skip it. You'll never guess. Times have changed. You're no match for me anymore. Activate! Energy Blaster! What the? See? I told you you'd never guess! Game over!
+[quarton-battle] Ceylan: He loses a battle and earns a new weapon and he calls us cheaters? Don't worry! I can top that! Tenkai Firestorm! Go! Not
+[quarton-battle] Vilius: this
+[quarton-battle] Ceylan: time!
+[quarton-battle] Beag: Speaking of rears, Commander, what lay you now? Yours is not on fire, sir.
+[quarton-battle] Ceylan: Okay, that wasn't supposed to happen. Yeah, the fallout set the whole area on fire. And us with it if we don't put these flames out. But how? You didn't bring that squirt gun, did ya? Chillax, dudes! I'm all over it! Think you're hot stuff, huh,
+[quarton-battle] Ceylan: buckethead?
+[quarton-battle] Vilius: Listen to you. Hot stuff because of the fire. Bold words from someone who was a quivering mess the last time I saw you.
+[quarton-battle] Ceylan: Yeah, well, I've got a confession to make.
+[quarton-battle] Vilius: What? That you're about to fade from terror? I
+[quarton-battle] Ceylan: was faking it the whole time.
+[quarton-battle] Vilius: I... What? I don't believe you!
+[quarton-battle] Ceylan: Turn this on! Okay. Yipe! Thank
+[quarton-battle] Vilius: you.
+[quarton-battle] Ceylan: Yeah! I think he's gonna level up!
+[quarton-battle] Vilius: Not bad. But I still say we're scared. Scaredy cat! The
+[quarton-battle] Ceylan: only thing scary about you is that you're dumb enough to actually believe that. Dude, the Tenkai Knights are afraid of nothing!
+[quarton-battle] Vilius: Did you call me dumb? You!
+[quarton] Ceylan: Bring
+[quarton] Ceylan: it!
+[quarton] Vilius: Oh, there you are! Okay,
+[quarton] Ceylan: if I'm gonna do this, now's the time!
+[quarton] Vilius: I... And you knew we should have installed the begin defrost button. And this time, but... Ah, never mind.
+[quarton] Ceylan: Yeah! Knock him out! Granox! Beaten again by that pack of puny pipsqueaks. I'd
+[quarton] Ceylan: better get out of here before they spot me. Go,
+[quarton] Ceylan: Tributon! Nice move, dude! Well done, Tributon! Totally! You
+[quarton] Beag: saved my bot! Literally.
+[quarton] Ceylan: All of ours. Good job, buddy. Yeah, well, I guess
+[quarton] Ceylan: maybe I should ask for a raise, huh?
+[quarton] Toxsa: Not to knock Ceylon or anything. But it was me who zapped that thug bot back through the portal with one shot. It's not like we're giving out individual trophies. It was a team victory, Toxsa. A
+[quarton] Ceylan: victory, yes.
+[quarton] Ceylan: But
+[quarton] Ceylan: it will take many
+[quarton] Ceylan: more
+[quarton] Ceylan: victories before
+[quarton] Ceylan: the
+[quarton] Ceylan: battle is won. No matter how many it takes. We're ready. We're not scared of anything. Shotenma just got a new bait. One! Samurai Ephraim! Go Beast Mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now. Only on Cartoon Network. Beast Mode.

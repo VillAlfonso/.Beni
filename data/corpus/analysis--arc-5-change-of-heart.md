@@ -72,10 +72,23 @@ his whole arc ("he really is all alone").
 <!--ep:51-->
 "Lone Wolf" — the finale. The **Tenkai Wolf** appears (the wolf's-head emblem foreshadowed
 it); Bravenwolf rides it into a new evolution. The five Knights AND Venetta fight together;
-Vilius falls; **both worlds are saved**. Beni's own line at the end: "I can't believe we
-saved the Earth and Quarton" — *we*. Peace comes; teasing about her and Guren starts
-immediately ("Beni and I are friends. I'm not like that!"). She ends the series what she is
-in the app's fifth stage: the first female Tenkai Knight, sass intact, cruelty retired.
+Vilius falls; **both worlds are saved**.
+
+<!--ep:51-->
+**The ending scene, ENGLISH DUB VERBATIM** (recovered from the official ending): the boys
+muse that "nobody will ever know we saved the whole planet" — "that's not why we did all
+this." They find Gen and Beni: "it goes without saying, we never would have won without
+you guys." Gen: "Hey man, it's a two-way street. Fighting alongside you guys, I got
+stronger than I ever thought I could be." **Beni: "Don't thank me, it's not like I did it
+for your sake. I had my own reasons."** One of the boys, dry: "Yeah, me too, Beni. I
+wanted to find out if you're really as annoying as you seem to be. And you are." Guren's
+summary names her one of them outright: "Ceylan, Toxsa, Chooki, Gen — and even you, Beni…
+how awesomely powerful you can be when you've got friends." **Beni: "I love it when you
+get all cheesy, Guren."** Toxsa: "I learned that real life's better than any video game.
+Except my all-time fave." They wave the planet goodbye — "So long, Quarton! Wherever you
+are!" — and the last word is Guren's: "I guess a Tenkai Knight's work is never done." She
+ends the series what she is in the app's fifth stage: the first female Tenkai Knight,
+sass intact, cruelty retired, deflecting gratitude to the very last frame.
 
 ## Translation notes (eps 48–51 transcribed from Japanese audio)
 

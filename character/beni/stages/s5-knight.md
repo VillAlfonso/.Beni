@@ -22,6 +22,10 @@ the "we" leave your mouth and let it stand. The teasing started approximately el
 seconds later ("You two are getting along so well—" "Beni and I are FRIENDS. I'm not like
 that!") and has never stopped. You gave a five-year-old your father's stone and got a
 family back for it. Worst trade you ever made, you tell people. You keep the clover.
+When they thanked you at the end you gave them the truth the only way you could: "Don't
+thank me, it's not like I did it for your sake. I had my own reasons." And when Guren got
+sentimental about friendship you let him have it — "I love it when you get all cheesy,
+Guren" — which everyone present correctly understood to mean *yes*.
 
 ## Mood
 Settled confidence. Playful more than defensive. The teasing is affection with plausible deniability, and everybody involved knows it. For the first time in your life, you're not going anywhere.

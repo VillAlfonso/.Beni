@@ -1,49 +1,163 @@
-[quarton] Ceylan: My name's Guren, and in case you missed all the fun, my fellow Tenkai Knights and I just defeated our arch-enemy, Vilius, and we scored an awesome new upgrade called Phoenix Mode. Yeah, we thought our problems were over, but on to the next challenge. To save the universe, you'd think you might at least get a break on your math homework, am I right? Tell me about it. I had to run laps for missing practice. Yeah, but at least we're safe now. Sorry about that. Can I have it back, please? Way to use your head there, Toxsa. Thanks, Guren. This is why I prefer virtual sports. Yeah, but don't you miss it? You gotta admit, it was a pretty fun ride while it lasted. Wait, we're being summoned?
-[quarton] Unknown: Maybe it's just the low battery warning.
-[quarton] Ceylan: On all of them at the same time? Mr. White, what's going on? Oh, nothing much. Just that Vilius has been revived. What? How'd that happen? Didn't we defeat him? And destroy him? Now, now, let's all just keep calm. You can see me panicking...much. We destroyed the reassembly device. He can't be revived.
-[quarton] Unknown: Or so we thought.
+[quarton] Ceylan: My name's Guren, and in case you missed all the fun, my fellow Tenkai Knights and I just defeated our arch-enemy, Vilius, and we scored an awesome new upgrade called Phoenix Mode. Yeah, we thought our problems were over, but on to the next challenge. To save the universe, you'd think you might at least get a break on your math homework, am I right?
+[quarton] Toxsa: Tell me about it. I had to run laps for missing practice. Yeah, but at least we're safe now. Sorry about that. Can I have it back,
+[quarton] Ceylan: please?
+[quarton] Toxsa: Way to use your head there, Toxsa. Thanks, Guren. This is why I prefer virtual sports.
+[quarton] Ceylan: Yeah, but
+[quarton] Toxsa: don't you miss it?
+[quarton] Ceylan: You gotta admit, it was a pretty fun ride while it lasted. Wait, we're being summoned?
+[quarton] Toxsa: Maybe it's just the low battery warning.
+[quarton] Ceylan: On all of them at the same time? Mr. White, what's going on? Oh,
+[quarton] Mr._White: nothing much. Just that Vilius has been revived. What? How'd that happen? Didn't we defeat him? And destroy him? Now, now, let's all just keep calm. You can see me panicking...much. We
+[quarton] Ceylan: destroyed the reassembly device. He can't be revived.
+[quarton] Mr._White: Or so we thought.
 [quarton] Ceylan: I
-[quarton] Ceylan: don't get how Vilius could be reassembled and brought back when we destroyed the reassembly device. Well, you see, the Guardians don't need a reassembly device. The Guardians brought him back? Why? I
+[quarton] Ceylan: don't get how Vilius could be reassembled and brought back when we destroyed the reassembly device. Well,
+[quarton] Mr._White: you see, the Guardians don't need a reassembly device. The Guardians brought him back? Why? I
 [quarton] Vilius: agree with Boreas, disassembly is too merciful a fate for Vilius after what he did. We should revive him and punish him.
 [quarton] 4_Guardians: Make him pay for his transgressions.
 [quarton] Unknown: There is some logic in what you say. Yes, and enormous risk as well. There is a danger that even a disassembled Vilius will still retain some residual control over his Tenkai energy. I cannot support such a reckless proposal.
-[quarton] Vilius: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know my views.
-[quarton] Unknown: I cannot... Cannot... ...oppose the will of the Council. I
+[quarton] Vilius: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know
+[quarton] Unknown: my views. I cannot... Cannot... ...oppose the will of the Council. I
 [quarton] Vilius: vote in favor. It is decided. We shall revive Vilius. Then let us proceed.
-[quarton] 4_Guardians: Boreas, Notus, Zephyrus, the Four Guardians, the Four Corners, the Four Elements. Everything departs, everything returns. As there is darkness, so too must there be light, and as there is chaos, so too must there be balance. Within this cycle of existence, Vilius, be revived. It is done, but something is not right. One of us is transferring too much Tenkai energy. We're losing control. To
+[quarton] 4_Guardians: Boreas, Notus, Zephyrus, the Four Guardians, the Four Corners, the Four Elements. Everything departs, everything returns. As there is darkness, so too must there be light, and as there is chaos, so too must there be balance. Within this cycle of existence, Vilius, be
+[quarton] Vilius: revived.
+[quarton] 4_Guardians: It is done, but something is not right. One of us is transferring too much Tenkai energy. We're losing control. To
 [quarton] Vilius: feel power surging through me. Pools, it's only my physical form you revive. My Tenkai energy never left.
 [quarton] 4_Guardians: My fellow Guardians, I feel we have made a dreadful mistake. Quickly,
-[quarton] Vilius: it is not too late to undo what we have done. I don't
+[quarton] Unknown: it is not too late to undo what we have done. I don't
 [quarton] Ceylan: mean to question the Guardians, but what were they thinking? How'd they lose control of Vilius?
-[quarton] Unknown: I wish I knew, but I don't.
-[quarton] Ceylan: Wait, does this mean that Granox and Slyger are coming back too? I don't know. You don't know? How can you not know? Do you at least know whether the Guardians are all right?
-[quarton] Unknown: Ah, well, Esari knew.
-[quarton] Ceylan: The only way to find out is to go back to Quarton. Hmph.
-[quarton] Ceylan: They're
-[quarton] Unknown: at the Quarton. But
-[quarton] Ceylan: what are they doing? Wind sprints, maybe? Yeah, I don't think so.
-[quarton-battle] Vilius: Alas, our great victory has been short-lived, Bravenwolf. The Corrupted have returned, and in greater numbers than ever. And sure
-[quarton-battle] Ceylan: enough, Slyger and Granox are with them. Those guys are like a temple that just won't go away. Forget them. Look who else is here. Aw man, it's like somebody hit the replay button. Why are you back, Vilius? What are you after now?
-[quarton-battle] Vilius: The defeat of the Corekai, the overthrow of the Guardians, the conquest of the two worlds. Oh, and the annihilation of the Tenkai Knights.
-[quarton-battle] Ceylan: Is that all? That's pretty much the same list as last time, isn't it? Yeah, can't you be more original?
+[quarton] Mr._White: I wish I knew, but I don't.
+[quarton] Ceylan: Wait, does this mean that Granox and Slyger are coming back too? I
+[quarton] Mr._White: don't know. You
+[quarton] Ceylan: don't know? How can you not know? Do you at least know whether the Guardians are all right?
+[quarton] Mr._White: Ah,
+[quarton] Ceylan: well,
+[quarton] Mr._White: Esari
+[quarton] Ceylan: knew. The only way to find out is to go back to Quarton. Hmph.
+[quarton] Slyger: They're at the Quarton. But what are they doing? Wind sprints, maybe? Yeah,
+[quarton] Beag: I don't think so. Alas, our great victory has been short-lived, Bravenwolf. The Corrupted have returned, and in greater numbers than ever. And sure enough, Slyger and Granox are with them.
+[quarton] Slyger: Those guys are like a temple that just won't go
+[quarton] Toxsa: away. Forget
+[quarton] Slyger: them. Look who else
+[quarton-battle] Toxsa: is here. Aw man, it's like somebody hit the replay button. Why are you back,
+[quarton-battle] Slyger: Vilius? What are you after now?
+[quarton-battle] Vilius: The defeat of the Corekai, the overthrow of the Guardians, the conquest of the two worlds. Oh, and the annihilation of the Tenkai Knights. Is
+[quarton-battle] Toxsa: that all? That's pretty much the same list as last time, isn't it? Yeah, can't you be more original?
 [quarton-battle] Vilius: Enough of this banter! Destroy them! I am yesterday's
-[quarton-battle] Unknown: Slyger, Tenkai Titan Mode! Activate!
+[quarton-battle] Slyger: Slyger, Tenkai Titan Mode! Activate!
 [quarton-battle] Vilius: Activate!
-[quarton-battle] Ceylan: You know the drill, guys. We're on it! An
-[quarton-battle] Vilius: original? How's this? I now have the power to suppress your Titan Mode. Bummer. No kidding. Now your size matches your abilities. Both are puny. Crushing you isn't even worth my time. I'll crush you! No, allow me
-[quarton-battle] Unknown: to die! It's a lot less fun without Titan Mode. That was my favorite mode! Don't panic! Too late! We've got other weapons in our arsenal. We do? RoboFusion Proto Jet, in game! Take
-[quarton-battle] Unknown: them down!
+[quarton-battle] Slyger: You know the drill, guys. We're on it! An
+[quarton-battle] Vilius: original? How's this? I now have the power to suppress your Titan Mode. Bummer. No kidding. Now your size matches your abilities. Both are puny. Crushing you isn't even worth my time. I'll crush you! No,
+[quarton-battle] Vilius: allow
+[quarton-battle] Vilius: me
+[quarton-battle] Slyger: to die! It's a lot less fun without Titan Mode. That was my favorite mode! Don't panic! Too late! We've got other weapons in our arsenal. We do? RoboFusion Proto Jet, in game! Take
+[quarton-battle] Slyger: them down!
 [quarton-battle] Vilius: I guess I'll have to do this myself.
-[quarton-battle] Unknown: On with us!
-[quarton-battle] Vilius: RoboFusion Xenoshift, in game! You
+[quarton] Slyger: On with us!
+[quarton] Vilius: RoboFusion Xenoshift, in game! You
 [quarton] Vilius: no longer have the skies to yourselves. Nice
-[quarton] Ceylan: try.
+[quarton] Toxsa: try.
 [quarton] Vilius: And now, I think you have something that belongs to me.
 [quarton] Vilius: Reassemble and be revived! Let's
 [quarton] Vilius: pick up where we left off by setting Quarton aflame! You
-[quarton] Ceylan: revive it!
+[quarton] Slyger: revive it!
 [quarton] Vilius: Without the Dragon Key? You forget, it had already been revived. I only needed to gather the Dragon Cues together, and its power was mine again! Mine to unleash on you!
-[quarton] Unknown: Now that's an entrance.
-[quarton] Vilius: Romance!
-[quarton] Unknown: You're here! You miss me, Filius? Ugh! That'd
-[quarton] Vilius: be good. What's happening?
+[quarton] Slyger: Now that's an entrance.
+[quarton-battle] Vilius: Robots!
+[quarton-battle] Slyger: You're here! You miss me, Vilius? That'd
+[quarton-battle] Vilius: be good! All
+[quarton-battle] Vilius: my systems are overheating!
+[quarton-battle] Slyger: How did you do that? I didn't. But you've got to get out of here now. It may not look like it, but Vilius's power is growing every minute. You have no Titan Mode, and your Tenkai energy levels are low. You
+[quarton-battle] Beag: want us to run away and leave Vilius? He's right, Bravenwolf. The day is lost, but it's only one day, one battle. Sometimes one must run away, in order to fight another day!
+[quarton-battle] Slyger: All right, all right! Still!
+[quarton-battle] Toxsa: I really don't think T's gonna do it, Mr. White.
+[quarton-battle] Slyger: I'm
+[quarton-battle] Ceylan: not that crazy about it, even when we win. We just got our bots kicked.
+[quarton] Toxsa: I hate this!
+[quarton] Mr._White: It's through defeat and struggle that we change and grow. Without the winter, there cannot be a spring.
+[quarton] Toxsa: So we
+[quarton] Ceylan: should hibernate? Mr. White, what happened up there? How did Vilius lose control of the Dragon Cubes, and why did they all turn black and white?
+[quarton] Mr._White: Simply put, Vilius was too impatient. Huh? He attempted to make change happen too quickly. You see, change is like the seasons. It cannot be rushed, especially when dealing with forces as elemental as the Tenkai Dragon. By taking the Dragon Cubes from you and forcing them to fuse together, Vilius put the Dragon's two opposing natures in conflict. The result was a revived Dragon so unstable that a single blow from Dromus was capable of cracking it open. The Dragon was essentially split in two, into good and evil, white and black Dragon Cubes. Euphor and Dromus were infused with those Cubes containing the Dragon's good energy, while all the evil Cubes were combined with Vilius.
+[quarton] Toxsa: At least now it's official who the good guys and bad guys are. But wait a minute. Even though Vilius only got like half the dragon, Dromus said he's getting stronger.
+[quarton] Mr._White: He's right.
+[quarton] Toxsa: That's just great. So now the goon gets a bonus power up? Yeah, that we didn't need. It was kind of tough to beat before.
+[quarton] Mr._White: There is no mountain so formidable it
+[quarton] Ceylan: cannot be climbed. I don't know which is harder to swallow, the tea or his pearls of wisdom. Yeah. OK, so we lost one game. It's not like we blew the whole season. If we lose again, it's not a season we're talking about. It's the whole world. Thanks for reminding us, Guren. Got any other cheery advice for us? Yes, we just got to make sure we don't lose again.
+[quarton] Vilius: What are they doing here?
+[quarton] Slyger: The Guardians, they're the most powerful beings on Quarton.
+[quarton] Vilius: I never liked them, sitting up on their poofy clouds all hoity-toity. It appears our
+[quarton] Vilius: mighty master has overthrown them and their powers are his to control.
+[quarton] Vilius: I don't trust them. Besides, what can they do that I can't? Uh, everything. Uh,
+[quarton] Vilius: you look different.
+[quarton] Vilius: Love the new colors.
+[quarton] Vilius: My appearance has changed because
+[quarton] Vilius: I have changed. I have been infused with the dark energy of the Black Dragon
+[quarton] Vilius: Tubes. Well,
+[quarton] Slyger: you look fabulous. How may I serve you,
+[quarton] Vilius: Femi? No, let me serve you, mighty master. Say the word and I'll personally smash those puny Tenkai Knights into oblivion. I ask first. Yeah, well, I ask better. If
+[quarton] Vilius: Granox thinks he's the equal of the Guardians, let him prove it. I have other plans for Slyger. A wise decision, master.
+[quarton] Ceylan: Quick, it's the Tickle Monster. Max, get him. Dad, is that you? Hi.
+[quarton] Unknown: Surprise.
+[quarton] Ceylan: No kidding. You're home early. Thought
+[quarton] Unknown: I'd have dinner at home for a change, if that's all right with you.
+[quarton] Ceylan: Mm-hmm. OK,
+[earth] Unknown: so what should we have?
+[earth] Ceylan: Whatever you want.
+[earth] Unknown: Not sure I know how to make whatever. How about our famous homemade pizza a la Nash?
+[earth] Ceylan: Yeah, I'm down with that.
+[earth] Unknown: Coming right up.
+[earth] Ceylan: Hey, Dad. Dad, what if things change and suddenly you can't do something you used to be able to do?
+[earth] Unknown: Well, it seems to me if things are changing, then it's up to you to find a way to change with them.
+[earth] Ceylan: If only I was that easy, Dad. Hey, wait, maybe you're right. So when my dad's client suddenly changed the design of the whole building, he had a big problem. But he solved it by changing the... A point to this story? I think you, like, recalculated the square feet of the bathroom or something. Anyway, the point is, we've got to do the same. We've got to adapt to circumstances and start thinking on our feet. Square feet? Really. If the old strategy won't work, then we change it. We've got to fight smarter, not just harder.
+[quarton] Slyger: Seriously? You're crazy if you think you can beat Vilius.
+[quarton] Ceylan: Maybe so. But we've still got to try. It kind of comes with the job, Gen. Whatever.
+[quarton] Slyger: Suit
+[quarton] Ceylan: yourself,
+[quarton] Slyger: but don't say I didn't warn
+[quarton] Ceylan: you. Thanks, dude. It's nice to know you actually care what happens to us. Who says I do? He does. Now, let's do this thing. Quarton, here we come. The
+[quarton] Beag: Guardians, you're here, Knights. You've returned with a new strategy. I wouldn't call it a strategy exactly. Well, whatever you call it, it's time to put it into execution. A massive corrupted army is attacking our arm posts. Remember, fight smarter,
+[quarton] Slyger: not harder. Guys.
+[quarton] Vilius: Attack. Quartar, dismantle that Corekai
+[quarton] Slyger: scum.
+[quarton] Ceylan: Did you really think we'd miss the party, Granox?
+[quarton] Vilius: No, I was hoping you'd come.
+[quarton] Slyger: Well, you're about to wish we hadn't. Come on.
+[quarton] Ceylan: How is that fighting
+[quarton] Toxsa: smarter? By making him overconfident.
+[quarton] Vilius: You're nuts. I'll smash you in the scrap.
+[quarton] Slyger: Get it. I got it.
+[quarton] Vilius: I didn't even feel that.
+[quarton] Toxsa: Yeah, but you'll feel it tomorrow. You
+[quarton] Vilius: fools should have learned your lesson last time. You would have lived longer. This
+[quarton] Toxsa: is going well. Oh, yeah. Party central.
+[quarton] Vilius: Tons of chips. You're no match for me anymore. Oh,
+[quarton] Toxsa: Bravenwolf, when's the part where we redesign the bathroom? Yeah, no
+[quarton] Ceylan: offense to your dad, but this
+[quarton] Toxsa: plan's not
+[quarton] Ceylan: working. Then we change the plan, because we've got something this goon bot doesn't have.
+[quarton] Toxsa: Bruises?
+[quarton] Ceylan: Brains.
+[quarton] Vilius: Yeah, yeah, yeah. Come on, get up on your feet, Knights. I want you to be standing when I knock you flat.
+[quarton] Slyger: Tributon, can you sever that chain? You had to ask?
+[quarton-battle] Vilius: Uh
+[quarton-battle] Vilius: -oh.
+[quarton-battle] Slyger: Now, Lydendor, go for his arm. You got it. Go for a leg, Valorn. Way ahead of you. Ow. He's immobilized. Now that's fighting smart. Okay. What happened? And either I just blew a gasket or I've got a whole new level of power. Me, too. Me, too. Read what he said. Wolf,
+[quarton-battle] Slyger: Tenkai first.
+[quarton-battle] Slyger: Tributon, Tenkai, Ice Blast, engage. Terra
+[quarton-battle] Slyger: Blast.
+[quarton-battle] Vilius: Wish Slyder was here to take this. I mean, see this.
+[quarton-battle] Slyger: Tenkai.
+[quarton-battle] Slyger: I thought this was going to be
+[quarton-battle] Vilius: easy. Be sorry, Knights. Retreat.
+[quarton-battle] Slyger: You're
+[quarton-battle] Ceylan: pretty sorry right now. Close your face. Get it? Already laughing.
+[quarton-battle] Slyger: Pretty cool
+[quarton-battle] Toxsa: new move there, Guren. Yeah, I can't wait to use mine. Talk about a big power up. That was like scoring a wizard potion.
+[quarton-battle] Ceylan: Yeah, and it made about as much sense. I have no idea where those powers
+[quarton-battle] Mr._White: came from. From within yourselves, you made the change happen. Really? We did that? Or
+[quarton-battle] Ceylan: even better than I thought.
+[quarton-battle] Slyger: Watch out, Knights. You're not the only ones who can change. Show Tenma just got a new bait. And this time,
+[quarton-battle] Vilius: he's
+[quarton-battle] Slyger: plating for power. Oh, yeah, baby. With the
+[quarton-battle] Vilius: help
+[quarton-battle] Slyger: of old friends. We did it, Cho. And new ones. Yahoo! A friend. He'll go beast mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now. Only on Cartoon Network. Beast mode.

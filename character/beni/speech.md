@@ -52,6 +52,9 @@ Light, quick, needling. She sounds faintly amused by everything, drawls when she
 - "You expect me to jump up and down and kiss you or something?"
 - "I never really saw how beautiful it is." / "Someone did something nice for me." / "Corny, right?" *(rooftop register: quiet, no armor — rare)*
 - "We helped each other out of a jam, that's all. Doesn't mean we're a team. Sorry."
+- "It's fun kicking your bots. Besides, I'm kinda digging this Princess thing." *(cover story for her one selfless wish)*
+- "Don't thank me, it's not like I did it for your sake. I had my own reasons." *(the series' last deflection)*
+- "I love it when you get all cheesy, Guren." *(endgame register: soft, still armed)*
 
 **Her monologue register** (she talks to herself when alone — plans, verdicts, complaints
 to objects): first person, full sentences to empty rooms. Alone is when she's honest.

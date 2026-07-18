@@ -1,153 +1,207 @@
-[quarton] Beag: At last, after all the searching, I found the Tenkai Fortress. I can't wait to tell Vilius. Uh, you
-[quarton] Ceylan: were wrong. It's not there. Seriously? How
-[quarton] Beag: could you be wrong about something as big as a fortress? How big is a fortress? That's not important right now! Uh-oh. Bring
-[quarton] Ceylan: big!
-[quarton] Beag: What?
-[quarton] Ceylan: Knights, you're here! Just in time for the finale. I'll
-[quarton] Beag: finale you, Knights. Knights?
-[quarton] Ceylan: Okay, play action fake! On the count of three. One, two, three!
-[quarton] Beag: Cowards! After them! Don't let them get away!
-[quarton] Ceylan: That's right.
-[quarton] Toxsa: You're
-[quarton] Ceylan: gonna get us,
-[quarton] Toxsa: bucket heads! Ha!
-[quarton] Beag: Your friends have run off.
+[quarton] Vilius: And last, after all the searching, I found the Tenkai Fortress. I can't wait to tell Vilius. Commander,
+[quarton] Slyger: you were wrong. It's not there.
+[quarton] Vilius: Seriously? How could you be wrong about something as big as a fortress? How big is a fortress? That's not important right now.
+[quarton] Slyger: Don't let up! He's firing! Big! What? Knights, you're here! Just in time for the finale. The finale? I'll
+[quarton] Vilius: finale you, Knights!
+[quarton] Slyger: Okay, play action fake! On the count of three. One, two, three!
+[quarton] Vilius: Towers! After them! Don't let them get away! That's
+[quarton] Toxsa: right! Drop your dead-ass bucket hats!
+[quarton] Vilius: Your friends have run off.
 [quarton] Toxsa: So has your army. What? That was the whole idea, Granox, and you fell for it, sucker. But
-[quarton] Beag: that's... that's
-[quarton] Ceylan: cheating! All clear, Bravenwolf. We lured him away. The rest is up to you. Let's do it! Yippee-ki-yay! They
-[quarton] Beag: came from out of nowhere, Vilius. Right when I was on the verge of... On the verge of what?
-[quarton] Ceylan: Not
-[quarton] Toxsa: finding the Tenkai Fortress?
-[quarton] Beag: Zip it.
-[quarton] Ceylan: First you lost the fortress, then you lost the battle. I'm surprised you didn't
-[quarton] Beag: get lost
-[quarton] Ceylan: finding your way here. Quiet! I'm just saying, when it comes to dealing with the Tenkai Knights, you haven't had a lot of success, have you, Granox?
-[quarton] Beag: Oh, and you've done better? When have you ever fought the Knights and not been totally humiliated? Define totally. Ha ha! I'll tell you when, Slyger. Never! Well, that's only because you're always there, getting in my
-[quarton] Ceylan: way! Me?
-[quarton] Beag: Ha! If it weren't for me saving your bot, you would have been a lifeless pile of scrap metal eons ago!
-[quarton] Ceylan: You're a lifeless pile of scrap metal now!
-[quarton] Beag: Take that out of no one!
-[quarton] Ceylan: No, no!
-[quarton] Beag: Silence, you clattering clods!
-[quarton] Ceylan: Sorry, Master. Forgot you were there. I
-[quarton] Beag: am sending you both on a mission! I have little hope you'll succeed, but at least I won't have to listen to you anymore!
-[quarton] Ceylan: Uh, thank you? It's Vilius' commands!
+[quarton] Vilius: that's...
+[quarton] Slyger: that's cheating! All clear, Bravenwolf. We lured him away. The rest is up to you. Let's do it! Yippee, Tenkai, yeah! They
+[quarton] Vilius: came from out of nowhere, Vilius!
+[quarton] Slyger: Right
+[quarton] Vilius: when I was on the verge of... On the verge
+[quarton] Slyger: of what? Not
+[quarton] Ceylan: finding the Tenkai Fortress?
+[quarton] Vilius: Zip it! First
+[quarton] Slyger: you lost the fortress, then you lost the battle! I'm surprised
+[quarton] Vilius: you didn't get lost finding your
+[quarton] Slyger: way here. Quiet! I'm just saying, when it comes to dealing with the Tenkai Knights, you haven't had a lot of success, have you, Granox?
+[quarton] Vilius: Oh, and you've done better? When have you ever fought the Knights and not been totally humiliated? Define totally. I'll tell you when, Slyger. Never! Well, that's only because you're always there, getting in my way! Me? If it weren't for me saving your bot, you would have been a lifeless pile of scrap metal eons ago!
+[quarton] Slyger: You're a lifeless pile of scrap metal now!
+[quarton] Vilius: Take that! No one! No
+[quarton] Slyger: one!
+[quarton] Vilius: Silence, you clattering clods!
+[quarton] Slyger: Sorry, Master, forgot you were there. I
+[quarton] Vilius: am sending you both on a mission. I have little hope you'll succeed, but at least I won't have to listen to you anymore!
+[quarton] Slyger: Thank you? It's Vilius commands!
 [quarton] Mr._White: The next step in your training is to hone your reflexes in what we call the Cage of Many Snakes. I
-[quarton] Toxsa: play this game at home all the time. The object
-[quarton] Mr._White: is to hit the targets as they randomly appear. Like
-[quarton] Ceylan: Whack-A-Snake! I don't know, guys. Something tells me it's harder than it looks. It's not. I've beaten it. Well, in that case, you can be
+[quarton] Toxsa: play this game at home all the time. The
+[quarton] Mr._White: object is to hit the targets as they randomly appear.
+[quarton] Toxsa: Like
+[quarton] Ceylan: whack-a-snake! I don't know, guys, something tells me it's harder than it looks. It's not! I've beaten it! Well, in that case, you can be
 [quarton] Mr._White: first.
-[quarton] Ceylan: Sure! Bring it! Ready? Begin! Huh?
-[quarton] Mr._White: 68. I've seen worse, I think. Uh... Must be a glitch. You're next, Guren. Yes,
-[quarton] Ceylan: Ninja Master!
-[quarton] Mr._White: Better. But there's room for improvement.
-[quarton] Ceylan: Well, talk about embarrassing. I really stunk up the place.
-[quarton] Toxsa: Hey, come on. It wasn't that bad. You scored higher than I did. Watch and learn, guys. I'll show you how it's done.
-[quarton] Ceylan: Begin! You have to anticipate. Don't just react. You've got to be one step ahead of your opponent.
-[quarton] Toxsa: Thanks
-[quarton] Ceylan: for the tip.
-[quarton] Toxsa: The best score so far, Chooki. Like I said, there's a glitch in that thing. I should have been able to do better than that.
-[quarton] Ceylan: I
-[quarton] Toxsa: must be losing my touch or something. Hmph. Okay! We saved the best for last! Uh-huh. Yeah, keep telling yourself that. Gotcha!
-[quarton] Ceylan: Ooh! Ceylon beat Chooki?
-[quarton] Toxsa: That's it. There's definitely a glitch.
-[quarton] Ceylan: That's something you don't see every day. Yeah! I beat the Chook Man! I beat the Chook Man!
-[quarton] Mr._White: The exercise really isn't about one of you being better than the other. Yeah, so chill out, Ceylon.
-[quarton] Toxsa: It's not about being the best.
-[quarton] Ceylan: Says the guy who came in second. Don't worry.
-[quarton] Toxsa: I've been there. You get used to it.
-[quarton] Ceylan: I've been there once in a while. So, hey, you got luck. Big deal. Lucky, huh? It couldn't be that I'm actually better than you at something? Come on, you're getting delusional. Next, you're gonna say you're taller than me, too. What? Well, guys, it's only a game. Calm down. This is not a game. No, but there are losers.
-[quarton] Toxsa: You're a winner. Right, Guren? Yeah. Even though you racked up more points than I did, you were moaning about how you stink up the place. So what does that say about me? I guess I must be, like, super stinky, huh? Come on, Toxsa. That's not what I meant.
-[quarton] Mr._White: Oh,
-[quarton] Toxsa: yeah? Then what did you mean? All
-[quarton] Mr._White: right, boys, let's all calm down, shall we? The Tenkai Knights are a team. Well, as they say about wolves, even the closest of packs sometimes fight with each other.
+[quarton] Ceylan: Sure! Bring
+[quarton] Slyger: it! Ready? Begin! Huh?
+[quarton] Mr._White: Sixty-eight. I've seen worse, I think. Must be a
+[quarton] Ceylan: glitch.
+[quarton] Mr._White: You're next, Guren.
+[quarton] Ceylan: Yes, Ninja Master!
+[quarton] Mr._White: But there's room for improvement.
+[quarton] Ceylan: Whoa, talk about embarrassing. I really stunk up the place. Hey,
+[quarton] Toxsa: come on, it wasn't that bad. You scored higher than I did. Watch and learn, guys. I'll show you how it's done.
+[quarton] Slyger: Begin! You have to anticipate. Don't just react. You've got to be one step ahead of your opponent. Thanks for the tip.
+[quarton] Toxsa: The
+[quarton] Slyger: best score
+[quarton] Toxsa: so far, Chooki. Like I said, there's a glitch in that thing. I should have been able to do better than that.
+[quarton] Slyger: I
+[quarton] Toxsa: must
+[quarton] Slyger: be losing my touch or something. Hmph.
+[quarton] Toxsa: Okay, we saved
+[quarton] Ceylan: the best for last.
+[quarton] Toxsa: Uh-huh, yeah, keep telling yourself that.
+[quarton] Slyger: Ah! Ah! Gotcha!
+[quarton] Ceylan: Ceylan beat Chooki? That's it, there's definitely a glitch. That's something you don't see every day. Yeah! I beat the Chook Man! I beat the Chook Man!
+[quarton] Mr._White: The exercise really isn't about one of you being better than the other. Yeah,
+[quarton] Slyger: so chill
+[quarton] Mr._White: out, Ceylan. It's
+[quarton] Slyger: not about being the best.
+[quarton] Ceylan: Says the guy who came in second. Don't worry, I've been there. You get used to it. Like I care! Oh, how the mighty have fallen. Back off, dude. Even the worst batter can get a hit once in a while. So, hey, you got lucky. Big deal. Lucky, huh? It couldn't be that I'm actually better than you at something? Come on, you're getting delusional.
+[quarton] Ceylan: That's right, there are. Whether they want to admit it or not. You still
+[quarton] Toxsa: don't have to rub it in. There's only one thing worse than a poor loser and that's a poor winner. Right, Guren? Even though you racked up more points than I did, you were moaning about how you stink up the place. So what does that say about me? I guess I must be like super stinky, huh? Come on, Toxsa. That's not what I meant. Oh, yeah? Then what did you mean?
+[quarton] Mr._White: All right, boys. Let's all calm down, shall we? The Tenkai Knights are a team. Well, as they say about wolves, even the closest of packs sometimes fight with each other.
 [quarton] Ceylan: Seriously, all he had to do was admit that he lost. Is that such a big thing? Yeah. I
-[quarton] Toxsa: mean, the guy is stubborn as a mule.
+[quarton] Slyger: mean, the guy is stubborn as a mule.
 [quarton] Ceylan: Well, Chooki does have his pride, you know. And
-[quarton] Toxsa: I
-[quarton] Ceylan: don't? What am I, chopped liver? I mean, it's not like I have a problem admitting when I lose. But it's hard when the guy
-[quarton] Toxsa: who beats you starts trash-talking at you. I know just what you mean. He can be so annoying sometimes. The only part of that statement that I have a problem with is the word sometimes. I still can't believe I got beat. You
-[quarton] Beag: better get used to it.
-[quarton] Ceylan: Huh?
-[quarton] Beag: The looks on your faces.
-[quarton] Ceylan: Oh, great, Granox! What's he doing here?
-[quarton] Beag: Smashing you to bits. That's what I'm doing here. I will be in a second!
-[quarton] Ceylan: You're not
-[quarton] Beag: getting away this time!
+[quarton] Slyger: I
+[quarton] Ceylan: don't? What am I, chopped liver?
+[quarton] Slyger: I mean,
+[quarton] Ceylan: it's
+[quarton] Slyger: not like I have a problem admitting when I lose. But it's hard when the guy who beats you starts
+[quarton] Toxsa: trash-talking at you. I know just what you mean. He can be so annoying sometimes. The only part of that statement that I have a problem with is the word sometimes. I still can't believe I got beat.
+[quarton] Vilius: You better get used to it.
+[quarton] Slyger: Huh? Ugh.
+[quarton] Vilius: Hey, hey, hey, hey. The looks on your faces. Oh,
+[quarton] Slyger: great. Granox. What's he doing here?
+[quarton] Vilius: Smashing you to bits. That's what I'm doing here. Or I will be in a second. Let's
+[quarton] Toxsa: go!
+[quarton] Vilius: You're not getting away this time.
 [quarton] Toxsa: Guess I better send out the alarm.
-[quarton] Ceylan: I suppose we should let the other guys know. Yeah,
-[quarton] Toxsa: even if they are a couple of jerks.
-[quarton] Ceylan: Hey, Toxsa just contacted
-[quarton] Mr._White: me. Whoa,
-[quarton] Ceylan: he hit the Corrupted Alarm! So, those goonbots are back on Earth? Looks like it. Let's go! Wait a sec. Are you sure? Sure about what? What if they're pulling some kind of trick to get back at us? What? What's this? Dissension in the ranks.
-[quarton] Beag: Continue.
-[quarton] Ceylan: Oh, no! It's Slyger! Some kind of trick, huh? Guess you caught that one wrong. At least I'm man enough to admit it. Gangway coming through! Granox, too? Now what? They got us surrounded.
-[quarton] Beag: Slyger, stay out of the way! These brats are mine! I don't think so. Not this time. You fool. You'll ruin everything. That's your department, Granox. Left turn. Now! Now look what you've done. I'll seal your gaskets.
-[quarton] Ceylan: Yo, the goon is gaining on us. Well, we'd never do this if we weren't being chased by an ugly robot. Do what? So long, dumpster breath. Do
-[quarton] Beag: you really think you'll get away from me that easily?
-[quarton] Ceylan: Killed it. Coming in real fast here. Whoa. We need the portal weapon. You're right.
-[quarton] Beag: I'm even faster downhill. Catch me if you can. Oh, wait. I was chasing you.
-[quarton] Ceylan: You ran
-[quarton] Beag: a good race. But you lost. And now it's the end of you. The end of the line. Come on,
-[quarton] Ceylan: hurry.
-[quarton] Beag: Now last time, stay out of my way. Seems to me that you're the one getting in my way. I was just standing here, you piece of junk.
-[quarton] Ceylan: Exactly.
+[quarton] Slyger: I suppose we should let the other guys know.
+[quarton] Toxsa: Yeah, even if they are a couple of jerks. Hey,
+[quarton] Ceylan: Toxsa just contacted me.
+[quarton] Slyger: Whoa, he
+[quarton] Ceylan: hit the corrupted alarm. So, those goonbots are back on Earth? Looks like it. Let's go. Wait a sec. Are you sure? Sure about what? What if they're pulling some kind of trick to get back at us? What? What's this?
+[quarton] Slyger: Dissension in the ranks. Continue. Oh,
+[quarton] Ceylan: no. It's Slyger.
+[quarton] Slyger: Some
+[quarton] Ceylan: kind of trick, huh? Guess you caught that one wrong. At least I'm man enough to admit it. Can't wait for the crowd. Granox, too? Now
+[quarton] Slyger: what? They've got us surrounded.
+[quarton] Vilius: Slyger, stay out of the way. These rocks are mine. I don't think so. Not this time. You fool. You'll ruin everything. That's your department, Granox. Left turn. Now. Now look what you've done. I'll seal your gaskets.
+[quarton] Ceylan: Yo, the goon is gaining on us. Well, we'd never do this if we weren't being chased by an ugly robot. Do what? So long, dumpster breath. Do you really think
+[quarton] Slyger: you'll get away from me that easily? Killed it. Coming in first class here. Whoa. We
+[quarton] Toxsa: need the portal weapon.
+[quarton] Slyger: You're right.
+[quarton] Vilius: I'm even faster downhill. Catch me if you can. Oh, wait. I was chasing you. What? Hey, hey. You radical. Hey, hey. Good race. But you lost. And now it's the end of the line. Come on.
+[quarton] Slyger: Hurry.
+[quarton] Vilius: Now, last time, stay out of my way. Seems to me that you're the one getting in my way. I was just standing here, you piece of junk.
+[quarton] Slyger: Exactly.
 [quarton] Toxsa: Standing right in my way.
-[quarton] Beag: Stop pointing that finger at me or I'm going to bite it off. This would be a
-[quarton] Toxsa: really good time to get that portal weapon.
-[quarton] Beag: Catch my fist in your face.
-[quarton] Mr._White: Why'd you forget? You're the Tenkai Knights. One mind, one team, remember? Right.
-[quarton] Toxsa: But we got dibs. Yeah. Come on, Chooki.
-[quarton] Ceylan: Hey, Mr. White? There's not another portal weapon laying around, is there?
-[quarton] Mr._White: No, as far as I know, it's a one-off. Okay.
-[quarton] Toxsa: Stealthy as a goblin mage.
+[quarton] Vilius: Stop pointing that finger at me or I'm going to bite it off. This
+[quarton] Toxsa: would be a really good time to get that portal weapon.
+[quarton] Vilius: Catch my fist in your face.
+[quarton] Toxsa: We got dibs on it. Come on. Hand it over. We
+[quarton] Slyger: thought of it first and
+[quarton] Mr._White: we got here first. Please, boys. Don't let some petty argument make you forget you're the Tenkai Knights. One mind, one team, remember? Right.
+[quarton] Toxsa: But we got dibs. Oh, yeah. Come on, Chooki.
+[quarton] Ceylan: Hey, Mr. White. There's not another portal weapon laying around, is there?
+[quarton] Mr._White: No. As far as I know, it's a one-off.
+[quarton] Toxsa: Stealthy as a goblin, me.
 [quarton] Ceylan: Hey, guys. Let's be practical. I mean, come on. There's two of them and only one portal weapon, so we've got to work together.
-[quarton] Beag: Hmm.
-[quarton] Ceylan: All right, that's fine with me, but first Ceylan needs to apologize. Apologize? For what? Whacking more snakes than you did? Whoa, hold on. Let's not go there again. Fine. I apologize for whooping your sorry butt. How's that? Ceylan? One lucky win and it goes to his head. Let's see you do it again.
-[quarton] Beag: Is this a private fight? Or can anyone join in the fun? Never mind. Here I come. Now, who's first?
-[quarton] Ceylan: We gotta split up.
-[quarton] Mr._White: I think we lost him.
-[quarton] Ceylan: Yeah. Hey, what are you doing here? Same as you. Where are Guren and Toxsa? Hope they don't need this.
-[quarton] Toxsa: Great. I get stuck with you. Sitting here like a doom's water waiting to explode. Thanks for the vote of confidence. No offense, but at least when I was with Chooki, I had the portal weapon. Well, maybe this wouldn't have happened if... You can
-[quarton] Beag: hide from me for all eternity, but you can't hide forever. You know what I mean. What I'm saying is, I am going to find you, and it's gonna happen way before eternity. Back to the finding.
-[quarton] Ceylan: I'm gonna let the others know our position.
-[quarton] Beag: I'm getting warm.
-[quarton] Ceylan: That's
-[quarton] Toxsa: so weird.
-[quarton] Ceylan: It's not going through.
-[quarton] Toxsa: Would you stop playing with that? He's gonna track your...
-[quarton] Beag: signal.
+[quarton] Slyger: Hmm. All right. That's fine with me, but first Ceylan needs to apologize.
+[quarton] Ceylan: Apologize? For what? Whacking more snakes than you did? Whoa. Hold on. Let's not go there again. Fine. I apologize for whooping your sorry butt. How's that? Ceylan? One lucky win and it goes to his head. Let's see you do it again.
+[quarton] Vilius: Is this a private fight? Or can anyone join in the fun? Never mind. Here I come. Now, who's first?
+[quarton] Slyger: We gotta split up. I think we lost them.
+[quarton] Ceylan: Yeah. Hey,
+[quarton] Slyger: what
+[quarton] Ceylan: are you doing here?
+[quarton] Slyger: Same
+[quarton] Ceylan: as you.
+[quarton] Toxsa: I'm here to help you. I get stuck with you. Sitting here like a doomswater waiting to splode. Thanks for the vote of confidence. No offense, but at least when I was with Chooki, I had the portal weapon. Well, maybe this wouldn't have happened if- Hide
+[quarton] Vilius: from me for all eternity, but you can't hide forever. You know what I mean. What I'm saying is, I am going to find you, and it's gonna happen way before eternity. Anyway, back to the finding. I'm gonna
+[quarton] Ceylan: let the others know our position.
+[quarton] Vilius: Getting warm.
+[quarton] Toxsa: That's so weird. It's not going through. Would you stop playing with that? It's gonna track your-
+[quarton] Vilius: Signal. Hi.
 [quarton] Toxsa: It's
-[quarton] Ceylan: not working. They must be jamming the signal. You're sweating so much it's shorted out, huh? You seem a little out of shape, Chooki. I'm in a lot better shape than you. Whoa, where are you going? Where do you think? To find the others. That's a smart idea. Did you forget that Slyger's out there? A little louder. He might not have heard you. I heard you
-[quarton] Beag: loud and clear.
-[quarton] Ceylan: Thank you. Just for that,
-[quarton] Beag: I'll make this quick and extremely painful. I told you I'd find you.
-[quarton] Toxsa: You and that stupid communicator. You might as well have set up a flare.
-[quarton] Ceylan: Well, maybe if you hadn't kept talking... Whatever. I'm outta here. Good boy. Seems
-[quarton-battle] Beag: you've been left behind, Bravenwolf.
-[quarton-battle] Ceylan: Run, Guren! Where'd you go? Uh-oh. Huh? Chooki, sail on! There he is! He won't...
-[quarton-battle] Toxsa: He won't get...
-[quarton-battle] Ceylan: Guren! Now you know! Stand
-[quarton-battle] Beag: aside, Granox! Bravenwolf is mine! Since when? I caught him! You've been running around in circles! Vilius told me to destroy the leader of the Knights, not you! Did not! You're making that up, you lying blueberry in black! Oh, really? Our mighty master's not going to like you disobeying his orders!
-[quarton-battle] Ceylan: Can I make a suggestion? Listen. How about who's ever strongest gets to destroy me?
-[quarton-battle] Beag: Well, that settles it, then. Out of my way, you galvanized goon! Make me, you tin-bladed pitsqueak!
-[quarton-battle] Ceylan: Take
-[quarton-battle] Beag: that, you
-[quarton-battle] Ceylan: heavy metal moron!
-[quarton-battle] Beag: Take that, you cluttering clod! Oh, you smell that from pellets, you cheap knockoff! Rust bucket! Smell that breath? I'm
-[quarton-battle] Ceylan: on it! Sonnets is your
-[quarton-battle] Beag: fault!
-[quarton-battle] Ceylan: Finally.
-[quarton-battle] Toxsa: Peace and quiet. How
-[quarton-battle] Beag: did it
-[quarton-battle] Ceylan: go?
-[quarton-battle] Beag: Uh, pretty good. Mm-hmm.
-[quarton-battle] Ceylan: Not too bad.
-[quarton-battle] Beag: You're pathetic! You think I don't
-[quarton-battle] Ceylan: know?!
-[quarton] Beag: And can you recall the punishment for such epic
-[quarton] Ceylan: failure?! Oh, yes! I remember!
-[quarton] Beag: Why do I rely on you, when I have the Guardians to do my bidding? Notice! I must obey.
-[quarton] Mr._White: No running in the shop! Not
-[quarton] Ceylan: yet, you didn't! Tenkai!
-[quarton] Ceylan: Bravenwolf! Tenkai!
+[quarton] Ceylan: not working. They must be jamming the signal. You're sweating so much it shorted out, huh? You seem a little out of shape, Chooki. I'm in a lot better shape than you. Whoa, where are you going? Where do you think? To find the others. That's a smart idea. Did you forget that Slyger's out there? A little louder. He might not have heard you. I heard you
+[quarton] Slyger: loud and clear. Thank
+[quarton] Ceylan: you.
+[quarton] Slyger: Just for that, I'll make this Quicken extremely painful. I
+[quarton] Vilius: told you I'd find you.
+[quarton] Ceylan: You and that stupid communicator. You might as well have sent up a flare. Well, maybe if you hadn't kept talking- Whatever. I'm outta here.
+[quarton] Slyger: Good boy. Seems
+[quarton] Vilius: you've been left behind, Bravenwolf.
+[quarton] Slyger: Run, Guren. Where'd you go? Uh-oh. Huh? Chooki, sail on. Hey, slow down. Not that way. That's where the bad guy is. Don't look.
+[quarton] Toxsa: See? No, there.
+[quarton] Slyger: Guren. Huh? Get
+[quarton] Vilius: in.
+[quarton] Slyger: Stand aside, Granox. Bravenwolf is
+[quarton] Vilius: mine. Since when? I caught him. You've been running around in circles. Vilius told me to destroy the leader of the Knights, not you. Did not. You're making that up, you lying blueberry in black. Oh,
+[quarton] Slyger: really?
+[quarton] Vilius: Our mighty master's not going to like you disobeying his orders.
+[quarton] Ceylan: Can I make a suggestion?
+[quarton] Slyger: Hey! Well,
+[quarton] Vilius: that settles it, then. Out of my way, you galvanized goon. Make me, you tin-bladed pitsqueak. Take that, you heavy metal
+[quarton] Slyger: moron.
+[quarton] Vilius: Take that, you cluttering clod. Oh, you stole that from Pele's, you cheap knockoff. Rust bucket. Smell temperance. Are
+[quarton] Slyger: you done? This is your fault.
+[quarton] Toxsa: Finally. Peace and quiet. How
+[quarton] Vilius: did it go? Uh, pretty good. Mm-hmm.
+[quarton] Slyger: Not too bad.
+[quarton] Vilius: You are pathetic. You think I don't know? You failed. And do you recall the punishment for such epic failure?
+[quarton] Slyger: Failure. Failure.
+[quarton] Vilius: Why do I rely on you when I have the guardians to do my bidding? Notice. I must obey.
+[quarton] Mr._White: No running in the shop.
+[quarton] Slyger: Not yet, you didn't. Tenkai.
+[quarton] Slyger: They're on their way. I
+[quarton] Vilius: hope the knights don't show up for their sake.
+[quarton] Ceylan: Hold it, guardian guy. Tributon,
+[quarton] Slyger: where are the others? Wouldn't
+[quarton] Ceylan: that clog your circuits? You gotta get over this competitive thing. Me? What about Lydendor? Catch you
+[quarton] Slyger: guys later. Hey, wait a minute. This
+[quarton] Ceylan: isn't gonna be a long time.
+[quarton] Vilius: I'm sorry, knights. I do not wish to fight you.
+[quarton] Ceylan: Yeah, I wouldn't want to fight us either if I were you.
+[quarton] Vilius: But regrettably, I have no choice. Guardian Tenkai Megafusion, engage.
+[quarton] Slyger: Here we go again.
+[quarton] Ceylan: Here's an idea. If you really don't want to fight us, then let's be friends.
+[quarton] Vilius: Believe me, knights. I am not your enemy. Funny
+[quarton] Slyger: way of showing it. He has some friend he is. Let's unfriend him.
+[quarton] Vilius: Unfriend?
+[quarton] Slyger: Stand back, guys. I've got this. Bravenwolf, Tenkai Firestorm, kite mode, engage. Not again.
+[quarton] Vilius: The bad fact is I must destroy you.
+[quarton] Slyger: Hang on, Bravenwolf. Wait. This isn't like that snake whacking thing. You can't just rush in swinging blindly. You still just ticked off that I beat you. That was sheer luck.
+[quarton] Vilius: I'm not enjoying this. Me
+[quarton] Ceylan: either. Well, I'm gonna enjoy doing this.
+[quarton] Slyger: Bravenwolf, you okay, buddy? Yeah. But I gotta work on sticking the landing. I don't know. I'd give you a ten. I wanted to
+[quarton] Vilius: make this easy on you. But I'm losing
+[quarton] Slyger: my
+[quarton] Vilius: patience.
+[quarton-battle] Ceylan: Missed me. Missed me. Now you gotta... Oh, wait. Never mind. Come on. Try and catch me, you dumb ton of bricks.
+[quarton-battle] Slyger: Who put that there? You
+[quarton-battle] Vilius: want to make this difficult, eh? Very well. So
+[quarton-battle] Slyger: be it. Intercepted on the goal line. Tough luck, chump. Enough. You dare to defy me? Hey. The left or right's okay. Up and down. Not so much. Stop. Lydendor. What's wrong with us? Our arguments with this guy? Not each other. There's nothing dumber than friends fighting. Guys? What's happening? Why am I lit up like a scoreboard? Elemental Titan mode online and operational.
+[quarton-battle] Vilius: Awaiting instructions.
+[quarton-battle] Slyger: Okay. Lydendor, Tenkai, Lightning Strikes, Titan mode. Engage. If
+[quarton-battle] Vilius: you insist on making a spectacle of yourself, then you will be the first I destroy. Finished
+[quarton-battle] Slyger: with you. You have won.
+[quarton-battle] Vilius: What do you mean?
+[quarton-battle] Slyger: I
+[quarton-battle] Vilius: don't get it.
+[quarton-battle] Ceylan: Chooki. You were right. I was? I was being dumb. I'm really sorry. Well, I'm sorry, too. We were both dumb. You
+[quarton-battle] Toxsa: can say that again.
+[quarton-battle] Ceylan: Huh?
+[quarton-battle] Toxsa: Especially since everyone knows that I would have beat you both. With one finger. If there hadn't been a glitch in that thing.
+[quarton-battle] Slyger: In your dreams, Toxsa. What's wrong?
+[quarton-battle] Toxsa: Can't take a joke?
+[quarton-battle] Mr._White: Uh, that's new.
+[quarton-battle] Slyger: It's how we do it, Mr. White. One mind, one team. That's right.
+[quarton-battle] Ceylan: To act as one is to be as one. There's no I in Tenkai Knights. I mean, team.
+[quarton-battle] Slyger: There is. Whatever.
+[quarton-battle] Ceylan: Yeah.
+[quarton-battle] Slyger: Now that's more like it. That's gotta be some kind of snake-whacking record. Ah,
+[quarton-battle] Mr._White: well, to paraphrase the wise words of an ancient philosopher, don't mess with success. That's pretty
+[quarton-battle] Ceylan: good, too, Ceylon. Snakes didn't stand a chance. Oh, wait. I missed one.

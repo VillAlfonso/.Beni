@@ -27,6 +27,16 @@ JP_EPS = set(range(49, 53))
 MATCH_THRESHOLD = 0.60  # strict: a wrong name poisons context; Unknown is honest
                         # (0.45 let Corekai soldiers/boys match "Guren")
 
+# The source's file numbering shifts +1 from file 40 (verified by content markers
+# twice, incl. the user's re-downloaded set): files 40-52 contain dub eps 39-51.
+# File 39 is extra dub-38-zone content (split or recap) — quarantined until the
+# user confirms by eye what it is.
+QUARANTINED_FILES = {39}
+
+
+def dub_episode(file_ep: int) -> int:
+    return file_ep - 1 if file_ep >= 40 else file_ep
+
 
 def voices_path(ep: int) -> Path:
     return HERE / "voices" / ("enrolled_jp.npz" if ep in JP_EPS else "enrolled.npz")
@@ -65,6 +75,11 @@ def name_episode(ep: int) -> None:
         ln["speaker"] = label.get(ln["speaker"], ln["speaker"])
     scene_tag.tag(data["lines"])
 
+    # filenames keep the FILE number (matches the media); the episode field
+    # carries the true DUB number — everything downstream (ingest, caps) uses it
+    data["episode"] = dub_episode(ep)
+    data["file_episode"] = ep
+
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / f"ep{ep:02d}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
     named = sorted(set(v for v in label.values() if not v.startswith("UNKNOWN")))
@@ -80,6 +95,9 @@ def main() -> None:
     for f in sorted(WORK.glob("ep*.aligned.json")):
         ep = int(f.stem[2:4])
         if a.only and ep != a.only:
+            continue
+        if ep in QUARANTINED_FILES:
+            print(f"ep{ep:02d}: quarantined (dub-38-zone duplicate) — not written to transcripts")
             continue
         name_episode(ep)
 

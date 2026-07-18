@@ -1,54 +1,188 @@
-[quarton] Guren: Guren here, in case you've been on another planet. I mean, besides Earth or Quarton, lots happened recently. We've been fighting to keep Vilius and his corrupted bots from conquering the two worlds. Nothing new in that. But we just got a killer new upgrade in our bot-kicking arsenal, Elemental Titan Mode. Next, we found the mysterious Tenkai Fortress that everyone's been after. Mysterious because we have no idea what it does, but we know it's the source of such incredible power that it's starting to destabilize the Earth. We can't let Vilius get his clamps on it. Problem is, we can't touch it either, because it's sealed off by some kind of invisible force field. So, we've got to strategize a way to break through that force field and fast. If we don't, it could mean the end of both worlds.
+[quarton] Ceylan: Guren here, in case you've been on another planet. I mean, besides Earth or Quarton, lots happened recently. We've been fighting to keep Vilius and his corrupted bots from conquering the two worlds. Nothing new in that. But we just got a killer new upgrade in our bot-kicking arsenal, Elemental Titan Mode. Next, we found the mysterious Tenkai Fortress that everyone's been after. Mysterious because we have no idea what it does, but we know it's the source of such incredible power that it's starting to destabilize the Earth. We can't let Vilius get his clamps on it. Problem is, we can't touch it either, because it's sealed off by some kind of invisible force field. So, we've got to strategize a way to break through that force field and fast. If we don't, it could mean the end of both worlds.
 [quarton] Toxsa: I say we just try a... Yeah,
-[quarton] Unknown: you tried that, dude. The force field knocked you flat. I know, but the next time, I'll be ready. Hope the ambulance is ready.
-[quarton] Guren: You gotta love his enthusiasm.
-[quarton] Unknown: Enthusiasm's not gonna be enough in this case. We need to strategize. Agreed. As long as there is a snack to follow.
-[quarton] Toxsa: Maybe the Tenkai Fortress is beyond human understanding. Like the secret unsolvable level of Doom's Bloater 4. You could spend years trying to solve it. Yeah, you could. But you
-[quarton] Guren: still wouldn't solve it. That's kind of what unsolvable means. Okay, guys, don't start this again.
-[quarton] Toxsa: He's jealous of my
-[quarton] Unknown: mad gaming skills. Yeah, right. The force field's just like any challenge that has to be overcome. There was this pitcher once whose curveball I could never hit. Until one day, I finally figured out his secret. And you kicked the winning goal. With a googly. Oh, man, come
-[quarton] Guren: on.
-[quarton] Unknown: You
-[quarton] Toxsa: guys
-[quarton] Guren: are kidding, right? You're not that clueless about
-[quarton] Toxsa: sports. Wait, you were talking about sports? Water polo, right? Just trying to strategize. Whatever. Sorry, Chooki, but I can't strategize on an empty stomach. Who wants to go to the diner? Feel
-[quarton] Toxsa: my brainstorm mode finally coming online. Ah, that's a relief. Now we can watch you spend 45 minutes
-[quarton] Guren: brainstorming about pies. Just save some brainstorming
-[quarton] Unknown: for the Tenkai Fortress, okay? Actually, maybe the answer is not to think about it too much. Just trust your instincts and don't spend all day worrying about it. About what? What
+[quarton] Ceylan: you tried that, dude. The force field
+[quarton] Toxsa: knocked you flat. I know, but the next time, I'll be ready. Hope the
+[quarton] Ceylan: ambulance is ready. You gotta love his enthusiasm.
+[quarton] Toxsa: Enthusiasm's not gonna be enough in this case. We need to strategize. Agreed. As long as there is a snack to follow. Maybe the Tenkai Fortress is beyond human understanding. Like the secret unsolvable level of Doom's Bloater 4. You could spend years trying to solve
+[quarton] Ceylan: it. Yeah, you could. But you still wouldn't solve it. That's kind of what unsolvable means. Okay, guys, don't start this again.
+[quarton] Toxsa: He's jealous of my mad gaming skills. Yeah,
+[quarton] Ceylan: right. The force field's just like any
+[quarton] Toxsa: challenge that has to be overcome.
+[quarton] Ceylan: There was this pitcher once whose curveball I could never hit. Until one day, I finally figured out his secret. And you kicked the winning goal. With a googly. Oh, man, come on. You guys are kidding, right? You're not that clueless about sports. Wait, you were talking about sports? Water polo, right? Just trying to
+[quarton] Toxsa: strategize.
+[quarton] Ceylan: Whatever.
+[quarton] Toxsa: Sorry, Chooki, but I can't strategize on an empty stomach. Who wants to go to the diner? Feel
+[quarton] Toxsa: my brainstorm mode finally coming online. Ah, that's a relief.
+[quarton] Ceylan: Now we can watch you spend 45 minutes brainstorming about pies. Just save some brainstorming for the Tenkai Fortress, okay? Actually, maybe the answer is not to think about it too much. Just trust your instincts and don't spend all day worrying about it. About what? What
 [quarton-battle] Toxsa: to eat?
-[quarton-battle] Unknown: Or
+[quarton-battle] Ceylan: Or
 [quarton-battle] Toxsa: do you mean the Tenkai Fortress? Oh,
-[quarton-battle] Guren: Chooki's saying maybe we should just go with our gut. I tried that once. Remember when I ordered that spicy chicken thing? My gut sure does.
+[quarton-battle] Ceylan: Chooki's saying maybe we should just go with our gut. I tried that once. Remember when I ordered that spicy chicken thing? My gut sure does.
 [quarton-battle] Toxsa: Yeah, and I tried my dad's super red hot chili con carne. Because I thought it would help me finally level up to Titan mode. I had to buy new pants.
-[quarton-battle] Unknown: Okay, it might not have been pretty, but you did get your Titan mode, right?
+[quarton-battle] Ceylan: Okay, it might not have been pretty, but you did get your Titan mode, right?
 [quarton-battle] Toxsa: Wait, sis, you're a genius. One chili con carne. What?
-[quarton-battle] Guren: What
+[quarton-battle] Ceylan: What
 [quarton-battle] Toxsa: in the world is chili con carne? It's one of my dad's spiciest dishes. That'll start a fire in my belly, among other places. I'll so unlock Tenkai Titan mode. Just you watch me. No, watch me. I'll get the spicy mustard fried chicken. Copycat. What is that? It's just another spicy dish we serve. To be honest, it's not so bad once your taste buds burn off.
-[quarton-battle] Guren: And for dessert, you can eat my dust. Sis,
-[quarton-battle] Toxsa: get extra napkins for the tears Ceylan's about to cry. Bring it. Ow! Here you go. Good luck.
-[quarton-battle] Unknown: Well, ready to give up? I'm
-[quarton-battle] Toxsa: ready for you to lose. This is so on. Fake.
-[quarton-battle] Unknown: Now,
-[quarton] Guren: I think he's right. Maybe the best way forward is to look at the lessons we've learned in the past. Oh, that's deep.
-[quarton] Vilius: And nice, Granox.
-[quarton] Vilius: And there's one thing that remains consistent throughout. Is it that I always give my utmost in your service, mighty master? No, it's that you always fail.
+[quarton-battle] Ceylan: And for dessert, you can eat my dust. Sis, get extra napkins for the tears Ceylan's
+[quarton-battle] Toxsa: about to cry. Bring it. Ow! Here you go. Good luck.
+[quarton-battle] Ceylan: Well, ready
+[quarton-battle] Toxsa: to give up?
+[quarton-battle] Ceylan: I'm ready for
+[quarton] Toxsa: you to lose. This is so on. Fake.
+[quarton] Ceylan: Now, I think he's right. Maybe the best way forward is to look at the lessons we've learned in the past. Oh, that's deep.
+[quarton] Vilius: And nice, Granox. And there's one thing that remains consistent
+[quarton] Vilius: throughout. Is it that I always give my utmost in your service, mighty master? No, it's that you always fail.
 [quarton] Vilius: Miserably.
 [quarton] Vilius: Watch. Your lucky streak's about to end, knights. It's now or never, Slyger. Let's make this one count. Agreed.
-[quarton] Unknown: Hey, we can do that. Oh, yeah. For
-[quarton] Vilius: Vilius
-[quarton] Unknown: and victory. Tenkai Knights. I
+[quarton] Ceylan: Hey, we can do
+[quarton] Slyger: that. Oh, yeah. For Vilius and victory. Tenkai Knights. I
 [quarton] Vilius: won't miss this part.
-[quarton] Vilius: Yeah, no way. It's kind of a relief. You
+[quarton] Slyger: Yeah, no way. It's kind of a relief. You
 [quarton] Vilius: can't expect to win every time. I'm
 [quarton] Vilius: trying, never. Ever. Watch again. Blast them out of the sky! We're done here, right? We crushed them. We're good. Okay, then.
-[quarton] Unknown: Tenkai Arrow! Save some for me!
+[quarton] Slyger: Tenkai Arrow! Save some for me!
 [quarton] Vilius: Vilius forever! Poor Vilius. No! That one was Slyger's fault, Vilius. And they swat.
-[quarton] Vilius: Lock and load for the win!
+[quarton] Slyger: Lock and load for the win!
 [quarton] Vilius: I
 [quarton] Vilius: knew it. Should've picked a beauty guy! I could go on and on and on. So many battles, and they all end the same.
 [quarton] Vilius: Wait, I don't remember this one. Start over. Oh, yeah. Now I do.
 [quarton] Vilius: Whoa!
 [quarton] Vilius: Okay, Vilius, I get the picture. Do you, Granox? Is
-[quarton] Vilius: it possible that in some cluttered
-[quarton] Vilius: corner
-[quarton] Vilius: of that antiquated steam engine you call a brain, you are actually capable of learning from your past mistakes? No. I mean, definitely. I hope so. For your sake! Because the days when I will tolerate such failure are over! I'm sorry, Vilius.
+[quarton] Vilius: it possible that in some cluttered corner of that antiquated steam engine you call a brain, you are actually capable of learning from your past mistakes? No. I mean, definitely. I hope so. For your sake! Because the days when I will tolerate such failure are over! All
+[quarton] Ceylan: right. Next stop, Mr. White's shop.
+[quarton] Toxsa: Yeah, if anyone can help us out with this, he's the man. Can't say I'm looking forward to having to drink another pot of tea. But it makes sense to review our past battles. Maybe you'll learn from your mistakes. Keep it for yourself, Ceylan. I don't remember ever making any.
+[quarton-battle] Mr._White: Your battles? Of course. They're all stored right in your Core Bricks.
+[quarton-battle] Toxsa: We can watch every battle we've ever fought? Excelente! Not
+[earth] Mr._White: just that. Every moment that you've been Tenkai Knights. You don't really mean every moment.
+[earth] Ceylan: Okay, that could be embarrassing. Remember that time I hurled in my helmet?
+[quarton-battle] Mr._White: It's showtime. I think you boys will remember this.
+[quarton-battle] Ceylan: Your Tenkai home theater. With surround sound. Bring on the popcorn. With butter.
+[quarton-battle] Mr._White: I'm afraid I can't offer you any popcorn. But if anyone's thirsty, I could brew us a nice hot pot
+[quarton-battle] Ceylan: of tea. That's okay, Mr. White. Let's just start the show.
+[quarton-battle] Mr._White: Very well. Then just insert your bricks into the armrests.
+[quarton-battle] Ceylan: Magic time! Come on, no trailers, no trailers. Let's begin. Fasten your seat belts! Bravenwolf
+[quarton-battle] Slyger: Tenkai Titan Mode! Here we go! Ew, you're so intense. What
+[quarton-battle] Ceylan: a showboat. Oh yeah? Watch! Tenkai Titan Attack!
+[quarton-battle] Vilius: Ugh!
+[quarton-battle] Slyger: Lord Vilius! You killed me! Do you
+[quarton-battle] Ceylan: think he...
+[quarton-battle] Slyger: could
+[quarton-battle] Ceylan: he... did he just... Beat Vilius? Yeah. The concept kind of fritzes my circuits too. Come on, you gotta admit, that was pretty stellar. Okay, okay, but what is this, the Guren show? Yeah, who's up next, Mr. White?
+[quarton-battle] Mr._White: Be patient, everyone. We've just begun. There's plenty of footage of all of you. Look
+[quarton-battle] Slyger: who's got his game back!
+[quarton-battle] Vilius: Impossible! Nothing can defeat the Jinx Cannon!
+[quarton-battle] Slyger: Sorry, buckethead.
+[quarton-battle] Ceylan: Impossible's not an option in my playbook. Oh, good line. You think that's good? Watch this karate kick I bust out! Hmm?
+[quarton-battle] Vilius: War Stallions destroy!
+[quarton-battle] Slyger: Time for some bronco busting! Dippy
+[quarton-battle] Slyger: Kai Yee, buckethead. Whoa,
+[quarton-battle] Mr._White: I sure came to play that day, didn't I? You're admiring yourselves. I'm not sure that's the point. Cool
+[quarton-battle] Ceylan: move, Chooki. That one goes on my highlight reel, no doubt about it. Okay, moving on. Yeah, let's go, Mr. White. Keep them coming.
+[quarton-battle] Mr._White: All right, all right.
+[quarton-battle] Ceylan: Yeah, there we go. The trailers are over, now for the feature attraction. Oh, it's a comedy. Shababble! Yeah, right. Watch and learn,
+[quarton-battle] Slyger: microchip. What? Impossible! He's achieved Tenkai Titan Mode! And I'll give you one guess who I'm gonna test it out on first. Retreat! No way! You've got a whole mess of payback coming! Vilius is not gonna like this!
+[quarton-battle] Ceylan: That's what I'm talking about. That's Titan Mode. Not bad, Ceylon. Can't believe Slyger ever came back from that one. So
+[quarton-battle] Mr._White: who's up next, Mr. White? Still the point is missing. It's not about individual achievement. Your real strength lies not in yourselves, but in each other. Prepare for robofusion.
+[quarton-battle] Ceylan: Really? That's right. Remember, guys? We never could have taken down Vilius's fortress and found the Dragon Cubes if we hadn't robofused.
+[quarton-battle] Slyger: Robofusion proto-jet engaged. We
+[quarton-battle] Ceylan: actually did it! One mind, one team!
+[quarton-battle] Mr._White: You see? The four becoming one. That's teamwork.
+[quarton-battle] Slyger: Robofusion ro-
+[quarton-battle] Ceylan: Hey, if it worked then, maybe it'll work with the Tenkai Fortress, too. What, to vaporize it? Yeah, that'd be cool. I think you're getting off track here, guys.
+[quarton-battle] Mr._White: As usual.
+[quarton-battle] Ceylan: Are you ready for this? Let's do it!
+[quarton-battle] Slyger: Bravenwolf! Titan fusion sentient mode engaged! Yeah! Finally
+[quarton-battle] Toxsa: a highlight reel about me! Oh, and yeah, Bravenwolf was there, too, I guess. I remember. Oh, oh, yeah, there he is, there he is. I remember. Okay,
+[quarton-battle] Slyger: Slyder, that was nice. Every time I do something amazing, they do something amazing-er! We're twice the knight with twice the might! Not again! Wait
+[quarton-battle] Ceylan: for it... Bingo! Not bad. Yeah, for a beginner. Yes, we were so awesome! You made a pretty good team. Yeah, but would that be enough to unseal the fortress? Wait, maybe it's even simpler than that. What if there's a key to the fortress somewhere? Yeah, like that dragon key we
+[quarton-battle] Mr._White: had to search everywhere for. An intriguing idea. You may be right. If there is such a device, and it's here on Earth, you can transport it to Quarton aboard the dropship. The coolest
+[quarton-battle] Slyger: ride in the sky!
+[quarton] Mr._White: I
+[quarton] Slyger: love that thing!
+[quarton] Mr._White: What?
+[quarton] Beag: It's the dimensional dropship!
+[quarton] Ceylan: And... is that... That Guardian dude, Boreas!
+[quarton] Beag: What's he doing here?
+[quarton] Vilius: Hop
+[quarton] Slyger: aboard! You might want to hold on tight! Okay,
+[quarton] Vilius: go!
+[quarton] Slyger: Feel those Gs! Logging out.
+[quarton] Vilius: Reach for the key, and it will come.
+[quarton] Mr._White: On the other hand, one must be quite careful when dealing with the unknown. Some devices can be helpful, while others can be quite the opposite. For example...
+[quarton] Ceylan: Core Corruptor, engage! Great, you had to remind us of this. That's a real morale booster.
+[quarton] Slyger: What's going on? In the name of Lydendor's wings! What's happening to our vault jets and blast tanks? We're being attacked by our own team! That thing's corrupting the core brick! Uh-oh! You're supposed to be on our side!
+[quarton] Ceylan: By
+[quarton] Slyger: corrupting
+[quarton] Ceylan: the cores of your army, they're now under Vilius' control. Where's an anti-core-corruptor device when you need one? He flipped them? There
+[quarton] Mr._White: is no knot that can't be untied. There is no night so long that it is not followed by the morning.
+[quarton] Ceylan: And translated from a fortune cookie, that means...
+[quarton] Mr._White: Chillax, dude. Somewhere in these images is the answer you seek. Remember, you have many allies. Friends can be an enormous help, though it may not always seem that way. Case in point.
+[quarton] Slyger: I have been neglecting to provide you with the positive reinforcement you so richly deserve. What?
+[quarton] Ceylan: No, that's not
+[quarton] Slyger: the point. I don't remember this. Soon to be corrected. Corekai, front and center!
+[quarton] Ceylan: You ask a simple question.
+[quarton] Slyger: Sound off! Tributon is mighty! Tributon eagles! No, you're kidding me.
+[quarton] Vilius: To shoot
+[quarton] Slyger: his
+[quarton] Vilius: Tenkai arrows!
+[quarton] Toxsa: His aim is legendary! This is the greatest thing I've ever seen in my life! His Tenkai finish! He's very, very fast! Was this a pep
+[quarton] Slyger: talk for you, really? Look that there is no doubt! If you think you're so great, we're gonna spell it out! He is a warrior! He
+[quarton] Toxsa: is for tremendous! He is for
+[quarton] Slyger: tremendous! He is for tremendous!
+[quarton] Toxsa: Hey, I hope he never came up with a cheer for me.
+[quarton] Ceylan: Aren't yourself lucky. Yeah, the cheerleaders for my football team are much cuter. That
+[quarton] Toxsa: just
+[quarton] Slyger: leaves us O and N, so now let's do it all again!
+[quarton] Ceylan: Again? No, not again. Please, not again. I got it. I got it! The
+[quarton] Slyger: orange stands for rough! I for invincible! V for big and far! V for huge and far!
+[quarton] Beag: It's the enemy! Well,
+[quarton] Ceylan: I guess I wasn't the only guy who'd heard enough. Gotta give Big credit. Dude is pretty fly. For a robot. Know what I mean?
+[quarton] Mr._White: And what's more, I seem to recall him saving your bacon, as they say, on more than one occasion.
+[quarton] Ceylan: You sure this is right? It's gotta be. Yep, we're close alright. How do you know? Because of all the guards! Either that or it's a really long line for the bathroom. Watch
+[quarton] Slyger: it! We're gonna need backup! Uh-oh. You're
+[quarton] Vilius: gonna need a lot more than that, Knights!
+[quarton] Slyger: Yes! You're
+[quarton] Vilius: going to
+[quarton] Slyger: need the reassembly device yourselves by the time we're done with you! What
+[quarton] Vilius: happened?
+[quarton] Beag: Be
+[quarton] Slyger: what happened! Alright!
+[quarton] Beag: Move
+[quarton] Slyger: out, heroes! We'll hold off these two renegades while you continue on and fulfill your objective! Thanks, Beag! Don't go too easy on him.
+[quarton] Ceylan: Good ol' Beag. He's our go-to guy on fourth and goal. Mr. Dependable. He never lets you down. I
+[quarton] Beag: wouldn't go that
+[quarton] Ceylan: far. So,
+[quarton] Beag: this is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course. Hey. Uh, Beag? Ah! Quick! Strike the set! What the heck are you doing? Oh! Uh, training! Yes! Training for, uh, possible amphibious assault. Yes. You're a sunscreen commander! Stay on the unscreen, say.
+[quarton] Beag: That thing up there! Huh?
+[quarton] Toxsa: Tenkai Rainbow! What does it mean?
+[quarton] Mr._White: Of course, there's always the dragon. Its power might unseal the fortress.
+[quarton] Slyger: Yeah,
+[quarton] Mr._White: dragon. Let it free again. Is it worth the risk?
+[quarton] Vilius: Ha ha ha ha ha! Such immeasurable power you have. And with this key, it all becomes mine at last.
+[quarton] Vilius: Awaken, dragon. Vilius commands you! That
+[quarton] Ceylan: monster was gnarly.
+[quarton] Slyger: Neither good nor evil.
+[quarton] Ceylan: Just sheer power. Like a gnomish rune helmet. Exactly. Wait, what? Don't get me started.
+[quarton] Toxsa: In the DoomSplodder 3 expansion module. Ah! Can we just watch the movie, please? All right.
+[quarton] Beag: Now,
+[quarton] Vilius: Tenkai Dragon, together we shall conquer both worlds, and worlds beyond!
+[quarton] Slyger: Think again!
+[quarton] Vilius: What?
+[quarton] Slyger: I'm gonna knock you off that dragon dumpster butt!
+[quarton] Vilius: Ha! Bold words to the last, eh, Bravenwolf? Destroy them, dragon!
+[quarton] Mr._White: On that note, it might be time to take a pause and reflect on what we've watched. Perhaps over a nice hot cup of tea. Not just yet. I see. Well, of course, if there was something else you wanted to review.
+[quarton] Ceylan: We're so awesome! I wanna see more of me. I wanna see that firebird. Yeah, and the vault jet. Can we watch it in 3D? Stay
+[quarton] Mr._White: focused, boys. Try and remember what we're here for. I appreciate your enthusiasm, but...
+[quarton] Ceylan: Kids
+[quarton] Mr._White: and their TV.
+[quarton] Ceylan: Hey, Mr. Black. Not sure we found the answer. I think we learned something important.
+[quarton] Toxsa: We did?
+[quarton] Ceylan: Like what? The only surprise I saw was that Beags got pretty good rhythm.
+[quarton] Mr._White: I think I understand what Chooki means. You're saying that a river never runs uphill, right? It's time to stop looking at the past and move forward.
+[quarton] Ceylan: Oh, yeah.
+[quarton] Mr._White: I don't get it. In the search for an answer lies the answer itself.
+[quarton] Ceylan: Whoa, time out. If we found any answers, I must have missed them.
+[quarton] Mr._White: Each one of the battles you've fought has been a test, and you've passed every time. Now I get it. We've beat every challenge so far, and we'll beat this one, too. I couldn't have said it better myself. That's for sure. That's not to say that this challenge will be an easy one. It could be the most difficult you've ever faced. We're
+[quarton] Ceylan: ready. Excellent. Now, who wants a cup of tea?
+[quarton] Mr._White: Come on, you don't want to hurt my feelings, do you?
+[quarton] Ceylan: No!

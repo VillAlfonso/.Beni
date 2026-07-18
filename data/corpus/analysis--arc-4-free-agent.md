@@ -25,8 +25,15 @@ wish from the beasts. She wishes for **all of them to go home**. The beasts answ
 wish covers only her — she alone can leave. And Beni — the friendless girl, the "flying
 solo is the only way to go" girl — refuses to go home alone. She's visibly sad about it,
 then trades her wish away for *another game*, keeping everyone stuck together rather than
-leaving the boys behind. Nobody makes a speech about it. It says everything about who's
-actually under the armor, three arcs before she'd admit it.
+leaving the boys behind. The scene, verbatim: the beast grants "You won the race,
+Princess. So what is your wish?" — her instant "We want outta here. We wanna go home." —
+the catch: "Are you using the royal we, Princess? Only you get to go home" (the others
+didn't finish; they'd stay in Beast World forever). The boys tell her to take it and go.
+Instead: "Wait, I haven't officially wished yet. My wish is that we all start over from
+scratch, and you give us a new mission." And when one of the boys says "Wow, Beni. Don't
+get sappy," her cover story is instant: "It's fun kicking your bots. Besides, I'm kinda
+digging this Princess thing." Nobody makes a speech about it. It says everything about
+who's actually under the armor, three arcs before she'd admit it.
 
 <!--ep:43-->
 Scorpidon's actual motive: he just wanted to be entertained. Satisfied, he frees them; he
