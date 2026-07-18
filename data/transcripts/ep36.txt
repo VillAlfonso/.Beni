@@ -1,26 +1,26 @@
 [quarton-battle] Guren: We're in here, and in case you've missed it, we've been trying to keep Vilius and his corrupted goon squad from getting their hands on the Tenkai Fortress, a mysterious and powerful source of Tenkai Energy. It hasn't been easy, especially now that Vilius has got the Guardians fighting on his side, but we've held our own, thanks to this awesome new elemental type mode we've learned. Well, most of us have learned, for some strange reason. We can't get it to work every time. Poor Bravenwolf. Well, poor at all. That's really starting to bum me out. I
 [quarton-battle] Guren: just wanted to say that. Five's
-[quarton-battle] Guren: around the line, five times for sure. Bravenwolf, Tenkai...
+[quarton-battle] Unknown: around the line, five times for sure. Bravenwolf, Tenkai...
 [quarton-battle] Vilius: Tenkai Energy runs low. I will finish you next time.
-[quarton-battle] Guren: Don't get your hopes up. Well done, Knights! Once again, you've won the day! Why can't I go Titan?
+[quarton-battle] Unknown: Don't get your hopes up. Well done, Knights! Once again, you've won the day! Why can't I go Titan?
 [quarton-battle] Unknown: Bravo! Good job, everyone. That was no biggie. Hardly broke a sweat. We're getting to be pros at elemental Titan mode. Well,
 [quarton-battle] Guren: at least... ...most of us are. Slowpoke. Eh, you're right.
 [quarton-battle] Vilius: I had thought that the power of the Guardians would be more than a match for the Tenkai Knights. Apparently, I was mistaken. Your only mistake was in sending the wrong Guardians to do your bidding, Vilius. Power is nothing without the will to use it. What do you mean? You're weak, every one of you. Your powers are held in check by fear of the old laws that demanded we remain neutral. You, on the other hand, don't have such qualms? And why is that? Because I know the best way to restore the balance is to serve you, and the best way to serve you is to destroy the Knights. Well, I must say, Ulyss, I
 [quarton-battle] Guren: like your attitude. ***
 [quarton-battle] Unknown: ***
 [quarton-battle] Guren: Dude, are you hiding out? Huh? Of course not! I just thought that... Look, I didn't really mean that Slowpoke crack. Oh. That's okay. But, hey, I can't talk right now, Ceylan. I've gotta get going.
-[quarton] Guren: I thought we were hanging. Sorry.
+[quarton] Unknown: I thought we were hanging. Sorry.
 [quarton] Guren: Something came up. Huh? Like what? Oh,
-[quarton] Beni: it's you, Guren.
+[quarton] Unknown: it's you, Guren.
 [quarton] Guren: Orange juice, please. Hold the ice.
-[quarton] Beni: There you go. Don't hurt yourself with the straw.
+[quarton] Unknown: There you go. Don't hurt yourself with the straw.
 [quarton] Guren: Wakame, you're, like, really good at sports, right?
-[quarton] Beni: Well, yeah, I'm not gonna lie.
+[quarton] Unknown: Well, yeah, I'm not gonna lie.
 [quarton] Guren: Have you ever had a shot or a special move that you just can't seem to make anymore?
-[quarton] Beni: Whenever that happens to me, it's back to the basics. Training, training, training.
+[quarton] Unknown: Whenever that happens to me, it's back to the basics. Training, training, training.
 [quarton] Guren: I see. It's that simple, huh? Thanks for the advice. Uh,
 [quarton] Unknown: Guren? Was that Guren? Hey, what's up with that? He bugged out without saying hello?
-[earth] Beni: No, worse. He bugged out without paying. I
+[earth] Unknown: No, worse. He bugged out without paying. I
 [earth] Guren: don't know what it
 [earth] Unknown: is, but there's something funny going on with Guren. Yeah, he's not right. I'll say he's not. I just had to pay for a large orange juice out of my own pocket. You know what's wrong with him, Mr. White?
 [earth] Guren: I don't, but I will say this. There is no rock. So great and mighty, it cannot crumble.
@@ -30,7 +30,7 @@
 [earth] Guren: think?
 [quarton-battle] Unknown: So that's why he can't go Titan mode
 [quarton-battle] Guren: anymore? Yeah. It's like a pitcher suddenly losing his slider. One day, he's pitching a shutout. Next day, he can't hit the strike zone. You saying we should trade him? I'm saying we've all got to try and take the pressure off him. Especially you, Ceylan. Me? Sounds like a plan, Chooki. So it's agreed. We keep Guren's mind off the Tenkai Knights.
-[quarton-battle] Guren: Seven. Seven?
+[quarton-battle] Unknown: Seven. Seven?
 [quarton-battle] Gen: What's the point of cheating on yourself? Come on, that was more like five. So you're trying to get your mojo back?
 [quarton-battle] Guren: Yeah. Something like that.
 [quarton-battle] Gen: Okay, but why are you keeping it a secret from the other guys? Isn't that why you have a team? They're there to help.
@@ -38,5 +38,5 @@
 [quarton-battle] Guren: just hope the bell doesn't ring and, you know, interrupt us. We're just getting started, and I've gotta go! I promise I'd leave karate practice today! I feel terrible! Just terrible!
 [quarton-battle] Guren: It's cool. Don't break the table. Okay. Later. That was weird. No one wants to listen.
 [quarton-battle] Unknown: Guren! Wait up! Oh,
-[quarton-battle] Guren: hi, Toxsa.
+[quarton-battle] Unknown: hi, Toxsa.
 [quarton-battle] Guren: Hello. I was starting to think you guys might be avoiding me. I signed up for a new job.

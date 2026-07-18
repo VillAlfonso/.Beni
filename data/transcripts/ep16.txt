@@ -16,42 +16,42 @@
 [earth] Guren: Was the key to protecting the world?
 [earth] Guren: Yo, Earth to Ceylon, do you copy? You alright? What'd you do that for? You scared me! You never stay after class, well, except for detention. After class?
 [earth] Guren: Okay, kind of embarrassing. What were you thinking so hard about? What is up, dude? It's those darn Mesopotatoans. Who? The guys we're studying. Fascinating people. I think I'll go home and read up on them. Huh? Yeah, right. No way.
-[quarton] Gen: You do ask the tricky questions, don't you?
+[quarton] Unknown: You do ask the tricky questions, don't you?
 [quarton] Guren: Seriously, why were the four of us picked to be the Tenkai Knights?
-[quarton] Gen: My word, where does all this dust come from?
+[quarton] Unknown: My word, where does all this dust come from?
 [quarton] Guren: I suppose what I really want to know is why was I chosen?
-[quarton] Gen: As I recall, the Guardian explained all this already, didn't he?
+[quarton] Unknown: As I recall, the Guardian explained all this already, didn't he?
 [quarton] Guren: Like I can ever understand him.
-[quarton] Gen: Hmm. Many questions make for rich
+[quarton] Unknown: Hmm. Many questions make for rich
 [quarton] Guren: answers. It just feels like my being chosen was a mistake.
-[quarton] Gen: Is that
+[quarton] Unknown: Is that
 [quarton] Guren: your answer? Huh?
-[quarton] Gen: Your answer could be right or wrong.
+[quarton] Unknown: Your answer could be right or wrong.
 [quarton] Guren: Wow. Yeah, that's really going out on a limb, Mr.
-[quarton] Gen: White. One might as well ask, was it a mistake that the swallow was chosen to fly or the bee to sting? Uh. Excuse me. Crazy question, I know, but do you carry dental floss? I'm not going to get much help around here. I should have
+[quarton] Unknown: White. One might as well ask, was it a mistake that the swallow was chosen to fly or the bee to sting? Uh. Excuse me. Crazy question, I know, but do you carry dental floss? I'm not going to get much help around here. I should have
 [quarton] Guren: known. I'm not going to get much help around here.
-[quarton] Gen: But maybe. Perhaps a fossilized shark's tooth or the jawbone of a coelacanth. Maybe I'll find
+[quarton] Unknown: But maybe. Perhaps a fossilized shark's tooth or the jawbone of a coelacanth. Maybe I'll find
 [quarton] Guren: the answer on Quarton. Hortal, do your thing.
-[quarton] Vilius: Lively, you, over there. Secure those supplies. Set up a defensive perimeter. We're entirely at your service. Can
+[quarton] Unknown: Lively, you, over there. Secure those supplies. Set up a defensive perimeter. We're entirely at your service. Can
 [quarton] Guren: I ask you a question, Beag?
-[quarton] Vilius: Question away with greatness. You
+[quarton] Unknown: Question away with greatness. You
 [quarton] Guren: ever wonder how a goofball like me ever got to be a knight?
-[quarton] Vilius: I know not what this ball of goof you speak of is, but you are here to foil the evil ambitions of the corrupted and to bring peace and justice to Quarton and
+[quarton] Unknown: I know not what this ball of goof you speak of is, but you are here to foil the evil ambitions of the corrupted and to bring peace and justice to Quarton and
 [quarton] Guren: the- Yeah, yeah. Heard all this from you before. I want the real truth.
-[quarton] Vilius: I, uh, uh, what?
+[quarton] Unknown: I, uh, uh, what?
 [quarton] Guren: Come on. Do you really think of me as a Tenkai Knight?
-[quarton] Vilius: Is this a trick question?
+[quarton] Unknown: Is this a trick question?
 [quarton] Guren: It used to kind of bug me that it was always Bravenwolf and the others who got all the praise and high fives. Then I realized they deserved it. They're the ones winning the battles. I'm just tagging along, making jokes. I
-[quarton] Vilius: see. I have been neglecting to provide you with the positive reinforcement you so richly deserve.
+[quarton] Unknown: see. I have been neglecting to provide you with the positive reinforcement you so richly deserve.
 [quarton] Guren: What? No. That's not the point.
-[quarton] Vilius: An unforgivable oversight soon to be corrected. Corekai, front and center. Uh, brother. You ask a simple
+[quarton] Unknown: An unforgivable oversight soon to be corrected. Corekai, front and center. Uh, brother. You ask a simple
 [quarton] Guren: question.
-[quarton] Vilius: Sound off. Tributon is mighty. Tributon he knows. To shoot his Tenkai arrow. And take down all our foes. His aim is legendary. His courage unsurpassed. His Tenkai speed is scary. He's very, very fast. We honor and respect you. That there is no doubt. In fact, we think you're so great. We want to spell it out. T is for warrior. T is for tremendous. The R is for rough. I is for invincible. B is for big and buff. U is for unwielding. T is for strength of ten. That just leaves us O and N, so now let's do it all again. Again?
+[quarton] Unknown: Sound off. Tributon is mighty. Tributon he knows. To shoot his Tenkai arrow. And take down all our foes. His aim is legendary. His courage unsurpassed. His Tenkai speed is scary. He's very, very fast. We honor and respect you. That there is no doubt. In fact, we think you're so great. We want to spell it out. T is for warrior. T is for tremendous. The R is for rough. I is for invincible. B is for big and buff. U is for unwielding. T is for strength of ten. That just leaves us O and N, so now let's do it all again. Again?
 [quarton] Guren: No, not again. Please, not again. I got it. I got it. T is for tremendous. The R
-[quarton] Vilius: is for tough. I is for invincible. B is for big and buff. U is for invincible. Let me hear you!
-[quarton] Vilius: It's the enemy.
+[quarton] Unknown: is for tough. I is for invincible. B is for big and buff. U is for invincible. Let me hear you!
+[quarton] Unknown: It's the enemy.
 [quarton] Guren: Well, I guess I wasn't the only guy who'd heard enough.
-[quarton] Vilius: Yes, well.
+[quarton] Unknown: Yes, well.
 [quarton] Guren: Wait. Those guys? Dumpster head and toaster face? I thought we vaporized them.
 [quarton] Guren: Okay,
 [quarton] Guren: I can beat these two goons. That'll prove that I'm a Tenkai Knight. But just so there are no surprises, AI, you picking up any of the bad guys in the neighborhood?
@@ -75,7 +75,7 @@
 [quarton-battle] Vilius: No more witty banter. No
 [quarton-battle] Guren: clever retorts. Oh, I'm working on it. Good luck with that. Forward, Corekai, head to battle! I can't think of a single one-liner! What's wrong with me? I'm losing my touch! Perhaps you're better at dancing! Not! It
 [quarton] Vilius: ends now! Corekai pests!
-[quarton] Vilius: We must protect Tributon!
+[quarton] Unknown: We must protect Tributon!
 [quarton] Vilius: Better protect yourselves!
 [quarton] Guren: Watch out! Don't forget Slyger! Our
 [quarton] Guren: guys are getting decimated. In
@@ -128,7 +128,7 @@
 [quarton-battle] Guren: I'm gonna need somewhere else to tell jokes. Maybe I can find an open mic.
 [quarton-battle] Guren: Something doesn't feel right.
 [quarton-battle] Guren: I got this, Lydendor!
-[quarton-battle] Vilius: Bravenwolf! I
+[quarton-battle] Unknown: Bravenwolf! I
 [quarton-battle] Guren: like this Titan mode!
 [quarton] Vilius: Yeah, and we know how to use it. It's wasted on these fools. Born!
 [quarton] Guren: Can you move? What's the sports term for now?
@@ -136,7 +136,7 @@
 [quarton-battle] Guren: playing, Tributon and the Volt Jets! Well, what do you know? Yes,
 [quarton-battle] Guren: Tributon! Must have been crazy. Sending you out with Toxsa as your funny man. That actor's bound to be a flop.
 [quarton] Guren: But amateur hour is over!
-[quarton] Gen: Ceylon, if you truly believe that you were not meant to be a Tenkai Knight, then why are you going?
+[quarton] Unknown: Ceylon, if you truly believe that you were not meant to be a Tenkai Knight, then why are you going?
 [quarton] Guren: Well, what's a jokester without an audience? Right, Mr. White? Besides, they're my team. And if the team says it needs me, who am I to... Can we talk about this later? You hit me like a good punchline. What was it that finally allowed me to go Titan mode? It was realizing that they're more than just teammates. They're my friends. Friends are everything.
 [quarton] Guren: And that's no joke! You should have stayed away! Now's my chance! I made a joke!
 [quarton] Vilius: You think you're funny? Well, I'm not laughing! Just

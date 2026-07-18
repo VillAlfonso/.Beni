@@ -2,10 +2,10 @@
 [quarton-battle] Vilius: You've accomplished much, Dromus. You captured the Tenkai Dragon and found a way to utilize its energy. Now if we can only control the beast itself, I need you to do something for me, Dromus. Name it, Vilius. Destroy the Tenkai Knights.
 [quarton-battle] Guren: We've got company. Dromus! Heads up! Turn
 [quarton-battle] Vilius: on fire! The real battle will take place up there, above the clouds. Vilius, he dares come here? The guardians, defenders of Quarton. But who defends you?
-[quarton-battle] Vilius: We thought you would have learned your lesson, Vilius. But you've forgotten what happened the last time you opposed us. Don't make the same mistake again. Be gone before it is too late. It
+[quarton-battle] Unknown: We thought you would have learned your lesson, Vilius. But you've forgotten what happened the last time you opposed us. Don't make the same mistake again. Be gone before it is too late. It
 [quarton-battle] Vilius: already is too late, but not for me. You are the ones who must go!
 [quarton-battle] Unknown: Normally, the council would vote on how we should respond to this insolence, but we can't vote, not with our viewers here.
-[quarton-battle] Vilius: Yes, that is another troubling matter, but I don't think we need to vote, do we? It's clear what our response must be. What
+[quarton-battle] Unknown: Yes, that is another troubling matter, but I don't think we need to vote, do we? It's clear what our response must be. What
 [quarton-battle] Guren: happened in the last battle? As soon as I can get this gizmo to work. Oh, there we go. See, the green one's us. By advancing on the enemy like this. Chooki, why don't you explain that plan we came up with?
 [quarton-battle] Guren: Okay, it's kinda like faking the Blitz in order to make the other team call an audible up at the line. Great, now explain the explanation. Chooki, you know Toxsa doesn't speak sports that well. Dude, I don't speak sports all the time. Don't exaggerate. It's more like rope-a-doping your opponent till you get an opening for a right hook. You just can't help yourself, can you? In other words, make them think you're doing one thing when you're really doing something else. Exactly! Last time we tricked the Corrupted
 [quarton-battle] Guren: into leading us straight to their main base. Right. I was just about to get to that. Go ahead. That's where they keep the reassembly device that allows them to repair themselves. All we have to do is locate that thing and destroy it. If we can do
@@ -14,9 +14,9 @@
 [quarton-battle] Gen: is gonna be awesome!
 [quarton] Unknown: Such confidence is infectious. If I were a few years younger... You know
 [quarton] Guren: it. Whatever it was Chooki said.
-[quarton] Guren: Nah, we fake the rope glitzing until their audible opens. Right, Chooki? Never mind. Let's do it! Trouble just
+[quarton] Unknown: Nah, we fake the rope glitzing until their audible opens. Right, Chooki? Never mind. Let's do it! Trouble just
 [quarton] Gen: arrived.
-[quarton] Guren: Why is she fighting her own guys? Looks like you're not the only one who wants to know. Look!
+[quarton] Unknown: Why is she fighting her own guys? Looks like you're not the only one who wants to know. Look!
 [quarton] Gen: You'll pay for your treachery, Venetta!
 [quarton] Gen: Consider yourself caught, you traitor!
 [quarton-battle] Beni: I'm no
@@ -35,25 +35,25 @@
 [quarton] Guren: Ravenwolf! There's a battle going on, remember? Right. How do we stand? Beads troops have pushed the bad guys back into their own end zone. But it's a heavily
 [quarton-battle] Guren: fortified end zone. I need to stop saying end zone. For that, we're gonna need a strategy. And a full tank of Tenkai Energy. Okay. Let's head back.
 [quarton-battle] Unknown: What a surprising twist. And quite encouraging. You've got the enemy fighting amongst themselves.
-[quarton-battle] Guren: It's like scoring a Seeds of Discord spell!
+[quarton-battle] Unknown: It's like scoring a Seeds of Discord spell!
 [quarton-battle] Unknown: I'm sure I'd agree, if I knew what that was.
 [quarton-battle] Guren: Maybe we can take advantage of this. You know, that whole my enemy's enemy is my friend thing. Hey, come on. She may be pretty and pink, but you don't really trust her, do ya? I know she's just another bad bot, but... Dromus was right. It's none of our business. Next thing you're gonna ask her is to join the team! Well, as a matter of fact, you've seen her in action. We could do worse. Don't! Come on! You can't be serious! You are.
 [quarton] Unknown: Stranger things have happened in the universe, but the important thing now is preparing for the battle ahead.
 [quarton] Guren: Agreed. Bring
-[quarton] Guren: out
+[quarton] Unknown: out
 [quarton] Guren: the snacks, Mr. White. I've got a better idea, Toxsa. I vote we go to your diner and talk strategy while we carb up. Second it. I third it. Rhyme parfait, here
 [quarton] Guren: I come.
 [earth] Guren: You
 [earth] Guren: gotta try our new
-[earth] Guren: hickory jalapeno peanut butter burger. Let me
+[earth] Unknown: hickory jalapeno peanut butter burger. Let me
 [earth] Guren: guess, your invention? Your name should be Toxic. That's what Wakame calls me.
 [earth] Guren: Isn't that... what's her name? It's Beni. She doesn't look so good. You, uh, think something's wrong? Who
-[earth] Guren: cares? She tried to trick us! Yeah, you're right! You've got a lot of nerves showing up around here, you know that, Pinkie? Yeah, I'll say. What was that stunt you pulled when you lured us into that
+[earth] Unknown: cares? She tried to trick us! Yeah, you're right! You've got a lot of nerves showing up around here, you know that, Pinkie? Yeah, I'll say. What was that stunt you pulled when you lured us into that
 [earth] Guren: warehouse? Long story.
-[quarton] Guren: I
+[quarton] Unknown: I
 [quarton] Guren: can explain everything, but right
 [quarton] Beni: now I'm kinda beat. Need some rest.
-[quarton] Guren: Wow, she's one of those people who can nap anywhere.
+[quarton] Unknown: Wow, she's one of those people who can nap anywhere.
 [quarton] Beni: Guys!
 [quarton] Gen: Guys, look! What? A Core Brick!
 [quarton] Vilius: Not for me. Not this time. Oh,
@@ -67,30 +67,30 @@
 [quarton] Beni: I was. I'm Venetta.
 [quarton] Guren: You're Venetta?
 [quarton] Beni: You
-[quarton] Guren: should have figured that out. You
+[quarton] Unknown: should have figured that out. You
 [quarton] Guren: know, pink hair, pink
-[quarton] Guren: robot, and... Seriously, all the pink video game characters? How'd I miss that? So what do you want us to call you? Huh?
+[quarton] Unknown: robot, and... Seriously, all the pink video game characters? How'd I miss that? So what do you want us to call you? Huh?
 [quarton] Beni: Oh, that's easy. The name you know me by, Guren.
 [quarton] Guren: You got
 [quarton] Guren: it,
 [quarton-battle] Guren: Beni.
 [quarton-battle] Guren: Okay. So anyway, what's your story, Beni? How'd you happen to wind up on our doorstep? They bailed on Dromus, and didn't know where else to go. No offense, but I'm not sure I'm totally sold on this fight you had with Dromus. Whoa, Chook. Give her a break. It's okay. I don't
 [quarton-battle] Beni: blame him for being suspicious. But maybe he'll change your mind when I tell you that I betrayed Dromus, because I found out what he's really planning.
-[quarton-battle] Guren: What's that?
+[quarton-battle] Unknown: What's that?
 [quarton-battle] Beni: You've got to understand. When I first met him in the Otherworld, I was just learning about Quarton. It was all new to me, and terrifying. I don't know how long I would have survived on my own. The fact is, Dromus saved my life. He was strong. He made me feel safe. He taught me things. The Otherworld made sense when I was with him. So I stayed with him. And trusted him. And all the while, he was luring me into his web of lies. And so, that's why you fought against us. He told me you were a threat to Quarton. It took me a while to realize that that wasn't true. What made you change your mind? When I found out why Dromus wants the Dragon Key. He wants to make the Dragon his own, and use its powers to destroy both Quarton and the Earth. That's why I came to you. You're the only ones who can help me stop it before it's too late.
 [quarton-battle] Guren: Wait, wait, wait. Dromus actually told you he's planning to destroy the Earth? You give a reason? I know it sounds crazy, but
 [quarton-battle] Beni: he wants to be master of the devastation that remains. You're right. That
-[quarton-battle] Guren: does sound crazy.
+[quarton-battle] Unknown: does sound crazy.
 [quarton-battle] Beni: You have no idea how much he despises both worlds, and everything on them. Where does
 [quarton-battle] Guren: that
-[quarton-battle] Guren: come from? I
+[quarton-battle] Unknown: come from? I
 [quarton-battle] Beni: don't know what happened exactly. But sometime in his past, he was betrayed by someone he trusted. He sees the Tenkai Dragon as his way of getting revenge. He wants to destroy and start again. Wipe the slate clean. That's what he says. I'll wipe his slate!
 [quarton-battle] Guren: Hang on. Why should we take Empress Bubblegum's word for all this? Fine.
 [quarton-battle] Beni: Don't believe me. Sit by and watch while two worlds are destroyed. I'm just saying. Look, I can't erase the past. I can only try to make amends by telling you what I know. What you choose to do with the information is up to you. There's
 [quarton-battle] Guren: one thing I don't get. Really? Only one? I mean, how can Dromus want to destroy the Earth? No one up there on Quarton has any idea that Earth exists. Dromus knows.
 [quarton-battle] Beni: And it won't be long before Vilius knows too. If you think you're safe because you're half a universe away, you're wrong.
 [quarton-battle] Guren: You sit tight. The four of us need to talk alone.
-[quarton] Guren: Do you
+[quarton] Unknown: Do you
 [quarton] Guren: believe her? She seems sincere. But on the other hand, she might just be sincerely trying to lead us into a trap. She better not. She's not. You could be right.
 [quarton] Guren: At any rate, maybe we should play along with her. The key. We need to find that Black Dragon key before Dromus does.
 [quarton] Guren: Okay, but if we end up getting vaporized, don't come whining to me. So you're on board, Chooki? Yeah.
@@ -116,13 +116,13 @@
 [quarton] Beni: won't let you down, Guren. And when we're done saving the planet, I'll even let you take me out to dinner.
 [quarton] Guren: Okay, I'm in position. Ready to go.
 [quarton] Beni: What about you, Toxsa? You ready? Come in.
-[quarton] Guren: I'm ready, and I found a strange cat.
+[quarton] Unknown: I'm ready, and I found a strange cat.
 [quarton] Beni: Forget the cat. Everyone, fire up your software.
 [quarton] Guren: It's hard to follow a game plan when you don't even know what the game is. What are we looking for, anyway? Hold
 [quarton] Beni: your horses. There, you see? I programmed this app to pick up the Tenkai Energy from your Core Bricks. When that energy achieves a certain level, the Dragon Key should respond. And when it does, we'll be able to triangulate on its position. Now is everybody ready? Ceylan? Still
-[quarton] Guren: ready. No
+[quarton] Unknown: ready. No
 [quarton] Beni: need to get snippy. Chooki? Ready. Toxsa, how about you? The
-[quarton] Guren: cat and I are ready. Forget the cat. Stand by.
+[quarton] Unknown: cat and I are ready. Forget the cat. Stand by.
 [quarton] Beni: Okay, activate your Core Bricks and hold them up like I showed you.
 [quarton] Beni: Good. Okay, hold it steady, just like that. The cat's getting bored. If you mention that cat one more time... Oh my gosh! What? I don't believe it! It worked! It worked! What is it? What's going on over there?
 [quarton] Beni: Where? Uh,

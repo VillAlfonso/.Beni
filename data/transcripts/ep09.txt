@@ -1,26 +1,26 @@
 [quarton] Guren: On this planet, you guys can call me Guren. My name's Chooki. And my name's Toxsa. Huh. So I guess we're like bros? I suppose it's better than foes.
-[quarton] Vilius: Sometimes four is more than two plus two, isn't it?
+[quarton] Unknown: Sometimes four is more than two plus two, isn't it?
 [quarton-battle] Guren: So it's agreed, we're a team, okay? Sound good? Sure. Count us in. Sure, why not? Well, now you have some idea of what you're up against, and how much the world is depending on you.
-[quarton-battle] Guren: All of you.
+[quarton-battle] Unknown: All of you.
 [quarton-battle] Guren: Tenkai Speed! Tenkai Strength! Tenkai Agility! In case you came in late, my friends and I have been chosen to be the new Tenkai Knights. And like the original Knights, our mission is to save the planet Quarton, and pretty much the whole universe. Our job got a little easier when three of us, first me, then Tributon, then Lydendor, learned how to achieve Titan Mode, an awesomely cool upgrade that really upped our game. And we're gonna need all the game... And we can get it, if we're gonna have a chance of beating Vilius and his army of corrupted robots. We
 [quarton-battle] Guren: all came
-[quarton-battle] Vilius: here looking for a Dragon Cube, and instead, all we found was each other. How very disappointing. At least I'll have the consolation of sending you to your doom. Left behind you!
-[quarton-battle] Guren: Uh, he's got a point. Retreat's not really a viable option. It's like a
+[quarton-battle] Unknown: here looking for a Dragon Cube, and instead, all we found was each other. How very disappointing. At least I'll have the consolation of sending you to your doom. Left behind you!
+[quarton-battle] Unknown: Uh, he's got a point. Retreat's not really a viable option. It's like a
 [quarton-battle] Guren: squeeze plate. We're totally cornered. Well, when you're cornered, there's only one thing to do. Fight your way out.
-[quarton-battle] Vilius: You can try.
-[quarton-battle] Guren: Attack! Here they come! Okay, I'm tired of being the odd man out! It's my turn to level up! Tenkai Titan Mode, go!
-[quarton-battle] Guren: Big drop, big drop!
-[quarton-battle] Gen: We've got you, Valorn!
-[quarton-battle] Guren: This is so humiliating! Every upgrade ever released, I've been first in line! It's not fair! No! Valorn! Whoa, Big, that was... Hang
+[quarton-battle] Unknown: You can try.
+[quarton-battle] Unknown: Attack! Here they come! Okay, I'm tired of being the odd man out! It's my turn to level up! Tenkai Titan Mode, go!
+[quarton-battle] Unknown: Big drop, big drop!
+[quarton-battle] Unknown: We've got you, Valorn!
+[quarton-battle] Unknown: This is so humiliating! Every upgrade ever released, I've been first in line! It's not fair! No! Valorn! Whoa, Big, that was... Hang
 [quarton-battle] Guren: on, men! Will do,
 [quarton-battle] Unknown: sir! You got it, sir!
 [quarton] Guren: Big,
 [quarton] Unknown: hang on! Don't let go! My Lydendor's wings! I shall do as you have commanded for as long as I can! We gotta get down there! It's gonna take teamwork! Bravenwolf! You need to find the Dragon Cube before Slyger gets it! Don't worry about us! It has been an honor to battle by your side! I hate
-[quarton] Vilius: long goodbyes. So let's not have one. Goodbye! Big!
+[quarton] Unknown: long goodbyes. So let's not have one. Goodbye! Big!
 [quarton] Guren: He's... gone.
-[quarton] Vilius: Oh, how the not-so-mighty have fallen. Fallen, get it? And now, Knights, get ready to join your friends!
+[quarton] Unknown: Oh, how the not-so-mighty have fallen. Fallen, get it? And now, Knights, get ready to join your friends!
 [quarton] Guren: Slyger, you are so gonna regret that!
-[quarton] Vilius: Yeah, party's over, toaster face! We're
+[quarton] Unknown: Yeah, party's over, toaster face! We're
 [quarton] Guren: gonna wipe your heart dry! And then Tenkai your face in! Ready, guys? It's payback time!
 [quarton-battle] Unknown: Commencing robofusion sequence. Bravenwolf robofusion engaged. Commencing robofusion sequence. Tributon robofusion engaged. Commencing robofusion sequence. Valorn robofusion engaged. Select transformation sequence. Select what? Proto jet boat and air lancer jet boat are online. Oh, hey cool! Hey cool is not online.
 [quarton-battle] Guren: No, wait, I mean, never mind. Air lancer jet engaged!
@@ -33,67 +33,67 @@
 [quarton-battle] Unknown: Please select an attack.
 [quarton-battle] Guren: Is there a manual? Give us a break, computer. Isn't there a list to choose from? There
 [quarton-battle] Unknown: are 97 different attacks, not to mention- Whatever, just do the best one! Very well. Activating Tenkai Thunder Cannon.
-[quarton-battle] Guren: Sweet! Whatever that is. Him
+[quarton-battle] Unknown: Sweet! Whatever that is. Him
 [quarton-battle] Guren: again!
-[quarton-battle] Vilius: Yeah! Whoa! Excellent! Now I'll finish them!
+[quarton-battle] Unknown: Yeah! Whoa! Excellent! Now I'll finish them!
 [quarton-battle] Guren: No, now you'll retreat.
-[quarton-battle] Vilius: You don't have to be so mean about it. Who
+[quarton-battle] Unknown: You don't have to be so mean about it. Who
 [quarton-battle] Guren: is that guy? I don't know, but his face is so going up on my dartboard! Dear me. Why so glum? I take it your battle didn't go well. Don't worry, one often learns more in defeat than in victory. You've lived to tell the tale. Not Beag. Yeah, he was lost trying to help us. It was cause of me trying to go to Titan mode. The problem was, Slyger and his goons had the home field advantage. We walked into a trap. There's no game plan for that. Guardian Boreas!
-[quarton-battle] Vilius: You are not the first to find yourselves trapped in that place. We're not? It is known as the Valley of Secrets. Long ago, a detachment of Corekai disappeared there and were thought to be lost forever. But your predecessors, the first Tenkai Knights, were not ones to give up on fallen friends. They came searching for them. Instead, they found themselves trapped between the walls of the valley and a vast army of Corrupted, led by Vilius himself. The Knights were outnumbered twenty to one, hopeless odds even for such heroes as the Legendary Four. Still, they fought on. But eventually, their Tenkai energy began to weaken, and Vilius prepared to deliver the final blow. It was then that Bravenwolf stepped forward and told the others to locate their missing friends and find a way out of the valley, that he would stay and face Vilius alone. And so, the battle began. For Bravenwolf, his Tenkai energy depleted, fighting a seemingly hopeless battle. And yet... What?
+[quarton-battle] Unknown: You are not the first to find yourselves trapped in that place. We're not? It is known as the Valley of Secrets. Long ago, a detachment of Corekai disappeared there and were thought to be lost forever. But your predecessors, the first Tenkai Knights, were not ones to give up on fallen friends. They came searching for them. Instead, they found themselves trapped between the walls of the valley and a vast army of Corrupted, led by Vilius himself. The Knights were outnumbered twenty to one, hopeless odds even for such heroes as the Legendary Four. Still, they fought on. But eventually, their Tenkai energy began to weaken, and Vilius prepared to deliver the final blow. It was then that Bravenwolf stepped forward and told the others to locate their missing friends and find a way out of the valley, that he would stay and face Vilius alone. And so, the battle began. For Bravenwolf, his Tenkai energy depleted, fighting a seemingly hopeless battle. And yet... What?
 [quarton-battle] Guren: To
-[quarton-battle] Vilius: be continued next week? All escaped. All survived. Bravenwolf triumphed against all odds. But
-[quarton-battle] Vilius: how?
-[quarton-battle] Vilius: No one knows. That is why it's called the Valley of Secrets.
+[quarton-battle] Unknown: be continued next week? All escaped. All survived. Bravenwolf triumphed against all odds. But
+[quarton-battle] Unknown: how?
+[quarton-battle] Unknown: No one knows. That is why it's called the Valley of Secrets.
 [quarton] Guren: What, are you kidding me? More like the Valley of Stories that don't make sense.
-[quarton] Vilius: No cause is lost when there is hope. And there must always be hope. The
+[quarton] Unknown: No cause is lost when there is hope. And there must always be hope. The
 [quarton] Unknown: school basketball tournament's this week. And I'm aware that a lot of you are very excited. But while you're in my class, you'll keep your minds on history. Any talk of basketball is out of bounds. Ha! Out of bounds. Get it?
 [quarton] Guren: If we're gonna win the tournament, there's one important thing our team's missing. Height? Yeah, and actual basketball skills. We're so doomed. Chooki wouldn't have signed us up if he didn't think we had a shot. Pretend it's a video game, only with sweat and the potential to be embarrassed in front of everyone. What about Beag? I mean, shouldn't we at least be trying to look for him? We all feel bad, but there's nothing we can do right now. When you think about it, we've got the same problem in both worlds. We're missing our fifth team member. You're right, Chooki. Beag and his men are more than just friends. It's like those Dragon Cubes. They're all part of a whole. No one of them is more important than another. It takes all of them to make a Tenkai Dragon. It's teamwork. Just like the Dragon Cubes. Everyone plays a role and makes the whole thing better. We're all connected to something big. The four of us. Beag. Maybe even... Alright, who are you? I'm Dromus. Yeah, even that creep Dromus. The Dragon Cube! Give it back! Forget it, fools! No! There's gotta be a reason why he keeps showing up. I get the feeling he's an important part of this, too. Okay, the sooner we get back to Quarton, the better. So we've gotta cruise through the tournament, win the trophy, and wrap it up quick. Easy for you to say. The only thing is, guys, we've still got a problem. We're one man short. Sorry, Toxsa. Gan. No way, Guren. Don't even go th- Gan, you playing in the basketball tournament? If you're not on a team, wanna run with us? Such a likable guy. He's probably on three teams.
-[quarton] Guren: Told you you were wasting your time. Who's the emo?
+[quarton] Unknown: Told you you were wasting your time. Who's the emo?
 [quarton] Guren: His name is Gan. He just transferred here. Yeah,
-[quarton] Guren: from Planet
+[quarton] Unknown: from Planet
 [quarton] Guren: Attitude. I
-[quarton] Guren: don't
+[quarton] Unknown: don't
 [quarton] Guren: know, guys. I've seen him shoot hoops. He's really good. Oh, come on! We'll find another guy! We don't need him! Captain Leave Me Alone thinks he's better than us! I bet he stinks on defense! Okay, so Roberto hasn't played much basketball. But, uh, he's really good at art. Terrific. Two
-[quarton] Guren: points!
+[quarton] Unknown: points!
 [quarton] Guren: No
-[quarton] Guren: points. Nice
+[quarton] Unknown: points. Nice
 [quarton] Guren: try, Roberto. But don't forget, you gotta rebound, okay? Right. What's rebounding
-[quarton] Guren: again? I forgot. Oh, brother.
+[quarton] Unknown: again? I forgot. Oh, brother.
 [quarton] Guren: How could I not have noticed the sculpture before?
-[quarton] Guren: Hey, Guren. If the ball hits the rim, does that mean we get a first down?
+[quarton] Unknown: Hey, Guren. If the ball hits the rim, does that mean we get a first down?
 [quarton] Guren: Roberto,
-[quarton] Guren: you
+[quarton] Unknown: you
 [quarton] Guren: know art, right? Yeah.
-[quarton] Guren: What is this thing? Well, I don't know the sculpture, but it's been here forever. Our teacher said it represents how all things are connected. We're all pieces in a big cosmic jigsaw puzzle. Or something, I don't know. Hey! What is this, an art museum? We're supposed to be practicing!
-[quarton] Guren: Yeah,
-[quarton] Guren: he's right. Come on.
-[quarton] Guren: I
-[quarton] Guren: need to work on my jump kick. Ow! I've
-[quarton] Gen: got more important things on my mind than basketball.
+[quarton] Unknown: What is this thing? Well, I don't know the sculpture, but it's been here forever. Our teacher said it represents how all things are connected. We're all pieces in a big cosmic jigsaw puzzle. Or something, I don't know. Hey! What is this, an art museum? We're supposed to be practicing!
+[quarton] Unknown: Yeah,
+[quarton] Unknown: he's right. Come on.
+[quarton] Unknown: I
+[quarton] Unknown: need to work on my jump kick. Ow! I've
+[quarton] Unknown: got more important things on my mind than basketball.
 [quarton] Guren: Hmph. I've tracked the knights as you commanded.
-[quarton] Gen: There is still much more to learn about them. I will await further instructions, mighty commander. Excellent.
+[quarton] Unknown: There is still much more to learn about them. I will await further instructions, mighty commander. Excellent.
 [quarton-battle] Guren: All in all, I thought that was a pretty good practice session. Yeah, once Roberto stopped inbounding it with his head. Pause button! Can we forget about hoops and focus on Beag? I'm on it, Toxsa. We'll robofuse into the air lancer jet and scour that valley till we find it. Maybe kick some corruptive bot along the way. That
-[quarton-battle] Guren: was an uber awesome piece of technology. The proto jets are cool to ride. You think? Dude, that phoenix attack, come on,
+[quarton-battle] Unknown: was an uber awesome piece of technology. The proto jets are cool to ride. You think? Dude, that phoenix attack, come on,
 [quarton-battle] Guren: that's super duper
-[quarton-battle] Guren: uber awesome.
+[quarton-battle] Unknown: uber awesome.
 [quarton-battle] Guren: We'll
-[quarton-battle] Guren: robofuse into a combination of both! The thunder phoenix attack would be insane, just sayin'.
-[quarton-battle] Vilius: Mr. White, we're going to- To the Valley of Secrets. Good. Time is of the essence.
+[quarton-battle] Unknown: robofuse into a combination of both! The thunder phoenix attack would be insane, just sayin'.
+[quarton-battle] Unknown: Mr. White, we're going to- To the Valley of Secrets. Good. Time is of the essence.
 [quarton] Guren: You heard him. Let's go! Tenkai! Thank
-[quarton] Gen: you for coming, knights. But I'm afraid it's no use. We have searched the whole valley from end to end. There
+[quarton] Unknown: you for coming, knights. But I'm afraid it's no use. We have searched the whole valley from end to end. There
 [quarton] Guren: is no sign of Beag or the others. You can't lose hope, Senjou. Don't worry, we'll find them. Got that right. No bot left behind. And no offense, but you may have missed something that's only detectable by my Hyper Keen Tenkai- Tributon! Like that? The hull, for instance. These suits should come with airbags. Huh?
 [quarton] Guren: Hang tight, we'll get you out! Negatory! You
-[quarton] Guren: guys get in! What? Okay! Let's find a different way down.
+[quarton] Unknown: guys get in! What? Okay! Let's find a different way down.
 [quarton] Guren: Whoa. Alas of now, the Valley of Secrets has one less secret. Yeah,
-[quarton] Guren: awesome, but what are we gonna do? Just stand around waiting for the guided tour? Tributon's right, we gotta find Beag. Right. I
+[quarton] Unknown: awesome, but what are we gonna do? Just stand around waiting for the guided tour? Tributon's right, we gotta find Beag. Right. I
 [quarton] Unknown: think
-[quarton] Guren: Beag might have come this way. Not this way. Dead end. No sweat. This is sort of similar to the schematics of Tomb Spelunker 3. Look hard enough, there's always a secret button or something. Aha! Like this. That, when pushed, reveals a hidden passageway. Oh, and sometimes the bottom one's hidden too! Help!
+[quarton] Unknown: Beag might have come this way. Not this way. Dead end. No sweat. This is sort of similar to the schematics of Tomb Spelunker 3. Look hard enough, there's always a secret button or something. Aha! Like this. That, when pushed, reveals a hidden passageway. Oh, and sometimes the bottom one's hidden too! Help!
 [quarton] Guren: I think Valorn put it so far, its hull's two off zero! We could do some Tenkai bubble wrap. Hey, hold on. At least we gained some new options. Too many options, maybe. Careful, this could be a trap. Look, they left us a sign. Good eyes, Toxsa. Not so fast. That could be the Corekai symbol for bathroom. It looks like it was just made. It doesn't have any dust on it. Well, it's worth a shot. Yeah. Let's go. Beag! I can't believe we're listening to him, after that last call
-[quarton] Guren: we made.
+[quarton] Unknown: we made.
 [quarton] Guren: Yo, Beag! You
-[quarton] Guren: there? Oh no. Great, he's 0 for 2! I think... Hey, the tubes belong for free! Don't even start! Look, way out! I was just gonna say, there's almost always one of
+[quarton] Unknown: there? Oh no. Great, he's 0 for 2! I think... Hey, the tubes belong for free! Don't even start! Look, way out! I was just gonna say, there's almost always one of
 [quarton] Guren: them!
-[quarton] Guren: See? No problem. That was a little too close. This must be
+[quarton] Unknown: See? No problem. That was a little too close. This must be
 [quarton] Guren: the hidden bonus level. Can you believe this place? Where are we?
 [quarton] Unknown: It's me! Knights! You found us! Bravo! We are honored that you found us. It was thanks to you. Me? Yeah, that mark you left on the floor. Oh, you mean the sign we left for the bathroom. Told you.
 [quarton] Guren: Whatever. Anyway, we probably should be
@@ -108,10 +108,10 @@
 [quarton] Guren: Thanks. So, did you see that?
 [quarton] Unknown: Yeah, yeah, I saw it. A thousand thanks, Tenkai Knights. We shall quickly get the Dragon Cube back to the Corekai base. Good idea, Beag. Alert the rest of our unit that we have returned. Yes, sir.
 [quarton] Guren: So, when exactly did you learn that trick at school? I must have been asleep during that class. You're asleep during every class. So,
-[quarton] Vilius: there was a Dragon Cube here after all. My congratulations on finding it. Now, hand it over!
-[quarton] Guren: Hey, did somebody hit the replay button? This is starting to look disturbingly familiar. You're right. We're back
+[quarton] Unknown: there was a Dragon Cube here after all. My congratulations on finding it. Now, hand it over!
+[quarton] Unknown: Hey, did somebody hit the replay button? This is starting to look disturbingly familiar. You're right. We're back
 [quarton] Guren: where we started. Well, it's time for somebody else to fall down the giant hole, and I choose Buckethead.
-[quarton] Vilius: Attack! And this time, finish them!
+[quarton] Unknown: Attack! And this time, finish them!
 [quarton] Unknown: Follow the Tenkai Knights and defend the Dragon Cube at all costs!
 [quarton] Unknown: Venturpeed!
 [quarton] Guren: Not this time! Follow me! What? Did he really say follow me? Oh, I'm gonna regret this. Oh, yeah! They're
@@ -126,6 +126,6 @@
 [quarton-battle] Unknown: Might I suggest a combined attack?
 [quarton-battle] Guren: Phoenix! Thunder! Combined attack! Talk
 [quarton-battle] Guren: about connected! That connected! Yeah, you know it! Their teamwork may have won
-[quarton-battle] Gen: this round, but the
+[quarton-battle] Unknown: this round, but the
 [quarton-battle] Guren: game's
-[quarton-battle] Gen: far from over.
+[quarton-battle] Unknown: far from over.

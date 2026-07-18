@@ -8,6 +8,17 @@ word-level). Beni enrolled from ep14. Remaining tail, in order:
    dialogue cues — user's idea) → confirm → re-run name_transcripts → `beni_frames.py` →
    `npm run ingest` → leak-test (stage-1 chat must know nothing of Kiiro) → `npm run export-lora`.
 
+## Attribution accuracy (user audited samples — read this)
+User caught real errors: mid-sentence tears at turn boundaries ("See? One size / almost fits
+all"), and unenrolled voices (Corekai soldiers, the boys) matching "Guren". Fixes so far:
+MATCH_THRESHOLD now 0.60 (wrong names → honest Unknown; 70% named, Beni 309 confident lines).
+`repair_attribution.py` exists but is **experimental — do NOT run it with the local 24B**
+(tested on ep15: 74 unaudited edits, missed the target case; reverted from pre_repair/).
+**The real repair belongs to THIS session's world-bible read-through**: while reading each
+arc's transcript, fix attribution inline (dialogue logic: who's addressed, who acts) — same
+reading, two outputs. Back up to data/transcripts/pre_repair/ first; diff after. Labeling the
+three boys + Kiiro + ep49 JP cast remains the single biggest accuracy lever — do it FIRST.
+
 ## How to build the world bible + deepen Beni (user will drive this)
 - **World bible**: read transcripts by ARC (1–13, 14–25, 26–38, 39–45, 46–52), sampled not
   dumped. Per arc write `data/corpus/analysis--arc-N.md` with frontmatter like the fandom

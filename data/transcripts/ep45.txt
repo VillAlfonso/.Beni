@@ -3,19 +3,19 @@
 [quarton] Guren: There they go. I never get tired of this. Just like old times.
 [quarton] Vilius: Alright,
 [quarton] Guren: let's do it!
-[quarton] Guren: Hi, how you doing?
+[quarton] Unknown: Hi, how you doing?
 [quarton] Guren: I got it! Well,
 [quarton] Guren: team up! Landing.
 [quarton] Guren: Are we rustier? Is he stronger?
 [quarton] Vilius: No more clever catchphrases? I understand. If you're this hopeless against me... ...now, what chance you have, once the power of the Tenkai Fortress is mine!
 [quarton] Guren: Blah, blah, blah. Bring it on! Whoa, guys, watch it! The
 [quarton] Vilius: Fortress!
-[quarton] Guren: Well, good thing I'm wearing a hard hat.
+[quarton] Unknown: Well, good thing I'm wearing a hard hat.
 [quarton] Vilius: We will finish this later, Knights. Did
-[quarton] Guren: we scare him off? No. That
+[quarton] Unknown: we scare him off? No. That
 [quarton] Guren: wasn't it. He didn't want to damage the Fortress.
 [quarton] Beni: Just when it was getting good. Every time it looks like those four sappy do-gooders are finally gonna get it, they luck out. It's like a bad soap opera. There's such a bunch of dumbbells. And that goes for Vilius, too. Trying to prove how macho they are by fighting over the Tenkai Fortress, when this is all they need. Cause what good's the Fortress without the key?
-[quarton] Guren: Am
+[quarton] Unknown: Am
 [quarton] Beni: I right?
 [quarton] Beni: Well? Are you lost?
 [quarton] Gen: No. I know where I am, do you know where you are?
@@ -24,42 +24,42 @@
 [quarton] Beni: You always this paranoid, or is it just in the morning? Why do you always assume I'm up to something?
 [quarton] Gen: Because you're you. You remember what I told you before, right? Mess with the Tenkai Knights, and you'll have to deal with me.
 [quarton] Beni: Thanks for the warning. Now, if you don't mind, I've gotta tell the zoo that one of their cuckoos is missing. Why does he even care about them? I was right.
-[quarton] Guren: You are lost. It's great to be home. Oh, yeah. I was even starting to miss Mr. White's tea.
-[quarton] Guren: Well... No tea in the Beast World?
-[quarton] Guren: Nope, not a drop. That was probably the only good thing about it. And those racers, they were pretty awesome. And how about those bananas? They were yumalicious. It's always food
-[quarton] Guren: with you. Huh?
-[quarton] Guren: What is it?
-[quarton] Guren: Guren, is there something wrong? No,
+[quarton] Unknown: You are lost. It's great to be home. Oh, yeah. I was even starting to miss Mr. White's tea.
+[quarton] Unknown: Well... No tea in the Beast World?
+[quarton] Unknown: Nope, not a drop. That was probably the only good thing about it. And those racers, they were pretty awesome. And how about those bananas? They were yumalicious. It's always food
+[quarton] Unknown: with you. Huh?
+[quarton] Unknown: What is it?
+[quarton] Unknown: Guren, is there something wrong? No,
 [quarton] Guren: I was just wondering about that emblem thing Rengor gave me. Emblem, you say? Yeah, it was like a wolf's head.
-[quarton] Guren: Well, whatever. I'm just glad we're out of that place. I'm exhausted after all that crazy running around. At last we can chillax.
+[quarton] Unknown: Well, whatever. I'm just glad we're out of that place. I'm exhausted after all that crazy running around. At last we can chillax.
 [quarton] Guren: No. Huh? That's the last thing we can do. So what's bothering you, Guren? That battle with Vilius? Yeah, you said it yourself. The way we fought, it was like we were rusty or something. Yeah, it's true. We're like a team that's peaked and the playoffs haven't even started.
-[quarton] Guren: Watch out. Here come the sports metaphors and we all know what that means. You're gonna say we've gotta work on our training.
+[quarton] Unknown: Watch out. Here come the sports metaphors and we all know what that means. You're gonna say we've gotta work on our training.
 [quarton] Guren: I don't know. Maybe. Guys, we've got the Tenkai Dragon's energy inside us.
 [quarton] Guren: When you put it like that, yeah,
-[quarton] Guren: we are in kind of a rut. Okay, so how do we get out of it? I give up. I'm starving. Is that all you ever think about? It's important. The brain cannot function properly when deprived of nutrients. Your brain can't function properly, period. Hey! I've
+[quarton] Unknown: we are in kind of a rut. Okay, so how do we get out of it? I give up. I'm starving. Is that all you ever think about? It's important. The brain cannot function properly when deprived of nutrients. Your brain can't function properly, period. Hey! I've
 [quarton] Guren: got it! Huh? Is
-[quarton] Guren: it a cheese steak with extra grilled onions?
+[quarton] Unknown: it a cheese steak with extra grilled onions?
 [quarton] Guren: Guys, I was totally wrong. About what? We do need to
-[quarton] Guren: chillax. Chill out. Take a break. You mean like to recharge our batteries or whatever? Yeah, to get us out of our rut. Okay, just remember it was my idea. Exactly. Toxsa was right all along. Huh? I was? Really?
-[quarton] Guren: A barbecue. What an excellent idea. As you can see, I brought everything we need, even the lovely weather.
+[quarton] Unknown: chillax. Chill out. Take a break. You mean like to recharge our batteries or whatever? Yeah, to get us out of our rut. Okay, just remember it was my idea. Exactly. Toxsa was right all along. Huh? I was? Really?
+[quarton] Unknown: A barbecue. What an excellent idea. As you can see, I brought everything we need, even the lovely weather.
 [quarton] Guren: That's not all
-[quarton] Guren: you brought, I see. What gifts? It's kind of weird that Toxsa and Chooki aren't here yet. Not as weird as Ceylan's mood. Oh, I hope you don't mind that I invited your training master. I wonder
+[quarton] Unknown: you brought, I see. What gifts? It's kind of weird that Toxsa and Chooki aren't here yet. Not as weird as Ceylan's mood. Oh, I hope you don't mind that I invited your training master. I wonder
 [quarton] Guren: what's keeping him.
-[quarton] Guren: Yeah, I'd better go look for him. Really? Who would have used any excuse to get away from the emo weirdo?
+[quarton] Unknown: Yeah, I'd better go look for him. Really? Who would have used any excuse to get away from the emo weirdo?
 [quarton] Beni: Hang on. Alone? He never leaves Gurren's side. You're
-[quarton] Guren: working? What about our barbecue? My sister made me stick around and help out. Meatloaf day is like our busiest day all week. You've gotta be kidding. Why would I kid? It's actually pretty good meatloaf.
+[quarton] Unknown: working? What about our barbecue? My sister made me stick around and help out. Meatloaf day is like our busiest day all week. You've gotta be kidding. Why would I kid? It's actually pretty good meatloaf.
 [quarton] Beni: Toxsa! Why are you standing around talking to... Wait
-[quarton] Guren: a minute. Oh, hello, Ceylan. Uh, hi there, Wakame. Your timing's perfect. Working? What do you mean? Sorry. I got roped into being a busboy. That's Gurren. Tell him sorry. If it's a phone order, tell him we're out of the meatloaf.
+[quarton] Unknown: a minute. Oh, hello, Ceylan. Uh, hi there, Wakame. Your timing's perfect. Working? What do you mean? Sorry. I got roped into being a busboy. That's Gurren. Tell him sorry. If it's a phone order, tell him we're out of the meatloaf.
 [quarton] Guren: Toxsa! Table seven! Ceylan, fish it! All right. Sorry. Don't...
-[quarton] Guren: Wait, then. Where's Chooki? That I know. Chooki has gone fishing, and he promised that whatever he catches, he'll bring back for us to eat. What?
+[quarton] Unknown: Wait, then. Where's Chooki? That I know. Chooki has gone fishing, and he promised that whatever he catches, he'll bring back for us to eat. What?
 [quarton] Guren: We'll
 [quarton] Guren: starve. Gotcha! Okay, that does it! Now I'm mad! You fish think you're pretty smart, don't ya? Fine. If that's the way you want to
 [quarton] Guren: play. Since he won't quit till he catches one, I guess we can count him out.
 [quarton] Gen: Real reliable friends you've got. Well, let's get started and hope for the best.
 [quarton] Guren: Sausages? Steak? Veggies? Everything! Something tells me you've done this before, Mr. White. Well, I am
-[quarton] Guren: a barbecue master, third degree after all. Is
+[quarton] Unknown: a barbecue master, third degree after all. Is
 [quarton] Guren: there really such a thing?
-[quarton] Guren: It's one of the lesser known of the martial arts. Good heavens, I seem to have forgotten something. Really? What? Something that's rather essential for a barbecue. Barbecue sauce. How could a master forget that? Cause he's only third degree. Guren, will you do me a favor? Will you ride like the wind and pick some up from the store? Man,
+[quarton] Unknown: It's one of the lesser known of the martial arts. Good heavens, I seem to have forgotten something. Really? What? Something that's rather essential for a barbecue. Barbecue sauce. How could a master forget that? Cause he's only third degree. Guren, will you do me a favor? Will you ride like the wind and pick some up from the store? Man,
 [quarton] Guren: relaxing's a lot of work.
 [quarton] Beni: Huh? The plot thickens. First Ceylan zips by, now Guren. Something's definitely going on.
 [quarton] Guren: Hey, Beni! I haven't seen you since the Beast World.
@@ -77,11 +77,11 @@
 [quarton] Guren: without
 [quarton] Beni: your help. That's only because I wanted to get out of that dump as much as anyone. Doesn't mean we're a team or anything.
 [quarton] Guren: Suit yourself. Me, I can't wait to have a nice juicy steak, buttery corn. All right, you win. I'm back, Mr. White. Ah,
-[quarton] Guren: excellent timing. Oh, look who it is. Beni. What a surprise. Delighted you could join us, Beni.
+[quarton] Unknown: excellent timing. Oh, look who it is. Beni. What a surprise. Delighted you could join us, Beni.
 [quarton] Guren: What's cooking? I just happened to run into her. Totally by chance.
-[quarton] Guren: Yeah, right. I just got it. You asked me what's cooking. That's very amusing.
+[quarton] Unknown: Yeah, right. I just got it. You asked me what's cooking. That's very amusing.
 [quarton] Guren: So, here's your barbecue sauce. Ah,
-[quarton] Guren: excellent. Now we're cooking. Get it? Well, now, here's to a successful barbecue. Happy times. Cheers. You
+[quarton] Unknown: excellent. Now we're cooking. Get it? Well, now, here's to a successful barbecue. Happy times. Cheers. You
 [quarton] Beni: having fun yet?
 [quarton] Gen: Skip it, Beni. Just tell me why you're really here.
 [quarton] Beni: Huh. I was invited. Were you?
@@ -89,19 +89,19 @@
 [quarton] Beni: Hmm. Like stealing your friends away from you?
 [quarton] Guren: Okay. Simmer down, guys. Come on. Remember, we're doing this barbecue to relax and have a good time.
 [quarton] Beni: Yeah. Listen to your best bud, Guren. Let's all have fun. Right, Mr. White?
-[quarton] Guren: Precisely. So, I'd better get this food on the grill before something comes along to spoil the party. Guren, will you help me with... Oh, dear. Oh, no. It's raining. Happens every time. Quick. Under the tree. But what if there's lightning? I read somewhere
+[quarton] Unknown: Precisely. So, I'd better get this food on the grill before something comes along to spoil the party. Guren, will you help me with... Oh, dear. Oh, no. It's raining. Happens every time. Quick. Under the tree. But what if there's lightning? I read somewhere
 [quarton] Guren: they burn better in the
-[quarton] Guren: rain. 999. Would you stop counting?
+[quarton] Unknown: rain. 999. Would you stop counting?
 [quarton] Guren: Hey, I'm not not paying you to stand around chatting.
-[quarton] Guren: Sorry. The
+[quarton] Unknown: Sorry. The
 [quarton] Beni: fire's
 [quarton] Guren: out. Sorry, Beni. I kind of dragged you into this.
 [quarton] Beni: It's okay. It's not like you control the weather. Yeah, but...
 [quarton] Guren: She said it's okay. Give it a rest.
 [quarton] Beni: Hmm.
-[quarton] Guren: Well, on the bright side, at least there's no lightning.
+[quarton] Unknown: Well, on the bright side, at least there's no lightning.
 [quarton] Guren: I
-[quarton] Guren: was really hoping that this would work out. Well, it was a wonderful idea anyway, Guren. What made you
+[quarton] Unknown: was really hoping that this would work out. Well, it was a wonderful idea anyway, Guren. What made you
 [quarton] Guren: think of it? Well... I was thinking of my dad, actually. Huh? Lately, we... We haven't done it as much, but he always loves a good barbecue. We've had some of the best times. My dad... He always says it's... Well, it's not about the food. It's about the way it brings people together.
 [quarton] Beni: Cue the violins. Huh? What a sappy story. I'm outta here. Wait! Don't go yet!
 [quarton] Guren: Just wait till it stops raining. Give me a loan, will ya? Hey! What did I say? That emblem...
@@ -122,7 +122,7 @@
 [quarton] Vilius: know where this is going.
 [quarton] Guren: What if we teamed up and captured the Tenkai Fortress ourselves?
 [quarton] Vilius: Yeah. That would improve his mood, all right. Glad I thought of it.
-[quarton] Guren: Rainfall. Barbecue's natural enemy. I
+[quarton] Unknown: Rainfall. Barbecue's natural enemy. I
 [quarton] Guren: wonder why the emblem glowed like that. Core Brick.
 [quarton] Guren: We've been summoned. Come on, Toxsa. Where do you think you're going? We gotta go. It's important. Crisis.
 [quarton] Guren: I don't get it. Why is this the one sport I'm no good at? I just wanna catch a fish! Crush the Core Brick! He's the Tenkai Fortress! Never! Not while one of us still stands! I'm here, Beak! Oh, good.
@@ -158,14 +158,14 @@
 [quarton] Vilius: thing!
 [quarton] Guren: There he goes, ruining everything! Venetta! Venetta! Venetta! Venetta! Venetta! Most impressive! That was worthy of a Tenkai Knight! Well done, Dromus!
 [quarton] Beni: I've seen better. You're late
-[quarton] Guren: than ever, right?
+[quarton] Unknown: than ever, right?
 [quarton] Guren: What
-[quarton] Guren: a spread! Sorry we took so long. She worked us like dogs, but at least you know our hands are clean. It's okay. It took a while, but this is going to be a great barbecue. Right, Mr. White? Absolutely. It'd be great to throw some fish on that grill, wouldn't it? Unbelievable! You actually really caught a fish? Was it a goldfish? No, I'm just saying it would be great if I caught any. Never
-[quarton] Guren: mind. But let's get started before there's a hailstorm or something. Right! Okay, everybody! Dig in! Are
+[quarton] Unknown: a spread! Sorry we took so long. She worked us like dogs, but at least you know our hands are clean. It's okay. It took a while, but this is going to be a great barbecue. Right, Mr. White? Absolutely. It'd be great to throw some fish on that grill, wouldn't it? Unbelievable! You actually really caught a fish? Was it a goldfish? No, I'm just saying it would be great if I caught any. Never
+[quarton] Unknown: mind. But let's get started before there's a hailstorm or something. Right! Okay, everybody! Dig in! Are
 [quarton] Beni: you feeling shy? I thought you and those goofballs were best friends forever now. How come you're not down there with them? Starting to have second thoughts?
 [quarton] Gen: No, nothing like that. I'm going to join them in a minute.
 [quarton] Beni: Hmph. Whatever. If you really want to give up your freedom and tie yourself down, go right ahead. Hmph.
-[quarton] Guren: That one's mine! Give it
+[quarton] Unknown: That one's mine! Give it
 [quarton] Gen: back! Actually, I was hoping you'd show up.
 [quarton] Beni: Huh?
 [quarton] Gen: Beni, want to come? We're having a barbecue.

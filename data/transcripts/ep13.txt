@@ -2,18 +2,18 @@
 [quarton] Guren: got a lot going on. Have you found anything interesting? We found the key! As I knew you would. And now, you must waste no time in getting it to Quarton. Ready? Let's go! But, uh, how do we... take it
 [quarton] Guren: with us? It's not like there's an overhead bin for carry-ons.
 [quarton] Guren: There must be some way to do it.
-[quarton] Vilius: Boreas? A little help, please? I feel the Tenkai Energy of the White Dragon Key, so it has been found. Well done, Tenkai Knights. But your mission is not over. Vilius and his forces are searching for its counterpart, the Black Dragon Key. If they should find it...
+[quarton] Unknown: Boreas? A little help, please? I feel the Tenkai Energy of the White Dragon Key, so it has been found. Well done, Tenkai Knights. But your mission is not over. Vilius and his forces are searching for its counterpart, the Black Dragon Key. If they should find it...
 [quarton] Guren: Let me guess. That'd be pretty much game over, right?
-[quarton] Vilius: If the Tenkai Dragon is revived by the Black Key, it will serve the Corrupted, and all will be lost. What? We cannot allow that to happen. You must bring the White Key to the Corekai, and use it to revive the Dragon from the five Dragon Cubes you have gathered.
+[quarton] Unknown: If the Tenkai Dragon is revived by the Black Key, it will serve the Corrupted, and all will be lost. What? We cannot allow that to happen. You must bring the White Key to the Corekai, and use it to revive the Dragon from the five Dragon Cubes you have gathered.
 [quarton] Guren: Yeah, but how? We've never carried anything through the portal.
-[quarton] Vilius: Nor will you now. And yet, the Dragon Key will arrive safely at its required destination.
+[quarton] Unknown: Nor will you now. And yet, the Dragon Key will arrive safely at its required destination.
 [quarton] Guren: Um, what exactly do you mean by that?
-[quarton] Vilius: Maybe there is an overhead bin. Initiate your Tenkai shape-shift through the portal with your Core Bricks, as usual. I will ensure the Key arrives safely. Guren,
+[quarton] Unknown: Maybe there is an overhead bin. Initiate your Tenkai shape-shift through the portal with your Core Bricks, as usual. I will ensure the Key arrives safely. Guren,
 [quarton] Guren: a moment please... Hm? If you focus your Tenkai Energy on the Key and the five Dragon Cubes, the Keyhole should reveal itself. You'll know what to do after that. Right.
 [quarton] Guren: But how do you know so much about it, Mr. White?
 [quarton] Guren: I have made the journey to Quarton myself. Whoa! Don't look so surprised.
 [quarton] Guren: Sorry, it's just... Whoa! Speaking of Keyholes... The end
-[quarton] Vilius: of our journey, old friend.
+[quarton] Unknown: of our journey, old friend.
 [quarton] Guren: Our journey, perhaps. Theirs is just beginning. Goodbye.
 [quarton] Guren: Yeah, it must be the Scenic Room. Portal,
 [quarton] Vilius: appear.
@@ -24,48 +24,48 @@
 [quarton] Guren: It's dry! That cup's so good! It's starting to! Stand firm! They must not pass!
 [quarton] Gen: It won't be much longer now.
 [quarton] Guren: Not to complain, but if the guns don't show up with that key soon, I am soon taking them off my holiday cart list! Maybe
-[quarton] Guren: they heard you. Okay, they're back on the list. It's
+[quarton] Unknown: they heard you. Okay, they're back on the list. It's
 [quarton] Vilius: the dimensional dropship!
 [quarton] Guren: And... is that... That Guardian dude! Boreas!
 [quarton] Vilius: What's he doing here? You
 [quarton] Guren: might want to hold on tight! Okay. Ah! Doo
 [quarton] Guren: -duh!
-[quarton] Guren: Fogging out.
-[quarton] Vilius: Reach for the key, and it will come.
+[quarton] Unknown: Fogging out.
+[quarton] Unknown: Reach for the key, and it will come.
 [quarton] Guren: Nice ride. I like the color. Yeah, they were all out of red. Beag, the Dragon Cubes. Consider it done, Bravenwolf! Wait for it, wait for it! All five Dragon Cubes ready and waiting! All right, let's make us a Tenkai Dragon! Dragon Key, appear!
-[quarton] Guren: Pause button. That doesn't look much like a dragon. Just wait! Hope
+[quarton] Unknown: Pause button. That doesn't look much like a dragon. Just wait! Hope
 [quarton] Guren: this works. Tenkai Dragon, engage! All
 [quarton] Guren: that incredible power! Well,
 [quarton] Guren: we're
 [quarton] Vilius: doomed. We
 [quarton] Guren: haven't a chance against the power of the dragon. Quiet, you cowards!
 [quarton] Vilius: See ya, according to my plan. How
-[quarton] Guren: come those two get to take the first ride? What I don't get is, now that we have the thing, how do we make it work?
+[quarton] Unknown: come those two get to take the first ride? What I don't get is, now that we have the thing, how do we make it work?
 [quarton] Guren: No doubt the dragon will respond to the brave knight that awakened it. Makes sense. Tenkai Dragon, attack! The dragon, it's coming! We're doomed! Did I
-[quarton] Guren: already say that? Now you're talking!
-[quarton] Guren: Get up! Get up! This is no time for sleep mode! Did somebody hit the snooze button or something? Giddy up, dragon! Keep on! Okay... Maybe if we all shout the command at the same time. That might work. It better, or else we've got us the world's biggest doorstop! Okay, ready? Tenkai Dragon, attack! Okay, where's the user's manual? Did anyone say pretty please? Uh,
+[quarton] Unknown: already say that? Now you're talking!
+[quarton] Unknown: Get up! Get up! This is no time for sleep mode! Did somebody hit the snooze button or something? Giddy up, dragon! Keep on! Okay... Maybe if we all shout the command at the same time. That might work. It better, or else we've got us the world's biggest doorstop! Okay, ready? Tenkai Dragon, attack! Okay, where's the user's manual? Did anyone say pretty please? Uh,
 [quarton] Guren: maybe the dragon isn't coming. Well, in that
-[quarton] Guren: case... Attack!
+[quarton] Unknown: case... Attack!
 [quarton] Guren: Come on, dragon! The team's counting on you! Too late! Maybe we got the wrong dragon! Or the wrong coach! What do you mean? He might respond to AI! That's it! Computer, can you link with the dragon?
 [quarton-battle] Vilius: All you had to do was ask. Stand by while I connect you.
 [quarton-battle] Guren: Not that we're in a hurry or anything!
 [quarton-battle] Vilius: Tenkai Dragon core link enabled. The dragon is yours to command.
 [quarton-battle] Guren: All right! Let's see what you got! Tenkai Dragon, attack! Oh, there's something you don't see every day. Okay, noooooooooooooooooooooooooooooooooooooooo! Check
 [quarton-battle] Guren: out the Tenkai Crater! That was totally epic! Dragon, baddies coming in fast! Baddies? Seriously? Just go with it! Dragon, do your thing! Now you're talking! If only we had this guy in the playoffs! We could've totally plowed through their defensive line! Of course, there's probably a no giant dragons rule. Sorry, I'm babbling. Attack! Come
-[quarton-battle] Guren: on, Tributon, let's
+[quarton-battle] Unknown: on, Tributon, let's
 [quarton-battle] Guren: level up. Yeah, why should they have all the fun?
 [quarton-battle] Vilius: With the knights and now the Tenkai dragon on our side, victory is assured. I better go help.
 [quarton-battle] Vilius: That's not good. You two, find the others and crush them. Leave the dragon to me. Gladly. I mean, yes, sir.
 [quarton] Guren: Quick, before he changes his mind. Stand with me. Yeah, good luck
 [quarton] Vilius: with that.
 [quarton] Guren: Look
-[quarton] Guren: at them all running in terror at the sight of us. Pretty awesome, huh? Don't they usually do that once they smell you? Nailed it.
+[quarton] Unknown: at them all running in terror at the sight of us. Pretty awesome, huh? Don't they usually do that once they smell you? Nailed it.
 [quarton] Vilius: Not so fast, knights. Prepare to be destroyed. Don't forget
-[quarton] Guren: crushed.
+[quarton] Unknown: crushed.
 [quarton] Vilius: Right. Oh,
-[quarton] Guren: yeah?
+[quarton] Unknown: yeah?
 [quarton] Guren: Think again. Tenkai! The Lord, Tenkai
-[quarton] Guren: Titan Mode,
+[quarton] Unknown: Titan Mode,
 [quarton] Guren: activate.
 [quarton] Guren: Let's reboot those bots.
 [quarton] Guren: Titanically Tenkai. We
@@ -96,7 +96,7 @@
 [quarton-battle] Gen: Maybe
 [quarton-battle] Guren: it'll free the dragon. Uh-oh. Either those two have been hit in the gym, or they've gone Titan Mode. Side, Vilius. The Tenkai Dragon is ours. No,
 [quarton-battle] Vilius: Bravenwolf. Its power belongs to whoever possesses the key. Just because I let you revive the dragon doesn't make it yours. Let
-[quarton] Guren: us? Right. Next you'll be saying you let us capture the dragon nest. Actually, we did. Say what? And you let us find the dragon cubes and the
+[quarton] Unknown: us? Right. Next you'll be saying you let us capture the dragon nest. Actually, we did. Say what? And you let us find the dragon cubes and the
 [quarton] Guren: dragon key?
 [quarton] Vilius: Aren't you the smart one? You have my thanks, Knights. I couldn't have done it without you. Guess
 [quarton] Guren: we'll have to settle this the hard way. Now hand over the dragon.
@@ -112,7 +112,7 @@
 [quarton-battle] Vilius: Just
 [quarton-battle] Guren: the two of us.
 [quarton-battle] Vilius: Hey. It doesn't seem to be just the one of us.
-[quarton-battle] Guren: What about us? He can't have all the fun. Well, I'm not sitting on the bench. Forward, Corekai. To battle! Take
+[quarton-battle] Unknown: What about us? He can't have all the fun. Well, I'm not sitting on the bench. Forward, Corekai. To battle! Take
 [quarton-battle] Guren: that! And that. And this while you're at it. I suppose you let us do that, too. You
 [quarton-battle] Vilius: can't stop me. I will be Mathra. You will be the king of this world. You are nothing but an obstacle! Bravenwolf! What's
 [quarton-battle] Guren: so funny? Forget it, Vilius. You're not going to be master of anything. Not this world. And not mine!
@@ -124,14 +124,14 @@
 [quarton-battle] Guren: Yes! And I'm not about to turn that over to the lice
 [quarton-battle] Vilius: of yore!
 [quarton-battle] Guren: Tidemore! Tenkai Wolf Cannon, go!
-[quarton-battle] Guren: Vilius, he's gone! Retreat! Don't look now, but your whole army just
+[quarton-battle] Unknown: Vilius, he's gone! Retreat! Don't look now, but your whole army just
 [quarton-battle] Gen: went offline. You think you've won? Don't forget, the dragon is in our hands. And once we find the Black Key, you're in our control.
 [quarton-battle] Guren: Derrydikes are once again legendary! Vilius and his army have scattered to the wind! A great day
 [quarton-battle] Vilius: for Quarton! You
 [quarton-battle] Vilius: think this is over? In the end, all will be mine! Quarton, Earth, everything! Tenkai Knights, beware! Did
-[quarton-battle] Guren: we win or what? Or is it like one of those games where there is no winner? I
+[quarton-battle] Unknown: we win or what? Or is it like one of those games where there is no winner? I
 [quarton] Guren: think we won, but I also kind of feel like we didn't.
-[quarton] Guren: It's
+[quarton] Unknown: It's
 [quarton] Guren: like being up by a ghoul, and the match is called on a count of rain. Well, I guess it wasn't the final battle after all. As long as they still have the dragon, it's not over. So there could be a lot of final battles.
 [quarton] Guren: You'll have to make a mistake from your labors. Here we go,
 [quarton] Guren: another riddle I'll never understand.

@@ -24,7 +24,8 @@ ROOT = HERE.parents[1]
 WORK = HERE / "work"
 OUT = ROOT / "data" / "transcripts"
 JP_EPS = set(range(49, 53))
-MATCH_THRESHOLD = 0.45  # cosine on pyannote embeddings
+MATCH_THRESHOLD = 0.60  # strict: a wrong name poisons context; Unknown is honest
+                        # (0.45 let Corekai soldiers/boys match "Guren")
 
 
 def voices_path(ep: int) -> Path:

@@ -77,11 +77,11 @@
 [quarton] Guren: last thing I remember was a bright
 [quarton] Guren: light. Lydendor! Valorn! You guys are good? Did I miss something? Were we summoned? No, she did it. What's her name? Beni. Yeah, no offense, dude. I don't think she's the right girl for you. At all. Look, guys, I hardly even know her. Then why were we following her? I knew she was trouble the moment I spotted that people. Welcome, Tenkai Knights.
 [quarton] Guren: Guardian Boreas? I have a trial for you. Doesn't sound like Boreas. Maybe he's got a cold. Up there! It's a Guardian, all right. But it's not Boreas. I don't like it. Me neither. Why changing coaches in the middle of the season?
-[quarton] Vilius: I am Guardian Eurus. Fear not. Like Boreas, I seek only to maintain the balance of Tenkai Energy.
+[quarton] Unknown: I am Guardian Eurus. Fear not. Like Boreas, I seek only to maintain the balance of Tenkai Energy.
 [quarton] Guren: Oh, well, balance is cool. Yeah, maybe if you're a hoverboarder.
-[quarton] Vilius: Then let the trial begin.
+[quarton] Unknown: Then let the trial begin.
 [quarton] Guren: Trial? Wait, what?
-[quarton] Vilius: Good luck.
+[quarton] Unknown: Good luck.
 [quarton] Guren: Ugh, I
 [quarton] Guren: hate
 [quarton] Guren: that. They're always disappearing between... Oh, no.
@@ -90,7 +90,7 @@
 [quarton] Beni: Are you watching this again?
 [quarton] Gen: Of course I'm watching. I only hope it's worthy.
 [quarton] Guren: I'm supposed to fight myself? Don't worry, you're not that tough an opponent.
-[quarton] Vilius: May the strongest knights prevail.
+[quarton] Unknown: May the strongest knights prevail.
 [quarton] Guren: Watch it! Here we come! Happy Cat! You got nothing on me, phony! Me?
 [quarton-battle] Guren: Huh?
 [quarton-battle] Guren: Huh?
@@ -123,11 +123,11 @@
 [quarton-battle] Guren: These guys aren't calling their own plays, they're on autopilot! All they have to do is sit back and count our moves until the clock runs out! And we run out of Tenkai Energy! They're just gonna slowly wear us down! Then let's get moving! They may have all of our moves, but they can't think like us! So come on, guys, let's put our heads together and start thinking like a team! You're right!
 [quarton-battle] Guren: We win the mental game!
 [quarton-battle] Guren: Better believe it, I've got my few of a
-[quarton] Vilius: hundred
+[quarton] Unknown: hundred
 [quarton] Guren: -
-[quarton] Vilius: And yet you've learned nothing.
+[quarton] Unknown: And yet you've learned nothing.
 [quarton] Guren: Who are you, Guardian Rudemuch? To
-[quarton] Vilius: defeat an opponent who is your equal, you must find a way to become more than you are. You must be twice the Knight you were before.
+[quarton] Unknown: defeat an opponent who is your equal, you must find a way to become more than you are. You must be twice the Knight you were before.
 [quarton] Guren: Thanks, could you be a little more vague? Hang on, I think I'm starting to get the picture. Yeah, dude's giving us a big fat hint! Become twice
 [quarton] Guren: the Knight! Robofusion! You're right, that's gotta be it! Go for it! You and Tributon, run it up the middle! Go on! We'll take out the Linebackers! Right,
 [quarton] Guren: Valorn? Right! Uh, which one of the Linebackers? Just hit them hard! Oh, that, I get! Ready? Totally!
@@ -162,7 +162,7 @@
 [quarton] Gen: Vilius is Supreme Warlord of the Corrupted. Even asking such a question is dangerous.
 [quarton] Beni: That explains why you won't answer it, I guess.
 [quarton] Gen: Well, are you ready to reveal what this is all about?
-[quarton] Vilius: Until he finds the Black Dragon Key, your master, Vilius, will never truly command the power of the Tenkai Dragon.
+[quarton] Unknown: Until he finds the Black Dragon Key, your master, Vilius, will never truly command the power of the Tenkai Dragon.
 [quarton] Gen: Yes, yes, I already know all that. Why do you think I've been looking for it?
-[quarton] Vilius: To no avail. But now that the Tenkai Knights' powers have been enhanced, you can use them as unwitting pawns to help guide you to the key. It seems you could use all the assistance you can get at the moment. What? Don't feel insulted. That was not my intention. I merely seek to maintain the balance between Tenkai energies. Oh, of course. You will help me restore that balance, Dromus.
+[quarton] Unknown: To no avail. But now that the Tenkai Knights' powers have been enhanced, you can use them as unwitting pawns to help guide you to the key. It seems you could use all the assistance you can get at the moment. What? Don't feel insulted. That was not my intention. I merely seek to maintain the balance between Tenkai energies. Oh, of course. You will help me restore that balance, Dromus.
 [quarton] Gen: Well, then. I think we might be able to help each other, Guardian Eurus.

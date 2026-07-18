@@ -101,7 +101,7 @@
 [quarton] Guren: possibly be wrong? We're a team. We're gonna kick butt, right?
 [quarton] Guren: Yeah, but something tells me it's not gonna be that easy.
 [quarton] Vilius: Well, what have you found out so far?
-[quarton] Gen: Our analysis of the download from Valorn's database is not yet complete, Vilius. But we can say that the world shown in the imagery is definitely not Quarton, nor any planet in this quadrant. It's another world entirely unknown to us.
+[quarton] Unknown: Our analysis of the download from Valorn's database is not yet complete, Vilius. But we can say that the world shown in the imagery is definitely not Quarton, nor any planet in this quadrant. It's another world entirely unknown to us.
 [quarton] Vilius: Perhaps it's that world Bravenwolf spoke of. The one he called Earth.
 [quarton] Beni: Hello, Gen.
 [quarton] Gen: You took your time, Beni.

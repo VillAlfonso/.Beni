@@ -1,5 +1,5 @@
 [unknown] Gen: Look at them. They think it will last forever.
-[quarton-battle] Vilius: This
+[quarton-battle] Unknown: This
 [quarton-battle] Gen: bright, peaceful world. This world full of laughter and joy. They have no idea how quickly the darkness can come. And everything changes. I see a very different world. One where all of that has been swept away. One where destruction and chaos will be the new masters of this world. But in the meantime, why shouldn't they laugh and play in the sunshine? Yeah, let them enjoy this world while it lasts. Did
 [quarton-battle] Guren: he retreat? We
 [quarton-battle] Vilius: won! Obviously
@@ -9,7 +9,7 @@
 [quarton-battle] Gen: To what do I owe this unexpected honor,
 [quarton] Vilius: if you don't mind my asking? I merely wanted to express my gratitude to you. That's all. Gratitude, Vilius? Yes. You have served me well, working tirelessly for our cause. I don't want you to think your efforts have gone unappreciated. You will be well rewarded once victory has been achieved.
 [quarton] Gen: Thank you. But serving you is rewarding. I'm not sure I'm worthy enough.
-[quarton] Vilius: Look, Adam, Vilius' pet. We're out there on the front lines fighting and getting blasted to bits. But do we get any appreciation? No. Hmm.
+[quarton] Unknown: Look, Adam, Vilius' pet. We're out there on the front lines fighting and getting blasted to bits. But do we get any appreciation? No. Hmm.
 [quarton] Unknown: Maybe if we didn't keep getting blasted to bits, we might.
 [quarton] Vilius: You've accomplished much, Dromus. You captured the Tenkai Dragon from the Knights and found a way to utilize its energy. Now you can only control the beast itself. Which reminds me, how goes the search for the Black Dragon Key?
 [quarton] Gen: It goes well. I'm getting close. I believe I'll soon have some very good news for you.
@@ -44,10 +44,10 @@
 [quarton] Gen: The problem with you is, you're all mouth, no brains. Want to impress me? Prove there's something behind all those wisecracks. Try being smart, not just talking clever. Then we'll see. I've had enough of this.
 [quarton] Beni: Yeah,
 [quarton] Guren: whatever. That haircut's still a joke. Where
-[quarton] Vilius: is he? He knows we can't begin without him. I sense his presence. Yes, my fellow Guardians? Is there a problem? Stop hovering, Eurus. Let us begin. This council has been convened in order to discuss your actions, Eurus. My actions? Perhaps you need to be reminded that the Guardians are expected to refrain from interfering in the affairs of Quarton. Except in cases of the most dire necessity. Such interference risks destabilizing the balance between Tenkai energies. Balance must be maintained. It was Boreas who first interfered by reviving the dragon. The actions I took were to restore the balance. Then how do you
-[quarton] Vilius: explain the surge in dark energy and the fact that the two worlds are drawing closer together? You
-[quarton] Vilius: shifted the balance, Boreas, but you cannot shift the blame. It was your meddling that caused this. Now you would have us do nothing until it is too late. Who
-[quarton] Vilius: do you want us to fight, Boreas? And where? Just name it.
+[quarton] Unknown: is he? He knows we can't begin without him. I sense his presence. Yes, my fellow Guardians? Is there a problem? Stop hovering, Eurus. Let us begin. This council has been convened in order to discuss your actions, Eurus. My actions? Perhaps you need to be reminded that the Guardians are expected to refrain from interfering in the affairs of Quarton. Except in cases of the most dire necessity. Such interference risks destabilizing the balance between Tenkai energies. Balance must be maintained. It was Boreas who first interfered by reviving the dragon. The actions I took were to restore the balance. Then how do you
+[quarton] Unknown: explain the surge in dark energy and the fact that the two worlds are drawing closer together? You
+[quarton] Unknown: shifted the balance, Boreas, but you cannot shift the blame. It was your meddling that caused this. Now you would have us do nothing until it is too late. Who
+[quarton] Unknown: do you want us to fight, Boreas? And where? Just name it.
 [quarton] Unknown: Yes, Boreas. We'd follow you even if you led us into certain defeat and total annihilation. Not that that could ever happen. You
 [quarton] Vilius: know, we have to- Silence! You're aware of the data we recovered from one of the Tenkai Knights, including images of another world? The
 [quarton] Unknown: data being analyzed by
@@ -105,7 +105,7 @@
 [quarton-battle] Guren: How
 [quarton-battle] Guren: do you like your beef? Medium rare. This heifer's history, and that's no bull.
 [quarton-battle] Gen: Very effective. I guess Tributon wasn't the weakling I thought he was. Perhaps I'll have to look. Maybe I can do this. elsewhere this
-[quarton-battle] Vilius: new power the knights have acquired this titan fusion is a threat to the balance between the energies you know so much about it Eurus perhaps you know how they acquired it what are you suggesting never mind with their latest victory the knights have restored the balance for now there is no need for us to intervene that may not be true for long i sense a darkness gathering and spreading across Quarton and even reaching towards worlds beyond Vilius is plotting something i
+[quarton-battle] Unknown: new power the knights have acquired this titan fusion is a threat to the balance between the energies you know so much about it Eurus perhaps you know how they acquired it what are you suggesting never mind with their latest victory the knights have restored the balance for now there is no need for us to intervene that may not be true for long i sense a darkness gathering and spreading across Quarton and even reaching towards worlds beyond Vilius is plotting something i
 [quarton-battle] Guren: was just thinking sometimes help comes to you from where you least expect it you know what i mean you sound like Mr. White take me for instance i'm not normally what you'd call the hero type but i gotta admit i was pretty awesome just now and you know why it was all on account again it was something that you said to me that got me going yeah it's like when the demon mage in doom's floater turns out to be a healer i
 [quarton-battle] Guren: get what you mean Ceylan yeah
 [quarton-battle] Guren: this seems like

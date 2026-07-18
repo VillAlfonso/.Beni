@@ -5,7 +5,7 @@
 [quarton-battle] Guren: And you know Toxsa's not going to miss out on any hot new systems upgrade. So he's no longer just Valorn, he's... Valorn Tenkai Caraclass! Chooki too, like the rest of us, he's playing in a whole new league now. He's not just Lydendor anymore, he's... Lydendor Tenkai Lightning Strike! So the good news is, we've got these awesome new attack modes to use against the bad guys. And we love using them on the Corrupted. But not so good news is... Vilius still has his usual cast of thuds. The word is, he's got some powerful new allies too. Try and stop this!
 [quarton-battle] Guren: Pass the ball too. You do have teammates, you know. Huh? What do you mean? Hey, not that I really mind or anything, but if I never wanted to touch the ball, I could have played on Chooki's team. Sorry, I
 [quarton-battle] Guren: didn't mean to be a ball hog. I was just on a roll. Guren's just pumped because he gets to go to Venom Wonder Park this weekend. Your dad's gonna
-[quarton-battle] Beni: take you, right? Yeah. Man, I don't blame you at all for being excited. That place is off the hizzy! Hey, I'm not that
+[quarton-battle] Unknown: take you, right? Yeah. Man, I don't blame you at all for being excited. That place is off the hizzy! Hey, I'm not that
 [quarton-battle] Guren: excited. I mean, I am, but, come on, it's not that big a deal. What do you mean you hope I wasn't too excited? Of course I was! Dad, you promised you'd take me this weekend, no matter what!
 [quarton-battle] Unknown: I know, but it can't be helped. They changed the deadline on my work schedule.
 [earth] Guren: Yeah, just like the last time and the time before that. It's always your work. You promised me, Dad!
@@ -14,22 +14,22 @@
 [earth] Unknown: Guren...
 [earth] Guren: I'll never believe you again! I'm
 [earth] Unknown: sorry. I
-[earth] Beni: don't blame you for being bummed, but it's not like this is the first time a grown-up's made a promise they didn't keep. Yeah, I mean, they're always telling you things that
+[earth] Unknown: don't blame you for being bummed, but it's not like this is the first time a grown-up's made a promise they didn't keep. Yeah, I mean, they're always telling you things that
 [earth] Guren: aren't strictly true. You know, like if you sneeze with your eyes open, they'll pop out of your head? Come on, it wasn't his fault, dude. He
 [earth] Guren: can't help it if he's an important guy. He
 [earth] Guren: shouldn't have broken his promise. That's the same thing as lying. No, it's not.
-[quarton] Beni: What? Come on. So things didn't turn out the way he planned. Doesn't make him a liar. Look, sis, Guren's dad said he'd do something, and he didn't. He lied. Maybe what's lame about being an adult is having to lie sometimes. But what can I say? When you have to work, I guess you have to work. Oh, and I guess you're an expert, huh?
+[quarton] Unknown: What? Come on. So things didn't turn out the way he planned. Doesn't make him a liar. Look, sis, Guren's dad said he'd do something, and he didn't. He lied. Maybe what's lame about being an adult is having to lie sometimes. But what can I say? When you have to work, I guess you have to work. Oh, and I guess you're an expert, huh?
 [quarton] Guren: What are you fiddling with there, anyway? Oh,
-[quarton] Beni: I was just wondering if there was a way I could fix the firing delay on this thing. What?
+[quarton] Unknown: I was just wondering if there was a way I could fix the firing delay on this thing. What?
 [quarton] Guren: What
 [quarton] Guren: is
-[quarton] Beni: that thing? A portal that can-
+[quarton] Unknown: that thing? A portal that can-
 [quarton] Guren: What? Toxsa! It's just, uh,
-[quarton] Beni: his remote for the computer hits on the fritz. Well, speaking of promises, you promised to fix the lime parfait machine. What? You know how to fix that? I fix everything around here. And
+[quarton] Unknown: his remote for the computer hits on the fritz. Well, speaking of promises, you promised to fix the lime parfait machine. What? You know how to fix that? I fix everything around here. And
 [quarton] Guren: after he fixes them, we fix them again so
-[quarton] Beni: they work. Yeah, right. I bet I could even fix that squint in your right eye, Wakame. Then maybe we'd have a chance to fix you up with a boyfriend.
+[quarton] Unknown: they work. Yeah, right. I bet I could even fix that squint in your right eye, Wakame. Then maybe we'd have a chance to fix you up with a boyfriend.
 [quarton] Guren: Later, guys. Cheer up, Guren. Uh-huh.
-[quarton] Beni: So long. See ya. What
+[quarton] Unknown: So long. See ya. What
 [quarton] Guren: if Dad's work is just an excuse? Because he doesn't really want to hang out with me.
 [quarton] Guren: Sorry, Ken. You might want to keep at least part of your mind on the road. You'll live a lot longer.
 [quarton] Guren: What do you think, Max? Is it really just because he's too busy? Or is it something else? Because, you know, I'd never bail on Dad, no matter how busy I was.
@@ -50,9 +50,9 @@
 [earth] Guren: had tickets to Wonder Park!
 [earth] Unknown: Oh, you're right. Well, this time, it'll be different. I promise.
 [earth] Guren: Thanks, Dad. I can't wait! Are you kidding
-[earth] Beni: me?
+[earth] Unknown: me?
 [earth] Guren: Those tickets
-[earth] Beni: are harder to come by than a demon-level Doom Shield. Mm-hmm. And they're a whole lot cooler. You've got seats right at midfield.
+[earth] Unknown: are harder to come by than a demon-level Doom Shield. Mm-hmm. And they're a whole lot cooler. You've got seats right at midfield.
 [earth] Guren: That's so cool of your dad to do that.
 [earth] Guren: Yeah, it is. Whoa, dude. Didn't you just spend all day yesterday getting us to feel sorry for you? Yeah.
 [quarton] Guren: Well,
@@ -63,19 +63,19 @@
 [quarton] Guren: We're gonna bail this time, okay?
 [quarton] Guren: He picking you up? Nah, he's coming straight from work, so we're gonna meet in front of the stadium, right by the new wine-barbecue place. Oh, no. Of
 [quarton] Guren: all the times to get summoned. Get going, Guren, or you'll miss the game. You don't want to keep them waiting. Yeah, but... What? You don't think we can handle it without you? No offense, you're not that indispensable. But... Ceylan, wait! Relax! Enjoy the game! Watch out for those greasy burgers! Okay, let's go. But where's... Guren's got that thing, remember? It's just us this time.
-[quarton] Guren: Oh, yeah. Hold on. What do you mean? Guren's got what thing, Ceylan? He's
+[quarton] Unknown: Oh, yeah. Hold on. What do you mean? Guren's got what thing, Ceylan? He's
 [quarton] Guren: at the championship soccer game. Well, just us. Let's do this thing.
-[quarton] Guren: Did I... miss something?
-[quarton] Beni: Tenkai! The
+[quarton] Unknown: Did I... miss something?
+[quarton] Unknown: Tenkai! The
 [quarton-battle] Guren: Tenkai Iceman
 [quarton-battle] Guren: Wolf would say, what's the haps? Right! Skip the details! How do we blast? Oh, nice! A little quieter,
 [quarton-battle] Guren: please! We're spying on the enemy. Oh!
 [quarton-battle] Guren: Sorry. I don't get it. You're watching him watch a hole.
 [quarton-battle] Guren: An army of corrupted is in that hole, searching for something. Oh, I get it. By the way, where is Bravenwolf?
-[quarton-battle] Beni: Let's hit him right now! But we... We'll use our elemental attacks and blast them while they're bottled up in there! I
+[quarton-battle] Unknown: Let's hit him right now! But we... We'll use our elemental attacks and blast them while they're bottled up in there! I
 [quarton-battle] Guren: don't think... Valorn has a point. But we'd certainly have the element of surprise going for us. Yes, but... All we'd really have to do is take out Granox. Shouldn't we wait for... I'd call dibs on that. Excuse me, Knights, but we... Keep it down! Keep
 [quarton] Guren: it down, will ya?
-[quarton] Beni: Too
+[quarton] Unknown: Too
 [quarton] Guren: loud. Oh, yes. Forgive me. But where is Bravenwolf?
 [quarton] Unknown: Sorry I'm late. It's okay. But here I am. You didn't think I'd bail again, did you? Maybe for a second. No way. I wouldn't miss this for anything. Guren? What's wrong?
 [quarton] Guren: It's nothing, Dad. Let's go!
@@ -100,16 +100,16 @@
 [quarton] Guren: Guren? I
 [quarton] Guren: can't believe I almost forgot what it's all about. The Tenkai Knights are a team.
 [quarton] Vilius: Interfere for the last time, Knights! Tenkai Titan Mode, activate! We
-[quarton] Beni: don't need him to clean your clock. Ugh.
+[quarton] Unknown: don't need him to clean your clock. Ugh.
 [quarton] Vilius: What's a clock? All I know is it's just the three of you and that makes it three times as easy to crush you.
 [quarton] Guren: Man, what you don't know about math could fill a textbook, Buckethead. Yeah! How long ago
 [quarton] Guren: did
 [quarton] Guren: they leave?
-[quarton] Guren: Guren, what in the... What are you doing here?
+[quarton] Unknown: Guren, what in the... What are you doing here?
 [quarton] Guren: I'm going with them.
-[quarton] Guren: But... I thought you wanted to stay and watch the championship game. It's
+[quarton] Unknown: But... I thought you wanted to stay and watch the championship game. It's
 [quarton] Guren: not about what I want. There's no I in team, isn't that right?
-[quarton] Guren: Uh... Right. So
+[quarton] Unknown: Uh... Right. So
 [quarton] Vilius: much for the element of surprise! Ha! Where's all your bull talk now, Knights?
 [quarton-battle] Guren: Okay, guys. I'll be the first to admit this won't be as easy as we thought. Your problems are just beginning! Who invited
 [quarton-battle] Guren: him?
@@ -118,7 +118,7 @@
 [quarton-battle] Vilius: What are you doing here? Don't you belong on another planet, you walking scrappy?
 [quarton-battle] Vilius: Vilius ordered me to destroy the Knights! You? He must have blown a circuit! He's not going to like you saying that! Get lost! No, you get lost!
 [quarton-battle] Guren: Tenkai awkward. Yeah,
-[quarton-battle] Beni: it's like my family at Thanksgiving. Shall we? Well, you were talking? Seems like there's trouble in bromance land. We're rooting for you. I
+[quarton-battle] Unknown: it's like my family at Thanksgiving. Shall we? Well, you were talking? Seems like there's trouble in bromance land. We're rooting for you. I
 [quarton] Vilius: don't think so! What do you say, Granox? We can settle our differences after we've destroyed the Knights!
 [quarton-battle] Vilius: Agreed. But I'll do the destroying. You just stay out of my way and watch. You might learn a thing or two.
 [quarton-battle] Vilius: Learn something from you? Please!
@@ -143,11 +143,11 @@
 [quarton] Vilius: Definitely.
 [quarton] Guren: Thanks for the tip. Go, man, go! Run! You still might make it in time! Okay! See ya! Bye! But
 [quarton] Guren: look both ways crossing the street. It's
-[quarton] Guren: very troubling. I fear this latest development could prove disastrous for Quarton, the Earth, and the entire universe. Hmm? It's only a soccer game. No, I don't mean Guren, I mean Vilius and what I suspect it is he's searching for up there.
+[quarton] Unknown: very troubling. I fear this latest development could prove disastrous for Quarton, the Earth, and the entire universe. Hmm? It's only a soccer game. No, I don't mean Guren, I mean Vilius and what I suspect it is he's searching for up there.
 [quarton] Guren: What? You mean in that hall? What is it?
-[quarton] Guren: The legendary Tenkai Fortress. It's a mysterious place, which is rumored to have great powers hidden within its walls. If the fortress does exist, we must find it before Vilius does. It's awful
+[quarton] Unknown: The legendary Tenkai Fortress. It's a mysterious place, which is rumored to have great powers hidden within its walls. If the fortress does exist, we must find it before Vilius does. It's awful
 [quarton] Guren: quiet!
-[quarton] Guren: I
+[quarton] Unknown: I
 [quarton] Unknown: won't even ask. Must have been something important, huh?
 [quarton] Guren: It was, Dad. People were counting on me. I just couldn't let them down. But I'm sorry I missed the game. Well,
 [quarton] Unknown: you didn't. It hasn't even begun yet. For

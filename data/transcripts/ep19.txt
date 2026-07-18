@@ -1,19 +1,19 @@
 [earth] Guren: Oh, I'm gobbling away from bonus points.
-[earth] Beni: Whatever, dude, but I'm eating your bacon if you aren't down here in five. You are!
+[earth] Unknown: Whatever, dude, but I'm eating your bacon if you aren't down here in five. You are!
 [earth] Guren: Chill out, Wakame, it's Sunday. I
-[earth] Beni: know, you've got a busy day. Despite your annoying little brotherness, I made your favorite. Awesome, Frenchified toast. Yep, aren't I the nicest?
+[earth] Unknown: know, you've got a busy day. Despite your annoying little brotherness, I made your favorite. Awesome, Frenchified toast. Yep, aren't I the nicest?
 [earth] Guren: Today you are.
-[earth] Beni: We've got to help Mom and Dad out at the diner, remember? They want us there for the brunch time rush. Hurry up and eat so we can...
+[earth] Unknown: We've got to help Mom and Dad out at the diner, remember? They want us there for the brunch time rush. Hurry up and eat so we can...
 [earth] Guren: Little... No,
-[earth] Beni: you don't. Ready
+[earth] Unknown: you don't. Ready
 [earth] Guren: to hit Quarton? You
-[earth] Gen: bet. Best get moving, boys.
-[earth] Beni: He must be around here. He's close. I smell syrup. You say something once about a junk shop? Gotcha.
-[earth] Gen: Why, good morning. Welcome to my shop of wonders.
-[quarton] Beni: Shop of what?
-[quarton] Gen: Unique treasures for the discerning collector.
-[quarton] Beni: Oh. Um, I'm looking for a geeky kid with green hair and the ability to annoy people. He smells like syrup. Got one of those?
-[quarton] Gen: Funny, that's the one item I don't have in stock at the moment. Goodbye.
+[earth] Unknown: bet. Best get moving, boys.
+[earth] Unknown: He must be around here. He's close. I smell syrup. You say something once about a junk shop? Gotcha.
+[earth] Unknown: Why, good morning. Welcome to my shop of wonders.
+[quarton] Unknown: Shop of what?
+[quarton] Unknown: Unique treasures for the discerning collector.
+[quarton] Unknown: Oh. Um, I'm looking for a geeky kid with green hair and the ability to annoy people. He smells like syrup. Got one of those?
+[quarton] Unknown: Funny, that's the one item I don't have in stock at the moment. Goodbye.
 [quarton] Guren: What's the situation?
 [quarton] Vilius: The Tenkai Knights! Your greatness shines down on us like a thousand suns. You've arrived just in time. Vilius' Corrupted have taken control of the sacred ruins
 [quarton-battle] Guren: in that ancient temple. Looks like they dropped back into their own end zone.
@@ -22,90 +22,90 @@
 [quarton-battle] Guren: on them lately.
 [quarton-battle] Guren: Guys, focus and attack! Could
 [quarton-battle] Vilius: they be after our treasure too? They can't find it if we destroy them first!
-[quarton-battle] Beni: Well, thanks anyway.
-[quarton-battle] Gen: Perhaps you'll have better luck at the mall.
+[quarton-battle] Unknown: Well, thanks anyway.
+[quarton-battle] Unknown: Perhaps you'll have better luck at the mall.
 [quarton-battle] Guren: Tenkai! Use plug and play. Uh oh. Maybe not. What'd they do? Call in air support? No, look! They're running away! Running? Flying? What's the diff? Time to say adios, sky chickens!
 [quarton-battle] Guren: Something's up.
 [quarton-battle] Guren: Think
 [quarton-battle] Guren: we'd better keep an eye on this place. Good idea, Bravenwolf. Beag! Have your men
 [quarton-battle] Vilius: guard this location. Consider it done, great Tenkai Knights! Consider it done, great Tenkai Knights! Hey, Slyger! Slyger! Why is it that every time I go into battle with you, I end up having to retreat?
-[quarton-battle] Vilius: Good question! I can't decide whether it's because you're a coward or just incompetent!
+[quarton-battle] Unknown: Good question! I can't decide whether it's because you're a coward or just incompetent!
 [quarton-battle] Guren: Well, that mission wasn't too hard. Hard? That was barely Tenkai babysitting. Disturbing news, boys.
-[quarton-battle] Gen: What's wrong?
+[quarton-battle] Unknown: What's wrong?
 [quarton-battle] Guren: Did you finally sell something? A
-[earth] Gen: certain sister came here looking for you, Toxsa. A certain sister came here looking for you, Toxsa. She was here? You didn't happen to tell her about this place, did you?
+[earth] Unknown: certain sister came here looking for you, Toxsa. A certain sister came here looking for you, Toxsa. She was here? You didn't happen to tell her about this place, did you?
 [earth] Guren: Well, I mighta kinda sorta mentioned something about your junk shop once. I mean, antique shop. But that's all! She find out anything? Did you let the Tenkai cat out of the bag, Mr. White?
-[earth] Gen: Did you let the Tenkai cat out of the bag, Mr. White? Our secret is safe for the moment. Our secret is safe for the moment. I allayed her suspicions, although she left without buying anything.
+[earth] Unknown: Did you let the Tenkai cat out of the bag, Mr. White? Our secret is safe for the moment. Our secret is safe for the moment. I allayed her suspicions, although she left without buying anything.
 [earth] Guren: That's a relief. That's a relief. No kidding. Your sister's the last person we want hassling us. No kidding.
-[earth] Gen: Your sister's the last person we want hassling us. No kidding.
+[earth] Unknown: Your sister's the last person we want hassling us. No kidding.
 [earth] Guren: Your sister's the last person we want hassling us. Let's hope not. For everyone's sake. Let's hope not. For everyone's sake. Let's hope not. For everyone's sake. Well, no harm, no foul, I guess. Well, no harm, no foul, I guess. Well, no harm, no foul, I guess. Well, no harm, no foul, I guess. Don't worry about her. My sister couldn't find her way out of- There you are!
-[earth] Beni: You
+[earth] Unknown: You
 [earth] Guren: were saying, Toxsa?
-[earth] Beni: Sis! What are you- Never mind me! It's you who's got the explaining to do! Where in the world have you been? Uh, which world are we talking about here? What were you and your friends doing? Totally forgot! We
+[earth] Unknown: Sis! What are you- Never mind me! It's you who's got the explaining to do! Where in the world have you been? Uh, which world are we talking about here? What were you and your friends doing? Totally forgot! We
 [earth] Guren: had all made plans!
-[earth] Beni: To do what? Oh,
+[earth] Unknown: To do what? Oh,
 [earth] Guren: you know, to, uh, start training, right? What? You know, a little conditioning first, then some weightlifting. Training for what? Yeah, training for what? We decided we're all gonna try out for the track team next season. But don't tell anyone. Because it's a secret. Oh boy, do we love running!
-[earth] Beni: Track team? You guys? I'm gonna love this!
+[earth] Unknown: Track team? You guys? I'm gonna love this!
 [earth] Guren: Oh
-[earth] Beni: boy,
+[earth] Unknown: boy,
 [quarton] Guren: do I hate
-[quarton] Beni: running! Pick up the pace! You're falling behind!
+[quarton] Unknown: running! Pick up the pace! You're falling behind!
 [quarton] Guren: Dude! I couldn't have picked a sport that doesn't involve running! Or a sport that doesn't involve sports! Hey, come on, guys. It's not like we couldn't use a little fitness. The upside is we'll be in awesome shape.
-[quarton] Beni: You're so slow, it looks like you're going backwards! Move! I
+[quarton] Unknown: You're so slow, it looks like you're going backwards! Move! I
 [quarton] Guren: don't know who's worse. Or our bellies.
 [quarton] Vilius: Well, Dromus, how is our plan progressing? How soon can we begin?
-[quarton] Gen: Difficult to say. The small amount of energy I've been able to extract from the Tenkai Dragon remains very unstable.
+[quarton] Unknown: Difficult to say. The small amount of energy I've been able to extract from the Tenkai Dragon remains very unstable.
 [quarton] Guren: I'm out of the way! Master,
-[quarton] Vilius: infuse me with the dragon's energy! No, me!
+[quarton] Unknown: infuse me with the dragon's energy! No, me!
 [quarton] Guren: I don't care how unstable or dangerous it is!
 [quarton] Vilius: Dangerous? You do it. What do you say, Dromus?
 [quarton] Guren: Why not? If this fool is willing to volunteer as guinea pig,
 [quarton] Guren: let him. Thank you,
 [quarton] Guren: thank
 [quarton] Guren: you! I want a Lime Parfait, too! You got Lime Parfait! That is Lime Parfait! Nuh-uh! Lime Parfait is green! Not if it's red! You got red Lime Parfait! I don't want red! I want green! I want green! You think
-[quarton] Beni: I'm too hard on Toxsa?
+[quarton] Unknown: I'm too hard on Toxsa?
 [quarton] Unknown: Huh? Probably not hard enough.
 [quarton] Guren: Don't listen to him. He's been behind the Friar too long. You're a very responsible older sister.
-[quarton] Beni: We
+[quarton] Unknown: We
 [quarton] Guren: never worry about him when he's with you.
 [quarton] Unknown: He doesn't know how lucky he is to have you for a sister. I don't know how lucky he is to have you for a sister.
-[quarton] Beni: Speaking of the little stinkweed, I told him I'd make him lunch.
+[quarton] Unknown: Speaking of the little stinkweed, I told him I'd make him lunch.
 [quarton] Unknown: Thanks, sweetie. Don't forget the milk.
-[quarton] Beni: Do I ever? I'm
+[quarton] Unknown: Do I ever? I'm
 [quarton] Guren: back! Man, am I tired and hungry. What a workout. That training for the track team sure is hard. Yeah, all that running and training.
-[quarton] Beni: Hey, Toxsa. Hm? Yeah, what? You wouldn't happen to be hiding something from me now, would you? Me? Hiding? What? It's just that you seem a little different since you started hanging around with those other boys.
+[quarton] Unknown: Hey, Toxsa. Hm? Yeah, what? You wouldn't happen to be hiding something from me now, would you? Me? Hiding? What? It's just that you seem a little different since you started hanging around with those other boys.
 [quarton] Guren: What are you talking about? I
-[quarton] Beni: just mean they're not exactly fellow members of the computer club. Man, am I hungry.
+[quarton] Unknown: just mean they're not exactly fellow members of the computer club. Man, am I hungry.
 [quarton] Guren: I
-[quarton] Beni: love sandwiches. Tell me the truth. The truth. I'm not buying this whole track team training thing. What's going on?
+[quarton] Unknown: love sandwiches. Tell me the truth. The truth. I'm not buying this whole track team training thing. What's going on?
 [quarton] Guren: Is that cheese Havarti?
-[quarton] Beni: I'm being serious. You keep running off all the time. What's that about?
+[quarton] Unknown: I'm being serious. You keep running off all the time. What's that about?
 [quarton] Guren: You just can't believe that I have friends.
-[quarton] Beni: Don't give me that. I just got stuff to do. See, there you go, acting weird again. Get
-[quarton] Vilius: in there. Look everywhere. And if the Knights interrupt our search again, they'll be sorry.
+[quarton] Unknown: Don't give me that. I just got stuff to do. See, there you go, acting weird again. Get
+[quarton] Unknown: in there. Look everywhere. And if the Knights interrupt our search again, they'll be sorry.
 [quarton] Vilius: You were right, sir. Yeah, they're definitely after something in that temple. Summon the troops, Couture. Yes, Commander.
-[quarton] Beni: Thanks. Gotta run. Hey, where are you? This is just what I'm talking about. Get back here. No way. Not this time. Come here, you little... Whack-a-may, let go of me. I'm serious. I really gotta get going. Oh, no, not yet, you don't. OK, Toxsa, out with it. What's going on? Where are you going? Right now, we're working on endurance. Knock it off. I want to know what you're hiding and don't give me any of that trap-team baloney. Well, why do you care? What I do is my business. No, it's not. It's both of ours. I'm your sister. We're family. That means we look out for each other, whether you like it or not.
+[quarton] Unknown: Thanks. Gotta run. Hey, where are you? This is just what I'm talking about. Get back here. No way. Not this time. Come here, you little... Whack-a-may, let go of me. I'm serious. I really gotta get going. Oh, no, not yet, you don't. OK, Toxsa, out with it. What's going on? Where are you going? Right now, we're working on endurance. Knock it off. I want to know what you're hiding and don't give me any of that trap-team baloney. Well, why do you care? What I do is my business. No, it's not. It's both of ours. I'm your sister. We're family. That means we look out for each other, whether you like it or not.
 [quarton] Guren: Yeah, well, I've got some stuff. It's my stuff. You wouldn't want to know. Go
-[quarton] Beni: on, try me. Look, I'm getting older. I don't
+[quarton] Unknown: on, try me. Look, I'm getting older. I don't
 [quarton] Guren: have to tell you everything I do. Oh, you think so, do you? Fine, I'll tell you. But get ready for me to blow your mind.
-[quarton] Beni: What? This
+[quarton] Unknown: What? This
 [quarton] Vilius: feels so familiar. But this time, once the Knights help us drive them out, we'll find out what it is they're looking for. This core brick is the key
 [quarton] Guren: to a different world. It allows me to shapeshift into one of the legendary Tenkai Knights. It means that my friends on the planet Quarton need my help. We're fighting an army of evil robots that's out to conquer everything. My friends are all waiting for me. I can't let them down. Okay, look, I don't expect you to believe me, but you've got to let me go. You've got to. I
-[quarton] Beni: believe you, Toxsa.
+[quarton] Unknown: believe you, Toxsa.
 [quarton] Guren: Then that means I can go. Right, sis? Not a chance. Take
 [quarton] Guren: it here.
-[quarton] Beni: No Ten Core for you, Toxsa. I can't let you go. Oh, what would Mom and Dad say?
+[quarton] Unknown: No Ten Core for you, Toxsa. I can't let you go. Oh, what would Mom and Dad say?
 [quarton] Guren: Time's up. We've got to go.
 [quarton] Guren: Yeah, we better answer this. Almost glowed a hole in my pants. Wait, a message. From
-[quarton] Gen: Toxsa, I hope.
+[quarton] Unknown: Toxsa, I hope.
 [quarton] Guren: Yeah, I'm trapped in my garage. Send help. I
 [quarton] Guren: think he means help. Okay, the two of you go ahead without us.
 [quarton] Guren: Sure thing. Sounds like Toxsa needs all the help he can get. Here, we'll
 [quarton] Guren: meet you on Quarton.
-[quarton] Gen: Let's hope two of you is.
+[quarton] Unknown: Let's hope two of you is.
 [quarton] Vilius: Corekai. Commander Granox,
 [quarton-battle] Guren: Commander Slyger. We found something in the temple. I think it might be what you're looking for. Finally. Take
-[quarton-battle] Vilius: us to it at once. That's it. The stone tablet with
+[quarton-battle] Unknown: us to it at once. That's it. The stone tablet with
 [quarton-battle] Guren: ancient writing.
 [quarton-battle] Guren: What do you say, Tributon? You want to tighten up? Why not? Tributon, Tenkai Titan Mode, activate. I'm going to get Titanically Tenkai. Tenkai Titan Mode, activate. They
 [quarton-battle] Vilius: think they're so tough.
@@ -114,40 +114,40 @@
 [quarton-battle] Vilius: village and victory.
 [quarton-battle] Guren: Wakame, what's
 [quarton-battle] Guren: going on?
-[quarton-battle] Beni: He's grounded. Wait, sounds like Guren. OK. Guren, is all this true about the Tin Can Knights or whatever you're called? Well, sorry. Toxsa's off the team. Find someone else to fight robots with. There is no one else. The four of us were chosen
+[quarton-battle] Unknown: He's grounded. Wait, sounds like Guren. OK. Guren, is all this true about the Tin Can Knights or whatever you're called? Well, sorry. Toxsa's off the team. Find someone else to fight robots with. There is no one else. The four of us were chosen
 [quarton] Guren: for this. And if we can't do it, nobody can. He's
-[quarton] Beni: too young to be saving the universe. Did it. Beat the left.
+[quarton] Unknown: too young to be saving the universe. Did it. Beat the left.
 [quarton] Guren: Toxsa. Let's go. We're late.
 [quarton] Guren: Don't worry. I know we're young, but we also look out for each other like you're doing now.
 [quarton] Guren: You better.
 [quarton] Guren: OK. It's two on two. Yeah, piece of cake.
-[quarton] Vilius: Foolish Knights. You won't be so smug when you get a taste of the new and improved me.
+[quarton] Unknown: Foolish Knights. You won't be so smug when you get a taste of the new and improved me.
 [quarton] Guren: Is that the dragon? No, it's one of those sky griffins we saw before. But he's definitely been hit in the gym.
 [quarton] Guren: Behold, Nagaslyger the Magnificent. Seriously? Whoa. Lightning must have gone to his head. I can feel the power. Now let them feel it, too.
 [quarton] Guren: Don't worry, I'm back online. Good. There's no time to waste. The others need your help on Quarton now. Roger. We're on it, Mr. White. Oh, and if Wakame comes back, tell her I'll be home for dinner. I'll be here.
-[quarton] Gen: Your sister's coming back?
+[quarton] Unknown: Your sister's coming back?
 [quarton] Guren: That looks like Slyger. But he's been supercharged. Big deal. Can't be any worse than my sister.
-[quarton] Gen: Welcome to my shop where everything under the sun. Oh, it's you. Oh, well, I'm afraid I still don't have that item. What was it again?
-[quarton] Beni: Where is he? I'm ready. I know all about it. I know he's here.
-[quarton] Gen: Uh, uh. Very well, then come
-[quarton] Beni: with me.
+[quarton] Unknown: Welcome to my shop where everything under the sun. Oh, it's you. Oh, well, I'm afraid I still don't have that item. What was it again?
+[quarton] Unknown: Where is he? I'm ready. I know all about it. I know he's here.
+[quarton] Unknown: Uh, uh. Very well, then come
+[quarton] Unknown: with me.
 [quarton] Guren: Is
-[quarton] Beni: that a portal? Precisely. Looks like a blender.
-[quarton-battle] Gen: It shapeshifts their deconstituted forms through subspace to the planet Quarton. You asked.
-[quarton-battle] Beni: Robo's Floater 12? No,
-[quarton-battle] Gen: it's a very real battle being fought even as we speak. The one you see there in green, that's Toxsa.
-[quarton-battle] Beni: What? He little brother?
+[quarton] Unknown: that a portal? Precisely. Looks like a blender.
+[quarton-battle] Unknown: It shapeshifts their deconstituted forms through subspace to the planet Quarton. You asked.
+[quarton-battle] Unknown: Robo's Floater 12? No,
+[quarton-battle] Unknown: it's a very real battle being fought even as we speak. The one you see there in green, that's Toxsa.
+[quarton-battle] Unknown: What? He little brother?
 [quarton-battle] Guren: He's too strong, Valorn. Leave him to us. Time
 [quarton-battle] Guren: for some Titan fusion. Uh-uh, Negator. If anyone's going to level up, it's going to be me. It's my turn. I can do it. What? You don't even know how it works. Just watch. I figured out Dungeon Exploder 7 without the walkthrough. Now, who's with me?
-[quarton-battle] Beni: Toxsa, you're not some big brave knight. You're my kid brother. I'm supposed to be the one who helps you. This is epic. You're actually saving the universe. First, a kid brother, a hero. Be careful. That's
+[quarton-battle] Unknown: Toxsa, you're not some big brave knight. You're my kid brother. I'm supposed to be the one who helps you. This is epic. You're actually saving the universe. First, a kid brother, a hero. Be careful. That's
 [quarton-battle] Guren: weird. Thought I heard Valorn, Bravenwolf. Are you ready for this? Let's do it. You're on.
 [quarton-battle] Guren: Valorn, Bravenwolf, Titan fusion. Every
 [quarton-battle] Guren: time I do something amazing, they do something amazing-er. We're twice the knight with twice the might. Not again. Wait for it.
 [quarton-battle] Guren: Not bad. Yeah, for a beginner.
 [quarton-battle] Vilius: Stay back, I warn you. You need it.
 [quarton-battle] Guren: Stay back. Burrow. Retreat. Run away. I did it. Whoa, whoa. You did it? Sorry, he did it. Thank you. But it was mostly me.
-[quarton-battle] Gen: As you see, Toxsa's quite the hero on Quarton. On
-[quarton] Beni: Earth, he has trouble loading the dishwasher.
+[quarton-battle] Unknown: As you see, Toxsa's quite the hero on Quarton. On
+[quarton] Unknown: Earth, he has trouble loading the dishwasher.
 [quarton] Guren: This must have been what they were looking for. Remind you of something, Bravenwolf? Yeah, that stone tablet at the museum.
 [quarton] Vilius: The inscription reads, The Black Dragon Key has been taken by the Guardian.
 [quarton] Guren: That's it? Well,
@@ -158,13 +158,13 @@
 [earth] Guren: Guys, we've got to get the Tenkai dragon back before they can find that key. Shoot that.
 [earth] Guren: I'm back.
 [earth] Guren: Sis, I'm sorry I ran off.
-[earth] Beni: Toxsa, why couldn't you have just told me the truth?
+[earth] Unknown: Toxsa, why couldn't you have just told me the truth?
 [earth] Guren: Yeah, but I did.
-[earth] Beni: Mr. White showed me. That video arcade in his basement. So you're hooked on some video game. Big surprise. You could have just told me and not made up that goony story. Video
+[earth] Unknown: Mr. White showed me. That video arcade in his basement. So you're hooked on some video game. Big surprise. You could have just told me and not made up that goony story. Video
 [earth] Guren: game?
-[earth] Beni: Mr.
+[earth] Unknown: Mr.
 [earth] Guren: White said
-[earth] Beni: it was a game? Long as you get your homework and chores done. It's fine with me if you want to waste brain cells on that stuff. Okay, fair enough. It's a deal. Good. You can start by cleaning the food off that plate. You got it. Thanks, sis.
+[earth] Unknown: it was a game? Long as you get your homework and chores done. It's fine with me if you want to waste brain cells on that stuff. Okay, fair enough. It's a deal. Good. You can start by cleaning the food off that plate. You got it. Thanks, sis.
 [earth] Guren: Yeah, it's just a game, but the interface is really cool. My little brother. Saving
-[earth] Beni: the universe.
+[earth] Unknown: the universe.
 [earth] Guren: So tasty. Whatever it is.

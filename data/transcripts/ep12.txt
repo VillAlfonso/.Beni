@@ -1,5 +1,5 @@
 [quarton] Guren: For those who came in late, my friends and I have been chosen to be the new Tenkai Knights. And just like the original Knights, our mission is to save the planet Quarton, pretty much the whole universe, from the evil warlord Vilius and his army of corrupted, shape-shifting robots. To do that, we needed to find the five Dragon Cubes that would bring the Tenkai Dragon back to life. So we finally scored the last cube, but then we learned that's not enough. Now we have to find the White Key to revive the Dragon. Man, nothing's simple in this job.
-[quarton] Beni: The Key is on Earth. You are on Earth. You are the Key.
+[quarton] Unknown: The Key is on Earth. You are on Earth. You are the Key.
 [quarton] Guren: Dude,
 [quarton] Guren: you got weird taste in music. Get real, will ya? Somebody sent me this message, and I have no idea who. That's probably some scam to get
 [quarton] Guren: you to buy more gems. Don't do it. You don't want to get sucked in like Toxsa.
@@ -91,7 +91,7 @@
 [quarton] Guren: You cool? Yeah, absolutely. So what's up? You find out anything we can use? Nope, not a thing.
 [quarton] Guren: Except that cafeteria hot dogs are as old as the fossils. As far as the key goes, we struck out.
 [earth] Guren: Hang on, maybe not. Is it another message? Take a look.
-[earth] Beni: Go to the top of the clock tower. And hurry, the clock is ticking.
+[earth] Unknown: Go to the top of the clock tower. And hurry, the clock is ticking.
 [earth] Guren: Is this a joke? I don't know, but maybe it's talking about the clock tower back at school. We gotta check it out. Okay. This
 [quarton] Guren: is either a prank or we're being toyed with. Wait, that's a safety. Look, that thing on the door. Is it some kind of scanner code? Let's find out. It's
 [quarton] Guren: giving us directions. To the park by the mall. Whoever this is, he's got us on the hook.
@@ -103,14 +103,14 @@
 [quarton] Guren: Tenkai Knights!
 [quarton] Unknown: Go!
 [quarton] Unknown: To the
-[quarton] Beni: library. Give me a break. Go to the subway station at... Behind the soccer stadium. Under the overpass. A light post on the corner of... Go to... Go to... Says
+[quarton] Unknown: library. Give me a break. Go to the subway station at... Behind the soccer stadium. Under the overpass. A light post on the corner of... Go to... Go to... Says
 [quarton] Guren: we've gotta go to the 10th floor of the umlaut building. I'd like to tell that voice where to go. Hang in there. I had a volleyball coach who used to make us run around like this. Guy was really mean. A total dictator. But we won the championship that year. No pain, no gain, right? Mm-hmm. Okay, let's do it. That's it. There's a parking garage up there. That's where we're gonna find the next one. Moving or losing! Show off!
 [quarton] Unknown: I
 [quarton] Guren: saw the
 [quarton] Guren: hacker.
 [quarton] Guren: Seriously? What happened? He get away? Yeah, but he left this behind. Check it out. You're not gonna like it. Well, at least one thing's clear. The dude's definitely messing with us. Hey, wait a minute. Unreal. We gotta go right back to where we started. It can't be just a wild goose chase. Hope not. But, uh... Remember that story about the coach? The brutal one that I said ran us all really ragged? The team that won the championship? Actually... There was a lot of pain for that game. Whoa. That was a lot less pain than I thought. That must be it. Whoa! Hold on. Look at the roof. What
 [quarton] Guren: do you think it is? Some kind of puzzle? What now?
-[quarton] Beni: Searching. Searching for an answer when you've already found it. Huh? The search is the answer. We've
+[quarton] Unknown: Searching. Searching for an answer when you've already found it. Huh? The search is the answer. We've
 [quarton] Guren: got it! Uh... That grid pattern on the roof. Does it remind you of anything? Uh... A checkerboard? A wall flyer. Oh! A map of the city! Yeah. Now lay in the coordinates of all the locations we visited. You see it? Yeah. Almost. Now line up the map and the grid. And bingo! Right! Those
 [quarton] Guren: are the squares we have to walk on to get to the key! Right. I'm on it. Spot me on this one, okay? No, Chooki. I'll risk it. Your call, dude. I got your back. Ready? Okay. First row. The fifth square from the right. You sure you don't want to tag out, dude?
 [quarton] Guren: Next one's one up and three to the left. You're gonna have to jump. Okay. You're gonna have to leap for this one, too. Up three. Whoa! You crush it, Hopscotch! Now up one, two to the left. Next one. It's up one, two to the right. Good job! Next one is two rows up and one to the left. One step straight ahead and you're there! You're either home free or you've just triggered the countdown to total planetary destruction. I think we're good. Here

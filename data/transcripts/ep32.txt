@@ -1,136 +1,136 @@
 [quarton-battle] Guren: Guren here, and in case you missed it, we've gained a big advantage over the Corrupted with our new Elemental Mode. But just when we thought we had this battle in the back, we found out that the Guardians, who are supposed to be neutral, had joined the enemy. Things look bad for our side. Thank goodness for Mr. White. He's full of surprises. Turns out he's some kind of ninja master. Who'd have guessed? And he taught us how to sync up with our inner Tenkai Energy. The result? Elemental Titan Mode. For me at least. And another win for the Tenkai Knights. Happy
 [quarton-battle] Beni: people go about their business. It's another beautiful day. How boring. Croissant and orange juice. Man, even my breakfast is boring. I
-[quarton-battle] Guren: can't believe this. I
+[quarton-battle] Unknown: can't believe this. I
 [quarton-battle] Guren: could have sworn I set that stupid alarm. Nice of
 [quarton-battle] Guren: you to drop in. And where's your foam saber? We're supposed to be doing combat training. Snooze
-[quarton-battle] Guren: button
+[quarton-battle] Unknown: button
 [quarton] Guren: epic fail. Well, that's okay. At least you've gotten a head start on the planting-your-face-in-the-grass training. Phew,
-[quarton] Guren: that was a workout. Yeah, but we're definitely getting better. Not to complain, but we'll need more than just foam swords to beat someone like Boreas. You mean the guy was intimidating when he was on our side?
+[quarton] Unknown: that was a workout. Yeah, but we're definitely getting better. Not to complain, but we'll need more than just foam swords to beat someone like Boreas. You mean the guy was intimidating when he was on our side?
 [quarton] Guren: Yeah, he reminded me of this chemistry teacher I had in my old school. Dude gave me a D-. Well,
 [quarton] Guren: no offense to you, Ceylan, but I kinda think Boreas is a bigger threat than your old teacher.
-[quarton] Guren: Mm-hmm. But hey, don't forget, guys, we've got Elemental Titan Mode. That's right. So come on. What's the big secret, Guren? How do the rest of us get that upgrade, too?
+[quarton] Unknown: Mm-hmm. But hey, don't forget, guys, we've got Elemental Titan Mode. That's right. So come on. What's the big secret, Guren? How do the rest of us get that upgrade, too?
 [quarton] Guren: I don't know. You just gotta focus on your Tenkai Energy. Let the power really build up inside you, and then bingo. Focus? Like Mr. White taught us.
-[quarton] Guren: Mm-hmm.
+[quarton] Unknown: Mm-hmm.
 [quarton] Guren: Right, that Ninja Master stuff. I knew I should have been paying better attention. Looks like Tox is paying too much attention. I'm sure you guys will pick it up on your own pretty soon. Don't worry. I
-[quarton] Guren: already got it. Or almost. I feel my power level spiking. Ready to explode with elemental awesomeness.
+[quarton] Unknown: already got it. Or almost. I feel my power level spiking. Ready to explode with elemental awesomeness.
 [quarton] Guren: Might be indigestion.
-[quarton] Guren: Oh.
+[quarton] Unknown: Oh.
 [quarton] Guren: Yeah, for the time being, you're the go-to guy, Guren. Thanks, guys. Hey,
-[quarton] Guren: I'm serious.
+[quarton] Unknown: I'm serious.
 [quarton] Guren: I
-[quarton] Guren: got this. I made Clan Leader and Warriors of Blue Who on my
+[quarton] Unknown: got this. I made Clan Leader and Warriors of Blue Who on my
 [quarton] Guren: first try. You?
-[quarton] Guren: A leader? Hey, that's
+[quarton] Unknown: A leader? Hey, that's
 [quarton] Guren: unprecedented.
-[quarton] Guren: I know, I know. I'm late. Come again. It's always good to see ya. Some people, on the other hand... Don't even start, sis. Not with the crummy morning I've had. What's so impossible to believe about me being a leader? I'm going online. Forget it. At least there I get some respect.
+[quarton] Unknown: I know, I know. I'm late. Come again. It's always good to see ya. Some people, on the other hand... Don't even start, sis. Not with the crummy morning I've had. What's so impossible to believe about me being a leader? I'm going online. Forget it. At least there I get some respect.
 [quarton] Vilius: Hey, your warrior has logged on.
-[quarton] Guren: So, you're looking to join the quest? Well, you picked the right Clan Leader because I've never been beaten yet. Just follow me. Watch your step, newbie. Don't worry, I've got this guy.
-[quarton] Guren: Undefeated! See? I told you to just stick with me if you want experience points. You logged off? Oh, okay, see ya. If only the real world was more like that.
+[quarton] Unknown: So, you're looking to join the quest? Well, you picked the right Clan Leader because I've never been beaten yet. Just follow me. Watch your step, newbie. Don't worry, I've got this guy.
+[quarton] Unknown: Undefeated! See? I told you to just stick with me if you want experience points. You logged off? Oh, okay, see ya. If only the real world was more like that.
 [quarton] Beni: The smell.
-[quarton] Guren: Hm?
+[quarton] Unknown: Hm?
 [quarton] Beni: Can't you smell it? You smelt it? The smell of a natural-born leader.
-[quarton] Guren: Huh?
+[quarton] Unknown: Huh?
 [quarton] Beni: Beni!
-[quarton] Guren: What
+[quarton] Unknown: What
 [quarton] Guren: do you want? Don't
-[quarton] Guren: knock on Guren. I'm just saying. So what's wrong with him? Well, I think he's been a pretty good leader so far.
+[quarton] Unknown: knock on Guren. I'm just saying. So what's wrong with him? Well, I think he's been a pretty good leader so far.
 [quarton] Beni: Yeah, or maybe just lucky. But his luck
-[quarton] Guren: could
+[quarton] Unknown: could
 [quarton] Beni: run out.
-[quarton] Guren: Forget it, Beni. I'm not buying it.
+[quarton] Unknown: Forget it, Beni. I'm not buying it.
 [quarton] Beni: Why not?
-[quarton] Guren: Oh, well, let me see. Maybe because you're a sneaky little troublemaker. When
+[quarton] Unknown: Oh, well, let me see. Maybe because you're a sneaky little troublemaker. When
 [quarton] Beni: have I ever made trouble? Just always! That's ancient history. I'm trying to help you, Toxsa.
-[quarton] Guren: Yeah, well, don't bother.
+[quarton] Unknown: Yeah, well, don't bother.
 [quarton] Beni: Well, I tried. Hm. But it's not everyone who can beat a woohoo boo ward hop with just three attack spells. It was two attack
-[quarton] Guren: spells. Huh?
+[quarton] Unknown: spells. Huh?
 [quarton] Beni: Wait, you were the other warrior? You were, like, totally amazing. I just hate seeing leadership skills like yours go to waste. It's
-[quarton] Guren: not a
+[quarton] Unknown: not a
 [quarton] Beni: waste.
-[quarton] Guren: I did make the high scores. You
+[quarton] Unknown: I did make the high scores. You
 [quarton] Beni: deserve so much more. I mean, the way you got us through the labyrinth without waking up the Cyclops was just unreal.
-[quarton] Guren: Yeah, well, it helps to know where the secret passage is. And the
+[quarton] Unknown: Yeah, well, it helps to know where the secret passage is. And the
 [quarton] Beni: way you took out the giant blue ward hop like it was nothing.
-[quarton] Guren: It was a blue dragon, which is actually even harder.
+[quarton] Unknown: It was a blue dragon, which is actually even harder.
 [quarton] Beni: All I'm saying is, I think you could be just as good a leader as Guren. Maybe better. Seriously.
-[quarton] Guren: Yeah, but that's just a video game, dude. It's not like that in real life.
+[quarton] Unknown: Yeah, but that's just a video game, dude. It's not like that in real life.
 [quarton] Beni: Why not? Because you've never gotten a chance. That's why not. No one's ever given you one.
-[quarton] Guren: Nah, I'm way too short to be a leader. Man, I'm always hungry. A
+[quarton] Unknown: Nah, I'm way too short to be a leader. Man, I'm always hungry. A
 [quarton] Beni: clever brain like yours requires a lot of fuel.
-[quarton] Guren: I snore when I sleep. Because you're generating power. I'm terrified of snakes and hairy spiders. Of
+[quarton] Unknown: I snore when I sleep. Because you're generating power. I'm terrified of snakes and hairy spiders. Of
 [quarton] Beni: course you are.
-[quarton] Guren: That's
+[quarton] Unknown: That's
 [quarton] Beni: just being sensible.
-[quarton] Guren: Did I mention I'm short?
+[quarton] Unknown: Did I mention I'm short?
 [quarton] Beni: So is Napoleon.
-[quarton] Guren: The famous general?
+[quarton] Unknown: The famous general?
 [quarton] Beni: That's the one. And you've got two inches on him. I knew it. Your problem-solving abilities are off the charts. You're making that up. Okay, fine. Don't believe me. Of course, if you are a better leader than Guren, you'd have to prove it. Who knows? Maybe I was wrong about the whole thing. Hey, hold on. If you want
-[quarton] Guren: me to prove it, I'll
+[quarton] Unknown: me to prove it, I'll
 [quarton] Beni: prove
-[quarton] Guren: it.
+[quarton] Unknown: it.
 [quarton] Beni: But
-[quarton] Guren: how? Well, you'd have to beat him at something. Fine, I can do that. It's not like I've never beaten him at anything. Yeah, I can totally do that. Yeah! This
+[quarton] Unknown: how? Well, you'd have to beat him at something. Fine, I can do that. It's not like I've never beaten him at anything. Yeah, I can totally do that. Yeah! This
 [quarton-battle] Vilius: is unacceptable, Vilius. We are the Guardians. You cannot treat us like this. I can and I will if you fail me. But we are... You are what, Eurus? I'll tell you what you are. You are corrupted Guardians who exist only to serve me. And you will be treated no differently
-[quarton-battle] Vilius: than any other lackey who questions my orders or
+[quarton-battle] Unknown: than any other lackey who questions my orders or
 [quarton-battle] Vilius: who fails to carry them out. You are guilty of the one and Boreas of the other. I sent him to destroy the Tenkai Knights and he failed. For that, he must be punished. Vilius is
-[quarton-battle] Vilius: right. What? It is the least that Boreas deserves. His defeat has brought dishonor on himself and all the Guardians.
+[quarton-battle] Unknown: right. What? It is the least that Boreas deserves. His defeat has brought dishonor on himself and all the Guardians.
 [quarton-battle] Vilius: I agree. Are you suggesting that you could do better, Zephyrus?
-[quarton-battle] Vilius: Yes. Send me to the other world and I will use the dark energy you've given me to destroy the Knights in one quick, merciless blow. Well, I like your attitude.
+[quarton-battle] Unknown: Yes. Send me to the other world and I will use the dark energy you've given me to destroy the Knights in one quick, merciless blow. Well, I like your attitude.
 [quarton-battle] Guren: Come on! Stay on! We're here! Go! Get it! We can do it! Guren! Got it! No, I got it!
 [quarton-battle] Guren: Yeah, nice shot. But he passed it to me?
-[quarton] Guren: I got there first. It's called leadership. Are
+[quarton] Unknown: I got there first. It's called leadership. Are
 [quarton] Guren: you guys ever going to order or am I supposed to read your minds? Just a wheatgrass protein shake for me. Chili fries, extra greasy. You,
 [quarton] Guren: Guren?
 [quarton] Guren: The
 [quarton] Guren: hero sandwich, please. Oh, yeah. Well, I can do better than that.
-[quarton] Guren: A super hero sandwich.
+[quarton] Unknown: A super hero sandwich.
 [quarton] Guren: Hmm. Okay. My brain needs fuel. I
 [quarton] Guren: did it! I just scored 12 bonus kitties. What? Must be broken. Ever heard of please? What are
-[quarton] Guren: you? I can't believe you still play this wimpy game. Anyway, that's how it's done.
+[quarton] Unknown: you? I can't believe you still play this wimpy game. Anyway, that's how it's done.
 [quarton] Guren: What's going on? Is something wrong? Yeah, my bike just conked out.
-[quarton] Guren: Let me look at it.
+[quarton] Unknown: Let me look at it.
 [quarton] Guren: Go
-[quarton] Guren: for it. I think it's really dead. Uh-huh. Let's see here. Mm-hmm. Yep. It's fine now. You fixed it? Thanks, Toxsa. Whoa,
+[quarton] Unknown: for it. I think it's really dead. Uh-huh. Let's see here. Mm-hmm. Yep. It's fine now. You fixed it? Thanks, Toxsa. Whoa,
 [quarton] Guren: the
-[quarton] Guren: bike whisperer. Lucky you were here, or we might have had to leave him behind and let him walk home. Maybe it was a sign it's time for a new leader. Guren! Now I'm lost. What'd you say? I'm thinking you've been leader long enough.
+[quarton] Unknown: bike whisperer. Lucky you were here, or we might have had to leave him behind and let him walk home. Maybe it was a sign it's time for a new leader. Guren! Now I'm lost. What'd you say? I'm thinking you've been leader long enough.
 [earth] Guren: Huh?
-[earth] Guren: Hey, is this why you've been acting even weirder than usual lately? And being super competitive with Guren? It's not like we elected him. I think I'd make as good a leader as he is. Well,
+[earth] Unknown: Hey, is this why you've been acting even weirder than usual lately? And being super competitive with Guren? It's not like we elected him. I think I'd make as good a leader as he is. Well,
 [earth] Guren: I don't think of myself as a leader, really. More like part of the team. But it's fine with me. Go for it. You mean it? That okay with you, Chooki? Oh, uh, I suppose we could try it out temporarily. How about it, Ceylan? Whatever. As long as we don't do anything he actually has to lead us in. You're elected.
 [earth] Beni: Oh!
-[earth] Guren: Guren's right. We're a team. So from now on, call me Team Leader.
+[earth] Unknown: Guren's right. We're a team. So from now on, call me Team Leader.
 [earth] Guren: Yeah. So we're still going to Mr. White's shop, right? Toxsa? Anyone home? Oh, you're not serious. Team Leader? You rang? Did we really just
 [earth] Guren: make him leader? I want a recount!
-[earth] Guren: I feel like
+[earth] Unknown: I feel like
 [earth] Guren: a cookie. Funny, you don't look like one. Yo, Guren. Yeah, what is it? Cookie. I'm supposed to get it for you? Mm-hmm. Oh,
 [earth] Guren: brother.
 [earth] Guren: Here.
-[earth] Guren: Ceylan. Yeah, what? Gimme a glass of orange juice. Really? Orange you
+[earth] Unknown: Ceylan. Yeah, what? Gimme a glass of orange juice. Really? Orange you
 [earth] Guren: glad I don't punch you? Something to help wash the cookies down? Hey, thanks! Just what we
-[earth] Guren: needed.
+[earth] Unknown: needed.
 [earth] Guren: And
-[earth] Guren: it's not tea. Next time, a frosted glass.
-[quarton] Vilius: Uh, my. How power corrupts.
-[quarton] Guren: Man, this being a leader thing is stressful. Gettin' a pain in my neck.
+[earth] Unknown: it's not tea. Next time, a frosted glass.
+[quarton] Unknown: Uh, my. How power corrupts.
+[quarton] Unknown: Man, this being a leader thing is stressful. Gettin' a pain in my neck.
 [quarton] Guren: You're getting to be a pain in ours. Word of advice, Toxsa? Team Leader. If
-[quarton] Guren: you want to know about leading a team, I've capped in a few of them and- That's another thing. No more sports metaphors while I'm in charge. Anyone want another cookie?
+[quarton] Unknown: you want to know about leading a team, I've capped in a few of them and- That's another thing. No more sports metaphors while I'm in charge. Anyone want another cookie?
 [quarton] Vilius: Boys.
 [quarton] Guren: You're being summoned. It could be Boreas again.
 [quarton] Guren: Yeah.
-[quarton] Guren: Well, what are
+[quarton] Unknown: Well, what are
 [quarton] Guren: we waiting for? Let's
-[quarton] Guren: go!
+[quarton] Unknown: go!
 [quarton] Guren: Wait, wait. I give
-[quarton] Guren: the orders around here. It could be Boreas again. What are we waiting for? Let's go! Okay,
+[quarton] Unknown: the orders around here. It could be Boreas again. What are we waiting for? Let's go! Okay,
 [quarton] Guren: that does it. I vote we vote again!
 [quarton] Guren: Boreas again?
 [quarton] Guren: No. Well,
 [quarton] Guren: that's a relief.
 [quarton] Guren: It's Guardian Zephyrus this time. He's even worse. Guardian Zephyrus? He has us cornered in this canyon. The few of us who survived his attack. One thing about the Guardians. They've sure got a deep bench. A
-[quarton] Vilius: deep what? Ah, no matter. Now that you're here, Knights, I thought we'd hit them with
+[quarton] Unknown: deep what? Ah, no matter. Now that you're here, Knights, I thought we'd hit them with
 [quarton] Guren: a counterattack. That is, if you're ready to move out. Ravenwolf? You know it. And you, Tributon? That's what we're here for. Lydendor? You bet. We came to play. Valorn? Uh, Valorn?
-[quarton] Guren: Oh,
+[quarton] Unknown: Oh,
 [quarton] Guren: you didn't
-[quarton] Guren: get
+[quarton] Unknown: get
 [quarton] Guren: the memo?
 [quarton] Guren: What a surprise. Don't
 [quarton] Guren: look at me. I still want a recount.
@@ -139,43 +139,43 @@
 [quarton-battle] Guren: team leader? Right
 [quarton-battle] Guren: here! Oh,
 [quarton-battle] Guren: Celestin. Oh, sizzling cyclometers. You said it, B.
-[quarton-battle] Vilius: Welcome back, Tenkai Knights. Why are you doing this? The Guardians don't need to explain ourselves to you, Bravenwolf. You are a fool to even ask. Fire!
-[quarton-battle] Vilius: Don't expect this to be as easy as your last battle. I'm not weak like Boreas. I will not take pity on you. Guardian Tenkai Megafusion,
+[quarton-battle] Unknown: Welcome back, Tenkai Knights. Why are you doing this? The Guardians don't need to explain ourselves to you, Bravenwolf. You are a fool to even ask. Fire!
+[quarton-battle] Unknown: Don't expect this to be as easy as your last battle. I'm not weak like Boreas. I will not take pity on you. Guardian Tenkai Megafusion,
 [quarton-battle] Vilius: engage!
-[quarton-battle] Vilius: Out
-[quarton-battle] Vilius: of my way, Corekai! Now then, do I destroy you all at once or one at a time? I think I'll start with your leader.
+[quarton-battle] Unknown: Out
+[quarton-battle] Unknown: of my way, Corekai! Now then, do I destroy you all at once or one at a time? I think I'll start with your leader.
 [quarton-battle] Guren: Bring it on!
-[quarton-battle] Guren: Hold it! Hold it! That would be me. I'm the leader here.
-[quarton-battle] Vilius: You're awfully small to be a leader. You
-[quarton-battle] Guren: won't be seeing that when I level up to Titan mode and stuff you in the trash. You can level up to Elemental Titan mode? Come on! If Bravenwolf can do it, I can do it. Valorn! Tenkai Terrablast! Titan Ball! Engage!
-[quarton-battle] Vilius: Did it work? Hardly awe-inspiring. Look!
-[quarton-battle] Guren: Engage! Ignition! Power up!
-[quarton-battle] Vilius: Blast off! Clearly you need more time to master that particular technique. Unfortunately for you, you've run out of it!
+[quarton-battle] Unknown: Hold it! Hold it! That would be me. I'm the leader here.
+[quarton-battle] Unknown: You're awfully small to be a leader. You
+[quarton-battle] Unknown: won't be seeing that when I level up to Titan mode and stuff you in the trash. You can level up to Elemental Titan mode? Come on! If Bravenwolf can do it, I can do it. Valorn! Tenkai Terrablast! Titan Ball! Engage!
+[quarton-battle] Unknown: Did it work? Hardly awe-inspiring. Look!
+[quarton-battle] Unknown: Engage! Ignition! Power up!
+[quarton-battle] Unknown: Blast off! Clearly you need more time to master that particular technique. Unfortunately for you, you've run out of it!
 [quarton-battle] Guren: Tenkai Firestorm! Titan mode engaging now! What the? Why isn't it working? We'll just have to do it the hard way. I'm okay with that! The Knights need our help! Forward! So
-[quarton-battle] Vilius: it's decided then. I will destroy you all at once! Why? I can't just sit here. I'm
-[quarton-battle] Guren: team leader.
+[quarton-battle] Unknown: it's decided then. I will destroy you all at once! Why? I can't just sit here. I'm
+[quarton-battle] Unknown: team leader.
 [quarton-battle] Guren: I'll come up with a plan.
-[quarton-battle] Guren: That's what a leader does. Loki, what would a warrior of Wuhu do? Save and quit? That's not in the options menu. What was I thinking? I should have listened to Guren. He was right the whole time. It's not about being team leader. It's about being a team! What's going on? Either I just blew a capacitor, or else this means I just earned myself a major upgrade.
-[quarton-battle] Vilius: Elemental Titan Mode is online and operational. Awaiting instructions.
+[quarton-battle] Unknown: That's what a leader does. Loki, what would a warrior of Wuhu do? Save and quit? That's not in the options menu. What was I thinking? I should have listened to Guren. He was right the whole time. It's not about being team leader. It's about being a team! What's going on? Either I just blew a capacitor, or else this means I just earned myself a major upgrade.
+[quarton-battle] Unknown: Elemental Titan Mode is online and operational. Awaiting instructions.
 [quarton-battle] Guren: Velour! Tenkai Terrablast! Titan Mode! It's
-[quarton-battle] Vilius: inconceivable to me how Boreas could be defeated by the likes of you. I'm sorry. I knew they had to be there. Foolish knight. Now feel the true power of the Guardians! I
+[quarton-battle] Unknown: inconceivable to me how Boreas could be defeated by the likes of you. I'm sorry. I knew they had to be there. Foolish knight. Now feel the true power of the Guardians! I
 [quarton-battle] Guren: mean, team leader? It's war. Just call me team mate! What's this? Get on board! You don't want to miss your flight! Now departing for Loserville! You
 [quarton-battle] Vilius: dare? I'll crush you for this! I am a Guardian! You
 [quarton-battle] Guren: shouldn't get
-[quarton-battle] Guren: hung up on titles. That's what I've learned. Besides, I can think of other names for you. Like Landfill! Gigaflop! History!
+[quarton-battle] Unknown: hung up on titles. That's what I've learned. Besides, I can think of other names for you. Like Landfill! Gigaflop! History!
 [quarton] Guren: Pilot Junk! Tenkai Terrablast!
 [quarton] Vilius: Impossible!
 [quarton] Guren: Couldn have done it better myself. You're a hero! Even
-[quarton] Guren: if I float here looking heroic enough, they'll forget what an epic jerk I've been. So
+[quarton] Unknown: if I float here looking heroic enough, they'll forget what an epic jerk I've been. So
 [quarton] Guren: where is Toxsa? Well, that was a tough fight. I bet the big guy just wants a day off or something. Yeah, it was a close one. But that's the way we like him. Isn't that right, Gurnan? Hmm. I still don't get why I couldn't shapeshift to Titan mode. Hey, guys.
-[quarton] Guren: Huh? Bad news. I'm resigning as team leader. I'm sorry, but you can't talk me out of it. I've made my decision. To be honest, I'm not cut out to be a leader. Your
+[quarton] Unknown: Huh? Bad news. I'm resigning as team leader. I'm sorry, but you can't talk me out of it. I've made my decision. To be honest, I'm not cut out to be a leader. Your
 [quarton] Guren: resignation is not accepted. What? We may be good at different things, but one thing's for sure. It takes all of us to make a team. There's no one leader, Toxsa. Not at all. We are all the Tenkai Knights. You convinced me.
-[quarton] Guren: Okay, I'll take my job back.
+[quarton] Unknown: Okay, I'll take my job back.
 [quarton] Guren: Fine. But
-[quarton] Guren: you're gonna have to get
+[quarton] Unknown: you're gonna have to get
 [quarton-battle] Guren: your own
-[quarton-battle] Guren: cookies
+[quarton-battle] Unknown: cookies
 [quarton-battle] Guren: from
 [quarton-battle] Beni: now on.
 [quarton-battle] Beni: What are four? There's a lot livelier around here. I
-[quarton-battle] Guren: really nailed that Titan mode, didn't I? Yeah. What do you call it again? Tenkai Burrito Blast? Terra Blast. You should talk, Captain Snowcone.
+[quarton-battle] Unknown: really nailed that Titan mode, didn't I? Yeah. What do you call it again? Tenkai Burrito Blast? Terra Blast. You should talk, Captain Snowcone.

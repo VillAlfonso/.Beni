@@ -8,54 +8,54 @@
 [quarton] Vilius: Find it and bring it to me, or face my wrath.
 [quarton] Beni: You bet. As Vilius commands. I
 [quarton] Beni: knew that shiny bling thing my dad gave me must be important. But this important? That explains the fancy gift box. So Vilius thinks this will help him find the Tenkai Fortress, huh? Hmph. Not if I happen to find it first. Come on, Tenkai Stone. Do your thing. Fetch the Fortress. What's that? It's a cute trick, but it's not really what I- Ugh. The Fortress! Find it! Hello? Anyone in there speak English? Ugh! Piece of junk! Dad gave me a knuckle! Is it a rainbow?
-[quarton] Guren: Or a bridge? A bridge!
+[quarton] Unknown: Or a bridge? A bridge!
 [quarton] Guren: You guys felt that too?
-[quarton] Guren: Yeah, I thought you'd pinched me again.
+[quarton] Unknown: Yeah, I thought you'd pinched me again.
 [quarton] Guren: It wasn't like the bricks were summoning us. No, it felt different somehow. A low battery warning? I think we better go tell Mr. White. Yeah. Oh, yeah.
-[earth] Guren: Hmm. It
+[earth] Unknown: Hmm. It
 [earth] Guren: wasn't like we were being summoned. It was, I don't know, almost like a distress signal.
 [earth] Guren: Oh, please. My tea's not that bad.
-[earth] Guren: Look, Mr. White! It wasn't like that before. I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this! I think we're gonna need a lot of glue.
+[earth] Unknown: Look, Mr. White! It wasn't like that before. I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this! I think we're gonna need a lot of glue.
 [earth] Guren: It's happening. Brickification.
-[quarton] Guren: Huh? Brickiful what?
+[quarton] Unknown: Huh? Brickiful what?
 [quarton] Guren: Something on Quarton is disrupting the balance. And affecting the very fabric of our world. Is this like what happened before? This could be even more serious. Unless we can reverse it.
-[quarton] Guren: Is
+[quarton] Unknown: Is
 [quarton] Guren: that why our core bricks were acting so
-[quarton] Guren: strangely?
+[quarton] Unknown: strangely?
 [quarton] Guren: Yes. In a way, you were right. They must have sensed the imbalance between the two energies. It was a sort of distress signal.
-[quarton] Guren: Guess we won't be drinking any more tea, too bad. Just watch.
+[quarton] Unknown: Guess we won't be drinking any more tea, too bad. Just watch.
 [quarton] Guren: Hopefully this'll work. The
 [quarton] Guren: ancient Tenkai teachings were right. Thank goodness that was my great-great-grandmother's second cousin's favorite teapot. So
-[quarton] Guren: the problemo is solved.
+[quarton] Unknown: the problemo is solved.
 [quarton] Guren: Not quite. This is merely a temporary solution.
-[quarton] Guren: Say what?
+[quarton] Unknown: Say what?
 [quarton] Guren: Take away the bricks' energy and... The bricks aren't the answer. But we must find a countermeasure or the same thing will happen to everything on Earth. You
-[quarton] Guren: don't mean everything.
+[quarton] Unknown: don't mean everything.
 [quarton] Guren: Indeed, I do.
-[quarton] Guren: Even chili dogs?
+[quarton] Unknown: Even chili dogs?
 [quarton] Guren: Yes, everything.
-[quarton] Guren: Even peanut butter cheeseburgers?
+[quarton] Unknown: Even peanut butter cheeseburgers?
 [quarton] Guren: Right at the moment, Toxsa. We have bigger concerns than your bizarre eating habits, if you don't mind. Oh. I'll see.
-[quarton] Guren: In time.
+[quarton] Unknown: In time.
 [quarton] Guren: As I said before, the same will happen to everything on Earth.
-[quarton] Guren: Okay then, how do we stop it, Mr. White?
-[quarton] Guren: That's the question.
+[quarton] Unknown: Okay then, how do we stop it, Mr. White?
+[quarton] Unknown: That's the question.
 [quarton] Guren: What
-[quarton] Guren: made it start happening now?
+[quarton] Unknown: made it start happening now?
 [quarton] Guren: A mystery indeed.
-[quarton] Guren: If that jerk Vilius is behind it, what's he
-[quarton] Guren: hope to gain?
+[quarton] Unknown: If that jerk Vilius is behind it, what's he
+[quarton] Unknown: hope to gain?
 [quarton] Guren: Another mystery. Yeah,
-[quarton] Guren: why destroy a planet that you're hoping to conquer? Yes, it's puzzling.
+[quarton] Unknown: why destroy a planet that you're hoping to conquer? Yes, it's puzzling.
 [quarton-battle] Guren: The
-[quarton-battle] Guren: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't know!
+[quarton-battle] Unknown: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't know!
 [quarton-battle] Guren: Uh, sorry. As a matter of fact, there's one thing I do know. You have to go to Quarton and find out what's happened there. Sounds like a plan. Sure beats sitting around here. Let's move.
 [quarton-battle] Unknown: This is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course. Uh,
-[quarton-battle] Guren: Beag? Ah!
+[quarton-battle] Unknown: Beag? Ah!
 [quarton] Unknown: Quick! Strike the set! What the heck are you doing? Oh, uh, training! Yes. Training for, uh, possible amphibious assault. Yes. It's me on the unscreened, say. What brings you here, Knights? You
-[quarton] Guren: notice anything peculiar here lately? Even more peculiar than usual? Peculiar? Uh,
+[quarton] Unknown: notice anything peculiar here lately? Even more peculiar than usual? Peculiar? Uh,
 [quarton] Unknown: no, not really. Except maybe... Except what? That thing up there!
-[quarton] Guren: Huh? Tenkai Rainbow! What does it mean?
-[quarton] Vilius: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll fight you later! I'm busy right now! Busy doing
-[quarton] Guren: what, Buckethead?
-[quarton] Vilius: You think I'd tell you that I'm about to find the Tenkai Fortress?
+[quarton] Unknown: Huh? Tenkai Rainbow! What does it mean?
+[quarton] Unknown: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll fight you later! I'm busy right now! Busy doing
+[quarton] Unknown: what, Buckethead?
+[quarton] Unknown: You think I'd tell you that I'm about to find the Tenkai Fortress?

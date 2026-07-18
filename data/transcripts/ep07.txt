@@ -1,139 +1,139 @@
-[quarton-battle] Vilius: Good news, Commander Beag. Corekai scouts have followed the signal, and I believe we've located one of the Dragon Cubes in the Hidden Coward. By the sword of Bravenwolf, that is good news. Protect the cube at all costs, and be on the lookout for the Corrupted. I wish the Tenkai Knights were here. As do I. May their incredible powers defend us all. Report back on any updates, and be careful. The Corrupted could be here at any moment. Yes, sir. Those infuriating Corekai.
-[quarton-battle] Vilius: It looks like they may have discovered another Dragon Cube. For us to steal. Should we attack?
+[quarton-battle] Unknown: Good news, Commander Beag. Corekai scouts have followed the signal, and I believe we've located one of the Dragon Cubes in the Hidden Coward. By the sword of Bravenwolf, that is good news. Protect the cube at all costs, and be on the lookout for the Corrupted. I wish the Tenkai Knights were here. As do I. May their incredible powers defend us all. Report back on any updates, and be careful. The Corrupted could be here at any moment. Yes, sir. Those infuriating Corekai.
+[quarton-battle] Unknown: It looks like they may have discovered another Dragon Cube. For us to steal. Should we attack?
 [quarton-battle] Guren: Not
-[quarton-battle] Vilius: yet. We'll let them do the dirty work for us, and then blast it out of their pathetic hands. This is sure to win me favor with Vilius. When he rules Quarton, I'll be his commander. Move our forces into place. Yes, Slyger. Dragon Cube, you're mine.
-[quarton-battle] Guren: Tenkai Titan Mode was so cool. Gotta figure out how to level up like that, too. Spill it, Gurren. Come on, dude, what's the play?
+[quarton-battle] Unknown: yet. We'll let them do the dirty work for us, and then blast it out of their pathetic hands. This is sure to win me favor with Vilius. When he rules Quarton, I'll be his commander. Move our forces into place. Yes, Slyger. Dragon Cube, you're mine.
+[quarton-battle] Unknown: Tenkai Titan Mode was so cool. Gotta figure out how to level up like that, too. Spill it, Gurren. Come on, dude, what's the play?
 [quarton-battle] Guren: How'd you get into
-[quarton-battle] Guren: Titan
+[quarton-battle] Unknown: Titan
 [quarton-battle] Guren: Mode? Well, like Mr. White said, you have to really believe you can, but you need a reason to want it. A fire in your belly. But it's not just that you want it, that you need it. So, find that fire in your belly, and it just kind of happens. So you're saying I need to eat a lot of jalapenos because my stomach's sensitive? Dude,
-[quarton-battle] Guren: you're totally missing the point. It's not a literal fire. I mean, look at me. I don't break a sweat, I don't stink. Maybe I'm just too cool to get fired up. So what fires you
+[quarton-battle] Unknown: you're totally missing the point. It's not a literal fire. I mean, look at me. I don't break a sweat, I don't stink. Maybe I'm just too cool to get fired up. So what fires you
 [quarton-battle] Guren: up besides a new cheat code for Dungeon Exploders 9? I don't think a cheat code's gonna give you the kind of fire you need.
-[quarton-battle] Guren: Hey, guys. Are you hungry? Is there anything I can get you to eat? Wait, sis, you're a genius. One chili con carne. What?
+[quarton-battle] Unknown: Hey, guys. Are you hungry? Is there anything I can get you to eat? Wait, sis, you're a genius. One chili con carne. What?
 [quarton-battle] Guren: What in the world is chili con carne?
-[quarton-battle] Guren: It's one of my dad's spiciest dishes. That'll start a fire in my belly, among other places. I'll so unlock Tenkai Titan Mode. Just you watch me. No, watch me. I'll get the spicy mustard fried chicken. Copycat. What is that? It's just another spicy dish we serve. To be honest, it's not so bad once your taste buds burn off.
+[quarton-battle] Unknown: It's one of my dad's spiciest dishes. That'll start a fire in my belly, among other places. I'll so unlock Tenkai Titan Mode. Just you watch me. No, watch me. I'll get the spicy mustard fried chicken. Copycat. What is that? It's just another spicy dish we serve. To be honest, it's not so bad once your taste buds burn off.
 [quarton-battle] Guren: And for dessert, you can eat my dust. Sis, get extra napkins for the tears Ceylan's about to cry. Bring it. Ow! Here you go. Good luck. Well,
-[quarton-battle] Guren: ready to give up? I'm ready for you to lose. This is so odd. You guys sure know how to run your mouths. Why don't you try eating with me? Clown.
+[quarton-battle] Unknown: ready to give up? I'm ready for you to lose. This is so odd. You guys sure know how to run your mouths. Why don't you try eating with me? Clown.
 [quarton-battle] Guren: Freak. I'm as
-[quarton-battle] Guren: cool as an icicle. My mouth's a glacier. Call me Snow Tongue. I'm Ice Head.
+[quarton-battle] Unknown: cool as an icicle. My mouth's a glacier. Call me Snow Tongue. I'm Ice Head.
 [quarton-battle] Guren: Ceylon talks of chill. We are! Look, I don't think this is going to work. I think that you two just don't want this bad enough. Clearly, the solution
-[quarton] Guren: is to eat something much hotter.
-[quarton] Vilius: Hotter? Okay, you first. Kitchen's closed.
+[quarton] Unknown: is to eat something much hotter.
+[quarton] Unknown: Hotter? Okay, you first. Kitchen's closed.
 [quarton] Guren: At night, just like Bravenwolf.
 [quarton] Unknown: A new student is joining us today. His name is Gen. All right, Gen, please take a seat.
 [quarton] Guren: Don't even think about it.
-[quarton] Guren: Detention. I just wanted to make the new kid laugh. I
+[quarton] Unknown: Detention. I just wanted to make the new kid laugh. I
 [quarton-battle] Guren: think you need some new material. I know what it's like to be the new kid. Here goes nothing. Hey, sorry if I was a jerk before. Whatever. Okay. Don't mind Ceylon. He's a goofball, but he's harmless. He was actually funny once. Leave me alone. Loner. Got it. Oh, man. He really doesn't think you're funny. Oh, come on. That can't be true. Deep down inside, he's laughing. Mm-hmm.
-[quarton-battle] Vilius: Excellent. This is it. The Tenkai Dragon Cube. We must protect the cube no matter what. Now let's hurry and get it back to the base. You
-[quarton-battle] Vilius: can go back to the base, but that Tenkai Dragon Cube is coming with me. Slyger. Gather the forces and move in.
+[quarton-battle] Unknown: Excellent. This is it. The Tenkai Dragon Cube. We must protect the cube no matter what. Now let's hurry and get it back to the base. You
+[quarton-battle] Unknown: can go back to the base, but that Tenkai Dragon Cube is coming with me. Slyger. Gather the forces and move in.
 [quarton-battle] Guren: Blast
-[quarton-battle] Vilius: anything that gets in your way.
-[quarton-battle] Vilius: Yes. By the shield of Lydendor, where are the Tenkai Knights?
+[quarton-battle] Unknown: anything that gets in your way.
+[quarton-battle] Unknown: Yes. By the shield of Lydendor, where are the Tenkai Knights?
 [quarton-battle] Guren: Hey, Gen. Gen. Where are you going? Hey, you want to hear a good joke? Or a bad one? Or a funny one for a change? You're trying to set a record for keeping quiet, huh? Where'd you live before here? Let's hang out. We could ignore people together. It's not usually this weird, Gen. Well, yes, but you get used to it. Okay, good talk. He really doesn't like you. Nah, not a chance. He's just shy. Let's follow him. I don't think he wants to be friends. How do
 [quarton-battle] Guren: you lose someone that tall wearing all black? Down there. Hold up, Gen. It's happening again. Just like in the museum. Something must be happening on Quarton that's affecting us here on Earth. Okay, maybe we should go. It's Tenkai time. Whoa, it's digital glitching. It's like something's trying to stop it. Or stop us. Guess we're going back to our normal level of weird. For a second there, it felt like we were turning digital, too. It's gone. I don't like this. We gotta find out what's going on. Come on, let's talk to Mr. White. Maybe he'll know. Yeah.
 [quarton-battle] Guren: Sorry, there was some trouble downtown. What? You okay? Yeah, we're fine. But the world turned all Quarton-y freak show.
-[quarton] Vilius: The Tenkai Dragon Cube's energy is somewhat uncontrollable. We need you on Quarton. The Corekai have a Tenkai Dragon Cube that must be protected from the Corrupted.
+[quarton] Unknown: The Tenkai Dragon Cube's energy is somewhat uncontrollable. We need you on Quarton. The Corekai have a Tenkai Dragon Cube that must be protected from the Corrupted.
 [quarton] Guren: Okay, bot up. Tenkai!
 [quarton] Guren: Tributon Core engaged! Where
 [quarton] Guren: is everyone? Watch out!
-[quarton] Vilius: Get
+[quarton] Unknown: Get
 [quarton] Guren: your shields up!
-[quarton-battle] Vilius: Thank goodness you're here!
+[quarton-battle] Unknown: Thank goodness you're here!
 [quarton-battle] Guren: Beak, where's the Dragon Cube? It's right here! You're too late, Tenkai fools! Victory belongs to the Corrupted! Don't count your Dragon
-[quarton-battle] Vilius: Cubes
+[quarton-battle] Unknown: Cubes
 [quarton-battle] Guren: before they're hatched! We'll stop you! Let's go Titan. It's my time to shine. I'm gonna power up. Right after me? Will someone get him?
-[quarton-battle] Vilius: Guess they'd rather fight themselves. Time to kick some butt! Corrupted, assemble the Iron Wall! Come
-[quarton-battle] Guren: on, Tenkai Titan Mode! Well, that didn't go as planned! Toxsa!
-[quarton-battle] Vilius: Tenkai levels amplified. Shall we activate Titan Mode?
+[quarton-battle] Unknown: Guess they'd rather fight themselves. Time to kick some butt! Corrupted, assemble the Iron Wall! Come
+[quarton-battle] Unknown: on, Tenkai Titan Mode! Well, that didn't go as planned! Toxsa!
+[quarton-battle] Unknown: Tenkai levels amplified. Shall we activate Titan Mode?
 [quarton-battle] Guren: What?
-[quarton-battle] Vilius: Once you've achieved Tenkai Titan Mode, you may access it whenever you wish. Shall I activate it now?
-[quarton-battle] Vilius: Yeah!
+[quarton-battle] Unknown: Once you've achieved Tenkai Titan Mode, you may access it whenever you wish. Shall I activate it now?
+[quarton-battle] Unknown: Yeah!
 [quarton-battle] Guren: Tenkai!
-[quarton-battle] Vilius: Bravenwolf! Tenkai Titan Mode! Engage! No,
-[quarton-battle] Vilius: wait, what's that other thing? Completely pointless!
+[quarton-battle] Unknown: Bravenwolf! Tenkai Titan Mode! Engage! No,
+[quarton-battle] Unknown: wait, what's that other thing? Completely pointless!
 [quarton-battle] Guren: Even if you're stronger, you
-[quarton-battle] Vilius: can't catch me on my Sky Griffin! A griffin? I want a griffin!
+[quarton-battle] Unknown: can't catch me on my Sky Griffin! A griffin? I want a griffin!
 [quarton-battle] Guren: Would you just get him? Come on, get fired up! I need Tenkai Titan Mode to stop him. Plus, I really want to do it. It looks so cool! Too bad you're out of luck. I'm doing it! Ever get tired of being wrong? I'll let you know if it happens. We don't have time for this! We gotta stop him! I'm on it! No, I am!
-[quarton-battle] Vilius: That won't be necessary!
+[quarton-battle] Unknown: That won't be necessary!
 [quarton-battle] Guren: What? What do you mean, Beag? We've gotta get that Tenkai Dragon Cube back from Slyger!
-[quarton-battle] Vilius: Why would you want a fake one? Fake? It was a trick to buy us time. Resume digging! You heard him, dig! This way, we can work in peace without worrying about the Corrupted.
+[quarton-battle] Unknown: Why would you want a fake one? Fake? It was a trick to buy us time. Resume digging! You heard him, dig! This way, we can work in peace without worrying about the Corrupted.
 [quarton-battle] Guren: Nice, pretty smart, Beag. Yeah, I didn't know you had it in you. Nice one. Well, we better get back to school, uh, I mean, our secret hideout. But we'll be back if you need us.
-[quarton-battle] Guren: And I'll unlock Tenkai Titan Mode then. Once I show you how. I did figure one thing out. And what's that? Scubbing your toe doesn't help Titan Mode, and it hurts pretty bad, even if you're a robot.
+[quarton-battle] Unknown: And I'll unlock Tenkai Titan Mode then. Once I show you how. I did figure one thing out. And what's that? Scubbing your toe doesn't help Titan Mode, and it hurts pretty bad, even if you're a robot.
 [quarton] Unknown: That's
 [quarton] Guren: correct! Thank you, Gen, what an excellent job. Numbers aren't everything in math, you know. Uh, they kind of are. Get there.
 [quarton] Guren: Boy, he's good.
-[quarton] Vilius: Rekai dug this up before we stole it away from the fools. Vilius, I present one of the Dragon Cubes.
-[quarton] Vilius: Let's examine my treasure.
-[quarton] Vilius: Admire its power!
-[quarton] Vilius: You're
-[quarton] Vilius: the fool, Slyger. Thank you. What? That is just an ordinary rock! This can't be! They fought me for it!
-[quarton] Vilius: More like they tricked you into it!
-[quarton] Vilius: The Corekai be so underhanded and deceitful! That's my job! Well, I'll make sure they pay for what they've done to me! I'll show them no mercy!
+[quarton] Unknown: Rekai dug this up before we stole it away from the fools. Vilius, I present one of the Dragon Cubes.
+[quarton] Unknown: Let's examine my treasure.
+[quarton] Unknown: Admire its power!
+[quarton] Unknown: You're
+[quarton] Unknown: the fool, Slyger. Thank you. What? That is just an ordinary rock! This can't be! They fought me for it!
+[quarton] Unknown: More like they tricked you into it!
+[quarton] Unknown: The Corekai be so underhanded and deceitful! That's my job! Well, I'll make sure they pay for what they've done to me! I'll show them no mercy!
 [quarton] Guren: Tenkai fail. Dude, I didn't know you liked basketball. That's because I don't. I just thought it might help with Titan Mode. Oh, your training? Never thought I'd see that. Hey, Gen, come on, join the game!
-[quarton] Guren: No thanks.
+[quarton] Unknown: No thanks.
 [quarton] Guren: Come on, we could really use some pointers. Like that crossover dribble. You know, Gen, you'd make a pretty good team player. Not interested. Look, it's a team sport. I don't need anyone's help.
-[quarton] Guren: What's that mean?
+[quarton] Unknown: What's that mean?
 [quarton] Guren: Only weak people need teammates, and I'm not weak. Listen, Gen, don't you want to make friends at this school?
-[quarton] Vilius: Not
-[quarton] Guren: with you. Our
+[quarton] Unknown: Not
+[quarton] Unknown: with you. Our
 [quarton] Guren: breaks. Make sure Gen doesn't see them. Come on, let's hurry. Hey, if you ever want to be friends, let me know, so I can turn you down. He didn't really mean that, Gen. See ya.
-[quarton] Vilius: Incredible. We actually found it. The real Tenkai Dragon Cube. All right, let's get it out of here. Don't let your guard down for any reason, understood? Not until this Dragon Cube is safely inside our base. Yes,
+[quarton] Unknown: Incredible. We actually found it. The real Tenkai Dragon Cube. All right, let's get it out of here. Don't let your guard down for any reason, understood? Not until this Dragon Cube is safely inside our base. Yes,
 [quarton] Guren: sir, understood. What was that?
-[quarton] Vilius: Look out. I'm going to smash you all to bits for deceiving me. And then I'm going to smash all of those bits to bits.
-[quarton] Vilius: Don't let them get the Dragon Cube.
-[quarton] Vilius: What? The Tenkai Knights have returned. By the cubes of Quarton, our greatest heroes are here to save us.
+[quarton] Unknown: Look out. I'm going to smash you all to bits for deceiving me. And then I'm going to smash all of those bits to bits.
+[quarton] Unknown: Don't let them get the Dragon Cube.
+[quarton] Unknown: What? The Tenkai Knights have returned. By the cubes of Quarton, our greatest heroes are here to save us.
 [quarton-battle] Guren: Well, no pressure there. B, you guys all right?
-[quarton-battle] Vilius: Aside from being outnumbered and surrounded, I suppose so. They're after the Tenkai Dragon Cube.
+[quarton-battle] Unknown: Aside from being outnumbered and surrounded, I suppose so. They're after the Tenkai Dragon Cube.
 [quarton-battle] Guren: Yeah, we kind of figured.
-[quarton-battle] Vilius: You sure they're not after us? Why not both? First, I'll destroy you, and then take the real Dragon Cube. All you're getting is a one-way ride to Smackdown Town.
+[quarton-battle] Unknown: You sure they're not after us? Why not both? First, I'll destroy you, and then take the real Dragon Cube. All you're getting is a one-way ride to Smackdown Town.
 [quarton-battle] Guren: Come on, it's game time. Come on. Let's go, Tenkai Knights. You can count me in. Yeah, me too.
-[quarton-battle] Vilius: My turn to trick you. Now! Incoming! Formation, Tenkai Knight Blockade! Bravenwolf!
+[quarton-battle] Unknown: My turn to trick you. Now! Incoming! Formation, Tenkai Knight Blockade! Bravenwolf!
 [quarton-battle] Guren: What's going on? Why
-[quarton-battle] Vilius: aren't they attacking? Only Bravenwolf can use Tenkai Titan Mode. Why waste our energy fighting him? Keep him trapped, and we'll overpower the others. Now, strengthen those walls! Quick, keep them back.
+[quarton-battle] Unknown: aren't they attacking? Only Bravenwolf can use Tenkai Titan Mode. Why waste our energy fighting him? Keep him trapped, and we'll overpower the others. Now, strengthen those walls! Quick, keep them back.
 [quarton-battle] Guren: Oh, man, there's too many of them. I can't get out. This is not good. Lydendor.
-[quarton-battle] Vilius: Whoa, who said we spawned to infinite? I never imagined I'd catch Lydendor, too. Too foolish. We're fools with one blockade. Now, take the Dragon Cube. No, stop him. Missed me. Try again.
+[quarton-battle] Unknown: Whoa, who said we spawned to infinite? I never imagined I'd catch Lydendor, too. Too foolish. We're fools with one blockade. Now, take the Dragon Cube. No, stop him. Missed me. Try again.
 [quarton-battle] Guren: Can't get him. Guren, Chooki, can you two combine as the proto-jet? We can't. I'm stuck. Me too. It's all up to us, Ceylon. Quit
-[quarton-battle] Guren: glitching around and fight
-[quarton-battle] Vilius: us. Be careful what you wish for, Tenkai Knights. Sky Griffon Fury Attack. Bring it on. Oh,
+[quarton-battle] Unknown: glitching around and fight
+[quarton-battle] Unknown: us. Be careful what you wish for, Tenkai Knights. Sky Griffon Fury Attack. Bring it on. Oh,
 [quarton] Guren: he's bringing it. Well, I asked for it. Valorn, talk to me. Are you okay? Yeah, but I can't move. No.
-[quarton] Guren: All
-[quarton] Vilius: that's left is Tributon. Take him down.
+[quarton] Unknown: All
+[quarton] Unknown: that's left is Tributon. Take him down.
 [quarton] Guren: This
-[quarton] Vilius: is it. Not
+[quarton] Unknown: is it. Not
 [quarton] Guren: good. Oh, man. Toxsa, Guren, Chooki, I need you. Your friends can't help you now.
-[quarton-battle] Vilius: You're all alone.
+[quarton-battle] Unknown: You're all alone.
 [quarton-battle] Guren: Only weak people need teammates, and I'm not weak. He's wrong. He's wrong. The four of us always fight as a team, because friendship makes us stronger. Even if my friends are down right now. I'm not alone. So what?
-[quarton-battle] Vilius: Soon you'll be joining them. All
+[quarton-battle] Unknown: Soon you'll be joining them. All
 [quarton-battle] Guren: right. That's it. No one messes with my best buds and gets away with it. Joke's on you, because I'm all
-[quarton-battle] Vilius: fired up. Tributon Tenkai Energy is now at 100 percent, activating Tenkai Titan Mode. Tenkai Titan Mode. Activates.
-[quarton-battle] Vilius: He's achieved Tenkai Titan Mode.
+[quarton-battle] Unknown: fired up. Tributon Tenkai Energy is now at 100 percent, activating Tenkai Titan Mode. Tenkai Titan Mode. Activates.
+[quarton-battle] Unknown: He's achieved Tenkai Titan Mode.
 [quarton-battle] Guren: That's right. And I'll give you one guess who I'm going to test it out on first.
-[quarton-battle] Vilius: Retreat.
+[quarton-battle] Unknown: Retreat.
 [quarton-battle] Guren: No way. You've got a whole mess of payback coming.
-[quarton-battle] Vilius: Vilius is not going to like this.
+[quarton-battle] Unknown: Vilius is not going to like this.
 [quarton-battle] Guren: And now for the rest of you.
-[quarton-battle] Vilius: What's
+[quarton-battle] Unknown: What's
 [quarton-battle] Guren: going on? They're leaving.
-[quarton-battle] Guren: What happened? What'd I miss? Huh?
+[quarton-battle] Unknown: What happened? What'd I miss? Huh?
 [quarton-battle] Guren: No way. I actually pulled it off. Whoa. I actually need to sit down. Tributon. I'm fine. Just tired. You okay? We are now, thanks to you and Tenkai Titan Mode. That's nice.
-[quarton-battle] Guren: Oh boy.
+[quarton-battle] Unknown: Oh boy.
 [quarton-battle] Guren: What's wrong? Titan Mode
-[quarton-battle] Vilius: takes a lot out of you,
+[quarton-battle] Unknown: takes a lot out of you,
 [quarton-battle] Guren: but it was worth it to save you guys and, of course, to beat Toxsa to it. Hey, B.
-[quarton-battle] Vilius: Thank you, Tributon. You saved us.
-[quarton-battle] Guren: You know, I could have unlocked Tenkai Titan Mode too, you know. I just repeated myself, didn't I?
+[quarton-battle] Unknown: Thank you, Tributon. You saved us.
+[quarton-battle] Unknown: You know, I could have unlocked Tenkai Titan Mode too, you know. I just repeated myself, didn't I?
 [quarton-battle] Guren: Yeah, but you didn't. Just
-[quarton-battle] Guren: be glad Ceylon did.
+[quarton-battle] Unknown: be glad Ceylon did.
 [quarton-battle] Guren: Well, I'll do it for us next time. Right.
-[quarton-battle] Guren: Or I will. Watch out!
+[quarton-battle] Unknown: Or I will. Watch out!
 [quarton-battle] Guren: Wasting
-[quarton] Guren: Tenkai Titan Mode on protecting your friends? You guys are a joke.
+[quarton] Unknown: Tenkai Titan Mode on protecting your friends? You guys are a joke.
 [quarton] Guren: Yeah, try us. He looks like Bravenwolf. Hey, computer. Do you know who that is?
-[quarton] Vilius: Searching. No
+[quarton] Unknown: Searching. No
 [quarton] Guren: data
-[quarton] Vilius: found.
+[quarton] Unknown: found.
 [quarton] Guren: All right. Who are you? I'm Dromus, and this is
-[quarton] Vilius: mine. The Dragon Cube! Give it back! Forget it, fools! No! He's gone! We must go after him at once! Where are we supposed to go? We have no idea where he went.
+[quarton] Unknown: mine. The Dragon Cube! Give it back! Forget it, fools! No! He's gone! We must go after him at once! Where are we supposed to go? We have no idea where he went.
 [quarton] Guren: He was in my dream. I can't believe we couldn't find that Dromus guy. Yeah, even Guardian Boreas didn't know who he was. Yeah, and we still lost the Tenkai Dragon Cube. Look, their skin. You
 [quarton] Guren: know, that kid's trouble. What?
-[quarton] Vilius: Nothing.
+[quarton] Unknown: Nothing.
 [quarton] Guren: Never mind. See you tomorrow, Guren. Yeah, you bet. See ya.

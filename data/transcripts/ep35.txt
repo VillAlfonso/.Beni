@@ -21,7 +21,7 @@
 [earth] Guren: No, worse. He bugged out
 [earth] Guren: without paying. I don't know what it is, but there's something funny going on with Guren.
 [earth] Guren: Yeah, he's not right. I'll say he's not. I just had to pay for a large orange juice out of my own pocket. You know what's wrong with him, Mr. White?
-[earth] Gen: I don't, but I will say this. There is no rock so great and mighty it cannot crumble.
+[earth] Unknown: I don't, but I will say this. There is no rock so great and mighty it cannot crumble.
 [earth] Guren: Thanks, big help as always. I think he means...
 [earth] Guren: The pressure's getting to him, you know? What pressure? Homework? I mean always having to be the leader. That kind of pressure
 [earth] Guren: can cause performance anxiety.
@@ -55,17 +55,17 @@
 [quarton-battle] Guren: Having fun, Gen?
 [quarton-battle] Gen: You know I am. Loving it. Get
 [quarton-battle] Guren: out in the sun much, dude? Ahem.
-[quarton-battle] Gen: Team Tenkai, I have a few words of advice before you face the foe.
+[quarton-battle] Unknown: Team Tenkai, I have a few words of advice before you face the foe.
 [quarton-battle] Guren: Advice? Sure, why not? It's Team Toxa. At least get the name right.
-[quarton-battle] Gen: Team Toxa?
+[quarton-battle] Unknown: Team Toxa?
 [quarton-battle] Guren: Sorry.
-[quarton-battle] Gen: Well, anyway, the path to victory may be long and arduous, but never give up. Remember, it's the pressure that turns a stone into a diamond.
+[quarton-battle] Unknown: Well, anyway, the path to victory may be long and arduous, but never give up. Remember, it's the pressure that turns a stone into a diamond.
 [quarton-battle] Guren: That almost makes sense. Oh, no.
-[quarton-battle] Gen: Now go.
+[quarton-battle] Unknown: Now go.
 [quarton-battle] Guren: Spike
-[quarton-battle] Gen: that touchdown.
+[quarton-battle] Unknown: that touchdown.
 [quarton-battle] Guren: Right
-[quarton-battle] Gen: on.
+[quarton-battle] Unknown: on.
 [quarton-battle] Guren: Team Toxic serves! Tox! Watch
 [quarton-battle] Guren: his serve! Just watch or try and hit it back. Nice save! Team Toxa with another win! Toxa! Gen, go for it! Give me five! Four! Not. Team Toxa! Finally! You are the best on the beach, dude! Hope you're hungry. Oh, you bet we are.
 [quarton-battle] Guren: I would, but I'm too stuffed to move. I
@@ -125,7 +125,7 @@
 [quarton-battle] Guren: We knew you'd come through if we kept the pressure off.
 [quarton-battle] Guren: That's right. It was all part of our plan. Except for the part where we almost got toasted. I only like toast for breakfast.
 [quarton] Guren: Oh, well thanks, I guess.
-[quarton] Gen: As a matter of fact, I have a suspicion that Guren found a way to use the pressure to his advantage. Exactly. So, the stone became a diamond, huh? Right. Gen!
+[quarton] Unknown: As a matter of fact, I have a suspicion that Guren found a way to use the pressure to his advantage. Exactly. So, the stone became a diamond, huh? Right. Gen!
 [quarton] Guren: Thanks, man. No problem, dude. You sure you don't want to come aboard full time? Don't start that again. Come on. It's not like you have to pay dues or anything. Heh heh. Are
 [quarton] Vilius: we sure about this? We've been wrong before. Well, you have.
 [quarton] Guren: There's no doubt this time.

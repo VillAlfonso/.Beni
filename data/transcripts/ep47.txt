@@ -9,19 +9,19 @@
 [earth] Beni: how high Sandy can stretch? That's because his mommy loves him and plays with him a lot. How
 [earth] Guren: about we go to the park?
 [earth] Beni: The park!
-[earth] Gen: Yes, indeed. I'm extremely impressed with the progress you two boys have made.
+[earth] Unknown: Yes, indeed. I'm extremely impressed with the progress you two boys have made.
 [earth] Guren: You should see what I can do in the online version. This
-[earth] Gen: isn't some video game where
+[earth] Unknown: isn't some video game where
 [earth] Guren: you can just hit the reset button. This is a game where you can play for keeps.
 [earth] Guren: Better believe it. And now it's not just about fighting them up on Quarton anymore. They've brought the battle here.
 [earth] Guren: Yeah. You think they're right about the Tenkai Stone being here on Earth, Mr. White?
-[earth] Gen: Well, I've searched all the ancient texts pertaining to the mystery of the Tenkai Stone. Huh? Yeah,
+[earth] Unknown: Well, I've searched all the ancient texts pertaining to the mystery of the Tenkai Stone. Huh? Yeah,
 [earth] Guren: Ant.
-[quarton] Gen: It's still
+[quarton] Unknown: It's still
 [quarton] Guren: a mystery. Ugh. Those ancient texts of yours are about as helpful as a user's manual in Swahili. Can
 [quarton] Guren: we go five minutes without you talking
 [quarton] Guren: about computer stuff?
-[quarton] Gen: Here or not, wherever the stone is, we must find it, and soon...
+[quarton] Unknown: Here or not, wherever the stone is, we must find it, and soon...
 [quarton] Beni: Tenkai Stone. No wonder everyone wants it. Only this little guy can unseal the power of the Tenkai Fortress. And with all that power, someone could do some real bad things on Quarton. And whatever happens on Quarton has an effect on Earth, too. Yep. Somebody had sure messed things up on both worlds, if they wanted to. What's
 [quarton] Beni: happening here? Good thing you came along. Sandy! Could've
 [quarton] Beni: gone boom.
@@ -32,9 +32,9 @@
 [quarton] Beni: am not! No way or no how, no way have we ever been friends, or we ever gonna be friends! You're right, Sandy! Huh? She is funny. Sandy likes you. And not just on account of you saving his life and everything. So we decided you can come to the park and play with us. No offense,
 [quarton] Beni: but I'd rather set my tongue on fire than play with you. Huh?
 [quarton] Vilius: The longer Corekai hold the Tenkai Fortress, the more likely they are to avenge the Unsealed's power. Every attempt to capture it from them has failed. What's the point of
-[quarton] Vilius: having minions if they're all so useless? You've been relying on the wrong minions. Hmm? Boreas, if you want the Tenkai Fortress, I will get it for you. Ha! I've heard that before!
+[quarton] Unknown: having minions if they're all so useless? You've been relying on the wrong minions. Hmm? Boreas, if you want the Tenkai Fortress, I will get it for you. Ha! I've heard that before!
 [quarton] Vilius: You forget it's not the Corekai who must be defeated, but the Tenkai Knights who come to their rescue every time! And you
-[quarton] Vilius: forget, Vilius, that I know the Knights better than anyone. I know how to use their selfless devotion to the Corekai against them. Intriguing.
+[quarton] Unknown: forget, Vilius, that I know the Knights better than anyone. I know how to use their selfless devotion to the Corekai against them. Intriguing.
 [quarton] Vilius: What do you have in mind? Yes, do tell, Boreas. I'm eager to hear how we're going to defeat them. We, Eurus? I'm happy to volunteer my services if they will help achieve victory. No need to thank me. I don't want your services. Eurus is right. Two guardians are better than one. Go and see it's done! It will be an honor, as Vilius commands.
 [quarton] Beni: Okay, it's called the Prince and Princess. I'll explain how to play.
 [quarton] Beni: Great.
@@ -83,7 +83,7 @@
 [quarton] Beni: they fight, there's no one guarding the fortress. Now's my chance. I could slip right in with the Tenkai Stone, unseal the fortress, and grab its power for myself.
 [quarton] Guren: Oh, yeah. This is as simple as clearing a demo-level dungeon crawl. That means too easy. I agree. Yeah. You
 [quarton] Guren: think this guardian's up to something? Huh? Uh-oh. Guardian Boreas!
-[quarton] Vilius: I knew that given the choice of defending the Korakai or protecting the Tenkai Fortress, the Knights would choose the Korakai, which of course leaves the fortress to me.
+[quarton] Unknown: I knew that given the choice of defending the Korakai or protecting the Tenkai Fortress, the Knights would choose the Korakai, which of course leaves the fortress to me.
 [quarton-battle] Guren: Okay. The difficulty level just increased to uh-oh two. Skip the deets! We gotta stop him! Oh, yeah. Sorry.
 [quarton-battle] Vilius: What? What? Are you forgetting me? Guardian! Tenkai! Megafusion! Tenkai! Not
 [quarton-battle] Vilius: so fast, Knights! We're
@@ -94,7 +94,7 @@
 [quarton-battle] Vilius: Such courage. Such determination. Such
 [quarton-battle] Guren: FOOLS! I'm starting to think he's got a point. We can take it! Yeah. Well, we're busy taking him. Boreas is taking the fortress! I know!
 [quarton-battle] Vilius: Such power!
-[quarton] Vilius: It's no use, Commander. Your forces are too few to defend the fortress. Stand aside!
+[quarton] Unknown: It's no use, Commander. Your forces are too few to defend the fortress. Stand aside!
 [quarton] Vilius: I will not! Huh? Hm?
 [quarton] Beni: Venetta! Yeah, yeah. I know. I can't really explain it either. What can I say? I'm having an off day!
 [quarton] Vilius: What's this? You fight on the side of the Knights now? Then

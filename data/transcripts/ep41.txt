@@ -63,20 +63,20 @@
 [quarton] Guren: Careful, I think this game Gigatude is contagious.
 [quarton] Unknown: Up ahead, Knights! Huh? Perhaps your life units, or whatever, can be replenished there.
 [quarton] Guren: An inn! Right, there's always an inn.
-[quarton] Guren: Mr. White? You've come to the right place, travelers. Welcome to the Inn of Many Answers. Okay, then I guess the first question is, what are you doing here? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Really? What kind of fearsome enemy? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Yeah,
+[quarton] Unknown: Mr. White? You've come to the right place, travelers. Welcome to the Inn of Many Answers. Okay, then I guess the first question is, what are you doing here? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Really? What kind of fearsome enemy? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Yeah,
 [quarton] Guren: we heard you
-[quarton] Guren: the first
+[quarton] Unknown: the first
 [quarton] Guren: time.
 [quarton] Guren: So what's this guy's weak spot, anyway?
-[quarton] Guren: First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Is
+[quarton] Unknown: First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Is
 [quarton] Guren: he broken? Many Answers? It's more like the Inn of One Answer.
 [quarton] Guren: We might need to try a different tactic. Yeah, but... I know! Try this!
-[quarton] Guren: You're very generous, traveler. Now, it's time for you to rest and recuperate.
+[quarton] Unknown: You're very generous, traveler. Now, it's time for you to rest and recuperate.
 [quarton] Guren: Chooki, I was saving that coinage for goblin blood. So I'll pay you back, dude. Uh-oh, what's going on? What
 [quarton] Guren: happened to the lights?
-[quarton] Guren: Good morning. I hope you rested well.
+[quarton] Unknown: Good morning. I hope you rested well.
 [quarton] Guren: Hey, I do feel better. Yeah, I'm not even hungry anymore. We fast forwarded through the boring sleeping part. Nice. Yeah, cause it's a game.
-[quarton] Guren: Anything else you require? Oh, I almost forgot. The fearsome enemy you will face, his weak spot is right here.
+[quarton] Unknown: Anything else you require? Oh, I almost forgot. The fearsome enemy you will face, his weak spot is right here.
 [quarton] Guren: Thanks, Mr. White. I mean, innkeeper. Okay,
 [quarton] Guren: so let's skip the boring part of looking for this fearsome enemy and fast forward to the part where we clobber him. Yeah, good idea. Game on!
 [quarton] Guren: Granox, some fearsome enemy. Oh yeah, like Slyger was a real challenge. Look, guys, a door. Maybe it's a bathroom. I could use one.

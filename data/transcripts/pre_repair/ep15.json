@@ -1,0 +1,1055 @@
+{
+ "episode": 15,
+ "lines": [
+  {
+   "speaker": "Guren",
+   "text": "Name's Guren, and my friends and I have been chosen to be the new Tenkai Knights. Our mission? To save the planet Quarton, and maybe the whole universe from the evil warlord Vilius. We thought our problems were solved when we revived the Tenkai Dragon with all its awesome power. Then Dromus, one of Vilius' right-hand goons, swiped the dragon away from us. So now, until we can get the dragon back, we're in a stalemate. But you know that won't last long, because in the end, this battle will be rare takeoff.",
+   "t0": 0.0,
+   "t1": 26.54,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "That's the last of them. We should report this to Commander Bee. Right. What was that? What? Something just passed by! By the eyes of the Guardians!",
+   "t0": 38.43,
+   "t1": 49.61,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Tag! You're",
+   "t0": 51.33,
+   "t1": 52.77,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "it!",
+   "t0": 52.77,
+   "t1": 53.03,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Ta-da! Something tells me this is gonna be fun!",
+   "t0": 53.63,
+   "t1": 58.75,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "How are",
+   "t0": 65.98,
+   "t1": 67.18,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "you going to stare at those photos? I only like looking at pictures of I'm in them.",
+   "t0": 88.94,
+   "t1": 93.9,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "All this time. I've been effort searching, and what do I have to show for it? Nothing.",
+   "t0": 95.26,
+   "t1": 99.7,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Let's see. You couldn't find the Black Key on Quarton, and you only found postcards in Europe. So we know two places where the Black Key isn't. I wouldn't call that nothing. Next to nothing, but not nothing.",
+   "t0": 100.24,
+   "t1": 112.54,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "Thanks for your support.",
+   "t0": 113.12,
+   "t1": 114.3,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Cheer up! I'm sure you'll find it before the next Ice Age sets in.",
+   "t0": 114.9,
+   "t1": 118.48,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "I'm getting close. I know it.",
+   "t0": 118.74,
+   "t1": 121.26,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "What's the big deal, anyway? We don't need to have the Black Key to beat him. Listen, Ken. I'm getting tired of sitting around watching you hydrate. I think I'll do some snooping around on my own, if you don't mind.",
+   "t0": 121.54,
+   "t1": 137.71,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "Go on. Knock yourself out. But one thing. What thing? Don't make the same mistake I did by underestimating him. You'll be sorry, Beni.",
+   "t0": 138.17,
+   "t1": 150.53,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Thanks for the tip, but I don't intend to repeat your mistakes.",
+   "t0": 151.05,
+   "t1": 155.01,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Hey, Guren Nash. Let's see what makes you tick. I don't get it. He's just a typical boy. There's nothing special about him at all. On this planet,",
+   "t0": 168.73,
+   "t1": 182.05,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "at least.",
+   "t0": 182.17,
+   "t1": 182.57,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "On Quarton. Okay, yeah, he's got some skills. Of all the Tenkai Knights, you'd have to give him the edge. But I mean, come on. Gen's still more than a match for him. With all his fancy moves, he's just some dude with an energy sword. I know I could take him. So why is",
+   "t0": 183.19,
+   "t1": 202.67,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Gen so focused on this",
+   "t0": 202.67,
+   "t1": 204.11,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "guy? He doesn't seem so special. Maybe I'm missing something. Maybe behind that fresh-faced exterior, lies some kind of awesome hidden power. Or something. Or nothing.",
+   "t0": 204.11,
+   "t1": 218.05,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Oh,",
+   "t0": 218.43,
+   "t1": 219.03,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "well. I've done my research. Now it's time to turn on the Charmin' Person. He doesn't stand a chance.",
+   "t0": 222.16,
+   "t1": 235.56,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "More training? More training? Aw, man. I was hoping to nail the",
+   "t0": 242.25,
+   "t1": 245.85,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "zombie level of Dunesploder 3 today. Well, you're out of luck. We all meet at Mr. White's in an hour. It's tough fitting in everything we've got to do, you know? Homework, training, and Quarton. It's like working three jobs and not getting paid for any of them. What? Do you think you should get paid? It's not a job. We're saving the universe, not flipping burgers, buddy. Says the guy who treats everything like a video game.",
+   "t0": 245.85,
+   "t1": 270.73,
+   "scene": "earth"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "Hmph. Some of us take it seriously. I'll meet you guys there, and do not be late. Where are you going? I'm so close to beating this zombie level.",
+   "t0": 271.35,
+   "t1": 281.83,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "After that whole speech?",
+   "t0": 283.33,
+   "t1": 285.01,
+   "scene": "earth"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "Well, we've got an hour before we",
+   "t0": 286.25,
+   "t1": 287.93,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "meet up, so I'm gonna go work on my jump shot.",
+   "t0": 287.93,
+   "t1": 290.01,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Right. I'm gonna try to squeeze in some homework. Okay, Ceylan. We'll meet at the shop, and try not to be late. We'll have to dock your pay.",
+   "t0": 290.35,
+   "t1": 297.49,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Yeah, right. You couldn't afford me. Dude. It's not funny. Oh, you can dish it out, but you can't take it. What is this? Jump on Ceylan Day? Mm",
+   "t0": 297.91,
+   "t1": 306.37,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "-hmm. Target in sight.",
+   "t0": 306.37,
+   "t1": 308.83,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Gotcha! Yeah! Hey, uh, you all right?",
+   "t0": 322.45,
+   "t1": 327.11,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Sorry. I'm",
+   "t0": 334.6,
+   "t1": 335.8,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "a little klutzy. Don't worry about it. I think that's your problem. My",
+   "t0": 335.8,
+   "t1": 340.74,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "shoe! It's broken! It's missing! I",
+   "t0": 342.02,
+   "t1": 347.71,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "know. Huh? I got just the thing. Wait here. Don't move, okay?",
+   "t0": 347.71,
+   "t1": 351.51,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Okay.",
+   "t0": 351.81,
+   "t1": 352.25,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "My house is a few blocks up the street. Hang tight. I'll be back in five.",
+   "t0": 352.63,
+   "t1": 356.07,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Wait!",
+   "t0": 356.81,
+   "t1": 357.25,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "He's clueless. No boy's ever survived as a species. See? One size",
+   "t0": 361.58,
+   "t1": 370.64,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "almost fits all. How",
+   "t0": 370.64,
+   "t1": 372.0,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "can I ever thank you... for the shoes... and for catching me... twice? Gravity. It can be tricky. Nah, you saved me for sure. That would have been one wicked wipeout if you hadn't been there.",
+   "t0": 372.0,
+   "t1": 384.64,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Don't sweat it. After all, you know what they say. Timing is everything.",
+   "t0": 385.36,
+   "t1": 389.08,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Exactly. It's almost like it was... like it was fate. Haha.",
+   "t0": 389.52,
+   "t1": 395.92,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Well, I don't know. Hm. Anyway, you probably gotta get going. You've got a piano lesson, remember? You don't want to keep Beethoven waiting.",
+   "t0": 399.05,
+   "t1": 408.15,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Hm. Actually, I've still got a little time. If only there was a mall nearby. Oh, look! There's one! Let's go shoe shopping!",
+   "t0": 408.39,
+   "t1": 418.03,
+   "scene": "earth"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "If I'd known we'd be sitting around waiting, I would have just stayed and solved the zombie maze. This",
+   "t0": 419.21,
+   "t1": 425.67,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "is weird. It's not like Guren to be late. You think something happened to him? I just wanted noted that I was the first one to arrive. Not to worry. Unexpected delays can happen, even to someone like Guren. That's what makes them unexpected.",
+   "t0": 425.67,
+   "t1": 439.49,
+   "scene": "earth"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "Yeah, great. But meanwhile, I could have been a zombie paladin by now. C'mon, seriously guys, am I the only one that's worried? Guren has never been late.",
+   "t0": 440.25,
+   "t1": 449.73,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "All I know is that I was on time.",
+   "t0": 449.95,
+   "t1": 452.29,
+   "scene": "earth"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "Perhaps",
+   "t0": 452.65,
+   "t1": 453.15,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "he was delayed by someone.",
+   "t0": 453.15,
+   "t1": 454.35,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Like who?",
+   "t0": 454.65,
+   "t1": 455.01,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "A very old friend. Or a charming new one. It's just a thought. I have them sometimes. Man, are all girls this serious about shoes? It's like an all-you-can-wear buffet. Should",
+   "t0": 455.27,
+   "t1": 467.89,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "I go with the blue heels or red flats?",
+   "t0": 467.89,
+   "t1": 470.01,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "I",
+   "t0": 470.27,
+   "t1": 470.55,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "can't decide. Which would you choose? Uh,",
+   "t0": 470.55,
+   "t1": 472.77,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "the red ones? She sure talks a lot. Half the time I don't know what she's saying. But she's funny. The tall one over there is Benham Tower. That's where my dad works.",
+   "t0": 473.05,
+   "t1": 487.88,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Really? Typical boy. A total pushover. Don't know why Gen thinks he's such a threat. But then, Gen's a boy too. So,",
+   "t0": 488.2,
+   "t1": 498.58,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Beni.",
+   "t0": 498.62,
+   "t1": 498.82,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Yes, Guren? The shoes. You",
+   "t0": 499.12,
+   "t1": 501.76,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "should get",
+   "t0": 501.76,
+   "t1": 502.06,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "them fixed. Oh, they're broken. I don't think they can be fixed. Alas. Their time has come. Don't throw them away. Why not? I mean, it would probably cost more than they're worth to get them repaired. So, Guren. Yeah? Can I see you again? Yeah. Mm-hmm. Why not? So, I'll meet you right here. Tomorrow after school. Sure. Okay.",
+   "t0": 502.06,
+   "t1": 529.96,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "See",
+   "t0": 529.96,
+   "t1": 530.64,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Beni",
+   "text": "you then. Ciao for now. Yeah. Can't wait.",
+   "t0": 530.64,
+   "t1": 533.88,
+   "scene": "earth"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Wow. She's some girl. Too bad about the shoes. It's a shame to just throw them away. What's Ceylan want? Yeah. I forgot. I'm late. I'm really, really sorry, guys. You're late. Sorry. Won't happen again.",
+   "t0": 535.12,
+   "t1": 556.13,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Thank the guardians you're here, Knights. We lost a scouting party in this quadrant. Unconfirmed reports are saying the damage",
+   "t0": 558.78,
+   "t1": 565.12,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "was done by a single enemy unit. Why are you so worried about one guy? What's up? Can he be? Oh. I think we're about to find out. Scouter!",
+   "t0": 565.12,
+   "t1": 574.68,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Whoa. What happened? When did this become a night game? A smoke screen. Watch out. Stay on your toes. I can't even see my toes. Incoming!",
+   "t0": 575.68,
+   "t1": 588.86,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "And they're gone.",
+   "t0": 590.64,
+   "t1": 591.9,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Ha! The enemy overshot us. If I had any idea what was going on, I'd be worried. Ravenwolf? Is that you? They just want me. Tributon? Hey! Who's that? Let go! That's mine! Who is that? Huh? Yuck! Gotta get out of this fog bank! Pull back, everybody! Good call, Bravenwolf. Definitely time to huddle up. Follow my voice! This way, guys! Stop squirming! Stop bouncing me around! No more Lime Parfaits for you! They're so good!",
+   "t0": 592.66,
+   "t1": 627.92,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Running away when we had just gotten started? So much for the legendary Tenkai Knight. I",
+   "t0": 628.14,
+   "t1": 636.92,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "just don't get it. It's weird. Bizarre. Uber bizarre.",
+   "t0": 644.24,
+   "t1": 653.22,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "What is?",
+   "t0": 654.78,
+   "t1": 655.56,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Why are you so totally fixated on Guren? Are you trying to make him your friend? It couldn't be you're scared of him. Cause there's no surprises with this boy. I could take him out without even trying.",
+   "t0": 656.72,
+   "t1": 673.53,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Gen",
+   "text": "You could, could you?",
+   "t0": 676.8,
+   "t1": 678.16,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Mm",
+   "t0": 678.74,
+   "t1": 679.12,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "-hmm. That's... Where",
+   "t0": 679.12,
+   "t1": 683.43,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "is she? Oh, man. I've gotta go soon. Sorry",
+   "t0": 688.68,
+   "t1": 692.6,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "I kept you waiting.",
+   "t0": 697.56,
+   "t1": 698.32,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "It's okay. No big deal.",
+   "t0": 698.74,
+   "t1": 700.6,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "What do you wanna do? We could go shopping for hats. Or whatever you wanna",
+   "t0": 701.0,
+   "t1": 706.02,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "do.",
+   "t0": 706.02,
+   "t1": 706.24,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Well, sure. You said they were your favorites.",
+   "t0": 722.68,
+   "t1": 724.66,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "You really?",
+   "t0": 725.26,
+   "t1": 726.08,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Went",
+   "t0": 726.28,
+   "t1": 726.72,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "to all that trouble for me?",
+   "t0": 726.72,
+   "t1": 728.0,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Sure. I always try to recycle and stuff. You know, to help save the planet.",
+   "t0": 728.58,
+   "t1": 732.72,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Huh. That's funny. Cause there's something I wanted to ask you.",
+   "t0": 734.04,
+   "t1": 738.02,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Huh?",
+   "t0": 738.26,
+   "t1": 738.62,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Are you really sure this planet is worth saving? Uh... Huh? Sorry. No idea where that came from.",
+   "t0": 740.66,
+   "t1": 751.74,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Sounded familiar.",
+   "t0": 753.48,
+   "t1": 754.18,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Huh?",
+   "t0": 754.92,
+   "t1": 755.36,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "This guy I know. It's funny. He asked me the same kind of questions the other day right here in this park. Hey, I'm no genius. I just want the world to be a happier place. That's all. You know?",
+   "t0": 755.6,
+   "t1": 766.32,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "A happier place?",
+   "t0": 767.3,
+   "t1": 768.68,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Yeah. But I've really gotta go. Sorry. No, wait! Okay. Thanks. For the shoes. It was nothing. See",
+   "t0": 769.44,
+   "t1": 782.93,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "you soon. Sooner than you think.",
+   "t0": 782.93,
+   "t1": 787.67,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Did you say... Where'd she go?",
+   "t0": 790.57,
+   "t1": 793.79,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Like Guren said, we spread out and advance in a wide formation. I get it! That way we're not all stuck in the same cloud of smoke tripping over Toxsa when he falls down again! Something like that. And Phelon might even know where he's going! The point is to get through the smoke screen. But that's just phase one. Once we're in the clear, we'll still have to face this unknown enemy. Whatever it is. Phase two! We go Titan mode! You know it! Uh... Oh, yeah. Guren,",
+   "t0": 796.67,
+   "t1": 827.99,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "it's your plan. You bored with it? Sorry. I was just, uh... Double checking if my plan would work. Now!",
+   "t0": 828.05,
+   "t1": 836.33,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Let's do it! Try",
+   "t0": 836.79,
+   "t1": 839.49,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "a jury!",
+   "t0": 870.15,
+   "t1": 870.55,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "No smoke screen! How do you do that pretty diagram? Guys! Heads up! Smoke screen or not, it's definitely the same goon as last time.",
+   "t0": 903.45,
+   "t1": 914.49,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Pink",
+   "t0": 917.24,
+   "t1": 917.8,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "armor? Are you kidding? I'm not laughing. Stick to the plan, guys! Spread out! Let's move!",
+   "t0": 917.8,
+   "t1": 923.54,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Ooh. They actually have a plan this time. Watch",
+   "t0": 925.65,
+   "t1": 929.59,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "out! She's on the move! She! What makes you so sure it's a she? Did we just pull over this? Hello! Pink armor! Some kind of spider web. So that explains what we got tangled up in last time. He or she, this dude chick is fast! Okay! Time to go to phase two! Bravenwolf! Tenkai Titan!",
+   "t0": 929.59,
+   "t1": 962.68,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "It's the Tenkai Titan time! Damn, this phase two is my favorite phase. Tributon! Tenkai Titan mode! Activate! The",
+   "t0": 979.47,
+   "t1": 990.97,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Tenkai! It's our turn! Valorn! Tenkai Titan mode! Activate! Bigger's",
+   "t0": 1000.57,
+   "t1": 1009.92,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "supposed to make you better. Tell that to the dinosaurs! Cause you're about to be history too!",
+   "t0": 1034.36,
+   "t1": 1040.06,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Oh! Definitely female!",
+   "t0": 1040.72,
+   "t1": 1045.34,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Either that or a guy whose armor's too tight!",
+   "t0": 1046.7,
+   "t1": 1049.64,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Ah! Yeah!",
+   "t0": 1050.1,
+   "t1": 1050.98,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Hey! Get out of my face!",
+   "t0": 1055.03,
+   "t1": 1059.68,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Yeah! Yeah! Yes!",
+   "t0": 1065.62,
+   "t1": 1067.12,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Oh! Heads up! What's",
+   "t0": 1073.17,
+   "t1": 1077.15,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "wrong with Taiko? It's a long way to fall.",
+   "t0": 1084.19,
+   "t1": 1088.87,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "My name's Venetta, but you won't have to remember it. You won't even remember your own name when I'm done with you.",
+   "t0": 1090.69,
+   "t1": 1097.97,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "That voice",
+   "t0": 1098.63,
+   "t1": 1099.59,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "is so familiar. Any last words? Hey! Back",
+   "t0": 1099.59,
+   "t1": 1103.77,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "off, Pinkie! Watch who you're calling small",
+   "t0": 1103.77,
+   "t1": 1112.11,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "fry! I told you! Get out of here! See? Told you it was fast.",
+   "t0": 1112.11,
+   "t1": 1118.21,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "It's all gooey! Okay! You can pinch! I'll kick you, cat!",
+   "t0": 1121.37,
+   "t1": 1125.55,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Die, you little cat!",
+   "t0": 1131.6,
+   "t1": 1132.74,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Behold the legendary heroes. Heroes is more like it.",
+   "t0": 1133.6,
+   "t1": 1138.0,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "If we're ever gonna beat this guy... I mean, girl, whatever. We're gonna have to seriously up our game.",
+   "t0": 1138.08,
+   "t1": 1144.08,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "We're getting our bots handed to us on a silver platter and she's not even in tight mode! So which will it be?",
+   "t0": 1144.18,
+   "t1": 1149.84,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Surrender or more humiliation?",
+   "t0": 1150.34,
+   "t1": 1152.16,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "How about none",
+   "t0": 1153.52,
+   "t1": 1154.76,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "of the above?",
+   "t0": 1154.76,
+   "t1": 1155.38,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Now,",
+   "t0": 1160.99,
+   "t1": 1161.51,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "bring it on! Spoken like a typical boy. But that's what you are. Just an ordinary boy. I'll never understand why Dromus didn't finish you off ages ago.",
+   "t0": 1161.51,
+   "t1": 1172.77,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Dromus?",
+   "t0": 1174.51,
+   "t1": 1174.99,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Well, I'll do what he couldn't.",
+   "t0": 1175.65,
+   "t1": 1177.63,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "UNKNOWN(SPEAKER_00)",
+   "text": "That doesn't look good. Get",
+   "t0": 1180.25,
+   "t1": 1182.07,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "out of there! I",
+   "t0": 1182.07,
+   "t1": 1183.25,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "knew it wouldn't take much to beat him. I don't believe it.",
+   "t0": 1193.23,
+   "t1": 1197.65,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Did you see that? He leveled down from tight mode. So a shot went too high. I saw it. Did he even see me next to you?",
+   "t0": 1202.09,
+   "t1": 1208.19,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "I've got some news for you and your friend, Dromus.",
+   "t0": 1209.01,
+   "t1": 1211.95,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "I put",
+   "t0": 1212.89,
+   "t1": 1213.59,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "all my dark energy into that attack. It's true. I may not win every battle I fight, but that doesn't mean I'm beaten. You'll never beat me! Well,",
+   "t0": 1213.59,
+   "t1": 1224.53,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "luckily for you, I need a recharge. So we'll have to wait till next time to test that theory, Bravenwolf.",
+   "t0": 1224.53,
+   "t1": 1230.95,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Guren",
+   "text": "Can't say I'm sorry. In fact, let's face it. We lucked out.",
+   "t0": 1236.15,
+   "t1": 1243.67,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Gen",
+   "text": "So tell me, what happened? I thought you could beat Guren without even trying.",
+   "t0": 1256.8,
+   "t1": 1261.36,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "I was just toying with him. Not trying to beat him. I didn't want the fun to be over that quickly.",
+   "t0": 1262.84,
+   "t1": 1268.3,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Gen",
+   "text": "Sure you didn't.",
+   "t0": 1268.9,
+   "t1": 1270.2,
+   "scene": "quarton-battle"
+  },
+  {
+   "speaker": "Beni",
+   "text": "Guren, maybe you're not so ordinary. That",
+   "t0": 1272.09,
+   "t1": 1277.52,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "was a little too close, Max.",
+   "t0": 1281.62,
+   "t1": 1283.1,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Beni",
+   "text": "I've",
+   "t0": 1283.58,
+   "t1": 1284.14,
+   "scene": "quarton"
+  },
+  {
+   "speaker": "Guren",
+   "text": "got a hunch. Our job just got a lot harder.",
+   "t0": 1286.32,
+   "t1": 1289.48,
+   "scene": "quarton"
+  }
+ ]
+}

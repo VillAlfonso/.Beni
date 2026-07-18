@@ -31,21 +31,21 @@
 [earth] Guren: hair who probably wants me to show him around. I'm Ceylan Jones. Guren. Hey, dude. Dude to you. So, anyway, downtown's kinda cool. Wanna check it out? Sure. I just gotta be home in time for dinner with my dad. This is the new Benham City Mall. I mean, it's only a mall, but you should see the food court. Hey,
 [earth] Guren: did you see that? What? See what? Hey, where are you going? If you're looking for the bathroom, it's the other way! Why are we running?
 [earth] Guren: It went in that shop. In that shop? No one has ever gone in that shop. Well, we gotta go check it out. I'm not going in that shop. Come on. Where's your sense of adventure? I left it in my other pants. Is anyone here? Anybody ever? Look at all this vintage stuff. By vintage stuff, I assume you mean junk. Hey, look at those classics. Yeah, classic junk. Man, I can't believe all the cool stuff in this place. Yeah, some of this classic junk could be worth a fortune.
-[earth] Guren: Fascinating, aren't they? Sorry to frighten you. I do that all the time. I have no idea why. Let me try again. Greetings, Mr. White, at your service.
+[earth] Unknown: Fascinating, aren't they? Sorry to frighten you. I do that all the time. I have no idea why. Let me try again. Greetings, Mr. White, at your service.
 [earth] Guren: We didn't touch anything. We were just looking around, that's all. Sorry. Not
-[earth] Guren: to worry. Those with inquisitive minds and adventurous spirits are welcome in my shop of wonders.
+[earth] Unknown: to worry. Those with inquisitive minds and adventurous spirits are welcome in my shop of wonders.
 [earth] Guren: Some of this stuff must be worth a lot, huh?
-[earth] Guren: There are many different ways of estimating value, but I suspect one might find some things in here that are beyond any price. What are those? Could I take a look at that one there? The white one? Yes, go right ahead. Perhaps your instincts have led you to something priceless already. What
+[earth] Unknown: There are many different ways of estimating value, but I suspect one might find some things in here that are beyond any price. What are those? Could I take a look at that one there? The white one? Yes, go right ahead. Perhaps your instincts have led you to something priceless already. What
 [earth] Guren: are they,
-[earth] Guren: anyway? What they are is something of a mystery, isn't it?
+[earth] Unknown: anyway? What they are is something of a mystery, isn't it?
 [earth] Guren: Not
-[earth] Guren: at all. Quite the contrary.
+[earth] Unknown: at all. Quite the contrary.
 [earth] Guren: Dude, how'd you make a robot?
-[earth] Guren: How, indeed. I commend your accomplishments, young sir. You have a gift. Yeah? Well... Now
-[earth] Guren: then, speaking of gifts, would you boys like one? Yeah. Then keep them. Consider them a reward for being the first customers I've had in months.
+[earth] Unknown: How, indeed. I commend your accomplishments, young sir. You have a gift. Yeah? Well... Now
+[earth] Unknown: then, speaking of gifts, would you boys like one? Yeah. Then keep them. Consider them a reward for being the first customers I've had in months.
 [earth] Guren: Yeah?
 [earth] Guren: So we can keep them? Thanks a lot.
-[earth] Guren: You're welcome, Ceylan. And you too, Guren. I expect we'll all be meeting again soon enough. Mm-hmm.
+[earth] Unknown: You're welcome, Ceylan. And you too, Guren. I expect we'll all be meeting again soon enough. Mm-hmm.
 [earth] Guren: That was strange. Yeah. The place is kind
 [earth] Guren: of creepy, and the old guy smells like soup, but still, it was nice of him to give us these things.
 [earth] Guren: No, I meant, how'd he know our names? I know. Freaky.

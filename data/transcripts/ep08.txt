@@ -2,7 +2,7 @@
 [quarton-battle] Guren: he's gonna win again.
 [quarton-battle] Guren: So what else is new? He's off. It's not his fault he's amazing. Chooki's just one of those guys who's better at things. He rocks every single sport. He plays like a pro. The teachers come to him for help with schoolwork. He's one student of the month more times than you crack bad jokes. He's a good guy. He's even better at goofing off than most people. Except for Toxsa, he's not bad. On top of all that, everybody really seems to like him. I heard he even volunteers at a local pet hospital. In fact, I can't think of a single knock against him. Maybe he's some kind of robot.
 [quarton-battle] Guren: Okay, that just sounds funny.
-[quarton-battle] Guren: No, he's not. We've been playing Dungeon Exploders 9. I'm a head five missions to four. My hero.
+[quarton-battle] Unknown: No, he's not. We've been playing Dungeon Exploders 9. I'm a head five missions to four. My hero.
 [quarton-battle] Guren: Look, he even runs in slow motion better than everyone. I
 [quarton-battle] Vilius: wasn't expecting a second Tenkai Knight to achieve Titan mode, but next time I'll be ready, sir.
 [quarton-battle] Vilius: There may not be a next time for you, Slyver, after your last failure.
@@ -17,9 +17,9 @@
 [quarton-battle] Guren: for that. Maybe next life.
 [quarton-battle] Guren: It's not like I'm bragging. I also practice a lot. Every day I try to get better. Maybe that helps, too.
 [quarton-battle] Guren: Hey, guys, you think there's anything anywhere that he's not, like,
-[quarton] Guren: brilliant at? Disarming a level nine goblin? Great,
+[quarton] Unknown: brilliant at? Disarming a level nine goblin? Great,
 [quarton] Guren: so
-[quarton] Guren: the one
+[quarton] Unknown: the one
 [quarton] Guren: thing he's no good at is nine levels above
 [quarton] Guren: me! Guys, we're being summoned! Let's move. Come on! It
 [quarton] Guren: can only mean one thing. Trouble on Quarton. The
@@ -29,28 +29,28 @@
 [quarton] Vilius: Bold words.
 [quarton] Guren: And the power to back them up.
 [quarton] Vilius: Well, I don't mean to get on a high horse. Or maybe I do. War-style attack! Looks
-[quarton] Guren: like the cavalry's arrived. And not for good sense. I went to ranch camp once. Hated it. These horses are fast.
+[quarton] Unknown: like the cavalry's arrived. And not for good sense. I went to ranch camp once. Hated it. These horses are fast.
 [quarton] Guren: We're surrounded. Yeah, it's
-[quarton] Guren: like a round-up.
+[quarton] Unknown: like a round-up.
 [quarton] Guren: In
-[quarton] Guren: reverse. You mean a round-down? What's our move? Whoa!
+[quarton] Unknown: reverse. You mean a round-down? What's our move? Whoa!
 [quarton] Guren: Can anyone bring a lasso? Okay, enough of this!
 [quarton] Vilius: Now, who will be the first to be jinxed?
-[quarton] Guren: Oh, no. We're back on spin cycle. What are they up to? Whatever. I want off
+[quarton] Unknown: Oh, no. We're back on spin cycle. What are they up to? Whatever. I want off
 [quarton] Guren: this merry-go-round.
-[quarton] Guren: I second that. Hang on, guys. I think they're about to...
+[quarton] Unknown: I second that. Hang on, guys. I think they're about to...
 [quarton] Guren: Shields up!
-[quarton] Guren: Great. Now my head's on spin cycle. Uh, howdy. Why, I pity the poor guy who has to clean your stable. Just
+[quarton] Unknown: Great. Now my head's on spin cycle. Uh, howdy. Why, I pity the poor guy who has to clean your stable. Just
 [quarton] Guren: kidding! Oh, no! Mother! I'm
-[quarton] Guren: there, Valor!
+[quarton] Unknown: there, Valor!
 [quarton] Guren: You
-[quarton] Guren: scored ten extra lives for that move. Lydendor, you okay? That's
+[quarton] Unknown: scored ten extra lives for that move. Lydendor, you okay? That's
 [quarton] Vilius: one. Why not jinx them all while we're at it? Tenkai
 [quarton] Guren: Energy levels flatlining. We gotta get him back to Earth. Right. Valorn,
 [quarton] Guren: let's go! You're
 [quarton-battle] Vilius: not going anywhere.
 [quarton-battle] Guren: Tributon! Got it. One, two,
-[quarton-battle] Guren: three! Okay, we're out of here. Can you carry him, Valorn? Hey, I'm the muscle on this team, remember? At least on this planet.
+[quarton-battle] Unknown: three! Okay, we're out of here. Can you carry him, Valorn? Hey, I'm the muscle on this team, remember? At least on this planet.
 [quarton-battle] Vilius: No matter. All it takes is one. The other knights may have escaped the jinx cannon, but they can't escape the effects it will have.
 [quarton-battle] Guren: Where
 [quarton-battle] Guren: am I? Wait, is this Mr. White's shop? What gave it away? The old soup smell. What happened? Oh, man. The last thing I remember is jumping in front of that cannon. Yeah, you might want to go easy on that
@@ -66,10 +66,10 @@
 [earth] Guren: Careful, careful. Oh, no, not my aboriginal totem.
 [earth] Guren: Well, are you finished?
 [earth] Guren: Yeah, sorry. That was weird. So when are you guys going to start serving lime parfait at the diner?
-[quarton] Guren: Never.
+[quarton] Unknown: Never.
 [quarton] Guren: Ugh.
 [quarton] Guren: Ugh.
-[quarton-battle] Guren: What's
+[quarton-battle] Unknown: What's
 [quarton-battle] Guren: up? You got it, dude. Oh, you got it.
 [quarton-battle] Guren: Wait a minute. The cannon. What did Granox say about it?
 [quarton-battle] Vilius: Now, who will be the first to be jinxed? What's a jinx?
@@ -77,10 +77,10 @@
 [quarton-battle] Guren: God, be kidding. No, it makes sense. I think Granox's warhorses hit you with some kind of Tenkai jinx. I mean, look at what's happened ever since you got tagged by that cannon.
 [quarton-battle] Guren: Yeah, you're so clumsy and accident prone, you're even making me look good. Your mojo's seriously out of whack. In case you hadn't noticed. It's just a mental thing. Like a hit or slump. Frankly, dude, I'd go with the jinx over a mental thing if I were you. Just saying. Until we're sure one way or the
 [quarton-battle] Guren: other. You should just lay low and not take any risks, Chooki. Come on, get real. It's a slump. I'll work through it. What?
-[quarton] Guren: You all right? Cool. That's never happened before. Here. I
+[quarton] Unknown: You all right? Cool. That's never happened before. Here. I
 [quarton] Guren: suppose that cup's just having a slump too, huh? I'm okay, thanks. Sorry
 [quarton] Guren: about the mess.
-[quarton] Guren: Seriously? That's never happened either. Dude is jinxed, no doubt about it.
+[quarton] Unknown: Seriously? That's never happened either. Dude is jinxed, no doubt about it.
 [quarton] Guren: Maybe one of us should come with you. I'm
 [quarton] Guren: fine. Besides, whatever this is, a slump or a jinx, the key is to not let it beat you and just power through it. Are you sure?
 [quarton] Guren: Excuse me. Sorry, ma'am. That was your cat.
@@ -88,11 +88,11 @@
 [quarton] Vilius: Granox allowed the knights to escape, but I don't see you getting mad at him. Fool! They may have gotten away, but not before one of them was jinxed. Right, jinxed. Well, if you believe in magic spells, then yes, perhaps. I believe in anything that prevents another tenkai knight from achieving titan mode. The jinxed canon has weakened Lydendor, undermined his ability to use his powers, and if one of the knights is weakened, all four are weakened, correct? Well,
 [quarton] Guren: yes, I suppose.
 [quarton] Vilius: In theory. It's more than a theory. It's an actual plan! Which is more than you've ever managed to come up with, you incompetent bungler! Do
-[quarton] Guren: you mind if I borrow it? No, I don't mind at all. It's really cool. It has, like, different colors.
+[quarton] Unknown: you mind if I borrow it? No, I don't mind at all. It's really cool. It has, like, different colors.
 [quarton] Guren: Hey, look, it's Chooki. And he's not fallen down. Poor guy. He's not used to being a klutz. Oh, how the mighty have fallen. And gotten up, and fallen again.
-[quarton] Guren: Nobody's saying it, but this is all my fault. I'M THERE FOR WARN! It was like taking on a tomb-level goblin miner without even a healing spell. And
+[quarton] Unknown: Nobody's saying it, but this is all my fault. I'M THERE FOR WARN! It was like taking on a tomb-level goblin miner without even a healing spell. And
 [quarton] Guren: he did it for me.
-[quarton] Guren: I've gotta fix this.
+[quarton] Unknown: I've gotta fix this.
 [quarton] Guren: Toxsa, wait! I don't blame him. He's not the only one a little freaked out about Chooki. If he doesn't get his mojo back soon...
 [quarton] Guren: Yeah, we're all in big trouble. The first thing is to recognize the problem.
 [quarton] Guren: You
@@ -107,7 +107,7 @@
 [earth] Guren: you get the idea. Dude, maybe you oughta move into one of those bouncy houses. Look, all we've gotta do is break the jinx. Well, duh, Mr. Obvious, but how? The answer's on Quarton. Yeah,
 [quarton] Guren: but if you go back, you'll have to go without me. I gotta bench myself. I'm no good for the team.
 [quarton] Guren: Toxsa, it's about time. Where you been?
-[quarton] Guren: What's this? Good luck, Charm. It's an old family heirloom. Very valuable. Not exactly cutting edge technology, but it might counteract the jinx. Yeah, or maybe even summon
+[quarton] Unknown: What's this? Good luck, Charm. It's an old family heirloom. Very valuable. Not exactly cutting edge technology, but it might counteract the jinx. Yeah, or maybe even summon
 [quarton] Guren: a leprechaun.
 [quarton] Guren: Well, it couldn't hurt.
 [quarton] Guren: Okay, so Toxsa, Ceylan, come with me! We're gonna knock Granox's core block off,
@@ -153,9 +153,9 @@
 [quarton-battle] Guren: Sorry, buckethead. Impossible's not an option in my playbook. Your little jinx ray is no match for my secret weapon! Tox is totally off a good luck charm! Hmm?
 [quarton-battle] Vilius: War stallions destroy! Another
 [quarton-battle] Guren: secret weapon! Tenkai titan shield blade attack! Uh-oh. Maybe we spoke too soon. Ah, you're still jinxed. Nah, I meant to do that. You did not! Yeah, that was just to set up my next move. This one! Come
-[quarton-battle] Guren: here, you! How about that? That good luck charm actually works! Who knew?
+[quarton-battle] Unknown: here, you! How about that? That good luck charm actually works! Who knew?
 [quarton-battle] Guren: Fooled
-[quarton-battle] Guren: ya!
+[quarton-battle] Unknown: ya!
 [quarton-battle] Guren: I meant to do that, too! Either that, or not. I can't watch. Yup, just how I planned it. Time for some bongo busting!
 [quarton-battle] Guren: Tippi
 [quarton] Guren: -ki-yay, buckethead.

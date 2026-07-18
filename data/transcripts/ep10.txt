@@ -1,101 +1,101 @@
 [quarton-battle] Vilius: Come on, you cowards! Attack! Attack! Okay,
 [quarton-battle] Guren: Corekai, keep up the pressure! Knights, it's Tenkai Titan bot-kicking time! Right, I'm down with that! Hey, what am I, yesterday's software? Valorn, wait!
-[quarton-battle] Guren: Titan mode, big deal!
+[quarton-battle] Unknown: Titan mode, big deal!
 [quarton-battle] Guren: Make way! Coming through!
-[quarton-battle] Guren: Pink is so
+[quarton-battle] Unknown: Pink is so
 [quarton-battle] Guren: special, I'm so
-[quarton-battle] Guren: fancy!
+[quarton-battle] Unknown: fancy!
 [quarton-battle] Guren: Just leave this to the Titans! Thanks, but no thanks! I'm fine! Okay, Tenkai Titan sword! Just
 [quarton-battle] Vilius: stand here, you fools! Retreat! Retreat! But the next time we meet Knights, you won't be so lucky!
 [quarton-battle] Unknown: Another battle won! And once again, we have the Tenkai Knights to thank! With them at our side, our ultimate victory is assured! Especially now that they can all achieve Titan mode! Well, almost all.
-[quarton-battle] Guren: This is bogus! How come I still haven't gotten the upgrade? Titan mode! Once
+[quarton-battle] Unknown: This is bogus! How come I still haven't gotten the upgrade? Titan mode! Once
 [quarton-battle] Guren: we took that fort, we searched it from top to bottom. But we couldn't find the last Dragon Cube.
 [quarton-battle] Vilius: You must continue to search every corner of Quarton. Vilius cannot be taken lightly.
 [quarton-battle] Guren: Yes, as in all things, sometimes the journey is more important than the prize.
-[quarton-battle] Guren: Yeah, sure thing, maybe for some of us.
+[quarton-battle] Unknown: Yeah, sure thing, maybe for some of us.
 [quarton-battle] Guren: Hey, what does that mean?
-[quarton] Guren: Nothing, forget it.
+[quarton] Unknown: Nothing, forget it.
 [quarton] Guren: So what is it, Toxsa? Something on your mind? Okay, be that way. Catch you later. Hey,
-[quarton] Guren: Chooki!
+[quarton] Unknown: Chooki!
 [quarton] Guren: What
-[quarton] Guren: is it? Why can you level up to Tenkai Titan mode and I can't? Uh, just lucky, I guess. I feel like I'm the one holding the team back.
+[quarton] Unknown: is it? Why can you level up to Tenkai Titan mode and I can't? Uh, just lucky, I guess. I feel like I'm the one holding the team back.
 [quarton] Guren: I
-[quarton] Guren: knew a
+[quarton] Unknown: knew a
 [quarton] Guren: guy once who could never hit a wicked curveball.
-[quarton] Guren: Yeah, what did he do? Oh, uh,
+[quarton] Unknown: Yeah, what did he do? Oh, uh,
 [quarton] Guren: he quit the team. Huh?
-[quarton] Guren: Oh.
+[quarton] Unknown: Oh.
 [quarton] Guren: Toxsa, quit bugging me!
-[quarton] Guren: Go
+[quarton] Unknown: Go
 [quarton] Guren: mope somewhere else. Mm
-[quarton] Guren: -hmm. What does it mean when everyone on your team can do something you can't do?
+[quarton] Unknown: -hmm. What does it mean when everyone on your team can do something you can't do?
 [quarton] Guren: It means you need more training. Nah,
-[quarton] Guren: I've trained as much as the others. Besides, I'm more about strategy. It's about brains, not brawn. I'm like a mage, not some trog-level grunt. Somebody needs to earn strength.
+[quarton] Unknown: I've trained as much as the others. Besides, I'm more about strategy. It's about brains, not brawn. I'm like a mage, not some trog-level grunt. Somebody needs to earn strength.
 [quarton] Guren: Maybe with some training you could do this.
-[quarton] Guren: Oh, not the stinky toe grip of doom.
-[quarton] Guren: Thanks a lot. So
+[quarton] Unknown: Oh, not the stinky toe grip of doom.
+[quarton] Unknown: Thanks a lot. So
 [quarton] Vilius: you're the one who can't achieve Titan mode? And you call yourself a Tenkai Knight? I'll squish you like a puny little bug!
 [quarton] Guren: No, wait!
 [quarton] Vilius: You thought training was beneath you, eh? But,
 [quarton] Guren: but I'm the strategist! The mage!
-[quarton] Guren: Alrighty then. Man, even I can interpret that symbolism. Fine then. Captain's
+[quarton] Unknown: Alrighty then. Man, even I can interpret that symbolism. Fine then. Captain's
 [quarton] Guren: law.
-[quarton] Guren: Training. Tenkai Knight. Tenkai Knight's gotta do what a Tenkai Knight's gotta do. I'll earn that upgrade by training in secret. Then I'll show him. I knew it. There's definitely less air this early in the morning.
+[quarton] Unknown: Training. Tenkai Knight. Tenkai Knight's gotta do what a Tenkai Knight's gotta do. I'll earn that upgrade by training in secret. Then I'll show him. I knew it. There's definitely less air this early in the morning.
 [quarton] Guren: Uh-oh. Hey, Toxsa? Oh, hey dude. I don't believe it. Are you actually jogging?
-[quarton] Guren: Uh, um, no! I'm just kind
+[quarton] Unknown: Uh, um, no! I'm just kind
 [quarton] Guren: of in a hurry.
-[earth] Guren: Nah. Just running to the store to pick up a few things. But thanks anyway. K, bye now.
+[earth] Unknown: Nah. Just running to the store to pick up a few things. But thanks anyway. K, bye now.
 [earth] Guren: No prob. You want me to come along?
-[earth] Guren: Wish you could. It's a... secret. What is? Zit cream. My sister doesn't want people to know she uses the stuff. That's it.
+[earth] Unknown: Wish you could. It's a... secret. What is? Zit cream. My sister doesn't want people to know she uses the stuff. That's it.
 [earth] Guren: Zit cream? Really? That's weird. I never noticed. Oh, she
-[earth] Guren: hasn't had a single zit yet, but she always wants to be prepared. It could happen any minute. Total zit eruption. Gotta go, bye. Yeah, great. But the store's the other way. Okay, that story was pretty lame. But they can't know I'm training like a level one noob. To think people do this.
+[earth] Unknown: hasn't had a single zit yet, but she always wants to be prepared. It could happen any minute. Total zit eruption. Gotta go, bye. Yeah, great. But the store's the other way. Okay, that story was pretty lame. But they can't know I'm training like a level one noob. To think people do this.
 [earth] Guren: Just for fun. It's fun, all right. Toxsa? Playing soccer? Somebody jack your video game console? No, I'm just, uh, checking the field out. From way down there? You gotta be kidding me. My dad and I usually play standing up. No, I'm just checking for
-[quarton-battle] Guren: spiders. My sister's idea. Your sister have a screw loose? That's what I said. Then I found a spider as big as that soccer ball. She's gonna freak. Seriously? Wacka Mae's scared of spiders? Oh, terrified. Total panic attack. I've gotta tell her she'll have to find another field to play on. Okay.
+[quarton-battle] Unknown: spiders. My sister's idea. Your sister have a screw loose? That's what I said. Then I found a spider as big as that soccer ball. She's gonna freak. Seriously? Wacka Mae's scared of spiders? Oh, terrified. Total panic attack. I've gotta tell her she'll have to find another field to play on. Okay.
 [quarton-battle] Guren: Hey, Toxsa. How many's
-[quarton-battle] Guren: that? 1104. Don't you have anywhere else you should be? Just walking the cat.
+[quarton-battle] Unknown: that? 1104. Don't you have anywhere else you should be? Just walking the cat.
 [quarton-battle] Guren: So,
-[quarton-battle] Guren: you're training? Me, training? No, it's my sister. I was just... Just making sure the bar was on tight and everything for her to have. Wacka Mae's here? Where is she? She took off. As soon as she saw you coming, cause, you know, she has really bad gas. You don't wanna get near her. She smells like bologna mixed with Chooki's feet after practice. Wait, what? See ya. Really? If I can't find any privacy on this planet, I'll just have to find another one.
+[quarton-battle] Unknown: you're training? Me, training? No, it's my sister. I was just... Just making sure the bar was on tight and everything for her to have. Wacka Mae's here? Where is she? She took off. As soon as she saw you coming, cause, you know, she has really bad gas. You don't wanna get near her. She smells like bologna mixed with Chooki's feet after practice. Wait, what? See ya. Really? If I can't find any privacy on this planet, I'll just have to find another one.
 [quarton-battle] Vilius: It seems that you're no match for the Tenkai Knights, Granox. Now that they've acquired Titan Mode. A temporary setback. The latest of many. Perhaps you need help. I don't understand. I already have plenty of corrupted robo beasts ready for battle.
 [quarton-battle] Unknown: Not like these. You, Officer
 [quarton-battle] Vilius: Rho. Command me, Vilius. Step forward.
 [quarton-battle] Vilius: You're different. You are now infused with the power of the Dark Scepter. Thank you, sir. Granox, I have just provided you with a powerful weapon. Use it well. I'm grateful beyond words, Vilius. But I still don't see what one more soldier and a- Granox does not yet realize what I am now capable of. But don't worry, sir. He soon will. Good. Find the Corekai's main base and retake the Dragon Cubes. If the Knights interfere, destroy them. Yes, sir.
 [quarton-battle] Guren: Alas, no. I'm fresh out of ichthyosaurus fossils, but I do have a charming Chilean stuffed peacock, if you'd care to see it. Next stop, Quarton. Tenkai!
 [quarton-battle] Guren: Tenkai strength! Four core engaged! Well,
-[quarton] Guren: so much for privacy. Oh, well.
+[quarton] Unknown: so much for privacy. Oh, well.
 [quarton] Unknown: Patrol the perimeter.
-[quarton] Guren: Yes, sir. Beag!
+[quarton] Unknown: Yes, sir. Beag!
 [quarton] Guren: Be
-[quarton] Guren: -beag! Hmm?
+[quarton] Unknown: -beag! Hmm?
 [quarton] Unknown: Valorn? Over
-[quarton] Guren: here. C
+[quarton] Unknown: here. C
 [quarton] Guren: -come
-[quarton] Guren: here, come here.
+[quarton] Unknown: here, come here.
 [quarton] Unknown: It's an honor to be whispered at by you. Command and I shall follow. Is
-[quarton] Guren: there a secluded training ground around here anywhere? Training? Just to review a few things, you know. You want to review my training? No, no, no, not your e-yeah, that's it, exactly.
+[quarton] Unknown: there a secluded training ground around here anywhere? Training? Just to review a few things, you know. You want to review my training? No, no, no, not your e-yeah, that's it, exactly.
 [quarton] Unknown: Of course, I like to think I maintain myself at optimum functionality.
-[quarton] Guren: Oh, sure, but who knows? I might be able to give you a pointer or two.
+[quarton] Unknown: Oh, sure, but who knows? I might be able to give you a pointer or two.
 [quarton] Unknown: I'm not sure what a pointer is, but that you would give me two of them fills me with great joy. Valorn, unworthy as I am, I would be honored to have you review my training. Great. Uh, how do we start? Of course, I always begin my training with the Corekai salute. Right, go for it. Well, was that acceptable? Well, we won't. I mean, I've seen worse. Then, I usually proceed into basic Pike Staff exercises. Sure, like you do. Would you care to take the lead, Valorn? No, no, you start.
 [quarton] Guren: I'll follow along.
 [quarton] Unknown: Rust! Okay. Rust!
 [quarton] Guren: Rust! Rust! Rust! And,
-[quarton] Guren: uh, how many of these do you do? Rust!
+[quarton] Unknown: uh, how many of these do you do? Rust!
 [quarton] Vilius: All right, here I go. Sir, might I suggest we try aerial reconnaissance? What, those three flying junkheaps you brought with you? They couldn't find their own motherboards if you gave them the schematics. I mean, seriously, look at them. You'd be surprised what they can do. Commence robofusion! Flying Darkwing Spect?, completamente clair이� I forbid,
 [quarton] Vilius: If there are any knights around here, we'll
-[quarton] Guren: fight them!
+[quarton] Unknown: fight them!
 [quarton] Guren: I have no idea what any of those words mean! Woo-hoo! Woo-hoo! You know, Bean, we're like, woo-hoo! Woo
-[quarton] Guren: -hoo? I forget it. Titan Mode, here I come! Titan Mode, Valorn? Yeah, keep up the good work, you can make Titan Mode, too. But I'm not a
+[quarton] Unknown: -hoo? I forget it. Titan Mode, here I come! Titan Mode, Valorn? Yeah, keep up the good work, you can make Titan Mode, too. But I'm not a
 [quarton] Unknown: Tenkai
-[quarton] Guren: Knight! Oh, right, no, but if you were, you could, because... The
+[quarton] Unknown: Knight! Oh, right, no, but if you were, you could, because... The
 [quarton] Unknown: Corrupted!
-[quarton] Guren: They found us!
+[quarton] Unknown: They found us!
 [quarton] Unknown: We
-[quarton] Guren: must call for backup! No, I've got this! Still, but he... We should've worked on our target back this
+[quarton] Unknown: must call for backup! No, I've got this! Still, but he... We should've worked on our target back this
 [quarton] Guren: tour! What's he doing? Then
 [quarton] Guren: he gave me this lame-o story about spiders and ran off. Yeah, he did the same to me. Same when I found him training on the chin-up bar. He's acting weird.
 [quarton] Guren: Can I order something, or just take up space as usual? Wakame, do you stockpile zit cream? Are you crazy? What for? I have the skin of a twelve-year-old! Are you deathly afraid of spiders? Not a
-[quarton] Guren: chance. Why?
+[quarton] Unknown: chance. Why?
 [quarton] Guren: Who
-[quarton] Guren: said
+[quarton] Unknown: said
 [quarton] Guren: I was?
 [quarton] Guren: You don't smell like a backed-up sewer to me. Do
 [quarton-battle] Guren: you want to leave this planet? That's what Toxsa said. Oh, little brother, you are so toast. I bet you he really was in training. But why hide it? Probably thought we'd all tease him or something. Tease him? That freak? You know how self-conscious he is about not being able to go into Titan mode. Well, that isn't his fault. You
@@ -104,20 +104,20 @@
 [quarton-battle] Guren: a
 [quarton-battle] Guren: customer? He purchased my Chilean stuffed peacocks. Ah! Fun
 [quarton-battle] Vilius: part! Let's not be too hasty, sir. You heard him. He refuses to talk. So what should I do with you, Valorn? Blast you into orbit, melt you down, break you up into scrap! I'll take D. None
-[quarton] Guren: of the above.
+[quarton] Unknown: of the above.
 [quarton] Vilius: Or we could leave you out in the sun and watch you oxidize. Don't be such a fool. What did you say? Poor choice of words, sorry. But don't forget, our orders are to retake the Dragon Cube. But we don't know where they are, and this hunk of junk Knight won't tell us! Oh, yes he will. If not verbally, then another way. We'll hack directly into his brick core.
-[quarton] Guren: Well, now you know. Hey, you can avoid the warranty!
+[quarton] Unknown: Well, now you know. Hey, you can avoid the warranty!
 [quarton] Vilius: Once we've downloaded the data, you can do whatever you want with him, Granox.
 [quarton] Guren: Speed, anyone, a little help here!
 [quarton] Unknown: They're holding Valorn in that fort. What are your orders, Bravenwolf? Shall we probe their defenses? Let's try distraction, to draw them out. Or
 [quarton] Guren: a quarterback keeper right up the middle. Can't we just blow stuff up? I like to say this tickles, but it doesn't.
 [quarton] Vilius: We're almost there. Almost? You mean you're not done yet? Sometime this millennium would be nice! Be quiet! Okay. If the enemy succeeds in breaching the last firewall, they will be able to download the location of the Dragon Cubes.
-[quarton] Guren: But I don't know where they are!
+[quarton] Unknown: But I don't know where they are!
 [quarton] Vilius: No, but the Universal Tenkai database in your core brick does.
-[quarton] Guren: Well then switch them! Please explain. Redirect the feed so it's coming from me! Let that goon go ahead and download my database and see what good it does him!
+[quarton] Unknown: Well then switch them! Please explain. Redirect the feed so it's coming from me! Let that goon go ahead and download my database and see what good it does him!
 [quarton] Unknown: Understood.
 [quarton] Vilius: Redirecting data feed now.
-[quarton] Guren: Oh boy!
+[quarton] Unknown: Oh boy!
 [quarton] Vilius: What? Cheat codes for DungeonSploder 4? What?
 [quarton] Guren: Tuesday's taco day in the cafeteria? This data is gibberish! Let
 [quarton] Vilius: me try! I
@@ -133,7 +133,7 @@
 [quarton-battle] Vilius: you grunts! We've no time for this, Granox, you fool! The enemy is out there!
 [quarton-battle] Guren: I
 [quarton-battle] Vilius: can with a fool, you infinite wolf!
-[quarton-battle] Guren: Valorn! I'm okay. Just help me get the spaghetti strainer off my head.
+[quarton-battle] Unknown: Valorn! I'm okay. Just help me get the spaghetti strainer off my head.
 [quarton-battle] Guren: We were in the neighborhood. Thought we'd drop in. I was doing fine. Tenkai arrow! Tenkai shield blade! They're clear! Good! Beak! We're pulling out! Grr!
 [quarton-battle] Vilius: You've let Valorn escape! I'm relieving you from duty, Ro! Permanently! Hmph! You
 [quarton-battle] Guren: and
@@ -141,7 +141,7 @@
 [quarton-battle] Guren: Don't look now, guys, but there's a giant angry robot pigeon on our tail!
 [quarton-battle] Unknown: This pigeon of which you speak is skating on us!
 [quarton-battle] Guren: I'll go into Titan mode and hold it off while you guys- Negative! No way! What? This is my fight! It's my turn! All right, you big rat with wings! Gooooooo! Titan mode! Whoa, dude's on fire! Either that or he hit the chili con carne again! Did he do it? Well, I guess not. Oh, toast. Come on, you can do it, Valorn! Put all that extra training to use! What training? Who needs extra training? I've got this! To get to Titan mode, you've got to channel all your Tenkai energy into- Oh, I know already! I don't need your help! You
-[quarton-battle] Guren: gotta
+[quarton-battle] Unknown: gotta
 [quarton-battle] Guren: clear your head! Focus your energy! Leave me alone! I can beat this level all by myself, I know it! Dude, you got this! It's four down with five seconds left! Really? Sports analogies?
 [quarton-battle] Unknown: Use that berserker mode you showed me while we were training! The
 [quarton-battle] Guren: Feig? Ixnay on the aiming frame!
@@ -150,20 +150,20 @@
 [quarton] Guren: Okay, fine! I was hoping the training would help me to get as good as you guys! He is satisfied! So
 [quarton-battle] Unknown: I...
 [quarton-battle] Guren: was training you? There's nothing wrong with needing help. We're
-[quarton-battle] Guren: all behind you. Well, then I admit it! I need all the
+[quarton-battle] Unknown: all behind you. Well, then I admit it! I need all the
 [quarton-battle] Guren: help I can get! That does it! I have had enough!
 [quarton-battle] Vilius: Tenkai Energy is now at optimum level, Valorn. Standing by to initiate Titan Mode sequence. Valorn!
 [quarton-battle] Guren: Tenkai Titan Mode! ACTIVATE! Use
 [quarton-battle] Guren: buzzer, bot! I just got an outbreak! Check it out!
 [quarton-battle] Vilius: Now, impudent grunt!
-[quarton-battle] Guren: Whoa! I know that's all it took! I'd have admitted I need help so much sooner!
+[quarton-battle] Unknown: Whoa! I know that's all it took! I'd have admitted I need help so much sooner!
 [quarton-battle] Guren: Nice, Valorn! Yeah! A little slow on the power-up, maybe... But nothing a little training couldn't fix! Aren't you
-[quarton-battle] Guren: nice? That was brilliant!
+[quarton-battle] Unknown: nice? That was brilliant!
 [quarton] Guren: Kidding! Kidding! Kidding! Seriously, welcome to the Titan Mode Club! Didn't even need a cheat code. I'm
-[quarton] Guren: back! Well,
+[quarton] Unknown: back! Well,
 [quarton] Guren: man, that was, like, Titanically cool! So, Toxsa... Yeah?
-[quarton] Guren: What is it?
+[quarton] Unknown: What is it?
 [quarton] Guren: I have a zip problem, huh? I didn't know that! Well... Oh,
-[quarton] Guren: that I was afraid of spiders! Uh... And smell like a sewer! I... was just joking! Oh, a
+[quarton] Unknown: that I was afraid of spiders! Uh... And smell like a sewer! I... was just joking! Oh, a
 [quarton] Guren: joke, huh? Well, how do you like this joke? It's hysterical, isn't it?
 [quarton] Vilius: So, you managed to lose Ro as well as your prisoner! It was Ro's fault! He's an absolute fool, and... But, but, but, sir! I downloaded some valuable intel from Valorn's database! Show me! Okay! I'm, uh, actually not sure how valuable it is, but it's mostly random, meaningless images. In fact, it's probably useless. Perhaps not...

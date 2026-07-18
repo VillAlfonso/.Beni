@@ -1,34 +1,34 @@
 [quarton] Guren: About a gazillion years ago, the evil warlord Vilius was just about to conquer the planet Quarton when the legendary Tenkai Knights stepped in and stopped him. How do I know all this? My name's Guren Nash. My friend Ceylan and I have been chosen to become the new Tenkai Knights, Bravenwolf and Tributon. Seems this Vilius guy's on the loose again, and this time he's out to conquer Quarton and more. So it's kind of like the two of us were chosen to save the universe. Yeah, we were surprised too. Think anybody's ever going to believe this? No way. We're like super robo heroes. Was that a dream or what? Pretty realistic dream. It's the planet we were just on. It's weird that we can see it now. I'm kind of freaking out here. And not in a good way. Yeah, I know. Join the club.
-[quarton] Guren: We need
-[quarton] Guren: to talk.
-[quarton] Guren: My word. What seems to be the hurry?
+[quarton] Unknown: We need
+[quarton] Unknown: to talk.
+[quarton] Unknown: My word. What seems to be the hurry?
 [quarton] Guren: These blocks, or whatever you call them, what are they? And how come we can't... They got turned into robots. And what's with that weird planet we saw? We really need some answers and we need them now.
-[quarton] Guren: Not to worry. We expected questions and answers are certain to be found. Wait, what do you mean by we? Tea? Are the answers in tea? Yes, I see I'll need to work on my refreshments. Oh well. Now, was
+[quarton] Unknown: Not to worry. We expected questions and answers are certain to be found. Wait, what do you mean by we? Tea? Are the answers in tea? Yes, I see I'll need to work on my refreshments. Oh well. Now, was
 [quarton] Guren: it some answers that you seek? Another one of those, big deal.
-[quarton] Guren: I take it back, it's a very big deal. It's
+[quarton] Unknown: I take it back, it's a very big deal. It's
 [quarton] Guren: the robot from the basement.
-[quarton] Guren: Robot? No, this is Boreas, guardian of the portal. A Tenkai hologram projection of Boreas.
+[quarton] Unknown: Robot? No, this is Boreas, guardian of the portal. A Tenkai hologram projection of Boreas.
 [quarton] Guren: So not such a big deal after all. Nah, there's nothing to be afraid of here. You're just a regular ol' hologram. We're
 [quarton] Guren: still alive.
-[quarton] Vilius: In ancient times, my planet Quarton was the scene of a great war between the Corekai and the Corrupted. The war raged on for centuries, until the awakening of the Tenkai Dragon.
+[quarton] Unknown: In ancient times, my planet Quarton was the scene of a great war between the Corekai and the Corrupted. The war raged on for centuries, until the awakening of the Tenkai Dragon.
 [quarton] Guren: The
-[quarton] Vilius: Dragon's raid could only be stopped by the combined strength of the four Tenkai Knights.
+[quarton] Unknown: Dragon's raid could only be stopped by the combined strength of the four Tenkai Knights.
 [quarton] Guren: So is this dragon a force to be reckoned with? A force of good or evil?
-[quarton] Vilius: Neither, and both, depending on who controls it. The dragon was defeated, and its parts scattered across the galaxies. Neither it nor the legendary four have been seen since. But Vilius, warlord of the Corrupted, has reappeared. He seeks to find and assemble the scattered fragments of the dragon, and use its powers to establish dominion over the planet Quarton, and beyond. If he succeeds, he will gain control of the portal, giving him access to Earth. He might even gain the power to shift Quarton's axes, jeopardizing the balance between your world and ours, putting both at risk. You must stop him. You must find the five scattered fragments of the dragon before Vilius can. It is for this that you have been chosen, to take on the mantle of the legendary Tenkai Knights.
+[quarton] Unknown: Neither, and both, depending on who controls it. The dragon was defeated, and its parts scattered across the galaxies. Neither it nor the legendary four have been seen since. But Vilius, warlord of the Corrupted, has reappeared. He seeks to find and assemble the scattered fragments of the dragon, and use its powers to establish dominion over the planet Quarton, and beyond. If he succeeds, he will gain control of the portal, giving him access to Earth. He might even gain the power to shift Quarton's axes, jeopardizing the balance between your world and ours, putting both at risk. You must stop him. You must find the five scattered fragments of the dragon before Vilius can. It is for this that you have been chosen, to take on the mantle of the legendary Tenkai Knights.
 [quarton] Guren: Oh, goody, Scott. Hey! Come back! You can't just leave it at that!
-[quarton] Guren: Uh...
+[quarton] Unknown: Uh...
 [quarton] Guren: I...
-[quarton] Guren: I
+[quarton] Unknown: I
 [quarton] Guren: guess he can. So... Who wants more
-[quarton] Guren: tea?
+[quarton] Unknown: tea?
 [quarton] Guren: Wait, hang on a sec. We still have like a million more questions.
-[quarton] Guren: All in good time. The Guardian's Tenkai energy is quite limited. He'll be back after he's replenished it.
+[quarton] Unknown: All in good time. The Guardian's Tenkai energy is quite limited. He'll be back after he's replenished it.
 [quarton] Guren: Wait, time out! I didn't sign up to save the world. I didn't choose to get blown up on some... cute world! And what happens if we get our bots unbotified up there?
-[quarton] Guren: Oh, well,
+[quarton] Unknown: Oh, well,
 [quarton] Guren: as
-[quarton] Guren: to that... Yeah,
+[quarton] Unknown: to that... Yeah,
 [quarton] Guren: that little point!
-[earth] Guren: An interesting question. Something to keep in mind, for sure.
+[earth] Unknown: An interesting question. Something to keep in mind, for sure.
 [earth] Guren: Come on, Ceylan. We got back last time all right, didn't we? You know, I think I'll go get a milkshake. But there's still... tea. And a burger and fries and a nice safe place where nobody's blasted at me. Ceylan, wait! I quit! Ceylan, wait up! You weren't serious, were you? What was that all about back there? What part of I quit don't you understand? Come on, out of all the people in the whole world, they chose us. Do you think this is some kind of video game? You have been chosen, galactic warrior! Only you can save the universe! Right. Like you can save and quit whenever you want? Like you get a bunch of extra lives or something? Well, you don't. And I kind of want to keep the one life I've got. Well, all right, but I'm going back without you! Knock yourself out!
 [earth] Unknown: Guren? Hey, is that you? You're later than usual.
 [earth] Guren: Oh, hi, Dad. Sorry. Something kind of came up.
@@ -38,20 +38,20 @@
 [earth] Guren: Okay.
 [earth] Unknown: Maybe it's just new school adjustments.
 [earth] Guren: Sure, there's bound to be some risks. I mean, they're asking us to, like, save the universe after all. But it's not like we don't have amazing powers to defend ourselves with. Besides, they wouldn't have chosen us if they didn't think we could handle it. Yeah. It's
-[quarton] Guren: over, Bilius! Your reign of terror stops now!
+[quarton] Unknown: over, Bilius! Your reign of terror stops now!
 [quarton] Vilius: Who's going to stop me? You, Bravenwolf? All alone, I see. Why aren't your fellow Tenkai Knights with you? I'll tell you why. Because they're smart enough to be scared!
 [quarton] Guren: It's you who should be scared! Because the Guardians picked me, and there's no way I'm going to let them down! Even if I have to fly solo!
 [quarton] Vilius: Fool! The ancient Tenkai Knights weren't enough to defeat me! It took the Tenkai Dragon to do that! And you are no Tenkai Dragon!
 [quarton] Guren: You talk a lot, you know.
 [quarton] Vilius: You haven't got a chance. Don't take my word for it. Listen to the voice within yourself. You know it's true!
-[quarton] Guren: Oh, I do, huh?
+[quarton] Unknown: Oh, I do, huh?
 [quarton] Vilius: Well, it's your nightmares.
 [quarton] Guren: It was just a dream, Max. Doesn't mean it'll really be like that, don't worry.
-[quarton] Guren: Well...
+[quarton] Unknown: Well...
 [quarton] Guren: Yeah. I
 [quarton] Guren: earned an extra life. Any
 [quarton] Unknown: more field trip permission slips that need to be turned in? If so, bring them up. Last chance! Okay, everyone take your seats. We'll get started in a minute.
-[quarton] Guren: What'd you bring for lunch?
+[quarton] Unknown: What'd you bring for lunch?
 [quarton] Guren: You agree it's crazy, right? You'd have to be crazy to go back there again. I
 [quarton] Guren: had another one of those dreams last night. Dude, don't even start. You gotta listen to me. All
 [quarton] Unknown: right, all right, let's quiet down and listen up. Everyone, stay with your buddy once we're inside the museum.
@@ -60,37 +60,37 @@
 [quarton] Unknown: Hm.
 [quarton] Vilius: Here's one of the most curious artifacts in the museum. We believe this stone tablet is almost 13,000 years old, which is far older than even the ancient Egyptians. The cube-like pictographs on the tablet are found nowhere else, and no one's been able to decipher them. It's quite a mystery. Well, moving right along.
 [quarton] Guren: Here's the thing. I think I figured out something in my dream on Quarton. You and your dreams of Quarton. I think you and I were chosen to be a team. No way. Forget it. Count me out. What is it now? What are you looking at? Come here. Is it me? Or is this thing glowing? Whoa, what'd you do? Did you touch
-[quarton] Guren: it? Your pocket, look. Hey, yours too.
+[quarton] Unknown: it? Your pocket, look. Hey, yours too.
 [quarton] Guren: It's like they're reacting to something.
-[quarton] Guren: Who
-[quarton] Guren: are those things?
+[quarton] Unknown: Who
+[quarton] Unknown: are those things?
 [quarton] Guren: It must be part of the Tenkai Dragon. I
 [quarton] Guren: didn't touch it.
 [earth] Vilius: What an extraordinary phenomenon. Speaking purely as a scientist, I have no idea what it means. But I do know what it will mean in ticket sales.
 [earth] Guren: Oh, well, that's nice. Thank you, my boy.
 [earth] Vilius: I
 [earth] Guren: think it's time for another talk with Mr. White. Mr. White? Hello? Uh, leave the pizza on the counter. I may be
-[earth] Guren: a while. Huh?
+[earth] Unknown: a while. Huh?
 [quarton] Guren: What is your hurry? Mr. White? Ah,
-[quarton] Guren: it's you. I
+[quarton] Unknown: it's you. I
 [quarton] Guren: thought
-[quarton] Guren: my pizza was here.
+[quarton] Unknown: my pizza was here.
 [quarton] Guren: Something weird happened at the museum. What haven't you told us? And why don't blocks start to glow?
-[quarton] Guren: Glowing, huh? Perhaps that's their way of summoning you. Summoning us? You have passed through the portal to Quarton. The cores you possess have bonded with your energy. They have become part of you. Tell
+[quarton] Unknown: Glowing, huh? Perhaps that's their way of summoning you. Summoning us? You have passed through the portal to Quarton. The cores you possess have bonded with your energy. They have become part of you. Tell
 [quarton] Guren: them they've got the wrong guy. I've never bonded with anything in my life. Even my dog ignores me.
-[quarton] Guren: I'm afraid it's not that easy. Check inside your pocket.
+[quarton] Unknown: I'm afraid it's not that easy. Check inside your pocket.
 [quarton] Guren: Neat trick, but it won't
-[quarton] Guren: work. It's not me. The core has chosen you, Ceylan. There are some things in this universe beyond our understanding.
+[quarton] Unknown: work. It's not me. The core has chosen you, Ceylan. There are some things in this universe beyond our understanding.
 [quarton] Guren: Well, tell it to choose someone else. Anyone would be better than me. Ceylan, wait up! I don't want to do this without you. You and I are a team. I'm counting on you to... Well, you can count me out, okay? I'm just not any good at being a hero. Here, you can have mine. Give it to someone else.
 [quarton] Guren: It doesn't work that way. You
 [quarton] Guren: and I were chosen for a reason. We've been given a big responsibility. Sure, it'd be easier to walk away. But do you really want to find out what happens if we do? It's up to you. You coming or not? Wait, Guren!
-[quarton] Guren: Show
-[quarton] Guren: off. It seems to come almost naturally to some people. But which is the more heroic? The born hero or the reluctant hero? I wonder. I
-[quarton] Guren: don't
+[quarton] Unknown: Show
+[quarton] Unknown: off. It seems to come almost naturally to some people. But which is the more heroic? The born hero or the reluctant hero? I wonder. I
+[quarton] Unknown: don't
 [quarton] Vilius: regret this.
-[quarton-battle] Guren: Once
+[quarton-battle] Unknown: Once
 [quarton-battle] Vilius: again, the mighty Bravenwolf returns. It's our honor to battle by your side, great Bravenwolf. Uh, Beag, right? Yes, Beag. Where is Tributon? He, uh, had homework. I do not comprehend. But our scouts have spotted an enemy detachment nearby. And they're carrying a Dragon Cube. A Dragon Cube? One of the scattered fragments. Well, okay then. Let's go kick some butt. What butt? Your words are strange, Bravenwolf. But your meaning is clear. Lead on.
-[quarton-battle] Guren: They
+[quarton-battle] Unknown: They
 [quarton-battle] Vilius: really are depending on us.
 [quarton-battle] Guren: Detachment? Looks like the whole army. And those big guys in the middle, who are they? Uh,
 [quarton-battle] Vilius: they look pretty serious. Granox and Slyger, two of their most brutal and powerful warriors. They're the reason we didn't attack before. But with you, we now have a fighting chance.
@@ -100,34 +100,34 @@
 [quarton-battle] Vilius: Tributon of the homework.
 [quarton-battle] Guren: I knew you'd come. Good to see you, buddy. Yeah, don't get all mushy. I have no idea what the heck I'm doing here. Well, maybe you don't, but I do. You're watching my back, and I'm watching yours. Because that's what friends do, right? Yeah, okay, whatever. When do we get to start blasting stuff?
 [quarton-battle] Vilius: Tenkai Knights, you might want to continue this conversation at a later time. Your presence has been detected by the enemy. Huh? Yikes! So, the Corekai have
-[quarton-battle] Vilius: taken the high ground. Well, we'll knock them down, Peg. Fire!
+[quarton-battle] Unknown: taken the high ground. Well, we'll knock them down, Peg. Fire!
 [quarton-battle] Vilius: Fire! Well, no use hiding now. Corekai, attack!
-[quarton-battle] Guren: No such option. Stabilizers! No such option. Emergency brakes! No such option. Oh, let's not do this again!
+[quarton-battle] Unknown: No such option. Stabilizers! No such option. Emergency brakes! No such option. Oh, let's not do this again!
 [quarton-battle] Vilius: See how they rush into battle? That's why they're legendary! Hee
-[quarton-battle] Guren: -haw! I'm gonna need a weapon!
+[quarton-battle] Unknown: -haw! I'm gonna need a weapon!
 [quarton-battle] Vilius: Come and get it!
-[quarton-battle] Guren: Yeah! Computer, I need a weapon! Two weapons! Even better!
+[quarton-battle] Unknown: Yeah! Computer, I need a weapon! Two weapons! Even better!
 [quarton-battle] Vilius: So, Bravenwolf, we meet again, after all these centuries you've finally returned to be destroyed.
-[quarton-battle] Guren: Your... Which
+[quarton-battle] Unknown: Your... Which
 [quarton] Vilius: one again? Tenkai fool! You insult the mighty Granox! It would be my pleasure to give you a most painful reminder of who I am.
-[quarton] Guren: Hammer fire! Penance!
+[quarton] Unknown: Hammer fire! Penance!
 [quarton] Guren: Just saying! I could be
-[quarton] Guren: safe at home playing video games instead of living one!
+[quarton] Unknown: safe at home playing video games instead of living one!
 [quarton] Vilius: Your
 [quarton] Vilius: puny Tenkai Energy arrows are no match for the Claw of Doom!
-[quarton] Guren: Claw of Doom lives up to its name!
-[quarton] Guren: It looks like we've got an audience! Okay, let's give them a show! Hey,
+[quarton] Unknown: Claw of Doom lives up to its name!
+[quarton] Unknown: It looks like we've got an audience! Okay, let's give them a show! Hey,
 [quarton] Guren: I'm kinda getting the hang of this! You
-[quarton] Guren: were so busy basking in the limelight,
+[quarton] Unknown: were so busy basking in the limelight,
 [quarton] Vilius: Bravenwolf! You
-[quarton] Guren: forgot all about your... Forget
+[quarton] Unknown: forgot all about your... Forget
 [quarton] Vilius: him! Worry about yourself! Stay
-[quarton] Guren: focused.
+[quarton] Unknown: focused.
 [quarton] Vilius: That is the way of the Corrupted. Bravenwolf, look out! You knights never stood a chance!
 [quarton] Guren: You okay? I know we weren't invited, but we're crashing this party. Hope you got extra goodie bags.
 [quarton] Vilius: Lydendor! Valorn! Well, what are you waiting for?
-[quarton] Guren: Blast them! Who's up for a little game of crush the robot?
-[quarton] Guren: Sorry, too slow. Those
+[quarton] Unknown: Blast them! Who's up for a little game of crush the robot?
+[quarton] Unknown: Sorry, too slow. Those
 [quarton] Guren: guys are totally awesome.
 [quarton] Guren: Totally.
 [quarton] Vilius: Nice of you to bring us a Dragon Cube. Yeah, be
@@ -137,20 +137,20 @@
 [quarton] Guren: uh,
 [quarton] Guren: Bravenwolf, and that's Tributon.
 [quarton] Guren: Anyone know how to open this thing? We tuned us up.
-[quarton] Guren: You're lucky we came along. I'm Valorn, and this is Lydendor. Hey, you
+[quarton] Unknown: You're lucky we came along. I'm Valorn, and this is Lydendor. Hey, you
 [quarton] Unknown: guys are newbies, huh?
 [quarton] Guren: Huh? Well, yeah, I suppose. But it's not like- Hey, Bravenwolf, come here! Remind you of anything? This cube looks like the cubes from the pictograph on the stone tablet in the museum. Yeah. Since you guys actually found the Dragon Cube, you should be the ones to deliver it to the Corekai for safekeeping. What? You're just giving it to them? Those things don't grow on trees, you know. So listen, Lydendor and Valorn, shouldn't we all, like, team up or something? Sorry, we've got a world to save, and it doesn't include babysitting. Anyway, I've got a feeling we'll be saving your bacon again soon enough. Huh. I guess they think they're pretty cool. They actually kind of are pretty cool. Well, someday they'll be in trouble, and they'll need us to come and save their- They better hope that day's not any time soon. Well,
-[quarton] Guren: now, how went the journey? Find anything interesting?
+[quarton] Unknown: now, how went the journey? Find anything interesting?
 [quarton] Guren: Yeah. We met these two guys that were a lot like us. And we almost got blasted, but we found one of the pieces of the dragon. Yeah, and the piece we found in the thing at the museum. We think the two might be connected.
-[quarton] Guren: You don't say. Perhaps that's something you should explore before Vilius thinks of it. The tablet must be the key to something.
+[quarton] Unknown: You don't say. Perhaps that's something you should explore before Vilius thinks of it. The tablet must be the key to something.
 [quarton] Guren: Yeah. But, Mr. White, who were those other two guys that we met? Well,
-[quarton] Guren: as you said,
+[quarton] Unknown: as you said,
 [quarton] Guren: they're
-[quarton] Guren: a lot like you.
+[quarton] Unknown: a lot like you.
 [quarton] Guren: Because
-[quarton] Guren: they've
+[quarton] Unknown: they've
 [quarton] Guren: got superpowers
-[quarton] Guren: and
+[quarton] Unknown: and
 [quarton] Guren: everything?
-[quarton] Guren: Yes, there's that. But it takes more than having powers to be chosen just like you were. Huh?
+[quarton] Unknown: Yes, there's that. But it takes more than having powers to be chosen just like you were. Huh?
 [quarton] Guren: Hmm.
