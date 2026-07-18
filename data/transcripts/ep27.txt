@@ -4,12 +4,12 @@
 [quarton] Unknown: Or so we thought.
 [quarton] Ceylan: I
 [quarton] Ceylan: don't get how Vilius could be reassembled and brought back when we destroyed the reassembly device. Well, you see, the Guardians don't need a reassembly device. The Guardians brought him back? Why? I
-[quarton] 4_Guardians: agree with Boreas, disassembly is too merciful a fate for Vilius after what he did. We should revive him and punish him.
+[quarton] Vilius: agree with Boreas, disassembly is too merciful a fate for Vilius after what he did. We should revive him and punish him.
 [quarton] 4_Guardians: Make him pay for his transgressions.
 [quarton] Unknown: There is some logic in what you say. Yes, and enormous risk as well. There is a danger that even a disassembled Vilius will still retain some residual control over his Tenkai energy. I cannot support such a reckless proposal.
-[quarton] 4_Guardians: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know my views.
+[quarton] Vilius: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know my views.
 [quarton] Unknown: I cannot... Cannot... ...oppose the will of the Council. I
-[quarton] 4_Guardians: vote in favor. It is decided. We shall revive Vilius. Then let us proceed.
+[quarton] Vilius: vote in favor. It is decided. We shall revive Vilius. Then let us proceed.
 [quarton] 4_Guardians: Boreas, Notus, Zephyrus, the Four Guardians, the Four Corners, the Four Elements. Everything departs, everything returns. As there is darkness, so too must there be light, and as there is chaos, so too must there be balance. Within this cycle of existence, Vilius, be revived. It is done, but something is not right. One of us is transferring too much Tenkai energy. We're losing control. To
 [quarton] Vilius: feel power surging through me. Pools, it's only my physical form you revive. My Tenkai energy never left.
 [quarton] 4_Guardians: My fellow Guardians, I feel we have made a dreadful mistake. Quickly,

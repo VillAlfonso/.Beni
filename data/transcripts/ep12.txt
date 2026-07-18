@@ -7,11 +7,11 @@
 [quarton] Toxsa: freaky. Listen, Chook. You thought it was a rap song. That's what I call freaky. I've got it, Watson. Detective reasoning. What do you mean, Toxsa? To find the culprit. We begin by eliminating the suspects. But where do we start? It could have been anyone. Maybe even Max. It could have been anyone. Maybe even Max. It could have been anyone. Maybe even Max. Bingo. I wish
 [quarton] Guren: my dad could help. I wish my dad could help. Seriously, I mean, I hardly ever see him. He comes home to sleep, and that's pretty much it these days. The rest of the time, he's busy working on Benham Tower. It looks finished. I don't know why I still spend so much time there.
 [quarton] Slyger: Brilliant plan, Dromus.
-[quarton] Beag: It
+[quarton] Vilius: It
 [quarton] Guren: was a disaster, Slyger! I think he was being sarcastic. No one
-[quarton] Beag: asked you! Think you so, Leather? You had Tilius convinced that you held the secret to defeating the Tenkai Knights. It was a foolproof plan. Until the Knights showed up! The next thing you know, our forces are in full retreat, and the Knights have grabbed the last Dragon Cube. While you and your friend, Bravenwolf, are off playing tag with each other! Come to think of it, what is it with you two anyway? Your allegiance to Vilius is questionable. At
+[quarton] Vilius: asked you! Think you so, Leather? You had Tilius convinced that you held the secret to defeating the Tenkai Knights. It was a foolproof plan. Until the Knights showed up! The next thing you know, our forces are in full retreat, and the Knights have grabbed the last Dragon Cube. While you and your friend, Bravenwolf, are off playing tag with each other! Come to think of it, what is it with you two anyway? Your allegiance to Vilius is questionable. At
 [quarton] Slyger: least he gets sarcasm.
-[quarton] Beag: What? Who do you think you're talking to? You dare to disrespect me, you little runt? Careful,
+[quarton] Vilius: What? Who do you think you're talking to? You dare to disrespect me, you little runt? Careful,
 [quarton] Slyger: Gromus. Don't forget Granox and I were serving Vilius long before you ever arrived.
 [quarton] Slyger: Right. And what have you got to show for it? You insolent...
 [quarton] Vilius: Enough!
@@ -81,9 +81,9 @@
 [quarton-battle] Vilius: we all supposed to be here? I'm confused. Don't worry about Dromus. He's exactly where he needs to be. Of course, because Dromus can do no
 [quarton-battle] Slyger: wrong.
 [quarton-battle] Vilius: Well,
-[quarton-battle] Beag: who cares about him? I'm here, so leave it to me. I'll destroy them all. Not all right.
+[quarton-battle] Vilius: who cares about him? I'm here, so leave it to me. I'll destroy them all. Not all right.
 [quarton-battle] Vilius: Not all. Any Tenkai Knights you find, bring them to me. I want to destroy them myself! As Vilius commands!
-[quarton-battle] Beag: Who needs
+[quarton-battle] Vilius: Who needs
 [quarton-battle] Vilius: Dromus anyway, right?
 [quarton-battle] Slyger: Right! No reaction. If there was a clue here, it's long gone.
 [quarton-battle] Guren: Sorry I took so long.

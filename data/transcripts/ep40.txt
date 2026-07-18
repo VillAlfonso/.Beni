@@ -1,10 +1,10 @@
-[quarton] Ceylan: Guren here, and in case you missed it, we've been trying to keep the mysterious Tenkai Fortress out of the clutches of our least favorite big bad guy, Vilius. Of course you can't stop a big bad guy without a big battle, and ours was shifting into high gear when Vilius revived the evil Tenkai Dragon. Luckily, we were able to unleash our own good Tenkai Dragon right back at him. Let me ask you something, what happens when two unstoppable Tenkai-charged dragons collide? I don't know, but if something tells me, I think we're all about to find out. Whoa, did anybody get the license plate on that truck? I've got a feeling I'm not on Quarton anymore.
+[quarton] Guren: Guren here, and in case you missed it, we've been trying to keep the mysterious Tenkai Fortress out of the clutches of our least favorite big bad guy, Vilius. Of course you can't stop a big bad guy without a big battle, and ours was shifting into high gear when Vilius revived the evil Tenkai Dragon. Luckily, we were able to unleash our own good Tenkai Dragon right back at him. Let me ask you something, what happens when two unstoppable Tenkai-charged dragons collide? I don't know, but if something tells me, I think we're all about to find out. Whoa, did anybody get the license plate on that truck? I've got a feeling I'm not on Quarton anymore.
 [quarton] Ceylan: What is this place?
-[quarton] Ceylan: It's like life-sized mini-golf. It's not Quarton, and it sure isn't Earth. Oh man, this is not cool. Am I on another new world? Again?
+[quarton] Guren: It's like life-sized mini-golf. It's not Quarton, and it sure isn't Earth. Oh man, this is not cool. Am I on another new world? Again?
 [quarton] Ceylan: Okay, who's the jerk who re-rendered all the backgrounds here? Hey guys.
-[quarton] Ceylan: Well,
+[quarton] Guren: Well,
 [quarton] Ceylan: at
-[quarton] Ceylan: least I'm not here alone. Wherever here is. Yeah, looks like we lost our home. We lost our home-court advantage. Waking up flat on my back in some alien landscape, just another day at the office. It
+[quarton] Guren: least I'm not here alone. Wherever here is. Yeah, looks like we lost our home. We lost our home-court advantage. Waking up flat on my back in some alien landscape, just another day at the office. It
 [quarton] Ceylan: could be worse. There could be bad guys. This is all your
 [quarton] Vilius: fault! What have you brainless blockheads done? I swear we all, but you'd better get us out of here. Vilius! Tenkai Knights! I said no! No! You brought me here, didn't you? You think Trinnery will give you an advantage?
 [quarton] Ceylan: We've never needed an advantage to fight you! And you're the one who's always full of tricks. You probably have a whole team cheats you'd up one of your sleeves or bricks or whatever. Silence
@@ -17,9 +17,9 @@
 [quarton] Vilius: I am called by many names. All you need to know is that here, I am the Beast King.
 [quarton] Ceylan: But where is here?
 [quarton] Vilius: This paradise, this place you will never leave, this is Beast World.
-[quarton] Ceylan: Oh,
+[quarton] Guren: Oh,
 [quarton] Vilius: Beast World.
-[quarton] Ceylan: Can't be bad. Wait, what was that second part again? The place we'll never leave!
+[quarton] Guren: Can't be bad. Wait, what was that second part again? The place we'll never leave!
 [quarton] Ceylan: Climbing. Worse than stairs. A bit old school. So why'd you bring us here?
 [quarton] Vilius: What makes you so sure I did it? For all I know, you're invaders or thieves. But since we haven't had any visitors for a hundred years, you
 [quarton] Ceylan: can stay forever.
@@ -30,7 +30,7 @@
 [quarton] Vilius: a mission. Hooray. In that case, I have no choice but to let you leave. Huh? Once you complete my mission. What? Boss?
 [quarton] Ceylan: Hey, pal. You're not the boss of me.
 [quarton] Vilius: It's a simple task. Entertain me. Who do you think you're talking to? I entertain no one but myself. Yes, you do seem quite unabusive. Regardless, entertain me and I might return you to your world. Yeah, this
-[quarton] Ceylan: could not get any more bizarre. What are we
+[quarton] Guren: could not get any more bizarre. What are we
 [quarton] Ceylan: supposed to do? Put on a talent show? Good idea. We'll do a dance routine. After the swing, we'll vogue, then turn and jump
 [quarton] Unknown: and step and fall.
 [quarton] Ceylan: Yeah,
@@ -45,19 +45,19 @@
 [quarton] Unknown: You
 [quarton] Ceylan: know, someday we really got to put in an elevator.
 [quarton] Unknown: Here's the rules. You complete the mission for me and then I'll let you get back to the Beast King and maybe he'll let you go back to whatever super fun world you came from. Wait. Oh, and by the way, you might want a place for impact right about here. No. I guess
-[quarton] Ceylan: he
+[quarton] Guren: he
 [quarton] Ceylan: wasn't kidding about that. Hey, weirdo, where are you? No need to shout to me, you head. I'm right here. Why'd you let me crash like that? I could have broken my face. If you asked me, it
 [quarton] Unknown: would have been an improvement.
 [quarton] Ceylan: Huh?
-[quarton] Ceylan: You said there was a mission?
+[quarton] Guren: You said there was a mission?
 [quarton] Unknown: Tell me, you monkey. Uh,
 [quarton] Ceylan: well, yeah. For the record, my name's Aurangor. Wait. Okay, fine. Aurangor, if we complete this
-[quarton] Ceylan: mission, do we get to go back to our home planet? I need you to promise me. Because this whole thing seems kind of random. Like you don't really know what you're doing.
+[quarton] Guren: mission, do we get to go back to our home planet? I need you to promise me. Because this whole thing seems kind of random. Like you don't really know what you're doing.
 [quarton] Ceylan: Huh? I haven't seen random yet.
-[quarton] Ceylan: I'll let him get past you. Okay.
+[quarton] Guren: I'll let him get past you. Okay.
 [quarton] Unknown: Wow, it looks like you got me fair and square. That fair and square is not how I roll. Got you
 [quarton] Ceylan: now, ball head.
-[quarton] Ceylan: Oh, great. Now my front has some pain. That monkey is smarter than he looks. And we're going to have to play his game. Because he said he won't get us in to see the Beast King until we go on some mission for him.
+[quarton] Guren: Oh, great. Now my front has some pain. That monkey is smarter than he looks. And we're going to have to play his game. Because he said he won't get us in to see the Beast King until we go on some mission for him.
 [quarton] Ceylan: Terrific.
 [quarton] Unknown: There he
 [quarton] Ceylan: goes!
@@ -66,25 +66,25 @@
 [quarton] Ceylan: Oh, Guren said we've got to go on some mission for this guy or he won't get us in to see the Beast King. A mission? We got to take orders from a beach ball. Beach ball? Let's go! I love the beach. Let's make a sun castle. I met you, beach ball.
 [quarton] Unknown: If you don't mind, the title is actually Crazy Monkey. Yeah,
 [quarton] Ceylan: he
-[quarton] Ceylan: told me his name is Aurangor. Let's play a game
+[quarton] Guren: told me his name is Aurangor. Let's play a game
 [quarton] Unknown: of fear.
-[quarton] Ceylan: Game
+[quarton] Guren: Game
 [quarton] Unknown: of fear? I bet all of you have too much fear of the unknown to punch my button without knowing what will happen when you do. Oh,
 [quarton] Ceylan: yeah! Whoa! No, don't! Why? He
 [quarton] Ceylan: can't see the bottom, guys. Well, then don't let go. No! Can you pull us up, Guren?
-[quarton] Ceylan: Are you there,
+[quarton] Guren: Are you there,
 [quarton] Ceylan: Aurangor? Help us!
-[quarton] Ceylan: Stop! Don't
+[quarton] Guren: Stop! Don't
 [quarton] Ceylan: let me down!
 [quarton] Beag: Not at all, stranger. Everyone needs to be saved from certain doom occasionally. But I must return to my mission. Where are you, my heroes? Can you hear
 [quarton] Ceylan: me, Tenkai Knights? Huh? Tenkai Knights, come in! Uh, excuse me,
 [quarton] Beag: but... Sorry, but I don't have time to exchange pleasantries. I
 [quarton] Ceylan: know that voice. I know those uniform colors.
-[quarton] Ceylan: This is awkward. You're big.
+[quarton] Guren: This is awkward. You're big.
 [quarton] Beag: Hmm? Curious. I have no recollection of meeting you.
-[quarton] Ceylan: It's me,
+[quarton] Guren: It's me,
 [quarton] Ceylan: Bravenwolf.
-[quarton] Ceylan: I'm
+[quarton] Guren: I'm
 [quarton] Ceylan: Tributon. And I'm Lydendor. And I'm Valorn.
 [quarton] Beag: Oh, that is quite a coincidence. Now,
 [quarton] Ceylan: where are you, my heroes? Can you hear me? The Tenkai Knights are you? What are you doing here, big man? But what happened? You all look so different. Yeah, well, you look like you're on another team, too, you know. I like the new threads. Uh, you look kind of, uh,
@@ -97,7 +97,7 @@
 [quarton] Ceylan: can get out of here already.
 [quarton] Unknown: Oh, sorry. And stop
 [quarton] Ceylan: doing that!
-[quarton] Ceylan: Yeah, I'm really starting to think you're only playing around with us. What is this scam? Oh,
+[quarton] Guren: Yeah, I'm really starting to think you're only playing around with us. What is this scam? Oh,
 [quarton] Unknown: you
 [quarton] Ceylan: say
 [quarton] Unknown: that, but it's not
@@ -107,9 +107,9 @@
 [quarton] Unknown: Wherever the train tracks take us, of course. Train tracks? I wouldn't stand there
 [quarton] Ceylan: with my cute
 [quarton] Unknown: train, huh? But you'll be a cute pancake if you don't move. You
-[quarton] Ceylan: want us to board that train? Ah, great. He's
+[quarton] Guren: want us to board that train? Ah, great. He's
 [quarton] Ceylan: disappeared again. If we want to get home, guess we gotta get on. Yeah,
-[quarton] Ceylan: you can't win if you don't play the game.
+[quarton] Guren: you can't win if you don't play the game.
 [quarton] Ceylan: Stand by, Beag. We might need a rescue.
 [quarton] Beag: By all means, my formerly strong but now strangely powerless heroes.
 [quarton] Ceylan: All aboard! Terrific. We made it onto the train, and every seat's already taken.
@@ -121,12 +121,12 @@
 [quarton] Unknown: Since you survived that, it's time to give you guys your first mission.
 [quarton] Ceylan: Gores. Which
 [quarton] Unknown: one of these is not like the others? They're all dumb. Yes, they certainly all look identical, but there's one that's different from the rest of them. This'll
-[quarton] Ceylan: take forever.
+[quarton] Guren: take forever.
 [quarton] Unknown: Figure it out, and the mission is cleared.
 [quarton] Ceylan: Bye. See ya. Isn't there a Tenkai to offer this?
 [quarton] Beag: I've got just the thing, my pink and fleshy heroes. Activate Beag Scanner!
 [quarton] Beag: Well, got it? Nope. Sorry, I got nothing.
-[quarton] Ceylan: I wonder if there is an answer here. Maybe Orangor just makes this stuff up as he goes. Guren, that's it!
+[quarton] Guren: I wonder if there is an answer here. Maybe Orangor just makes this stuff up as he goes. Guren, that's it!
 [quarton] Ceylan: Think about it. There's only one Orangor making up all these rules. So the one doing all the talking is the one we want. Ding, ding, ding, ding! Calamari's one, Jonel! No! It
 [quarton] Unknown: looks like this is your stop! Huh?
 [quarton] Ceylan: Bon voyage! What's happening? Whoa, dude! You're dissolving! It's
@@ -139,9 +139,9 @@
 [quarton] Ceylan: back on the surface? But where's everybody else? You're the worst, Orangor! Next time, I'm taking the bus! It's the bus, you lousy monkey!
 [quarton] Unknown: Where'd that gear controller come from? Hmm.
 [quarton] Ceylan: Don't touch that! Yuck! He totally
-[quarton] Ceylan: spazzed out!
+[quarton] Guren: spazzed out!
 [quarton] Ceylan: I dreamed of this.
-[quarton] Ceylan: Dance, sucker! What? You can't do that to me!
+[quarton] Guren: Dance, sucker! What? You can't do that to me!
 [quarton] Ceylan: Please don't, Valorn! Stop that! These are unauthorized movements, plus it's punching up all my circuits! Actually, you guys look pretty good! I've wanted this all my life! A game controller that works on people! I wonder if there's a mute button. I'm quite sure
 [quarton] Beag: this body was never designed for this purpose!
 [quarton] Ceylan: It's like dance implosion!
@@ -152,17 +152,17 @@
 [quarton] Ceylan: Monkey see, monkey through! That thing will crush us flatter than a bug on a windshield if we catch it!
 [quarton] Vilius: Mama, sounds like catching me would be a bad idea!
 [quarton] Ceylan: What do you have, burper brains? You just told us we have to catch everyone!
-[quarton] Ceylan: No, what he said was they couldn't hit the floor! And the finger wrangler won't hit the floor if we blow it up first! How do we do that? I
+[quarton] Guren: No, what he said was they couldn't hit the floor! And the finger wrangler won't hit the floor if we blow it up first! How do we do that? I
 [quarton] Ceylan: know! Toxsa! When it gets close, launch one of us right at it! No way! What if I drop one of the other ones while I'm doing that? I'm barely hanging on to this! Just concentrate, Toxsa! You can do it, Valorn! Here we go! Ow! In
 [quarton] Ceylan: it goes!
 [quarton] Ceylan: We're back up top! And it's about time! Huh? But what happened to Bravenwolf and Beag? I don't know.
-[quarton] Ceylan: I guess
+[quarton] Guren: I guess
 [quarton] Ceylan: they
-[quarton] Ceylan: didn't make it out.
+[quarton] Guren: didn't make it out.
 [quarton] Ceylan: Man, I hate monkeys. This
-[quarton] Ceylan: way!
+[quarton] Guren: way!
 [quarton] Beag: Shall I Beag-scan again? No.
-[quarton] Ceylan: One dead end after another.
+[quarton] Guren: One dead end after another.
 [quarton] Beag: What would I do if I were in this situation? Nope! Nothing comes to mind, I'm afraid. It is said that when there is no door, you must make one.
 [quarton] Ceylan: You've heard it said by who? Me!
 [quarton] Beag: Wait!
@@ -170,7 +170,7 @@
 [quarton] Beag: He disappeared. It's difficult to keep up with a disembodied talking head.
 [quarton] Ceylan: Oh,
 [quarton] Unknown: do you want some help? Well, I might be willing to give you some more hints if you can follow the bouncing ball. Boing! Not so long ago, it was the Beast King's favorite thing to watch us run through the maze. But I guess the same thing over and over got kind of boring because these days it takes a lot more to entertain him. Well, maybe if you could come up with some kind of new race he hasn't seen before. Wait,
-[quarton] Ceylan: like
+[quarton] Guren: like
 [quarton] Unknown: running after a ball?
 [quarton] Ceylan: I think we just shocked the monkey! It's okay! Come on! Uh,
 [quarton] Beag: you say so. Yeah! Beag, jump! Hey,
@@ -181,7 +181,7 @@
 [quarton] Ceylan: Yes!
 [quarton] Vilius: Then tell me
 [quarton] Ceylan: we
-[quarton] Ceylan: should huddle up then, because I've got no idea what our game plan is! The Beast King likes chases, so we're going to show him a new kind! What? Who's going to chase who? Not who. What? We'll all be chasing a ball, because the kind of chase I've got in mind is a soccer game! A soccer game?! Welcome
+[quarton] Guren: should huddle up then, because I've got no idea what our game plan is! The Beast King likes chases, so we're going to show him a new kind! What? Who's going to chase who? Not who. What? We'll all be chasing a ball, because the kind of chase I've got in mind is a soccer game! A soccer game?! Welcome
 [quarton] Unknown: to the first annual Beast World Friendly! Our match today features two outstanding teams. In fact, both of them are standing out there on the field right now! First, the home team! Anchored by Beag in gold, they feature Venetta, a sweeper, and Strikers, the Tenkai Knights! And our challengers, Corrupted United! With Vilius at center forward, this team can score goals and destroy your home planet at the same time! Tournament rules! First team to score wins! Bravenwolf has elected to kick off!
 [quarton] Ceylan: And we're off! Gonna run it right down your throat! Oh
 [quarton] Unknown: yeah!
@@ -204,7 +204,7 @@
 [quarton] Ceylan: please, all you're getting is your bot kick! Tributon dribbling down the center! But the fullbacks are there! Time to ice the defense! Glacier change! Here it comes, Corrupted! My horrible! My
 [quarton] Ceylan: turn! Electric dribble! Lydendor stops the defense and crosses to Bravenwolf! Pass the defenders! This is our best shot! We're ever going to get out of here and back to where we belong! Better make this count! Move!
 [quarton] Vilius: Just try and get a shot past me! Do it, Bravenwolf!
-[quarton] Ceylan: Vilius doesn't think I can get a shot past him, huh? All right, then! Watch
+[quarton] Guren: Vilius doesn't think I can get a shot past him, huh? All right, then! Watch
 [quarton] Ceylan: so hard it goes right through him! Here comes the shot!
 [quarton] Unknown: The
 [quarton] Ceylan: knights will pass for

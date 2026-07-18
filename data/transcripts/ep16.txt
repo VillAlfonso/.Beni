@@ -60,29 +60,29 @@
 [quarton-battle] Ceylan: okay. Time to kick some butt.
 [quarton-battle] Slyger: Tributon, perhaps you should wait for the hour. Tributon, Tenkai Titan Mode, activate! Activate! Time
 [quarton-battle] Slyger: to get titanically Tenkai!
-[quarton-battle] Beag: Not Tributon, and all by himself. Whatever will we do? Oh dear,
+[quarton-battle] Vilius: Not Tributon, and all by himself. Whatever will we do? Oh dear,
 [quarton-battle] Slyger: and he's in Titan Mode too? We might as well just give
-[quarton-battle] Beag: up.
+[quarton-battle] Vilius: up.
 [quarton-battle] Ceylan: What, are you two starting a stand-up routine?
-[quarton-battle] Beag: It's always so witty. We're no match for his devastating singers.
+[quarton-battle] Vilius: It's always so witty. We're no match for his devastating singers.
 [quarton-battle] Slyger: That's right, keep joking. You'll be laughing out of your exhaust pipe when I'm through with you. That wasn't
-[quarton-battle] Beag: funny. You're right, it wasn't. Even we're funnier than you. Good luck. Come to think of it, our Titan Mode's better than his too.
+[quarton-battle] Vilius: funny. You're right, it wasn't. Even we're funnier than you. Good luck. Come to think of it, our Titan Mode's better than his too.
 [quarton-battle] Slyger: Uh, Titan Mode? Slyder, Tenkai Titan Mode, activate!
 [quarton-battle] Slyger: Titan
-[quarton-battle] Beag: Mode, activate! And
-[quarton-battle] Beag: victory!
+[quarton-battle] Vilius: Mode, activate! And
+[quarton-battle] Vilius: victory!
 [quarton-battle] Ceylan: Oh, butter my britches on Tenkai toast.
-[quarton-battle] Beag: No more witty banter. No
+[quarton-battle] Vilius: No more witty banter. No
 [quarton-battle] Slyger: clever retorts. Oh, I'm working on it. Good luck with that. Forward, Corekai, head to battle! I can't think of a single one-liner! What's wrong with me? I'm losing my touch! Perhaps you're better at dancing! Not! It
-[quarton] Beag: ends now! Corekai pests!
+[quarton] Vilius: ends now! Corekai pests!
 [quarton] Beag: We must protect Tributon!
-[quarton] Beag: Better protect yourselves!
+[quarton] Vilius: Better protect yourselves!
 [quarton] Slyger: Watch out! Don't forget Slyger! Our
 [quarton] Ceylan: guys are getting decimated. In
 [quarton] Slyger: the name of the Lord, you shall not...
-[quarton] Beag: So much for the warm-up!
+[quarton] Vilius: So much for the warm-up!
 [quarton] Slyger: Now
-[quarton] Beag: for the big finish!
+[quarton] Vilius: for the big finish!
 [quarton] Vilius: Uh
 [quarton] Slyger: -oh! Beag, we've got to retreat! Now! Retreat? You were right. I should have waited for the others.
 [quarton] Ceylan: I sure screwed up today. At least I got the answer to my question. Now I know what I have to do. Have
@@ -119,7 +119,7 @@
 [quarton-battle] Slyger: mode! Activate!
 [quarton-battle] Slyger: Zumba! He's
 [quarton-battle] Slyger: got your back, big! The Tenkai Knights! Here
-[quarton-battle] Beag: come the others. Now
+[quarton-battle] Vilius: come the others. Now
 [quarton-battle] Slyger: the real fun begins. Keep an eye on Slyger. I'm going for Granox. Gather!
 [quarton-battle] Slyger: Slyger!
 [quarton-battle] Toxsa: Oh,
@@ -130,16 +130,16 @@
 [quarton-battle] Slyger: I got this, Lydendor!
 [quarton-battle] Beag: Bravenwolf! I
 [quarton-battle] Slyger: like this Titan mode!
-[quarton] Beag: Yeah, and we know how to use it. It's wasted on these fools. Born!
+[quarton] Vilius: Yeah, and we know how to use it. It's wasted on these fools. Born!
 [quarton] Toxsa: Can you move? What's the sports term for now?
-[quarton-battle] Beag: I'm going to enjoy this. Too bad it won't last long. Now
+[quarton-battle] Vilius: I'm going to enjoy this. Too bad it won't last long. Now
 [quarton-battle] Slyger: playing, Tributon and the Volt Jets! Well, what do you know? Yes,
 [quarton-battle] Ceylan: Tributon! Must have been crazy. Sending you out with Toxsa as your funny man. That actor's bound to be a flop.
 [quarton] Slyger: But amateur hour is over!
 [quarton] Mr._White: Ceylon, if you truly believe that you were not meant to be a Tenkai Knight, then why are you going?
 [quarton] Ceylan: Well, what's a jokester without an audience? Right, Mr. White? Besides, they're my team. And if the team says it needs me, who am I to... Can we talk about this later? You hit me like a good punchline. What was it that finally allowed me to go Titan mode? It was realizing that they're more than just teammates. They're my friends. Friends are everything.
 [quarton] Slyger: And that's no joke! You should have stayed away! Now's my chance! I made a joke!
-[quarton] Beag: You think you're funny? Well, I'm not laughing! Just
+[quarton] Vilius: You think you're funny? Well, I'm not laughing! Just
 [quarton] Slyger: wait! This one will really crack you up! Get it? Crack you up! Tributon, a
 [quarton] Ceylan: little help? The setup wasn't bad, but you kind of blew the punchline.
 [quarton] Slyger: Get it? Punchline.

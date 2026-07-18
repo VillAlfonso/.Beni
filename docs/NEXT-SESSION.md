@@ -19,9 +19,10 @@ all"), and unenrolled voices (Corekai soldiers, the boys) matching "Guren". Fixe
 MATCH_THRESHOLD now 0.60. Full-cast enrollment done (2026-07-18 night): 52/52 eps, 88% named,
 Beni 348 confident lines. AUDIT FLAGS for the read-through: Ceylan (1879) / Slyger (858) /
 Beag (452) are likely absorbing unenrolled similar voices — verify against episode presence;
-Guren (406) may be undercounted. Unenrolled still: Chooki, Kiiro-EN (ep47 sheet ready),
-Wakame (ep19). find_by_context found Guren's Dad = ep01 SPEAKER_01 (6 cues) — user confirms
-with one listen, then enroll.
+Kiiro-EN enrolled from ep47 (53 lines, change-of-heart arc covered; 89% named, Beni 329,
+Guren recovered to 583, Ceylan absorber shrinking 1879→1702). Unenrolled still (optional):
+Chooki, Wakame (ep19). find_by_context found Guren's Dad = ep01 SPEAKER_01 (6 cues) — user
+confirms with one listen, then enroll.
 `repair_attribution.py` exists but is **experimental — do NOT run it with the local 24B**
 (tested on ep15: 74 unaudited edits, missed the target case; reverted from pre_repair/).
 **The real repair belongs to THIS session's world-bible read-through**: while reading each

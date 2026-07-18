@@ -1,6 +1,6 @@
 [quarton-battle] Ceylan: Guren here. So far, the other Tenkai Knights and I have held our own in the battle against Vilius and his corrupted toaster bots. But the job's not getting any easier. First, we lost the ability to shapeshift into Titan mode. Then, we learned that the bad guys were on the verge of finding the Tenkai Fortress, the powerful source of Tenkai Energy. On top of that, there's the question of what happened to our allies, the Guardians. We knew they'd been captured by Vilius. What we didn't know, and what we were about to find out, was that it was even worse than that. Much worse.
 [quarton-battle] Vilius: While it's been amusing to hold you helplessly in my power, I can't have you just standing around forever. As I said before, I have plans for you. We've opposed each other for too long. We all want the same thing. Balance. Help me defeat the Tenkai Knights, and that balance will be achieved. Help you, Vilius? You mean serve you. Something we will never do, even if it means our very existence. Oh, I wouldn't be so sure about that. Once you've been infused as I have with the dark energy of the Black Dragon Cubes, you
-[quarton-battle] 4_Guardians: will change your minds. And help you disrupt the balance? Never. You don't understand.
+[quarton-battle] Vilius: will change your minds. And help you disrupt the balance? Never. You don't understand.
 [quarton-battle] Vilius: That wasn't a suggestion. It was a statement of fact.
 [quarton-battle] Ceylan: Ah!
 [quarton-battle] Vilius: There. Are we going to be more reasonable? Good. Now, my corrupted Guardians, it is time to take the battle to the Knights! One of As Vilius' commands. No. We must resist. But it feels so good, Notus. Why fight it? All this dark energy surging through me. I've never felt such power. Welcome to my side.
@@ -10,14 +10,14 @@
 [quarton] Toxsa: Get it, Boreas? He didn't get it.
 [quarton] Vilius: Guys, you think Vilius might have done something to the Guardians while he had them in his power?
 [quarton] Ceylan: No way! You'd never serve Vilius, no matter what, would you, Boreas? That answers that! Boreas, it's us!
-[quarton] 4_Guardians: Vilius is right. This is the only way that balance will be achieved. It's finally clear to me now. It is you who are the problem.
+[quarton] Vilius: Vilius is right. This is the only way that balance will be achieved. It's finally clear to me now. It is you who are the problem.
 [quarton] Ceylan: You're gonna get balanced by fighting us?
-[quarton] 4_Guardians: Not fighting you. Destroying you!
+[quarton] Vilius: Not fighting you. Destroying you!
 [quarton] Ceylan: I got him! No, I got him! I got him! Should've seen that coming. Hold it, Boreas! Ah!
 [quarton] Vilius: Even the Knights can't fight the power of a Guardian! The
-[quarton] 4_Guardians: choice is yours. Surrender, or be destroyed.
+[quarton] Vilius: choice is yours. Surrender, or be destroyed.
 [quarton] Ceylan: I choose Z, none of the above. There's another option. I say we hightail it the heck out of here. Run? Yeah, while we still can. They're right. We've gotta come up with a new game plan. You made the right choice.
-[quarton] 4_Guardians: Yes, run away. Next time, I won't be so merciful.
+[quarton] Vilius: Yes, run away. Next time, I won't be so merciful.
 [quarton] Mr._White: My old friend. It's hard to believe.
 [quarton] Toxsa: Yeah,
 [quarton] Ceylan: he's not so friendly anymore.
@@ -120,37 +120,37 @@
 [quarton] Vilius: Tenkai!
 [quarton] Ceylan: At
 [quarton] Vilius: least I certainly hope they're on the way. So, the Tenkai Knights return. Anything damaged, Beak? Only my self-confidence. I was foolish enough to think we could handle Boreas ourselves, but not so much. This
-[quarton] 4_Guardians: is one summons you shouldn't have answered, Knights. You will regret it.
+[quarton] Vilius: is one summons you shouldn't have answered, Knights. You will regret it.
 [quarton] Ceylan: Alright, let's put our training to use, guys. And unleash
 [quarton] Toxsa: the goblin-proof force field within us. And the x
 [quarton] Ceylan: -ray vision.
 [quarton] Toxsa: Remember,
 [quarton] Ceylan: don't talk. And don't think. Just do. So let's do it! Yeah!
-[quarton] 4_Guardians: If you think the outcome will be different this time, you're right. Guardian Tenkai Megafusion, engage! Made
-[quarton] 4_Guardians: on the otherworld, Knights. This time, there's no running away.
+[quarton] Vilius: If you think the outcome will be different this time, you're right. Guardian Tenkai Megafusion, engage! Made
+[quarton] Vilius: on the otherworld, Knights. This time, there's no running away.
 [quarton] Ceylan: This is a whole new ballgame. Yeah, we didn't train for this. You're gonna need a bigger rice bowl.
 [quarton] Toxsa: Big hand, big hand! The old Boreas was bad enough, but Gigantor Boreas? Forget it! We're not ready for this, Bravenwolf. We don't
 [quarton] Ceylan: know that! We'll never know what we're capable of if we don't at least try. We can't run away again. Even if he'd let us. Which he won't. Well, there goes my specialty.
-[quarton] 4_Guardians: I don't know what this training is you speak of, but it will do you little good since you can't even shapeshift into titan mode.
+[quarton] Vilius: I don't know what this training is you speak of, but it will do you little good since you can't even shapeshift into titan mode.
 [quarton] Toxsa: Stellar landing, but you might want to get up. I don't think he's finished yet. Watch out! What? No, no, no, no, no! Valorn! Okay, this wasn't exactly what I expected to happen!
 [quarton] Vilius: Put him down, Boreas!
 [quarton] Ceylan: I
 [quarton-battle] Toxsa: got him!
-[quarton-battle] 4_Guardians: Vilius will restore the balance, and there's nothing you can do to stop him. If
+[quarton-battle] Vilius: Vilius will restore the balance, and there's nothing you can do to stop him. If
 [quarton-battle] Ceylan: it's me you want, come and get me, but let Valorn go!
-[quarton-battle] 4_Guardians: I will after I've crushed him into nothingness. Don't worry about
+[quarton-battle] Vilius: I will after I've crushed him into nothingness. Don't worry about
 [quarton-battle] Ceylan: me, I'm not under pressure. Oh, that's a lot of pressure! No! Put him down right now, Boreas! No! There
-[quarton-battle] 4_Guardians: is nothing you can do. You're helpless without titan mode. You can't even fully access your tenkai energy, thanks to the seal that Vilius put on it.
+[quarton-battle] Vilius: is nothing you can do. You're helpless without titan mode. You can't even fully access your tenkai energy, thanks to the seal that Vilius put on it.
 [quarton-battle] Mr._White: You're wrong! A living force that flows through everything in the universe. Can you feel it? You may discover powers you never realized
 [quarton-battle] Vilius: were there. I feel it! Tenkai Firestorm Titan Mode is online in operation. Well,
 [quarton-battle] Ceylan: what are we waiting for? Bravenwolf Tenkai Firestorm!
 [quarton-battle] Ceylan: Bring it on, Boreas! You
 [quarton-battle] Ceylan: look so big from up here! You
-[quarton-battle] 4_Guardians: surprise me, Bravenwolf, but you are still a long way from being a match for one of the Guardians. Oh,
+[quarton-battle] Vilius: surprise me, Bravenwolf, but you are still a long way from being a match for one of the Guardians. Oh,
 [quarton-battle] Toxsa: thanks, this is my floor. So, you think I'm no match for you, huh? Well,
 [quarton] Ceylan: let's find out. Right... You're
 [quarton] Ceylan: estimated!
-[quarton] 4_Guardians: Once again, you surprise me. But you've only postponed the inevitable. For the Guardians are eternal, and you will never defeat us. Never! You
+[quarton] Vilius: Once again, you surprise me. But you've only postponed the inevitable. For the Guardians are eternal, and you will never defeat us. Never! You
 [quarton] Ceylan: got back your titan mode! Yeah! When do I get mine? I want that upgrade!
 [quarton] Toxsa: Definitely!
 [quarton] Mr._White: Well done, boys! So, your ninja training came in handy? Sure

@@ -1,4 +1,4 @@
-[quarton] Ceylan: Guren here. In case you've been in another dimension and missed it, the Knights were stuck for a while in the Beast World, the topsy-turvy place run by this guy, Scorpidon. He wouldn't let us return to Earth, even after we'd aced all his bootball missions and threw at us, so we finally had to kick some arachnid butt. Turned out, all the guy wanted was to be entertained, and once we'd done that, he was happy to let us go. He even gave me a special parting gift. Now it's back to business as usual, keeping Vilius from getting his oily mitts on the Tenkai Fortress.
+[quarton] Guren: Guren here. In case you've been in another dimension and missed it, the Knights were stuck for a while in the Beast World, the topsy-turvy place run by this guy, Scorpidon. He wouldn't let us return to Earth, even after we'd aced all his bootball missions and threw at us, so we finally had to kick some arachnid butt. Turned out, all the guy wanted was to be entertained, and once we'd done that, he was happy to let us go. He even gave me a special parting gift. Now it's back to business as usual, keeping Vilius from getting his oily mitts on the Tenkai Fortress.
 [quarton] Vilius: You should have stayed in the Beast World, Knights. That was a vacation compared to what you face here.
 [quarton] Slyger: There they go. I never get tired of this. Just like old times.
 [quarton] Vilius: Alright,
@@ -13,7 +13,7 @@
 [quarton] Toxsa: Well, good thing I'm wearing a hard hat.
 [quarton] Vilius: We will finish this later, Knights. Did
 [quarton] Toxsa: we scare him off? No. That
-[quarton] Ceylan: wasn't it. He didn't want to damage the Fortress.
+[quarton] Guren: wasn't it. He didn't want to damage the Fortress.
 [quarton] Beni: Just when it was getting good. Every time it looks like those four sappy do-gooders are finally gonna get it, they luck out. It's like a bad soap opera. There's such a bunch of dumbbells. And that goes for Vilius, too. Trying to prove how macho they are by fighting over the Tenkai Fortress, when this is all they need. Cause what good's the Fortress without the key?
 [quarton] Toxsa: Am
 [quarton] Beni: I right?
@@ -30,21 +30,21 @@
 [quarton] Mr._White: with you. Huh?
 [quarton] Toxsa: What is it?
 [quarton] Mr._White: Guren, is there something wrong? No,
-[quarton] Ceylan: I was just wondering about that emblem thing Rengor gave me. Emblem, you say? Yeah, it was like a wolf's head.
+[quarton] Guren: I was just wondering about that emblem thing Rengor gave me. Emblem, you say? Yeah, it was like a wolf's head.
 [quarton] Toxsa: Well, whatever. I'm just glad we're out of that place. I'm exhausted after all that crazy running around. At last we can chillax.
-[quarton] Ceylan: No. Huh? That's the last thing we can do. So what's bothering you, Guren? That battle with Vilius? Yeah, you said it yourself. The way we fought, it was like we were rusty or something. Yeah, it's true. We're like a team that's peaked and the playoffs haven't even started.
+[quarton] Guren: No. Huh? That's the last thing we can do. So what's bothering you, Guren? That battle with Vilius? Yeah, you said it yourself. The way we fought, it was like we were rusty or something. Yeah, it's true. We're like a team that's peaked and the playoffs haven't even started.
 [quarton] Toxsa: Watch out. Here come the sports metaphors and we all know what that means. You're gonna say we've gotta work on our training.
-[quarton] Ceylan: I don't know. Maybe. Guys, we've got the Tenkai Dragon's energy inside us.
-[quarton] Ceylan: When you put it like that, yeah,
+[quarton] Guren: I don't know. Maybe. Guys, we've got the Tenkai Dragon's energy inside us.
+[quarton] Guren: When you put it like that, yeah,
 [quarton] Toxsa: we are in kind of a rut. Okay, so how do we get out of it? I give up. I'm starving. Is that all you ever think about? It's important. The brain cannot function properly when deprived of nutrients. Your brain can't function properly, period. Hey! I've
-[quarton] Ceylan: got it! Huh? Is
+[quarton] Guren: got it! Huh? Is
 [quarton] Toxsa: it a cheese steak with extra grilled onions?
-[quarton] Ceylan: Guys, I was totally wrong. About what? We do need to
+[quarton] Guren: Guys, I was totally wrong. About what? We do need to
 [quarton] Toxsa: chillax. Chill out. Take a break. You mean like to recharge our batteries or whatever? Yeah, to get us out of our rut. Okay, just remember it was my idea. Exactly. Toxsa was right all along. Huh? I was? Really?
 [quarton] Mr._White: A barbecue. What an excellent idea. As you can see, I brought everything we need, even the lovely weather.
-[quarton] Ceylan: That's not all
+[quarton] Guren: That's not all
 [quarton] Mr._White: you brought, I see. What gifts? It's kind of weird that Toxsa and Chooki aren't here yet. Not as weird as Ceylan's mood. Oh, I hope you don't mind that I invited your training master. I wonder
-[quarton] Ceylan: what's keeping him.
+[quarton] Guren: what's keeping him.
 [quarton] Toxsa: Yeah, I'd better go look for him. Really? Who would have used any excuse to get away from the emo weirdo?
 [quarton] Beni: Hang on. Alone? He never leaves Gurren's side. You're
 [quarton] Toxsa: working? What about our barbecue? My sister made me stick around and help out. Meatloaf day is like our busiest day all week. You've gotta be kidding. Why would I kid? It's actually pretty good meatloaf.
@@ -52,42 +52,42 @@
 [quarton] Toxsa: a minute. Oh, hello, Ceylan. Uh, hi there, Wakame. Your timing's perfect. Working? What do you mean? Sorry. I got roped into being a busboy. That's Gurren. Tell him sorry. If it's a phone order, tell him we're out of the meatloaf.
 [quarton] Slyger: Toxsa! Table seven! Ceylan, fish it! All right. Sorry. Don't...
 [quarton] Mr._White: Wait, then. Where's Chooki? That I know. Chooki has gone fishing, and he promised that whatever he catches, he'll bring back for us to eat. What?
-[quarton] Ceylan: We'll
+[quarton] Guren: We'll
 [quarton] Slyger: starve. Gotcha! Okay, that does it! Now I'm mad! You fish think you're pretty smart, don't ya? Fine. If that's the way you want to
-[quarton] Ceylan: play. Since he won't quit till he catches one, I guess we can count him out.
+[quarton] Guren: play. Since he won't quit till he catches one, I guess we can count him out.
 [quarton] Gen: Real reliable friends you've got. Well, let's get started and hope for the best.
-[quarton] Ceylan: Sausages? Steak? Veggies? Everything! Something tells me you've done this before, Mr. White. Well, I am
+[quarton] Guren: Sausages? Steak? Veggies? Everything! Something tells me you've done this before, Mr. White. Well, I am
 [quarton] Mr._White: a barbecue master, third degree after all. Is
-[quarton] Ceylan: there really such a thing?
+[quarton] Guren: there really such a thing?
 [quarton] Mr._White: It's one of the lesser known of the martial arts. Good heavens, I seem to have forgotten something. Really? What? Something that's rather essential for a barbecue. Barbecue sauce. How could a master forget that? Cause he's only third degree. Guren, will you do me a favor? Will you ride like the wind and pick some up from the store? Man,
-[quarton] Ceylan: relaxing's a lot of work.
+[quarton] Guren: relaxing's a lot of work.
 [quarton] Beni: Huh? The plot thickens. First Ceylan zips by, now Guren. Something's definitely going on.
-[quarton] Ceylan: Hey, Beni! I haven't seen you since the Beast World.
+[quarton] Guren: Hey, Beni! I haven't seen you since the Beast World.
 [quarton] Beni: Don't sneak up on me like that. Why are you spying on me anyway?
-[quarton] Ceylan: I wasn't spying on you, I was just getting some barbecue sauce. What
+[quarton] Guren: I wasn't spying on you, I was just getting some barbecue sauce. What
 [quarton] Beni: do you want that for?
-[quarton] Ceylan: Hello? For the barbecue we're having?
+[quarton] Guren: Hello? For the barbecue we're having?
 [quarton] Beni: So that's what it was all about. All that rushing back and forth.
-[quarton] Ceylan: Now who's spying? Huh?
+[quarton] Guren: Now who's spying? Huh?
 [quarton] Beni: I was not! Please, like I even care. So what are you barbecuing anyway?
-[quarton] Ceylan: Basically everything. Shish kebab? Of course. Not just that. Corn on the cob, sausages, the works. A
+[quarton] Guren: Basically everything. Shish kebab? Of course. Not just that. Corn on the cob, sausages, the works. A
 [quarton] Beni: real blowout. That sounds good. There's nothing like buttery corn on the cob off the grill. Why don't you come along? Hm? No,
-[quarton] Ceylan: thank you. I'm busy. Come on. It'll be a lot like, uh, team reunion. Huh? Since when are we a team? Listen, Beni, we would never have gotten
+[quarton] Guren: thank you. I'm busy. Come on. It'll be a lot like, uh, team reunion. Huh? Since when are we a team? Listen, Beni, we would never have gotten
 [quarton] Beni: out of the beast world
-[quarton] Ceylan: without
+[quarton] Guren: without
 [quarton] Beni: your help. That's only because I wanted to get out of that dump as much as anyone. Doesn't mean we're a team or anything.
-[quarton] Ceylan: Suit yourself. Me, I can't wait to have a nice juicy steak, buttery corn. All right, you win. I'm back, Mr. White. Ah,
+[quarton] Guren: Suit yourself. Me, I can't wait to have a nice juicy steak, buttery corn. All right, you win. I'm back, Mr. White. Ah,
 [quarton] Mr._White: excellent timing. Oh, look who it is. Beni. What a surprise. Delighted you could join us, Beni.
-[quarton] Ceylan: What's cooking? I just happened to run into her. Totally by chance.
+[quarton] Guren: What's cooking? I just happened to run into her. Totally by chance.
 [quarton] Mr._White: Yeah, right. I just got it. You asked me what's cooking. That's very amusing.
-[quarton] Ceylan: So, here's your barbecue sauce. Ah,
+[quarton] Guren: So, here's your barbecue sauce. Ah,
 [quarton] Mr._White: excellent. Now we're cooking. Get it? Well, now, here's to a successful barbecue. Happy times. Cheers. You
 [quarton] Beni: having fun yet?
 [quarton] Gen: Skip it, Beni. Just tell me why you're really here.
 [quarton] Beni: Huh. I was invited. Were you?
 [quarton] Gen: Remember what I said. You'd better not try anything.
 [quarton] Beni: Hmm. Like stealing your friends away from you?
-[quarton] Ceylan: Okay. Simmer down, guys. Come on. Remember, we're doing this barbecue to relax and have a good time.
+[quarton] Guren: Okay. Simmer down, guys. Come on. Remember, we're doing this barbecue to relax and have a good time.
 [quarton] Beni: Yeah. Listen to your best bud, Guren. Let's all have fun. Right, Mr. White?
 [quarton] Mr._White: Precisely. So, I'd better get this food on the grill before something comes along to spoil the party. Guren, will you help me with... Oh, dear. Oh, no. It's raining. Happens every time. Quick. Under the tree. But what if there's lightning? I read somewhere
 [quarton] Slyger: they burn better in the
@@ -95,16 +95,16 @@
 [quarton] Slyger: Hey, I'm not not paying you to stand around chatting.
 [quarton] Toxsa: Sorry. The
 [quarton] Beni: fire's
-[quarton] Ceylan: out. Sorry, Beni. I kind of dragged you into this.
+[quarton] Guren: out. Sorry, Beni. I kind of dragged you into this.
 [quarton] Beni: It's okay. It's not like you control the weather. Yeah, but...
-[quarton] Ceylan: She said it's okay. Give it a rest.
+[quarton] Guren: She said it's okay. Give it a rest.
 [quarton] Beni: Hmm.
 [quarton] Mr._White: Well, on the bright side, at least there's no lightning.
-[quarton] Ceylan: I
+[quarton] Guren: I
 [quarton] Mr._White: was really hoping that this would work out. Well, it was a wonderful idea anyway, Guren. What made you
-[quarton] Ceylan: think of it? Well... I was thinking of my dad, actually. Huh? Lately, we... We haven't done it as much, but he always loves a good barbecue. We've had some of the best times. My dad... He always says it's... Well, it's not about the food. It's about the way it brings people together.
+[quarton] Guren: think of it? Well... I was thinking of my dad, actually. Huh? Lately, we... We haven't done it as much, but he always loves a good barbecue. We've had some of the best times. My dad... He always says it's... Well, it's not about the food. It's about the way it brings people together.
 [quarton] Beni: Cue the violins. Huh? What a sappy story. I'm outta here. Wait! Don't go yet!
-[quarton] Ceylan: Just wait till it stops raining. Give me a loan, will ya? Hey! What did I say? That emblem...
+[quarton] Guren: Just wait till it stops raining. Give me a loan, will ya? Hey! What did I say? That emblem...
 [quarton] Gen: Beni.
 [quarton] Beni: What now? What do you want?
 [quarton] Gen: Seems like... Guren's story struck a nerve.
@@ -123,12 +123,12 @@
 [quarton] Slyger: What if we teamed up and captured the Tenkai Fortress ourselves?
 [quarton] Vilius: Yeah. That would improve his mood, all right. Glad I thought of it.
 [quarton] Mr._White: Rainfall. Barbecue's natural enemy. I
-[quarton] Ceylan: wonder why the emblem glowed like that. Core Brick.
+[quarton] Guren: wonder why the emblem glowed like that. Core Brick.
 [quarton] Slyger: We've been summoned. Come on, Toxsa. Where do you think you're going? We gotta go. It's important. Crisis.
 [quarton] Slyger: I don't get it. Why is this the one sport I'm no good at? I just wanna catch a fish! Crush the Core Brick! He's the Tenkai Fortress! Never! Not while one of us still stands! I'm here, Beak! Oh, good.
 [quarton] Beni: Well,
 [quarton] Slyger: all my brave words. I'm glad you're here. Uh, but we're, uh, where are the others? Where's the wolf?
-[quarton] Ceylan: It's, uh, complicated. I don't understand.
+[quarton] Guren: It's, uh, complicated. I don't understand.
 [quarton] Vilius: Bravenwolf. And all alone. I like those odds. Hate
 [quarton] Slyger: to disappoint you,
 [quarton] Vilius: but I'm
@@ -171,5 +171,5 @@
 [quarton] Gen: Beni, want to come? We're having a barbecue.
 [quarton] Beni: What? Get out of here. I was just joking around last time. I wouldn't be caught dead with you guys. I'm a lone wolf.
 [quarton] Gen: Just being friendly. Anyway, see you around.
-[quarton] Ceylan: Friendly. Finally! Hurry up! You can't do it! Come on!
+[quarton] Guren: Friendly. Finally! Hurry up! You can't do it! Come on!
 [quarton] Vilius: You're surrounded by fools and incompetents! Or litty-full schemers like Venetta! I will find the Tenkai Stone myself if I have to tear the-

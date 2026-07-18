@@ -4,7 +4,7 @@
 [quarton] Unknown: let's give him a show! Lydendor, Tenkai Lightning Strike! Tributon, Tenkai,
 [quarton] Unknown: Bravenwolf, Tenkai!
 [quarton] Unknown: Right on!
-[quarton] 4_Guardians: Oh, so you think you can just leave, huh? Be my guest. This
+[quarton] Vilius: Oh, so you think you can just leave, huh? Be my guest. This
 [quarton] Ceylan: is my bedroom! Where
 [quarton] Ceylan: are you, buddy? Max! Wait, are you in the wardrobe? How'd you get in there?
 [quarton] Unknown: I dragged in! I thought
@@ -132,7 +132,7 @@
 [quarton-battle] Unknown: your rear view, pull over and say goodbye to... Vurta Scream!
 [quarton-battle] Unknown: Okay, you want style? This baby's got style. She's sleek and unique, but don't let that fool ya. Underneath all the elegance burns a power core that eats slowpokes for breakfast. Lower your guard for a second and you'll get a face full of fumes from BRAVE RACER! You've
 [quarton-battle] Unknown: got the definition of lean and mean, with the emphasis on mean. A bucket of bad news powered by pure evil. This monster comes fully equipped with every dirty trick in the book. And a few so dirty they couldn't even be printed. So, pull over or get stabbed in the back by the Flying
-[quarton-battle] 4_Guardians: Dagger
+[quarton-battle] Vilius: Dagger
 [quarton-battle] Unknown: Scramjet!
 [quarton-battle] Unknown: Okay, every race has to have an all-star rant. You know what I mean. Some random racer that's in there to keep things exciting, but doesn't really have a chimp's chance of winning. Well, here's ours! It's Bolt Blitzer! Driven by those fearsome localites, Gorlux and Gorthob! Conditions are perfect, the crowd is rocking! The end is already and the race is about to begin!
 [quarton-battle] Ceylan: Here we go! Remember guys, if we win this, we get to go home! Let's do it! I hate to disappoint you guys,
@@ -151,15 +151,15 @@
 [quarton-battle] Ceylan: Yeah! Back to our homes and families! And chili cheese waffles!
 [quarton-battle] Unknown: Hey, Venetta. There's nothing to be down about. You ran a good race. Second place may be good
 [quarton-battle] Ceylan: enough for you. Not for me. Cheer up. We were all gonna wish for the same thing if we won. At least now we get to go home.
-[quarton-battle] 4_Guardians: Really? I wouldn't count on it.
+[quarton-battle] Vilius: Really? I wouldn't count on it.
 [quarton] Ceylan: Huh? Terrific. The talking wall again. What's he trying to pull this time? Hey, you can't say that we didn't win. It was a photo finish.
-[quarton] 4_Guardians: It's the start that concerns me. Part of your vehicle was clearly over the starting line. That's against the rules. What?
+[quarton] Vilius: It's the start that concerns me. Part of your vehicle was clearly over the starting line. That's against the rules. What?
 [quarton] Ceylan: Guess we should have gone with the subcompact.
-[quarton] 4_Guardians: I'm afraid
+[quarton] Vilius: I'm afraid
 [quarton] Vilius: you're disqualified. Caught you, you cheaters! Now we'll have to run the race again! Oh, please.
 [quarton] Unknown: I don't think I can stand it.
 [quarton] Vilius: As
-[quarton] 4_Guardians: I explained before, you cannot leave
+[quarton] Vilius: I explained before, you cannot leave
 [quarton] Unknown: the Beast Worlds
-[quarton] 4_Guardians: until you have amused me. And so far, I am unamused.
+[quarton] Vilius: until you have amused me. And so far, I am unamused.
 [quarton] Ceylan: And makes two of us? Just tell us what we've gotta do to get home!

@@ -11,7 +11,7 @@
 [unknown] Unknown: next impression will be really quick! A windmill and a hurricane! So,
 [quarton] Ceylan: the Knights have a lot of girls to save, huh? You guys do that a lot? Actually, it's worlds, not girls. Too bad, I was hoping you
 [quarton] Unknown: had experience in girl saving. Cause you see, you're gonna have to rescue the princess, survive the grave of danger, and find the treasure of wonders if you ever want to leave this place. Come on, you gotta be kidding! Hardly. And if you think that sounds bad, I won't even mention the Pit of a Thousand Screams! Or the
-[quarton] Beag: monster
+[quarton] Vilius: monster
 [quarton] Unknown: with 45s! Okay, your mission starts now!
 [quarton] Ceylan: What's with the Ren Faire music?
 [quarton] Toxsa: Wait, I've played this game! This is just like Doom's Border Junior! Come on, we're gonna clear this level in no time! Excellent! Whatever that means! It means, follow me! I beat this game when I was like 8 years old! Slyger! He wasn't in the game! It's
@@ -116,10 +116,10 @@
 [quarton] Ceylan: Tenkai Z. Tri -agility.
 [quarton] Toxsa: We're back on the surface. At least, you know, Vilius is here. Vilius. It's
 [quarton] Vilius: for me.
-[quarton-battle] Beag: I still need to keep up with what I've been doing. The treasure is for me. At least you get the chance to know where the treasure is going. The
+[quarton-battle] Vilius: I still need to keep up with what I've been doing. The treasure is for me. At least you get the chance to know where the treasure is going. The
 [quarton-battle] Ceylan: treasure
-[quarton-battle] Beag: is for me. Vilius is here and the treasure will be yours. If you mess with it, you'll get the treasure you want. Now, we need something to eat. We need some product to eat. Would
-[quarton-battle] Beag: you do the honors?
+[quarton-battle] Vilius: is for me. Vilius is here and the treasure will be yours. If you mess with it, you'll get the treasure you want. Now, we need something to eat. We need some product to eat. Would
+[quarton-battle] Vilius: you do the honors?
 [quarton-battle] Unknown: Love to. Combining the power of Bravenwolf, the speed of Tributon, and the beagness of Beag, this icy-hot, supercharged speed demon has got everything it takes to cross the finish line first. That's right, race fans, I'm talking about the one and only Accelerastrike.
 [quarton-battle] Unknown: Performance is what this next puppy is all about. A four-on-the-floor fusion of strength and agility. This battle-tested air-pin hugger doesn't know the meaning of the word pit stop. Okay, that's two words, but it's still true. So, if you see this racer in your rear view, pull over and say goodbye to... Virtus
 [quarton-battle] Ceylan: .Cream!
@@ -148,19 +148,19 @@
 [quarton-battle] Ceylan: sweet! Aw, man. Well, at least we beat Toxsa. I still say we blast them! But, Guren... Doesn't matter! Even if we're out of the race, there's still Beni! You gonna let her win? Better her than Vilius! Besides, she saved us, remember? And a Tenkai Knight always repays his debts! Really? Why does it say that in the rulebook? Target locked! Ready? Fire!
 [quarton-battle] Unknown: Whoa, a major firework! It looks like all the racers may be out of the... Wait, no! Here's Brave Racer rocketing through without a Scramjet! Racer!
 [quarton-battle] Toxsa: That was fun.
-[quarton-battle] Beag: A deal's a deal. You won the race, Princess. So what is your wish?
+[quarton-battle] Vilius: A deal's a deal. You won the race, Princess. So what is your wish?
 [quarton-battle] Toxsa: That's an easy one. We want outta here. We wanna go home.
-[quarton-battle] Beag: Are you using the royal we, Princess?
+[quarton-battle] Vilius: Are you using the royal we, Princess?
 [quarton-battle] Toxsa: What do you mean?
-[quarton-battle] Beag: Only you get to go home.
+[quarton-battle] Vilius: Only you get to go home.
 [quarton-battle] Toxsa: What? But what about them?
-[quarton-battle] Beag: They didn't even finish the race! Which means they stay in Beast World forever! Forever?
+[quarton-battle] Vilius: They didn't even finish the race! Which means they stay in Beast World forever! Forever?
 [quarton-battle] Toxsa: Forever and ever?
 [quarton-battle] Unknown: Yeah, don't you wish you were that lucky? Well, so long. Have a nice trip. Send a postcard. Hmm... What are you saying? Go home. Go on, geth. It's over. Wait,
 [quarton-battle] Toxsa: I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over whatever you call it.
-[quarton-battle] Beag: Really? That's kind of lame.
+[quarton-battle] Vilius: Really? That's kind of lame.
 [quarton-battle] Toxsa: Wow, Beni. Don't get sappy. It's fun kicking your bots. Besides, I'm kinda digging this Princess thing.
-[quarton-battle] Beag: Very well, then. You shall have your wish. Off you go to the next level. And good luck. Oh, goody,
+[quarton-battle] Vilius: Very well, then. You shall have your wish. Off you go to the next level. And good luck. Oh, goody,
 [quarton-battle] Ceylan: goody.
 [quarton-battle] Unknown: So far, we've just been warming up. Now
 [quarton-battle] Ceylan: we're really gonna have a blast. Wait, can I change my wish? Uh-oh.

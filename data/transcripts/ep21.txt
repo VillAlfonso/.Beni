@@ -8,7 +8,7 @@
 [quarton] Slyger: Just as you commanded. All
 [quarton] Vilius: ground and airborne forces are assembled and awaiting your
 [quarton] Slyger: orders.
-[quarton] 4_Guardians: Excellent. No force on the planet could withstand such an army. Quarton will be yours. You think? I think I'll stop at just
+[quarton] Vilius: Excellent. No force on the planet could withstand such an army. Quarton will be yours. You think? I think I'll stop at just
 [quarton] Vilius: Quarton. Think again. It's
 [quarton] Guren: the weekend, Dad. Do you really have to go to work?
 [quarton] Unknown: Afraid so. We're getting into the last stages of construction. Okay, I'm off. See you later, Guren.
@@ -65,7 +65,7 @@
 [quarton-battle] Vilius: Name it, Vilius. I need you to destroy the Tenkai Knights. Oh, is that all? We have toyed with the Corekai and their Tenkai protectors long enough. The time has come to crush them all!
 [quarton-battle] Gen: Consider them crushed.
 [quarton-battle] Vilius: Granox! Here. You will support Dromus in his battle against the Knights. I
-[quarton-battle] 4_Guardians: will? I mean, uh, can't he handle it? Your powers have been
+[quarton-battle] Vilius: will? I mean, uh, can't he handle it? Your powers have been
 [quarton-battle] Vilius: enhanced with the energy of the Tenkai Dragon. It's time you put them to use. As Vilius commands. That
 [quarton-battle] Toxsa: chicken! He's avoiding you! Feel the sting of my
 [quarton-battle] Slyger: blade, Dromus! Dude, what's up?
@@ -86,16 +86,16 @@
 [quarton] Beag: cut off from our base by a large enemy force. But they're not attacking. It's as if they're waiting for us to make the first move.
 [quarton] Toxsa: What is this, a stare down? Come on, let's plug and play!
 [quarton] Gen: Time to bait the trap. Granox, are you ready for robofusion?
-[quarton-battle] 4_Guardians: Ready. I was programmed ready. Granox!
+[quarton-battle] Vilius: Ready. I was programmed ready. Granox!
 [quarton-battle] Beag: Tenkai Titan Mode! Activate! And
 [quarton-battle] Beag: victory! War stallion, front and center! Prepare for robofusion! Now for a jolt of dark energy lightning!
 [quarton-battle] Beag: Granox Centaur Mode! Forward, Corrupted! Follow
-[quarton-battle] 4_Guardians: me
+[quarton-battle] Vilius: me
 [quarton-battle] Beag: into battle!
 [quarton-battle] Gen: Not so fast,
-[quarton-battle] 4_Guardians: Granox. What? You want me to attack slowly?
+[quarton-battle] Vilius: Granox. What? You want me to attack slowly?
 [quarton-battle] Gen: No, I want you to stay here and use your long range firepower against the enemy. I'll lead the attack.
-[quarton-battle] 4_Guardians: You'll take on the Knights while I stay out of harm's way? I like this plan.
+[quarton-battle] Vilius: You'll take on the Knights while I stay out of harm's way? I like this plan.
 [quarton-battle] Slyger: Gromo's Tenkai Titan Mode! Activate! I'll
 [quarton-battle] Gen: lure them within range, and then you pick them off. Understood? They'll probably just stay over there. You're not... Can't
 [quarton-battle] Beag: survive such firepower for long!
@@ -107,9 +107,9 @@
 [quarton-battle] Slyger: Not good. We're pinned down like a bad wrestler! Let's not get counted out! It's an exchange of queens! Say what? They attack with their strongest piece, so we play it by the book and respond with our strongest piece. And that's exactly what they wanted. You see? Not really. But I don't play checkers. Guren's not
 [quarton-battle] Toxsa: gonna like you calling him the queen.
 [quarton] Slyger: I'm serious! Our strongest guy's been taken out of play! And meanwhile, we're pinned down here with our bots hanging out! This whole thing was a trap, and we fell for it!
-[quarton] 4_Guardians: Why am I wasting my time blasting holes in rocks way over there, when I've got much juicier targets at point-blank range?
+[quarton] Vilius: Why am I wasting my time blasting holes in rocks way over there, when I've got much juicier targets at point-blank range?
 [quarton] Slyger: We've gotta pull back, guys! And support the queen! I am so confused right now! I mean, Bravenwolf! Whatever! Come on, guys! It's not too late! Does any of this make sense to you? Sorta. We're
-[quarton] 4_Guardians: falling back! Looks like Dromus has his hands full.
+[quarton] Vilius: falling back! Looks like Dromus has his hands full.
 [quarton-battle] Gen: Maybe he learned something from our chess match. But let's see if he's improved his endgame. You can't
 [quarton-battle] Slyger: beat
 [quarton-battle] Gen: me.
@@ -132,9 +132,9 @@
 [quarton-battle] Vilius: A levitation platform. Powered with enough energy from the Tenkai Dragon to lift an army into the sky! So, we're going to reinforce Dromus and Granox? They were just a diversion. No! The real battle will take place up there! Above the clouds! I do not know what Eurus
 [quarton-battle] Unknown: is up to, but he must be stopped before it is too late. Yes. But would he even comply with the decision of the Council? Wait. I sense something approaching.
 [quarton-battle] Vilius: Defenders of Quarton! But who defends you? You are forbidden here, warlord. Why have you come? I seem to recall you banishing me once long ago. Now, at last, I have the power to
-[quarton-battle] 4_Guardians: return the favor! You know not what you do, Vilius. Be warned. By attacking us, you will only bring destruction on yourself.
+[quarton-battle] Vilius: return the favor! You know not what you do, Vilius. Be warned. By attacking us, you will only bring destruction on yourself.
 [quarton-battle] Slyger: Let's see if they're ready to stand and fight yet!
-[quarton-battle] 4_Guardians: Pull
+[quarton-battle] Vilius: Pull
 [quarton] Beag: back! Retreat and regroup!
 [quarton] Toxsa: Well, there's your answer. Whoa, what's that? That's gotta
 [quarton] Guren: be the Corrupted's main

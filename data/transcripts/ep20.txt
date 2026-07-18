@@ -9,7 +9,7 @@
 [quarton-battle] Gen: To what do I owe this unexpected honor,
 [quarton] Vilius: if you don't mind my asking? I merely wanted to express my gratitude to you. That's all. Gratitude, Vilius? Yes. You have served me well, working tirelessly for our cause. I don't want you to think your efforts have gone unappreciated. You will be well rewarded once victory has been achieved.
 [quarton] Gen: Thank you. But serving you is rewarding. I'm not sure I'm worthy enough.
-[quarton] Unknown: Look, Adam, Vilius' pet. We're out there on the front lines fighting and getting blasted to bits. But do we get any appreciation? No. Hmm.
+[quarton] Vilius: Look, Adam, Vilius' pet. We're out there on the front lines fighting and getting blasted to bits. But do we get any appreciation? No. Hmm.
 [quarton] Slyger: Maybe if we didn't keep getting blasted to bits, we might.
 [quarton] Vilius: You've accomplished much, Dromus. You captured the Tenkai Dragon from the Knights and found a way to utilize its energy. Now you can only control the beast itself. Which reminds me, how goes the search for the Black Dragon Key?
 [quarton] Gen: It goes well. I'm getting close. I believe I'll soon have some very good news for you.
@@ -45,9 +45,9 @@
 [quarton] Beni: Yeah,
 [quarton] Ceylan: whatever. That haircut's still a joke. Where
 [quarton] 4_Guardians: is he? He knows we can't begin without him. I sense his presence. Yes, my fellow Guardians? Is there a problem? Stop hovering, Eurus. Let us begin. This council has been convened in order to discuss your actions, Eurus. My actions? Perhaps you need to be reminded that the Guardians are expected to refrain from interfering in the affairs of Quarton. Except in cases of the most dire necessity. Such interference risks destabilizing the balance between Tenkai energies. Balance must be maintained. It was Boreas who first interfered by reviving the dragon. The actions I took were to restore the balance. Then how do you
-[quarton] Unknown: explain the surge in dark energy and the fact that the two worlds are drawing closer together? You
+[quarton] Vilius: explain the surge in dark energy and the fact that the two worlds are drawing closer together? You
 [quarton] 4_Guardians: shifted the balance, Boreas, but you cannot shift the blame. It was your meddling that caused this. Now you would have us do nothing until it is too late. Who
-[quarton] Unknown: do you want us to fight, Boreas? And where? Just name it.
+[quarton] Vilius: do you want us to fight, Boreas? And where? Just name it.
 [quarton] Slyger: Yes, Boreas. We'd follow you even if you led us into certain defeat and total annihilation. Not that that could ever happen. You
 [quarton] Vilius: know, we have to- Silence! You're aware of the data we recovered from one of the Tenkai Knights, including images of another world? The
 [quarton] Slyger: data being analyzed by
