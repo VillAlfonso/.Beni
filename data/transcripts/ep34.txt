@@ -8,54 +8,54 @@
 [quarton] Vilius: Find it and bring it to me, or face my wrath.
 [quarton] Beni: You bet. As Vilius commands. I
 [quarton] Beni: knew that shiny bling thing my dad gave me must be important. But this important? That explains the fancy gift box. So Vilius thinks this will help him find the Tenkai Fortress, huh? Hmph. Not if I happen to find it first. Come on, Tenkai Stone. Do your thing. Fetch the Fortress. What's that? It's a cute trick, but it's not really what I- Ugh. The Fortress! Find it! Hello? Anyone in there speak English? Ugh! Piece of junk! Dad gave me a knuckle! Is it a rainbow?
-[quarton] Unknown: Or a bridge? A bridge!
-[quarton] Guren: You guys felt that too?
-[quarton] Unknown: Yeah, I thought you'd pinched me again.
-[quarton] Guren: It wasn't like the bricks were summoning us. No, it felt different somehow. A low battery warning? I think we better go tell Mr. White. Yeah. Oh, yeah.
-[earth] Unknown: Hmm. It
-[earth] Guren: wasn't like we were being summoned. It was, I don't know, almost like a distress signal.
-[earth] Guren: Oh, please. My tea's not that bad.
-[earth] Unknown: Look, Mr. White! It wasn't like that before. I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this! I think we're gonna need a lot of glue.
-[earth] Guren: It's happening. Brickification.
-[quarton] Unknown: Huh? Brickiful what?
-[quarton] Guren: Something on Quarton is disrupting the balance. And affecting the very fabric of our world. Is this like what happened before? This could be even more serious. Unless we can reverse it.
-[quarton] Unknown: Is
-[quarton] Guren: that why our core bricks were acting so
-[quarton] Unknown: strangely?
-[quarton] Guren: Yes. In a way, you were right. They must have sensed the imbalance between the two energies. It was a sort of distress signal.
-[quarton] Unknown: Guess we won't be drinking any more tea, too bad. Just watch.
-[quarton] Guren: Hopefully this'll work. The
-[quarton] Guren: ancient Tenkai teachings were right. Thank goodness that was my great-great-grandmother's second cousin's favorite teapot. So
-[quarton] Unknown: the problemo is solved.
-[quarton] Guren: Not quite. This is merely a temporary solution.
-[quarton] Unknown: Say what?
-[quarton] Guren: Take away the bricks' energy and... The bricks aren't the answer. But we must find a countermeasure or the same thing will happen to everything on Earth. You
-[quarton] Unknown: don't mean everything.
-[quarton] Guren: Indeed, I do.
-[quarton] Unknown: Even chili dogs?
-[quarton] Guren: Yes, everything.
-[quarton] Unknown: Even peanut butter cheeseburgers?
-[quarton] Guren: Right at the moment, Toxsa. We have bigger concerns than your bizarre eating habits, if you don't mind. Oh. I'll see.
-[quarton] Unknown: In time.
-[quarton] Guren: As I said before, the same will happen to everything on Earth.
-[quarton] Unknown: Okay then, how do we stop it, Mr. White?
-[quarton] Unknown: That's the question.
-[quarton] Guren: What
-[quarton] Unknown: made it start happening now?
-[quarton] Guren: A mystery indeed.
-[quarton] Unknown: If that jerk Vilius is behind it, what's he
-[quarton] Unknown: hope to gain?
-[quarton] Guren: Another mystery. Yeah,
-[quarton] Unknown: why destroy a planet that you're hoping to conquer? Yes, it's puzzling.
-[quarton-battle] Guren: The
-[quarton-battle] Unknown: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't know!
-[quarton-battle] Guren: Uh, sorry. As a matter of fact, there's one thing I do know. You have to go to Quarton and find out what's happened there. Sounds like a plan. Sure beats sitting around here. Let's move.
-[quarton-battle] Unknown: This is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course. Uh,
-[quarton-battle] Unknown: Beag? Ah!
-[quarton] Unknown: Quick! Strike the set! What the heck are you doing? Oh, uh, training! Yes. Training for, uh, possible amphibious assault. Yes. It's me on the unscreened, say. What brings you here, Knights? You
-[quarton] Unknown: notice anything peculiar here lately? Even more peculiar than usual? Peculiar? Uh,
-[quarton] Unknown: no, not really. Except maybe... Except what? That thing up there!
-[quarton] Unknown: Huh? Tenkai Rainbow! What does it mean?
-[quarton] Unknown: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll fight you later! I'm busy right now! Busy doing
-[quarton] Unknown: what, Buckethead?
-[quarton] Unknown: You think I'd tell you that I'm about to find the Tenkai Fortress?
+[quarton] Slyger: Or a bridge? A bridge!
+[quarton] Mr._White: You guys felt that too?
+[quarton] Toxsa: Yeah, I thought you'd pinched me again.
+[quarton] Mr._White: It wasn't like the bricks were summoning us. No, it felt different somehow. A low battery warning? I think we better go tell Mr. White. Yeah. Oh, yeah.
+[earth] Slyger: Hmm. It
+[earth] Mr._White: wasn't like we were being summoned. It was, I don't know, almost like a distress signal.
+[earth] Mr._White: Oh, please. My tea's not that bad.
+[earth] Toxsa: Look, Mr. White! It wasn't like that before. I wonder what went- Oh. Okay, you can't blame me for that. Lower that! Look at this! I think we're gonna need a lot of glue.
+[earth] Mr._White: It's happening. Brickification.
+[quarton] Slyger: Huh? Brickiful what?
+[quarton] Mr._White: Something on Quarton is disrupting the balance. And affecting the very fabric of our world. Is this like what happened before? This could be even more serious. Unless we can reverse it.
+[quarton] Toxsa: Is
+[quarton] Mr._White: that why our core bricks were acting so
+[quarton] Toxsa: strangely?
+[quarton] Mr._White: Yes. In a way, you were right. They must have sensed the imbalance between the two energies. It was a sort of distress signal.
+[quarton] Toxsa: Guess we won't be drinking any more tea, too bad. Just watch.
+[quarton] Mr._White: Hopefully this'll work. The
+[quarton] Mr._White: ancient Tenkai teachings were right. Thank goodness that was my great-great-grandmother's second cousin's favorite teapot. So
+[quarton] Toxsa: the problemo is solved.
+[quarton] Mr._White: Not quite. This is merely a temporary solution.
+[quarton] Toxsa: Say what?
+[quarton] Mr._White: Take away the bricks' energy and... The bricks aren't the answer. But we must find a countermeasure or the same thing will happen to everything on Earth. You
+[quarton] Toxsa: don't mean everything.
+[quarton] Mr._White: Indeed, I do.
+[quarton] Toxsa: Even chili dogs?
+[quarton] Mr._White: Yes, everything.
+[quarton] Toxsa: Even peanut butter cheeseburgers?
+[quarton] Mr._White: Right at the moment, Toxsa. We have bigger concerns than your bizarre eating habits, if you don't mind. Oh. I'll see.
+[quarton] Toxsa: In time.
+[quarton] Mr._White: As I said before, the same will happen to everything on Earth.
+[quarton] Toxsa: Okay then, how do we stop it, Mr. White?
+[quarton] Slyger: That's the question.
+[quarton] Mr._White: What
+[quarton] Slyger: made it start happening now?
+[quarton] Mr._White: A mystery indeed.
+[quarton] Slyger: If that jerk Vilius is behind it, what's he
+[quarton] Toxsa: hope to gain?
+[quarton] Mr._White: Another mystery. Yeah,
+[quarton] Toxsa: why destroy a planet that you're hoping to conquer? Yes, it's puzzling.
+[quarton-battle] Mr._White: The
+[quarton-battle] Toxsa: real question is what do we do now? I don't know. There, I said it. Are you satisfied? I don't know. I don't know!
+[quarton-battle] Mr._White: Uh, sorry. As a matter of fact, there's one thing I do know. You have to go to Quarton and find out what's happened there. Sounds like a plan. Sure beats sitting around here. Let's move.
+[quarton-battle] Beag: This is how they live in the other world, eh? I wouldn't mind going there myself one day. Just for a visit, of course. Uh,
+[quarton-battle] Slyger: Beag? Ah!
+[quarton] Beag: Quick! Strike the set! What the heck are you doing? Oh, uh, training! Yes. Training for, uh, possible amphibious assault. Yes. It's me on the unscreened, say. What brings you here, Knights? You
+[quarton] Toxsa: notice anything peculiar here lately? Even more peculiar than usual? Peculiar? Uh,
+[quarton] Beag: no, not really. Except maybe... Except what? That thing up there!
+[quarton] Toxsa: Huh? Tenkai Rainbow! What does it mean?
+[quarton] Beag: Almost there! Dig, you worthless grunts! Dig! But be careful! If you damage the fortress, I'll damage you and your parts! Granox! Grr! I'll fight you later! I'm busy right now! Busy doing
+[quarton] Toxsa: what, Buckethead?
+[quarton] Beag: You think I'd tell you that I'm about to find the Tenkai Fortress?

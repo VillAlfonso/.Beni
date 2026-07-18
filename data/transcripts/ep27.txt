@@ -1,35 +1,35 @@
-[quarton] Guren: My name's Guren, and in case you missed all the fun, my fellow Tenkai Knights and I just defeated our arch-enemy, Vilius, and we scored an awesome new upgrade called Phoenix Mode. Yeah, we thought our problems were over, but on to the next challenge. To save the universe, you'd think you might at least get a break on your math homework, am I right? Tell me about it. I had to run laps for missing practice. Yeah, but at least we're safe now. Sorry about that. Can I have it back, please? Way to use your head there, Toxsa. Thanks, Guren. This is why I prefer virtual sports. Yeah, but don't you miss it? You gotta admit, it was a pretty fun ride while it lasted. Wait, we're being summoned?
+[quarton] Ceylan: My name's Guren, and in case you missed all the fun, my fellow Tenkai Knights and I just defeated our arch-enemy, Vilius, and we scored an awesome new upgrade called Phoenix Mode. Yeah, we thought our problems were over, but on to the next challenge. To save the universe, you'd think you might at least get a break on your math homework, am I right? Tell me about it. I had to run laps for missing practice. Yeah, but at least we're safe now. Sorry about that. Can I have it back, please? Way to use your head there, Toxsa. Thanks, Guren. This is why I prefer virtual sports. Yeah, but don't you miss it? You gotta admit, it was a pretty fun ride while it lasted. Wait, we're being summoned?
 [quarton] Unknown: Maybe it's just the low battery warning.
-[quarton] Guren: On all of them at the same time? Mr. White, what's going on? Oh, nothing much. Just that Vilius has been revived. What? How'd that happen? Didn't we defeat him? And destroy him? Now, now, let's all just keep calm. You can see me panicking...much. We destroyed the reassembly device. He can't be revived.
+[quarton] Ceylan: On all of them at the same time? Mr. White, what's going on? Oh, nothing much. Just that Vilius has been revived. What? How'd that happen? Didn't we defeat him? And destroy him? Now, now, let's all just keep calm. You can see me panicking...much. We destroyed the reassembly device. He can't be revived.
 [quarton] Unknown: Or so we thought.
-[quarton] Guren: I
-[quarton] Guren: don't get how Vilius could be reassembled and brought back when we destroyed the reassembly device. Well, you see, the Guardians don't need a reassembly device. The Guardians brought him back? Why? I
-[quarton] Unknown: agree with Boreas, disassembly is too merciful a fate for Vilius after what he did. We should revive him and punish him.
-[quarton] Unknown: Make him pay for his transgressions.
+[quarton] Ceylan: I
+[quarton] Ceylan: don't get how Vilius could be reassembled and brought back when we destroyed the reassembly device. Well, you see, the Guardians don't need a reassembly device. The Guardians brought him back? Why? I
+[quarton] 4_Guardians: agree with Boreas, disassembly is too merciful a fate for Vilius after what he did. We should revive him and punish him.
+[quarton] 4_Guardians: Make him pay for his transgressions.
 [quarton] Unknown: There is some logic in what you say. Yes, and enormous risk as well. There is a danger that even a disassembled Vilius will still retain some residual control over his Tenkai energy. I cannot support such a reckless proposal.
-[quarton] Unknown: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know my views.
+[quarton] 4_Guardians: It will not be the same this time. No, his powers would be under our control. Very well, let us vote, but it must be unanimous. I vote in favor of the proposal. I vote in favor as well. In favor? You know my views.
 [quarton] Unknown: I cannot... Cannot... ...oppose the will of the Council. I
-[quarton] Unknown: vote in favor. It is decided. We shall revive Vilius. Then let us proceed.
-[quarton] Unknown: Boreas, Notus, Zephyrus, the Four Guardians, the Four Corners, the Four Elements. Everything departs, everything returns. As there is darkness, so too must there be light, and as there is chaos, so too must there be balance. Within this cycle of existence, Vilius, be revived. It is done, but something is not right. One of us is transferring too much Tenkai energy. We're losing control. To
+[quarton] 4_Guardians: vote in favor. It is decided. We shall revive Vilius. Then let us proceed.
+[quarton] 4_Guardians: Boreas, Notus, Zephyrus, the Four Guardians, the Four Corners, the Four Elements. Everything departs, everything returns. As there is darkness, so too must there be light, and as there is chaos, so too must there be balance. Within this cycle of existence, Vilius, be revived. It is done, but something is not right. One of us is transferring too much Tenkai energy. We're losing control. To
 [quarton] Vilius: feel power surging through me. Pools, it's only my physical form you revive. My Tenkai energy never left.
-[quarton] Unknown: My fellow Guardians, I feel we have made a dreadful mistake. Quickly,
+[quarton] 4_Guardians: My fellow Guardians, I feel we have made a dreadful mistake. Quickly,
 [quarton] Vilius: it is not too late to undo what we have done. I don't
-[quarton] Guren: mean to question the Guardians, but what were they thinking? How'd they lose control of Vilius?
+[quarton] Ceylan: mean to question the Guardians, but what were they thinking? How'd they lose control of Vilius?
 [quarton] Unknown: I wish I knew, but I don't.
-[quarton] Guren: Wait, does this mean that Granox and Slyger are coming back too? I don't know. You don't know? How can you not know? Do you at least know whether the Guardians are all right?
+[quarton] Ceylan: Wait, does this mean that Granox and Slyger are coming back too? I don't know. You don't know? How can you not know? Do you at least know whether the Guardians are all right?
 [quarton] Unknown: Ah, well, Esari knew.
-[quarton] Guren: The only way to find out is to go back to Quarton. Hmph.
-[quarton] Guren: They're
+[quarton] Ceylan: The only way to find out is to go back to Quarton. Hmph.
+[quarton] Ceylan: They're
 [quarton] Unknown: at the Quarton. But
-[quarton] Guren: what are they doing? Wind sprints, maybe? Yeah, I don't think so.
+[quarton] Ceylan: what are they doing? Wind sprints, maybe? Yeah, I don't think so.
 [quarton-battle] Vilius: Alas, our great victory has been short-lived, Bravenwolf. The Corrupted have returned, and in greater numbers than ever. And sure
-[quarton-battle] Guren: enough, Slyger and Granox are with them. Those guys are like a temple that just won't go away. Forget them. Look who else is here. Aw man, it's like somebody hit the replay button. Why are you back, Vilius? What are you after now?
+[quarton-battle] Ceylan: enough, Slyger and Granox are with them. Those guys are like a temple that just won't go away. Forget them. Look who else is here. Aw man, it's like somebody hit the replay button. Why are you back, Vilius? What are you after now?
 [quarton-battle] Vilius: The defeat of the Corekai, the overthrow of the Guardians, the conquest of the two worlds. Oh, and the annihilation of the Tenkai Knights.
-[quarton-battle] Guren: Is that all? That's pretty much the same list as last time, isn't it? Yeah, can't you be more original?
+[quarton-battle] Ceylan: Is that all? That's pretty much the same list as last time, isn't it? Yeah, can't you be more original?
 [quarton-battle] Vilius: Enough of this banter! Destroy them! I am yesterday's
 [quarton-battle] Unknown: Slyger, Tenkai Titan Mode! Activate!
 [quarton-battle] Vilius: Activate!
-[quarton-battle] Guren: You know the drill, guys. We're on it! An
+[quarton-battle] Ceylan: You know the drill, guys. We're on it! An
 [quarton-battle] Vilius: original? How's this? I now have the power to suppress your Titan Mode. Bummer. No kidding. Now your size matches your abilities. Both are puny. Crushing you isn't even worth my time. I'll crush you! No, allow me
 [quarton-battle] Unknown: to die! It's a lot less fun without Titan Mode. That was my favorite mode! Don't panic! Too late! We've got other weapons in our arsenal. We do? RoboFusion Proto Jet, in game! Take
 [quarton-battle] Unknown: them down!
@@ -37,11 +37,11 @@
 [quarton-battle] Unknown: On with us!
 [quarton-battle] Vilius: RoboFusion Xenoshift, in game! You
 [quarton] Vilius: no longer have the skies to yourselves. Nice
-[quarton] Guren: try.
+[quarton] Ceylan: try.
 [quarton] Vilius: And now, I think you have something that belongs to me.
 [quarton] Vilius: Reassemble and be revived! Let's
 [quarton] Vilius: pick up where we left off by setting Quarton aflame! You
-[quarton] Guren: revive it!
+[quarton] Ceylan: revive it!
 [quarton] Vilius: Without the Dragon Key? You forget, it had already been revived. I only needed to gather the Dragon Cues together, and its power was mine again! Mine to unleash on you!
 [quarton] Unknown: Now that's an entrance.
 [quarton] Vilius: Romance!

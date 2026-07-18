@@ -1,0 +1,108 @@
+[unknown] Unknown: You're the Holy Beast, Tenkai Wolf?
+[unknown] Unknown: Holy Beast, you say?
+[unknown] Unknown: That's amazing! Braven is... Can I think of him as an ally? What's that? I don't know either. But... It might be hope.
+[unknown] Unknown: I don't know.
+[unknown] Unknown: Tenkai Wolf... Got it. I can ride, right?
+[unknown] Unknown: I'll take you to the Under Stone.
+[unknown] Unknown: It's the legend of Spectros.
+[unknown] Unknown: When you're on a great land, a Holy Beast appears to take it away. Whoever crosses it becomes a hero, and he'll have no enemies to face.
+[quarton] Unknown: So what are you talking about? I won't let you take away a single beast! Let's go, Tenkai Wolves!
+[quarton] Unknown: They're coming!
+[quarton] Unknown: Even without the dragons, I'm invincible!
+[quarton] Unknown: Let's go, everyone! We're coming too!
+[quarton] Unknown: Who are you?!
+[quarton] Unknown: Hey, Slyger! Are you alright?
+[quarton] Unknown: I'm fine.
+[quarton] Unknown: So, what do we do?
+[quarton] Unknown: Thanks to the Tenkai Energy, we can't enter the tower.
+[quarton] Unknown: It's too hot to follow the Tenkai Knights.
+[quarton] Unknown: We should have left them alone and destroyed the device.
+[quarton] Unknown: This building is a chimney for the Tenkai Energy. The device that generates the Tenkai Energy is in the basement. So, should we go to the basement? Yeah. Alright! Let's go to the basement!
+[quarton] Unknown: There's a basement! It's useless!
+[quarton] Unknown: They're gonna win, right? The Triacs…
+[quarton] Unknown: This is… Slygers are trying to destroy the Anti-Tetra Device itself!
+[quarton-battle] Unknown: This is the Anti-Tetra Device, right?
+[quarton-battle] Unknown: The Earth is… Earth?
+[quarton-battle] Unknown: Are you talking about the Star of the Dragon?
+[quarton-battle] Unknown: Yeah! Slygers are trying to turn the Earth into Tetra!
+[quarton-battle] Unknown: Slygers are…
+[quarton-battle] Unknown: We can't do it! We can't do a single scratch! There must be a device to deploy this shield.
+[quarton-battle] Unknown: That's it.
+[quarton-battle] Unknown: All right! Wait a minute! Beam Dash!
+[quarton-battle] Unknown: Light Beam! It's you! Knight of Light, Justice, and Courage! Beam! Light Beam! What?
+[quarton-battle] Unknown: Don't you know? If you shoot once, it takes time to charge. What? Now you're out of my way. I'm sorry.
+[quarton-battle] Unknown: You raised your arm.
+[quarton] Unknown: That's enough. You bastard!
+[quarton] Unknown: You're useless!
+[quarton] Unknown: There's only Vilius left. It was easy. It's over. Now, Vilius! I'll put an end to this!
+[quarton] Unknown: Do you think this is the end of my power? What? Watch this! The energy of my evil development!
+[quarton] Unknown: Stop it!
+[quarton] Unknown: Vilius! Do you intend to use your final power? No! I'll show you! Are you a monster? Stop it! I'll shoot you! I'll shoot you! Stop it!
+[quarton] Unknown: Stop it! Stop it! Vilius, Vileu Construction!
+[quarton] Unknown: I thought you were stabbed in the jaw!
+[quarton] Unknown: Star Tenkai Knight! Weren't you heroes? You're not a hero, are you? I'll show you!
+[quarton] Unknown: Even a sword like that...
+[quarton] Unknown: Vilius, take this! I won't let you!
+[quarton] Unknown: That's enough, Tenkai Knights!
+[quarton] Unknown: Let's go! Don't move! If you move, he's dead! Damn it, he's here, Raven! Everyone, don't worry about me! Vilius... Idiot! You can't do that! Stop Vilius!
+[quarton] Unknown: Look at my power! This is the true power of the Tenkai Fortress! The power to rule the Planet Cube! The power to rule the Planet Cube!
+[quarton] Unknown: Even the Tenkai Knights are just a part of my body! The world belongs to me!
+[quarton] Unknown: Now it's decided! You did it, didn't you? Go to Biclips!
+[quarton] Unknown: All the treasures belong to this Slyder! What about him? I don't know!
+[quarton] Unknown: I haven't finished the game yet!
+[quarton] Unknown: I haven't finished the game yet! Big Miracle-Zone! Big Miracle-Zone!
+[quarton] Unknown: What are you doing? Let's drive the Planet Cube together on the mini portal that Venetta borrowed! Stop!
+[quarton] Unknown: You two are over! It's impossible to restart over there! The possibility of disassembly is 99.999%!
+[quarton] Unknown: But you can erase you from this Earth, can't you? What did you say?
+[quarton] Unknown: The underground's reaction has disappeared! Connect to the call circuit and restart! You still have a wish!
+[quarton] Unknown: Please!
+[quarton] Unknown: I just entered the sub-room! I'll try!
+[quarton] Unknown: The Planet Cube... Tenkai Knights will defeat Vilius! I have no choice but to pray! Will you be able to do it? To those kids? It's okay! They have overcome a lot of hardships so far, and have grown a lot! I'm worried. To make my child carry the fortune of the world... As a father...
+[quarton] Unknown: Ahahahaha!
+[quarton] Unknown: That's right! In the end, I'll show you something interesting!
+[quarton] Unknown: Your planet has also become a Tetrarch!
+[quarton] Unknown: What's left is despair! And death!
+[quarton] Unknown: I...
+[quarton] Unknown: I believe in everyone!
+[quarton] Unknown: The power of my friends!
+[quarton] Unknown: To the full development! Why don't you throw away your hope?
+[quarton] Unknown: As long as you have friends, there is hope! Vilius! Vilius! We will never lose!
+[quarton] Unknown: Don't mess with us! Gah! Gah! Wh-What was that?
+[quarton] Unknown: We did it! Thunder Final!
+[quarton] Unknown: Blizzard!
+[quarton] Unknown: I see... So you're going to seal Vilius.
+[quarton] Unknown: Thank you. And goodbye.
+[quarton] Unknown: You pretended to be dead, didn't you?
+[quarton] Beni: Eh? That's enough! You did well!
+[quarton] Unknown: Thank you for fighting with us until now, Beag! Yes! You Tenkai Knights are the ones who protected the Planet Cube!
+[quarton] Unknown: Everyone, let's go back to Earth!
+[quarton] Unknown: Yes. If he hadn't been active, what would have happened to the Earth by now? Also, the other one who was active with me...
+[quarton] Unknown: Mr. White, thank you for everything you've done until now! He won! Seriously! I'm getting more and more happy!
+[quarton] Beni: I knew it would turn out like this from the start!
+[quarton] Unknown: Well, there were mountains and valleys and so on, but... For the time being... Goal! That's right.
+[earth] Unknown: Mr. White!
+[earth] Unknown: Yes? Thank you for your hard work.
+[earth] Unknown: This is...
+[earth] Unknown: There were a lot of situations, so...
+[earth] Unknown: You did well, Guren. No. Braven.
+[quarton] Unknown: Huh?
+[quarton] Unknown: We have no choice but to run!
+[quarton] Unknown: All right! They won! Yes! It seems that all the balance has never been so good. How long will it last? I don't know.
+[quarton] Unknown: I'll say that it's enough for now. The balance of the Earth is good.
+[quarton] Unknown: All the worlds are my chosen ones.
+[quarton] Unknown: I hope that our Guardian is my chosen one.
+[quarton] Unknown: Tenkai Heroes
+[quarton] Unknown: Hello. This is Navisystem. Today, I would like to introduce Tenkai Wolf. When the Wolf's emblem was cast on the Tenkai Fortress, Tenkai Wolf was revived We will revive them and grant the strongest power to our heroes.
+[quarton] Beni: The time is not yet up. What time is it? I can't believe we saved the Earth and Planet Cubes.
+[quarton] Unknown: We did our best. There aren't many people who know us, though.
+[quarton] Beni: You're still as friendly as ever. Why are you all here? Gen, Beni!
+[quarton] Unknown: If you two weren't here, we wouldn't have made it this far. Thank you. I'm the one who should be thanking you.
+[quarton] Unknown: I was able to meet you and become friends with you, and become stronger.
+[quarton] Beni: I'm not saying thank you. But I agree that we should protect the Earth.
+[quarton] Unknown: Well, the Earth and Planet Cubes. It means that we were able to protect both of them, so we're happy. That's right.
+[quarton] Unknown: But the best thing was... Ceylan, Toxsa, Chooki, Gen, and Ben. Beni, we made great friends like everyone else! You're so cool!
+[quarton] Beni: Well, I think we should be able to talk about our achievements in history for a long time. If possible, I want you to make it into a game. It's not just one person. It's everyone's power.
+[quarton] Unknown: That's right.
+[quarton] Beni: That's what we're going to do today.
+[quarton] Unknown: Everyone! Let's go to Planet Cubes!
+[quarton] Unknown: Let's go!

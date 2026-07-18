@@ -1,89 +1,89 @@
 [quarton-battle] Guren: We're in here, and in case you've missed it, we've been trying to keep Vilius and his corrupted goon squad from getting their hands on the Tenkai Fortress, a mysterious and powerful source of Tenkai Energy. It hasn't been easy, especially now that Vilius has got the Guardians fighting on his side, but we've held our own, thanks to this awesome new elemental type mode we've learned. Well, most of us have learned, for some strange reason. We can't get it to work every time. Poor Bravenwolf. Well, poor at all. That's really starting to bum me out. I
-[quarton-battle] Guren: just wanted to say that. Five's
-[quarton-battle] Guren: around the line, five times for sure. Bravenwolf, Tenkai...
+[quarton-battle] Toxsa: just wanted to say that. Five's
+[quarton-battle] Slyger: around the line, five times for sure. Bravenwolf, Tenkai...
 [quarton-battle] Vilius: Tenkai Energy runs low. I will finish you next time.
-[quarton-battle] Guren: Don't get your hopes up. Well done, Knights! Once again, you've won the day! Why can't I go Titan?
-[quarton-battle] Guren: Bravo! Good job, everyone. That was no biggie. Hardly broke a sweat. We're getting to be pros at elemental Titan mode. Well, at least... ...most of us are. Slowpoke. Eh, you're
+[quarton-battle] Slyger: Don't get your hopes up. Well done, Knights! Once again, you've won the day! Why can't I go Titan?
+[quarton-battle] Toxsa: Bravo! Good job, everyone. That was no biggie. Hardly broke a sweat. We're getting to be pros at elemental Titan mode. Well, at least... ...most of us are. Slowpoke. Eh, you're
 [quarton-battle] Guren: right.
 [quarton-battle] Vilius: I had thought that the power of the Guardians would be more than a match for the Tenkai Knights. Apparently, I was mistaken. Your only mistake was in sending the wrong Guardians to do your bidding, Vilius. Power is nothing without the will to use it. What do you mean? You're weak, every one of you. Your powers are held in check by fear of the old laws that demanded we remain neutral. You, on the other hand, don't have such qualms? And why is that? Because I know the best way to restore the balance is to serve you, and the best way to serve you is to destroy the Knights. Well, I must say, Ulyss, I
-[quarton-battle] Guren: like your attitude. Viliu...
-[quarton-battle] Guren: Dude, are you hiding
+[quarton-battle] Slyger: like your attitude. Viliu...
+[quarton-battle] Toxsa: Dude, are you hiding
 [quarton-battle] Guren: out? Huh? Of course not. I just thought that... look, I didn't really mean that slowpoke crack. Oh, that's okay... But hey, I can't talk right now, Ceylan, I've got to get going.
-[quarton] Guren: Thought we were hanging.
+[quarton] Toxsa: Thought we were hanging.
 [quarton] Guren: Sorry... something came up. Huh? Like what? Oh,
-[quarton] Guren: it's you, Guren.
+[quarton] Toxsa: it's you, Guren.
 [quarton] Guren: Wakame, you're, like, really good at sports, right?
-[quarton] Guren: Well, yeah, I'm not gonna lie.
+[quarton] Toxsa: Well, yeah, I'm not gonna lie.
 [quarton] Guren: Have you ever had a shot or a special move that you just can't seem to make anymore?
-[quarton] Guren: Whenever that happens to me, it's back to the basics, training, training, training.
+[quarton] Toxsa: Whenever that happens to me, it's back to the basics, training, training, training.
 [quarton] Guren: I see. It's that simple, huh? Thanks for the advice. Uh,
-[quarton] Guren: Guren? Was that Guren? Hey, what's up with that? He bugged out without saying hello?
-[earth] Guren: No, worse. He bugged out
+[quarton] Toxsa: Guren? Was that Guren? Hey, what's up with that? He bugged out without saying hello?
+[earth] Slyger: No, worse. He bugged out
 [earth] Guren: without paying. I don't know what it is, but there's something funny going on with Guren.
-[earth] Guren: Yeah, he's not right. I'll say he's not. I just had to pay for a large orange juice out of my own pocket. You know what's wrong with him, Mr. White?
-[earth] Unknown: I don't, but I will say this. There is no rock so great and mighty it cannot crumble.
+[earth] Toxsa: Yeah, he's not right. I'll say he's not. I just had to pay for a large orange juice out of my own pocket. You know what's wrong with him, Mr. White?
+[earth] Mr._White: I don't, but I will say this. There is no rock so great and mighty it cannot crumble.
 [earth] Guren: Thanks, big help as always. I think he means...
-[earth] Guren: The pressure's getting to him, you know? What pressure? Homework? I mean always having to be the leader. That kind of pressure
-[earth] Guren: can cause performance anxiety.
-[earth] Guren: You
-[quarton-battle] Guren: think?
-[quarton-battle] Guren: So that's why he can't go Titan mode
-[quarton-battle] Guren: anymore? Yeah. It's like a pitcher suddenly losing his slider. One day he's pitching a shutout, next day he can't hit the strike zone. You saying we should trade him? I'm saying we've all got to try and take the pressure off him,
-[quarton-battle] Guren: especially you, Ceylan. Me? Sounds like a plan, Chooki. So it's agreed. We keep Guren's mind
-[quarton-battle] Guren: off the Tenkai
-[quarton-battle] Guren: Knights.
-[quarton-battle] Guren: Seven...
+[earth] Toxsa: The pressure's getting to him, you know? What pressure? Homework? I mean always having to be the leader. That kind of pressure
+[earth] Slyger: can cause performance anxiety.
+[earth] Toxsa: You
+[quarton-battle] Slyger: think?
+[quarton-battle] Toxsa: So that's why he can't go Titan mode
+[quarton-battle] Slyger: anymore? Yeah. It's like a pitcher suddenly losing his slider. One day he's pitching a shutout, next day he can't hit the strike zone. You saying we should trade him? I'm saying we've all got to try and take the pressure off him,
+[quarton-battle] Toxsa: especially you, Ceylan. Me? Sounds like a plan, Chooki. So it's agreed. We keep Guren's mind
+[quarton-battle] Slyger: off the Tenkai
+[quarton-battle] Toxsa: Knights.
+[quarton-battle] Slyger: Seven...
 [quarton-battle] Gen: Uh, what's the point of cheating on yourself? Come on, that was more like five. So you're trying to get your mojo back? Yeah,
 [quarton-battle] Guren: something like that.
 [quarton-battle] Gen: Okay. But why are you keeping it a secret from the other guys? Oh, uh... Isn't that why you have a team? They're there to help.
 [quarton-battle] Guren: Ken's probably right. I shouldn't keep this to myself. Yo, what you looking at? Perfect timing. Ceylan? Mm-hmm? I've been kinda underperforming lately. Know what I mean? I'm saying
-[quarton-battle] Guren: we've
+[quarton-battle] Slyger: we've
 [quarton-battle] Guren: all got to try and take the pressure off him. Yeah, great. But never mind that now. More important, did you watch Overboard Heroes last night? No, I had too much homework, but that's not what
-[quarton-battle] Guren: I wanted... You didn't
+[quarton-battle] Toxsa: I wanted... You didn't
 [quarton-battle] Guren: watch
-[quarton-battle] Guren: it? Well, don't worry, I did. You know the princess with the mustache, the one from outer space? Turns out she's a ghost. And there's this giant squid. At least he looks like a squid. Anyway, he goes berserk from nuclear poisoning.
+[quarton-battle] Toxsa: it? Well, don't worry, I did. You know the princess with the mustache, the one from outer space? Turns out she's a ghost. And there's this giant squid. At least he looks like a squid. Anyway, he goes berserk from nuclear poisoning.
 [quarton-battle] Guren: Chooki, hey, you got a minute? Sure, Guren. What's up? I know. I haven't been pulling my weight lately. I'm all ears. I
-[quarton-battle] Guren: just hope the bell doesn't ring and, you know, interrupt us. We're just getting started and I've got to go. I promised I'd leave karate practice today. I feel terrible. Just terrible. It's
+[quarton-battle] Slyger: just hope the bell doesn't ring and, you know, interrupt us. We're just getting started and I've got to go. I promised I'd leave karate practice today. I feel terrible. Just terrible. It's
 [quarton-battle] Guren: cool. Don't break the table. Okay. Later. That was weird. No one wants to listen.
-[quarton-battle] Guren: Guren! Wait up!
+[quarton-battle] Toxsa: Guren! Wait up!
 [quarton-battle] Guren: Oh, hi, Toxsa. Hello. I was starting to think you guys might be avoiding me. I signed us up.
-[quarton-battle] Guren: You
+[quarton-battle] Toxsa: You
 [quarton-battle] Guren: want to enter a
-[quarton-battle] Guren: volleyball tournament? And don't worry, you won't have to be team captain or anything. No pressure. What he means is, despite the exercise, it could be fun. And the winning team gets a free lobster lunch. Yum! So you see, it's a win-win. How do you mean? Well, a free meal and it'll take your mind off your performance and... And we can work on our tans. What do
+[quarton-battle] Toxsa: volleyball tournament? And don't worry, you won't have to be team captain or anything. No pressure. What he means is, despite the exercise, it could be fun. And the winning team gets a free lobster lunch. Yum! So you see, it's a win-win. How do you mean? Well, a free meal and it'll take your mind off your performance and... And we can work on our tans. What do
 [quarton-battle] Guren: you say? Well, okay, but don't we need five guys to fill out a team? No problem. I've got our fifth man all lined up.
-[quarton-battle] Guren: Okay, now, all the teams get together because we're about to begin the first round. Okay, game on. How about you?
+[quarton-battle] Slyger: Okay, now, all the teams get together because we're about to begin the first round. Okay, game on. How about you?
 [quarton-battle] Guren: Having fun, Gen?
 [quarton-battle] Gen: You know I am. Loving it. Get
 [quarton-battle] Guren: out in the sun much, dude? Ahem.
-[quarton-battle] Unknown: Team Tenkai, I have a few words of advice before you face the foe.
-[quarton-battle] Guren: Advice? Sure, why not? It's Team Toxa. At least get the name right.
-[quarton-battle] Unknown: Team Toxa?
+[quarton-battle] Mr._White: Team Tenkai, I have a few words of advice before you face the foe.
+[quarton-battle] Toxsa: Advice? Sure, why not? It's Team Toxa. At least get the name right.
+[quarton-battle] Mr._White: Team Toxa?
 [quarton-battle] Guren: Sorry.
-[quarton-battle] Unknown: Well, anyway, the path to victory may be long and arduous, but never give up. Remember, it's the pressure that turns a stone into a diamond.
+[quarton-battle] Mr._White: Well, anyway, the path to victory may be long and arduous, but never give up. Remember, it's the pressure that turns a stone into a diamond.
 [quarton-battle] Guren: That almost makes sense. Oh, no.
-[quarton-battle] Unknown: Now go.
+[quarton-battle] Mr._White: Now go.
 [quarton-battle] Guren: Spike
-[quarton-battle] Unknown: that touchdown.
+[quarton-battle] Mr._White: that touchdown.
 [quarton-battle] Guren: Right
-[quarton-battle] Unknown: on.
-[quarton-battle] Guren: Team Toxic serves! Tox! Watch
-[quarton-battle] Guren: his serve! Just watch or try and hit it back. Nice save! Team Toxa with another win! Toxa! Gen, go for it! Give me five! Four! Not. Team Toxa! Finally! You are the best on the beach, dude! Hope you're hungry. Oh, you bet we are.
-[quarton-battle] Guren: I would, but I'm too stuffed to move. I
-[quarton-battle] Guren: think the plan's working.
-[quarton-battle] Guren: Yeah.
-[quarton-battle] Guren: We've
-[quarton-battle] Guren: taken his mind
+[quarton-battle] Mr._White: on.
+[quarton-battle] Slyger: Team Toxic serves! Tox! Watch
+[quarton-battle] Slyger: his serve! Just watch or try and hit it back. Nice save! Team Toxa with another win! Toxa! Gen, go for it! Give me five! Four! Not. Team Toxa! Finally! You are the best on the beach, dude! Hope you're hungry. Oh, you bet we are.
+[quarton-battle] Slyger: I would, but I'm too stuffed to move. I
+[quarton-battle] Toxsa: think the plan's working.
+[quarton-battle] Slyger: Yeah.
+[quarton-battle] Toxsa: We've
+[quarton-battle] Slyger: taken his mind
 [quarton-battle] Gen: off growing Titan.
-[quarton-battle] Guren: By giving him major heartburn.
+[quarton-battle] Toxsa: By giving him major heartburn.
 [quarton-battle] Gen: So, have you talked to them about it?
-[quarton-battle] Guren: I tried to. Well, I'm going to test that theory about swimming after eating. It's just an old wives' tale. And even if it isn't, I'll save you, Toxa, because I'm an expert swimmer. You're an expert bragger? Yeah, show-off. You think you can beat me? Sure.
-[quarton-battle] Guren: Bring it on, Merman. First one to the rock wins.
+[quarton-battle] Toxsa: I tried to. Well, I'm going to test that theory about swimming after eating. It's just an old wives' tale. And even if it isn't, I'll save you, Toxa, because I'm an expert swimmer. You're an expert bragger? Yeah, show-off. You think you can beat me? Sure.
+[quarton-battle] Slyger: Bring it on, Merman. First one to the rock wins.
 [quarton-battle] Gen: They're
 [quarton-battle] Guren: okay. I wish I could be more like them. Are you kidding? Seriously? At least they're steady, you know? They don't let things get to them. Really? It's just that they can handle the pressure better than I can. Oh,
 [quarton-battle] Gen: yeah?
 [quarton-battle] Guren: And
 [quarton-battle] Gen: what makes you say that? Because you can't shape-shift to Titan mode?
-[quarton-battle] Guren: Uh-huh.
+[quarton-battle] Slyger: Uh-huh.
 [quarton-battle] Gen: Maybe the real problem is that you haven't been under enough pressure to go Titan. Ever think of that? Maybe you haven't needed to.
 [quarton-battle] Guren: That's just what Mr. White said. Hey, Gen, when are you going to fight with us? We can sure use you.
 [quarton-battle] Gen: I'll say. That's the understatement of the year.
@@ -91,44 +91,44 @@
 [quarton-battle] Gen: I've got my own path to follow, but that doesn't mean we aren't still friends.
 [quarton-battle] Guren: I can live with that. See ya. For
 [quarton-battle] Vilius: this time, you are facing a Guardian without-
-[quarton-battle] Guren: Whatever we do, guys, we've got to keep the pressure off Guren. Right. But if we let him know we're keeping the pressure off, he'll feel pressured.
+[quarton-battle] Toxsa: Whatever we do, guys, we've got to keep the pressure off Guren. Right. But if we let him know we're keeping the pressure off, he'll feel pressured.
 [quarton-battle] Vilius: Ah, the Tenkai Knights. I've been expecting you. Guardian Tenkai Mega Fusion, engage. Come to me, you worthless cannon fodder. Be my power. Wish
 [quarton-battle] Vilius: Knights, you should be fleeing in panic like your Corekai friends.
-[quarton-battle] Guren: That was a tactical retreat. We wish, Goonbot. No panic here. Not with elemental Titan mode.
-[quarton-battle] Guren: Yeah.
+[quarton-battle] Toxsa: That was a tactical retreat. We wish, Goonbot. No panic here. Not with elemental Titan mode.
+[quarton-battle] Slyger: Yeah.
 [quarton-battle] Guren: Don't sweat it, Bravenwolf.
-[quarton-battle] Guren: You stay with me. Yeah. Good idea. Tributon, Tenkai, Ice Blast, Titan mode, engage.
-[quarton-battle] Guren: Great. Let's do this.
+[quarton-battle] Slyger: You stay with me. Yeah. Good idea. Tributon, Tenkai, Ice Blast, Titan mode, engage.
+[quarton-battle] Slyger: Great. Let's do this.
 [quarton-battle] Vilius: I'm at the
-[quarton-battle] Guren: demo level of Goon's load of tubes.
-[quarton-battle] Guren: Wouldn't
+[quarton-battle] Toxsa: demo level of Goon's load of tubes.
+[quarton-battle] Slyger: Wouldn't
 [quarton-battle] Vilius: worry so much about him. Final
-[quarton] Guren: K. That's
+[quarton] Slyger: K. That's
 [quarton] Vilius: cool of you. Oh, very well, if you insist. Happy U.N. U.K.
-[quarton] Guren: The final K. Does it. Bravenwolf, Tenkai Firestorm. Three
+[quarton] Slyger: The final K. Does it. Bravenwolf, Tenkai Firestorm. Three
 [quarton] Vilius: of you are helpless, and the other is useless. Time to end this.
-[quarton] Guren: Come on, Titan mode.
+[quarton] Slyger: Come on, Titan mode.
 [quarton] Vilius: Rest in pieces, Knights.
-[quarton] Guren: Wolf, Tenkai Firestorm.
+[quarton] Slyger: Wolf, Tenkai Firestorm.
 [quarton] Vilius: Nothing, nothing can save you now. What?
 [quarton] Gen: Dromus. You said you could use me, and, man, were you right. So,
 [quarton-battle] Vilius: Dromus, you've come to share their fate, have you? How very noble of you, but not very wise. Uh-oh. Did you really think you could stop me?
-[quarton-battle] Guren: Guess
+[quarton-battle] Slyger: Guess
 [quarton-battle] Gen: I picked a bad day to be a
-[quarton-battle] Guren: team player. One, two,
+[quarton-battle] Slyger: team player. One, two,
 [quarton-battle] Vilius: three, four, five Knights in one. One, two, three, four, five Knights in one go. Won't Vilius be impressed? Bravenwolf, you're just going to stand there and watch? Then watch this.
-[quarton-battle] Guren: Oh, don't worry about us. Yeah, we'll all be just. No, Titan mode.
+[quarton-battle] Slyger: Oh, don't worry about us. Yeah, we'll all be just. No, Titan mode.
 [quarton-battle] Vilius: Elemental Titan mode online and operational. Awaiting instructions.
-[quarton-battle] Guren: About time. One, two, three, four, five. Bravenwolf, Tenkai Firestorm Titan.
-[quarton-battle] Guren: My mojo back. Any time, Eurus. I'll be ready and waiting.
-[quarton-battle] Guren: Nice, it worked. Of course it worked.
-[quarton-battle] Guren: We knew you'd come through if we kept the pressure off.
-[quarton-battle] Guren: That's right. It was all part of our plan. Except for the part where we almost got toasted. I only like toast for breakfast.
+[quarton-battle] Slyger: About time. One, two, three, four, five. Bravenwolf, Tenkai Firestorm Titan.
+[quarton-battle] Slyger: My mojo back. Any time, Eurus. I'll be ready and waiting.
+[quarton-battle] Toxsa: Nice, it worked. Of course it worked.
+[quarton-battle] Slyger: We knew you'd come through if we kept the pressure off.
+[quarton-battle] Toxsa: That's right. It was all part of our plan. Except for the part where we almost got toasted. I only like toast for breakfast.
 [quarton] Guren: Oh, well thanks, I guess.
-[quarton] Unknown: As a matter of fact, I have a suspicion that Guren found a way to use the pressure to his advantage. Exactly. So, the stone became a diamond, huh? Right. Gen!
+[quarton] Mr._White: As a matter of fact, I have a suspicion that Guren found a way to use the pressure to his advantage. Exactly. So, the stone became a diamond, huh? Right. Gen!
 [quarton] Guren: Thanks, man. No problem, dude. You sure you don't want to come aboard full time? Don't start that again. Come on. It's not like you have to pay dues or anything. Heh heh. Are
 [quarton] Vilius: we sure about this? We've been wrong before. Well, you have.
-[quarton] Guren: There's no doubt this time.
+[quarton] Slyger: There's no doubt this time.
 [quarton] Vilius: Vilius
-[quarton] Guren: says this is definitely the entrance to the Tenkai Fortress. If
+[quarton] Slyger: says this is definitely the entrance to the Tenkai Fortress. If
 [quarton] Vilius: so, then the Knights' days are numbered.

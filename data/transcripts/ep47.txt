@@ -1,47 +1,47 @@
-[unknown] Guren: Oh no, really? Don't you remember the last time I babysat? Come on, dude. The team really needs me for the game today. He's a star. Where are Ceylan and Toxsa? They're both training with Gen, I'm afraid. Great.
+[unknown] Ceylan: Oh no, really? Don't you remember the last time I babysat? Come on, dude. The team really needs me for the game today. He's a star. Where are Ceylan and Toxsa? They're both training with Gen, I'm afraid. Great.
 [unknown] Beni: What's that poopy face supposed to mean? You're lucky Sandy and I have come to play with you in your dumb house.
-[unknown] Guren: How can you resist that, right? Do I have a choice?
+[unknown] Ceylan: How can you resist that, right? Do I have a choice?
 [unknown] Beni: 3,
-[unknown] Guren: 4, Tenkai Knights Together
+[unknown] Slyger: 4, Tenkai Knights Together
 [unknown] Beni: and stretch, and again. Oh, you're so tight. You have so much tension. Guren, you don't exercise for a max enough, I can tell. So when are we going to play a game anyway? Hey! Catch the kitty, that's a fun game.
 [unknown] Beni: Technology. I'll help you with your homework, I'm a good speller.
-[unknown] Guren: Chiro, don't touch it, it's not a thing. Toy. I promise, as soon as I finish these math problems. See
+[unknown] Ceylan: Chiro, don't touch it, it's not a thing. Toy. I promise, as soon as I finish these math problems. See
 [earth] Beni: how high Sandy can stretch? That's because his mommy loves him and plays with him a lot. How
-[earth] Guren: about we go to the park?
+[earth] Ceylan: about we go to the park?
 [earth] Beni: The park!
-[earth] Unknown: Yes, indeed. I'm extremely impressed with the progress you two boys have made.
-[earth] Guren: You should see what I can do in the online version. This
-[earth] Unknown: isn't some video game where
-[earth] Guren: you can just hit the reset button. This is a game where you can play for keeps.
-[earth] Guren: Better believe it. And now it's not just about fighting them up on Quarton anymore. They've brought the battle here.
-[earth] Guren: Yeah. You think they're right about the Tenkai Stone being here on Earth, Mr. White?
-[earth] Unknown: Well, I've searched all the ancient texts pertaining to the mystery of the Tenkai Stone. Huh? Yeah,
-[earth] Guren: Ant.
-[quarton] Unknown: It's still
-[quarton] Guren: a mystery. Ugh. Those ancient texts of yours are about as helpful as a user's manual in Swahili. Can
-[quarton] Guren: we go five minutes without you talking
-[quarton] Guren: about computer stuff?
-[quarton] Unknown: Here or not, wherever the stone is, we must find it, and soon...
+[earth] Mr._White: Yes, indeed. I'm extremely impressed with the progress you two boys have made.
+[earth] Ceylan: You should see what I can do in the online version. This
+[earth] Mr._White: isn't some video game where
+[earth] Ceylan: you can just hit the reset button. This is a game where you can play for keeps.
+[earth] Slyger: Better believe it. And now it's not just about fighting them up on Quarton anymore. They've brought the battle here.
+[earth] Ceylan: Yeah. You think they're right about the Tenkai Stone being here on Earth, Mr. White?
+[earth] Mr._White: Well, I've searched all the ancient texts pertaining to the mystery of the Tenkai Stone. Huh? Yeah,
+[earth] Ceylan: Ant.
+[quarton] Mr._White: It's still
+[quarton] Ceylan: a mystery. Ugh. Those ancient texts of yours are about as helpful as a user's manual in Swahili. Can
+[quarton] Ceylan: we go five minutes without you talking
+[quarton] Ceylan: about computer stuff?
+[quarton] Mr._White: Here or not, wherever the stone is, we must find it, and soon...
 [quarton] Beni: Tenkai Stone. No wonder everyone wants it. Only this little guy can unseal the power of the Tenkai Fortress. And with all that power, someone could do some real bad things on Quarton. And whatever happens on Quarton has an effect on Earth, too. Yep. Somebody had sure messed things up on both worlds, if they wanted to. What's
 [quarton] Beni: happening here? Good thing you came along. Sandy! Could've
 [quarton] Beni: gone boom.
 [quarton] Beni: Oh, yeah, I get it. You might have lost it's stuffing or something.
 [quarton] Beni: He's
 [quarton] Beni: a
-[quarton] Guren: real dog. Who's this? Chooki's cousin. I'm babysitting her for a little while. Fine. Who's she, Guren? This is, uh... This is, uh, Beni. She's, um... Well, I mean, it's kind of hard to explain. That's the worst introduction ever. What do you mean? What's so hard to explain? She's a friend. So
+[quarton] Ceylan: real dog. Who's this? Chooki's cousin. I'm babysitting her for a little while. Fine. Who's she, Guren? This is, uh... This is, uh, Beni. She's, um... Well, I mean, it's kind of hard to explain. That's the worst introduction ever. What do you mean? What's so hard to explain? She's a friend. So
 [quarton] Beni: am not! No way or no how, no way have we ever been friends, or we ever gonna be friends! You're right, Sandy! Huh? She is funny. Sandy likes you. And not just on account of you saving his life and everything. So we decided you can come to the park and play with us. No offense,
 [quarton] Beni: but I'd rather set my tongue on fire than play with you. Huh?
-[quarton] Vilius: The longer Corekai hold the Tenkai Fortress, the more likely they are to avenge the Unsealed's power. Every attempt to capture it from them has failed. What's the point of
-[quarton] Unknown: having minions if they're all so useless? You've been relying on the wrong minions. Hmm? Boreas, if you want the Tenkai Fortress, I will get it for you. Ha! I've heard that before!
-[quarton] Vilius: You forget it's not the Corekai who must be defeated, but the Tenkai Knights who come to their rescue every time! And you
-[quarton] Unknown: forget, Vilius, that I know the Knights better than anyone. I know how to use their selfless devotion to the Corekai against them. Intriguing.
-[quarton] Vilius: What do you have in mind? Yes, do tell, Boreas. I'm eager to hear how we're going to defeat them. We, Eurus? I'm happy to volunteer my services if they will help achieve victory. No need to thank me. I don't want your services. Eurus is right. Two guardians are better than one. Go and see it's done! It will be an honor, as Vilius commands.
+[quarton] Beag: The longer Corekai hold the Tenkai Fortress, the more likely they are to avenge the Unsealed's power. Every attempt to capture it from them has failed. What's the point of
+[quarton] 4_Guardians: having minions if they're all so useless? You've been relying on the wrong minions. Hmm? Boreas, if you want the Tenkai Fortress, I will get it for you. Ha! I've heard that before!
+[quarton] Beag: You forget it's not the Corekai who must be defeated, but the Tenkai Knights who come to their rescue every time! And you
+[quarton] 4_Guardians: forget, Vilius, that I know the Knights better than anyone. I know how to use their selfless devotion to the Corekai against them. Intriguing.
+[quarton] Beag: What do you have in mind? Yes, do tell, Boreas. I'm eager to hear how we're going to defeat them. We, Eurus? I'm happy to volunteer my services if they will help achieve victory. No need to thank me. I don't want your services. Eurus is right. Two guardians are better than one. Go and see it's done! It will be an honor, as Vilius commands.
 [quarton] Beni: Okay, it's called the Prince and Princess. I'll explain how to play.
 [quarton] Beni: Great.
 [quarton] Beni: Okay, so I'm the Princess because it's my game. And Sandy is usually the Prince when we play at home, but today you can be the Prince, Beni. Can't Guren be the Prince? No, Guren's something else. Fine, whatever you say. Come from Handsome Prince?
 [quarton] Beni: Couple blocks that way.
 [quarton] Beni: That's one lame name for a kingdom. Ahem. Okay, I come from a kingdom called Quarton on a planet far, far away. That's better. Except it's too science fiction-y. So we'll skip the planet part and just call it a kingdom. Horsie needs a little rest. Horsies don't know how to talk. Right, sorry. Giddy up. You two can giddy up on your own. Huh? How dare you? We're the Prince and Princess.
-[quarton] Guren: Hey, Beni. Watch Kiiro for a minute, will ya? Why? Don't worry. He won't take long. Honest. I just thought I'd buy us all some drinks.
+[quarton] Ceylan: Hey, Beni. Watch Kiiro for a minute, will ya? Why? Don't worry. He won't take long. Honest. I just thought I'd buy us all some drinks.
 [quarton] Beni: You like pineapple juice? Yeah,
 [quarton] Beni: whatever. Just hurry up and make it snappy, okay? Be right back.
 [quarton] Beni: Favorite thing. Huh? Your favorite thing. I'll make it for you. Don't bother. I won't. All right.
@@ -50,74 +50,74 @@
 [quarton] Beni: live there with me. See? This is your room right here. And my room can be right next to yours. Maybe that was my favorite thing. The house I grew up in. Goodbye, Petra. That house. All of a sudden. You've
 [quarton] Beni: been growing. What's wrong? The only thing wrong is me being here with you. That's
 [quarton] Beni: not a house. It's a mess. You don't want to be hanging around with me.
-[quarton] Guren: What's
+[quarton] Ceylan: What's
 [quarton] Beni: up? Where's Kiiro? Hey, she's your problem, not mine. Anyway, she's right over...
-[quarton] Guren: Over where? Hey, Kiiro! I can't believe it. You just walked off and left her? She's just a little kid, Beni. She's not my
+[quarton] Ceylan: Over where? Hey, Kiiro! I can't believe it. You just walked off and left her? She's just a little kid, Beni. She's not my
 [quarton] Beni: responsibility. Supposed to mean...
-[quarton] Guren: Was it because she liked you? Huh? You forgot to be mean for a minute. That's why you're so upset. You dropped your guard and let Kiiro see the real you.
+[quarton] Ceylan: Was it because she liked you? Huh? You forgot to be mean for a minute. That's why you're so upset. You dropped your guard and let Kiiro see the real you.
 [quarton] Beni: That's the dumbest thing I ever heard. You don't know the real me. Hold this while I look for her. Kiiro!
-[quarton] Guren: Yeah, I just got back.
-[quarton] Guren: I'll
-[quarton] Guren: come and get her now.
-[quarton] Guren: She's lost. What? She's lost? Yeah, got it. We'll spread out and look for her. Thanks, guys. Between all of us, we'll find her.
+[quarton] Slyger: Yeah, I just got back.
+[quarton] Ceylan: I'll
+[quarton] Slyger: come and get her now.
+[quarton] Ceylan: She's lost. What? She's lost? Yeah, got it. We'll spread out and look for her. Thanks, guys. Between all of us, we'll find her.
 [quarton] Beni: Whatever. It's not like it's my fault. I never wanted the job. All
 [quarton] Beni: of a sudden...
-[quarton] Guren: Yo, Kiiro! Are you in there?
+[quarton] Ceylan: Yo, Kiiro! Are you in there?
 [quarton] Beni: How worried we've been!
 [quarton] Beni: Clover... So you were here? Right here all this time? Looking for one of these to give to me? They're
 [quarton] Beni: supposed to bring you happiness. Or is it good luck? Anyway, it's for you, because...
-[quarton] Guren: A happy ending. We're
-[quarton] Guren: being summoned. Let's do it. Come
-[quarton] Guren: on, Kiiro. Gotta get you home. Hey,
-[quarton] Guren: guys!
-[quarton] Vilius: Forward and destroy the Koraka. Cross them where they stand. Never! They're attacking us from all sides, Commander. We cannot hold our position. We must hold. And hope the Tenkai Knights arrive in time.
-[quarton] Guren: Ah, right
-[quarton] Vilius: on time.
-[quarton] Guren: Looks like we could've come a little earlier.
-[quarton] Vilius: Well, now that you mention it... Those goonbots
-[quarton] Guren: are after the fortress again, huh? Ain't gonna
-[quarton] Guren: happen. Because we came to play. Ha!
-[quarton] Vilius: Never mind the fortress. I'm here to wipe out the Korakai. And you with them. Attack!
-[quarton] Guren: Time to kick some butt! Ha! Ha!
-[quarton] Vilius: Forward, Korakai! In support of the Knights! While
+[quarton] Ceylan: A happy ending. We're
+[quarton] Ceylan: being summoned. Let's do it. Come
+[quarton] Slyger: on, Kiiro. Gotta get you home. Hey,
+[quarton] Slyger: guys!
+[quarton] Beag: Forward and destroy the Koraka. Cross them where they stand. Never! They're attacking us from all sides, Commander. We cannot hold our position. We must hold. And hope the Tenkai Knights arrive in time.
+[quarton] Ceylan: Ah, right
+[quarton] Beag: on time.
+[quarton] Ceylan: Looks like we could've come a little earlier.
+[quarton] Beag: Well, now that you mention it... Those goonbots
+[quarton] Ceylan: are after the fortress again, huh? Ain't gonna
+[quarton] Ceylan: happen. Because we came to play. Ha!
+[quarton] Beag: Never mind the fortress. I'm here to wipe out the Korakai. And you with them. Attack!
+[quarton] Slyger: Time to kick some butt! Ha! Ha!
+[quarton] Beag: Forward, Korakai! In support of the Knights! While
 [quarton] Beni: they fight, there's no one guarding the fortress. Now's my chance. I could slip right in with the Tenkai Stone, unseal the fortress, and grab its power for myself.
-[quarton] Guren: Oh, yeah. This is as simple as clearing a demo-level dungeon crawl. That means too easy. I agree. Yeah. You
-[quarton] Guren: think this guardian's up to something? Huh? Uh-oh. Guardian Boreas!
-[quarton] Unknown: I knew that given the choice of defending the Korakai or protecting the Tenkai Fortress, the Knights would choose the Korakai, which of course leaves the fortress to me.
-[quarton-battle] Guren: Okay. The difficulty level just increased to uh-oh two. Skip the deets! We gotta stop him! Oh, yeah. Sorry.
-[quarton-battle] Vilius: What? What? Are you forgetting me? Guardian! Tenkai! Megafusion! Tenkai! Not
-[quarton-battle] Vilius: so fast, Knights! We're
-[quarton-battle] Guren: on business! Let's show this amateur how to do it!
-[quarton-battle] Guren: Get off me! Bravenwolf! Tenkai! Tributon! Tenkai Ice Blast! Titanode!
-[quarton-battle] Vilius: Balorn! I'll do more than deal with them! I will destroy them!
+[quarton] Ceylan: Oh, yeah. This is as simple as clearing a demo-level dungeon crawl. That means too easy. I agree. Yeah. You
+[quarton] Slyger: think this guardian's up to something? Huh? Uh-oh. Guardian Boreas!
+[quarton] 4_Guardians: I knew that given the choice of defending the Korakai or protecting the Tenkai Fortress, the Knights would choose the Korakai, which of course leaves the fortress to me.
+[quarton-battle] Ceylan: Okay. The difficulty level just increased to uh-oh two. Skip the deets! We gotta stop him! Oh, yeah. Sorry.
+[quarton-battle] Beag: What? What? Are you forgetting me? Guardian! Tenkai! Megafusion! Tenkai! Not
+[quarton-battle] Beag: so fast, Knights! We're
+[quarton-battle] Ceylan: on business! Let's show this amateur how to do it!
+[quarton-battle] Slyger: Get off me! Bravenwolf! Tenkai! Tributon! Tenkai Ice Blast! Titanode!
+[quarton-battle] Beag: Balorn! I'll do more than deal with them! I will destroy them!
 [quarton-battle] Beni: Two guardians are more than even the Knights can handle. No. It's their problem. Let them handle it. Since when do I care?
-[quarton-battle] Vilius: Such courage. Such determination. Such
-[quarton-battle] Guren: FOOLS! I'm starting to think he's got a point. We can take it! Yeah. Well, we're busy taking him. Boreas is taking the fortress! I know!
-[quarton-battle] Vilius: Such power!
-[quarton] Unknown: It's no use, Commander. Your forces are too few to defend the fortress. Stand aside!
-[quarton] Vilius: I will not! Huh? Hm?
+[quarton-battle] Beag: Such courage. Such determination. Such
+[quarton-battle] Ceylan: FOOLS! I'm starting to think he's got a point. We can take it! Yeah. Well, we're busy taking him. Boreas is taking the fortress! I know!
+[quarton-battle] Beag: Such power!
+[quarton] 4_Guardians: It's no use, Commander. Your forces are too few to defend the fortress. Stand aside!
+[quarton] Beag: I will not! Huh? Hm?
 [quarton] Beni: Venetta! Yeah, yeah. I know. I can't really explain it either. What can I say? I'm having an off day!
-[quarton] Vilius: What's this? You fight on the side of the Knights now? Then
-[quarton] Guren: let nobody side by my own! Let's get him!
-[quarton] Vilius: Now you're beginning to annoy me! Let's
-[quarton] Guren: take him down and go help Venetta! Huh? Yeah. Budathon! Seek some of that goo-bot for me!
-[quarton] Vilius: Huh?
-[quarton] Guren: Borecha! You
-[quarton] Vilius: need to be taught a lesson! Guardian Tenkai Megafusion! Engage! In
-[quarton] Vilius: fear!
-[quarton] Guren: Who's cowering? I've beaten Bigger Bully to death! You
-[quarton] Vilius: should not have switched sides! Yeah!
-[quarton] Vilius: What?
-[quarton] Guren: What's wrong, Boreas? You get cold feet?
-[quarton] Vilius: I should have known Eurus couldn't handle them.
-[quarton] Guren: Tenkai! Tenkai!
-[quarton] Guren: Tenkai! Tenkai! I
-[quarton] Vilius: knew I should have done it!
+[quarton] Beag: What's this? You fight on the side of the Knights now? Then
+[quarton] Slyger: let nobody side by my own! Let's get him!
+[quarton] Beag: Now you're beginning to annoy me! Let's
+[quarton] Slyger: take him down and go help Venetta! Huh? Yeah. Budathon! Seek some of that goo-bot for me!
+[quarton] Beag: Huh?
+[quarton] Slyger: Borecha! You
+[quarton] Beag: need to be taught a lesson! Guardian Tenkai Megafusion! Engage! In
+[quarton] Beag: fear!
+[quarton] Slyger: Who's cowering? I've beaten Bigger Bully to death! You
+[quarton] Beag: should not have switched sides! Yeah!
+[quarton] Beag: What?
+[quarton] Slyger: What's wrong, Boreas? You get cold feet?
+[quarton] Beag: I should have known Eurus couldn't handle them.
+[quarton] Slyger: Tenkai! Tenkai!
+[quarton] Slyger: Tenkai! Tenkai! I
+[quarton] Beag: knew I should have done it!
 [quarton] Beni: You expect me to jump up and down and kiss you or something?
-[quarton] Guren: You want to? No. Please don't. If you hadn't stepped in, they might have gotten the Tenkai Fortress. It's us who should be thanking you, Venetta. As weird as that sounds. Yeah.
-[quarton] Guren: Well, whatever.
-[quarton] Guren: Ah, stop pretending.
-[quarton] Guren: Admit it. You came here to help us. I mean, why else are you here? None of your business why I'm here. Just
+[quarton] Ceylan: You want to? No. Please don't. If you hadn't stepped in, they might have gotten the Tenkai Fortress. It's us who should be thanking you, Venetta. As weird as that sounds. Yeah.
+[quarton] Ceylan: Well, whatever.
+[quarton] Ceylan: Ah, stop pretending.
+[quarton] Ceylan: Admit it. You came here to help us. I mean, why else are you here? None of your business why I'm here. Just
 [quarton] Beni: leave me alone.
-[quarton] Guren: Touchy. Girls are like that sometimes. You just can't say anything right.
+[quarton] Ceylan: Touchy. Girls are like that sometimes. You just can't say anything right.
 [quarton] Beni: Yeah. And also, I came to ask you a favor. Me? Really? Can you give this to Guren the next time you see him? I guess so. Well, what is it? Something he wants. It's sort of a good luck charm, you know? Like the one you gave me. I've decided he deserves it. So will you give it to him for me, Kiiro? Okay. Huh? Thanks. Now let's play. Oh, thanks.

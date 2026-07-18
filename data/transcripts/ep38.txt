@@ -1,47 +1,47 @@
-[quarton] Guren: Guren here, in case you've been on another planet. I mean, besides Earth or Quarton, lots happened recently. We've been fighting to keep Vilius and his corrupted bots from conquering the two worlds. Nothing new in that. But we just got a killer new upgrade in our bot-kicking arsenal, Elemental Titan Mode. Next, we found the mysterious Tenkai Fortress that everyone's been after. Mysterious because we have no idea what it does, but we know it's the source of such incredible power that it's starting to destabilize the Earth. We can't let Vilius get his clamps on it. Problem is, we can't touch it either, because it's sealed off by some kind of invisible force field. So, we've got to strategize a way to break through that force field and fast. If we don't, it could mean the end of both worlds.
-[quarton] Unknown: I say we just try a... Yeah,
-[quarton] Guren: you tried that, dude. The force field knocked you flat. I know, but the next time, I'll be ready. Hope the ambulance is ready.
-[quarton] Guren: You gotta love his enthusiasm.
-[quarton] Guren: Enthusiasm's not gonna be enough in this case. We need to strategize. Agreed. As long as there is a snack to follow.
-[quarton] Unknown: Maybe the Tenkai Fortress is beyond human understanding. Like the secret unsolvable level of Doom's Bloater 4. You could spend years trying to solve it. Yeah, you could. But you
-[quarton] Guren: still wouldn't solve it. That's kind of what unsolvable means. Okay, guys, don't start this again.
-[quarton] Unknown: He's jealous of my
-[quarton] Guren: mad gaming skills. Yeah, right. The force field's just like any challenge that has to be overcome. There was this pitcher once whose curveball I could never hit. Until one day, I finally figured out his secret. And you kicked the winning goal. With a googly. Oh, man, come
-[quarton] Guren: on.
-[quarton] Guren: You
-[quarton] Unknown: guys
-[quarton] Guren: are kidding, right? You're not that clueless about
-[quarton] Unknown: sports. Wait, you were talking about sports? Water polo, right? Just trying to strategize. Whatever. Sorry, Chooki, but I can't strategize on an empty stomach. Who wants to go to the diner? Feel
-[quarton] Unknown: my brainstorm mode finally coming online. Ah, that's a relief. Now we can watch you spend 45 minutes
-[quarton] Guren: brainstorming about pies. Just save some brainstorming
-[quarton] Guren: for the Tenkai Fortress, okay? Actually, maybe the answer is not to think about it too much. Just trust your instincts and don't spend all day worrying about it. About what? What
-[quarton-battle] Unknown: to eat?
-[quarton-battle] Guren: Or
-[quarton-battle] Unknown: do you mean the Tenkai Fortress? Oh,
-[quarton-battle] Guren: Chooki's saying maybe we should just go with our gut. I tried that once. Remember when I ordered that spicy chicken thing? My gut sure does.
-[quarton-battle] Unknown: Yeah, and I tried my dad's super red hot chili con carne. Because I thought it would help me finally level up to Titan mode. I had to buy new pants.
-[quarton-battle] Guren: Okay, it might not have been pretty, but you did get your Titan mode, right?
-[quarton-battle] Unknown: Wait, sis, you're a genius. One chili con carne. What?
-[quarton-battle] Guren: What
-[quarton-battle] Unknown: in the world is chili con carne? It's one of my dad's spiciest dishes. That'll start a fire in my belly, among other places. I'll so unlock Tenkai Titan mode. Just you watch me. No, watch me. I'll get the spicy mustard fried chicken. Copycat. What is that? It's just another spicy dish we serve. To be honest, it's not so bad once your taste buds burn off.
-[quarton-battle] Guren: And for dessert, you can eat my dust. Sis,
-[quarton-battle] Unknown: get extra napkins for the tears Ceylan's about to cry. Bring it. Ow! Here you go. Good luck.
-[quarton-battle] Guren: Well, ready to give up? I'm
-[quarton-battle] Unknown: ready for you to lose. This is so on. Fake.
-[quarton-battle] Guren: Now,
-[quarton] Guren: I think he's right. Maybe the best way forward is to look at the lessons we've learned in the past. Oh, that's deep.
+[quarton] Ceylan: Guren here, in case you've been on another planet. I mean, besides Earth or Quarton, lots happened recently. We've been fighting to keep Vilius and his corrupted bots from conquering the two worlds. Nothing new in that. But we just got a killer new upgrade in our bot-kicking arsenal, Elemental Titan Mode. Next, we found the mysterious Tenkai Fortress that everyone's been after. Mysterious because we have no idea what it does, but we know it's the source of such incredible power that it's starting to destabilize the Earth. We can't let Vilius get his clamps on it. Problem is, we can't touch it either, because it's sealed off by some kind of invisible force field. So, we've got to strategize a way to break through that force field and fast. If we don't, it could mean the end of both worlds.
+[quarton] Toxsa: I say we just try a... Yeah,
+[quarton] Unknown: you tried that, dude. The force field knocked you flat. I know, but the next time, I'll be ready. Hope the ambulance is ready.
+[quarton] Ceylan: You gotta love his enthusiasm.
+[quarton] Unknown: Enthusiasm's not gonna be enough in this case. We need to strategize. Agreed. As long as there is a snack to follow.
+[quarton] Toxsa: Maybe the Tenkai Fortress is beyond human understanding. Like the secret unsolvable level of Doom's Bloater 4. You could spend years trying to solve it. Yeah, you could. But you
+[quarton] Ceylan: still wouldn't solve it. That's kind of what unsolvable means. Okay, guys, don't start this again.
+[quarton] Toxsa: He's jealous of my
+[quarton] Unknown: mad gaming skills. Yeah, right. The force field's just like any challenge that has to be overcome. There was this pitcher once whose curveball I could never hit. Until one day, I finally figured out his secret. And you kicked the winning goal. With a googly. Oh, man, come
+[quarton] Ceylan: on.
+[quarton] Unknown: You
+[quarton] Toxsa: guys
+[quarton] Ceylan: are kidding, right? You're not that clueless about
+[quarton] Toxsa: sports. Wait, you were talking about sports? Water polo, right? Just trying to strategize. Whatever. Sorry, Chooki, but I can't strategize on an empty stomach. Who wants to go to the diner? Feel
+[quarton] Toxsa: my brainstorm mode finally coming online. Ah, that's a relief. Now we can watch you spend 45 minutes
+[quarton] Ceylan: brainstorming about pies. Just save some brainstorming
+[quarton] Unknown: for the Tenkai Fortress, okay? Actually, maybe the answer is not to think about it too much. Just trust your instincts and don't spend all day worrying about it. About what? What
+[quarton-battle] Toxsa: to eat?
+[quarton-battle] Unknown: Or
+[quarton-battle] Toxsa: do you mean the Tenkai Fortress? Oh,
+[quarton-battle] Ceylan: Chooki's saying maybe we should just go with our gut. I tried that once. Remember when I ordered that spicy chicken thing? My gut sure does.
+[quarton-battle] Toxsa: Yeah, and I tried my dad's super red hot chili con carne. Because I thought it would help me finally level up to Titan mode. I had to buy new pants.
+[quarton-battle] Unknown: Okay, it might not have been pretty, but you did get your Titan mode, right?
+[quarton-battle] Toxsa: Wait, sis, you're a genius. One chili con carne. What?
+[quarton-battle] Ceylan: What
+[quarton-battle] Toxsa: in the world is chili con carne? It's one of my dad's spiciest dishes. That'll start a fire in my belly, among other places. I'll so unlock Tenkai Titan mode. Just you watch me. No, watch me. I'll get the spicy mustard fried chicken. Copycat. What is that? It's just another spicy dish we serve. To be honest, it's not so bad once your taste buds burn off.
+[quarton-battle] Ceylan: And for dessert, you can eat my dust. Sis,
+[quarton-battle] Toxsa: get extra napkins for the tears Ceylan's about to cry. Bring it. Ow! Here you go. Good luck.
+[quarton-battle] Unknown: Well, ready to give up? I'm
+[quarton-battle] Toxsa: ready for you to lose. This is so on. Fake.
+[quarton-battle] Unknown: Now,
+[quarton] Ceylan: I think he's right. Maybe the best way forward is to look at the lessons we've learned in the past. Oh, that's deep.
 [quarton] Vilius: And nice, Granox.
 [quarton] Vilius: And there's one thing that remains consistent throughout. Is it that I always give my utmost in your service, mighty master? No, it's that you always fail.
 [quarton] Vilius: Miserably.
 [quarton] Vilius: Watch. Your lucky streak's about to end, knights. It's now or never, Slyger. Let's make this one count. Agreed.
-[quarton] Guren: Hey, we can do that. Oh, yeah. For
+[quarton] Unknown: Hey, we can do that. Oh, yeah. For
 [quarton] Vilius: Vilius
-[quarton] Guren: and victory. Tenkai Knights. I
+[quarton] Unknown: and victory. Tenkai Knights. I
 [quarton] Vilius: won't miss this part.
 [quarton] Vilius: Yeah, no way. It's kind of a relief. You
 [quarton] Vilius: can't expect to win every time. I'm
 [quarton] Vilius: trying, never. Ever. Watch again. Blast them out of the sky! We're done here, right? We crushed them. We're good. Okay, then.
-[quarton] Guren: Tenkai Arrow! Save some for me!
+[quarton] Unknown: Tenkai Arrow! Save some for me!
 [quarton] Vilius: Vilius forever! Poor Vilius. No! That one was Slyger's fault, Vilius. And they swat.
 [quarton] Vilius: Lock and load for the win!
 [quarton] Vilius: I

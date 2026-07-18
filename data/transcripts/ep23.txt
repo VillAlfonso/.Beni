@@ -1,148 +1,148 @@
-[quarton] Guren: Last time we were on court, things took a major turn. Our enemies started fighting each other. Look! You'll pay for your treachery, Venetta!
+[quarton] Slyger: Last time we were on court, things took a major turn. Our enemies started fighting each other. Look! You'll pay for your treachery, Venetta!
 [quarton] Beni: You're the one who betrayed me, Dromus! This
-[quarton] Guren: is not what I signed up for! Leave her alone! What are you doing? This is not your fight! I'm making it my fight! And then, things
+[quarton] Slyger: is not what I signed up for! Leave her alone! What are you doing? This is not your fight! I'm making it my fight! And then, things
 [quarton] Guren: got even more complicated.
-[quarton] Guren: Guys, look! A Core Brick! You're one of those guys trying to beat us. I was. What made you change your mind? When
+[quarton] Slyger: Guys, look! A Core Brick! You're one of those guys trying to beat us. I was. What made you change your mind? When
 [quarton] Beni: I found out why Dromus wants the Dragon Key. He wants to make the dragon his own and use its powers to destroy both Quarton and
 [quarton] Guren: the Earth. We decided to trust Beni and let her help us find the Black Dragon Key before Dromus did. It's in Venom Tower. It just had
-[quarton] Guren: to be in the biggest building in town. Yeah,
-[quarton] Guren: that thing is like twice the size of Ginormous. It's big. But
-[quarton] Guren: if the key's in there, we'll fight it. Yeah, we'll check the directory. 56-4, Men's Underpants, 81st Floor, Black Dragon Key.
+[quarton] Ceylan: to be in the biggest building in town. Yeah,
+[quarton] Slyger: that thing is like twice the size of Ginormous. It's big. But
+[quarton] Ceylan: if the key's in there, we'll fight it. Yeah, we'll check the directory. 56-4, Men's Underpants, 81st Floor, Black Dragon Key.
 [quarton] Gen: Those unwitting pests are about to do my dirty work for me.
 [quarton] Vilius: And if you succeed in acquiring the Black Dragon Key, my powers will enable you to escape with it. Tell me where the portal is. Tell me or be destroyed! Vilius, certainly you must know we shall never give up that information.
 [quarton] Vilius: Vilius, you will never succeed in taking the portal. It was not expected that Vilius would try to obtain the portal. Yes, it is a bold move. But knowing his objective shall make it easier to thwart him. So long as Boreas holds off Vilius, his army can be kept at bay. Stand down, Vilius. You will never succeed in taking the portal.
-[quarton] Guren: I'm going to see all the monsters, so I'm impressed.
+[quarton] Ceylan: I'm going to see all the monsters, so I'm impressed.
 [quarton] Guren: You have your own lord.님
-[quarton] Guren: 带用
+[quarton] Ceylan: 带用
 [quarton] Guren: It is kind of brilliant to hide something so small inside something so huge.
 [quarton] Beni: Yeah, right. The old needle in a skyscraper.
 [quarton] Guren: Tough
-[quarton] Guren: opponent. Three hundred and eighty floors and no clue where to start. Uh, cheat code? And it's not like we can ask for directions. I mean, we don't even know for sure if the Black Dragon Key's even in there.
+[quarton] Slyger: opponent. Three hundred and eighty floors and no clue where to start. Uh, cheat code? And it's not like we can ask for directions. I mean, we don't even know for sure if the Black Dragon Key's even in there.
 [quarton] Beni: Only one way to find
-[quarton] Guren: out. Right. Let's go search the whole building tonight. I think I hear Doom's Bloater calling. That's an awesome idea, Ceylon. What? Me and my big mouth. Don't you guys know sarcasm when you hear it? If this thing was a game world, you'd need three screens just to see it all. Yeah. Lucky for us, I've been here
+[quarton] Ceylan: out. Right. Let's go search the whole building tonight. I think I hear Doom's Bloater calling. That's an awesome idea, Ceylon. What? Me and my big mouth. Don't you guys know sarcasm when you hear it? If this thing was a game world, you'd need three screens just to see it all. Yeah. Lucky for us, I've been here
 [quarton] Guren: with my dad a few times, so I know my way around. All three hundred and eighty floors? Our core bricks are supposed to help us find the key, though, right?
 [quarton] Beni: Yeah. They should start glowing stronger the
-[quarton] Guren: closer we get to it. That's cool. Listen, this could be dangerous, so you should stay here on the bench for now.
+[quarton] Slyger: closer we get to it. That's cool. Listen, this could be dangerous, so you should stay here on the bench for now.
 [quarton] Guren: What? Wait, what do you mean? Benny's been a lot of help, Chooki. I think she should come with us in case we still need her.
-[quarton] Guren: I guess.
+[quarton] Slyger: I guess.
 [quarton] Guren: Hmm. See,
-[quarton] Guren: everybody's happy. Huh? Though you probably ought
+[quarton] Ceylan: everybody's happy. Huh? Though you probably ought
 [quarton] Guren: to give
-[quarton] Guren: her brick back.
-[quarton] Guren: Oh, yeah, huh. You
-[quarton] Guren: ain't... Actually, I'll just hang onto this for now. If she doesn't have it, she can't double-cross us. Right?
-[quarton] Guren: Intercepted by a rookie. Get used to it. Let's go.
+[quarton] Ceylan: her brick back.
+[quarton] Slyger: Oh, yeah, huh. You
+[quarton] Ceylan: ain't... Actually, I'll just hang onto this for now. If she doesn't have it, she can't double-cross us. Right?
+[quarton] Slyger: Intercepted by a rookie. Get used to it. Let's go.
 [quarton] Guren: Hello? Anybody home? This is weird. Where
 [quarton] Beni: are the guards? We should hurry. Uh-huh. If there's some security problem, then we need to get in, get the key, and get out before they lock the whole building down. Guren, your core brick. Huh? Oh. Looks
-[quarton] Guren: like either zombies are close or the key's upstairs, Guren. Time to climb. Let's go. ...house
-[quarton] Guren: from here. You can see everybody's house from here. So
+[quarton] Ceylan: like either zombies are close or the key's upstairs, Guren. Time to climb. Let's go. ...house
+[quarton] Ceylan: from here. You can see everybody's house from here. So
 [quarton] Beni: you still don't trust me, huh?
-[quarton] Guren: Uh, it's not that. It's
+[quarton] Ceylan: Uh, it's not that. It's
 [quarton] Beni: just...
-[quarton] Guren: Eh, don't feel bad. Nobody trusts you. Especially him. Chooki always thinks something's about to go wrong. Huh? Whoa. What was that? We're stopped. This is bad.
+[quarton] Ceylan: Eh, don't feel bad. Nobody trusts you. Especially him. Chooki always thinks something's about to go wrong. Huh? Whoa. What was that? We're stopped. This is bad.
 [quarton] Guren: Wait. I think it's a blackout. The
-[quarton] Guren: elevator needs a reboot, you guys. Now what? I'm
+[quarton] Ceylan: elevator needs a reboot, you guys. Now what? I'm
 [quarton] Guren: claustrophobic. Did I ever tell you that? Don't freak out, guys. Too late. The tower has emergency generator power. It'll probably kick in any second.
 [quarton] Beni: Lucky for us. Looks like most of downtown lost power. We could've been stuck up here for hours. Look.
-[quarton] Guren: Power's back. Cool. Reboot. Black Dragon Key, where are you? There's nothing here. What were you expecting? A surprise party? Hmm. Would there be a lime parfait at this party? Stay
+[quarton] Ceylan: Power's back. Cool. Reboot. Black Dragon Key, where are you? There's nothing here. What were you expecting? A surprise party? Hmm. Would there be a lime parfait at this party? Stay
 [quarton] Beni: focused, guys. We may not be the only people in the building.
-[quarton] Guren: Where to now, Guren? Gotta
+[quarton] Slyger: Where to now, Guren? Gotta
 [quarton] Guren: go up. But I don't trust those elevators, so we're gonna have to find another way.
-[quarton-battle] Guren: Guren, do you think maybe we could find another, another way? Cause these stairs sure have an awful lot of stairs. Oh,
+[quarton-battle] Ceylan: Guren, do you think maybe we could find another, another way? Cause these stairs sure have an awful lot of stairs. Oh,
 [quarton-battle] Guren: yeah? This is way better than us depending on electricity. I guess. But it could still
-[quarton-battle] Guren: be a trick play. Hmm? What if whoever cut the power actually wanted us on the stairs so they could wait for us... at
+[quarton-battle] Slyger: be a trick play. Hmm? What if whoever cut the power actually wanted us on the stairs so they could wait for us... at
 [quarton-battle] Beni: the top? You're saying someone caused a blackout of half the city just to get us off an elevator? Vader, what a worrywart. He'll want to go back.
-[quarton-battle] Guren: No, I want to go up. But better safe than sorry. Guardians
-[quarton-battle] Guren: were powerful, but it appears that one is more than a match for Master Vilius, even when he is in Titan Mode! Neither side is gaining any ground! So why don't the other Guardians just join the battle and finish him off? Up
-[quarton-battle] Guren: to. It would appear that one occupies Vilius, while the others keep us away from that central area. The area appears empty, but could it be the portal is there? They defend it so fiercely, it must be there, but close somehow. Oh, arrogant Guardians. How clever you must think you are. But you can't even fool someone as easy to fool as me! Finally, now the portal will be ours!
-[quarton-battle] Guren: Let's run to the top and get it over with! Yeah, I love stairs! Guys, it's a marathon, not a sprint! You gotta pace yourselves! Last one to the roof's a rotten core brick! Yeah? If I win, I get your goggles! Hey! Speed it up! You guys are slower than a respawn sludge demon!
+[quarton-battle] Slyger: No, I want to go up. But better safe than sorry. Guardians
+[quarton-battle] Slyger: were powerful, but it appears that one is more than a match for Master Vilius, even when he is in Titan Mode! Neither side is gaining any ground! So why don't the other Guardians just join the battle and finish him off? Up
+[quarton-battle] Slyger: to. It would appear that one occupies Vilius, while the others keep us away from that central area. The area appears empty, but could it be the portal is there? They defend it so fiercely, it must be there, but close somehow. Oh, arrogant Guardians. How clever you must think you are. But you can't even fool someone as easy to fool as me! Finally, now the portal will be ours!
+[quarton-battle] Ceylan: Let's run to the top and get it over with! Yeah, I love stairs! Guys, it's a marathon, not a sprint! You gotta pace yourselves! Last one to the roof's a rotten core brick! Yeah? If I win, I get your goggles! Hey! Speed it up! You guys are slower than a respawn sludge demon!
 [quarton-battle] Guren: My
-[quarton-battle] Guren: legs feel like linguine!
+[quarton-battle] Ceylan: legs feel like linguine!
 [quarton-battle] Guren: Hey, you two! Let's move it!
-[quarton] Guren: Still
+[quarton] Slyger: Still
 [quarton] Guren: 22
-[quarton] Guren: floors to go! Wrong motivation. Tell them we're almost there, like my dad does. Great! I have an idea! Let's all take a little break! Yeah, a big one, yeah.
+[quarton] Slyger: floors to go! Wrong motivation. Tell them we're almost there, like my dad does. Great! I have an idea! Let's all take a little break! Yeah, a big one, yeah.
 [quarton] Beni: You guys call yourselves Defenders of the Worlds? Give me a break!
 [quarton] Guren: At least we're still on the right track, cause the higher we go, the stronger the brick's reaction. Gotcha. I wonder what the
-[quarton] Guren: enemy's waiting for. Well, if I were the other team, I would take advantage of us and go on the offensive right now. I mean, look at them! Ugh,
+[quarton] Slyger: enemy's waiting for. Well, if I were the other team, I would take advantage of us and go on the offensive right now. I mean, look at them! Ugh,
 [quarton] Beni: I hate all these games. Glad I agree with you there. We're on unfamiliar turf and barely at half strength. Oh,
 [quarton] Guren: guys, I
 [quarton] Beni: think we made
 [quarton] Guren: it. There it is. The top floor.
 [quarton] Beni: So on the other side of that... should be the observation deck. Whoa, Berserker Bot 3's got a level like this, but this has better graphics.
-[quarton] Guren: That's because this is real.
-[quarton] Guren: Enough with the sightseeing. Let's hurry up and find that stupid key! Good idea.
+[quarton] Slyger: That's because this is real.
+[quarton] Ceylan: Enough with the sightseeing. Let's hurry up and find that stupid key! Good idea.
 [quarton] Guren: Reaction is strong and steady here. It doesn't seem to point left or right, though. Well, maybe you're pointing it wrong.
-[quarton] Guren: Snap out of it! We're all watching a brick glow! Now let's split up and search!
+[quarton] Ceylan: Snap out of it! We're all watching a brick glow! Now let's split up and search!
 [quarton] Beni: Right!
-[quarton] Guren: You use up a lot of intelligence points searching for something when you don't know what it looks like. Well, we know it's black, and we know it's a key. How many intelligence points you need to figure that out? Not right, I give up! What a waste of time. It's not here.
+[quarton] Ceylan: You use up a lot of intelligence points searching for something when you don't know what it looks like. Well, we know it's black, and we know it's a key. How many intelligence points you need to figure that out? Not right, I give up! What a waste of time. It's not here.
 [quarton] Guren: But
-[quarton] Guren: it has to
+[quarton] Ceylan: it has to
 [quarton] Guren: be
-[quarton] Guren: here. Maybe your brick
+[quarton] Ceylan: here. Maybe your brick
 [quarton] Guren: is
-[quarton] Guren: the
+[quarton] Ceylan: the
 [quarton] Guren: answer. Still strong and steady. The only time it's stronger is when we shapeshift.
-[quarton] Guren: You
+[quarton] Ceylan: You
 [quarton] Guren: weren't
-[quarton] Guren: looking
+[quarton] Ceylan: looking
 [quarton] Guren: very
-[quarton] Guren: hard, Ceylan. Harder than you. At least I wasn't bossing everyone around. At least I wasn't pushing on a column like it had some secret door in it! Which is exactly what happens in the dungeon level in Doom's Water 5! For the last time, this is real life, not a stupid video game! Video games aren't stupid! You're right, they're totally not stupid. Just the guy who played them... Wait a second. What if...
+[quarton] Ceylan: hard, Ceylan. Harder than you. At least I wasn't bossing everyone around. At least I wasn't pushing on a column like it had some secret door in it! Which is exactly what happens in the dungeon level in Doom's Water 5! For the last time, this is real life, not a stupid video game! Video games aren't stupid! You're right, they're totally not stupid. Just the guy who played them... Wait a second. What if...
 [quarton] Guren: Go on.
-[quarton] Guren: What if what?
+[quarton] Ceylan: What if what?
 [quarton] Guren: What if this brick can glow even brighter than this? Maybe the glow will get stronger if we just take it up a little higher. That's
-[quarton] Guren: the answer! Higher? But the only place higher than this... Is the roof! It's a cold north
+[quarton] Ceylan: the answer! Higher? But the only place higher than this... Is the roof! It's a cold north
 [quarton] Guren: wind blowing up here. My brick just lit up like a Christmas tree. This is it.
-[quarton] Guren: Whoa, check it out! So the key's inside. How do we get it out? First you have to break the
+[quarton] Slyger: Whoa, check it out! So the key's inside. How do we get it out? First you have to break the
 [quarton] Beni: seal. So you'll all have to shapeshift. Set your core bricks on the surface. Honestly,
-[quarton] Guren: Freaky, there's no way this should work without Mr. White's portal! Now
-[quarton] Guren: let's vaporize it quick! Right.
+[quarton] Slyger: Freaky, there's no way this should work without Mr. White's portal! Now
+[quarton] Slyger: let's vaporize it quick! Right.
 [quarton] Gen: Yeah, that's not gonna happen. Who said that? Oh no.
-[quarton] Guren: Whoa,
+[quarton] Slyger: Whoa,
 [quarton] Gen: you again!
 [quarton] Guren: I should have known all along it was you. You're one of them.
 [quarton] Gen: Spare me the theatrics and hand over the black dragon key, Guren. It's over. You lose. You're Dromus.
 [quarton] Guren: It all makes sense now.
 [quarton] Gen: Took you long enough. Thought you were the smart one of the group.
-[quarton] Guren: What? This guy? Dromus? No way. More like bogus.
+[quarton] Ceylan: What? This guy? Dromus? No way. More like bogus.
 [quarton] Gen: For the last time, hand over the dragon key or else. Not a chance. Hmph. Fine by me. More fun this way.
-[quarton] Guren: Oh, you think so? We'll show you! Not the goggles! The
-[quarton] Guren: key is mine! The key's ours! Just give it up! You'll have to make me! You can't defeat me! Just watch! Heightened
-[quarton] Guren: mode! Activate! Not
-[quarton] Guren: on Quarton. We shouldn't be having this fight here. We really shouldn't be having it at all. Right. So give us back the black key. Hmph. And just why should I do that? Because if you don't, we're gonna take it away by force! And that's gonna really hurt!
+[quarton] Ceylan: Oh, you think so? We'll show you! Not the goggles! The
+[quarton] Slyger: key is mine! The key's ours! Just give it up! You'll have to make me! You can't defeat me! Just watch! Heightened
+[quarton] Slyger: mode! Activate! Not
+[quarton] Slyger: on Quarton. We shouldn't be having this fight here. We really shouldn't be having it at all. Right. So give us back the black key. Hmph. And just why should I do that? Because if you don't, we're gonna take it away by force! And that's gonna really hurt!
 [quarton] Gen: I'll still beat the four of you like I did on Quarton. You haven't gotten any stronger. Think again.
-[quarton] Guren: You beat us on Quarton because you always had the option of running. Here you're gonna have to stand and fight. And I know that's not your style. Guren tried to be your friend. And now you're stabbing him in the back. You used him to get the key because you couldn't do it yourself. Of course, you did have an accomplice.
+[quarton] Slyger: You beat us on Quarton because you always had the option of running. Here you're gonna have to stand and fight. And I know that's not your style. Guren tried to be your friend. And now you're stabbing him in the back. You used him to get the key because you couldn't do it yourself. Of course, you did have an accomplice.
 [quarton] Beni: Nice speech, Chooki. Maybe you're a teensy bit smarter than I thought you were. Yes, I'm still Gen's partner. System input crash. I'm sorry, Guren. I really did think you were sweet in an average kind of way. But ever since my father's failure to discover Quarton destroyed my happy childhood, I've had no loyalty to Earth. That is why I battle. And why I hate everything. It has nothing to do with you. Our story was always going to end this way. Even
-[quarton] Guren: when you were helping us to power up, it was all about getting the key, wasn't it? From the start. Ding ding. No more calls. We have a winner. This game's not over. And we have you blocked from the end zone. So you might as well hand over the key. Guardian
-[quarton] Guren: Urus just froze us
-[quarton] Guren: in place.
+[quarton] Slyger: when you were helping us to power up, it was all about getting the key, wasn't it? From the start. Ding ding. No more calls. We have a winner. This game's not over. And we have you blocked from the end zone. So you might as well hand over the key. Guardian
+[quarton] Ceylan: Urus just froze us
+[quarton] Slyger: in place.
 [quarton-battle] Gen: To be more precise, you're frozen in time.
-[quarton-battle] Guren: It's not too late to do the right thing. To flip to the right side. And be weak. Why should I do that? Hey, what
-[quarton] Guren: are you doing, you pickpocket? This belongs to me. Thanks for holding it. I hate being frozen in time. I'm gonna make you pay for this, Gen.
+[quarton-battle] Slyger: It's not too late to do the right thing. To flip to the right side. And be weak. Why should I do that? Hey, what
+[quarton] Ceylan: are you doing, you pickpocket? This belongs to me. Thanks for holding it. I hate being frozen in time. I'm gonna make you pay for this, Gen.
 [quarton] Gen: Remember how you said I wouldn't be able to get away? You were wrong about that.
-[quarton] Guren: Bye bye. That would have gone better. I can move. But it's too late. They're gone. Please say we can take the elevator down.
+[quarton] Ceylan: Bye bye. That would have gone better. I can move. But it's too late. They're gone. Please say we can take the elevator down.
 [quarton-battle] Vilius: Hold still, Guardian. How can I possibly blast you when you scurry around like that? Master! What?
-[quarton-battle] Guren: I figured out their strategy, Master. Forget about that Guardian. I will take care of him. It's the other two you want, for they guard the portal. The
+[quarton-battle] Slyger: I figured out their strategy, Master. Forget about that Guardian. I will take care of him. It's the other two you want, for they guard the portal. The
 [quarton-battle] Vilius: portal is there? I don't see it. They
-[quarton-battle] Guren: have it close,
+[quarton-battle] Slyger: have it close,
 [quarton-battle] Vilius: but their defensive positions give away its location. Hiding in plain sight. All units, move in!
 [quarton-battle] Vilius: Incoming, Zephyrus. We have to pull back. Understood. Stand clear. I'm activating the shield. Aha! The portal revealed at last. What do you think you're looking at, Vilius? We're not finished here. You'll have to go through this Guardian first.
-[quarton-battle] Guren: Now, Master Vilius! Attack!
+[quarton-battle] Slyger: Now, Master Vilius! Attack!
 [quarton-battle] Vilius: All units, open fire on the shield!
 [quarton-battle] Vilius: Now, my turn! The shield is open. The world is compromised. Your efforts are in vain, pathetic Guardians. The portal is mine! You've gained nothing, Vilius. The Guardians will never allow the portal to fall into your hands, even if it means it must be destroyed. No! You wouldn't dare! This is not good. Mr.
-[quarton-battle] Guren: White!
+[quarton-battle] Slyger: White!
 [quarton-battle] Guren: We
-[quarton-battle] Guren: got here as fast
+[quarton-battle] Slyger: got here as fast
 [quarton-battle] Guren: as
-[quarton] Guren: we could!
+[quarton] Slyger: we could!
 [quarton] Guren: Boys!
-[quarton] Guren: What's going on? Crisis mode. Get to Quarton right away. Yes, sir!
+[quarton] Slyger: What's going on? Crisis mode. Get to Quarton right away. Yes, sir!
 [quarton] Beni: I think we finally did it.
-[quarton] Guren: Yes.
+[quarton] Slyger: Yes.
 [quarton] Gen: Victory
-[quarton] Guren: is so close now. I can taste
+[quarton] Slyger: is so close now. I can taste
 [quarton] Gen: it.
 [quarton] Beni: The Tenkai Knights won't just give up. What do you think they'll do?
 [quarton] Gen: Now that I have this key, why should I care? Nothing they can do will make any difference now. There's the portal. Looks like the final act is about to begin.
 [quarton] Beni: I do hope the Tenkai Knights show up. For their farewell performance.
-[quarton] Guren: Shotenma just got a new bait. Come on, Samurai Ephraim! And this time, he's waiting for power. Oh yeah, baby! With the help of old friends. We did it, Cho! And new ones. Yahoo! A friend! He'll go beast mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now. Only on Cartoon Network. Beast mode.
+[quarton] Slyger: Shotenma just got a new bait. Come on, Samurai Ephraim! And this time, he's waiting for power. Oh yeah, baby! With the help of old friends. We did it, Cho! And new ones. Yahoo! A friend! He'll go beast mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now. Only on Cartoon Network. Beast mode.

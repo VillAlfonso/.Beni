@@ -1,168 +1,168 @@
-[quarton] Guren: Man, they've got that fortress guarded tighter than a...
-[quarton] Unknown: fortress? You
-[quarton] Guren: sure it's
-[quarton] Unknown: in there, Beag? Yes, Bravenwolf! Our scouts followed them! They have a Dragon Cube in there, I assure you! Well, looks like we've got no
-[quarton] Guren: choice. Sure we do! We can go home, have a slice of pizza, maybe play some games. Come on, work with me here!
-[quarton] Unknown: Not him again! That heavy metal maniac is cramping my bandwidth! Who is he?
-[quarton] Unknown: It
-[quarton] Unknown: is Granox,
-[quarton] Unknown: one of Vilius' most destructive and powerful henchmen!
-[quarton] Guren: We can take him! Get ready, guys! It's Tenkai time! So pizza's off the table? Come on! We've got to get that Dragon Cube! Tributon, use your powers!
+[quarton] Ceylan: Man, they've got that fortress guarded tighter than a...
+[quarton] Beag: fortress? You
+[quarton] Ceylan: sure it's
+[quarton] Beag: in there, Beag? Yes, Bravenwolf! Our scouts followed them! They have a Dragon Cube in there, I assure you! Well, looks like we've got no
+[quarton] Ceylan: choice. Sure we do! We can go home, have a slice of pizza, maybe play some games. Come on, work with me here!
+[quarton] Toxsa: Not him again! That heavy metal maniac is cramping my bandwidth! Who is he?
+[quarton] Beag: It
+[quarton] Toxsa: is Granox,
+[quarton] Beag: one of Vilius' most destructive and powerful henchmen!
+[quarton] Ceylan: We can take him! Get ready, guys! It's Tenkai time! So pizza's off the table? Come on! We've got to get that Dragon Cube! Tributon, use your powers!
 [quarton] Vilius: Pathetic Corekai! Come a little closer and prepare to meet your doom!
-[quarton-battle] Guren: Looks like something's
-[quarton-battle] Unknown: about to rain down on us! If only we had a Tenkai umbrella!
-[quarton-battle] Guren: Hold your positions! Shields! Holds up! Alrighty! I've been working on my aim, so let's see what they do about this! Oh, that didn't work! Back to the drawing board! Tributon, what are you doing? I said hold your position! Tenkai Knights, stay together!
-[quarton-battle] Unknown: Can we call turnout? I doubt it. It's chaos! The best strategy now is to just keep moving! And try to keep from getting unvotified!
-[quarton-battle] Guren: Retreat! Retreat! Let's go! To safety, men! Come on! What part of hold the position don't you get? It's like you said, show the mortician! Dude, seriously? Hey, watch where you're going! Ow! You just
-[quarton-battle] Unknown: stepped on my foot! Bravenwolf! It's no use! Their airborne forces are too strong! We must fall back! Run for it! We've only bought you in this retreat, Bravenwolf!
-[quarton-battle] Guren: We lost focus! Valorn didn't hold his position either, thanks to you! I'd like to call your
+[quarton-battle] Ceylan: Looks like something's
+[quarton-battle] Toxsa: about to rain down on us! If only we had a Tenkai umbrella!
+[quarton-battle] Ceylan: Hold your positions! Shields! Holds up! Alrighty! I've been working on my aim, so let's see what they do about this! Oh, that didn't work! Back to the drawing board! Tributon, what are you doing? I said hold your position! Tenkai Knights, stay together!
+[quarton-battle] Toxsa: Can we call turnout? I doubt it. It's chaos! The best strategy now is to just keep moving! And try to keep from getting unvotified!
+[quarton-battle] Ceylan: Retreat! Retreat! Let's go! To safety, men! Come on! What part of hold the position don't you get? It's like you said, show the mortician! Dude, seriously? Hey, watch where you're going! Ow! You just
+[quarton-battle] Beag: stepped on my foot! Bravenwolf! It's no use! Their airborne forces are too strong! We must fall back! Run for it! We've only bought you in this retreat, Bravenwolf!
+[quarton-battle] Ceylan: We lost focus! Valorn didn't hold his position either, thanks to you! I'd like to call your
 [quarton-battle] Vilius: attention to the... Missiles! Run away, Tenkai Knights! We will find you and destroy you! I
-[quarton-battle] Unknown: probably could
-[quarton-battle] Guren: have beat him if I could fly. Newsflash, Chooki, you can't fly! Our
-[quarton-battle] Guren: biggest problem wasn't them, it was us! He
-[quarton] Unknown: who possesses the Dragon Cubes holds the key to ultimate victory. We cannot afford to lose a single one of them to Vilius.
-[quarton] Guren: Yeah, well that's easy for you to say, you're a hologram.
-[quarton] Unknown: The challenges you face are daunting, but the means to overcome them are within you.
-[quarton] Guren: Yeah?
-[quarton] Guren: What's that? We'll take any break we can get.
-[quarton] Unknown: Robofusion. To think as one is to act as one. To act as one is to be as one. Only when the four become one, will the way be open for you to realize all that you were meant to be.
-[quarton] Guren: Boy, ask a simple question.
-[quarton] Unknown: Get a gibberish-y answer.
-[quarton] Guren: He
-[quarton] Guren: meant, there's no I in team. Coaches give you that speech all the time.
-[quarton] Unknown: Yeah, I don't do sports. Maybe
-[quarton] Guren: we can fuse our Tenkai energy, and our minds, and our robot bodies. And maybe make something really powerful. Yeah, like maybe a giant robo-T-Rex.
-[quarton] Unknown: Okay, I get the concept, but how do we execute it? Practice, practice, practice. I'll
-[quarton] Unknown: say a word and you tell me the first thing you think of. Okay. For example, trapezoidal. Trapezoidal?
-[quarton] Guren: Uh,
-[quarton] Unknown: sorry, bad example. Let's try something simpler. The word zoo. Quickly. Go to
-[quarton] Guren: the
-[quarton] Unknown: smelly! What? Why smelly?
-[quarton] Guren: The zoo burrito.
-[quarton] Unknown: Hmm. But don't worry, keep practicing.
-[quarton] Unknown: The
-[quarton] Unknown: centipede takes
-[quarton] Unknown: many steps to cross the mighty mountain. All this talk of coming together is making me hungry. Let's head over to the diner for some grub. Seriously? Focus, guys. And when the waitress comes, let's try and order the same drink at the same time. Ready?
-[quarton] Unknown: Focus. So, you boys gonna order? Or just block the counter from paying customers?
-[quarton] Unknown: This is our waitress, Wakame. Uh, hello. Hello. Unfortunately, she's also my sister.
-[quarton] Unknown: The displeasure is all mine, baby bro. Do you mind?
-[quarton] Unknown: We're in training here. When I say go, you ready? Ready. Yeah. Yep, fire away.
-[quarton] Guren: Okay,
-[quarton] Unknown: go!
-[quarton] Unknown: Orange cream on ice! I hate pop quizzes. We weren't even close. So, that's a lemonade, root beer, orange cream soda, and fruit punch on ice. That was just a practice run. Try again.
-[quarton] Unknown: Go! Lime juice! Sorry,
-[quarton] Unknown: I thought we
-[quarton] Guren: were
-[quarton] Unknown: on
-[quarton] Guren: desserts.
-[quarton] Guren: So did I.
-[quarton] Unknown: So hungry. All right, I think I got it, but I'm not sure we have lime parfait. I'll have to check. Come
-[quarton] Unknown: on, sis, we're trying to think as a team. Okay,
-[quarton] Unknown: what's going
-[quarton] Unknown: on? Is this a video game club thing? No, we're trying to focus our thoughts and get our minds in sync.
-[quarton] Guren: Yeah, because to think as one is to act as one. So no lime parfait? Ugh.
-[quarton] Unknown: Well, you won't improve your teamwork sitting around here. No?
-[quarton] Guren: Wanna
-[quarton] Unknown: be a team? You gotta play like a team and get crushed like a team. Whoa,
-[quarton] Unknown: really
-[quarton] Guren: taking
-[quarton] Unknown: this seriously. Don't worry, we'll go easy on ya. Chooki, over here!
-[quarton] Guren: Is that legal?
-[quarton] Unknown: Cool,
-[quarton] Unknown: we scored two goals. You seriously need to work on your teamwork. You don't think as a team, you stink as a team. Um, I think I just sprained my everything.
-[quarton] Guren: Can't believe it. I haven't been on a team that lost that bad ever. Hey,
-[quarton] Guren: you don't get better by winning all the time. We have a lot to learn about thinking like a team.
-[quarton] Unknown: You got that right. I think we also have a lot to learn about not mentioning our plans to my sister.
-[quarton] Unknown: Come on, Cupcakes. You're not done yet. One mind
-[quarton] Guren: and one team. One
-[quarton] Unknown: mind and one team. That's right. All together in perfect sync. You guys got it? Got it. Sorry. Left, left, right, left. Good work. Okay, let's pick up the pace a little. Left, right, left. Left, right, left. Left, right, left. Looking good. Left, right, left. Left, right, left. Okay, you want to bear right. All together now.
-[quarton] Unknown: One
-[quarton] Unknown: mind
-[quarton] Unknown: and one team. Go right, Toxsa. You're on the right. Guren, now look what you've done. I've lost the rhythm. Zip it, guys.
-[quarton] Unknown: Focus or we're going to run ag... Good.
-[quarton] Guren: Hey, we did it. Way to go, team. Watch out. Hard to starboard. Ceylan, you're on the starboard. We
-[quarton] Guren: were so in sync we sank. I'm home.
-[quarton] Unknown: Ah, Ceylan. I've got some big news. There's been some changes at work. Looks like I'm being transferred. Huh? Transferred where? Out of state. It's not definite, but if it happens, it could happen soon. So I need you to think about what you'd want to bring with us. We can have the rest shipped later. Now, I know this is all pretty sudden and it's a big move.
-[quarton] Guren: Yeah, but what about school and stuff?
-[quarton] Unknown: Hang on. Hello? Oh, hello, sir. Excuse me? When? Next week. As soon as that. This is a surprise, sir. No, no, I'm sure it could be arranged.
-[quarton] Guren: It's over.
-[quarton] Unknown: Ceylan, good to see you. So tell
-[quarton] Guren: me,
-[quarton] Unknown: have
-[quarton] Guren: the four become as one yet? No, they've become as three. I have to give it back. I see. Why this sudden change of heart? It's not what I want, but my family's moving away. Oh. We leave soon, so I won't be around. There he is. Told
-[quarton] Unknown: ya. Hey, Ceylan. How'd you beat us? Oh, uh, hey guys. There's something we should talk about. Negatory. Enough talk. Yeah, time to walk the walk. No, wait. Come on, we're giving this thing another try. What? One
-[quarton] Guren: mind and one team, here we come.
-[quarton-battle] Unknown: Yeah, robofusion or bust, baby.
-[quarton-battle] Unknown: That could prove more difficult than they imagined. Remember
-[quarton-battle] Guren: to stay focused. We can beat this guy. If
+[quarton-battle] Toxsa: probably could
+[quarton-battle] Ceylan: have beat him if I could fly. Newsflash, Chooki, you can't fly! Our
+[quarton-battle] Ceylan: biggest problem wasn't them, it was us! He
+[quarton] 4_Guardians: who possesses the Dragon Cubes holds the key to ultimate victory. We cannot afford to lose a single one of them to Vilius.
+[quarton] Ceylan: Yeah, well that's easy for you to say, you're a hologram.
+[quarton] 4_Guardians: The challenges you face are daunting, but the means to overcome them are within you.
+[quarton] Ceylan: Yeah?
+[quarton] Ceylan: What's that? We'll take any break we can get.
+[quarton] 4_Guardians: Robofusion. To think as one is to act as one. To act as one is to be as one. Only when the four become one, will the way be open for you to realize all that you were meant to be.
+[quarton] Ceylan: Boy, ask a simple question.
+[quarton] Toxsa: Get a gibberish-y answer.
+[quarton] Ceylan: He
+[quarton] Ceylan: meant, there's no I in team. Coaches give you that speech all the time.
+[quarton] Toxsa: Yeah, I don't do sports. Maybe
+[quarton] Ceylan: we can fuse our Tenkai energy, and our minds, and our robot bodies. And maybe make something really powerful. Yeah, like maybe a giant robo-T-Rex.
+[quarton] Toxsa: Okay, I get the concept, but how do we execute it? Practice, practice, practice. I'll
+[quarton] Mr._White: say a word and you tell me the first thing you think of. Okay. For example, trapezoidal. Trapezoidal?
+[quarton] Ceylan: Uh,
+[quarton] Mr._White: sorry, bad example. Let's try something simpler. The word zoo. Quickly. Go to
+[quarton] Ceylan: the
+[quarton] Mr._White: smelly! What? Why smelly?
+[quarton] Ceylan: The zoo burrito.
+[quarton] Mr._White: Hmm. But don't worry, keep practicing.
+[quarton] Toxsa: The
+[quarton] Mr._White: centipede takes
+[quarton] Toxsa: many steps to cross the mighty mountain. All this talk of coming together is making me hungry. Let's head over to the diner for some grub. Seriously? Focus, guys. And when the waitress comes, let's try and order the same drink at the same time. Ready?
+[quarton] Toxsa: Focus. So, you boys gonna order? Or just block the counter from paying customers?
+[quarton] Toxsa: This is our waitress, Wakame. Uh, hello. Hello. Unfortunately, she's also my sister.
+[quarton] Toxsa: The displeasure is all mine, baby bro. Do you mind?
+[quarton] Toxsa: We're in training here. When I say go, you ready? Ready. Yeah. Yep, fire away.
+[quarton] Ceylan: Okay,
+[quarton] Toxsa: go!
+[quarton] Toxsa: Orange cream on ice! I hate pop quizzes. We weren't even close. So, that's a lemonade, root beer, orange cream soda, and fruit punch on ice. That was just a practice run. Try again.
+[quarton] Toxsa: Go! Lime juice! Sorry,
+[quarton] Toxsa: I thought we
+[quarton] Ceylan: were
+[quarton] Toxsa: on
+[quarton] Ceylan: desserts.
+[quarton] Ceylan: So did I.
+[quarton] Toxsa: So hungry. All right, I think I got it, but I'm not sure we have lime parfait. I'll have to check. Come
+[quarton] Toxsa: on, sis, we're trying to think as a team. Okay,
+[quarton] Toxsa: what's going
+[quarton] Toxsa: on? Is this a video game club thing? No, we're trying to focus our thoughts and get our minds in sync.
+[quarton] Ceylan: Yeah, because to think as one is to act as one. So no lime parfait? Ugh.
+[quarton] Toxsa: Well, you won't improve your teamwork sitting around here. No?
+[quarton] Ceylan: Wanna
+[quarton] Toxsa: be a team? You gotta play like a team and get crushed like a team. Whoa,
+[quarton] Toxsa: really
+[quarton] Ceylan: taking
+[quarton] Toxsa: this seriously. Don't worry, we'll go easy on ya. Chooki, over here!
+[quarton] Ceylan: Is that legal?
+[quarton] Toxsa: Cool,
+[quarton] Toxsa: we scored two goals. You seriously need to work on your teamwork. You don't think as a team, you stink as a team. Um, I think I just sprained my everything.
+[quarton] Ceylan: Can't believe it. I haven't been on a team that lost that bad ever. Hey,
+[quarton] Ceylan: you don't get better by winning all the time. We have a lot to learn about thinking like a team.
+[quarton] Toxsa: You got that right. I think we also have a lot to learn about not mentioning our plans to my sister.
+[quarton] Toxsa: Come on, Cupcakes. You're not done yet. One mind
+[quarton] Ceylan: and one team. One
+[quarton] Toxsa: mind and one team. That's right. All together in perfect sync. You guys got it? Got it. Sorry. Left, left, right, left. Good work. Okay, let's pick up the pace a little. Left, right, left. Left, right, left. Left, right, left. Looking good. Left, right, left. Left, right, left. Okay, you want to bear right. All together now.
+[quarton] Toxsa: One
+[quarton] Toxsa: mind
+[quarton] Toxsa: and one team. Go right, Toxsa. You're on the right. Guren, now look what you've done. I've lost the rhythm. Zip it, guys.
+[quarton] Toxsa: Focus or we're going to run ag... Good.
+[quarton] Ceylan: Hey, we did it. Way to go, team. Watch out. Hard to starboard. Ceylan, you're on the starboard. We
+[quarton] Ceylan: were so in sync we sank. I'm home.
+[quarton] Mr._White: Ah, Ceylan. I've got some big news. There's been some changes at work. Looks like I'm being transferred. Huh? Transferred where? Out of state. It's not definite, but if it happens, it could happen soon. So I need you to think about what you'd want to bring with us. We can have the rest shipped later. Now, I know this is all pretty sudden and it's a big move.
+[quarton] Ceylan: Yeah, but what about school and stuff?
+[quarton] Mr._White: Hang on. Hello? Oh, hello, sir. Excuse me? When? Next week. As soon as that. This is a surprise, sir. No, no, I'm sure it could be arranged.
+[quarton] Ceylan: It's over.
+[quarton] Mr._White: Ceylan, good to see you. So tell
+[quarton] Ceylan: me,
+[quarton] Mr._White: have
+[quarton] Ceylan: the four become as one yet? No, they've become as three. I have to give it back. I see. Why this sudden change of heart? It's not what I want, but my family's moving away. Oh. We leave soon, so I won't be around. There he is. Told
+[quarton] Toxsa: ya. Hey, Ceylan. How'd you beat us? Oh, uh, hey guys. There's something we should talk about. Negatory. Enough talk. Yeah, time to walk the walk. No, wait. Come on, we're giving this thing another try. What? One
+[quarton] Ceylan: mind and one team, here we come.
+[quarton-battle] Toxsa: Yeah, robofusion or bust, baby.
+[quarton-battle] Mr._White: That could prove more difficult than they imagined. Remember
+[quarton-battle] Ceylan: to stay focused. We can beat this guy. If
 [quarton-battle] Vilius: it isn't the legendary Gluttons for punishment. We're
-[quarton-battle] Guren: not the same knights you fought last time, Granox. We've honed our skills. We've been tested in battle. I wouldn't call playing
-[quarton-battle] Unknown: my sister's soccer team a battle exactly. Shh, I'm bluffing. Whoa, they did foul a lot. Guys, get
-[quarton-battle] Guren: serious. One mind and one team. Right, Tributon? Yo, Tributon. Hello? Oh, sorry. Where'd you go, dude? Get your head in the game. I was, uh, thinking about Lime Parfait. And your team!
-[quarton-battle] Unknown: This Lime Parfait must be a special Tenkai Knight move.
-[quarton-battle] Guren: The Guardian said only when the four become one will we realize all that we are meant to be. Maybe to get to robofusion we have to literally fuse
-[quarton-battle] Unknown: our robot bodies together somehow. You mean
+[quarton-battle] Ceylan: not the same knights you fought last time, Granox. We've honed our skills. We've been tested in battle. I wouldn't call playing
+[quarton-battle] Toxsa: my sister's soccer team a battle exactly. Shh, I'm bluffing. Whoa, they did foul a lot. Guys, get
+[quarton-battle] Ceylan: serious. One mind and one team. Right, Tributon? Yo, Tributon. Hello? Oh, sorry. Where'd you go, dude? Get your head in the game. I was, uh, thinking about Lime Parfait. And your team!
+[quarton-battle] Beag: This Lime Parfait must be a special Tenkai Knight move.
+[quarton-battle] Ceylan: The Guardian said only when the four become one will we realize all that we are meant to be. Maybe to get to robofusion we have to literally fuse
+[quarton-battle] Toxsa: our robot bodies together somehow. You mean
 [quarton] Vilius: like
-[quarton] Unknown: a group hug? More like a mosh pit. Let's
-[quarton] Guren: go! One mind? Yeah, and one team!
-[quarton] Unknown: Corekai, prepare to be amazed by the grand strategy of the Tenkai Knights. What is this?
+[quarton] Toxsa: a group hug? More like a mosh pit. Let's
+[quarton] Ceylan: go! One mind? Yeah, and one team!
+[quarton] Beag: Corekai, prepare to be amazed by the grand strategy of the Tenkai Knights. What is this?
 [quarton] Vilius: Are they hoping to bore me into surrender?
-[quarton] Unknown: Look, guys, if we're gonna fuse, that's
-[quarton] Guren: really huge. Okay, let's put our heads together. Literally. Follow me.
-[quarton-battle] Unknown: One mind, one owl.
-[quarton-battle] Guren: Big teamwork, guys! Human pyramid!
+[quarton] Toxsa: Look, guys, if we're gonna fuse, that's
+[quarton] Ceylan: really huge. Okay, let's put our heads together. Literally. Follow me.
+[quarton-battle] Toxsa: One mind, one owl.
+[quarton-battle] Ceylan: Big teamwork, guys! Human pyramid!
 [quarton-battle] Vilius: This is just sad. Attack!
-[quarton-battle] Guren: All together now! Focus! On what?
-[quarton-battle] Unknown: Ducky! Their strategy may appear to be strange, but you have to admire their commitment. Well, at
-[quarton-battle] Unknown: least we're making them overconfident. That's something. In my gaming group, only the lowliest troll would launch an attack while the other guy's still setting up his pieces. Not cool, buckethead!
+[quarton-battle] Ceylan: All together now! Focus! On what?
+[quarton-battle] Beag: Ducky! Their strategy may appear to be strange, but you have to admire their commitment. Well, at
+[quarton-battle] Toxsa: least we're making them overconfident. That's something. In my gaming group, only the lowliest troll would launch an attack while the other guy's still setting up his pieces. Not cool, buckethead!
 [quarton-battle] Vilius: If all you have to throw are insults, then destroying you should not take long at all!
-[quarton-battle] Guren: You're sure gonna miss this. This what? What are you talking about? They've flown over us! Let's try a direct attack on the fortress before they can regroup and come back! But what about one mind and one team and robofusion? We're not ready! So come on, let's go! Okay.
-[quarton-battle] Unknown: Forward, Corekai! Follow the Tenkai Knights!
+[quarton-battle] Ceylan: You're sure gonna miss this. This what? What are you talking about? They've flown over us! Let's try a direct attack on the fortress before they can regroup and come back! But what about one mind and one team and robofusion? We're not ready! So come on, let's go! Okay.
+[quarton-battle] Beag: Forward, Corekai! Follow the Tenkai Knights!
 [quarton-battle] Vilius: So, attacking when I'm defenseless. Perfect! They fell right into my trap! No,
-[quarton-battle] Guren: I guessed wrong. I think we're in trouble! They have us surrounded!
-[quarton-battle] Unknown: Now,
+[quarton-battle] Ceylan: I guessed wrong. I think we're in trouble! They have us surrounded!
+[quarton-battle] Beag: Now,
 [quarton-battle] Vilius: fire!
-[quarton-battle] Unknown: Bravenwolf! Are you...
-[quarton-battle] Guren: Sorry, guys. I let us right into that. It was a good plan.
+[quarton-battle] Beag: Bravenwolf! Are you...
+[quarton-battle] Ceylan: Sorry, guys. I let us right into that. It was a good plan.
 [quarton-battle] Vilius: In theory. Nobody
-[quarton-battle] Guren: else came up with any ideas. Still
+[quarton-battle] Ceylan: else came up with any ideas. Still
 [quarton-battle] Vilius: standing? That's not right! Attack them again! It's
-[quarton-battle] Unknown: no use, Tenkai Knights! They're too strong for us! We must retreat while we still can! Can somebody hit the do-over
-[quarton-battle] Guren: button? I guess... I guess he's right. Okay, guys.
-[quarton-battle] Guren: Yeah, but...
-[quarton-battle] Guren: Sorry, Ceylan. We'll get him next time. Just need more practice! No, we won't! There's not gonna be a next time! I'm moving away! I'm leaving next week! Moving? You're
-[quarton-battle] Unknown: kidding, right?
-[quarton-battle] Guren: You're not kidding. I've been throwing us off all day long! It's my fault we weren't able to robo-whatever! Because there's one thought I just couldn't get out of my head. It took me leaving to realize...
-[quarton-battle] Guren: Ceylan... What is it? You guys are totally
-[quarton-battle] Guren: the best friends I've ever had!
+[quarton-battle] Beag: no use, Tenkai Knights! They're too strong for us! We must retreat while we still can! Can somebody hit the do-over
+[quarton-battle] Ceylan: button? I guess... I guess he's right. Okay, guys.
+[quarton-battle] Ceylan: Yeah, but...
+[quarton-battle] Ceylan: Sorry, Ceylan. We'll get him next time. Just need more practice! No, we won't! There's not gonna be a next time! I'm moving away! I'm leaving next week! Moving? You're
+[quarton-battle] Toxsa: kidding, right?
+[quarton-battle] Ceylan: You're not kidding. I've been throwing us off all day long! It's my fault we weren't able to robo-whatever! Because there's one thought I just couldn't get out of my head. It took me leaving to realize...
+[quarton-battle] Ceylan: Ceylan... What is it? You guys are totally
+[quarton-battle] Ceylan: the best friends I've ever had!
 [quarton-battle] Unknown: Tenkai sync has been achieved. Commencing robo-fusion sequence.
-[quarton-battle] Guren: Huh? Say what?
+[quarton-battle] Ceylan: Huh? Say what?
 [quarton-battle] Unknown: Robo-fusion. Combining Tenkai energy. Core mode activated.
-[quarton-battle] Guren: Whoa...
+[quarton-battle] Ceylan: Whoa...
 [quarton-battle] Unknown: Tenkai energy aligned. Initiating proto-jet build mode.
-[quarton-battle] Guren: Then
+[quarton-battle] Ceylan: Then
 [quarton-battle] Unknown: we did it? Correct. The four have become one. Prepare for robo-fusion.
-[quarton-battle] Guren: Really? Alright! Woohoo! Yeah! What's
+[quarton-battle] Ceylan: Really? Alright! Woohoo! Yeah! What's
 [quarton-battle] Vilius: that? I didn't do that! Fusion
 [quarton-battle] Unknown: proto-jet engaged. All systems operational. Tenkai energy at 100%. We
-[quarton-battle] Guren: actually did it! One mind, one team! Might
+[quarton-battle] Ceylan: actually did it! One mind, one team! Might
 [quarton-battle] Unknown: I suggest launching the phoenix attack?
-[quarton-battle] Guren: Okay, proto-jet. Phoenix attack, go!
+[quarton-battle] Ceylan: Okay, proto-jet. Phoenix attack, go!
 [quarton-battle] Vilius: Possible! Please!
-[quarton-battle] Guren: Okay, now let's take
-[quarton-battle] Unknown: down that fortress!
-[quarton-battle] Guren: And fork it head with it! Let's do it! Robo-fusion proto-jet in!
-[quarton-battle] Unknown: Think your sister's team would give us a rematch? You have to bring her up? Now? Really?
-[quarton-battle] Unknown: A resounding victory! The Corrupted have fled, and a third Dragon Cube is secure! All thanks to the mighty Tenkai Knights! Can't disagree with that! We're just happy to help save your planet. I mean, our planet. Tenkai Knights, it is an honor to battle by your side. The Corekai thank you. Come on, let's get this Dragon Cube to safety before the Corrupted return. And be careful with it!
-[quarton-battle] Guren: Yes,
-[quarton-battle] Unknown: sir!
-[quarton-battle] Guren: What are we gonna do without you, Tributon? Really moving? Afraid so. But no matter where I end up, I'm always gonna know that for one day, I was part of an awesome team. Anyway, I'm leaving next week, and things will be crazy before then, so I'll just say goodbye now, okay? I'll never forget you guys. Good luck saving the planet without me. Wait, Tributon? Ceylan? What
-[quarton] Guren: happens now? We find someone else? It doesn't matter. It won't be the same. I sure am gonna miss the way he'd barge in and say...
-[quarton] Guren: Hey, Guren. What? Ceylan? You... Wait a second. What's going on? I thought you'd be gone by now.
-[quarton] Guren: Yeah, well, you see...
-[quarton] Guren: It's so funny, I thought we all had to leave this week. But it was just Dad who had to go ahead for an interview. But then the company went out of business, so we're back where we started. Isn't that terrific? Wait, so you're saying... You're stuck with me, dude. Really? Oh man, don't scare me like that!
-[quarton] Unknown: You hear what happened at the History Museum?
+[quarton-battle] Ceylan: Okay, now let's take
+[quarton-battle] Toxsa: down that fortress!
+[quarton-battle] Ceylan: And fork it head with it! Let's do it! Robo-fusion proto-jet in!
+[quarton-battle] Toxsa: Think your sister's team would give us a rematch? You have to bring her up? Now? Really?
+[quarton-battle] Beag: A resounding victory! The Corrupted have fled, and a third Dragon Cube is secure! All thanks to the mighty Tenkai Knights! Can't disagree with that! We're just happy to help save your planet. I mean, our planet. Tenkai Knights, it is an honor to battle by your side. The Corekai thank you. Come on, let's get this Dragon Cube to safety before the Corrupted return. And be careful with it!
+[quarton-battle] Ceylan: Yes,
+[quarton-battle] Beag: sir!
+[quarton-battle] Ceylan: What are we gonna do without you, Tributon? Really moving? Afraid so. But no matter where I end up, I'm always gonna know that for one day, I was part of an awesome team. Anyway, I'm leaving next week, and things will be crazy before then, so I'll just say goodbye now, okay? I'll never forget you guys. Good luck saving the planet without me. Wait, Tributon? Ceylan? What
+[quarton] Ceylan: happens now? We find someone else? It doesn't matter. It won't be the same. I sure am gonna miss the way he'd barge in and say...
+[quarton] Ceylan: Hey, Guren. What? Ceylan? You... Wait a second. What's going on? I thought you'd be gone by now.
+[quarton] Ceylan: Yeah, well, you see...
+[quarton] Ceylan: It's so funny, I thought we all had to leave this week. But it was just Dad who had to go ahead for an interview. But then the company went out of business, so we're back where we started. Isn't that terrific? Wait, so you're saying... You're stuck with me, dude. Really? Oh man, don't scare me like that!
+[quarton] Toxsa: You hear what happened at the History Museum?
 [quarton] Vilius: Hm?
-[quarton] Unknown: Well, remember that freaky stone tablet thing? Somebody stole it. Stole it? Really?
-[quarton] Guren: OMG! Could
-[quarton] Guren: someone on Earth be working for Vilius?
+[quarton] Toxsa: Well, remember that freaky stone tablet thing? Somebody stole it. Stole it? Really?
+[quarton] Ceylan: OMG! Could
+[quarton] Ceylan: someone on Earth be working for Vilius?

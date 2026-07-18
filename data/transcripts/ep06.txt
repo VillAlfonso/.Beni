@@ -1,145 +1,145 @@
-[quarton-battle] Guren: We so had our bots handed to us in that last battle. Man, if Beag hadn't been there, we'd be Tenkai toast. Yeah. I
-[quarton-battle] Guren: haven't been beaten that badly since first grade kickball. What were we thinking?
-[quarton-battle] Guren: With our new attack, we'll finish before you're even in position. Oh, I see. Let's
-[quarton-battle] Guren: go! Time to kick some bots. Who's ready for a little robofusion? Ball for one. And crush them all. Sounds good to me.
+[quarton-battle] Toxsa: We so had our bots handed to us in that last battle. Man, if Beag hadn't been there, we'd be Tenkai toast. Yeah. I
+[quarton-battle] Ceylan: haven't been beaten that badly since first grade kickball. What were we thinking?
+[quarton-battle] Ceylan: With our new attack, we'll finish before you're even in position. Oh, I see. Let's
+[quarton-battle] Ceylan: go! Time to kick some bots. Who's ready for a little robofusion? Ball for one. And crush them all. Sounds good to me.
 [quarton-battle] Vilius: Game over. I win.
-[quarton-battle] Guren: We'll just have to do better. Why don't we think of this as a wake-up call? Next time, let's not answer it.
-[quarton-battle] Guren: Fast! He's not faster than fire, though. Then let's bring the heat.
+[quarton-battle] Ceylan: We'll just have to do better. Why don't we think of this as a wake-up call? Next time, let's not answer it.
+[quarton-battle] Ceylan: Fast! He's not faster than fire, though. Then let's bring the heat.
 [quarton-battle] Unknown: Robofusion deactivated.
 [quarton] Vilius: Tenkai
 [quarton] Unknown: Energy training.
-[quarton] Unknown: My, my, what gloomy faces. That's understandable. But now we must move forward. For the tree to grow,
-[quarton] Guren: the
-[quarton] Unknown: roots must be watered.
-[quarton] Guren: You say what? Don't get it. Sorry, Mr. White, your tree jokes just aren't funny today. Sounds like you know something we don't.
-[quarton] Unknown: Something is coming. Something big.
-[quarton] Guren: Something big?
-[earth] Guren: Is this another warning about trees or tea or whatever? Because we've already heard that one.
-[earth] Unknown: Expectation is one thing. Being prepared is entirely different.
-[earth] Guren: You have anything that will teach us how?
-[quarton] Unknown: Beyond this door lies the first step in your journey. Ready? What
-[quarton] Guren: is this place?
-[quarton] Unknown: My storage room. You see these things? I need you boys to carry all these things upstairs to the shop.
-[quarton] Guren: What
-[quarton] Unknown: do you prefer, being clobbered by Vilius? Just kidding.
-[quarton] Guren: How many loads is this? And I thought weight training was a drag. I
-[quarton] Guren: bet he's gonna make us set all this up on Quarton for a garage sale. No, it's some kind of training. Conditioning or endurance or something.
-[quarton] Unknown: The road is long, but each step brings you closer to your destination.
-[quarton] Guren: The emergency room. Why should I ruin this perfect physique with muscles?
-[quarton] Unknown: Well, if you enjoyed that, you'll love phase two.
-[quarton] Guren: Phase two? Uh, am I supposed to wax on or wax off? Uh, and this is for?
-[quarton] Unknown: Cleaning. Those are generally used for cleaning. No wonder what he calls this training. Tenkai training.
-[quarton] Guren: I'll remember this in the job description. If
-[quarton] Guren: we have to clean the bathroom, I quit. There's gotta be a reason behind it. Maybe there's something in the motion of dusting. A mop that stops is a mop that mops not. Where'd you hear that? The internet. Whatever. We can joke all we want. But I know there's something important we're supposed to be getting out of this. There has to be. Like dust bunnies? Yeah, I have allergies. Maybe we're just cheaper than a janitor. Oh, come on, Chooki. You don't really believe that.
-[quarton] Unknown: Well, Rome wasn't built in a day. But even that didn't take as long as you're taking! Stop dusting in. You see? The mountains you can move when you put your minds to it. Ready for your next assignment?
-[quarton] Guren: What? Not unless it's a nap. Yeah, we're ready, Mr. White. What have you got for us? My
-[quarton] Unknown: shopping
-[quarton] Guren: list. Okay, now. I wonder which tomato is the ripest. To eat
-[quarton] Guren: or to
-[quarton] Guren: throw. I think this is a test of our powers of observation. Or
-[quarton] Guren: our patience. It's this one! Training, huh? If you ask me, I think we're being trained to fetch and I don't like like it. It could be worse. Or, well, maybe it couldn't. Come
-[quarton] Guren: on. No pain, no gain, right?
-[quarton] Unknown: Now then, the remaining question is this. Will you put off for tomorrow what you could do today? That's your way of saying there's more?
-[quarton] Guren: Why do you ask when you know the answer? Pause button. We want to know what's the point of all this so-called training.
-[quarton] Unknown: What's the point?
-[quarton] Unknown: Perhaps that is the point.
-[quarton] Guren: Thank
-[quarton] Guren: you, Mr. Fortune Cookie! That's it. I'm gonna get out of here. I've got a game at home with my name on it. Well, count me
-[earth] Guren: in.
-[earth] Unknown: Huh?
-[earth] Guren: I'm ready, Mr. White.
-[earth] Unknown: You really mean that? Do you, Guren? You bet. No matter how pointless it may seem?
-[earth] Guren: Pointless is my middle name. What
-[earth] Unknown: a teacher's pet. So,
-[earth] Guren: Guren,
-[earth] Guren: I
-[quarton-battle] Guren: gotta know. Are
-[quarton-battle] Guren: you sure Mr. White knows what he's doing? Seriously, you don't find it all a bit bogus-y?
-[quarton-battle] Guren: Yeah, come on. I mean, if chores were training, then my mom would be like a zen master sensei. The Guardians all chose us. If we're gonna take down Vilius, we gotta train for it. Even if that training seems a little weird. Tiki head weird? Like he said, there's some things that we just need to figure out. That's the whole point. And you believe him? Yeah. I mean, I have to believe him. Because if he's wrong, we'll never beat Vilius.
-[quarton-battle] Guren: No way! He dodged our attack! He got lucky! Let's bring this proto-jet around and take him down for real this time!
+[quarton] Mr._White: My, my, what gloomy faces. That's understandable. But now we must move forward. For the tree to grow,
+[quarton] Ceylan: the
+[quarton] Mr._White: roots must be watered.
+[quarton] Ceylan: You say what? Don't get it. Sorry, Mr. White, your tree jokes just aren't funny today. Sounds like you know something we don't.
+[quarton] Mr._White: Something is coming. Something big.
+[quarton] Ceylan: Something big?
+[earth] Ceylan: Is this another warning about trees or tea or whatever? Because we've already heard that one.
+[earth] Mr._White: Expectation is one thing. Being prepared is entirely different.
+[earth] Ceylan: You have anything that will teach us how?
+[quarton] Mr._White: Beyond this door lies the first step in your journey. Ready? What
+[quarton] Ceylan: is this place?
+[quarton] Mr._White: My storage room. You see these things? I need you boys to carry all these things upstairs to the shop.
+[quarton] Ceylan: What
+[quarton] Mr._White: do you prefer, being clobbered by Vilius? Just kidding.
+[quarton] Toxsa: How many loads is this? And I thought weight training was a drag. I
+[quarton] Ceylan: bet he's gonna make us set all this up on Quarton for a garage sale. No, it's some kind of training. Conditioning or endurance or something.
+[quarton] Mr._White: The road is long, but each step brings you closer to your destination.
+[quarton] Ceylan: The emergency room. Why should I ruin this perfect physique with muscles?
+[quarton] Mr._White: Well, if you enjoyed that, you'll love phase two.
+[quarton] Ceylan: Phase two? Uh, am I supposed to wax on or wax off? Uh, and this is for?
+[quarton] Mr._White: Cleaning. Those are generally used for cleaning. No wonder what he calls this training. Tenkai training.
+[quarton] Toxsa: I'll remember this in the job description. If
+[quarton] Ceylan: we have to clean the bathroom, I quit. There's gotta be a reason behind it. Maybe there's something in the motion of dusting. A mop that stops is a mop that mops not. Where'd you hear that? The internet. Whatever. We can joke all we want. But I know there's something important we're supposed to be getting out of this. There has to be. Like dust bunnies? Yeah, I have allergies. Maybe we're just cheaper than a janitor. Oh, come on, Chooki. You don't really believe that.
+[quarton] Mr._White: Well, Rome wasn't built in a day. But even that didn't take as long as you're taking! Stop dusting in. You see? The mountains you can move when you put your minds to it. Ready for your next assignment?
+[quarton] Ceylan: What? Not unless it's a nap. Yeah, we're ready, Mr. White. What have you got for us? My
+[quarton] Mr._White: shopping
+[quarton] Ceylan: list. Okay, now. I wonder which tomato is the ripest. To eat
+[quarton] Toxsa: or to
+[quarton] Ceylan: throw. I think this is a test of our powers of observation. Or
+[quarton] Toxsa: our patience. It's this one! Training, huh? If you ask me, I think we're being trained to fetch and I don't like like it. It could be worse. Or, well, maybe it couldn't. Come
+[quarton] Ceylan: on. No pain, no gain, right?
+[quarton] Mr._White: Now then, the remaining question is this. Will you put off for tomorrow what you could do today? That's your way of saying there's more?
+[quarton] Toxsa: Why do you ask when you know the answer? Pause button. We want to know what's the point of all this so-called training.
+[quarton] Mr._White: What's the point?
+[quarton] Mr._White: Perhaps that is the point.
+[quarton] Ceylan: Thank
+[quarton] Toxsa: you, Mr. Fortune Cookie! That's it. I'm gonna get out of here. I've got a game at home with my name on it. Well, count me
+[earth] Ceylan: in.
+[earth] Mr._White: Huh?
+[earth] Toxsa: I'm ready, Mr. White.
+[earth] Mr._White: You really mean that? Do you, Guren? You bet. No matter how pointless it may seem?
+[earth] Ceylan: Pointless is my middle name. What
+[earth] Mr._White: a teacher's pet. So,
+[earth] Ceylan: Guren,
+[earth] Toxsa: I
+[quarton-battle] Ceylan: gotta know. Are
+[quarton-battle] Toxsa: you sure Mr. White knows what he's doing? Seriously, you don't find it all a bit bogus-y?
+[quarton-battle] Ceylan: Yeah, come on. I mean, if chores were training, then my mom would be like a zen master sensei. The Guardians all chose us. If we're gonna take down Vilius, we gotta train for it. Even if that training seems a little weird. Tiki head weird? Like he said, there's some things that we just need to figure out. That's the whole point. And you believe him? Yeah. I mean, I have to believe him. Because if he's wrong, we'll never beat Vilius.
+[quarton-battle] Ceylan: No way! He dodged our attack! He got lucky! Let's bring this proto-jet around and take him down for real this time!
 [quarton-battle] Vilius: There is no next time. You fall now! Robo-fusion attack!
-[quarton-battle] Guren: Yeah, Vilius is
-[quarton-battle] Guren: tough. Yeah, he beat us pretty bad, but that's just one battle. We've won other battles. Remember? Yeah, Vilius is tough. Yeah, he beat us pretty bad, but that's just one battle. We've won other battles. Remember? Okay, proto-jet. Phoenix attack, go!
-[quarton-battle] Guren: Marshmallows! Okay, now let's take down that fortress. And Vulcan head with him. Let's do it! Robo-fusion proto-jet, engage! Think
-[quarton-battle] Guren: about it, guys. If we were that good then, imagine what we'll be if this training pays off. And that's why I say, yeah, I believe him. So, I'll see you guys tomorrow, right? Right? Some
-[quarton-battle] Guren: kind of freaky perpetual dusting machine. I think
-[quarton-battle] Guren: it's time for an
-[quarton-battle] Guren: intervention. Maybe. Where's Chooki? He was right here. Search me. Probably bailed. I don't blame him.
-[quarton-battle] Unknown: The door's open. Come on in. Oh, what is it, Chooki? You got
-[quarton-battle] Guren: a minute, Mr. White? Listen, I do sports. A lot of sports. So I know about practice and training. I get it, but... Go on, but what? But there's a
-[quarton-battle] Unknown: big difference between training and cleaning someone's house. Ah, I think I understand. You're a boy who likes to know just where you're going, before you set off on a journey, is that right? I'd like to know how dusting makes you a better Tenkai Knight. Well, how does a butterfly beating its wings in Peru cause a thunderstorm in Sheboygan? And why do you have to answer every question with a riddle or another question? Why do the stars... Oh, dear, I'm doing it again, aren't I? Finding the answers has always been more satisfying than getting them. But
+[quarton-battle] Ceylan: Yeah, Vilius is
+[quarton-battle] Ceylan: tough. Yeah, he beat us pretty bad, but that's just one battle. We've won other battles. Remember? Yeah, Vilius is tough. Yeah, he beat us pretty bad, but that's just one battle. We've won other battles. Remember? Okay, proto-jet. Phoenix attack, go!
+[quarton-battle] Ceylan: Marshmallows! Okay, now let's take down that fortress. And Vulcan head with him. Let's do it! Robo-fusion proto-jet, engage! Think
+[quarton-battle] Ceylan: about it, guys. If we were that good then, imagine what we'll be if this training pays off. And that's why I say, yeah, I believe him. So, I'll see you guys tomorrow, right? Right? Some
+[quarton-battle] Toxsa: kind of freaky perpetual dusting machine. I think
+[quarton-battle] Ceylan: it's time for an
+[quarton-battle] Toxsa: intervention. Maybe. Where's Chooki? He was right here. Search me. Probably bailed. I don't blame him.
+[quarton-battle] Mr._White: The door's open. Come on in. Oh, what is it, Chooki? You got
+[quarton-battle] Ceylan: a minute, Mr. White? Listen, I do sports. A lot of sports. So I know about practice and training. I get it, but... Go on, but what? But there's a
+[quarton-battle] Mr._White: big difference between training and cleaning someone's house. Ah, I think I understand. You're a boy who likes to know just where you're going, before you set off on a journey, is that right? I'd like to know how dusting makes you a better Tenkai Knight. Well, how does a butterfly beating its wings in Peru cause a thunderstorm in Sheboygan? And why do you have to answer every question with a riddle or another question? Why do the stars... Oh, dear, I'm doing it again, aren't I? Finding the answers has always been more satisfying than getting them. But
 [quarton] Vilius: you'll finish them off! We
-[quarton] Guren: can't hold around until the Tenkai Knights arrive!
+[quarton] Ceylan: can't hold around until the Tenkai Knights arrive!
 [quarton] Vilius: Being
-[quarton] Guren: summoned! So let's go. What's the problem?
-[quarton] Guren: Problem? Where should I begin?
-[quarton] Guren: Huh? What do you mean? What's wrong? Get a grip. We're talking Vilius. He blew us all away last time, and I don't see much has changed since then. Are you crazy? Come on, guys! What do you think we've been doing? We're getting better every day!
-[quarton] Guren: Reality
-[quarton] Guren: to Guren, come in! You're crazy if you think polishing doorknobs is gonna make us any better! That's not the point! You heard Mr. White. It's about more than any individual tasks. They're all just steps leading us to something bigger.
-[quarton] Guren: Hey, guys, while we're arguing in the locker room, the game's already started. So the real question is... do we suit up or not?
-[quarton] Guren: We're not ready, Guren.
-[quarton] Guren: Yeah, maybe if we had some real training. Not
-[quarton] Guren: ready? When have we been ready? We're needed right now, not sometime next week. Besides, who says we're not ready?
-[quarton] Guren: Whatever, I'm going! Huh? Me too. I'm down with that. So
-[quarton] Guren: how about it? Sure, why not? It beats mopping. So
-[quarton] Guren: what are we waiting for? Let's go kick some butt! Yep,
-[quarton] Guren: looks like we missed the kickoff all right. Computer, what's the situation?
+[quarton] Ceylan: summoned! So let's go. What's the problem?
+[quarton] Toxsa: Problem? Where should I begin?
+[quarton] Ceylan: Huh? What do you mean? What's wrong? Get a grip. We're talking Vilius. He blew us all away last time, and I don't see much has changed since then. Are you crazy? Come on, guys! What do you think we've been doing? We're getting better every day!
+[quarton] Toxsa: Reality
+[quarton] Ceylan: to Guren, come in! You're crazy if you think polishing doorknobs is gonna make us any better! That's not the point! You heard Mr. White. It's about more than any individual tasks. They're all just steps leading us to something bigger.
+[quarton] Ceylan: Hey, guys, while we're arguing in the locker room, the game's already started. So the real question is... do we suit up or not?
+[quarton] Ceylan: We're not ready, Guren.
+[quarton] Toxsa: Yeah, maybe if we had some real training. Not
+[quarton] Ceylan: ready? When have we been ready? We're needed right now, not sometime next week. Besides, who says we're not ready?
+[quarton] Ceylan: Whatever, I'm going! Huh? Me too. I'm down with that. So
+[quarton] Toxsa: how about it? Sure, why not? It beats mopping. So
+[quarton] Ceylan: what are we waiting for? Let's go kick some butt! Yep,
+[quarton] Ceylan: looks like we missed the kickoff all right. Computer, what's the situation?
 [quarton] Unknown: Corekai forces are outnumbered four to one by the enemy, and that disparity's increasing. Chances of survival appear minimal.
-[quarton] Guren: Well then here goes nothing. Who's ready to do some mopping? He totally needs a better catchphrase. Agreed. Time to put this training to the test!
-[quarton] Guren: Bravenwolf! For
+[quarton] Ceylan: Well then here goes nothing. Who's ready to do some mopping? He totally needs a better catchphrase. Agreed. Time to put this training to the test!
+[quarton] Ceylan: Bravenwolf! For
 [quarton] Vilius: more, old friend? Granox, Slyger, as we planned, move! Yes, sir!
-[quarton] Guren: Yeah, you better run, but it won't do you any good! But, Filius, how do
+[quarton] Ceylan: Yeah, you better run, but it won't do you any good! But, Filius, how do
 [quarton] Vilius: you think it would be that easy? Have you forgotten all our training?
-[quarton] Guren: Our training?
+[quarton] Ceylan: Our training?
 [quarton] Vilius: But you were always a slow learner. A step behind the rest, then and now! Yeah,
-[quarton] Guren: yeah, you sound like my math teacher! Hey team, huddle up! Our quarterback's about to get sacked. We gonna help him out? Sure, but is everything's fine with you? Oh boy.
+[quarton] Ceylan: yeah, you sound like my math teacher! Hey team, huddle up! Our quarterback's about to get sacked. We gonna help him out? Sure, but is everything's fine with you? Oh boy.
 [quarton] Vilius: Sorry to barge in, but I'm afraid this is the end of the line for you. What he said. But unlike him, I'm not sorry at all. I
-[quarton-battle] Guren: get the feeling they were expecting us. He's trying to tire me out! If it's working! Wait a second! We trained for this! Conditioning, yeah! That was the reason he had us hauling his goofy artifacts around! Think of the training! Tenkai Tiki Head!
+[quarton-battle] Ceylan: get the feeling they were expecting us. He's trying to tire me out! If it's working! Wait a second! We trained for this! Conditioning, yeah! That was the reason he had us hauling his goofy artifacts around! Think of the training! Tenkai Tiki Head!
 [quarton-battle] Vilius: Tenkai Tiki Head? I don't remember that one from training! Little good it will do you, for I've mastered a technique that's not in your repertoire! Vilius! Tenkai Titan Move!
 [quarton-battle] Unknown: Hey,
-[quarton-battle] Guren: that's a new one! Hey,
-[quarton-battle] Guren: look! Whoa, dude! Man, did he bulk up! Major upgrade! We thought he was tough last time!
+[quarton-battle] Ceylan: that's a new one! Hey,
+[quarton-battle] Ceylan: look! Whoa, dude! Man, did he bulk up! Major upgrade! We thought he was tough last time!
 [quarton-battle] Vilius: You should never have come back! Breathe. Vilius has gone into tenkai titan mode, exponentially boosting his tenkai energy levels, resulting in him losing all of his energy! You were saved by the tenkai dragon once! This time, nothing can save you!
-[quarton-battle] Guren: Whoa! This guy's not kidding around!
+[quarton-battle] Ceylan: Whoa! This guy's not kidding around!
 [quarton-battle] Vilius: Feeling small? Not to worry! I'll make this quick
 [quarton-battle] Unknown: and
 [quarton-battle] Vilius: painful!
-[quarton-battle] Guren: Computer, what's happened to him?
+[quarton-battle] Ceylan: Computer, what's happened to him?
 [quarton] Unknown: Vilius has gone into tenkai titan mode, exponentially boosting his tenkai energy levels, resulting in an increase of size and strength! See
-[quarton-battle] Guren: what
-[quarton-battle] Guren: you
-[quarton-battle] Guren: mean? Bravenwolf! I'd worry about yourself if I were you!
-[quarton-battle] Guren: Okay, nothing in our training prepared us for this! Unless... Of course!
-[quarton-battle] Guren: All that dusting! That's gotta be it! I was mastering a new move and I didn't even know it! Tenkai Duster Buster!
+[quarton-battle] Ceylan: what
+[quarton-battle] Ceylan: you
+[quarton-battle] Ceylan: mean? Bravenwolf! I'd worry about yourself if I were you!
+[quarton-battle] Ceylan: Okay, nothing in our training prepared us for this! Unless... Of course!
+[quarton-battle] Ceylan: All that dusting! That's gotta be it! I was mastering a new move and I didn't even know it! Tenkai Duster Buster!
 [quarton] Vilius: What? What's wrong, Bravenwolf? Ah! Kick! Have your pathetic guardians not prepared you for a real battle?
-[quarton] Guren: Wait, I've got it now. I was thinking of the wrong exercise. It took keen eyes and judgment to pick the freshest tomato. If I just apply those skills now, I can probably find his weak spot.
-[quarton-battle] Guren: Yeah... Tenkai Knights, Veggie, Vision! I know it's there somewhere... What's
+[quarton] Ceylan: Wait, I've got it now. I was thinking of the wrong exercise. It took keen eyes and judgment to pick the freshest tomato. If I just apply those skills now, I can probably find his weak spot.
+[quarton-battle] Ceylan: Yeah... Tenkai Knights, Veggie, Vision! I know it's there somewhere... What's
 [quarton-battle] Vilius: happened to you, Bravenwolf? You were always a fool, but you were never a clown!
-[quarton-battle] Guren: Were the guys right? Have I been kidding myself? Were they just chores after all? Hmm... Maybe Mr. White was just toying with us, and
-[quarton-battle] Guren: it was all a waste of time. No! Bravenwolf! Don't give up! You were right, man! You were right all along!
-[quarton-battle] Unknown: There are some people who insist on believing in a thing even when everyone around them thinks they're crazy. Why is that? Cause... they're crazy? Perhaps, but such craziness can achieve remarkable things. Things even turn a boy into a giant.
-[quarton-battle] Guren: You were the only one who believed in what Mr. White was doing! The rest of us thought it was pointless busywork, but he was training us! Training us to believe in ourselves! Vilius isn't the only one who can go Titan mode! You can too! I... I can? Oh, you can! The power has been inside you all along!
+[quarton-battle] Ceylan: Were the guys right? Have I been kidding myself? Were they just chores after all? Hmm... Maybe Mr. White was just toying with us, and
+[quarton-battle] Ceylan: it was all a waste of time. No! Bravenwolf! Don't give up! You were right, man! You were right all along!
+[quarton-battle] Mr._White: There are some people who insist on believing in a thing even when everyone around them thinks they're crazy. Why is that? Cause... they're crazy? Perhaps, but such craziness can achieve remarkable things. Things even turn a boy into a giant.
+[quarton-battle] Ceylan: You were the only one who believed in what Mr. White was doing! The rest of us thought it was pointless busywork, but he was training us! Training us to believe in ourselves! Vilius isn't the only one who can go Titan mode! You can too! I... I can? Oh, you can! The power has been inside you all along!
 [quarton-battle] Vilius: Is this...?
-[quarton-battle] Guren: I sure hope I got Mr. White's mumbo-jumbo right.
+[quarton-battle] Ceylan: I sure hope I got Mr. White's mumbo-jumbo right.
 [quarton-battle] Unknown: Tenkai Energy at optimum level. Initiating Bravenwolf Titan Mode sequence. Titan Mode engaged.
-[quarton-battle] Guren: Fasten your seatbelts! Bravenwolf Tenkai Titan Mo-
-[quarton-battle] Guren: Dusting was so worth it! You
+[quarton-battle] Ceylan: Fasten your seatbelts! Bravenwolf Tenkai Titan Mo-
+[quarton-battle] Ceylan: Dusting was so worth it! You
 [quarton-battle] Vilius: were always stealing my moves! Well, let's see you copy this! I Titan Dragon!
-[quarton-battle] Guren: You're right, I can't. But I've got something even better! Tenkai Titan Sword! What? Not used to picking on someone your own size? All
+[quarton-battle] Ceylan: You're right, I can't. But I've got something even better! Tenkai Titan Sword! What? Not used to picking on someone your own size? All
 [quarton-battle] Vilius: you've done is given me a bigger target!
-[quarton-battle] Guren: I was thinking the same thing, Vilius! That
+[quarton-battle] Ceylan: I was thinking the same thing, Vilius! That
 [quarton-battle] Vilius: beauty sword can save you! And to this, the Darkspawn Thunderbolt!
-[quarton-battle] Guren: Do
+[quarton-battle] Ceylan: Do
 [quarton-battle] Vilius: you think
-[quarton] Guren: he... could he... did he just... beat Vilius? Yeah, the concept kind of fritzes my circuits, too. Guys, I wouldn't celebrate too soon.
+[quarton] Toxsa: he... could he... did he just... beat Vilius? Yeah, the concept kind of fritzes my circuits, too. Guys, I wouldn't celebrate too soon.
 [quarton] Vilius: All that nonsense before was just a trick to make me lower my guard. You never used to be so cunning.
-[quarton] Guren: Oh yeah? Well, you never used to be so slow. But don't worry, I've got some more tricks up my sleeve. Like... dusting and stuff. You've
+[quarton] Ceylan: Oh yeah? Well, you never used to be so slow. But don't worry, I've got some more tricks up my sleeve. Like... dusting and stuff. You've
 [quarton] Vilius: made this interesting. I look forward to our next encounter. Trust that I will not be fooled twice. Corrupted! To the fortress! Yes, sir!
-[quarton-battle] Guren: You went fold to fold with the big fiend! That was so cool, can I do it? I'd call it a draw, and I was lucky to get that. I'm not looking forward to the rematch. Why didn't you just tell me it was all about believing in myself? That would have been cheating. Like stealing the other team's secret signals. That's no way to really learn anything. Isn't that right, Mr. White? I really wouldn't know. Well, anyway, thanks a lot. I survived, and I learned how to go into Titan Mode, so I'm not
-[quarton-battle] Unknown: complaining at all. I think you may have learned more than that. You see, the journey is as important as the destination for the wise traveler.
-[quarton-battle] Guren: There he goes again. Thank you, Professor Vague. Mr. White, you know, once in a while you could just say what you mean in English. Mm
-[quarton-battle] Guren: -hmm, mm-hmm.
-[quarton-battle] Guren: Hey, as long as we keep on saving the world, I'm
-[quarton-battle] Guren: good. Guren's new Titan Mode is a game changer. Now it's your turn. Huh? Like you said, the only way to learn is by doing it yourself. Anything else would just be cheating, right? Start with the
-[quarton] Guren: bathroom. Ahhhh!
-[quarton] Guren: Okay, but no toilet!
+[quarton-battle] Ceylan: You went fold to fold with the big fiend! That was so cool, can I do it? I'd call it a draw, and I was lucky to get that. I'm not looking forward to the rematch. Why didn't you just tell me it was all about believing in myself? That would have been cheating. Like stealing the other team's secret signals. That's no way to really learn anything. Isn't that right, Mr. White? I really wouldn't know. Well, anyway, thanks a lot. I survived, and I learned how to go into Titan Mode, so I'm not
+[quarton-battle] Mr._White: complaining at all. I think you may have learned more than that. You see, the journey is as important as the destination for the wise traveler.
+[quarton-battle] Toxsa: There he goes again. Thank you, Professor Vague. Mr. White, you know, once in a while you could just say what you mean in English. Mm
+[quarton-battle] Ceylan: -hmm, mm-hmm.
+[quarton-battle] Toxsa: Hey, as long as we keep on saving the world, I'm
+[quarton-battle] Ceylan: good. Guren's new Titan Mode is a game changer. Now it's your turn. Huh? Like you said, the only way to learn is by doing it yourself. Anything else would just be cheating, right? Start with the
+[quarton] Ceylan: bathroom. Ahhhh!
+[quarton] Ceylan: Okay, but no toilet!

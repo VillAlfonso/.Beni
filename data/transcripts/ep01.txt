@@ -1,9 +1,9 @@
-[quarton] Unknown: Eons ago, in an alternate realm, at the far reaches of the universe, there was Quarton, a once peaceful planet that had long been ravaged by a war over its most valuable resource, Tenkai Energy. For centuries, the Corekai fought to protect Tenkai Energy and preserve their planet, while their enemies, the Corrupted, sought only to exploit Tenkai Energy for personal power. Led by the ruthless warlord, Filius, the Corrupted overpowered the Corekai and prepared to deliver the final blow. But then, four valiant heroes appeared, masters of Tenkai Energy. They were known as the Tenkai Knights. Valorn, the Alchemist The armored firepower of the team Lydendor, the cunning warrior of stealth Tributon, lightning-quick master of the Tenkai Bow And, Bravenwolf, leader of the four, fearless, selfless, and strong, wielding a sword of pure Tenkai Energy. The Tenkai Knights stemmed the tide, forcing back Vilius and Corrupted. Facing defeat, Vilius unleashed the mighty Tenkai Dragon. But the beast's power proved untamable. Vilius fled, and it took the combined powers of the Tenkai Knights to destroy the dragon, scattering its remains across the planet and Eon. Generations passed, and though the legendary four have never been seen again, Vilius has returned, more powerful than ever. Now, beyond Slater, at the opposite end of the universe, on a very different planet, a new set of heroes will emerge, of a very different sort. Got
+[quarton] 4_Guardians: Eons ago, in an alternate realm, at the far reaches of the universe, there was Quarton, a once peaceful planet that had long been ravaged by a war over its most valuable resource, Tenkai Energy. For centuries, the Corekai fought to protect Tenkai Energy and preserve their planet, while their enemies, the Corrupted, sought only to exploit Tenkai Energy for personal power. Led by the ruthless warlord, Filius, the Corrupted overpowered the Corekai and prepared to deliver the final blow. But then, four valiant heroes appeared, masters of Tenkai Energy. They were known as the Tenkai Knights. Valorn, the Alchemist The armored firepower of the team Lydendor, the cunning warrior of stealth Tributon, lightning-quick master of the Tenkai Bow And, Bravenwolf, leader of the four, fearless, selfless, and strong, wielding a sword of pure Tenkai Energy. The Tenkai Knights stemmed the tide, forcing back Vilius and Corrupted. Facing defeat, Vilius unleashed the mighty Tenkai Dragon. But the beast's power proved untamable. Vilius fled, and it took the combined powers of the Tenkai Knights to destroy the dragon, scattering its remains across the planet and Eon. Generations passed, and though the legendary four have never been seen again, Vilius has returned, more powerful than ever. Now, beyond Slater, at the opposite end of the universe, on a very different planet, a new set of heroes will emerge, of a very different sort. Got
 [quarton] Unknown: that one okay, Guren? Yeah, I got it.
 [quarton] Unknown: Car, how much longer till we arrive at our brand new home?
-[quarton] Unknown: Approximately twelve minutes, Mr. Nash.
+[quarton] Teacher: Approximately twelve minutes, Mr. Nash.
 [quarton] Unknown: Our new house is pretty close to a cool hoverboard park, isn't it?
-[quarton] Unknown: Yes, also the beach and the planetarium.
+[quarton] Teacher: Yes, also the beach and the planetarium.
 [quarton] Unknown: Boy, it sure sounds like an amazing place to live.
 [earth] Guren: Dad, if you haven't noticed, I gave up hoverboarding like two years ago. What?
 [earth] Unknown: Where have I been?
@@ -14,47 +14,47 @@
 [earth] Guren: I guess. But it took me forever to make friends at the last school. You see, even Max is bummed.
 [earth] Unknown: I know, but this is the last time you'll have to make new friends, I promise.
 [earth] Guren: Yeah, right, Dad. You said last time would be the last time.
-[earth] Unknown: You asked to be alerted. The exit is approaching.
+[earth] Teacher: You asked to be alerted. The exit is approaching.
 [earth] Unknown: Right. Car, switch to manual. I'll take us in. Here we are, son. Beautiful Benham City. And that is the famous Benham Tower. Tallest of its kind. Not something you see every day.
 [earth] Guren: Wow, that thing is huge.
 [earth] Unknown: So, what do you think? Guren, what do you think of the new house? If
 [earth] Guren: I hate it, can we move back to the old one? No. Then what difference does it make what I think? How about you? I'm guessing nobody asked whether or not you wanted to move either, huh, Max? If you ever have kittens and you keep dragging them away from their friends, don't expect them to be happy about it. Got it, Max? Before
-[earth] Unknown: we get started, I'd like you all to meet Guren. He's a new transfer student all the way from Middletown. Guren, welcome to Benham City. Why don't you say hello to the class and tell us a little bit about yourself?
+[earth] Teacher: we get started, I'd like you all to meet Guren. He's a new transfer student all the way from Middletown. Guren, welcome to Benham City. Why don't you say hello to the class and tell us a little bit about yourself?
 [earth] Guren: Well, let me see. My name's Guren Nash, and I just moved here with my dad on account of his work. And, um, I like your tower. Airplane at the new kit. Haven't seen that before.
-[earth] Unknown: Ceylan Jones. Totally unacceptable behavior. And since you seem to be so intrigued by your new classmate, you can be his guide for the day. Go on, Guren. Take the seat next to him. Sure. Now, if you don't mind, let's get back to the Roman Empire. We've got a lot of ground to cover. Now, after the death of Julius Caesar, the three generals tried to rule Rome together as a team. But that didn't work, and a civil war broke out. That's when Mark Antony ran off and joined Cleopatra. He
-[earth] Guren: was
-[earth] Unknown: defeated in the Battle of Actium by Octavian. You remember him? So, Octavian became the sole ruler, and this is really when the Empire begins. Well, I'm glad you find the Roman Empire so funny, Guren. Yes. Yeah, I mean, no. Don't forget the quiz tomorrow!
+[earth] Teacher: Ceylan Jones. Totally unacceptable behavior. And since you seem to be so intrigued by your new classmate, you can be his guide for the day. Go on, Guren. Take the seat next to him. Sure. Now, if you don't mind, let's get back to the Roman Empire. We've got a lot of ground to cover. Now, after the death of Julius Caesar, the three generals tried to rule Rome together as a team. But that didn't work, and a civil war broke out. That's when Mark Antony ran off and joined Cleopatra. He
+[earth] Ceylan: was
+[earth] Teacher: defeated in the Battle of Actium by Octavian. You remember him? So, Octavian became the sole ruler, and this is really when the Empire begins. Well, I'm glad you find the Roman Empire so funny, Guren. Yes. Yeah, I mean, no. Don't forget the quiz tomorrow!
 [earth] Guren: So, what do you think? It's pretty much like my last school, except for this one kid I sit next to in history class who's like from another planet. Tell me
-[earth] Guren: about it. At
+[earth] Ceylan: about it. At
 [earth] Guren: least you didn't get stuck next
-[earth] Guren: to the new kid from Middletown with the goofy
+[earth] Ceylan: to the new kid from Middletown with the goofy
 [earth] Guren: hair who probably wants me to show him around. I'm Ceylan Jones. Guren. Hey, dude. Dude to you. So, anyway, downtown's kinda cool. Wanna check it out? Sure. I just gotta be home in time for dinner with my dad. This is the new Benham City Mall. I mean, it's only a mall, but you should see the food court. Hey,
-[earth] Guren: did you see that? What? See what? Hey, where are you going? If you're looking for the bathroom, it's the other way! Why are we running?
+[earth] Ceylan: did you see that? What? See what? Hey, where are you going? If you're looking for the bathroom, it's the other way! Why are we running?
 [earth] Guren: It went in that shop. In that shop? No one has ever gone in that shop. Well, we gotta go check it out. I'm not going in that shop. Come on. Where's your sense of adventure? I left it in my other pants. Is anyone here? Anybody ever? Look at all this vintage stuff. By vintage stuff, I assume you mean junk. Hey, look at those classics. Yeah, classic junk. Man, I can't believe all the cool stuff in this place. Yeah, some of this classic junk could be worth a fortune.
-[earth] Unknown: Fascinating, aren't they? Sorry to frighten you. I do that all the time. I have no idea why. Let me try again. Greetings, Mr. White, at your service.
+[earth] Mr._White: Fascinating, aren't they? Sorry to frighten you. I do that all the time. I have no idea why. Let me try again. Greetings, Mr. White, at your service.
 [earth] Guren: We didn't touch anything. We were just looking around, that's all. Sorry. Not
-[earth] Unknown: to worry. Those with inquisitive minds and adventurous spirits are welcome in my shop of wonders.
+[earth] Mr._White: to worry. Those with inquisitive minds and adventurous spirits are welcome in my shop of wonders.
 [earth] Guren: Some of this stuff must be worth a lot, huh?
-[earth] Unknown: There are many different ways of estimating value, but I suspect one might find some things in here that are beyond any price. What are those? Could I take a look at that one there? The white one? Yes, go right ahead. Perhaps your instincts have led you to something priceless already. What
+[earth] Mr._White: There are many different ways of estimating value, but I suspect one might find some things in here that are beyond any price. What are those? Could I take a look at that one there? The white one? Yes, go right ahead. Perhaps your instincts have led you to something priceless already. What
 [earth] Guren: are they,
-[earth] Unknown: anyway? What they are is something of a mystery, isn't it?
-[earth] Guren: Not
-[earth] Unknown: at all. Quite the contrary.
-[earth] Guren: Dude, how'd you make a robot?
-[earth] Unknown: How, indeed. I commend your accomplishments, young sir. You have a gift. Yeah? Well... Now
-[earth] Unknown: then, speaking of gifts, would you boys like one? Yeah. Then keep them. Consider them a reward for being the first customers I've had in months.
-[earth] Guren: Yeah?
+[earth] Mr._White: anyway? What they are is something of a mystery, isn't it?
+[earth] Ceylan: Not
+[earth] Mr._White: at all. Quite the contrary.
+[earth] Ceylan: Dude, how'd you make a robot?
+[earth] Mr._White: How, indeed. I commend your accomplishments, young sir. You have a gift. Yeah? Well... Now
+[earth] Mr._White: then, speaking of gifts, would you boys like one? Yeah. Then keep them. Consider them a reward for being the first customers I've had in months.
+[earth] Ceylan: Yeah?
 [earth] Guren: So we can keep them? Thanks a lot.
-[earth] Unknown: You're welcome, Ceylan. And you too, Guren. I expect we'll all be meeting again soon enough. Mm-hmm.
+[earth] Mr._White: You're welcome, Ceylan. And you too, Guren. I expect we'll all be meeting again soon enough. Mm-hmm.
 [earth] Guren: That was strange. Yeah. The place is kind
-[earth] Guren: of creepy, and the old guy smells like soup, but still, it was nice of him to give us these things.
+[earth] Ceylan: of creepy, and the old guy smells like soup, but still, it was nice of him to give us these things.
 [earth] Guren: No, I meant, how'd he know our names? I know. Freaky.
-[earth] Guren: Well, whatever. See you tomorrow, Guren. Yeah. Thanks for the tour.
+[earth] Ceylan: Well, whatever. See you tomorrow, Guren. Yeah. Thanks for the tour.
 [earth] Unknown: So? How was school? Actually, it was better than I expected. Oh, you see? Like I said, if you give it a chance, in the end, things usually work out for the best.
 [earth] Guren: Yeah, you did say that, Dad, and you said it the last time and the time before that.
 [earth] Unknown: Yeah, I guess I did. Well, one of these times, I'm gonna be right. Now eat up, Captain Krabby, and stop trying to hide that broccoli.
 [earth] Guren: Okay, you. Let's see what you are and where you're from. Who knows? Maybe you're worth something.
-[quarton] Unknown: No matches found.
+[quarton] Teacher: No matches found.
 [quarton] Guren: That's weird. I'll dig deeper tomorrow.
 [quarton] Vilius: Empty is weak, Bravenwolf. I will crush you. The universe belongs to the strong.
 [quarton] Guren: The
@@ -62,97 +62,97 @@
 [quarton] Guren: isn't something to be owned, Vilius. You need to learn how to share. You,
 [quarton] Vilius: Bravenwolf, are the one who will learn. And I am the one who will teach you. Tenkai Dark Storm!
 [quarton] Guren: Was that
-[quarton] Unknown: a
+[quarton] Beag: a
 [quarton] Guren: dream?
-[quarton] Unknown: No motion, class! No, it's Jim! Pick it up!
+[quarton] Beag: No motion, class! No, it's Jim! Pick it up!
 [quarton] Guren: So in this dream, it was like I was a robot, like from the shop. And I was fighting this other evil robot. At least he sounded evil. Wait a second. What did you just say?
-[earth] Guren: Tell me all about your dream. I'm trying
+[earth] Ceylan: Tell me all about your dream. I'm trying
 [earth] Guren: to...
-[earth] Guren: Hey, Ceylan! New kid! You can chat on your own time! Sorry, coach! An evil red-eyed robot! I had exactly the same dream! Really? You're serious? Totally.
+[earth] Ceylan: Hey, Ceylan! New kid! You can chat on your own time! Sorry, coach! An evil red-eyed robot! I had exactly the same dream! Really? You're serious? Totally.
 [earth] Guren: Whoa, that's freaky. It can't be random. It's gotta have something to do with these things. Yeah,
-[earth] Guren: they're messing with our heads. Let's go back and ask that Kooky dude what's up.
+[earth] Ceylan: they're messing with our heads. Let's go back and ask that Kooky dude what's up.
 [earth] Guren: Mm-hmm. It's late. Maybe he's closed for the day. Well, there's only one way to find out. Hello? Hello, Mr. White? Not really big on security, is he? Maybe he was something we just dreamed up, too. Oh,
-[earth] Guren: yeah, right. You're
-[earth] Guren: not thinking what I think you're thinking. I
+[earth] Ceylan: yeah, right. You're
+[earth] Ceylan: not thinking what I think you're thinking. I
 [earth] Guren: wonder if Mr. White's down there.
-[earth] Guren: Yeah,
+[earth] Ceylan: Yeah,
 [quarton] Guren: or maybe something else. Dead
 [quarton] Guren: end. We
-[quarton] Guren: did something! This security's pretty ins-
+[quarton] Ceylan: did something! This security's pretty ins-
 [quarton] Vilius: Tenkai Knight, your current location is Vilius's Fortress, Planet Quartar.
 [quarton] Guren: Where? Who
 [quarton] Vilius: said that? I am your sentient AI guidance system. Your Tenkai energy is at 73%. Oh,
-[quarton] Guren: well, that explains everything. And by everything, I mean nothing! I must be
+[quarton] Ceylan: well, that explains everything. And by everything, I mean nothing! I must be
 [quarton] Vilius: dreaming
-[quarton] Guren: again.
+[quarton] Ceylan: again.
 [quarton] Vilius: Unexplained behavior. Please clarify.
-[quarton] Guren: Will you keep it down? I'm trying to wake up. I
+[quarton] Ceylan: Will you keep it down? I'm trying to wake up. I
 [quarton] Vilius: can assure you, you are 100% conscious and fully functional. You
 [quarton] Guren: mean this isn't? Come on, this has got to be a dream. How else did I end up inside this armor?
 [quarton] Vilius: It is not armor, and you are not inside it. You are the armor.
 [quarton] Guren: Let me get this straight. You're saying I'm not dreaming, but that I've been turned into a- What happened to my
 [quarton] Vilius: hands? Where'd my thumbs go? You have been chosen to become Bravenwolf, Tenkai Knight and Hero of the Corekai. Your associate, Ceylon Jones, was also transmitted here. Chosen by the Guardians to become the Tenkai Knight, Tributon. Huh? Unlike you, Tributon is trapped in Core Mode, held captive by Vilius's army.
-[quarton] Guren: Now what? What's that alarm for?
+[quarton] Ceylan: Now what? What's that alarm for?
 [quarton] Vilius: Bravenwolf's reactivation has been detected by your enemies. Their forces are fast approaching to suspend your functions. To suspend
-[quarton] Guren: my functions?
+[quarton] Ceylan: my functions?
 [quarton] Vilius: In Earth terms, to destroy you. You're serious? I am always serious. I've
-[quarton-battle] Guren: got to find Ceylon and get out of here. It's locked.
+[quarton-battle] Ceylan: got to find Ceylon and get out of here. It's locked.
 [quarton-battle] Vilius: Do you know the 18 alphanumeric hexadecimal code? What? No. Then draw back your fist and thrust it vigorously forward against the obstacle. You couldn't just say punch it? Your friend will be found to the right. Got it. Ahead to the right is another locked portal. Working on the assumption that you do not know the 18 alphanumeric hexadecimal code, I would advise an increase
-[quarton-battle] Guren: in speed
+[quarton-battle] Ceylan: in speed
 [quarton-battle] Vilius: - Never mind! I've got it!
-[quarton-battle] Guren: Ceylon! Guren, is that you? What's going on? I feel kind of funny. What
+[quarton-battle] Ceylan: Ceylon! Guren, is that you? What's going on? I feel kind of funny. What
 [quarton] Vilius: do I do? Extend your right arm and fire Tenkai Energy Cable.
-[quarton] Guren: Like this?
+[quarton] Ceylan: Like this?
 [quarton] Vilius: Good. Now say, initiate Tenkai Energy Infusion.
-[quarton] Guren: Initiate Tenkai Energy Infusion! Whoa! What's happening? This is totally awesome! Woohoo! That's better. Guren, is that you? Nice helmet. Thanks, but we've got trouble.
+[quarton] Ceylan: Initiate Tenkai Energy Infusion! Whoa! What's happening? This is totally awesome! Woohoo! That's better. Guren, is that you? Nice helmet. Thanks, but we've got trouble.
 [quarton] Vilius: So it's true. Bravenwolf and Tributon, the ancient heroes, have returned, only to be destroyed.
-[quarton] Guren: Is he talking to us?
+[quarton] Ceylan: Is he talking to us?
 [quarton] Vilius: Afraid so.
-[quarton] Guren: What's going on?
+[quarton] Ceylan: What's going on?
 [quarton] Vilius: Would you like me to activate your defensive shields?
-[quarton] Guren: Yeah! Thank you. We could have done this earlier. Just
+[quarton] Ceylan: Yeah! Thank you. We could have done this earlier. Just
 [quarton] Vilius: saying. I received no request. Unfortunately, at current energy levels, your shields will not remain effective for long against the enemy's weapons.
-[quarton] Guren: Okay, boys, what would be effective?
+[quarton] Ceylan: Okay, boys, what would be effective?
 [quarton-battle] Vilius: Recommend activating your Tenkai weapons. Go for it! Tenkai shields, sword, bow, activated.
-[quarton-battle] Guren: Sweet.
+[quarton-battle] Ceylan: Sweet.
 [quarton-battle] Vilius: Warning, more enemies approach from the south. Tenkai Energy now at 67%. What?
-[quarton-battle] Guren: Okay, it's kind of like a video game. Right, now it's our turn. Let's see what this bow can do. Shield high five. Good change. Uh, magic bogies? Funny housebreak. Way to go! My boy. Guren, down!
+[quarton-battle] Ceylan: Okay, it's kind of like a video game. Right, now it's our turn. Let's see what this bow can do. Shield high five. Good change. Uh, magic bogies? Funny housebreak. Way to go! My boy. Guren, down!
 [quarton-battle] Guren: We did it. Yeah. Now let's get out of here before things get worse.
 [quarton-battle] Vilius: Are you telling me Bravenwolf and Tributon have returned? It's true, sir. We suspect that the Guardians are somehow behind their return to Quarton. Rest assured, we will crush them both before they can do any harm. Well, don't just stand there. Go! Destroy them! Or, better yet, capture them and bring them to me. I'll enjoy destroying them myself. As you command, Vilius.
-[quarton-battle] Guren: Now will you tell me what the name of grilled cheese is going on? It can wait. You turn!
-[quarton-battle] Guren: Dead end ahead. If only we had something that shot energy arrows. Hey, I have one of those! Love this thing. Jump! Bad idea. No such
+[quarton-battle] Ceylan: Now will you tell me what the name of grilled cheese is going on? It can wait. You turn!
+[quarton-battle] Ceylan: Dead end ahead. If only we had something that shot energy arrows. Hey, I have one of those! Love this thing. Jump! Bad idea. No such
 [quarton-battle] Vilius: option. Fire
-[quarton-battle] Guren: thrusters!
+[quarton-battle] Ceylan: thrusters!
 [quarton-battle] Vilius: No such option. Activate
-[quarton-battle] Guren: parachute!
+[quarton-battle] Ceylan: parachute!
 [quarton-battle] Vilius: No such
-[quarton-battle] Guren: option. Anything! Bouncy house! No
+[quarton-battle] Ceylan: option. Anything! Bouncy house! No
 [quarton-battle] Vilius: such
-[quarton-battle] Guren: option. We're in a trash position!
+[quarton-battle] Ceylan: option. We're in a trash position!
 [quarton-battle] Vilius: Might I suggest using your Tenkai boosters?
-[quarton] Guren: Engage Tenkai boosters! You couldn't have done that earlier, too? Thank you. Thank you, Tenkai boosters.
+[quarton] Ceylan: Engage Tenkai boosters! You couldn't have done that earlier, too? Thank you. Thank you, Tenkai boosters.
 [quarton] Vilius: You're welcome.
-[quarton] Guren: I'm glad that's over. I think we lost them. Huh? Run! Again? This is becoming a habit! This isn't gonna work! We'll never outrun them all! Isn't it about now when you're supposed to wake up and find yourself safe in bed? It's been nice knowing ya! We do that?
-[quarton] Unknown: I
-[quarton] Guren: don't
-[quarton] Unknown: think so. The Tenkai Knights! Huh? They're here! The legendary heroes! Bravenwolf and Tributon! Right. And you are? B, acting commander of the Corekai. Only until you return, of course. And you have returned! And what an entrance it was! Brilliant! You led the enemy straight into our trap! We did? I mean, we did. Yeah. Yeah, that was the plan. The heroes! The heroes have returned!
-[quarton] Guren: Vilius's evil reign is over at last! So
+[quarton] Ceylan: I'm glad that's over. I think we lost them. Huh? Run! Again? This is becoming a habit! This isn't gonna work! We'll never outrun them all! Isn't it about now when you're supposed to wake up and find yourself safe in bed? It's been nice knowing ya! We do that?
+[quarton] Beag: I
+[quarton] Ceylan: don't
+[quarton] Beag: think so. The Tenkai Knights! Huh? They're here! The legendary heroes! Bravenwolf and Tributon! Right. And you are? B, acting commander of the Corekai. Only until you return, of course. And you have returned! And what an entrance it was! Brilliant! You led the enemy straight into our trap! We did? I mean, we did. Yeah. Yeah, that was the plan. The heroes! The heroes have returned!
+[quarton] Ceylan: Vilius's evil reign is over at last! So
 [quarton] Guren: I
-[quarton-battle] Guren: guess we're kinda like big shots here,
+[quarton-battle] Ceylan: guess we're kinda like big shots here,
 [quarton-battle] Guren: Bravenwolf?
-[quarton-battle] Guren: Don't
+[quarton-battle] Ceylan: Don't
 [quarton-battle] Guren: let it go to your head, Tributon.
-[quarton-battle] Unknown: What is your plan of attack? We await your command.
+[quarton-battle] Beag: What is your plan of attack? We await your command.
 [quarton-battle] Guren: Our plan of... Huh? Uh, who is it again? We're planning on attacking with our attack plan?
-[quarton-battle] Unknown: Vilius and his corrupted army! Since your disappearance, they have destroyed many of our villages.
+[quarton-battle] Beag: Vilius and his corrupted army! Since your disappearance, they have destroyed many of our villages.
 [quarton-battle] Guren: So there might be a downside to this hero thing.
 [quarton-battle] Vilius: It
-[quarton-battle] Unknown: appears
+[quarton-battle] Beag: appears
 [quarton] Vilius: I will have to take this situation more seriously. I expect you to deal with them once and for all! Granox! It shall be done! Slyger! Leave it to me! Do not disappoint me!
-[quarton] Unknown: As
-[quarton] Unknown: Vilius
-[quarton] Unknown: commands! Go!
+[quarton] 4_Guardians: As
+[quarton] Beag: Vilius
+[quarton] 4_Guardians: commands! Go!
 [quarton] Vilius: Tenkai levels at 1%. Initiating recharge mode. Tenkai portal engaged. They
-[quarton] Unknown: will return! And when they do, we will finally have the strength to defeat Vilius!
-[quarton] Guren: Think anybody's ever gonna believe this? No
+[quarton] Beag: will return! And when they do, we will finally have the strength to defeat Vilius!
+[quarton] Ceylan: Think anybody's ever gonna believe this? No
 [quarton] Guren: way! We're like super robo heroes! Unless it was a dream! Or maybe that world is real, and the rest of our life has been the dream. Now you're freaking me out.

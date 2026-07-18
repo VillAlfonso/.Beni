@@ -1,177 +1,177 @@
-[quarton] Guren: You're in here. After our crazy and frustrating time on the Beast Realm, the guys and I decided the Tenkai Knights needed a little R&R. But organizing a simple barbecue turned out to be almost as difficult as fighting off an army of angry monkeybots. On the plus side, Gen finally stepped forward and committed himself to fighting on our team. Good thing, too, because I needed his help to beat Granox and Slyger. Now the whole gang's back together and ready to take on job one, keeping Vilius and his goonbots from capturing the Tenkai Fortress.
-[quarton] Unknown: We can't drive them off, and they can't advance. Our forces are too evenly matched.
-[quarton] Guren: Not for long. Time to level up, guys. Roger!
-[quarton] Unknown: That's it! Keep firing! Don't give them a chance to level up! Let's give the Knights some cover! Fill the Tenkai wall!
-[quarton] Guren: I'm on!
-[quarton] Guren: Leave the rest to me! Here you
-[quarton] Guren: go, Granox! One chili burrito with extra hot sauce! Oh,
-[quarton] Unknown: never mind. An honor to serve you, as always, Bravenwolf! So you
-[quarton] Unknown: failed
+[quarton] Ceylan: You're in here. After our crazy and frustrating time on the Beast Realm, the guys and I decided the Tenkai Knights needed a little R&R. But organizing a simple barbecue turned out to be almost as difficult as fighting off an army of angry monkeybots. On the plus side, Gen finally stepped forward and committed himself to fighting on our team. Good thing, too, because I needed his help to beat Granox and Slyger. Now the whole gang's back together and ready to take on job one, keeping Vilius and his goonbots from capturing the Tenkai Fortress.
+[quarton] Beag: We can't drive them off, and they can't advance. Our forces are too evenly matched.
+[quarton] Slyger: Not for long. Time to level up, guys. Roger!
+[quarton] Beag: That's it! Keep firing! Don't give them a chance to level up! Let's give the Knights some cover! Fill the Tenkai wall!
+[quarton] Slyger: I'm on!
+[quarton] Slyger: Leave the rest to me! Here you
+[quarton] Slyger: go, Granox! One chili burrito with extra hot sauce! Oh,
+[quarton] Beag: never mind. An honor to serve you, as always, Bravenwolf! So you
+[quarton] Beag: failed
 [quarton] Vilius: again! What's your excuse this time, you incompetent bucket of bolts?
-[quarton] Unknown: Thank you, Master. That was very refreshing. The fact is, I would have had the Knights if those infuriating Korokkai hadn't gotten away. Oh, now it's
+[quarton] Beag: Thank you, Master. That was very refreshing. The fact is, I would have had the Knights if those infuriating Korokkai hadn't gotten away. Oh, now it's
 [quarton] Vilius: the Korokkai's fault! No,
-[quarton] Unknown: it's not. The Korokkai aren't the problem. It's their commander, Beag. He's the worst. He's become a very effective leader. But my fellow Guardians and I have plans afoot to neutralize him, and to find that Tenkai stone you're looking for. I'm impressed, Eurus. But
+[quarton] Beag: it's not. The Korokkai aren't the problem. It's their commander, Beag. He's the worst. He's become a very effective leader. But my fellow Guardians and I have plans afoot to neutralize him, and to find that Tenkai stone you're looking for. I'm impressed, Eurus. But
 [quarton] Vilius: just to remind you of the price of failure, it's
-[quarton] Unknown: not really as bad as it looks. I'm impressed,
-[quarton] Guren: Eurus.
-[quarton] Unknown: Class, we have a new substitute teacher in training who's going to be helping us out here at school for a few days. I want you all to give him your full attention, especially you, Ceylan. They're ready for
-[quarton] Guren: you,
-[earth] Unknown: Mr. Yuzo!
+[quarton] Beag: not really as bad as it looks. I'm impressed,
+[quarton] Slyger: Eurus.
+[quarton] Teacher: Class, we have a new substitute teacher in training who's going to be helping us out here at school for a few days. I want you all to give him your full attention, especially you, Ceylan. They're ready for
+[quarton] Slyger: you,
+[earth] Teacher: Mr. Yuzo!
 [earth] Vilius: Hey there, boys and girls! Yuzo's the name, and brain training's the game! So, you ready for a workout? Ready to crunch some numbers and do some heavy mental lifting? And pump up the brain power? He's, like, having Chooki
-[earth] Guren: for a teacher. Scary thought.
+[earth] Ceylan: for a teacher. Scary thought.
 [earth] Vilius: Believe it or not, I, too, was once a 90-pound mental weakling. And just look at me now! Lesson one! Set your goals high, because if you don't reach for the stars, you'll never get off the ground! Uh -oh. Watch out! Don't let me catch you! Can you believe he's a teacher? Beto, work! Run for your lives! Here comes the laziness monster! Don't let him catch you! Mr.
-[earth] Unknown: Yuzo! Yes? I can't begin to imagine what sort of school you're hoping to teach at. But at this school, we don't run in the hallways, and we certainly don't encourage the students to do so! Ten-four! Understood! And as for you children, you should know better! Sorry, Miss Fenwick.
-[earth] Guren: Where'd this new teacher come from? I don't know, but he's a wild man. You'd like him, Chooki. He's really into working out and all that stuff. And best of all, he doesn't hand out homework. Aw, how come you guys lucked out?
+[earth] Teacher: Yuzo! Yes? I can't begin to imagine what sort of school you're hoping to teach at. But at this school, we don't run in the hallways, and we certainly don't encourage the students to do so! Ten-four! Understood! And as for you children, you should know better! Sorry, Miss Fenwick.
+[earth] Ceylan: Where'd this new teacher come from? I don't know, but he's a wild man. You'd like him, Chooki. He's really into working out and all that stuff. And best of all, he doesn't hand out homework. Aw, how come you guys lucked out?
 [earth] Vilius: Personally, I don't believe in luck. Huh? I believe in fitness and dental hygiene!
-[earth] Guren: Hey, what's up, Mr. Yuzo?
+[earth] Ceylan: Hey, what's up, Mr. Yuzo?
 [earth] Vilius: Anyone for some... soccer? Uh-oh!
-[earth] Unknown: You make it look almost as cool as the video game version! Ha!
+[earth] Toxsa: You make it look almost as cool as the video game version! Ha!
 [earth] Vilius: There's nothing to it! You can do it too! It just takes hard work.
-[earth] Unknown: Aw, I knew there was a
+[earth] Toxsa: Aw, I knew there was a
 [earth] Vilius: catch. Come on, Toxsa, give it a try!
-[earth] Unknown: Huh? How did you know my name was Toxsa?
+[earth] Toxsa: Huh? How did you know my name was Toxsa?
 [earth] Vilius: Oh, well, you see, I did my homework before I came today. That's how I know your name's Chooki. Whoa! You're
-[earth] Unknown: right! Mr. Yuzo, you're not like any teacher I've ever met before!
+[earth] Toxsa: right! Mr. Yuzo, you're not like any teacher I've ever met before!
 [earth] Vilius: Ha ha ha! I'm out of this world, all right! So dividing fractions is like a wrestling match, you see! First, the denominator dominates the numerator! Climbs on top, pins it to the mat!
-[earth] Guren: Yeah. Did you notice Gin wasn't in class today? Yeah. It seemed funner than usual. Ah!
+[earth] Ceylan: Yeah. Did you notice Gin wasn't in class today? Yeah. It seemed funner than usual. Ah!
 [earth] Vilius: So what are you two cool cats up to? I know! Finding the square root of a prime number!
-[earth] Guren: Ha ha ha! Do you have the wrong guys?
+[earth] Ceylan: Ha ha ha! Do you have the wrong guys?
 [earth] Vilius: Well, I'm available for tutoring anytime! I mean it! Go on, ask me anything!
-[earth] Guren: Uh, well, okay. What made somebody like you want to become a teacher? Hmm? The
+[earth] Ceylan: Uh, well, okay. What made somebody like you want to become a teacher? Hmm? The
 [earth] Vilius: better to pass as a human without detection! Huh?
-[earth] Guren: Well, good luck with that! You'll be the first teacher in history who ever did!
+[earth] Ceylan: Well, good luck with that! You'll be the first teacher in history who ever did!
 [earth] Vilius: Hmm? Ah! Yes, right! I made a funny! Anyways, now I have a question for you two guys! Are you hiding something that you haven't told anyone about? Uh, what kind of something? Oh, something that looks something like this?
-[earth] Guren: I don't think so. Yeah, I think we would remember that. Ha ha!
+[earth] Ceylan: I don't think so. Yeah, I think we would remember that. Ha ha!
 [earth] Vilius: Come on, you can tell me! I'm a teacher!
-[earth] Guren: Sorry, we don't know anything about it, really. Stop
+[earth] Ceylan: Sorry, we don't know anything about it, really. Stop
 [earth] Vilius: playing
-[quarton] Unknown: dumb!
+[quarton] Slyger: dumb!
 [quarton] Vilius: Or
-[quarton] Unknown: would you rather I gave you detention? You're, you're Slyger?
-[quarton] Guren: You, uh, what's wrong?
+[quarton] Slyger: would you rather I gave you detention? You're, you're Slyger?
+[quarton] Slyger: You, uh, what's wrong?
 [quarton] Vilius: Huh?
-[quarton] Guren: Oh.
+[quarton] Slyger: Oh.
 [quarton] Vilius: There! Now you were just about to tell me where you're hiding this thing! Why, thank you!
-[quarton] Guren: Forget it! Nice try, Slyger!
+[quarton] Ceylan: Forget it! Nice try, Slyger!
 [quarton] Vilius: Huh?
-[quarton] Guren: What's
-[quarton] Guren: wrong
-[quarton] Unknown: with this stupid thing?
-[quarton] Guren: Let's get out of here, guys! Hold it right there! Mr. Yuzo is really Slyger! Get out of here!
-[quarton] Unknown: Figures he was too good to be true! Stop, or I'll flunk you both! I know you're hiding the Tenkai Stone!
-[quarton] Unknown: Not again! What did I say before? About running in the halls? And you too, Mr. Yuzo! Really! I won't tell you again! Ma'am!
+[quarton] Ceylan: What's
+[quarton] Slyger: wrong
+[quarton] Slyger: with this stupid thing?
+[quarton] Ceylan: Let's get out of here, guys! Hold it right there! Mr. Yuzo is really Slyger! Get out of here!
+[quarton] Slyger: Figures he was too good to be true! Stop, or I'll flunk you both! I know you're hiding the Tenkai Stone!
+[quarton] Teacher: Not again! What did I say before? About running in the halls? And you too, Mr. Yuzo! Really! I won't tell you again! Ma'am!
 [quarton] Vilius: I've got you now, you little... Hey,
-[quarton] Guren: no running! I've had some bad substitute teachers before, but... Uh-oh, you can say that again!
-[quarton] Guren: Now,
+[quarton] Ceylan: no running! I've had some bad substitute teachers before, but... Uh-oh, you can say that again!
+[quarton] Slyger: Now,
 [quarton] Vilius: then! Listen, you two! Vilius wants that Tenkai Stone, and I'm not leaving here without it! Yeah... It's fine with me if you want to do it the hard way!
-[quarton] Unknown: Slyger! Huh? Ready to be zapped by the portal device?
-[quarton] Unknown: Huh?
-[quarton] Guren: No,
-[quarton] Unknown: not that thing again!
-[quarton] Unknown: Gotcha! Scythe boys for the win! See ya! Huh?
-[quarton] Guren: You haven't won yet, Knights! Not by a long shot! Guren, what's the plan? I've
-[quarton] Guren: got an idea! Chooki and Toxsa, can you distract them? No problem! Shouldn't be too hard!
-[quarton] Unknown: Up here, Slyger! I mean, Mr. Yuzo!
+[quarton] Toxsa: Slyger! Huh? Ready to be zapped by the portal device?
+[quarton] Beag: Huh?
+[quarton] Slyger: No,
+[quarton] Beag: not that thing again!
+[quarton] Toxsa: Gotcha! Scythe boys for the win! See ya! Huh?
+[quarton] Slyger: You haven't won yet, Knights! Not by a long shot! Guren, what's the plan? I've
+[quarton] Ceylan: got an idea! Chooki and Toxsa, can you distract them? No problem! Shouldn't be too hard!
+[quarton] Toxsa: Up here, Slyger! I mean, Mr. Yuzo!
 [quarton] Vilius: Stay right where you are! Huh? Huh? It's a monstrous web! I had no idea this planet had spiders this size! Yoo-hoo!
-[quarton] Guren: Huh? What you waitin' for? Come and get us!
+[quarton] Slyger: Huh? What you waitin' for? Come and get us!
 [quarton] Vilius: I'll get you, all right! I'm through playing games with you! As you Earthlings say, it's time to take the gloves off! And everything else, too! Worry,
-[quarton] Unknown: I'll make this short and painful!
-[quarton] Unknown: We want smoothies!
+[quarton] Slyger: I'll make this short and painful!
+[quarton] Toxsa: We want smoothies!
 [quarton] Vilius: Okay, kids, calm down! Mr. Yuzo's had a long day!
 [quarton] Unknown: How long do we have to guard this Tenkai Fortress without even getting to see it? Search me. But in the meantime, want to see Kutor 2.0? Is this your new bot? How old is he? Just a beta. Cute.
-[quarton] Guren: Yeah,
+[quarton] Slyger: Yeah,
 [quarton] Unknown: he's a microchip off the old mainframe. Well, just wait till he upgrades his software. Then you'll want to reboot him right out of your network. Attention!
-[quarton] Unknown: Sir! If you two have enough time to stand around doing nothing, you have time to dig a defensive ditch on the east perimeter! So snap to it!
+[quarton] Beag: Sir! If you two have enough time to stand around doing nothing, you have time to dig a defensive ditch on the east perimeter! So snap to it!
 [quarton] Unknown: Yes, sir! Now look what you did. You got us in trouble. Me?
-[quarton] Unknown: If you don't like this job, then you can't switch! No fence, don't want to dig no ditch! Why don't
-[quarton] Guren: you want to dig a hole? I'm a soldier
-[quarton] Unknown: and I know more! Sir? Just what do you think you're digging down there? A
+[quarton] Beag: If you don't like this job, then you can't switch! No fence, don't want to dig no ditch! Why don't
+[quarton] Slyger: you want to dig a hole? I'm a soldier
+[quarton] Beag: and I know more! Sir? Just what do you think you're digging down there? A
 [quarton] Unknown: ditch on the east perimeter, like you said, sir.
-[quarton] Unknown: No, no, I said the west perimeter. Now, fill that in.
+[quarton] Beag: No, no, I said the west perimeter. Now, fill that in.
 [quarton] Unknown: I hope nothing's wrong with him. He doesn't seem like himself. He has been under a lot of stress lately.
-[quarton] Unknown: Kutor! Tavox! Yeah? Why on Quarton are you filling in that ditch? Because you told us to, sir. Why have you stopped? I told you to make that ditch disappear. I see two Commander Beags! How dare you! Who are you? I could ask you the same thing, you imposter! You could! But I asked you first, you impertinent clone of a knockoff! Oh, warning, warning! Systems overload!
-[quarton] Guren: So you guys lost Slyger?
-[quarton] Unknown: Easy. Not losing him is more of a challenge.
-[quarton] Guren: Yeah, so how do we spring a trap on him if he's too dumb to walk into it? Hey,
-[quarton] Guren: we're
-[quarton] Guren: the Tenkai Knights, Ceylan. We can do anything. Yeah, you're right.
+[quarton] Beag: Kutor! Tavox! Yeah? Why on Quarton are you filling in that ditch? Because you told us to, sir. Why have you stopped? I told you to make that ditch disappear. I see two Commander Beags! How dare you! Who are you? I could ask you the same thing, you imposter! You could! But I asked you first, you impertinent clone of a knockoff! Oh, warning, warning! Systems overload!
+[quarton] Ceylan: So you guys lost Slyger?
+[quarton] Slyger: Easy. Not losing him is more of a challenge.
+[quarton] Ceylan: Yeah, so how do we spring a trap on him if he's too dumb to walk into it? Hey,
+[quarton] Slyger: we're
+[quarton] Ceylan: the Tenkai Knights, Ceylan. We can do anything. Yeah, you're right.
 [quarton] Vilius: Lost them again. Come out and show yourselves, you cowards!
-[quarton] Guren: Hey, Slyger! Huh? Lookie what we got here! Is this what you're looking for?
+[quarton] Slyger: Hey, Slyger! Huh? Lookie what we got here! Is this what you're looking for?
 [quarton] Vilius: The Tenkai
-[quarton] Unknown: Stone! I knew you had it all along! Now I'll take it, thank you! Oh
-[quarton] Guren: no! He's coming! Run away! Go
-[quarton] Unknown: ahead! Run!
-[quarton] Guren: Run! You
-[quarton] Unknown: can't escape this time! Oh,
-[quarton] Guren: I hit the stairs. End
-[quarton] Unknown: of the line, eh? Now hand it over before someone gets hurt! Hey, look! Wanna
-[quarton] Guren: see how high it bounces? No, don't! Don't come any closer! I dropped a breakfast burrito from up here once and it wasn't pretty. No! You
-[quarton] Unknown: little fool! If you damage the Tenkai Stone, we'll never be able to unseal the Tenkai Fortress! Never mind, I just made that part up.
-[quarton] Guren: Now give it to me! I said don't move! So this little thing unlocks the mighty Tenkai Fortress, huh?
-[quarton] Unknown: Nothing of the sort! Don't know where you got that idea!
-[quarton] Guren: Now
-[quarton] Unknown: fork it over!
-[quarton] Guren: Guren!
-[quarton] Guren: Got it!
-[quarton] Unknown: Give
-[quarton] Guren: me that! Monkey in the middle! Now that
-[quarton] Unknown: I've got it, I can admit that everything I said about it is true! What?
-[quarton] Guren: Well, I didn't have a lot of time to make it. Still, not so bad for something out of a 3D printer.
+[quarton] Slyger: Stone! I knew you had it all along! Now I'll take it, thank you! Oh
+[quarton] Slyger: no! He's coming! Run away! Go
+[quarton] Slyger: ahead! Run!
+[quarton] Slyger: Run! You
+[quarton] Slyger: can't escape this time! Oh,
+[quarton] Slyger: I hit the stairs. End
+[quarton] Slyger: of the line, eh? Now hand it over before someone gets hurt! Hey, look! Wanna
+[quarton] Ceylan: see how high it bounces? No, don't! Don't come any closer! I dropped a breakfast burrito from up here once and it wasn't pretty. No! You
+[quarton] Slyger: little fool! If you damage the Tenkai Stone, we'll never be able to unseal the Tenkai Fortress! Never mind, I just made that part up.
+[quarton] Ceylan: Now give it to me! I said don't move! So this little thing unlocks the mighty Tenkai Fortress, huh?
+[quarton] Slyger: Nothing of the sort! Don't know where you got that idea!
+[quarton] Ceylan: Now
+[quarton] Slyger: fork it over!
+[quarton] Ceylan: Guren!
+[quarton] Slyger: Got it!
+[quarton] Slyger: Give
+[quarton] Slyger: me that! Monkey in the middle! Now that
+[quarton] Slyger: I've got it, I can admit that everything I said about it is true! What?
+[quarton] Ceylan: Well, I didn't have a lot of time to make it. Still, not so bad for something out of a 3D printer.
 [quarton] Vilius: Trying to cheat me with a fake, are you? I expected better of the Tenkai Stone. You
-[quarton] Unknown: want to see a fake? Go look in a mirror!
-[quarton] Unknown: Well, one thing that's definitely not a fake is the way I'm going to smash you all into pieces! I don't think so! Uh oh. Cause the portal device is sending you home! Ha! You think you can fool me again with that old trick?
-[quarton] Guren: New trick.
-[quarton] Unknown: Thanks
-[quarton] Guren: again. Awesome job!
-[quarton] Unknown: The
-[quarton] Guren: real
-[quarton] Unknown: portal device! Why didn't we think of that? So you knew Mr. Yuzo was Slyger all along?
-[quarton] Guren: No one noticed his hair gel smelled like motor oil. So
-[quarton] Guren: there's something called the Tenkai Stone. Yeah. Slyger mentioned it. He said it's the key to unsealing the fortress. And for some reason, Vilius
-[quarton] Guren: thinks you have it. Yeah,
-[quarton] Guren: but we don't. Well, if he's looking for it here, that means it must be somewhere on Earth. Right. And we've got to make sure we find it before Vilius does. We're being summoned!
-[quarton] Guren: Tenkai!
-[quarton] Guren: Hey! What's the problem, Beag?
+[quarton] Toxsa: want to see a fake? Go look in a mirror!
+[quarton] Slyger: Well, one thing that's definitely not a fake is the way I'm going to smash you all into pieces! I don't think so! Uh oh. Cause the portal device is sending you home! Ha! You think you can fool me again with that old trick?
+[quarton] Slyger: New trick.
+[quarton] Slyger: Thanks
+[quarton] Ceylan: again. Awesome job!
+[quarton] Toxsa: The
+[quarton] Ceylan: real
+[quarton] Toxsa: portal device! Why didn't we think of that? So you knew Mr. Yuzo was Slyger all along?
+[quarton] Slyger: No one noticed his hair gel smelled like motor oil. So
+[quarton] Ceylan: there's something called the Tenkai Stone. Yeah. Slyger mentioned it. He said it's the key to unsealing the fortress. And for some reason, Vilius
+[quarton] Slyger: thinks you have it. Yeah,
+[quarton] Ceylan: but we don't. Well, if he's looking for it here, that means it must be somewhere on Earth. Right. And we've got to make sure we find it before Vilius does. We're being summoned!
+[quarton] Slyger: Tenkai!
+[quarton] Slyger: Hey! What's the problem, Beag?
 [quarton] Unknown: Bravenwolf. I'm afraid the Commander is the problem. Say what? I'm in charge here. Not while I'm here. Huh?
-[quarton-battle] Unknown: Twin Beags? Ranked imposters, both of them. I'm the only Commander Beag around here. Wait a second. Don't listen to them, Knights. Accept no substance. I am the real Commander Beag.
-[quarton-battle] Unknown: Okay, I'm lost. Guys, I think we've got a big problem.
-[quarton-battle] Unknown: There's only one Commander Beag, and that's me.
-[quarton-battle] Guren: Trust
-[quarton-battle] Unknown: me, Knights. Oh, boy. You know me. These others are frauds. The only fraud around here is you. And the others, of course. Oh, stop. They know the real Beag when they see him. Exactly. So the rest of you might as well give up and unplug yourselves. Maybe
-[quarton-battle] Guren: we could give them a test? Like a multiple choice? Yeah, that's a good idea. Weed out the phonies. So for now, we'll call you Beag one, two, three, and four. Okay? Let the games begin! We know the real Beag's a great shot, so let her rip. Fire!
+[quarton-battle] Beag: Twin Beags? Ranked imposters, both of them. I'm the only Commander Beag around here. Wait a second. Don't listen to them, Knights. Accept no substance. I am the real Commander Beag.
+[quarton-battle] Toxsa: Okay, I'm lost. Guys, I think we've got a big problem.
+[quarton-battle] Beag: There's only one Commander Beag, and that's me.
+[quarton-battle] Slyger: Trust
+[quarton-battle] Beag: me, Knights. Oh, boy. You know me. These others are frauds. The only fraud around here is you. And the others, of course. Oh, stop. They know the real Beag when they see him. Exactly. So the rest of you might as well give up and unplug yourselves. Maybe
+[quarton-battle] Ceylan: we could give them a test? Like a multiple choice? Yeah, that's a good idea. Weed out the phonies. So for now, we'll call you Beag one, two, three, and four. Okay? Let the games begin! We know the real Beag's a great shot, so let her rip. Fire!
 [quarton-battle] Vilius: Ooh! Fire!
-[quarton-battle] Guren: Ah!
-[quarton-battle] Unknown: Fire! Ooh, Beag!
-[quarton-battle] Guren: Beag one, you're up! Right!
-[quarton-battle] Unknown: Don't be nervous. You can do it. Ready. Aim.
-[quarton-battle] Guren: Power
-[quarton] Unknown: surge! Ah! I choked! Ha ha! That's one that's been eliminated. The real Beag would never choke, and I should know. You're a Beag fake, Beag one! Can't let them rattle my circuits. Must get a grip.
-[quarton] Guren: Okay. Build a Tenkai wall. Go!
-[quarton] Unknown: Get going! Yeah! Get lost! Beat it!
-[quarton] Guren: I
-[quarton] Unknown: seem to have a glitch in my self-confidence. Find another wall, Beag one! Yeah! You're out of luck! No room for phonies here! How can this be happening? It's totally illogical! I know I'm the real Beag, and yet it's like my systems have been corrupted by some kind of self-doubt virus. I must reboot, recharge, regroup! I'm not going to let these amateurs out-Beag me! I'm the real Beag and you are not! I'm the real Beag and you are not! I'm the real Beag and you are not! I'm the real Beag and you are not!
-[quarton] Guren: I'm the real Beag and you are not!
-[quarton] Guren: Is that Beag one again?
-[quarton] Unknown: Oh, look. He fell down. What a surprise. Why don't you stop wasting everyone's time? Yeah. You're not even a good phony, you phony. It's
-[quarton] Unknown: no use.
-[quarton] Unknown: What if they're right and I am a fraud? Perhaps it's not my self-confidence that's faulty, but my memory banks. And all those happy times and glorious victories I remember sharing with the knights never really happened.
-[quarton] Guren: What's he want? A sympathy vote?
-[quarton] Unknown: I never wanted to dishonor the name Beag. You have my thanks for the memories, knights. Even if they are inaccurate. Goodbye. I'll just slowly walk away.
-[quarton] Guren: It's weird. He does kind of remind me of Beag. Forget it. Beag may not be perfect, but he's not that hopeless. Nice try, dude. Don't call us. We'll call you.
-[quarton] Unknown: I'll teach you to make a fool of me, knights. I've channeled just enough dark tenkai energy for one lethal blast. And I'm going to make it count. Goodbye, Bravenwolf.
-[quarton] Unknown: Huh? A power surge?
-[quarton] Guren: Huh? Bravenwolf!
-[quarton] Unknown: Bravenwolf... You called me...
-[quarton] Guren: Beag. We must have been nuts for doubting you. Can you ever forgive us, Beag? It
-[quarton] Unknown: was my fault for doubting myself. But now all's right again. And I shall always have the happy times. Here in my memory banks. Farewell, knights. Not
-[quarton] Guren: even a scratch! That's what I call looking out for number one!
-[quarton] Unknown: So close.
-[quarton] Guren: Guardians!
-[quarton] Unknown: We nearly succeeded in demoralizing Beag and driving him away. But Slyger spoiled our plan. Twice in one day. When
-[quarton] Guren: you mess with Beag, you mess with the tenkai knights! Come on, guys!
-[quarton] Unknown: Not today, Bravenwolf. This isn't part of our plan. Tough
-[quarton] Guren: luck! Change of plan!
-[quarton] Guren: And then they just disappeared. Perhaps they're looking for the tenkai stone as well. But where is it? It's gotta be somewhere here on Earth, right? Hmm.
-[quarton] Guren: So
-[quarton] Unknown: it would seem. I wonder if someone we know has it.
-[quarton] Unknown: Yeah, right. Who's gonna have a tenkai stone lying around?
+[quarton-battle] Slyger: Ah!
+[quarton-battle] Beag: Fire! Ooh, Beag!
+[quarton-battle] Slyger: Beag one, you're up! Right!
+[quarton-battle] Beag: Don't be nervous. You can do it. Ready. Aim.
+[quarton-battle] Slyger: Power
+[quarton] Beag: surge! Ah! I choked! Ha ha! That's one that's been eliminated. The real Beag would never choke, and I should know. You're a Beag fake, Beag one! Can't let them rattle my circuits. Must get a grip.
+[quarton] Slyger: Okay. Build a Tenkai wall. Go!
+[quarton] Beag: Get going! Yeah! Get lost! Beat it!
+[quarton] Slyger: I
+[quarton] Beag: seem to have a glitch in my self-confidence. Find another wall, Beag one! Yeah! You're out of luck! No room for phonies here! How can this be happening? It's totally illogical! I know I'm the real Beag, and yet it's like my systems have been corrupted by some kind of self-doubt virus. I must reboot, recharge, regroup! I'm not going to let these amateurs out-Beag me! I'm the real Beag and you are not! I'm the real Beag and you are not! I'm the real Beag and you are not! I'm the real Beag and you are not!
+[quarton] Slyger: I'm the real Beag and you are not!
+[quarton] Ceylan: Is that Beag one again?
+[quarton] Beag: Oh, look. He fell down. What a surprise. Why don't you stop wasting everyone's time? Yeah. You're not even a good phony, you phony. It's
+[quarton] Beag: no use.
+[quarton] Beag: What if they're right and I am a fraud? Perhaps it's not my self-confidence that's faulty, but my memory banks. And all those happy times and glorious victories I remember sharing with the knights never really happened.
+[quarton] Slyger: What's he want? A sympathy vote?
+[quarton] Beag: I never wanted to dishonor the name Beag. You have my thanks for the memories, knights. Even if they are inaccurate. Goodbye. I'll just slowly walk away.
+[quarton] Ceylan: It's weird. He does kind of remind me of Beag. Forget it. Beag may not be perfect, but he's not that hopeless. Nice try, dude. Don't call us. We'll call you.
+[quarton] Slyger: I'll teach you to make a fool of me, knights. I've channeled just enough dark tenkai energy for one lethal blast. And I'm going to make it count. Goodbye, Bravenwolf.
+[quarton] Beag: Huh? A power surge?
+[quarton] Slyger: Huh? Bravenwolf!
+[quarton] Beag: Bravenwolf... You called me...
+[quarton] Ceylan: Beag. We must have been nuts for doubting you. Can you ever forgive us, Beag? It
+[quarton] Beag: was my fault for doubting myself. But now all's right again. And I shall always have the happy times. Here in my memory banks. Farewell, knights. Not
+[quarton] Slyger: even a scratch! That's what I call looking out for number one!
+[quarton] Beag: So close.
+[quarton] Slyger: Guardians!
+[quarton] Beag: We nearly succeeded in demoralizing Beag and driving him away. But Slyger spoiled our plan. Twice in one day. When
+[quarton] Slyger: you mess with Beag, you mess with the tenkai knights! Come on, guys!
+[quarton] Beag: Not today, Bravenwolf. This isn't part of our plan. Tough
+[quarton] Slyger: luck! Change of plan!
+[quarton] Ceylan: And then they just disappeared. Perhaps they're looking for the tenkai stone as well. But where is it? It's gotta be somewhere here on Earth, right? Hmm.
+[quarton] Slyger: So
+[quarton] Slyger: it would seem. I wonder if someone we know has it.
+[quarton] Toxsa: Yeah, right. Who's gonna have a tenkai stone lying around?

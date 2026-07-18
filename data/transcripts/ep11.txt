@@ -1,21 +1,21 @@
 [quarton] Guren: In case you came in late, my friends and I were chosen to be the new Tenkai Knights. We're trying to save the planet Quarton and the universe by finding these things called Dragon Cubes, which are actually scattered pieces of the mighty Tenkai Dragon. Unfortunately, we're not the only ones looking for them. There's also an army of evil bots known as the Corrupted, led by the evil warlord Vilius, and his robot henchman Granox, Slyger, and his mystery bot, Dromus. I mean, it's not like we're helpless. We Tenkai Knights have powers of our own, including an awesome new upgrade called Titan Mode. For whoever wins this fight, we'll do it by finding all the Dragon Cubes and unleashing the power of the Tenkai Dragon. And there's only one cube left to find.
-[quarton] Unknown: Our scouts were right. It's an enemy convoy, a big one. And the Dragon Cube? Scanners confirmed density readings and Tenkai Energy emissions. It's definitely a Dragon Cube inside that container. We finally found it, Commander Beak. Yes, Leonhard. But finding it is one thing. Getting it out of Vilius' evil fortress will be quite another.
+[quarton] Beag: Our scouts were right. It's an enemy convoy, a big one. And the Dragon Cube? Scanners confirmed density readings and Tenkai Energy emissions. It's definitely a Dragon Cube inside that container. We finally found it, Commander Beak. Yes, Leonhard. But finding it is one thing. Getting it out of Vilius' evil fortress will be quite another.
 [quarton] Guren: So you found the last Dragon Cube.
-[quarton] Unknown: Yes, but Vilius' fortress is heavily guarded, even for knights as skilled and brave as you, mighty Bravenwolf. The risk is too great.
+[quarton] Beag: Yes, but Vilius' fortress is heavily guarded, even for knights as skilled and brave as you, mighty Bravenwolf. The risk is too great.
 [quarton] Gen: It's our
-[quarton] Guren: fault.
+[quarton] Ceylan: fault.
 [quarton] Gen: That's the cube Dromus swiped from us.
-[quarton] Guren: Yeah, if it weren't for that creep, we'd have them all by now. We could have fired up the dragon and turned Vilius and his bot nuggets into Tenkai toast.
-[quarton-battle] Unknown: This toast, you speak of, must be a powerful weapon indeed. Does it have something to do with the key that will revive the mighty Tenkai dragon? Uh, what about a what now?
-[quarton-battle] Guren: Key? Nobody mentioned keys. Keys? Yes,
-[quarton-battle] Unknown: keys, plural. Correct as always, wise knights, for I don't have to tell you that the white key revives the good dragon, and the black key will awaken the evil side of its nature.
-[quarton-battle] Guren: First the cubes, now there's a set of keys. What next? You gonna tell us batteries aren't included?
-[quarton-battle] Unknown: Not knowing what those are, I cannot say for certain. But, I know this, we are in complete readiness for tomorrow's battle. The entire Corekai army is assembled and standing by to carry out your undoubtedly brilliant plan for storming the fortress. Our brilliant plan? Oh, right. We would certainly be marching to our doom, if not for the foolproof strategy of the Tenkai Knights. My, this is a pickle. Goodness.
-[quarton-battle] Guren: It's like being twenty-point underdogs, and playing the other team without home court advantage. Who you call an underdog? In case you've forgotten, I can level up to Titan mode. So you keep telling us.
+[quarton] Ceylan: Yeah, if it weren't for that creep, we'd have them all by now. We could have fired up the dragon and turned Vilius and his bot nuggets into Tenkai toast.
+[quarton-battle] Beag: This toast, you speak of, must be a powerful weapon indeed. Does it have something to do with the key that will revive the mighty Tenkai dragon? Uh, what about a what now?
+[quarton-battle] Ceylan: Key? Nobody mentioned keys. Keys? Yes,
+[quarton-battle] Beag: keys, plural. Correct as always, wise knights, for I don't have to tell you that the white key revives the good dragon, and the black key will awaken the evil side of its nature.
+[quarton-battle] Ceylan: First the cubes, now there's a set of keys. What next? You gonna tell us batteries aren't included?
+[quarton-battle] Beag: Not knowing what those are, I cannot say for certain. But, I know this, we are in complete readiness for tomorrow's battle. The entire Corekai army is assembled and standing by to carry out your undoubtedly brilliant plan for storming the fortress. Our brilliant plan? Oh, right. We would certainly be marching to our doom, if not for the foolproof strategy of the Tenkai Knights. My, this is a pickle. Goodness.
+[quarton-battle] Ceylan: It's like being twenty-point underdogs, and playing the other team without home court advantage. Who you call an underdog? In case you've forgotten, I can level up to Titan mode. So you keep telling us.
 [quarton-battle] Guren: A plan.
-[quarton-battle] Guren: That's
+[quarton-battle] Ceylan: That's
 [quarton-battle] Guren: what they're counting on us for. I've got some homework. Why don't we meet up first thing in the morning? Gotcha. Right. So keep focused, okay? You bet.
-[quarton-battle] Guren: Like a laser. Here's my plan. I'll unleash my Titan mode. Good one. You know how bad I am with plans, dude. So I'm gonna leave this one to you. Right. I mean, I have trouble planning breakfast.
+[quarton-battle] Ceylan: Like a laser. Here's my plan. I'll unleash my Titan mode. Good one. You know how bad I am with plans, dude. So I'm gonna leave this one to you. Right. I mean, I have trouble planning breakfast.
 [quarton-battle] Vilius: These seemingly random images downloaded from Valorn's database. Granox thought them useless. But then, Granox is a fool. If I can decipher their meaning, they might be useful indeed. In fact, they could prove invaluable. You summoned me, Vilius? Yes, Gromus. How's your covert mission coming along?
 [quarton] Gen: My mission is on track. Goals are in sight, mighty Vilius.
 [quarton] Vilius: I see. Humor me with the details. I
@@ -25,16 +25,16 @@
 [quarton] Vilius: How do you know so much about what the Knights will do? You act as though you could read their minds.
 [quarton] Gen: As you commanded, I've studied our enemies. I have learned their ways. The next time they come, we will have the power to turn their own allies against them. The more Korokai they bring with them, the more enemies they will face.
 [quarton] Vilius: Excellent. Your loyalty to me may be rewarded after all, Dromus. Vilius is no favorite. He just doesn't have a chance to fail yet. Yeah, like
-[quarton] Guren: we have. I'm
+[quarton] Ceylan: we have. I'm
 [quarton] Guren: not going to be you, Max, except for the hairballs. You've got it easy. You don't have to come up with a way of getting into the Dark Fortress. You don't have everybody counting on you. Sometimes it's like I've got the fate of the whole universe on my shoulders. Maybe hairballs aren't that bad. Oh man, what am I going to do? Yeah, that's him. Could
 [quarton] Gen: he really be? Time to find out.
-[quarton] Guren: Check it out, check it out. Titan Thunderfist.
-[quarton] Guren: Dial it back, Toxsa. Let's hear Guren's plan
-[quarton] Guren: first. I bashed those bots into pixels. That's the plan. I sure hope that's not the plan. Give him points for enthusiasm. Actually, Guren told me his idea. If we stick to it, I like our chances. What is it? I unbotify him while you guys cheer? Somebody find his off button. Jealous, Max? Save it for later. We gotta go over the plan.
+[quarton] Ceylan: Check it out, check it out. Titan Thunderfist.
+[quarton] Ceylan: Dial it back, Toxsa. Let's hear Guren's plan
+[quarton] Ceylan: first. I bashed those bots into pixels. That's the plan. I sure hope that's not the plan. Give him points for enthusiasm. Actually, Guren told me his idea. If we stick to it, I like our chances. What is it? I unbotify him while you guys cheer? Somebody find his off button. Jealous, Max? Save it for later. We gotta go over the plan.
 [earth] Guren: Jealous of you? Hey, we meet at Mr. White's shop after school. Got it?
-[earth] Guren: The city of Troy was a mighty fortress, and though they tried for years, the Greeks couldn't capture it. Finally, they decided that
+[earth] Ceylan: The city of Troy was a mighty fortress, and though they tried for years, the Greeks couldn't capture it. Finally, they decided that
 [earth] Guren: what they
-[earth] Guren: couldn't do by force... Hm.
+[earth] Ceylan: couldn't do by force... Hm.
 [earth] Guren: That's weird. Gen's not in class again. There's something about that guy that doesn't add up. Eh. Maybe I'm just imagining things. Anyway, it's not like I don't have bigger things to worry about. Like whether we can actually get the Dragon Cube and save Quarton. Oh well. The time for worrying about it is over. I've gotta at least pretend like I know what I'm doing.
 [earth] Guren: You alright? Why'd you skip school? It's not like I'm gonna report you or anything.
 [quarton] Gen: Guren.
@@ -60,57 +60,57 @@
 [quarton] Guren: Wonder
 [quarton] Gen: what's up?
 [quarton] Guren: Sorry I'm late. Where have you been, bro? Something came up.
-[quarton] Guren: I was
+[quarton] Ceylan: I was
 [quarton-battle] Guren: just about to explain phase one of your game plan. Okay. First, let me set it up. Remember in history class, how the Greeks used the Trojan horse to sneak their way into an enemy fortress? Well, I think our best plan is to use a sneak attack like the Greeks did. We played a team last year with this monster
 [quarton-battle] Gen: defensive line that was like totally overpowering us. No way we were ever gonna get in the end zone by trying to run it up the middle. So you went with the trick play. That's right. Work then and it'll work
-[quarton-battle] Guren: again. The four of us are split wide left. Beag fakes it up the middle, and when the defense bites, we take the pitch out and do an end around past their right tackle and into the end zone. Okay, try that again in human.
+[quarton-battle] Ceylan: again. The four of us are split wide left. Beag fakes it up the middle, and when the defense bites, we take the pitch out and do an end around past their right tackle and into the end zone. Okay, try that again in human.
 [quarton-battle] Gen: So anyway, that's the plan. What
-[quarton-battle] Guren: about me?
-[quarton-battle] Guren: I'm the fighting titan! Yeah.
+[quarton-battle] Ceylan: about me?
+[quarton-battle] Ceylan: I'm the fighting titan! Yeah.
 [quarton-battle] Guren: Don't worry, you're our secret weapon of loudness. What do you say, guys? You ready? Cause if so, let's do it! Why not,
 [quarton-battle] Unknown: Tengar? Thanks,
-[quarton-battle] Unknown: Beag. Just watch your head when I go titan mode. Again? Thanks for the warning. Now
-[quarton-battle] Guren: forward to the Dark Fortress! Whoa, this place is gnarly. It's like the Warlock Tower in Doom's Floater 3. I never beat that level. Stay focused, guys. The
+[quarton-battle] Beag: Beag. Just watch your head when I go titan mode. Again? Thanks for the warning. Now
+[quarton-battle] Ceylan: forward to the Dark Fortress! Whoa, this place is gnarly. It's like the Warlock Tower in Doom's Floater 3. I never beat that level. Stay focused, guys. The
 [quarton-battle] Guren: last Dragon Cube is in there. Hey, check it out! Here come the Corekai, just like we planned.
-[quarton-battle] Guren: They took the bait! I've got titan mode ready. Can we do it now? Now? Now? How about now? You got it, bro! Time to go! Tenkai Titan Mode! Finally! Tenkai Thunder Fist! Let's get this over with.
-[quarton-battle] Guren: Alright, Tenkai Knights! It's time to kick some butt! Tenkai!
+[quarton-battle] Ceylan: They took the bait! I've got titan mode ready. Can we do it now? Now? Now? How about now? You got it, bro! Time to go! Tenkai Titan Mode! Finally! Tenkai Thunder Fist! Let's get this over with.
+[quarton-battle] Ceylan: Alright, Tenkai Knights! It's time to kick some butt! Tenkai!
 [quarton-battle] Gen: Kept me waiting, Bravenwolf. You again.
-[quarton-battle] Guren: That Dromus creep. How'd he get here? It's almost as if he was expecting
-[quarton-battle] Unknown: this. How could he have known?
-[quarton-battle] Guren: Activate! If
+[quarton-battle] Ceylan: That Dromus creep. How'd he get here? It's almost as if he was expecting
+[quarton-battle] Beag: this. How could he have known?
+[quarton-battle] Ceylan: Activate! If
 [quarton] Unknown: even he can go into titan mode... Hey,
-[quarton] Guren: frosty
+[quarton] Ceylan: frosty
 [quarton] Unknown: guys,
-[quarton] Guren: heads up! You're gonna be sorry you butted in, Dromus! Aw, you sound upset. Did I spoil your party? Don't worry. This party's just getting started! You don't know how right you are. Core Corruptor, engage!
-[quarton] Unknown: Have you
-[quarton] Guren: got a plan for when the game plan doesn't go according to plan? You thought you'd take us by surprise with your
-[quarton] Guren: tricky strategy? Who's surprised now? Who
+[quarton] Ceylan: heads up! You're gonna be sorry you butted in, Dromus! Aw, you sound upset. Did I spoil your party? Don't worry. This party's just getting started! You don't know how right you are. Core Corruptor, engage!
+[quarton] Beag: Have you
+[quarton] Ceylan: got a plan for when the game plan doesn't go according to plan? You thought you'd take us by surprise with your
+[quarton] Ceylan: tricky strategy? Who's surprised now? Who
 [quarton] Guren: are you?
-[quarton-battle] Guren: Hey, guys! Can you hold them off? If I hold them off, you mean get shot at, then... Yeah! Yeah! You
+[quarton-battle] Ceylan: Hey, guys! Can you hold them off? If I hold them off, you mean get shot at, then... Yeah! Yeah! You
 [quarton-battle] Gen: may be smart, Bravenwolf, but you're extremely predictable. By corrupting the cores of your army, they're now under Vilius' control.
-[quarton-battle] Guren: No fair! Where's an anti-Core Corruptor device when you need one? He flipped them? I am getting really tired of being blasted at everywhere we go! I'd like to flip this guy into a ditch!
+[quarton-battle] Ceylan: No fair! Where's an anti-Core Corruptor device when you need one? He flipped them? I am getting really tired of being blasted at everywhere we go! I'd like to flip this guy into a ditch!
 [quarton-battle] Guren: Ceylan, you're a genius!
-[quarton-battle] Guren: Flit!
-[quarton-battle] Unknown: Hey! We're taking fire from front and back! You're right, brave Lydendor! Our position is vulnerable! I'm afraid we must...retreat. No! No
-[quarton-battle] Guren: way! This isn't over yet!
+[quarton-battle] Ceylan: Flit!
+[quarton-battle] Beag: Hey! We're taking fire from front and back! You're right, brave Lydendor! Our position is vulnerable! I'm afraid we must...retreat. No! No
+[quarton-battle] Ceylan: way! This isn't over yet!
 [quarton-battle] Gen: You can always just keep flipping it over and over till the side you want comes up.
-[quarton-battle] Guren: If he's flipped our guys to the dark side, we've just gotta find a way to flip them back!
-[quarton-battle] Guren: That's gotta be what's corrupting the Corekai! Bingo! It worked! The Vault Jet has been restored! Okay, guys! You see that? We saw!
-[quarton-battle] Guren: So we just gotta smash those gizmos! Now that we can do! Oh yeah! Let's flip some
-[quarton] Guren: bots! Tenkai Arrow! Time for some Bronco Busting! Yeah! Yee-haw! Nice horsey! Well, you are now. Well,
+[quarton-battle] Ceylan: If he's flipped our guys to the dark side, we've just gotta find a way to flip them back!
+[quarton-battle] Ceylan: That's gotta be what's corrupting the Corekai! Bingo! It worked! The Vault Jet has been restored! Okay, guys! You see that? We saw!
+[quarton-battle] Ceylan: So we just gotta smash those gizmos! Now that we can do! Oh yeah! Let's flip some
+[quarton] Ceylan: bots! Tenkai Arrow! Time for some Bronco Busting! Yeah! Yee-haw! Nice horsey! Well, you are now. Well,
 [quarton] Gen: at least now I know it's him.
-[quarton] Guren: We did it! We turned the game around! Hold on! We're not done yet!
+[quarton] Ceylan: We did it! We turned the game around! Hold on! We're not done yet!
 [quarton] Gen: Enough! Do you even know what you're fighting for, Bravenwolf? You don't, do you? Maybe you'll have it figured out. By the time we meet again. Wait!
 [quarton] Guren: Don't cut out on me! What did you mean by that? He
 [quarton] Guren: did it again.
-[quarton] Unknown: The Dark Fortress has fallen! The Corrupted have been defeated! And the Dragon Cube is ours! The last Dragon Cube! Victory is now finally within our reach! And we owe it all to you, the legendary Tenkai Knights! I can't argue with
-[quarton] Guren: that. Nope. Me neither. Job done. Let's go home. Gan!
-[quarton] Guren: Hey,
+[quarton] Beag: The Dark Fortress has fallen! The Corrupted have been defeated! And the Dragon Cube is ours! The last Dragon Cube! Victory is now finally within our reach! And we owe it all to you, the legendary Tenkai Knights! I can't argue with
+[quarton] Ceylan: that. Nope. Me neither. Job done. Let's go home. Gan!
+[quarton] Ceylan: Hey,
 [quarton] Guren: Gan! Wait up! Thanks for that... weirdness yesterday. Weirdness?
 [quarton] Gen: What do you mean?
 [quarton] Guren: All that stuff with the coin. Seemed like total gibberish at the time, but... later on it actually helped me to... well, solve a problem. Lucky you.
-[quarton] Guren: Yo, Guren! Move it or lose it! Oh,
+[quarton] Ceylan: Yo, Guren! Move it or lose it! Oh,
 [quarton] Guren: right. Well, anyway, Gan, thanks.
 [quarton] Gen: Don't thank me yet. Are you sure you know which side of the coin you are, Guren? The
 [quarton] Unknown: key
-[quarton] Guren: is on Earth. You are on Earth. You are the key.
+[quarton] Ceylan: is on Earth. You are on Earth. You are the key.

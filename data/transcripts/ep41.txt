@@ -1,166 +1,166 @@
-[unknown] Guren: Guren here, and in case you missed it, we're still stuck in this crazy place called Beast World, where we've got to compete in nutty games in order to get back home. And with an off-the-wall monkey bot like Rangor making the rules, it's starting to look like we might be stuck here forever.
-[unknown] Guren: All right, this is now officially focused!
-[unknown] Guren: Couldn't have said it better myself. I could have, but not on a family show.
-[unknown] Unknown: Complaining won't help, so let's keep moving, okay? That's the Tenkai spirit! There's no challenge so great that the Legendary Heroes cannot overcome it!
+[unknown] Ceylan: Guren here, and in case you missed it, we're still stuck in this crazy place called Beast World, where we've got to compete in nutty games in order to get back home. And with an off-the-wall monkey bot like Rangor making the rules, it's starting to look like we might be stuck here forever.
+[unknown] Toxsa: All right, this is now officially focused!
+[unknown] Ceylan: Couldn't have said it better myself. I could have, but not on a family show.
+[unknown] Beag: Complaining won't help, so let's keep moving, okay? That's the Tenkai spirit! There's no challenge so great that the Legendary Heroes cannot overcome it!
 [unknown] Unknown: Well, now you've got me excited! I'm so pumped! I've
-[unknown] Guren: never met real live
+[unknown] Ceylan: never met real live
 [unknown] Unknown: Legendary Heroes before! So? Bring them on! So who are they? What's up? I don't see them. I'm just kidding, they're supposed to be you guys, right? Talk
-[unknown] Guren: about bogus. Yeah, I was kinda hoping we'd seen the last of them.
+[unknown] Ceylan: about bogus. Yeah, I was kinda hoping we'd seen the last of them.
 [unknown] Unknown: I haven't even seen my impressions yet! Pretty great, huh? You know what, that was wild. Well, obviously, it was a tarantula getting a wash on set.
-[unknown] Unknown: Enough of this nonsense! You're wasting our time, silly orange being! The Tenkai Knights have two worlds to save! Alrighty then, my
+[unknown] Beag: Enough of this nonsense! You're wasting our time, silly orange being! The Tenkai Knights have two worlds to save! Alrighty then, my
 [unknown] Unknown: next impression will be really quick! A windmill and a hurricane! So,
-[quarton] Guren: the Knights have a lot of girls to save, huh? You guys do that a lot? Actually, it's worlds, not girls. Too bad, I was hoping you
+[quarton] Ceylan: the Knights have a lot of girls to save, huh? You guys do that a lot? Actually, it's worlds, not girls. Too bad, I was hoping you
 [quarton] Unknown: had experience in girl saving. Cause you see, you're gonna have to rescue the princess, survive the grave of danger, and find the treasure of wonders if you ever want to leave this place. Come on, you gotta be kidding! Hardly. And if you think that sounds bad, I won't even mention the Pit of a Thousand Screams! Or the
-[quarton] Vilius: monster
+[quarton] Beag: monster
 [quarton] Unknown: with 45s! Okay, your mission starts now!
-[quarton] Guren: What's with the Ren Faire music?
-[quarton] Guren: Wait, I've played this game! This is just like Doom's Border Junior! Come on, we're gonna clear this level in no time! Excellent! Whatever that means! It means, follow me! I beat this game when I was like 8 years old! Slyger! He wasn't in the game! It's
-[quarton] Guren: Slyger, alright. But why is he just
-[quarton] Guren: standing there? Oh, I get it! He's a dummy! Well, we knew that. No, like a training dummy! We can all earn experience points by fighting him!
-[quarton] Guren: Like a sparring partner. But what are we supposed to fight him with? Our hands? We don't have weapons!
+[quarton] Ceylan: What's with the Ren Faire music?
+[quarton] Toxsa: Wait, I've played this game! This is just like Doom's Border Junior! Come on, we're gonna clear this level in no time! Excellent! Whatever that means! It means, follow me! I beat this game when I was like 8 years old! Slyger! He wasn't in the game! It's
+[quarton] Ceylan: Slyger, alright. But why is he just
+[quarton] Toxsa: standing there? Oh, I get it! He's a dummy! Well, we knew that. No, like a training dummy! We can all earn experience points by fighting him!
+[quarton] Ceylan: Like a sparring partner. But what are we supposed to fight him with? Our hands? We don't have weapons!
 [quarton] Unknown: Oopsie daisy! I'm so silly! I knew there was something! I'd forget my head if it weren't screwed on by my nose! Anyway! What would the legendary Knights be without their legendary weapons? Of course, these aren't the real ones, but they're just as good. It
-[quarton] Guren: feels
+[quarton] Toxsa: feels
 [quarton] Unknown: light. And
-[quarton] Guren: lame. Weapons?
-[quarton] Guren: More like stocking stuffers for babies. They're cheap plastic knockoffs.
-[quarton] Guren: It's a poor workman who blames his tools. Okay, let's plug and play!
-[quarton] Unknown: That's right, Valorn! You show him!
-[quarton] Guren: Watch it, dummy! Damage points coming up!
-[quarton] Guren: What'd you expect from
+[quarton] Toxsa: lame. Weapons?
+[quarton] Ceylan: More like stocking stuffers for babies. They're cheap plastic knockoffs.
+[quarton] Toxsa: It's a poor workman who blames his tools. Okay, let's plug and play!
+[quarton] Beag: That's right, Valorn! You show him!
+[quarton] Toxsa: Watch it, dummy! Damage points coming up!
+[quarton] Ceylan: What'd you expect from
 [quarton] Unknown: a piece of junk? Go on, Athene. It's not always enough to walk the walk. Sometimes
-[quarton] Guren: you gotta talk
+[quarton] Ceylan: you gotta talk
 [quarton] Unknown: the talk,
-[quarton] Guren: too!
+[quarton] Ceylan: too!
 [quarton] Unknown: That is your last hint. Customer support is now offline.
-[quarton] Guren: Whoosh. That was a hint? Sounds like Mr. White. Yeah, I think he's got it backwards. He
-[quarton] Guren: means we're forgetting... Our signature call-outs! Like this! Watch! Eat...
-[quarton] Guren: LICERS!
-[quarton] Guren: Sweet... How impressive you are, Valorn! Oh, coinage! Definitely come in handy. Like for what? We'll probably meet an old peddler or wizard or NPC. They'll sell us goblin blood or something useful. Yeah, right. But seriously, Toxsa... Oh.
-[quarton] Guren: You
-[quarton] Guren: are serious. Mm-hmm. We're Doom's floaters all the way! We are here to plug and play! Watch out, goblins, here we come! Gonna... Who's a little too into this? A
-[quarton] Guren: real-life video game is his dream come true.
-[quarton] Guren: Stay
-[quarton] Guren: frosty! What is this? A do-over? Wait, it's a different
-[quarton] Guren: Slyger. Why's this one red? He's probably embarrassed after what I did to him last time. Here we go! Eat... LICERS!
-[quarton] Unknown: Uh... The dummy appears to have improved its overall maneuverability.
-[quarton] Guren: Must be a glitch! Eat... LICERS!
-[quarton] Unknown: Oh,
-[quarton] Guren: yeah? Eat...
-[quarton] Guren: I think he's seen this move before, dude. Yeah,
-[quarton] Guren: maybe
-[quarton] Guren: you need to try something else.
-[quarton] Guren: Come on, Ceylan! Hm? This looks like it's a two-player scenario. Huh?
-[quarton] Guren: My secret's out. Okay, I admit it. Admit what? I've played Doom's Floater Jr. 2. Prepare to be pwned, dumpster bot! Feel the power of my Tenkai Arrow! Yeah! Time for dessert! Eat... LICERS! Tenkai
-[quarton] Guren: Arrow! Got
-[quarton] Guren: it, you got it. Score!
-[quarton] Guren: A key? Maybe it opens the Treasure of Wonders. I was sorta hoping that thing was the Treasure of
-[quarton] Guren: Wonders.
-[quarton] Guren: Nah, we gotta save the princess first.
-[quarton] Guren: Is anybody else getting hungry?
-[quarton] Guren: If
-[quarton] Guren: only this cave had a taco stand. Oh, come on, you newbies. Get with the program. You don't say you're hungry. You say you're getting low on health points.
-[quarton] Guren: Yeah, or you say you're redlining your life bar. Exactamundo! Or running on fume units.
-[quarton] Guren: Careful, I think this game Gigatude is contagious.
-[quarton] Unknown: Up ahead, Knights! Huh? Perhaps your life units, or whatever, can be replenished there.
-[quarton] Guren: An inn! Right, there's always an inn.
-[quarton] Unknown: Mr. White? You've come to the right place, travelers. Welcome to the Inn of Many Answers. Okay, then I guess the first question is, what are you doing here? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Really? What kind of fearsome enemy? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Yeah,
-[quarton] Guren: we heard you
-[quarton] Unknown: the first
-[quarton] Guren: time.
-[quarton] Guren: So what's this guy's weak spot, anyway?
-[quarton] Unknown: First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Is
-[quarton] Guren: he broken? Many Answers? It's more like the Inn of One Answer.
-[quarton] Guren: We might need to try a different tactic. Yeah, but... I know! Try this!
-[quarton] Unknown: You're very generous, traveler. Now, it's time for you to rest and recuperate.
-[quarton] Guren: Chooki, I was saving that coinage for goblin blood. So I'll pay you back, dude. Uh-oh, what's going on? What
-[quarton] Guren: happened to the lights?
-[quarton] Unknown: Good morning. I hope you rested well.
-[quarton] Guren: Hey, I do feel better. Yeah, I'm not even hungry anymore. We fast forwarded through the boring sleeping part. Nice. Yeah, cause it's a game.
-[quarton] Unknown: Anything else you require? Oh, I almost forgot. The fearsome enemy you will face, his weak spot is right here.
-[quarton] Guren: Thanks, Mr. White. I mean, innkeeper. Okay,
-[quarton] Guren: so let's skip the boring part of looking for this fearsome enemy and fast forward to the part where we clobber him. Yeah, good idea. Game on!
-[quarton] Guren: Granox, some fearsome enemy. Oh yeah, like Slyger was a real challenge. Look, guys, a door. Maybe it's a bathroom. I could use one.
-[quarton] Guren: It's the princess! To the rescue! Finally! What took you so long? Wait, I know that voice. Hurry up and get me out of here, you slowpoke, jerk-faced doofuses! Come on! Beni's the princess.
-[quarton] Guren: Why don't we leave her in there?
-[quarton] Guren: Who's gonna save us from her? I know you're out there. Come here, Beag. I need some light.
-[quarton] Unknown: At once, your highness. It will be an honor to illuminate you, my lady.
-[quarton] Guren: Keep it steady.
-[quarton] Unknown: Yes,
-[quarton] Guren: princess. Little Miss Princess
-[quarton] Guren: Pain in the
-[quarton] Guren: behind.
-[quarton] Guren: Yeah, but she's the only one who knows where the treasure is.
-[quarton] Guren: Well, maybe, but I bet we could have found a cheat code or something.
-[quarton] Guren: Look, it's simple. Without her, we can't get home. Hurry
-[quarton] Guren: up,
-[quarton] Guren: losers. Man, you guys are slow. Do you
-[quarton] Guren: think the treasure will be guarded? Treasure's always guarded.
-[quarton] Guren: Well, we took out Granox and Slyger already. What if it's...Vilius? If
-[quarton] Guren: it is Vilius, he sounds hungry. Well, if it is Vilius, we're gonna need more than plastic weapons to beat him. Listen to the Tenkai heroes. Or should I say, Tenkai Zeros. Yeah, well, I know you are, but what are
-[quarton] Guren: we?
-[quarton] Guren: Even your
-[quarton] Guren: comebacks are lame. Wait, you're not... Beni, stop. Don't go in there. Don't. We're not saving you again. Coming. Whoa.
-[quarton] Guren: Why do I know that? Is it a bear or a bunny? All a banshee. Guren? Yeah,
-[quarton] Guren: I know. We've got to save her. Give him the one, two, three punch, guys. Coming up. Eat laser. Tenkai Shadow. Gable. That's all the points? Uh
-[quarton] Guren: -oh. He's mad. Watch out. Hey, definitely a bunny. Okay. Eat laser. Bop it in. Man, it'll take forever at this rate. I never got this far in any game. What now? What do you do when you get stuck on a level? Well, there's always the good old fashioned cheat code. I'm always willing to cheat for a good cause. No way.
-[quarton] Guren: Knights do not use cheat codes. Maybe just once? We're Tenkai Knights and we do things the right way. This isn't about scoring points. It's about saving Beni and finally getting home. Thank you. So you guys set him up and I'll finish him off. You got it. You know I'm game. Right. Let's put this dust bunny down. Go for it, guys. All together.
-[quarton] Guren: Here we go. Eat
-[quarton] Guren: laser. Tenkai Arrow. Game on. It worked. We stunned the bunny. Take it out. I'm a-
-[quarton] Guren: Nailed him. Are you forgetting? I'm more than just a pretty face. Princess Diamond.
-[quarton] Unknown: It's so sparkly. The
-[quarton] Unknown: highest gelations, my lady.
-[quarton] Guren: Glad someone appreciated it. We saved you and you saved us. Call it even. Yeah. Nice move, Beni. You definitely deserve the win for that one. Sure.
-[quarton] Guren: After we softened them up, anyone could have done it. Yeah, right. Anyway, you goofballs want to see the treasure or not? The
-[quarton] Guren: treasure of wonders.
+[quarton] Ceylan: Whoosh. That was a hint? Sounds like Mr. White. Yeah, I think he's got it backwards. He
+[quarton] Toxsa: means we're forgetting... Our signature call-outs! Like this! Watch! Eat...
+[quarton] Ceylan: LICERS!
+[quarton] Toxsa: Sweet... How impressive you are, Valorn! Oh, coinage! Definitely come in handy. Like for what? We'll probably meet an old peddler or wizard or NPC. They'll sell us goblin blood or something useful. Yeah, right. But seriously, Toxsa... Oh.
+[quarton] Ceylan: You
+[quarton] Toxsa: are serious. Mm-hmm. We're Doom's floaters all the way! We are here to plug and play! Watch out, goblins, here we come! Gonna... Who's a little too into this? A
+[quarton] Ceylan: real-life video game is his dream come true.
+[quarton] Toxsa: Stay
+[quarton] Ceylan: frosty! What is this? A do-over? Wait, it's a different
+[quarton] Toxsa: Slyger. Why's this one red? He's probably embarrassed after what I did to him last time. Here we go! Eat... LICERS!
+[quarton] Beag: Uh... The dummy appears to have improved its overall maneuverability.
+[quarton] Toxsa: Must be a glitch! Eat... LICERS!
+[quarton] Beag: Oh,
+[quarton] Toxsa: yeah? Eat...
+[quarton] Ceylan: I think he's seen this move before, dude. Yeah,
+[quarton] Toxsa: maybe
+[quarton] Ceylan: you need to try something else.
+[quarton] Toxsa: Come on, Ceylan! Hm? This looks like it's a two-player scenario. Huh?
+[quarton] Ceylan: My secret's out. Okay, I admit it. Admit what? I've played Doom's Floater Jr. 2. Prepare to be pwned, dumpster bot! Feel the power of my Tenkai Arrow! Yeah! Time for dessert! Eat... LICERS! Tenkai
+[quarton] Toxsa: Arrow! Got
+[quarton] Ceylan: it, you got it. Score!
+[quarton] Toxsa: A key? Maybe it opens the Treasure of Wonders. I was sorta hoping that thing was the Treasure of
+[quarton] Ceylan: Wonders.
+[quarton] Toxsa: Nah, we gotta save the princess first.
+[quarton] Ceylan: Is anybody else getting hungry?
+[quarton] Toxsa: If
+[quarton] Ceylan: only this cave had a taco stand. Oh, come on, you newbies. Get with the program. You don't say you're hungry. You say you're getting low on health points.
+[quarton] Toxsa: Yeah, or you say you're redlining your life bar. Exactamundo! Or running on fume units.
+[quarton] Ceylan: Careful, I think this game Gigatude is contagious.
+[quarton] Beag: Up ahead, Knights! Huh? Perhaps your life units, or whatever, can be replenished there.
+[quarton] Toxsa: An inn! Right, there's always an inn.
+[quarton] Mr._White: Mr. White? You've come to the right place, travelers. Welcome to the Inn of Many Answers. Okay, then I guess the first question is, what are you doing here? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Really? What kind of fearsome enemy? First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Yeah,
+[quarton] Ceylan: we heard you
+[quarton] Mr._White: the first
+[quarton] Toxsa: time.
+[quarton] Ceylan: So what's this guy's weak spot, anyway?
+[quarton] Mr._White: First, you must rest and recuperate your powers. For when the next sun rises, you will face a fearsome enemy who only has one weak spot. Is
+[quarton] Ceylan: he broken? Many Answers? It's more like the Inn of One Answer.
+[quarton] Toxsa: We might need to try a different tactic. Yeah, but... I know! Try this!
+[quarton] Mr._White: You're very generous, traveler. Now, it's time for you to rest and recuperate.
+[quarton] Toxsa: Chooki, I was saving that coinage for goblin blood. So I'll pay you back, dude. Uh-oh, what's going on? What
+[quarton] Ceylan: happened to the lights?
+[quarton] Mr._White: Good morning. I hope you rested well.
+[quarton] Ceylan: Hey, I do feel better. Yeah, I'm not even hungry anymore. We fast forwarded through the boring sleeping part. Nice. Yeah, cause it's a game.
+[quarton] Mr._White: Anything else you require? Oh, I almost forgot. The fearsome enemy you will face, his weak spot is right here.
+[quarton] Toxsa: Thanks, Mr. White. I mean, innkeeper. Okay,
+[quarton] Ceylan: so let's skip the boring part of looking for this fearsome enemy and fast forward to the part where we clobber him. Yeah, good idea. Game on!
+[quarton] Ceylan: Granox, some fearsome enemy. Oh yeah, like Slyger was a real challenge. Look, guys, a door. Maybe it's a bathroom. I could use one.
+[quarton] Toxsa: It's the princess! To the rescue! Finally! What took you so long? Wait, I know that voice. Hurry up and get me out of here, you slowpoke, jerk-faced doofuses! Come on! Beni's the princess.
+[quarton] Ceylan: Why don't we leave her in there?
+[quarton] Toxsa: Who's gonna save us from her? I know you're out there. Come here, Beag. I need some light.
+[quarton] Beag: At once, your highness. It will be an honor to illuminate you, my lady.
+[quarton] Toxsa: Keep it steady.
+[quarton] Beag: Yes,
+[quarton] Toxsa: princess. Little Miss Princess
+[quarton] Ceylan: Pain in the
+[quarton] Toxsa: behind.
+[quarton] Ceylan: Yeah, but she's the only one who knows where the treasure is.
+[quarton] Toxsa: Well, maybe, but I bet we could have found a cheat code or something.
+[quarton] Ceylan: Look, it's simple. Without her, we can't get home. Hurry
+[quarton] Toxsa: up,
+[quarton] Ceylan: losers. Man, you guys are slow. Do you
+[quarton] Toxsa: think the treasure will be guarded? Treasure's always guarded.
+[quarton] Ceylan: Well, we took out Granox and Slyger already. What if it's...Vilius? If
+[quarton] Toxsa: it is Vilius, he sounds hungry. Well, if it is Vilius, we're gonna need more than plastic weapons to beat him. Listen to the Tenkai heroes. Or should I say, Tenkai Zeros. Yeah, well, I know you are, but what are
+[quarton] Ceylan: we?
+[quarton] Toxsa: Even your
+[quarton] Ceylan: comebacks are lame. Wait, you're not... Beni, stop. Don't go in there. Don't. We're not saving you again. Coming. Whoa.
+[quarton] Toxsa: Why do I know that? Is it a bear or a bunny? All a banshee. Guren? Yeah,
+[quarton] Ceylan: I know. We've got to save her. Give him the one, two, three punch, guys. Coming up. Eat laser. Tenkai Shadow. Gable. That's all the points? Uh
+[quarton] Toxsa: -oh. He's mad. Watch out. Hey, definitely a bunny. Okay. Eat laser. Bop it in. Man, it'll take forever at this rate. I never got this far in any game. What now? What do you do when you get stuck on a level? Well, there's always the good old fashioned cheat code. I'm always willing to cheat for a good cause. No way.
+[quarton] Ceylan: Knights do not use cheat codes. Maybe just once? We're Tenkai Knights and we do things the right way. This isn't about scoring points. It's about saving Beni and finally getting home. Thank you. So you guys set him up and I'll finish him off. You got it. You know I'm game. Right. Let's put this dust bunny down. Go for it, guys. All together.
+[quarton] Toxsa: Here we go. Eat
+[quarton] Ceylan: laser. Tenkai Arrow. Game on. It worked. We stunned the bunny. Take it out. I'm a-
+[quarton] Toxsa: Nailed him. Are you forgetting? I'm more than just a pretty face. Princess Diamond.
+[quarton] Beag: It's so sparkly. The
+[quarton] Beag: highest gelations, my lady.
+[quarton] Ceylan: Glad someone appreciated it. We saved you and you saved us. Call it even. Yeah. Nice move, Beni. You definitely deserve the win for that one. Sure.
+[quarton] Toxsa: After we softened them up, anyone could have done it. Yeah, right. Anyway, you goofballs want to see the treasure or not? The
+[quarton] Ceylan: treasure of wonders.
 [quarton] Unknown: Stop it. You're making me self-conscious. By the way, it's called the treasure of wonders because it's a wonder I can fit in here. Anyway, by completing the mission, you won. You get a level up. I mean gold. Tenkai P-
-[quarton] Guren: Tenkai Z. Tri -agility.
-[quarton] Guren: We're back on the surface. At least, you know, Vilius is here. Vilius. It's
+[quarton] Ceylan: Tenkai Z. Tri -agility.
+[quarton] Toxsa: We're back on the surface. At least, you know, Vilius is here. Vilius. It's
 [quarton] Vilius: for me.
-[quarton-battle] Vilius: I still need to keep up with what I've been doing. The treasure is for me. At least you get the chance to know where the treasure is going. The
-[quarton-battle] Guren: treasure
-[quarton-battle] Vilius: is for me. Vilius is here and the treasure will be yours. If you mess with it, you'll get the treasure you want. Now, we need something to eat. We need some product to eat. Would
-[quarton-battle] Vilius: you do the honors?
+[quarton-battle] Beag: I still need to keep up with what I've been doing. The treasure is for me. At least you get the chance to know where the treasure is going. The
+[quarton-battle] Ceylan: treasure
+[quarton-battle] Beag: is for me. Vilius is here and the treasure will be yours. If you mess with it, you'll get the treasure you want. Now, we need something to eat. We need some product to eat. Would
+[quarton-battle] Beag: you do the honors?
 [quarton-battle] Unknown: Love to. Combining the power of Bravenwolf, the speed of Tributon, and the beagness of Beag, this icy-hot, supercharged speed demon has got everything it takes to cross the finish line first. That's right, race fans, I'm talking about the one and only Accelerastrike.
 [quarton-battle] Unknown: Performance is what this next puppy is all about. A four-on-the-floor fusion of strength and agility. This battle-tested air-pin hugger doesn't know the meaning of the word pit stop. Okay, that's two words, but it's still true. So, if you see this racer in your rear view, pull over and say goodbye to... Virtus
-[quarton-battle] Guren: .Cream!
+[quarton-battle] Ceylan: .Cream!
 [quarton-battle] Unknown: Okay, you want style? This baby's got style. She's sleek and unique, but don't let that fool ya. Underneath all the elegance burns a power core that eats slowpokes for breakfast. Lower your guard for a second and you'll get a face full of fumes from Brave Racer!
 [quarton-battle] Unknown: Here you go! The definition of lean and mean, with the emphasis on mean. A bucket of bad news powered by pure evil. This monster comes fully equipped with every dirty trick in the book. And a few so dirty they couldn't even be printed. So, pull over or get stabbed in the back by the Flying
-[quarton-battle] Guren: Dagger
+[quarton-battle] Ceylan: Dagger
 [quarton-battle] Unknown: Scramjet!
 [quarton-battle] Unknown: Okay, every race has to have an also-ran. You know what I mean. Some random racer that still needs to keep things exciting, but doesn't really have a chance of winning. Well, here's ours! It's Bolt Blitzer, driven by those fearsome local apes, Gorillux
-[quarton-battle] Guren: and Gorzov!
+[quarton-battle] Ceylan: and Gorzov!
 [quarton-battle] Unknown: Welcome, bots and beasts, to another running of the Beast World Racing Circuit! Conditions are perfect, the crowd is rocking, the engines are running, and the race is about to begin! And now off runs the racer's jockey proposition around the first turn, let's quickly describe the race course! The race consists of three laps around an elliptical cross-country circuit that features treacherous turns, fierce straightaways, deadly obstacles, and a gift shop where you can stack up on super cool Beast World Racing gear, including beach towels with my picture on them. So
-[quarton-battle] Guren: there's plenty of excitement
-[quarton-battle] Guren: ahead! And the
+[quarton-battle] Toxsa: there's plenty of excitement
+[quarton-battle] Ceylan: ahead! And the
 [quarton-battle] Unknown: winner gets... Red
-[quarton-battle] Guren: Bull... The winner of the race gets his or her wish granted! So win this and we get to go home! Man, you said
-[quarton-battle] Guren: it! We're catching the first fight out of this freak show! If I win, I'm wishing for a chili doll! What? I'm just kidding.
-[quarton-battle] Guren: Yeah, you better be. None of you guys are gonna win anyway! And
+[quarton-battle] Ceylan: Bull... The winner of the race gets his or her wish granted! So win this and we get to go home! Man, you said
+[quarton-battle] Toxsa: it! We're catching the first fight out of this freak show! If I win, I'm wishing for a chili doll! What? I'm just kidding.
+[quarton-battle] Ceylan: Yeah, you better be. None of you guys are gonna win anyway! And
 [quarton-battle] Unknown: as they come out of the far turn and finish the first lap, it's Acceler-Strike, Scramjet, Virtus.Cream, Bolt Blitzer, and Brave Racer bringing out the rear! It
 [quarton-battle] Vilius: is time! Now, my minions, make a move!
 [quarton-battle] Unknown: And it's Bolt Blitzer moving up on the inside, forcing Virtus.Cream against the wall! Oh, man, that's gonna leave a scratch!
 [quarton-battle] Vilius: That's right, hold him steady! Give me a nice clean shot!
 [quarton-battle] Unknown: What did I tell you about dirty tricks? Did I call it or what? Uh, so bogus. Two laps down, now we head into the final lap with the racers bunched up tight! It's Acceler-Strike with the lead, followed by Scramjet, Bolt Blitzer on the outside, and last, Brave Racer biding her time for her big move!
-[quarton-battle] Guren: Scramjet takes the lead! Okay, two can play at that game! Let's take them out!
-[quarton-battle] Unknown: But, Bravenwolf, if we blast them in this narrow canyon, they'll crash into us! We'll be taken out, too! Hate
-[quarton-battle] Guren: to say it, but Beag's right!
+[quarton-battle] Ceylan: Scramjet takes the lead! Okay, two can play at that game! Let's take them out!
+[quarton-battle] Beag: But, Bravenwolf, if we blast them in this narrow canyon, they'll crash into us! We'll be taken out, too! Hate
+[quarton-battle] Ceylan: to say it, but Beag's right!
 [quarton-battle] Vilius: Ha! This victory will be
-[quarton-battle] Guren: sweet! Aw, man. Well, at least we beat Toxsa. I still say we blast them! But, Guren... Doesn't matter! Even if we're out of the race, there's still Beni! You gonna let her win? Better her than Vilius! Besides, she saved us, remember? And a Tenkai Knight always repays his debts! Really? Why does it say that in the rulebook? Target locked! Ready? Fire!
+[quarton-battle] Ceylan: sweet! Aw, man. Well, at least we beat Toxsa. I still say we blast them! But, Guren... Doesn't matter! Even if we're out of the race, there's still Beni! You gonna let her win? Better her than Vilius! Besides, she saved us, remember? And a Tenkai Knight always repays his debts! Really? Why does it say that in the rulebook? Target locked! Ready? Fire!
 [quarton-battle] Unknown: Whoa, a major firework! It looks like all the racers may be out of the... Wait, no! Here's Brave Racer rocketing through without a Scramjet! Racer!
-[quarton-battle] Guren: That was fun.
-[quarton-battle] Vilius: A deal's a deal. You won the race, Princess. So what is your wish?
-[quarton-battle] Guren: That's an easy one. We want outta here. We wanna go home.
-[quarton-battle] Vilius: Are you using the royal we, Princess?
-[quarton-battle] Guren: What do you mean?
-[quarton-battle] Vilius: Only you get to go home.
-[quarton-battle] Guren: What? But what about them?
-[quarton-battle] Vilius: They didn't even finish the race! Which means they stay in Beast World forever! Forever?
-[quarton-battle] Guren: Forever and ever?
+[quarton-battle] Toxsa: That was fun.
+[quarton-battle] Beag: A deal's a deal. You won the race, Princess. So what is your wish?
+[quarton-battle] Toxsa: That's an easy one. We want outta here. We wanna go home.
+[quarton-battle] Beag: Are you using the royal we, Princess?
+[quarton-battle] Toxsa: What do you mean?
+[quarton-battle] Beag: Only you get to go home.
+[quarton-battle] Toxsa: What? But what about them?
+[quarton-battle] Beag: They didn't even finish the race! Which means they stay in Beast World forever! Forever?
+[quarton-battle] Toxsa: Forever and ever?
 [quarton-battle] Unknown: Yeah, don't you wish you were that lucky? Well, so long. Have a nice trip. Send a postcard. Hmm... What are you saying? Go home. Go on, geth. It's over. Wait,
-[quarton-battle] Guren: I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over whatever you call it.
-[quarton-battle] Vilius: Really? That's kind of lame.
-[quarton-battle] Guren: Wow, Beni. Don't get sappy. It's fun kicking your bots. Besides, I'm kinda digging this Princess thing.
-[quarton-battle] Vilius: Very well, then. You shall have your wish. Off you go to the next level. And good luck. Oh, goody,
-[quarton-battle] Guren: goody.
+[quarton-battle] Toxsa: I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over whatever you call it.
+[quarton-battle] Beag: Really? That's kind of lame.
+[quarton-battle] Toxsa: Wow, Beni. Don't get sappy. It's fun kicking your bots. Besides, I'm kinda digging this Princess thing.
+[quarton-battle] Beag: Very well, then. You shall have your wish. Off you go to the next level. And good luck. Oh, goody,
+[quarton-battle] Ceylan: goody.
 [quarton-battle] Unknown: So far, we've just been warming up. Now
-[quarton-battle] Guren: we're really gonna have a blast. Wait, can I change my wish? Uh-oh.
+[quarton-battle] Ceylan: we're really gonna have a blast. Wait, can I change my wish? Uh-oh.

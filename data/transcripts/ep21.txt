@@ -1,14 +1,14 @@
 [quarton] Guren: In case you came in late, my name's Guren. My friends and I have been chosen by the Guardians of Quarton to be the new Tenkai Knights. Our mission is to save the planet Quarton, and pretty much the whole universe from the evil warlord, Vilius, and his army, the Corrupted.
 [quarton] Vilius: I'm not satisfied with acquiring the dragon's energy. I want control over the beast itself. Captain,
 [quarton] Guren: if
-[quarton] Guren: only we had this guy in the
+[quarton] Slyger: only we had this guy in the
 [quarton] Guren: playoffs. We thought we could defeat Vilius by reviving the Tenkai Dragon, but he and his other Darkbot, Dromus, stole it away from us. Its power has only made the bad guys stronger. Now it's just a matter of time before they make their next move. It
-[quarton] Guren: has been
+[quarton] Slyger: has been
 [quarton] Vilius: done, Vilius.
-[quarton] Guren: Just as you commanded. All
+[quarton] Slyger: Just as you commanded. All
 [quarton] Vilius: ground and airborne forces are assembled and awaiting your
-[quarton] Guren: orders.
-[quarton] Vilius: Excellent. No force on the planet could withstand such an army. Quarton will be yours. You think? I think I'll stop at just
+[quarton] Slyger: orders.
+[quarton] 4_Guardians: Excellent. No force on the planet could withstand such an army. Quarton will be yours. You think? I think I'll stop at just
 [quarton] Vilius: Quarton. Think again. It's
 [quarton] Guren: the weekend, Dad. Do you really have to go to work?
 [quarton] Unknown: Afraid so. We're getting into the last stages of construction. Okay, I'm off. See you later, Guren.
@@ -16,132 +16,132 @@
 [quarton] Unknown: Hey, when the tower's done, I'll be home all the time. Take it easy.
 [quarton] Guren: Thanks, Dad. I will. Bye.
 [earth] Guren: Well, I was thinking about calling the guys, but okay. I'll hang out with you for a while, Max.
-[earth] Unknown: Watch your back, knuckleball. I'm gonna steal an upgrade
-[earth] Guren: off of you. Stay on base, Toxsa. Relax. I'll bring you home the easy way.
-[earth] Unknown: Who did that to you? That was fun, but I prefer a more mental game like Doom's Loader 3. Terrific. Then you must be awesome at chess, huh? Oh, you mean like in the real world where you touch the pieces? That's still 8-bit. Hello again.
-[earth] Unknown: Hm? Ah, young Chooki. Care for another game? You bet. So once again, youth and experience face off in a battle of wits.
-[earth] Unknown: What, you don't even have to log in? Hm?
-[earth] Unknown: Who's
-[earth] Guren: your funny friend here? That's just Toxsa.
-[earth] Unknown: What makes you think Blondie there is the weak link?
+[earth] Toxsa: Watch your back, knuckleball. I'm gonna steal an upgrade
+[earth] Slyger: off of you. Stay on base, Toxsa. Relax. I'll bring you home the easy way.
+[earth] Toxsa: Who did that to you? That was fun, but I prefer a more mental game like Doom's Loader 3. Terrific. Then you must be awesome at chess, huh? Oh, you mean like in the real world where you touch the pieces? That's still 8-bit. Hello again.
+[earth] Beag: Hm? Ah, young Chooki. Care for another game? You bet. So once again, youth and experience face off in a battle of wits.
+[earth] Toxsa: What, you don't even have to log in? Hm?
+[earth] Beag: Who's
+[earth] Slyger: your funny friend here? That's just Toxsa.
+[earth] Toxsa: What makes you think Blondie there is the weak link?
 [earth] Gen: He isn't. Yet. Let's see how he handles not being the best at something. It might shake his confidence a little.
-[earth] Unknown: Well, okay. Good luck with that.
+[earth] Toxsa: Well, okay. Good luck with that.
 [earth] Gen: Weaken one of the Knights, and all of the Knights are weakened.
-[earth] Unknown: Checkmate. I
-[earth] Unknown: see I've been outwitted.
-[earth] Unknown: So where's the bonus level? Do you want to play? Uh, nah, it wouldn't be fair.
-[earth] Guren: I'll
-[earth] Unknown: go easy on ya. Not me I'm worried about.
-[earth] Guren: I'll play you. Hm? Again? Uh,
-[earth] Unknown: sure, I'll play you a game. Why not? You can beat this noob easy. We'll
+[earth] Toxsa: Checkmate. I
+[earth] Beag: see I've been outwitted.
+[earth] Toxsa: So where's the bonus level? Do you want to play? Uh, nah, it wouldn't be fair.
+[earth] Slyger: I'll
+[earth] Toxsa: go easy on ya. Not me I'm worried about.
+[earth] Slyger: I'll play you. Hm? Again? Uh,
+[earth] Toxsa: sure, I'll play you a game. Why not? You can beat this noob easy. We'll
 [earth] Gen: see about that. Here. The field is yours. Wanna be white or black? Makes no difference. Fine, I'll be white. Fine. Good opening. Thanks, you too. A little predictable, but solid. I play it by the book mostly. Problem is, the book won't tell you how to handle the unexpected. Well, it works for me. Does it? Uh
-[earth] Unknown: -huh, what? A very bold strategy. He's about to sacrifice
-[quarton] Guren: his queen.
-[quarton] Unknown: To
-[quarton] Guren: what? The Troll King? It's an exchange. Chooki has to take his queen, then he'll take Chooki's.
-[quarton] Unknown: Oh, that makes no sense whatsoever. You really meant to do that?
+[earth] Toxsa: -huh, what? A very bold strategy. He's about to sacrifice
+[quarton] Slyger: his queen.
+[quarton] Toxsa: To
+[quarton] Slyger: what? The Troll King? It's an exchange. Chooki has to take his queen, then he'll take Chooki's.
+[quarton] Toxsa: Oh, that makes no sense whatsoever. You really meant to do that?
 [quarton] Gen: You think of it as my strongest piece, but I think of it as bait. By
-[quarton] Unknown: helping the Tenkai Knights, I sought only to maintain the balance between energies. Eurus's actions risk throwing that balance into total disarray. I
+[quarton] 4_Guardians: helping the Tenkai Knights, I sought only to maintain the balance between energies. Eurus's actions risk throwing that balance into total disarray. I
 [quarton] Unknown: agree. Besides, there has been too much meddling already. It is forbidden for us to interfere in the workings of our world. Forbidden by whom? We are the Guardians. We
-[quarton] Unknown: determine what can and cannot be done. Be careful, Eurus. Moves can have hidden consequences. You
-[quarton] Guren: got me.
-[quarton] Unknown: But you weren't even mate-checked.
-[quarton] Guren: He would have been soon enough.
+[quarton] 4_Guardians: determine what can and cannot be done. Be careful, Eurus. Moves can have hidden consequences. You
+[quarton] Slyger: got me.
+[quarton] Toxsa: But you weren't even mate-checked.
+[quarton] Slyger: He would have been soon enough.
 [quarton] Gen: I can't believe I walked right into your trap. Oh well, you didn't do too badly, considering. But at the end of the game, there can only be one king on the board. Well, duh.
-[quarton] Unknown: Bet you can't do it again. Goblin Chess! I
+[quarton] Toxsa: Bet you can't do it again. Goblin Chess! I
 [quarton] Gen: don't play against pawns.
-[quarton] Unknown: Well, for your information, there are no pawns in Goblin Chess.
+[quarton] Toxsa: Well, for your information, there are no pawns in Goblin Chess.
 [quarton] Gen: I'm gonna have to up
-[quarton] Unknown: my
-[quarton] Guren: game.
-[quarton] Unknown: Hey, Chooki, don't take it so hard. It's only a board game.
-[quarton] Guren: There. I found it. That's the same move Gen used on me. He got it off a Grand Master.
-[quarton] Unknown: Figures. You just knew that Jerkazoid had to be cheating somehow. It's not cheating, Toxsa. It's how you
-[quarton] Guren: improve your game. By studying the moves of the great players. You learn from the best. And today, Gen happened to be better than me. He's still a jerk. A little. You mean calling me a pawn. I'm sure he was referring more to your size than your skill. My
-[quarton] Unknown: what?
-[quarton-battle] Guren: Sorry I mentioned it.
-[quarton-battle] Unknown: You just wait until my growth spurt kicks in.
+[quarton] Toxsa: my
+[quarton] Slyger: game.
+[quarton] Toxsa: Hey, Chooki, don't take it so hard. It's only a board game.
+[quarton] Slyger: There. I found it. That's the same move Gen used on me. He got it off a Grand Master.
+[quarton] Toxsa: Figures. You just knew that Jerkazoid had to be cheating somehow. It's not cheating, Toxsa. It's how you
+[quarton] Slyger: improve your game. By studying the moves of the great players. You learn from the best. And today, Gen happened to be better than me. He's still a jerk. A little. You mean calling me a pawn. I'm sure he was referring more to your size than your skill. My
+[quarton] Toxsa: what?
+[quarton-battle] Slyger: Sorry I mentioned it.
+[quarton-battle] Toxsa: You just wait until my growth spurt kicks in.
 [quarton-battle] Gen: Right.
 [quarton-battle] Vilius: Name it, Vilius. I need you to destroy the Tenkai Knights. Oh, is that all? We have toyed with the Corekai and their Tenkai protectors long enough. The time has come to crush them all!
 [quarton-battle] Gen: Consider them crushed.
 [quarton-battle] Vilius: Granox! Here. You will support Dromus in his battle against the Knights. I
-[quarton-battle] Vilius: will? I mean, uh, can't he handle it? Your powers have been
+[quarton-battle] 4_Guardians: will? I mean, uh, can't he handle it? Your powers have been
 [quarton-battle] Vilius: enhanced with the energy of the Tenkai Dragon. It's time you put them to use. As Vilius commands. That
-[quarton-battle] Unknown: chicken! He's avoiding you! Feel the sting of my
-[quarton-battle] Guren: blade, Dromus! Dude, what's up?
+[quarton-battle] Toxsa: chicken! He's avoiding you! Feel the sting of my
+[quarton-battle] Slyger: blade, Dromus! Dude, what's up?
 [quarton-battle] Guren: Not like we're buddies. I just thought- Hey, Chooki. We've got more important business. It's
 [quarton-battle] Guren: Quarton again.
-[quarton-battle] Guren: Aw,
-[quarton-battle] Unknown: now we're just waiting for Ceylon. So what else is new? I saw Quarton again. Something weird is happening. Not as weird as Gen beating Chooki in chess. Oh, that explains why you
-[quarton-battle] Guren: called me looking for him.
-[quarton] Guren: You're hardly a pawn. I'd say you were more like a knight, able to battle in many different directions.
-[quarton] Unknown: Yeah, a knight!
-[quarton] Guren: A Tenkai knight, in fact. Which am I? Yeah, we're me. Well, Guren might be a rook and you're a bishop.
+[quarton-battle] Slyger: Aw,
+[quarton-battle] Toxsa: now we're just waiting for Ceylon. So what else is new? I saw Quarton again. Something weird is happening. Not as weird as Gen beating Chooki in chess. Oh, that explains why you
+[quarton-battle] Slyger: called me looking for him.
+[quarton] Slyger: You're hardly a pawn. I'd say you were more like a knight, able to battle in many different directions.
+[quarton] Toxsa: Yeah, a knight!
+[quarton] Slyger: A Tenkai knight, in fact. Which am I? Yeah, we're me. Well, Guren might be a rook and you're a bishop.
 [quarton] Guren: Or
-[quarton] Guren: is it the other way around? Not that it matters. They're all equally important. Don't forget the king. And there's the queen, of course. Who'd want to be queen?
+[quarton] Slyger: is it the other way around? Not that it matters. They're all equally important. Don't forget the king. And there's the queen, of course. Who'd want to be queen?
 [quarton] Guren: Anyway,
-[quarton] Guren: Mr.
+[quarton] Slyger: Mr.
 [quarton] Guren: White has a point. Every chess piece has its own strengths. You can't win the game without all of them. Totally.
-[quarton] Unknown: What's going on? I missed something? Greetings, pawn. Been
-[quarton] Unknown: cut off from our base by a large enemy force. But they're not attacking. It's as if they're waiting for us to make the first move.
-[quarton] Unknown: What is this, a stare down? Come on, let's plug and play!
+[quarton] Toxsa: What's going on? I missed something? Greetings, pawn. Been
+[quarton] Beag: cut off from our base by a large enemy force. But they're not attacking. It's as if they're waiting for us to make the first move.
+[quarton] Toxsa: What is this, a stare down? Come on, let's plug and play!
 [quarton] Gen: Time to bait the trap. Granox, are you ready for robofusion?
-[quarton-battle] Vilius: Ready. I was programmed ready. Granox!
-[quarton-battle] Vilius: Tenkai Titan Mode! Activate! And
-[quarton-battle] Vilius: victory! War stallion, front and center! Prepare for robofusion! Now for a jolt of dark energy lightning!
-[quarton-battle] Vilius: Granox Centaur Mode! Forward, Corrupted! Follow
-[quarton-battle] Vilius: me
-[quarton-battle] Vilius: into battle!
+[quarton-battle] 4_Guardians: Ready. I was programmed ready. Granox!
+[quarton-battle] Beag: Tenkai Titan Mode! Activate! And
+[quarton-battle] Beag: victory! War stallion, front and center! Prepare for robofusion! Now for a jolt of dark energy lightning!
+[quarton-battle] Beag: Granox Centaur Mode! Forward, Corrupted! Follow
+[quarton-battle] 4_Guardians: me
+[quarton-battle] Beag: into battle!
 [quarton-battle] Gen: Not so fast,
-[quarton-battle] Vilius: Granox. What? You want me to attack slowly?
+[quarton-battle] 4_Guardians: Granox. What? You want me to attack slowly?
 [quarton-battle] Gen: No, I want you to stay here and use your long range firepower against the enemy. I'll lead the attack.
-[quarton-battle] Vilius: You'll take on the Knights while I stay out of harm's way? I like this plan.
-[quarton-battle] Guren: Gromo's Tenkai Titan Mode! Activate! I'll
+[quarton-battle] 4_Guardians: You'll take on the Knights while I stay out of harm's way? I like this plan.
+[quarton-battle] Slyger: Gromo's Tenkai Titan Mode! Activate! I'll
 [quarton-battle] Gen: lure them within range, and then you pick them off. Understood? They'll probably just stay over there. You're not... Can't
-[quarton-battle] Vilius: survive such firepower for long!
-[quarton-battle] Guren: Guys, it's time to shapeshift! Tenkai! Bravenwolf! Tenkai Titan Mode! Activate!
-[quarton-battle] Guren: Dromasa! We'll go ahead and take out that cannon! Go for it!
+[quarton-battle] Beag: survive such firepower for long!
+[quarton-battle] Slyger: Guys, it's time to shapeshift! Tenkai! Bravenwolf! Tenkai Titan Mode! Activate!
+[quarton-battle] Slyger: Dromasa! We'll go ahead and take out that cannon! Go for it!
 [quarton-battle] Gen: Take the bait.
-[quarton-battle] Guren: Where's that coming from? I think
+[quarton-battle] Slyger: Where's that coming from? I think
 [quarton-battle] Guren: I've seen this before.
-[quarton-battle] Guren: Not good. We're pinned down like a bad wrestler! Let's not get counted out! It's an exchange of queens! Say what? They attack with their strongest piece, so we play it by the book and respond with our strongest piece. And that's exactly what they wanted. You see? Not really. But I don't play checkers. Guren's not
-[quarton-battle] Unknown: gonna like you calling him the queen.
-[quarton] Guren: I'm serious! Our strongest guy's been taken out of play! And meanwhile, we're pinned down here with our bots hanging out! This whole thing was a trap, and we fell for it!
-[quarton] Vilius: Why am I wasting my time blasting holes in rocks way over there, when I've got much juicier targets at point-blank range?
-[quarton] Guren: We've gotta pull back, guys! And support the queen! I am so confused right now! I mean, Bravenwolf! Whatever! Come on, guys! It's not too late! Does any of this make sense to you? Sorta. We're
-[quarton] Vilius: falling back! Looks like Dromus has his hands full.
+[quarton-battle] Slyger: Not good. We're pinned down like a bad wrestler! Let's not get counted out! It's an exchange of queens! Say what? They attack with their strongest piece, so we play it by the book and respond with our strongest piece. And that's exactly what they wanted. You see? Not really. But I don't play checkers. Guren's not
+[quarton-battle] Toxsa: gonna like you calling him the queen.
+[quarton] Slyger: I'm serious! Our strongest guy's been taken out of play! And meanwhile, we're pinned down here with our bots hanging out! This whole thing was a trap, and we fell for it!
+[quarton] 4_Guardians: Why am I wasting my time blasting holes in rocks way over there, when I've got much juicier targets at point-blank range?
+[quarton] Slyger: We've gotta pull back, guys! And support the queen! I am so confused right now! I mean, Bravenwolf! Whatever! Come on, guys! It's not too late! Does any of this make sense to you? Sorta. We're
+[quarton] 4_Guardians: falling back! Looks like Dromus has his hands full.
 [quarton-battle] Gen: Maybe he learned something from our chess match. But let's see if he's improved his endgame. You can't
-[quarton-battle] Guren: beat
+[quarton-battle] Slyger: beat
 [quarton-battle] Gen: me.
-[quarton-battle] Guren: No
+[quarton-battle] Slyger: No
 [quarton-battle] Gen: matter how many
-[quarton-battle] Guren: pieces you put on the board. That's where you're wrong! Face it, dude! It's checkin' me! Huh! Bravenwolf! You thinkin' what I'm thinkin'? Definitely! Titan fusion mode! Lydendor! Titan fusion shitin' mode! Ammy
-[quarton-battle] Guren: this guy!
-[quarton-battle] Guren: Dumpster bot! Ten feet?
+[quarton-battle] Slyger: pieces you put on the board. That's where you're wrong! Face it, dude! It's checkin' me! Huh! Bravenwolf! You thinkin' what I'm thinkin'? Definitely! Titan fusion mode! Lydendor! Titan fusion shitin' mode! Ammy
+[quarton-battle] Slyger: this guy!
+[quarton-battle] Slyger: Dumpster bot! Ten feet?
 [quarton-battle] Gen: Never!
-[quarton-battle] Guren: We'll call it a draw. Nice call, Lydendor. You totally outplayed him. It wasn't just me. Like you said, you can't win the game without all the pieces workin' together!
-[quarton-battle] Vilius: You almost ran away? I coulda done that!
-[quarton-battle] Guren: We forgot about the cannon! Take it out! Oh!
-[quarton-battle] Vilius: I have an idea. All units fall back, but maintain battle formation! We'll draw them into our trap!
-[quarton-battle] Guren: They're retreating! Let's finish them off! Good idea! Wait, guys! Don't try and run up the score! Let's keep our distance! That's right! Why?
-[quarton-battle] Vilius: Keep runnin'! Look scared!
+[quarton-battle] Slyger: We'll call it a draw. Nice call, Lydendor. You totally outplayed him. It wasn't just me. Like you said, you can't win the game without all the pieces workin' together!
+[quarton-battle] Beag: You almost ran away? I coulda done that!
+[quarton-battle] Slyger: We forgot about the cannon! Take it out! Oh!
+[quarton-battle] Beag: I have an idea. All units fall back, but maintain battle formation! We'll draw them into our trap!
+[quarton-battle] Slyger: They're retreating! Let's finish them off! Good idea! Wait, guys! Don't try and run up the score! Let's keep our distance! That's right! Why?
+[quarton-battle] Beag: Keep runnin'! Look scared!
 [quarton-battle] Gen: Hmm. The knights learn fast. They're not taking the bait.
-[quarton-battle] Guren: Lydendor's right! We'll keep our distance in case it's a trap! You're just bein' paranoid, Lydendor! Maybe. But that doesn't mean it's not a trap!
-[quarton-battle] Vilius: I'll halt! Turn and fire!
-[quarton-battle] Guren: Whoa! Okay, okay! You were right, smarty pants! No exchanging queens this time! Still replaying that chess match, huh? The difference is, we're not pieces. Unlike chess, we can't afford to sacrifice a single one of us! Ah! Gah! Lydendor! It'll take a lot more than that to send me out of the game! Vilius! The troops are all assembled on the... whatever this is.
+[quarton-battle] Slyger: Lydendor's right! We'll keep our distance in case it's a trap! You're just bein' paranoid, Lydendor! Maybe. But that doesn't mean it's not a trap!
+[quarton-battle] Beag: I'll halt! Turn and fire!
+[quarton-battle] Slyger: Whoa! Okay, okay! You were right, smarty pants! No exchanging queens this time! Still replaying that chess match, huh? The difference is, we're not pieces. Unlike chess, we can't afford to sacrifice a single one of us! Ah! Gah! Lydendor! It'll take a lot more than that to send me out of the game! Vilius! The troops are all assembled on the... whatever this is.
 [quarton-battle] Vilius: A levitation platform. Powered with enough energy from the Tenkai Dragon to lift an army into the sky! So, we're going to reinforce Dromus and Granox? They were just a diversion. No! The real battle will take place up there! Above the clouds! I do not know what Eurus
 [quarton-battle] Unknown: is up to, but he must be stopped before it is too late. Yes. But would he even comply with the decision of the Council? Wait. I sense something approaching.
 [quarton-battle] Vilius: Defenders of Quarton! But who defends you? You are forbidden here, warlord. Why have you come? I seem to recall you banishing me once long ago. Now, at last, I have the power to
-[quarton-battle] Vilius: return the favor! You know not what you do, Vilius. Be warned. By attacking us, you will only bring destruction on yourself.
-[quarton-battle] Guren: Let's see if they're ready to stand and fight yet!
-[quarton-battle] Vilius: Pull
-[quarton] Vilius: back! Retreat and regroup!
-[quarton] Unknown: Well, there's your answer. Whoa, what's that? That's gotta
+[quarton-battle] 4_Guardians: return the favor! You know not what you do, Vilius. Be warned. By attacking us, you will only bring destruction on yourself.
+[quarton-battle] Slyger: Let's see if they're ready to stand and fight yet!
+[quarton-battle] 4_Guardians: Pull
+[quarton] Beag: back! Retreat and regroup!
+[quarton] Toxsa: Well, there's your answer. Whoa, what's that? That's gotta
 [quarton] Guren: be the Corrupted's main
-[quarton] Guren: fortress. So
+[quarton] Slyger: fortress. So
 [quarton] Guren: that was their plan?
-[quarton] Unknown: Yeah.
+[quarton] Toxsa: Yeah.
 [quarton] Guren: Uh, what was? To get us in range of the fortress's defenses. If we hadn't kept our distance, we'd all have been
-[quarton] Guren: Tenkai toast. You sure called that one right, Lydendor. Yeah. Sometimes you win the coin toss. The question is, what do we do now?
+[quarton] Slyger: Tenkai toast. You sure called that one right, Lydendor. Yeah. Sometimes you win the coin toss. The question is, what do we do now?
 [quarton] Gen: The board is set. The pieces are all in place. Now, let the game begin. Isn't there a goal? What could have been worse than this?あま
 [quarton] Gen: The slides! What?

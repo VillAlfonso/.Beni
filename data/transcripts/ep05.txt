@@ -1,174 +1,174 @@
-[quarton] Guren: These are the Tenkai Knights, sworn to stop the evil Vilius from conquering the planet Quarton and then Earth. Those knights are really just us, four regular kids, Ceylan, Toxsa, Chooki, and me, Guren. Well, not just us. We fused with these cores and we now have Tenkai Energy that gives us awesome powers. And last time, we found out we have an even awesomer power. The Tenkai Knights can combine their cores, you know, robofusion, and form an amazing protojet. It doesn't get any cooler than that. Well, maybe it does. We're still learning to master our Tenkai Energy. Either way, it's pretty sweet. Protojet Phoenix Attack!
-[quarton] Unknown: Well, well. They've mastered robofusion. Our young friends understand that strength comes from unity.
-[quarton] Unknown: Robofusion is a good first step in mastering Tenkai Energy. But now they have to focus within.
-[quarton] Unknown: What exactly does that mean?
-[quarton] Unknown: Vilius is more powerful. More powerful than ever. Unless the Tenkai Knights push themselves to improve, both of our worlds will be doomed.
-[quarton] Unknown: Yes, that is an excellent point. The first step to knowledge is knowing that you know nothing. But victory has made them confident that they know everything.
-[quarton] Guren: Hmm.
-[quarton] Unknown: They have much to learn. But will they? Our
-[quarton] Unknown: sweet robofusion powers will crush those corrupted Tenkans. It's better than finding a hidden level. It's the best. Except maybe for that first burp after you chug a bunch of soda. Boy,
-[quarton] Guren: you guys sure are confident. Why not? We just got a major upgrade. You know it. My coach said you can only win with a winning attitude. We mastered robofusion on our first try.
-[quarton] Unknown: No sweat. We're all destined for awesomeness. For
-[quarton] Guren: me, even awesomeness. Awesomenessness. You
-[quarton] Unknown: really think
-[quarton] Guren: so, huh?
-[quarton] Unknown: We're so gonna save the world. Yeah, we're heroes. I like the sound of that.
-[quarton] Guren: Heroes.
-[quarton] Unknown: We can do anything. Beat any high score, hack any mod. We can even stand up to this. Dude, move it or lose it, you got it? I
-[quarton] Guren: don't know if that's such a good idea. You gotta be kidding. Those creeps are the meanest guys in the whole school. Listen, we might be heroes on planet Quarton, but here we're just regular guys.
-[quarton] Unknown: No, we've leveled up. I'll show you. Should we stop them? I think we should stop a little too late. Hold it! What do you want? I'm not letting you guys get past me.
+[quarton] Ceylan: These are the Tenkai Knights, sworn to stop the evil Vilius from conquering the planet Quarton and then Earth. Those knights are really just us, four regular kids, Ceylan, Toxsa, Chooki, and me, Guren. Well, not just us. We fused with these cores and we now have Tenkai Energy that gives us awesome powers. And last time, we found out we have an even awesomer power. The Tenkai Knights can combine their cores, you know, robofusion, and form an amazing protojet. It doesn't get any cooler than that. Well, maybe it does. We're still learning to master our Tenkai Energy. Either way, it's pretty sweet. Protojet Phoenix Attack!
+[quarton] Mr._White: Well, well. They've mastered robofusion. Our young friends understand that strength comes from unity.
+[quarton] 4_Guardians: Robofusion is a good first step in mastering Tenkai Energy. But now they have to focus within.
+[quarton] Mr._White: What exactly does that mean?
+[quarton] 4_Guardians: Vilius is more powerful. More powerful than ever. Unless the Tenkai Knights push themselves to improve, both of our worlds will be doomed.
+[quarton] Mr._White: Yes, that is an excellent point. The first step to knowledge is knowing that you know nothing. But victory has made them confident that they know everything.
+[quarton] Ceylan: Hmm.
+[quarton] Mr._White: They have much to learn. But will they? Our
+[quarton] Toxsa: sweet robofusion powers will crush those corrupted Tenkans. It's better than finding a hidden level. It's the best. Except maybe for that first burp after you chug a bunch of soda. Boy,
+[quarton] Ceylan: you guys sure are confident. Why not? We just got a major upgrade. You know it. My coach said you can only win with a winning attitude. We mastered robofusion on our first try.
+[quarton] Toxsa: No sweat. We're all destined for awesomeness. For
+[quarton] Ceylan: me, even awesomeness. Awesomenessness. You
+[quarton] Toxsa: really think
+[quarton] Ceylan: so, huh?
+[quarton] Toxsa: We're so gonna save the world. Yeah, we're heroes. I like the sound of that.
+[quarton] Ceylan: Heroes.
+[quarton] Toxsa: We can do anything. Beat any high score, hack any mod. We can even stand up to this. Dude, move it or lose it, you got it? I
+[quarton] Ceylan: don't know if that's such a good idea. You gotta be kidding. Those creeps are the meanest guys in the whole school. Listen, we might be heroes on planet Quarton, but here we're just regular guys.
+[quarton] Toxsa: No, we've leveled up. I'll show you. Should we stop them? I think we should stop a little too late. Hold it! What do you want? I'm not letting you guys get past me.
 [quarton] Vilius: Are you kidding me? Get lost, puke.
-[quarton] Unknown: Uh, well, I mean, it's fine with me if you want to just forget this whole thing.
-[quarton] Guren: Hello!
-[quarton] Unknown: Whoa,
+[quarton] Toxsa: Uh, well, I mean, it's fine with me if you want to just forget this whole thing.
+[quarton] Ceylan: Hello!
+[quarton] Toxsa: Whoa,
 [quarton] Vilius: that was close. Hey, thanks, dude. You saved
-[quarton] Unknown: us. Yes. You see? That's what I call leveled up.
-[quarton] Guren: He might actually be onto something here. Come on. The only thing he's onto is a streak of dumb luck.
-[quarton] Unknown: Guren, fucking don't you get it? It was our whole lives that have been upgraded. We can't help but be lucky. I just proved my point. We are robo lucky. We can tackle any problem that comes our way. Uh
-[quarton] Guren: -huh.
-[quarton] Unknown: Today is the day. My old nemesis, the level eight vault. I may not be as athletic as Chooki. Well, no one may be as athletic as Chooki, but today, I will defeat evil vault. Oh, yes. I was
-[quarton] Unknown: lucky. Thanks, Toxsa. Call me Lucky. Maybe I'll change my name to Lucky. Or maybe my middle name.
-[quarton] Guren: You
-[quarton] Unknown: shall not pass.
-[quarton] Unknown: Now spin. Oh,
-[quarton] Guren: he's
-[quarton] Unknown: a
-[quarton] Guren: good boy.
-[quarton] Unknown: Wow, Toxsa. You tamed the wild boar.
-[quarton] Unknown: Awesome at being awesome today. It's like I out-awesomed myself at every opportunity.
-[quarton] Guren: I
-[quarton] Unknown: had a great day, too.
-[quarton] Guren: First, I saved this girl from face-planting. Then I saved the soccer game with a goal. Just call me Ceylan Awesome Jones. That's with a capital A. You know, I have to admit, there is something different about you. Yeah, if by different, you mean completely and totally cool. Figuring out robofusion has brought out our inner awesomeness. Maybe we'll get a burger named
-[quarton] Unknown: after us, topped with extra awesome sauce. Mm-hmm. Listen, Toxsa. All you're destined to do is your chores around here. If you think that you're so awesome, you'll be awesome at doing the dishes, too. Sorry, sis. There's more important stuff I need to do. What? You see, heroes don't have time to do dishes. Mm-hmm. Heroes are supposed to do things that make life better for people. Yeah,
-[quarton] Guren: you're right.
-[quarton] Unknown: So
-[quarton] Guren: do the dishes! You want to make people's lives better? Then start with mine! I don't know what's going on with you today.
-[quarton] Unknown: You're even weirder than normal. Nothing's going on. It's just that I know I'm meant for something bigger than this. That's all.
-[quarton] Guren: Don't act all stuck up. Helping is helping,
-[quarton] Unknown: no
-[quarton] Guren: matter how small it is. You got it?
-[quarton] Unknown: Mm.
-[quarton] Guren: Toxsa, I think you should have done those dishes. Your sister's scarier than Vilius when she's mad. Come on. A hero can't be scared of his own sister. Or
-[quarton] Unknown: at least he can't let everyone know he is. We
-[quarton] Guren: should go to Quarton. Yeah.
-[quarton] Unknown: Take down the Corrupted with robofusion awesomeness. Yo, yo, yo!
-[quarton] Unknown: My, my, you're full of energy today.
-[quarton] Unknown: You bet. We know nothing can stop us.
-[quarton] Unknown: I see. And quite full of yourselves as well, it seems.
-[quarton] Guren: Is there anything happening on Quarton? Our blocks haven't glowed for a while now. Do you think our power scared off the Corrupted? Well, perhaps. But
-[quarton] Unknown: we're pumped up on awesomeness. We gotta do something. I bet we could even take down Vilius. No prob.
-[quarton] Unknown: A Tenkai Knight is never arrogant. He must master humility as well as power. Overconfidence has brought down more heroes than any enemy ever has. Hey,
-[quarton] Guren: we're not overconfident.
-[quarton] Unknown: We just know there's no way on Quarton we can lose. We can't just sit around doing nothing. We wanna fight the good fight. But it's no good if there's no fight to fight. You understand, Mr. White? This is lame. All we're
-[quarton] Guren: being awesome at is waiting around. Open the portal and let me at him.
-[quarton] Unknown: Hmm. Well, perhaps if the real thing isn't available now, we can find the next best thing for you four to try out. What
-[quarton] Guren: do you mean by that, Mr. White?
-[quarton] Unknown: Here, allow me to show you. Whoa,
-[quarton] Guren: what is this? Can we fight it?
-[quarton] Unknown: All right. The device you're now sitting in front of recreates the sights, sounds, and even smells of your Quarton visits. All the smells? Let's hope not. Now, please place your cores into the armrests. Beginning battle sequence playback.
-[quarton] Guren: Ceylon, what is it? You guys are totally the best friends I've ever had!
+[quarton] Toxsa: us. Yes. You see? That's what I call leveled up.
+[quarton] Ceylan: He might actually be onto something here. Come on. The only thing he's onto is a streak of dumb luck.
+[quarton] Toxsa: Guren, fucking don't you get it? It was our whole lives that have been upgraded. We can't help but be lucky. I just proved my point. We are robo lucky. We can tackle any problem that comes our way. Uh
+[quarton] Ceylan: -huh.
+[quarton] Toxsa: Today is the day. My old nemesis, the level eight vault. I may not be as athletic as Chooki. Well, no one may be as athletic as Chooki, but today, I will defeat evil vault. Oh, yes. I was
+[quarton] Toxsa: lucky. Thanks, Toxsa. Call me Lucky. Maybe I'll change my name to Lucky. Or maybe my middle name.
+[quarton] Ceylan: You
+[quarton] Toxsa: shall not pass.
+[quarton] Toxsa: Now spin. Oh,
+[quarton] Ceylan: he's
+[quarton] Toxsa: a
+[quarton] Ceylan: good boy.
+[quarton] Toxsa: Wow, Toxsa. You tamed the wild boar.
+[quarton] Toxsa: Awesome at being awesome today. It's like I out-awesomed myself at every opportunity.
+[quarton] Ceylan: I
+[quarton] Toxsa: had a great day, too.
+[quarton] Ceylan: First, I saved this girl from face-planting. Then I saved the soccer game with a goal. Just call me Ceylan Awesome Jones. That's with a capital A. You know, I have to admit, there is something different about you. Yeah, if by different, you mean completely and totally cool. Figuring out robofusion has brought out our inner awesomeness. Maybe we'll get a burger named
+[quarton] Toxsa: after us, topped with extra awesome sauce. Mm-hmm. Listen, Toxsa. All you're destined to do is your chores around here. If you think that you're so awesome, you'll be awesome at doing the dishes, too. Sorry, sis. There's more important stuff I need to do. What? You see, heroes don't have time to do dishes. Mm-hmm. Heroes are supposed to do things that make life better for people. Yeah,
+[quarton] Ceylan: you're right.
+[quarton] Toxsa: So
+[quarton] Ceylan: do the dishes! You want to make people's lives better? Then start with mine! I don't know what's going on with you today.
+[quarton] Toxsa: You're even weirder than normal. Nothing's going on. It's just that I know I'm meant for something bigger than this. That's all.
+[quarton] Ceylan: Don't act all stuck up. Helping is helping,
+[quarton] Toxsa: no
+[quarton] Ceylan: matter how small it is. You got it?
+[quarton] Toxsa: Mm.
+[quarton] Ceylan: Toxsa, I think you should have done those dishes. Your sister's scarier than Vilius when she's mad. Come on. A hero can't be scared of his own sister. Or
+[quarton] Toxsa: at least he can't let everyone know he is. We
+[quarton] Ceylan: should go to Quarton. Yeah.
+[quarton] Toxsa: Take down the Corrupted with robofusion awesomeness. Yo, yo, yo!
+[quarton] Mr._White: My, my, you're full of energy today.
+[quarton] Toxsa: You bet. We know nothing can stop us.
+[quarton] Mr._White: I see. And quite full of yourselves as well, it seems.
+[quarton] Ceylan: Is there anything happening on Quarton? Our blocks haven't glowed for a while now. Do you think our power scared off the Corrupted? Well, perhaps. But
+[quarton] Toxsa: we're pumped up on awesomeness. We gotta do something. I bet we could even take down Vilius. No prob.
+[quarton] 4_Guardians: A Tenkai Knight is never arrogant. He must master humility as well as power. Overconfidence has brought down more heroes than any enemy ever has. Hey,
+[quarton] Ceylan: we're not overconfident.
+[quarton] Toxsa: We just know there's no way on Quarton we can lose. We can't just sit around doing nothing. We wanna fight the good fight. But it's no good if there's no fight to fight. You understand, Mr. White? This is lame. All we're
+[quarton] Ceylan: being awesome at is waiting around. Open the portal and let me at him.
+[quarton] Mr._White: Hmm. Well, perhaps if the real thing isn't available now, we can find the next best thing for you four to try out. What
+[quarton] Ceylan: do you mean by that, Mr. White?
+[quarton] Mr._White: Here, allow me to show you. Whoa,
+[quarton] Ceylan: what is this? Can we fight it?
+[quarton] Mr._White: All right. The device you're now sitting in front of recreates the sights, sounds, and even smells of your Quarton visits. All the smells? Let's hope not. Now, please place your cores into the armrests. Beginning battle sequence playback.
+[quarton] Ceylan: Ceylon, what is it? You guys are totally the best friends I've ever had!
 [quarton] Unknown: Tenkai sync has been achieved. Commencing robofusion sequence. Huh?
-[quarton] Guren: Say what?
+[quarton] Ceylan: Say what?
 [quarton] Unknown: Robofusion. Combining Tenkai energy.
-[quarton] Guren: Whoa.
+[quarton] Ceylan: Whoa.
 [quarton] Unknown: Tenkai energy alarm. Initiating protojet build mode.
-[quarton] Unknown: Then we did it?
+[quarton] 4_Guardians: Then we did it?
 [quarton] Unknown: Correct. The four have become one. Prepare for robofusion.
-[quarton] Guren: Really?
+[quarton] Ceylan: Really?
 [quarton] Unknown: Robofusion protojet engaged.
-[quarton] Guren: One mind, one team. Tell
-[quarton] Guren: me something I don't know. You did make a pretty good team. Mm-hmm. Tenkai power rocks. Let's watch it again. Please
-[quarton] Unknown: stay
-[quarton] Guren: focused. The
-[quarton] Unknown: seeds of growth are in you, but they'll only bloom if you tend to them.
-[quarton] Guren: Still,
-[quarton] Unknown: their eyes stay closed. It's like herding cats.
+[quarton] Ceylan: One mind, one team. Tell
+[quarton] Ceylan: me something I don't know. You did make a pretty good team. Mm-hmm. Tenkai power rocks. Let's watch it again. Please
+[quarton] Mr._White: stay
+[quarton] Ceylan: focused. The
+[quarton] Mr._White: seeds of growth are in you, but they'll only bloom if you tend to them.
+[quarton] Ceylan: Still,
+[quarton] Mr._White: their eyes stay closed. It's like herding cats.
 [quarton] Vilius: Everything is ready, idiots. Excellent.
 [quarton] Vilius: Granox, Slyger, your punishment has ended. I'm granting you a chance to redeem yourselves. I suggest you use it wisely.
-[quarton] Guren: Thank you, Vilius. You won't regret this? I vow it. I will crush the Tenkai Knights. With
-[quarton] Unknown: this new infusion of corrupted Tenkai energy, we will destroy the Tenkai Knights. Silence! I've
+[quarton] Ceylan: Thank you, Vilius. You won't regret this? I vow it. I will crush the Tenkai Knights. With
+[quarton] 4_Guardians: this new infusion of corrupted Tenkai energy, we will destroy the Tenkai Knights. Silence! I've
 [quarton] Vilius: heard enough. My patience with you two is strained. Do not strain it further. Our defenses will be prepared for the protojet this time.
-[quarton] Unknown: You
+[quarton] 4_Guardians: You
 [quarton] Vilius: can count on us, Vilius. Do not disappoint me again. Yes, sir.
-[quarton] Unknown: What an epic day. Too bad it's over. I know. We didn't even get to robofuse. I feel ripped off.
-[quarton] Guren: With our Tenkai power, of course the bad guys are probably thinking the same thing, too, but we can handle it. I'm sick and tired of being sick and tired of waiting. I sure wish our Core Bricks would glow. Finally! It's
-[quarton] Unknown: on. Yeah. Let's do it. Everybody get your game faces on. It's Tenkai time. You ready? Tenkai! Before
-[quarton] Unknown: they can defeat their enemy, they must defeat the enemy within.
-[quarton] Unknown: Yes. But this is a path we must let them walk themselves.
-[quarton] Guren: Over there. The Tenkai Knights have returned! That's right. We're here to fight the corrupted.
-[quarton] Unknown: Yeah, yes, but, they, uh, aren't here right now.
-[quarton-battle] Guren: Yeah, right. We totally knew that. We came
-[quarton-battle] Unknown: early to get ready for them. Right, guys? Oh, yeah. Won't they be surprised when they show up and see us? You
-[quarton-battle] Guren: know how us heroes like to keep the enemy guessing, right? Right! Aha!
-[quarton-battle] Unknown: Clever! Show the Knights where we expect the next attack.
-[quarton-battle] Guren: Yes, Commander. Boring. Where are all the bad guys? Anywhere but here, apparently. Talk about a robo-snoozer. Tenkai Nap engaged. Just
-[quarton-battle] Unknown: hang tight, guys. We'll be battling soon enough. The only battle we're facing right now is to see if we can stay awake. I'm bored out of my mind. And nobody better say, well, you didn't have to go very far.
-[quarton-battle] Unknown: Fascinating. I
-[quarton-battle] Unknown: guess I'm not smart enough to
-[quarton-battle] Unknown: understand the ways of the Tenkai Knights. Who
-[quarton-battle] Unknown: is? But this time it's simple. They're resting to conserve energy for when the attack comes. They truly are... wise. Wise, indeed.
-[quarton-battle] Guren: They're here. Get
-[quarton-battle] Unknown: out! Finally. Let's get them! We're rested and will not be... ...invested! Aha!
-[quarton-battle] Guren: Just like you said, Commander, they are truly wise beyond belief.
-[quarton-battle] Unknown: Yes, impressive, aren't they? Even when it looks like they're just lying around and complaining, they still have a plan.
+[quarton] Toxsa: What an epic day. Too bad it's over. I know. We didn't even get to robofuse. I feel ripped off.
+[quarton] Ceylan: With our Tenkai power, of course the bad guys are probably thinking the same thing, too, but we can handle it. I'm sick and tired of being sick and tired of waiting. I sure wish our Core Bricks would glow. Finally! It's
+[quarton] Toxsa: on. Yeah. Let's do it. Everybody get your game faces on. It's Tenkai time. You ready? Tenkai! Before
+[quarton] 4_Guardians: they can defeat their enemy, they must defeat the enemy within.
+[quarton] Mr._White: Yes. But this is a path we must let them walk themselves.
+[quarton] Ceylan: Over there. The Tenkai Knights have returned! That's right. We're here to fight the corrupted.
+[quarton] Beag: Yeah, yes, but, they, uh, aren't here right now.
+[quarton-battle] Ceylan: Yeah, right. We totally knew that. We came
+[quarton-battle] Toxsa: early to get ready for them. Right, guys? Oh, yeah. Won't they be surprised when they show up and see us? You
+[quarton-battle] Ceylan: know how us heroes like to keep the enemy guessing, right? Right! Aha!
+[quarton-battle] Beag: Clever! Show the Knights where we expect the next attack.
+[quarton-battle] Ceylan: Yes, Commander. Boring. Where are all the bad guys? Anywhere but here, apparently. Talk about a robo-snoozer. Tenkai Nap engaged. Just
+[quarton-battle] Toxsa: hang tight, guys. We'll be battling soon enough. The only battle we're facing right now is to see if we can stay awake. I'm bored out of my mind. And nobody better say, well, you didn't have to go very far.
+[quarton-battle] Beag: Fascinating. I
+[quarton-battle] Toxsa: guess I'm not smart enough to
+[quarton-battle] Mr._White: understand the ways of the Tenkai Knights. Who
+[quarton-battle] Beag: is? But this time it's simple. They're resting to conserve energy for when the attack comes. They truly are... wise. Wise, indeed.
+[quarton-battle] Ceylan: They're here. Get
+[quarton-battle] Toxsa: out! Finally. Let's get them! We're rested and will not be... ...invested! Aha!
+[quarton-battle] Ceylan: Just like you said, Commander, they are truly wise beyond belief.
+[quarton-battle] Beag: Yes, impressive, aren't they? Even when it looks like they're just lying around and complaining, they still have a plan.
 [quarton-battle] Vilius: All right, move in!
-[quarton-battle] Guren: Destroy the Tenkai Knights! Crush them, smash them, demolish them! I
+[quarton-battle] Ceylan: Destroy the Tenkai Knights! Crush them, smash them, demolish them! I
 [quarton-battle] Vilius: better
-[quarton-battle] Guren: calm down.
+[quarton-battle] Ceylan: calm down.
 [quarton-battle] Vilius: I'm getting lightheaded.
-[quarton-battle] Guren: Serves you right. Make your plan successful.
-[quarton-battle] Unknown: Darn you! They only have enough energy to support me! They only have enough energy to support me! ...and they only have enough fear! Kill!
-[quarton-battle] Guren: I will
-[quarton-battle] Unknown: not tolerate such violence! I'm
-[quarton-battle] Unknown: playing with my best friend! Kill! Don't worry about it. It just means we get to kick their butts again and again. Ah, such bravery. You never cease
-[quarton-battle] Unknown: to amaze me, Tenkai Knights. Bolt! We'll attack from here. With our greater range, we can take them down before they even know
+[quarton-battle] Ceylan: Serves you right. Make your plan successful.
+[quarton-battle] Beag: Darn you! They only have enough energy to support me! They only have enough energy to support me! ...and they only have enough fear! Kill!
+[quarton-battle] Ceylan: I will
+[quarton-battle] Beag: not tolerate such violence! I'm
+[quarton-battle] Toxsa: playing with my best friend! Kill! Don't worry about it. It just means we get to kick their butts again and again. Ah, such bravery. You never cease
+[quarton-battle] Beag: to amaze me, Tenkai Knights. Bolt! We'll attack from here. With our greater range, we can take them down before they even know
 [quarton-battle] Vilius: it hit
-[quarton-battle] Unknown: them.
+[quarton-battle] Beag: them.
 [quarton-battle] Vilius: Fire!
-[quarton-battle] Unknown: Here we go. It's about time. Please, Knights, tell us our orders. What should we do? Read a book, take a robo rest. Yes.
+[quarton-battle] Beag: Here we go. It's about time. Please, Knights, tell us our orders. What should we do? Read a book, take a robo rest. Yes.
 [quarton-battle] Vilius: What? With
-[quarton-battle] Guren: our new attack, we'll finish before you're even in position. Oh, I see. Tenkai Knights, let's go! Time to kick some butt. Who's ready for a little robofusion? You know it. All for one, and crush them all. Sounds good to me.
+[quarton-battle] Ceylan: our new attack, we'll finish before you're even in position. Oh, I see. Tenkai Knights, let's go! Time to kick some butt. Who's ready for a little robofusion? You know it. All for one, and crush them all. Sounds good to me.
 [quarton-battle] Unknown: Tenkai Sync has been achieved. Commencing robofusion sequence. Robofusion protojet initiated. Tenkai Knight cores engaged.
 [quarton-battle] Unknown: Robofusion protojet sequence complete. Tenkai Energy at 100%.
 [quarton-battle] Vilius: Bring it! Bring it! Like
-[quarton-battle] Guren: spaghetti. All right! Phoenix attack engaged!
-[quarton-battle] Unknown: Oh, no! Not again! Okay, again! One
-[quarton-battle] Unknown: shot! Incredible!
-[quarton-battle] Guren: Granox, you incompetent fool! You're supposed to be the crusher, not the crushee! Vilius will not be pleased!
+[quarton-battle] Ceylan: spaghetti. All right! Phoenix attack engaged!
+[quarton-battle] 4_Guardians: Oh, no! Not again! Okay, again! One
+[quarton-battle] Beag: shot! Incredible!
+[quarton-battle] Ceylan: Granox, you incompetent fool! You're supposed to be the crusher, not the crushee! Vilius will not be pleased!
 [quarton-battle] Vilius: I'm never pleased.
-[quarton-battle] Guren: Vilius?
+[quarton-battle] Ceylan: Vilius?
 [quarton-battle] Vilius: Watch, Slyder. As I teach these Tenkai fools a lesson they won't soon forget. As you command, Vilius. Your pathetic attack was merely meant to reveal what they've learned. And now I know just how to defeat them for good. Watch and learn, if you can.
-[quarton-battle] Guren: It's Vilius! If we defeat him, we'll end this whole thing! Let's do it! No, wait! He dodged our attack! He got lucky! Let's bring this protojet around and take him down for real this time! Man, even on the ground, he's as bad as we are! Slow him down! Phoenix attack! Wait! It's right toward the Corekai base! Oh, no! What happened to Vilius? Up there! Ha
+[quarton-battle] Ceylan: It's Vilius! If we defeat him, we'll end this whole thing! Let's do it! No, wait! He dodged our attack! He got lucky! Let's bring this protojet around and take him down for real this time! Man, even on the ground, he's as bad as we are! Slow him down! Phoenix attack! Wait! It's right toward the Corekai base! Oh, no! What happened to Vilius? Up there! Ha
 [quarton-battle] Vilius: ha ha ha ha! All your swagger is meaningless before me!
-[quarton-battle] Guren: Next time we won't miss!
+[quarton-battle] Ceylan: Next time we won't miss!
 [quarton-battle] Vilius: For you, there is no next time. You fall now!
-[quarton-battle] Guren: Robofusion attack!
+[quarton-battle] Ceylan: Robofusion attack!
 [quarton-battle] Vilius: Xeno ship!
-[quarton-battle] Guren: He's got Robofusion too? That can't be good. Stay tough. We're Tenkai strong. So Vilius say so long. Look out!
-[quarton-battle] Guren: Fast! He's not faster than fire, though. Then let's bring the heat! Robofusion Phoenix attack in game!
+[quarton-battle] Ceylan: He's got Robofusion too? That can't be good. Stay tough. We're Tenkai strong. So Vilius say so long. Look out!
+[quarton-battle] Ceylan: Fast! He's not faster than fire, though. Then let's bring the heat! Robofusion Phoenix attack in game!
 [quarton-battle] Unknown: Robofusion deactivated. Tenkai energy draining.
 [quarton-battle] Vilius: I'd let you surrender, but I'm going to enjoy destroying you too much for that.
-[quarton-battle] Unknown: The man, he's tough. We've never fought someone so strong. We have to become one again now. Too late.
+[quarton-battle] Toxsa: The man, he's tough. We've never fought someone so strong. We have to become one again now. Too late.
 [quarton-battle] Vilius: Your doom is upon you.
-[quarton-battle] Unknown: Game
+[quarton-battle] Toxsa: Game
 [quarton] Vilius: over, my way.
-[quarton] Unknown: Move in! Protect the Knights!
+[quarton] Beag: Move in! Protect the Knights!
 [quarton] Vilius: You're shielding us? Cowards! Stop hiding so I can end you quickly and painfully! No,
-[quarton] Guren: Commander Big, don't! You'll be destroyed! He's
-[quarton] Unknown: too powerful for you! You have to get out of there! Never, brave Knights! We may not have your strength, but we will do whatever we can to protect you! You're our only hope! Come in! Right!
+[quarton] Ceylan: Commander Big, don't! You'll be destroyed! He's
+[quarton] Beag: too powerful for you! You have to get out of there! Never, brave Knights! We may not have your strength, but we will do whatever we can to protect you! You're our only hope! Come in! Right!
 [quarton] Vilius: You Corekai are loyal and brave, and extremely foolish. These so-called heroes are not worthy of your sacrifice. They are pathetic and weak.
 [quarton] Unknown: Vilius,
-[quarton] Guren: now is our chance. Destroy them all! I mean, if that's okay.
+[quarton] Ceylan: now is our chance. Destroy them all! I mean, if that's okay.
 [quarton-battle] Vilius: I don't take orders from you.
-[quarton-battle] Guren: Yes, sir.
+[quarton-battle] Ceylan: Yes, sir.
 [quarton-battle] Vilius: There is no glory in defeating an enemy that's already defeated. Once the Tenkai Knights regain their Tenkai energy, then I will crush them at last. As you wish.
-[quarton-battle] Unknown: Well, then, please, you can't leave us in the dark. It
-[quarton-battle] Unknown: appears that they lost.
-[quarton] Unknown: Never mind. I'll just take a look at it with the battle recorder later. Sometimes, through defeat, we can discover the best way to achieve victory.
-[quarton] Unknown: Tenkai Knights, something has changed within you.
-[quarton] Unknown: You know, we had luck on our side before, but we need more. We need more skills. We've got to get better. Because that's what heroes do, no matter
-[quarton] Guren: what
-[quarton] Unknown: it
-[quarton] Guren: takes. See you tomorrow.
-[quarton] Unknown: Yeah,
-[quarton] Guren: don't get discouraged, guys. We'll get them yet. You hear that, Vilius? We're coming for you.
+[quarton-battle] Mr._White: Well, then, please, you can't leave us in the dark. It
+[quarton-battle] 4_Guardians: appears that they lost.
+[quarton] Mr._White: Never mind. I'll just take a look at it with the battle recorder later. Sometimes, through defeat, we can discover the best way to achieve victory.
+[quarton] 4_Guardians: Tenkai Knights, something has changed within you.
+[quarton] Toxsa: You know, we had luck on our side before, but we need more. We need more skills. We've got to get better. Because that's what heroes do, no matter
+[quarton] Ceylan: what
+[quarton] Toxsa: it
+[quarton] Ceylan: takes. See you tomorrow.
+[quarton] Toxsa: Yeah,
+[quarton] Ceylan: don't get discouraged, guys. We'll get them yet. You hear that, Vilius? We're coming for you.

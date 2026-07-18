@@ -1,178 +1,178 @@
-[quarton-battle] Guren: You're in here, and in case you missed it, I just learned two important things. First, the whereabouts of the Tenkai Fortress. Of course, the Corrupted really found it before we did, but we took it away from them in an epic battle. That's when I learned the second important thing, never go into a fight mad. You see, because I was upset about something that happened back on Earth, I nearly got my plot handed to me on Quarton. Luckily, I got it together in time to send Vilius and his goons packing. Retreat! And now the legendary Tenkai Fortress is finally ours. You know what they say, be careful what you wish for. It's
-[quarton-battle] Unknown: like the treasure crawl in Trolls Floater 2. It's right about here, the army of grave trolls appears and swarms all over you. Then you gotta shake them all off. Uh, let's keep focused, guys. Right, because if you don't, their heads explode and cover you with poison goo and liquid. Look, what's that? Grave trolls, watch out! Oh, never mind, sorry. We must be getting close. Come on! The
-[quarton-battle] Guren: Tenkai Fortress! Next
-[quarton-battle] Unknown: question is... How do we get in? Anyone got a troll treasure key? Look, what's that? A door? Huh? No. What's it doing all the way up there? Okay, forget the treasure key. Anyone bring a stepladder? Anyone? There
-[quarton-battle] Guren: must be a way in. Oh, most definitely. But where? That I don't know. We could split up and look for one. Amateurs. Come
-[quarton-battle] Unknown: on, just follow me! Wait! No, I'm for more! I'm a master at secret entrances. No, we're kidding. You say that every time. There's always like a hidden panel, or a drawbridge, or a field. Ugh, or a bar's field. You ever
-[quarton-battle] Guren: actually
-[quarton-battle] Guren: win
-[quarton] Unknown: any video
-[quarton] Guren: games? You guys okay? An invisible barrier, huh? Busting through this defensive line won't be easy.
-[quarton] Guren: Fine! Then we'll do it the hard way! I don't recommend
-[quarton] Unknown: the hard way. This is like the troll major's stronghold. I finally had to use a cheat to get past it. That's a big help.
-[quarton] Guren: So
-[quarton] Guren: big. Is there a cheat code? I'm sorry, Valorn. I wouldn't know, even if I knew what that was. You're
-[quarton] Guren: not getting anywhere here. Let's go home, guys. Maybe Mr. White will know something.
-[quarton] Guren: I could have told you Mr. White wouldn't know anything. I was hoping he might have some answers. Oh, he's always got answers, but trying to understand
-[quarton] Unknown: them is like reading a fortune cookie in Swedish. And what's even worse is his idea of a snack is tea and old people cookies. So it's up to us.
-[quarton] Guren: Okay. We'll meet at my house in one hour for a brainstorming session. With real snacks? Sounds great. Yeah, about
-[quarton] Guren: that. You guys mind? I may have to bring along an extra person. What kind of person?
-[earth] Guren: Chooki, you made it! What?
+[quarton-battle] Ceylan: You're in here, and in case you missed it, I just learned two important things. First, the whereabouts of the Tenkai Fortress. Of course, the Corrupted really found it before we did, but we took it away from them in an epic battle. That's when I learned the second important thing, never go into a fight mad. You see, because I was upset about something that happened back on Earth, I nearly got my plot handed to me on Quarton. Luckily, I got it together in time to send Vilius and his goons packing. Retreat! And now the legendary Tenkai Fortress is finally ours. You know what they say, be careful what you wish for. It's
+[quarton-battle] Toxsa: like the treasure crawl in Trolls Floater 2. It's right about here, the army of grave trolls appears and swarms all over you. Then you gotta shake them all off. Uh, let's keep focused, guys. Right, because if you don't, their heads explode and cover you with poison goo and liquid. Look, what's that? Grave trolls, watch out! Oh, never mind, sorry. We must be getting close. Come on! The
+[quarton-battle] Ceylan: Tenkai Fortress! Next
+[quarton-battle] Toxsa: question is... How do we get in? Anyone got a troll treasure key? Look, what's that? A door? Huh? No. What's it doing all the way up there? Okay, forget the treasure key. Anyone bring a stepladder? Anyone? There
+[quarton-battle] Slyger: must be a way in. Oh, most definitely. But where? That I don't know. We could split up and look for one. Amateurs. Come
+[quarton-battle] Toxsa: on, just follow me! Wait! No, I'm for more! I'm a master at secret entrances. No, we're kidding. You say that every time. There's always like a hidden panel, or a drawbridge, or a field. Ugh, or a bar's field. You ever
+[quarton-battle] Ceylan: actually
+[quarton-battle] Unknown: win
+[quarton] Toxsa: any video
+[quarton] Unknown: games? You guys okay? An invisible barrier, huh? Busting through this defensive line won't be easy.
+[quarton] Ceylan: Fine! Then we'll do it the hard way! I don't recommend
+[quarton] Toxsa: the hard way. This is like the troll major's stronghold. I finally had to use a cheat to get past it. That's a big help.
+[quarton] Ceylan: So
+[quarton] Slyger: big. Is there a cheat code? I'm sorry, Valorn. I wouldn't know, even if I knew what that was. You're
+[quarton] Ceylan: not getting anywhere here. Let's go home, guys. Maybe Mr. White will know something.
+[quarton] Ceylan: I could have told you Mr. White wouldn't know anything. I was hoping he might have some answers. Oh, he's always got answers, but trying to understand
+[quarton] Toxsa: them is like reading a fortune cookie in Swedish. And what's even worse is his idea of a snack is tea and old people cookies. So it's up to us.
+[quarton] Ceylan: Okay. We'll meet at my house in one hour for a brainstorming session. With real snacks? Sounds great. Yeah, about
+[quarton] Unknown: that. You guys mind? I may have to bring along an extra person. What kind of person?
+[earth] Ceylan: Chooki, you made it! What?
 [earth] Unknown: Oh, I'm precious and cute as a button. So let's get that part. Are you
-[earth] Guren: a boy band? Guys, this is my cousin. I'm kinda on babysitting duty today.
+[earth] Unknown: a boy band? Guys, this is my cousin. I'm kinda on babysitting duty today.
 [earth] Unknown: Played it! Yay!
-[earth] Guren: Terrific. This is your extra person?
-[earth] Guren: More like half
-[earth] Guren: person. Look, I'm sorry, but it's not for long and she's really good at entertaining herself. Huh? It's my soccer coach. Hello? Kinda looks like Chooki. What? Right now? Kinda
-[earth] Unknown: has his hair.
-[earth] Guren: Okay, coach. I'm on my way. Huh? Guys, I got a tiny
+[earth] Unknown: Terrific. This is your extra person?
+[earth] Ceylan: More like half
+[earth] Unknown: person. Look, I'm sorry, but it's not for long and she's really good at entertaining herself. Huh? It's my soccer coach. Hello? Kinda looks like Chooki. What? Right now? Kinda
+[earth] Toxsa: has his hair.
+[earth] Unknown: Okay, coach. I'm on my way. Huh? Guys, I got a tiny
 [earth] Unknown: little favor to ask. Don't worry. Sandy can speak kitty cat. Watch. Huh? Kitty cat, kitty cat. Meow, meow, meow. Kitty cat.
-[earth] Unknown: Wasn't expecting Chooki to bail. This so isn't fair. He gets to go play soccer while we babysit? Well, his coach said it was an emergency.
-[earth] Guren: Someone on the team couldn't make the game. You don't think he planned to bail, do you? Wish
-[earth] Unknown: I'd thought of it. Okay. Let's brainstorm. We need to figure out how to get past the force field, right? Mm-hmm. Well, what if we just say open sesame? That always works.
-[earth] Guren: Yeah.
-[earth] Unknown: That
-[earth] Guren: was
-[earth] Unknown: more like a
-[earth] Guren: brain fight. No
-[earth] Guren: offense, Toxsa, but we're not playing Doom-Sploder 3. Troll-Sploder. Listen,
-[earth] Guren: I've got an idea.
-[earth] Guren: Hmm?
-[quarton] Guren: Meow. Huh? I'm
+[earth] Toxsa: Wasn't expecting Chooki to bail. This so isn't fair. He gets to go play soccer while we babysit? Well, his coach said it was an emergency.
+[earth] Ceylan: Someone on the team couldn't make the game. You don't think he planned to bail, do you? Wish
+[earth] Toxsa: I'd thought of it. Okay. Let's brainstorm. We need to figure out how to get past the force field, right? Mm-hmm. Well, what if we just say open sesame? That always works.
+[earth] Ceylan: Yeah.
+[earth] Toxsa: That
+[earth] Ceylan: was
+[earth] Toxsa: more like a
+[earth] Ceylan: brain fight. No
+[earth] Ceylan: offense, Toxsa, but we're not playing Doom-Sploder 3. Troll-Sploder. Listen,
+[earth] Ceylan: I've got an idea.
+[earth] Slyger: Hmm?
+[quarton] Ceylan: Meow. Huh? I'm
 [quarton] Unknown: thinking you'll be a pretty kitty for your date with Sandy. Whoa. Kiiro, that's not okay. You don't do that to animals. Yeah. Yeah. Yeah. You're the only one
-[quarton] Guren: who's
+[quarton] Slyger: who's
 [quarton] Unknown: doing
-[quarton] Guren: that. Tiny little favor, huh? I hate to hear what Chooki's idea of a big
-[quarton] Unknown: favor is. Ugh, I'm gonna fight Goonbots on Quarton. I didn't know babysitting was gonna require body armor.
+[quarton] Ceylan: that. Tiny little favor, huh? I hate to hear what Chooki's idea of a big
+[quarton] Toxsa: favor is. Ugh, I'm gonna fight Goonbots on Quarton. I didn't know babysitting was gonna require body armor.
 [quarton] Unknown: I can hear you. Did you rather be on Quarton? You're gonna what? You're
-[quarton] Guren: gonna what?
-[quarton] Unknown: Ew.
+[quarton] Ceylan: gonna what?
+[quarton] Toxsa: Ew.
 [quarton] Unknown: no you're not what
-[quarton] Unknown: are
+[quarton] Toxsa: are
 [quarton] Unknown: you gonna tell i don't know
-[quarton] Guren: okie doke i think we're safe we're just confused yeah
+[quarton] Ceylan: okie doke i think we're safe we're just confused yeah
 [quarton] Unknown: well anyway you said you don't want to play with me just like Chooki and everybody else sandy's the only one who ever plays with me
-[quarton] Guren: don't cry okay what game you want to play i'll play with you anything you want
+[quarton] Ceylan: don't cry okay what game you want to play i'll play with you anything you want
 [quarton] Unknown: you really will i
-[quarton] Guren: really really will
-[quarton] Guren: is
+[quarton] Ceylan: really really will
+[quarton] Slyger: is
 [quarton] Unknown: this the game cause i'm already loving it oh
-[quarton] Unknown: yeah it's a total blast when your ideas sail on oh
-[quarton] Guren: boy i think i'm starting to get a cramp i'm past that i've lost all feeling someone
+[quarton] Toxsa: yeah it's a total blast when your ideas sail on oh
+[quarton] Slyger: boy i think i'm starting to get a cramp i'm past that i've lost all feeling someone
 [quarton] Unknown: please
-[quarton] Unknown: load me and now
+[quarton] Toxsa: load me and now
 [quarton] Unknown: put your other foot up
 [quarton] Unknown: began
-[quarton] Guren: by the ten kai knights it's really quite amusing
+[quarton] Slyger: by the ten kai knights it's really quite amusing
 [quarton] Vilius: amusing
-[quarton] Guren: no no i mean it would be if it weren't so tragic your
+[quarton] Slyger: no no i mean it would be if it weren't so tragic your
 [quarton] Vilius: fate will be tragic if you fail as he did to recapture the tenkai fortress to make sure that doesn't happen i'm giving you this what
-[quarton] Guren: is it the
+[quarton] Slyger: is it the
 [quarton] Vilius: fire raptor i
-[quarton] Guren: still
+[quarton] Slyger: still
 [quarton] Vilius: don't know what that
-[quarton] Guren: is time
+[quarton] Slyger: is time
 [quarton] Unknown: for animal feet
-[quarton] Guren: looks like the bottom of the monkey cage
+[quarton] Ceylan: looks like the bottom of the monkey cage
 [quarton] Unknown: hey hippo no talking back to the zookeeper sorry
-[quarton] Unknown: sorry i meant it looks
+[quarton] Toxsa: sorry i meant it looks
 [quarton] Unknown: yummy nice
-[quarton] Unknown: kiro now he kind of looks like a hippo
+[quarton] Toxsa: kiro now he kind of looks like a hippo
 [quarton] Unknown: geckos don't talk back either gecko i thought it was a pink flamingo what about meerkats they don't talk at all game's not over till you drink it up
-[quarton] Unknown: hippos go first they'll eat anything
-[quarton] Guren: hey hippo no way the king of the jungle goes first and everyone knows that's the meerkat in what universe is that in
-[quarton] Unknown: the universe where you're our fearless leader come on braving cat show us what you got the
-[quarton] Guren: me yeah
-[quarton] Unknown: and here comes the smoothie huh
-[quarton] Guren: meow wow wow huh
-[quarton] Unknown: you're
-[quarton] Guren: right from diddly otamus
-[quarton] Unknown: you got any more of this
-[quarton] Guren: stuff kid another round
+[quarton] Toxsa: hippos go first they'll eat anything
+[quarton] Ceylan: hey hippo no way the king of the jungle goes first and everyone knows that's the meerkat in what universe is that in
+[quarton] Toxsa: the universe where you're our fearless leader come on braving cat show us what you got the
+[quarton] Ceylan: me yeah
+[quarton] Toxsa: and here comes the smoothie huh
+[quarton] Ceylan: meow wow wow huh
+[quarton] Toxsa: you're
+[quarton] Ceylan: right from diddly otamus
+[quarton] Toxsa: you got any more of this
+[quarton] Ceylan: stuff kid another round
 [quarton] Unknown: zookeeper meow meow because you've all been such good animals sure why not yeah your cats don't meow by the way just saying
-[quarton] Unknown: uh what happened to the green stuff it's
+[quarton] Toxsa: uh what happened to the green stuff it's
 [quarton] Unknown: called a surprise smoothie whatever if it's as good as the last one the surprise is hot the brickification
-[quarton] Guren: effect again not a good sign she's
-[quarton] Guren: cute when she's asleep yeah like a dormant volcano or a time bomb the
-[quarton] Unknown: understatement of the year ceylon i'm just grateful that she's gotten off switch thought that game was gonna go on forever you
-[quarton] Guren: can
-[quarton] Unknown: stop any time
-[quarton] Guren: oh not again hey
-[quarton] Guren: look hero i think i can fix him not
-[quarton] Guren: for
-[quarton] Unknown: long though guys
-[quarton] Guren: it's
-[quarton] Unknown: been you know what do you call it rickificated that means something's going on you know where that's
-[quarton] Guren: right
-[quarton] Unknown: we
-[quarton] Guren: gotta get to you know who's shop as quick as we can yeah but what about cute
-[quarton] Guren: hey give it back what happened dude can you believe that little snake she just ran off with my core brick i shot
-[quarton] Guren: jukey whoa dude lucky thing for us you were around to fill in any time wherever there's a ball in a field i'm your man
-[quarton] Guren: kira where are you we're not playing hide and seek meow
-[quarton] Unknown: you don't think she's activated it somehow maybe she's on corton man i'd love to see granox and sliger try to handle her this isn't funny yeah
-[quarton] Guren: we've got to find her and fast something's going down on corton and while we're here the clock's ticking hey how'd it go you guys have any trouble with oh chucky how
-[quarton] Guren: did you guess yeah you might say that i can't believe she did that it's weird she's usually no trouble at all
-[quarton] Unknown: your
-[quarton] Guren: nose is growing we know
-[quarton] Guren: she's in the house but we can't find her we've searched everywhere
-[quarton] Guren: i'll bet i know she's a girl she'll be in there for hours sometimes when she's upset she hides in the bathroom kira please unlock the door you've got to give that thing back come on kiro i know you're in there so just one of you is wrong okay but now how do we get her out of there we
-[quarton] Unknown: could try open
-[quarton] Guren: sesame she'll come out sometimes you just have to wait till she settles down or gets hungry and how long is that meanwhile
-[quarton] Guren: who knows what's happening up on corton
-[quarton] Guren: kiro kiro fortress
+[quarton] Slyger: effect again not a good sign she's
+[quarton] Ceylan: cute when she's asleep yeah like a dormant volcano or a time bomb the
+[quarton] Toxsa: understatement of the year ceylon i'm just grateful that she's gotten off switch thought that game was gonna go on forever you
+[quarton] Ceylan: can
+[quarton] Toxsa: stop any time
+[quarton] Slyger: oh not again hey
+[quarton] Ceylan: look hero i think i can fix him not
+[quarton] Slyger: for
+[quarton] Toxsa: long though guys
+[quarton] Ceylan: it's
+[quarton] Toxsa: been you know what do you call it rickificated that means something's going on you know where that's
+[quarton] Ceylan: right
+[quarton] Toxsa: we
+[quarton] Ceylan: gotta get to you know who's shop as quick as we can yeah but what about cute
+[quarton] Ceylan: hey give it back what happened dude can you believe that little snake she just ran off with my core brick i shot
+[quarton] Unknown: jukey whoa dude lucky thing for us you were around to fill in any time wherever there's a ball in a field i'm your man
+[quarton] Ceylan: kira where are you we're not playing hide and seek meow
+[quarton] Toxsa: you don't think she's activated it somehow maybe she's on corton man i'd love to see granox and sliger try to handle her this isn't funny yeah
+[quarton] Ceylan: we've got to find her and fast something's going down on corton and while we're here the clock's ticking hey how'd it go you guys have any trouble with oh chucky how
+[quarton] Unknown: did you guess yeah you might say that i can't believe she did that it's weird she's usually no trouble at all
+[quarton] Toxsa: your
+[quarton] Unknown: nose is growing we know
+[quarton] Ceylan: she's in the house but we can't find her we've searched everywhere
+[quarton] Unknown: i'll bet i know she's a girl she'll be in there for hours sometimes when she's upset she hides in the bathroom kira please unlock the door you've got to give that thing back come on kiro i know you're in there so just one of you is wrong okay but now how do we get her out of there we
+[quarton] Toxsa: could try open
+[quarton] Unknown: sesame she'll come out sometimes you just have to wait till she settles down or gets hungry and how long is that meanwhile
+[quarton] Ceylan: who knows what's happening up on corton
+[quarton] Unknown: kiro kiro fortress
 [quarton] Vilius: i never thought i'd see it
-[quarton] Guren: speaking of things you never thought you'd see commander slyker and a squadron of airborne corrupted are coming and they've got a new powerful looking weapon with them all units form a defensive perimeter we must pull the take our fortress and hope the knights arrive soon hey
-[quarton] Guren: all
-[quarton] Guren: the animals are going crazy out here they need their zookeeper yeah that's right they want more of that meow wowlicious smoothie hey i know let's race to see who can get out of the bathroom
-[quarton] Guren: first
-[quarton] Guren: ready
-[quarton] Guren: set go i give up you guys must have really
-[quarton] Guren: traumatized her i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom no kidding we should be
-[quarton] Unknown: hiding in the bathroom well now it's official
-[quarton] Guren: there's trouble on corton and we've got no choice toxa and i will go on ahead you can't say long you follow as soon as you can get that corporate away from her okay right
-[quarton] Guren: where
-[quarton] Guren: you are knights or at least some of you the
-[quarton] Unknown: others are coming they're uh waiting for the bathroom is
-[quarton] Guren: there a shortage of bathrooms on your world
-[quarton] Guren: long story never mind what's the situation be we're
-[quarton] Guren: under attack from slyker and he has a fearsome new weapon i can't believe that so you're finally here knights now that you see my fire raptor i bet you're sorry you came well you're quick you still might have time to run away that'll be the day what he said okay what's the plan what else elemental type mode smell
-[quarton] Guren: that kiro nice and hot come and get it made it myself yum yum
-[quarton] Guren: canned catfish chowder that's the best you could do seriously okay so i'm not a
-[quarton] Unknown: cook
-[quarton] Guren: i got this i want you to listen to me kiro look i know you're upset about surfy or sunny is it sunny whatever your little dog's name is i know he's a special friend and he means a lot to you just like that little blue brick means a lot to me it's kind of like you took my special friend away from me just
-[quarton] Unknown: borrowed it kiro it's important i
-[quarton] Guren: can't fix sharky unless you give it back see without that little blue brick i can't go where i have to go to make things better kiro
-[quarton] Guren: did you hear what he said he really needs it back well that's that i think guren's dad would freak if we broke the door down you
-[quarton] Guren: okay kiro
+[quarton] Slyger: speaking of things you never thought you'd see commander slyker and a squadron of airborne corrupted are coming and they've got a new powerful looking weapon with them all units form a defensive perimeter we must pull the take our fortress and hope the knights arrive soon hey
+[quarton] Ceylan: all
+[quarton] Ceylan: the animals are going crazy out here they need their zookeeper yeah that's right they want more of that meow wowlicious smoothie hey i know let's race to see who can get out of the bathroom
+[quarton] Unknown: first
+[quarton] Ceylan: ready
+[quarton] Unknown: set go i give up you guys must have really
+[quarton] Ceylan: traumatized her i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom i'm gonna have to go to the bathroom no kidding we should be
+[quarton] Toxsa: hiding in the bathroom well now it's official
+[quarton] Ceylan: there's trouble on corton and we've got no choice toxa and i will go on ahead you can't say long you follow as soon as you can get that corporate away from her okay right
+[quarton] Slyger: where
+[quarton] Slyger: you are knights or at least some of you the
+[quarton] Toxsa: others are coming they're uh waiting for the bathroom is
+[quarton] Slyger: there a shortage of bathrooms on your world
+[quarton] Ceylan: long story never mind what's the situation be we're
+[quarton] Slyger: under attack from slyker and he has a fearsome new weapon i can't believe that so you're finally here knights now that you see my fire raptor i bet you're sorry you came well you're quick you still might have time to run away that'll be the day what he said okay what's the plan what else elemental type mode smell
+[quarton] Unknown: that kiro nice and hot come and get it made it myself yum yum
+[quarton] Ceylan: canned catfish chowder that's the best you could do seriously okay so i'm not a
+[quarton] Toxsa: cook
+[quarton] Ceylan: i got this i want you to listen to me kiro look i know you're upset about surfy or sunny is it sunny whatever your little dog's name is i know he's a special friend and he means a lot to you just like that little blue brick means a lot to me it's kind of like you took my special friend away from me just
+[quarton] Toxsa: borrowed it kiro it's important i
+[quarton] Ceylan: can't fix sharky unless you give it back see without that little blue brick i can't go where i have to go to make things better kiro
+[quarton] Unknown: did you hear what he said he really needs it back well that's that i think guren's dad would freak if we broke the door down you
+[quarton] Slyger: okay kiro
 [quarton] Unknown: as long as you promise to make him better and his name is sandy by the way right
-[quarton] Guren: sorry
-[quarton] Guren: i'm not sure that two nights are enough against that monstrosity take that energy's running low you finally met your match bravenwolf
-[quarton] Guren: another gas me too that's
-[quarton-battle] Guren: the party go for it yeah crash away
-[quarton-battle] Guren: i wondered where you were well two nights of four it makes no difference you'll all be scrapped by the time the fire raptor is through with you careful
-[quarton-battle] Guren: that new weapon of his is brutal out of the way guys i'll
-[quarton-battle] Guren: handle this mind
-[quarton-battle] Guren: if
-[quarton-battle] Guren: i borrow the blast tank feed there's a little girl on earth who's counting on me and i want to make real sure i don't let her down so i brought a new weapon too
-[quarton-battle] Guren: swamper a day hey
-[quarton] Guren: slyger you tin-plated trash can this one is for kiro and a little stuffed dog named sandy it can't be i don't believe it believe it
-[quarton] Guren: head you put
-[quarton] Guren: your belly in this should come in quick if someone's not going to be very happy
+[quarton] Ceylan: sorry
+[quarton] Slyger: i'm not sure that two nights are enough against that monstrosity take that energy's running low you finally met your match bravenwolf
+[quarton] Slyger: another gas me too that's
+[quarton-battle] Ceylan: the party go for it yeah crash away
+[quarton-battle] Slyger: i wondered where you were well two nights of four it makes no difference you'll all be scrapped by the time the fire raptor is through with you careful
+[quarton-battle] Ceylan: that new weapon of his is brutal out of the way guys i'll
+[quarton-battle] Ceylan: handle this mind
+[quarton-battle] Ceylan: if
+[quarton-battle] Ceylan: i borrow the blast tank feed there's a little girl on earth who's counting on me and i want to make real sure i don't let her down so i brought a new weapon too
+[quarton-battle] Slyger: swamper a day hey
+[quarton] Slyger: slyger you tin-plated trash can this one is for kiro and a little stuffed dog named sandy it can't be i don't believe it believe it
+[quarton] Ceylan: head you put
+[quarton] Slyger: your belly in this should come in quick if someone's not going to be very happy
 [quarton] Vilius: incompetence and cowards even armed with the most
-[quarton] Guren: formidable
+[quarton] Slyger: formidable
 [quarton] Vilius: weapons on quarton still they fail time and time again from now on tenkai knights you will face the fearsome power of phileas himself
-[quarton] Guren: let's say we had a pretty good day we beat slyger and kept phileas from getting the fortress
-[quarton] Unknown: and we survived babysitting zookeeper kira yeah speaking
-[quarton] Guren: of which i got a call from my aunt you're joking right chuki before i would ever watch your little cousin again i'd need a week's vacation and a hockey mask
-[quarton] Guren: and besides we've still got to figure out that force field
+[quarton] Ceylan: let's say we had a pretty good day we beat slyger and kept phileas from getting the fortress
+[quarton] Toxsa: and we survived babysitting zookeeper kira yeah speaking
+[quarton] Ceylan: of which i got a call from my aunt you're joking right chuki before i would ever watch your little cousin again i'd need a week's vacation and a hockey mask
+[quarton] Ceylan: and besides we've still got to figure out that force field
 [quarton] Unknown: oh look
-[quarton] Guren: at
+[quarton] Ceylan: at
 [quarton] Unknown: sandy you made him better just like you said you would well
-[quarton] Guren: i had a little help with that actually you
+[quarton] Ceylan: i had a little help with that actually you
 [quarton] Unknown: know i was bad i took your brick i'm gonna blame you if you don't want to play with me anymore who
-[quarton] Guren: says i don't want to play hey why do you think i'm here kira so what's it gonna be the animal game or you got something else in mind hey bring it on we're gonna have so much fun i can't wait you
+[quarton] Ceylan: says i don't want to play hey why do you think i'm here kira so what's it gonna be the animal game or you got something else in mind hey bring it on we're gonna have so much fun i can't wait you
 [quarton] Unknown: want to play you
-[quarton] Unknown: sure did yeah but ready for what silly
+[quarton] Toxsa: sure did yeah but ready for what silly
 [quarton] Unknown: the pretty pretty princess party game of course we're gonna have so much fun of course and don't worry you'll all have a costume if
-[quarton] Guren: anyone breathes a word of this i'll clobber them
+[quarton] Ceylan: anyone breathes a word of this i'll clobber them
 [quarton] Unknown: meow

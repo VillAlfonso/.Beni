@@ -1,55 +1,55 @@
-[quarton-battle] Gen: We're honored, Vilius.
+[quarton-battle] Mr._White: We're honored, Vilius.
 [quarton-battle] Vilius: We'll be proud to lead the attack on the fortress. You won't be disappointed, Vin. Are you mad, you dysfunctional dolts? Do you think I'd entrust such a mission to you? Yes.
-[quarton-battle] Guren: But you said...
+[quarton-battle] Ceylan: But you said...
 [quarton-battle] Vilius: I said that whoever controls the Tenkai Fortress controls the two worlds, and for that reason it must be recaptured. But I will lead the attack myself. Oh, I guess we missed that part. But what do we do? Try being helpful for once. And if you're lucky, I'll let you pick up the pieces of the Tenkai Knights when I've blasted them to atoms. So
 [quarton-battle] Guren: here's where we stand. We finally found the Tenkai Fortress. The problem is...
-[quarton-battle] Gen: We
+[quarton-battle] Mr._White: We
 [quarton-battle] Guren: still
-[quarton] Unknown: can't get anywhere near it. And we've all got the bruises to prove it.
-[quarton] Gen: It's possible you could penetrate that force field if you were to... increase your Tenkai Energy somehow. You think so?
-[quarton] Unknown: But how are we supposed to do that, Mr. White?
-[quarton] Gen: How indeed.
-[quarton] Unknown: Wait, let me guess. It's a mystery?
-[quarton] Gen: More like a puzzle.
+[quarton] Toxsa: can't get anywhere near it. And we've all got the bruises to prove it.
+[quarton] Mr._White: It's possible you could penetrate that force field if you were to... increase your Tenkai Energy somehow. You think so?
+[quarton] Toxsa: But how are we supposed to do that, Mr. White?
+[quarton] Mr._White: How indeed.
+[quarton] Toxsa: Wait, let me guess. It's a mystery?
+[quarton] Mr._White: More like a puzzle.
 [quarton] Guren: Besides, we don't even know what'll happen if we unseal it.
-[quarton] Gen: Well, as to that...
+[quarton] Mr._White: Well, as to that...
 [quarton] Guren: Yeah?
-[quarton] Gen: Uh... That's a mystery.
-[quarton] Guren: Oh, great.
-[quarton] Gen: Thanks.
-[quarton] Guren: Why we listen to him, that's a real mystery. Give him a break.
+[quarton] Mr._White: Uh... That's a mystery.
+[quarton] Ceylan: Oh, great.
+[quarton] Mr._White: Thanks.
+[quarton] Ceylan: Why we listen to him, that's a real mystery. Give him a break.
 [quarton] Unknown: I mean, you can't expect the guy to know everything. He
-[quarton] Guren: doesn't even realize that none of us like his tea. I'm
+[quarton] Ceylan: doesn't even realize that none of us like his tea. I'm
 [quarton] Guren: kind of starting to. Hmm?
-[quarton] Guren: Get out of here. You
+[quarton] Ceylan: Get out of here. You
 [quarton] Guren: don't really... Never mind. The biggest problem we've got is that we're running out of time, guys. What? We know the Fortress is connected to that Brickification effect somehow. If we don't break the seal, the effect might come back and start spreading everywhere. It might come back,
-[quarton] Unknown: right? It's just a possibility.
+[quarton] Toxsa: right? It's just a possibility.
 [quarton] Guren: No. I think we can count on it.
-[earth] Unknown: Not that I'm scared or
+[earth] Toxsa: Not that I'm scared or
 [earth] Guren: anything.
-[earth] Unknown: You guys remember that time Mr. White's crummy old teapot got Brickified? That was funny, wasn't it?
+[earth] Toxsa: You guys remember that time Mr. White's crummy old teapot got Brickified? That was funny, wasn't it?
 [earth] Unknown: Seriously, everything on planet Earth will be Cubified into tiny little bricks. Yeah,
-[earth] Guren: everything. And everyone. No one will even look human anymore. We'll all be funky 8-bit graphics. Like a console game from the 80s?
-[earth] Unknown: Hey, chill out, Doctor. We're just kidding. Yeah, come on. Don't panic. We're just yanking your chain a little. Don't panic! You're talking about turning the clock back on decades of video game evolution! It's horrible!
+[earth] Ceylan: everything. And everyone. No one will even look human anymore. We'll all be funky 8-bit graphics. Like a console game from the 80s?
+[earth] Toxsa: Hey, chill out, Doctor. We're just kidding. Yeah, come on. Don't panic. We're just yanking your chain a little. Don't panic! You're talking about turning the clock back on decades of video game evolution! It's horrible!
 [earth] Guren: Okay, Max. Time to hone our Tenkai reflexes. Ready? I know it's not much, but it's a start.
 [earth] Unknown: Maybe if I work on my Tenkai focus, I'll actually get good at this dumb sport. Hope it's not another boot.
-[earth] Guren: My Tenkai energy... It's increasing! Oh, well. I can dream, can't I? Oh,
-[earth] Unknown: great! Everywhere I look... I'm seeing cubes and squares now! Toxsa? Are you ready for some lunch? Sure, why not? You alright? Is
-[earth] Guren: it me? Or are you starting to look a little square around the edges?
-[earth] Unknown: Square? Like you know anything about fashion, you little nerd! No, sorry! I didn't mean...
-[earth] Guren: Is lunch ready? Hmph. You're the
-[earth] Unknown: square.
-[earth] Guren: Boy,
-[earth] Unknown: I'm starving! You don't deserve it.
-[earth] Guren: I knew when it started! Crack-a-bait! It's...
-[earth] Unknown: Calm down, you freak. Here's a new menu item. Oh... Cube steak, get
-[earth] Guren: it?
-[earth] Unknown: It's shish kebab, but without the kebab. I came up with it myself.
-[earth] Guren: Ingenious. This
-[quarton] Unknown: way you won't poke yourself with the skewer. Good idea.
-[quarton] Guren: Just think,
-[quarton] Unknown: everything could soon look like this. Now we can't worry about it now. Too hungry.
-[quarton] Gen: Okay, Guren. Let's see what you've got.
+[earth] Ceylan: My Tenkai energy... It's increasing! Oh, well. I can dream, can't I? Oh,
+[earth] Toxsa: great! Everywhere I look... I'm seeing cubes and squares now! Toxsa? Are you ready for some lunch? Sure, why not? You alright? Is
+[earth] Ceylan: it me? Or are you starting to look a little square around the edges?
+[earth] Toxsa: Square? Like you know anything about fashion, you little nerd! No, sorry! I didn't mean...
+[earth] Ceylan: Is lunch ready? Hmph. You're the
+[earth] Toxsa: square.
+[earth] Ceylan: Boy,
+[earth] Toxsa: I'm starving! You don't deserve it.
+[earth] Ceylan: I knew when it started! Crack-a-bait! It's...
+[earth] Toxsa: Calm down, you freak. Here's a new menu item. Oh... Cube steak, get
+[earth] Ceylan: it?
+[earth] Toxsa: It's shish kebab, but without the kebab. I came up with it myself.
+[earth] Ceylan: Ingenious. This
+[quarton] Toxsa: way you won't poke yourself with the skewer. Good idea.
+[quarton] Ceylan: Just think,
+[quarton] Toxsa: everything could soon look like this. Now we can't worry about it now. Too hungry.
+[quarton] Mr._White: Okay, Guren. Let's see what you've got.
 [quarton] Gen: Hmph. That cat must be a good training partner. Because you definitely got better.
 [quarton] Guren: Good job. Thanks a lot, Gen. I hope you're right. I've been trying really hard to boost my Tenkai Energy. Huh? Why? Just for kicks? No. You do know about the Tenkai Fortress we found, right? Well, we're trying to break the seal on it before Vilius and the Corrupted do. Speaking of which, we could sure use your help. Sorry, dude. Anyway, you asked why I wanted to boost my Tenkai Energy. That's why. You think that'll unseal
 [quarton] Gen: it?

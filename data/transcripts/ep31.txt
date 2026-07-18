@@ -1,161 +1,161 @@
-[quarton-battle] Guren: Guren here. So far, the other Tenkai Knights and I have held our own in the battle against Vilius and his corrupted toaster bots. But the job's not getting any easier. First, we lost the ability to shapeshift into Titan mode. Then, we learned that the bad guys were on the verge of finding the Tenkai Fortress, the powerful source of Tenkai Energy. On top of that, there's the question of what happened to our allies, the Guardians. We knew they'd been captured by Vilius. What we didn't know, and what we were about to find out, was that it was even worse than that. Much worse.
+[quarton-battle] Ceylan: Guren here. So far, the other Tenkai Knights and I have held our own in the battle against Vilius and his corrupted toaster bots. But the job's not getting any easier. First, we lost the ability to shapeshift into Titan mode. Then, we learned that the bad guys were on the verge of finding the Tenkai Fortress, the powerful source of Tenkai Energy. On top of that, there's the question of what happened to our allies, the Guardians. We knew they'd been captured by Vilius. What we didn't know, and what we were about to find out, was that it was even worse than that. Much worse.
 [quarton-battle] Vilius: While it's been amusing to hold you helplessly in my power, I can't have you just standing around forever. As I said before, I have plans for you. We've opposed each other for too long. We all want the same thing. Balance. Help me defeat the Tenkai Knights, and that balance will be achieved. Help you, Vilius? You mean serve you. Something we will never do, even if it means our very existence. Oh, I wouldn't be so sure about that. Once you've been infused as I have with the dark energy of the Black Dragon Cubes, you
-[quarton-battle] Unknown: will change your minds. And help you disrupt the balance? Never. You don't understand.
+[quarton-battle] 4_Guardians: will change your minds. And help you disrupt the balance? Never. You don't understand.
 [quarton-battle] Vilius: That wasn't a suggestion. It was a statement of fact.
-[quarton-battle] Guren: Ah!
+[quarton-battle] Ceylan: Ah!
 [quarton-battle] Vilius: There. Are we going to be more reasonable? Good. Now, my corrupted Guardians, it is time to take the battle to the Knights! One of As Vilius' commands. No. We must resist. But it feels so good, Notus. Why fight it? All this dark energy surging through me. I've never felt such power. Welcome to my side.
-[quarton] Guren: We're here, Beak! Oh,
+[quarton] Ceylan: We're here, Beak! Oh,
 [quarton] Vilius: thank the Guardians!
-[quarton] Guren: Hang on! Look! Incoming! Gentlemen, Boreas just flew in, and boy are his arms tired.
-[quarton] Unknown: Get it, Boreas? He didn't get it.
+[quarton] Ceylan: Hang on! Look! Incoming! Gentlemen, Boreas just flew in, and boy are his arms tired.
+[quarton] Toxsa: Get it, Boreas? He didn't get it.
 [quarton] Vilius: Guys, you think Vilius might have done something to the Guardians while he had them in his power?
-[quarton] Guren: No way! You'd never serve Vilius, no matter what, would you, Boreas? That answers that! Boreas, it's us!
-[quarton] Unknown: Vilius is right. This is the only way that balance will be achieved. It's finally clear to me now. It is you who are the problem.
-[quarton] Guren: You're gonna get balanced by fighting us?
-[quarton] Unknown: Not fighting you. Destroying you!
-[quarton] Guren: I got him! No, I got him! I got him! Should've seen that coming. Hold it, Boreas! Ah!
+[quarton] Ceylan: No way! You'd never serve Vilius, no matter what, would you, Boreas? That answers that! Boreas, it's us!
+[quarton] 4_Guardians: Vilius is right. This is the only way that balance will be achieved. It's finally clear to me now. It is you who are the problem.
+[quarton] Ceylan: You're gonna get balanced by fighting us?
+[quarton] 4_Guardians: Not fighting you. Destroying you!
+[quarton] Ceylan: I got him! No, I got him! I got him! Should've seen that coming. Hold it, Boreas! Ah!
 [quarton] Vilius: Even the Knights can't fight the power of a Guardian! The
-[quarton] Unknown: choice is yours. Surrender, or be destroyed.
-[quarton] Guren: I choose Z, none of the above. There's another option. I say we hightail it the heck out of here. Run? Yeah, while we still can. They're right. We've gotta come up with a new game plan. You made the right choice.
-[quarton] Unknown: Yes, run away. Next time, I won't be so merciful.
-[quarton] Unknown: My old friend. It's hard to believe.
-[quarton] Unknown: Yeah,
-[quarton] Guren: he's not so friendly anymore.
-[earth] Unknown: Plus the whole unbeatable thing.
-[earth] Guren: What, so we just give up? No, but
-[earth] Unknown: it's like playing against a game master at his own game. How do you beat him? By training. Uh, what kind of training? Like that time at the diner? You know, when we tried to get our four minds in sync by all ordering the same thing?
-[earth] Guren: Yeah, and everyone except you three guys ordered the lime parfait? No, we gotta pump it up. It's gotta be something more intense.
-[earth] Unknown: As in hard work?
-[earth] Guren: Let's all think about it, and we'll talk tomorrow. I hate when he gives homework.
+[quarton] 4_Guardians: choice is yours. Surrender, or be destroyed.
+[quarton] Ceylan: I choose Z, none of the above. There's another option. I say we hightail it the heck out of here. Run? Yeah, while we still can. They're right. We've gotta come up with a new game plan. You made the right choice.
+[quarton] 4_Guardians: Yes, run away. Next time, I won't be so merciful.
+[quarton] Mr._White: My old friend. It's hard to believe.
+[quarton] Toxsa: Yeah,
+[quarton] Ceylan: he's not so friendly anymore.
+[earth] Toxsa: Plus the whole unbeatable thing.
+[earth] Ceylan: What, so we just give up? No, but
+[earth] Toxsa: it's like playing against a game master at his own game. How do you beat him? By training. Uh, what kind of training? Like that time at the diner? You know, when we tried to get our four minds in sync by all ordering the same thing?
+[earth] Ceylan: Yeah, and everyone except you three guys ordered the lime parfait? No, we gotta pump it up. It's gotta be something more intense.
+[earth] Toxsa: As in hard work?
+[earth] Ceylan: Let's all think about it, and we'll talk tomorrow. I hate when he gives homework.
 [earth] Unknown: Guren, whatcha doing up there? Homework?
-[earth] Guren: Yeah.
+[earth] Ceylan: Yeah.
 [earth] Unknown: You got something due tomorrow?
-[earth] Guren: Yeah.
+[earth] Ceylan: Yeah.
 [earth] Unknown: You want me to go over it with you? Dad,
-[earth] Guren: I'm not a kid.
+[earth] Ceylan: I'm not a kid.
 [quarton] Unknown: Sorry. Dinner in five.
-[quarton] Guren: Okay, thanks. Up against a guardian. What do I need to improve? All
-[quarton] Guren: done.
-[quarton] Unknown: Okay, what is
-[quarton] Guren: it? You're looking at our new training regimen. What the
-[quarton] Unknown: heck's
-[quarton] Guren: a
-[quarton] Unknown: regimen?
-[quarton] Guren: You gotta be
-[quarton] Unknown: kidding!
-[quarton] Guren: Look, check out phase one. To improve our agility, we practice jumping over fire. That's supposed to be fire?
-[quarton] Unknown: Seriously? Pretty funky. What I wanna know is what kind of lame old video chip are you using? Are those 8-bit graphics or-
-[quarton] Guren: Never mind, listen- They look more like 2-bit, actually. Next, we work on our balance by climbing into a spare tire and throwing up on ourselves. Yeah,
-[quarton] Unknown: count
-[quarton] Guren: me out. Phase three. We improve our reflexes and reaction time by tying our bikes to the back of a car and let the tenkai towing begin. I hope it's an ambulance. Cause, dude, we're gonna need one. Uh-huh. Come on, you guys! I spent all night working on this!
+[quarton] Ceylan: Okay, thanks. Up against a guardian. What do I need to improve? All
+[quarton] Ceylan: done.
+[quarton] Toxsa: Okay, what is
+[quarton] Ceylan: it? You're looking at our new training regimen. What the
+[quarton] Toxsa: heck's
+[quarton] Ceylan: a
+[quarton] Toxsa: regimen?
+[quarton] Ceylan: You gotta be
+[quarton] Toxsa: kidding!
+[quarton] Ceylan: Look, check out phase one. To improve our agility, we practice jumping over fire. That's supposed to be fire?
+[quarton] Toxsa: Seriously? Pretty funky. What I wanna know is what kind of lame old video chip are you using? Are those 8-bit graphics or-
+[quarton] Ceylan: Never mind, listen- They look more like 2-bit, actually. Next, we work on our balance by climbing into a spare tire and throwing up on ourselves. Yeah,
+[quarton] Toxsa: count
+[quarton] Ceylan: me out. Phase three. We improve our reflexes and reaction time by tying our bikes to the back of a car and let the tenkai towing begin. I hope it's an ambulance. Cause, dude, we're gonna need one. Uh-huh. Come on, you guys! I spent all night working on this!
 [quarton] Gen: That's the sad part.
-[quarton] Guren: Hey, Ged.
+[quarton] Ceylan: Hey, Ged.
 [quarton] Gen: What's
-[quarton] Guren: up?
+[quarton] Ceylan: up?
 [quarton] Gen: More training?
-[quarton] Guren: Yep. That's what Guren calls it. Did you hear about the Guardians? Looks like we're gonna have to fight them now, too.
+[quarton] Ceylan: Yep. That's what Guren calls it. Did you hear about the Guardians? Looks like we're gonna have to fight them now, too.
 [quarton] Gen: If you want, I could show you how to fight them.
-[quarton] Guren: Oh? With what? Hair
-[quarton] Unknown: gel? Funny.
+[quarton] Ceylan: Oh? With what? Hair
+[quarton] Toxsa: gel? Funny.
 [quarton] Gen: No, I'm a black belt in ninja arts.
-[quarton] Unknown: Really? So am I. At least in the online version. No kidding, a black
-[earth] Guren: belt? You must be pretty good then. Gen, could you really teach us?
-[earth] Unknown: Yeah. Ninja arts, huh?
-[earth] Unknown: It's really cool. Ever heard of it? Probably doesn't come up too much in the antiques business.
-[earth] Unknown: Actually, I'm a third level ninja master. What? Alright, boys. Since your friend Gen was kind enough to allow us the use of his master's dojo, you will treat it with respect, you hear? Consider it the first step in your training. Remember the last
-[earth] Unknown: time we trained with Mr. White? Yeah, we ended up disinfecting
-[earth] Unknown: his whole shop. And the toilet. Be quiet. There's no whispering in the dojo. And within these walls, you will address me as Ninja Master. Ninja Master, we seek your wisdom. Indeed.
-[earth] Guren: Yes, Mr. Master. We seek your wisdom totally.
-[earth] Unknown: Let us begin. Please demonstrate the immaculate rice bowl.
+[quarton] Toxsa: Really? So am I. At least in the online version. No kidding, a black
+[earth] Ceylan: belt? You must be pretty good then. Gen, could you really teach us?
+[earth] Mr._White: Yeah. Ninja arts, huh?
+[earth] Toxsa: It's really cool. Ever heard of it? Probably doesn't come up too much in the antiques business.
+[earth] Mr._White: Actually, I'm a third level ninja master. What? Alright, boys. Since your friend Gen was kind enough to allow us the use of his master's dojo, you will treat it with respect, you hear? Consider it the first step in your training. Remember the last
+[earth] Toxsa: time we trained with Mr. White? Yeah, we ended up disinfecting
+[earth] Mr._White: his whole shop. And the toilet. Be quiet. There's no whispering in the dojo. And within these walls, you will address me as Ninja Master. Ninja Master, we seek your wisdom. Indeed.
+[earth] Ceylan: Yes, Mr. Master. We seek your wisdom totally.
+[earth] Mr._White: Let us begin. Please demonstrate the immaculate rice bowl.
 [earth] Gen: Yes, Ninja Master. Listen up. And pay attention. This move should be easy, even for you. Gen, what are these for? In the dojo, you call me Master. Oh. Okay.
-[earth] Guren: Whatever.
+[earth] Ceylan: Whatever.
 [earth] Gen: This disc represents a rice bowl, and you're going to learn how to run without dropping it. But the trick is, you can't use your hands. I'll show you what I mean. I
-[earth] Unknown: get it.
+[earth] Toxsa: get it.
 [earth] Gen: You've
-[earth] Unknown: just gotta run fast enough. Speaking of rice bowls, I'm starved.
-[earth] Guren: Yeah, when do we get a snack break?
+[earth] Toxsa: just gotta run fast enough. Speaking of rice bowls, I'm starved.
+[earth] Ceylan: Yeah, when do we get a snack break?
 [earth] Gen: Quiet. You think this is a joke? You try it, little man.
-[earth] Unknown: Okay, I will. Emo bully. Ready? Watch and learn. Okay. Did you learn anything? I think you just lost your lunch, Toxsa.
-[earth] Unknown: You see, the real secret is not to try, but simply to do. Okay. No trying. Got it. That I can
-[earth] Guren: do.
-[earth] Unknown: It takes more than trying not to try.
-[earth] Guren: Don't
-[earth] Unknown: think.
-[earth] Guren: Don't try.
-[earth] Unknown: Just do.
-[earth] Guren: Hey, dude! You did it! The rice bowl master! And I did it without even trying.
+[earth] Toxsa: Okay, I will. Emo bully. Ready? Watch and learn. Okay. Did you learn anything? I think you just lost your lunch, Toxsa.
+[earth] Mr._White: You see, the real secret is not to try, but simply to do. Okay. No trying. Got it. That I can
+[earth] Ceylan: do.
+[earth] Mr._White: It takes more than trying not to try.
+[earth] Ceylan: Don't
+[earth] Mr._White: think.
+[earth] Ceylan: Don't try.
+[earth] Mr._White: Just do.
+[earth] Ceylan: Hey, dude! You did it! The rice bowl master! And I did it without even trying.
 [earth] Gen: Ninja Master, have I your permission to proceed to the next level of training?
-[earth] Unknown: It's time.
+[earth] Mr._White: It's time.
 [earth] Gen: Prepare
-[earth] Unknown: the gauntlet.
+[earth] Mr._White: the gauntlet.
 [earth] Gen: Hai! Bad
-[earth] Unknown: at all. Now that's an understatement. Can I try, Ninja Master? Don't you dare call me that. I have
+[earth] Toxsa: at all. Now that's an understatement. Can I try, Ninja Master? Don't you dare call me that. I have
 [earth] Gen: not yet earned that title. I'm just a master.
-[earth] Unknown: Man, what a tyrant. Anger
-[earth] Guren: management. Ever tried it? Right. It's like a crooked wind spring. Go, Chook! You're almost there! Hey, it was only a first do. Third time's a charm. Whoops. Clean up on aisle seven. Watch out for that... Oh! Okay. Yeah, you're gone! Okay, my turn! Could
-[earth] Unknown: take a while. Here
-[earth] Guren: we go!
-[quarton] Unknown: I want you to stay and keep at it until you've mastered it. Tomorrow, we will work on your inner strength. Thank you, Ninja Master, sir!
-[quarton] Guren: Oh, yeah! Thank you, sir! Ninja Master!
+[earth] Toxsa: Man, what a tyrant. Anger
+[earth] Ceylan: management. Ever tried it? Right. It's like a crooked wind spring. Go, Chook! You're almost there! Hey, it was only a first do. Third time's a charm. Whoops. Clean up on aisle seven. Watch out for that... Oh! Okay. Yeah, you're gone! Okay, my turn! Could
+[earth] Mr._White: take a while. Here
+[earth] Ceylan: we go!
+[quarton] Mr._White: I want you to stay and keep at it until you've mastered it. Tomorrow, we will work on your inner strength. Thank you, Ninja Master, sir!
+[quarton] Ceylan: Oh, yeah! Thank you, sir! Ninja Master!
 [quarton] Gen: I
-[quarton] Guren: wish I could play with you, Max, but I'm just too...
+[quarton] Ceylan: wish I could play with you, Max, but I'm just too...
 [quarton] Unknown: More homework tonight? My
 [quarton] Vilius: fortress is in there. The Corrupted are bound to find it soon. Then we must attack them before they do. Shouldn't we wait for the Tenkai Knights, Commander? Calm down, Kutor. We don't need the Tenkai Knights' help every time we face the enemy. We can handle this ourselves. Commander, look! Guardian Boreas is here! Shall we still go ahead with the attack? Of course. But let's hope the Knights are standing by. You know, just in case.
-[quarton] Guren: So you too, huh? Yeah. Hey, Ceylan. How are you feeling? Alive, but barely. Hey, guys! What's up? What's wrong with you? Nothing. I just can't move. Chooki, dude, you're not sore at all from that workout? Not a bit. Uh, what move's that, Toxsa? The Angry Chicken. The Gar?
-[quarton] Unknown: It's the I-Can't-Move-Move.
-[quarton] Guren: We're not training again today, are we? Of course. Got to. We have to get stronger if we're ever gonna beat the Guardians. That's
+[quarton] Ceylan: So you too, huh? Yeah. Hey, Ceylan. How are you feeling? Alive, but barely. Hey, guys! What's up? What's wrong with you? Nothing. I just can't move. Chooki, dude, you're not sore at all from that workout? Not a bit. Uh, what move's that, Toxsa? The Angry Chicken. The Gar?
+[quarton] Toxsa: It's the I-Can't-Move-Move.
+[quarton] Ceylan: We're not training again today, are we? Of course. Got to. We have to get stronger if we're ever gonna beat the Guardians. That's
 [quarton] Unknown: the
-[quarton] Guren: spirit! You tell him! Chooki! Oh, sorry. I saw you! You did that on purpose!
-[quarton] Unknown: Yesterday, youth taught you how to harness your physical skills. And today, if you are ready, age will teach you about the powers that lie within you. Ready, Ninja Master? With your feet shoulder-width apart, bend the knees slightly and lower the hips. Now put your hands in front of you, like so, and center your balance. Breathe in through the nose, slow and deep, letting the air fill every corner of your being. Then let it out,
-[quarton] Guren: slowly. Don't
-[quarton] Unknown: think, just do. Feel the flow. There is a living force that flows through everything in the universe. From the highest mountain to the smallest microbe. It flows through all of you, too, of course. Can you feel it? That is Ki. It's called many different things. You Knights are probably familiar with it by another name. Tenkai Energy.
-[quarton] Guren: Really? They're the same?
-[quarton] Unknown: But call this living force what you will. The secret is to feel its flow and become one with it. Let it carry you beyond your doubts and limitations. You may discover powers within yourself you never realized were there. Remember, there is no trying here. Simply doing.
-[quarton] Unknown: That's more like it. I'll take that kind of ninja training any day. It sure beats dropping rice bowls all over the place. You understood all that life energy stuff? Not a word. Don't worry, you don't have to understand it, guys.
-[quarton] Guren: Just feel it. You heard what he said. We may have powers we don't even know about. Hope it's
-[quarton] Unknown: x-ray vision. Or a goblin-proof force field. Looks like we're about to find out. Ready
-[quarton] Guren: or not,
-[quarton] Unknown: here
-[quarton] Guren: we go.
+[quarton] Ceylan: spirit! You tell him! Chooki! Oh, sorry. I saw you! You did that on purpose!
+[quarton] Mr._White: Yesterday, youth taught you how to harness your physical skills. And today, if you are ready, age will teach you about the powers that lie within you. Ready, Ninja Master? With your feet shoulder-width apart, bend the knees slightly and lower the hips. Now put your hands in front of you, like so, and center your balance. Breathe in through the nose, slow and deep, letting the air fill every corner of your being. Then let it out,
+[quarton] Ceylan: slowly. Don't
+[quarton] Mr._White: think, just do. Feel the flow. There is a living force that flows through everything in the universe. From the highest mountain to the smallest microbe. It flows through all of you, too, of course. Can you feel it? That is Ki. It's called many different things. You Knights are probably familiar with it by another name. Tenkai Energy.
+[quarton] Ceylan: Really? They're the same?
+[quarton] Mr._White: But call this living force what you will. The secret is to feel its flow and become one with it. Let it carry you beyond your doubts and limitations. You may discover powers within yourself you never realized were there. Remember, there is no trying here. Simply doing.
+[quarton] Toxsa: That's more like it. I'll take that kind of ninja training any day. It sure beats dropping rice bowls all over the place. You understood all that life energy stuff? Not a word. Don't worry, you don't have to understand it, guys.
+[quarton] Ceylan: Just feel it. You heard what he said. We may have powers we don't even know about. Hope it's
+[quarton] Toxsa: x-ray vision. Or a goblin-proof force field. Looks like we're about to find out. Ready
+[quarton] Ceylan: or not,
+[quarton] Toxsa: here
+[quarton] Ceylan: we go.
 [quarton] Vilius: Tenkai!
-[quarton] Guren: At
+[quarton] Ceylan: At
 [quarton] Vilius: least I certainly hope they're on the way. So, the Tenkai Knights return. Anything damaged, Beak? Only my self-confidence. I was foolish enough to think we could handle Boreas ourselves, but not so much. This
-[quarton] Unknown: is one summons you shouldn't have answered, Knights. You will regret it.
-[quarton] Guren: Alright, let's put our training to use, guys. And unleash
-[quarton] Unknown: the goblin-proof force field within us. And the x
-[quarton] Guren: -ray vision.
-[quarton] Unknown: Remember,
-[quarton] Guren: don't talk. And don't think. Just do. So let's do it! Yeah!
-[quarton] Unknown: If you think the outcome will be different this time, you're right. Guardian Tenkai Megafusion, engage! Made
-[quarton] Unknown: on the otherworld, Knights. This time, there's no running away.
-[quarton] Guren: This is a whole new ballgame. Yeah, we didn't train for this. You're gonna need a bigger rice bowl.
-[quarton] Unknown: Big hand, big hand! The old Boreas was bad enough, but Gigantor Boreas? Forget it! We're not ready for this, Bravenwolf. We don't
-[quarton] Guren: know that! We'll never know what we're capable of if we don't at least try. We can't run away again. Even if he'd let us. Which he won't. Well, there goes my specialty.
-[quarton] Unknown: I don't know what this training is you speak of, but it will do you little good since you can't even shapeshift into titan mode.
-[quarton] Unknown: Stellar landing, but you might want to get up. I don't think he's finished yet. Watch out! What? No, no, no, no, no! Valorn! Okay, this wasn't exactly what I expected to happen!
+[quarton] 4_Guardians: is one summons you shouldn't have answered, Knights. You will regret it.
+[quarton] Ceylan: Alright, let's put our training to use, guys. And unleash
+[quarton] Toxsa: the goblin-proof force field within us. And the x
+[quarton] Ceylan: -ray vision.
+[quarton] Toxsa: Remember,
+[quarton] Ceylan: don't talk. And don't think. Just do. So let's do it! Yeah!
+[quarton] 4_Guardians: If you think the outcome will be different this time, you're right. Guardian Tenkai Megafusion, engage! Made
+[quarton] 4_Guardians: on the otherworld, Knights. This time, there's no running away.
+[quarton] Ceylan: This is a whole new ballgame. Yeah, we didn't train for this. You're gonna need a bigger rice bowl.
+[quarton] Toxsa: Big hand, big hand! The old Boreas was bad enough, but Gigantor Boreas? Forget it! We're not ready for this, Bravenwolf. We don't
+[quarton] Ceylan: know that! We'll never know what we're capable of if we don't at least try. We can't run away again. Even if he'd let us. Which he won't. Well, there goes my specialty.
+[quarton] 4_Guardians: I don't know what this training is you speak of, but it will do you little good since you can't even shapeshift into titan mode.
+[quarton] Toxsa: Stellar landing, but you might want to get up. I don't think he's finished yet. Watch out! What? No, no, no, no, no! Valorn! Okay, this wasn't exactly what I expected to happen!
 [quarton] Vilius: Put him down, Boreas!
-[quarton] Guren: I
-[quarton-battle] Unknown: got him!
-[quarton-battle] Unknown: Vilius will restore the balance, and there's nothing you can do to stop him. If
-[quarton-battle] Guren: it's me you want, come and get me, but let Valorn go!
-[quarton-battle] Unknown: I will after I've crushed him into nothingness. Don't worry about
-[quarton-battle] Guren: me, I'm not under pressure. Oh, that's a lot of pressure! No! Put him down right now, Boreas! No! There
-[quarton-battle] Unknown: is nothing you can do. You're helpless without titan mode. You can't even fully access your tenkai energy, thanks to the seal that Vilius put on it.
-[quarton-battle] Unknown: You're wrong! A living force that flows through everything in the universe. Can you feel it? You may discover powers you never realized
+[quarton] Ceylan: I
+[quarton-battle] Toxsa: got him!
+[quarton-battle] 4_Guardians: Vilius will restore the balance, and there's nothing you can do to stop him. If
+[quarton-battle] Ceylan: it's me you want, come and get me, but let Valorn go!
+[quarton-battle] 4_Guardians: I will after I've crushed him into nothingness. Don't worry about
+[quarton-battle] Ceylan: me, I'm not under pressure. Oh, that's a lot of pressure! No! Put him down right now, Boreas! No! There
+[quarton-battle] 4_Guardians: is nothing you can do. You're helpless without titan mode. You can't even fully access your tenkai energy, thanks to the seal that Vilius put on it.
+[quarton-battle] Mr._White: You're wrong! A living force that flows through everything in the universe. Can you feel it? You may discover powers you never realized
 [quarton-battle] Vilius: were there. I feel it! Tenkai Firestorm Titan Mode is online in operation. Well,
-[quarton-battle] Guren: what are we waiting for? Bravenwolf Tenkai Firestorm!
-[quarton-battle] Guren: Bring it on, Boreas! You
-[quarton-battle] Guren: look so big from up here! You
-[quarton-battle] Unknown: surprise me, Bravenwolf, but you are still a long way from being a match for one of the Guardians. Oh,
-[quarton-battle] Unknown: thanks, this is my floor. So, you think I'm no match for you, huh? Well,
-[quarton] Guren: let's find out. Right... You're
-[quarton] Guren: estimated!
-[quarton] Unknown: Once again, you surprise me. But you've only postponed the inevitable. For the Guardians are eternal, and you will never defeat us. Never! You
-[quarton] Guren: got back your titan mode! Yeah! When do I get mine? I want that upgrade!
-[quarton] Unknown: Definitely!
-[quarton] Unknown: Well done, boys! So, your ninja training came in handy? Sure
-[quarton] Unknown: did! Thanks, Mr. White! So, when do the rest of us get to play the bonus level?
-[quarton] Unknown: Be patient. Now? We've barely even scratched the surface of the things I can teach you. For example, there's the secret ninja art of mastering ambulatory propulsion while simultaneously masticating a non-toxic polymer. Really?
-[quarton] Unknown: That sounds awesome!
-[quarton] Unknown: Well, actually, you probably know it by another name. What's that? It's called walking and chewing gum at the same time. You're a riot. Are you questioning your ninja master? No,
-[quarton] Unknown: ninja master.
+[quarton-battle] Ceylan: what are we waiting for? Bravenwolf Tenkai Firestorm!
+[quarton-battle] Ceylan: Bring it on, Boreas! You
+[quarton-battle] Ceylan: look so big from up here! You
+[quarton-battle] 4_Guardians: surprise me, Bravenwolf, but you are still a long way from being a match for one of the Guardians. Oh,
+[quarton-battle] Toxsa: thanks, this is my floor. So, you think I'm no match for you, huh? Well,
+[quarton] Ceylan: let's find out. Right... You're
+[quarton] Ceylan: estimated!
+[quarton] 4_Guardians: Once again, you surprise me. But you've only postponed the inevitable. For the Guardians are eternal, and you will never defeat us. Never! You
+[quarton] Ceylan: got back your titan mode! Yeah! When do I get mine? I want that upgrade!
+[quarton] Toxsa: Definitely!
+[quarton] Mr._White: Well done, boys! So, your ninja training came in handy? Sure
+[quarton] Toxsa: did! Thanks, Mr. White! So, when do the rest of us get to play the bonus level?
+[quarton] Mr._White: Be patient. Now? We've barely even scratched the surface of the things I can teach you. For example, there's the secret ninja art of mastering ambulatory propulsion while simultaneously masticating a non-toxic polymer. Really?
+[quarton] Toxsa: That sounds awesome!
+[quarton] Mr._White: Well, actually, you probably know it by another name. What's that? It's called walking and chewing gum at the same time. You're a riot. Are you questioning your ninja master? No,
+[quarton] Toxsa: ninja master.

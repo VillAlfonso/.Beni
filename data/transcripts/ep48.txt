@@ -1,142 +1,142 @@
-[quarton] Guren: Guren here, and in case you missed it, we've been searching for the missing Tenkai Stone. It's somewhere here on Earth, but we have no clue who might have it. And it's the key to unsealing the power of the Tenkai Fortress. Meanwhile, we've also been busy defending the fortress itself from the Corrupted. They keep trying to capture it from us, and every time they do, the balance between the two planets gets disrupted, and bad things happen. Like that weird brickification effect that can turn everything on Earth into little bricks. Looks like the fate of both worlds is riding on us. On the brighter side, we got some good news when a surprising new ally showed up to help us in our last battle. Who? Venetta. But it seems we weren't the only ones surprised. I
-[quarton] Vilius: won't stand for it! They don't blame you for being m-m-mad at the Guardians. They really let you down. Not them, you clattering clod! Venetta! The impudent little vixen dares to betray me? After all I've done for her? See, this man is that traitor Dromus! Who thought he would keep the Black Dragon Key all to himself! Wait, that's it? Venetta's found the Tenkai Stone, and is planning to unseal the fortress herself? Yes, that must be it! Well, she will pay. I will have the stone, and my revenge!
-[quarton] Unknown: How in the world are we gonna find this thing?
-[quarton] Guren: I
-[quarton] Unknown: mean, yeah, we know
-[quarton] Guren: what the Tenkai Stone looks like, but that's about it. Maybe it's the same kind of thing as finding the Dragon Key. Remember how we found that?
-[quarton] Unknown: I
-[quarton] Guren: seem to recall something about our pants lighting up. Yeah. When we got close to it, all of our core bricks began to glow. That's it! It's time for a tour of the city!
-[quarton] Unknown: I have
-[quarton] Guren: already
-[quarton] Unknown: seen it.
-[quarton] Guren: Very funny. Come on, saddle up! Okay, we'll divide up the city and form two search parties. Ceylan and I will take the west side, you guys take the east. And no stopping till we find it. Except for snack breaks. Yaaaaaacks! Check in with each other every half hour!
-[quarton] Guren: I heard about you helping the knights in their last battle.
+[quarton] Ceylan: Guren here, and in case you missed it, we've been searching for the missing Tenkai Stone. It's somewhere here on Earth, but we have no clue who might have it. And it's the key to unsealing the power of the Tenkai Fortress. Meanwhile, we've also been busy defending the fortress itself from the Corrupted. They keep trying to capture it from us, and every time they do, the balance between the two planets gets disrupted, and bad things happen. Like that weird brickification effect that can turn everything on Earth into little bricks. Looks like the fate of both worlds is riding on us. On the brighter side, we got some good news when a surprising new ally showed up to help us in our last battle. Who? Venetta. But it seems we weren't the only ones surprised. I
+[quarton] Beag: won't stand for it! They don't blame you for being m-m-mad at the Guardians. They really let you down. Not them, you clattering clod! Venetta! The impudent little vixen dares to betray me? After all I've done for her? See, this man is that traitor Dromus! Who thought he would keep the Black Dragon Key all to himself! Wait, that's it? Venetta's found the Tenkai Stone, and is planning to unseal the fortress herself? Yes, that must be it! Well, she will pay. I will have the stone, and my revenge!
+[quarton] Toxsa: How in the world are we gonna find this thing?
+[quarton] Ceylan: I
+[quarton] Toxsa: mean, yeah, we know
+[quarton] Ceylan: what the Tenkai Stone looks like, but that's about it. Maybe it's the same kind of thing as finding the Dragon Key. Remember how we found that?
+[quarton] Toxsa: I
+[quarton] Ceylan: seem to recall something about our pants lighting up. Yeah. When we got close to it, all of our core bricks began to glow. That's it! It's time for a tour of the city!
+[quarton] Toxsa: I have
+[quarton] Ceylan: already
+[quarton] Toxsa: seen it.
+[quarton] Ceylan: Very funny. Come on, saddle up! Okay, we'll divide up the city and form two search parties. Ceylan and I will take the west side, you guys take the east. And no stopping till we find it. Except for snack breaks. Yaaaaaacks! Check in with each other every half hour!
+[quarton] Slyger: I heard about you helping the knights in their last battle.
 [quarton] Beni: Yeah, well I didn't do it because of them.
-[quarton] Guren: Don't tell me you did it for the Corekai.
+[quarton] Slyger: Don't tell me you did it for the Corekai.
 [quarton] Beni: No. Why then? It's pretty from up here, isn't it?
-[quarton] Guren: What is? The city? I guess.
+[quarton] Ceylan: What is? The city? I guess.
 [quarton] Beni: I used to think it would be fun to watch Benham City get brickified and crumble into pieces. I never really saw how beautiful it is.
-[quarton] Guren: What made you change your mind? Someone
+[quarton] Ceylan: What made you change your mind? Someone
 [quarton] Beni: did something nice for me.
-[earth] Guren: Seriously? That was it?
+[earth] Ceylan: Seriously? That was it?
 [earth] Beni: Funny, isn't it? How the littlest things can change a person's whole point of view. Corny, right? Yeah, well... We
-[earth] Guren: covered a lot of ground today.
-[earth] Unknown: Yeah, I sure did. I'm not a stone to be found. My pants didn't even flicker once. At least we got a good workout. Guess
-[earth] Guren: we'll pick it up tomorrow. Mm-hmm. See you guys then. Hiya, Max. How's it going? Has, uh, Dad come home yet? Hey, what's going on? Dad? How come you're standing in the dark? Vacation. Not
-[earth] Guren: you, Dad. It can't be. Don't worry, Dad. I'm gonna fix this somehow. Your father?
-[earth] Guren: There
-[earth] Guren: must be trouble again on Quarton. And this time the ripple effect has hit very
-[earth] Guren: close to home.
-[earth] Guren: Sorry, guys. I know this is short notice, but it's kind of an emergency. Of course we'll help you, dude. Don't even have to ask, Boyle. Yeah,
-[quarton] Unknown: you got that right. One mind and one team. We're gonna kick their butts for this.
-[quarton] Guren: Right. Let's go save your dad, Guren. Thanks a lot, you guys. Okay, let's get moving. I
-[quarton] Guren: pluck when I capture the Tenkai Fortress myself. Slugger! Huh?
-[quarton] Guren: You're what?
-[earth] Guren: Bravenwolf. That was intense. You want him, dude. If that doesn't unbreak your dad, nothing will. Let's hope so. He's
-[earth] Unknown: supposed to take it. Don't
-[earth] Guren: worry, Guren. We'll get him back to the way he was. Get
-[earth] Guren: away, okay? Careful,
-[earth] Guren: you guys. Stop fooling around. We don't want him to fall. But... Sure, okay, whatever.
-[earth] Unknown: No, Guren. Haven't seen him. Not surprised. What if his dad stays brickified forever? Don't say that. But what if we can't stop it and everything gets brickified, even cheeseburgers?
-[earth] Guren: You're
-[earth] Unknown: not helping,
-[earth] Guren: Toxsa. Come on, we've got to put our heads together. Figure out a way to help Guren and his dad. I'll
-[earth] Guren: fix this, Dad.
-[earth] Guren: I don't know how.
-[earth] Guren: I'll find a way. Maybe
+[earth] Ceylan: covered a lot of ground today.
+[earth] Toxsa: Yeah, I sure did. I'm not a stone to be found. My pants didn't even flicker once. At least we got a good workout. Guess
+[earth] Ceylan: we'll pick it up tomorrow. Mm-hmm. See you guys then. Hiya, Max. How's it going? Has, uh, Dad come home yet? Hey, what's going on? Dad? How come you're standing in the dark? Vacation. Not
+[earth] Ceylan: you, Dad. It can't be. Don't worry, Dad. I'm gonna fix this somehow. Your father?
+[earth] Slyger: There
+[earth] Ceylan: must be trouble again on Quarton. And this time the ripple effect has hit very
+[earth] Slyger: close to home.
+[earth] Ceylan: Sorry, guys. I know this is short notice, but it's kind of an emergency. Of course we'll help you, dude. Don't even have to ask, Boyle. Yeah,
+[quarton] Toxsa: you got that right. One mind and one team. We're gonna kick their butts for this.
+[quarton] Ceylan: Right. Let's go save your dad, Guren. Thanks a lot, you guys. Okay, let's get moving. I
+[quarton] Slyger: pluck when I capture the Tenkai Fortress myself. Slugger! Huh?
+[quarton] Slyger: You're what?
+[earth] Ceylan: Bravenwolf. That was intense. You want him, dude. If that doesn't unbreak your dad, nothing will. Let's hope so. He's
+[earth] Toxsa: supposed to take it. Don't
+[earth] Slyger: worry, Guren. We'll get him back to the way he was. Get
+[earth] Ceylan: away, okay? Careful,
+[earth] Slyger: you guys. Stop fooling around. We don't want him to fall. But... Sure, okay, whatever.
+[earth] Toxsa: No, Guren. Haven't seen him. Not surprised. What if his dad stays brickified forever? Don't say that. But what if we can't stop it and everything gets brickified, even cheeseburgers?
+[earth] Slyger: You're
+[earth] Toxsa: not helping,
+[earth] Slyger: Toxsa. Come on, we've got to put our heads together. Figure out a way to help Guren and his dad. I'll
+[earth] Ceylan: fix this, Dad.
+[earth] Slyger: I don't know how.
+[earth] Ceylan: I'll find a way. Maybe
 [quarton] Beni: I'll try a new look. To go with a new me. Something in baby blue might work.
-[quarton] Vilius: I'd stick with black. Huh? It matches your traitor's heart.
+[quarton] Beag: I'd stick with black. Huh? It matches your traitor's heart.
 [quarton] Beni: What do you mean, traitor to what? You
-[quarton] Vilius: betrayed Vilius when you helped the Knights defeat the Guardians.
+[quarton] Beag: betrayed Vilius when you helped the Knights defeat the Guardians.
 [quarton] Beni: Oh, that.
-[quarton] Vilius: That old trick. There's never anything there. See? I knew it was a trick. Can't believe I fell for it. Oh, no you don't. Stop, Venetta! You can't escape!
-[quarton] Unknown: Bramox! Are you guys pondering what I'm pondering? At least he's chasing someone else this time. She did help us out up on Quarton. Well, if Guren was here, I know what he'd do. Shall we?
-[quarton] Guren: We
-[quarton] Unknown: shall.
-[quarton] Guren: Hope you're a good marathoner, cause I could keep this up for hours!
-[quarton] Vilius: I'm gonna get you, Venetta! And the Tenkai Stone!
-[quarton] Unknown: Well, you're out of luck. I don't have it. Hey, Granox! Nice suit.
-[quarton] Vilius: Hey, I'll take care of you first!
-[quarton] Guren: Doesn't that mean you'd have to catch us?
-[quarton] Vilius: Cowards!
-[quarton] Guren: Go on, we'll hold them off for you. Thanks! When are you gonna learn? You're never gonna catch us!
-[quarton] Vilius: Yeah! You don't think so, huh?
-[quarton] Vilius: He's learning.
-[quarton] Unknown: About time.
-[quarton] Vilius: Now, as you were saying. What were you saying?
-[quarton] Guren: What is it, Chooki? That goonbot, Granox, is here on Earth, and he's after Beni! What? I've got the portal device, and I'm gonna rendezvous with the others. We can sure use your help. You got it! On my way!
-[quarton] Guren: Hang on, Dad. I'll be back.
-[quarton] Vilius: That's too bad. I'm all warmed up and ready to go! No,
-[quarton] Guren: you're not, Granox! Come on, guys. Let's move.
-[quarton] Vilius: No pedestrians have the right of way on this planet. Where'd they
-[quarton] Guren: go? All right. Let's split up.
-[quarton] Guren: Beni
-[quarton] Guren: and I will take the portal device and
-[quarton] Guren: find a good place to hide. Right. Meanwhile, we'll distract Granox long enough for the device to recharge. That's the basic idea. Hate to admit it, but
+[quarton] Beag: That old trick. There's never anything there. See? I knew it was a trick. Can't believe I fell for it. Oh, no you don't. Stop, Venetta! You can't escape!
+[quarton] Toxsa: Bramox! Are you guys pondering what I'm pondering? At least he's chasing someone else this time. She did help us out up on Quarton. Well, if Guren was here, I know what he'd do. Shall we?
+[quarton] Slyger: We
+[quarton] Toxsa: shall.
+[quarton] Slyger: Hope you're a good marathoner, cause I could keep this up for hours!
+[quarton] Beag: I'm gonna get you, Venetta! And the Tenkai Stone!
+[quarton] Toxsa: Well, you're out of luck. I don't have it. Hey, Granox! Nice suit.
+[quarton] Beag: Hey, I'll take care of you first!
+[quarton] Slyger: Doesn't that mean you'd have to catch us?
+[quarton] Beag: Cowards!
+[quarton] Slyger: Go on, we'll hold them off for you. Thanks! When are you gonna learn? You're never gonna catch us!
+[quarton] Beag: Yeah! You don't think so, huh?
+[quarton] Beag: He's learning.
+[quarton] Toxsa: About time.
+[quarton] Beag: Now, as you were saying. What were you saying?
+[quarton] Slyger: What is it, Chooki? That goonbot, Granox, is here on Earth, and he's after Beni! What? I've got the portal device, and I'm gonna rendezvous with the others. We can sure use your help. You got it! On my way!
+[quarton] Ceylan: Hang on, Dad. I'll be back.
+[quarton] Beag: That's too bad. I'm all warmed up and ready to go! No,
+[quarton] Slyger: you're not, Granox! Come on, guys. Let's move.
+[quarton] Beag: No pedestrians have the right of way on this planet. Where'd they
+[quarton] Ceylan: go? All right. Let's split up.
+[quarton] Slyger: Beni
+[quarton] Ceylan: and I will take the portal device and
+[quarton] Slyger: find a good place to hide. Right. Meanwhile, we'll distract Granox long enough for the device to recharge. That's the basic idea. Hate to admit it, but
 [quarton] Beni: I owe you guys one for doing this. By the way, Guren, did little Kiro give you something recently?
-[quarton] Guren: No, but I haven't seen her for a few days.
+[quarton] Ceylan: No, but I haven't seen her for a few days.
 [quarton] Beni: Hmm. Just wondering. It looks like we lost Granox. Huh. I thought
-[quarton] Vilius: you could distract me until that thing warmed up again. Outsmarted you, didn't I? I
-[quarton] Guren: don't know. Let's find out. Beni! Okay, hold still, you bucket of balls.
-[quarton] Guren: Now that's what you call teamwork.
+[quarton] Beag: you could distract me until that thing warmed up again. Outsmarted you, didn't I? I
+[quarton] Slyger: don't know. Let's find out. Beni! Okay, hold still, you bucket of balls.
+[quarton] Ceylan: Now that's what you call teamwork.
 [quarton] Beni: Let's not go overboard. We helped each other out of a jam, that's all. Doesn't mean we're a team. Sorry.
-[quarton-battle] Guren: Not your favorite word. Huh? Being summoned. Maybe this is the battle that will save my dad. I
-[quarton-battle] Vilius: swear I know! We are the last line of defense, Corekai! We must hold our position until... We're here, Beag! The Knights! I knew you'd come. And so did we. We've been waiting for you. That's right. To pay
-[quarton-battle] Guren: you back for defeating us last time. In fact, every time. You've got lots of payback coming.
-[quarton-battle] Vilius: Yeah, and this time we have a master plan. A
-[quarton-battle] Unknown: master plan? More like a disaster plan. Bring it on, bucket heads. Let's go, guys. Level up!
-[quarton-battle] Guren: Bravenwolf! Tenkai Firestorm! Titan Mode! Tributon! Tenkai Ice Blast! Titan Mode! Bravour! Tenkai Aeroblast! Titan Mode! Fly into Tenkai Lightning Strike! Titan Mode! Endgame!
-[quarton-battle] Guren: Tenkai Elemental Titan Bomb! Hmph! Very impressive. Are you done? Can we fight now? Move!
-[quarton-battle] Vilius: Retreat, Slyger! Retreat!
-[quarton-battle] Guren: What? Oh! Oh, that's right! Retreat!
-[quarton-battle] Vilius: Retreat!
-[quarton-battle] Unknown: They're running away.
-[quarton-battle] Guren: That's their master plan? Works for me. We've got to get them for my dad! Right!
-[quarton-battle] Vilius: The knights have chased them off! Now we must do the same with their vile minions. Yeah!
-[quarton-battle] Guren: Careful! Move! There's not a lot of room to maneuver in here. It's like the dungeon
-[quarton-battle] Unknown: crawl in Doom's Floater 5. More like trying to thread a needle with a boa constrictor. You
-[quarton-battle] Guren: know what? I'm starting to wonder if they planned this whole thing. Guren's right! Hold
-[quarton] Guren: up, guys! In these caves, we lose the advantage of speed and maneuverability. What if it's a trap?
+[quarton-battle] Ceylan: Not your favorite word. Huh? Being summoned. Maybe this is the battle that will save my dad. I
+[quarton-battle] Beag: swear I know! We are the last line of defense, Corekai! We must hold our position until... We're here, Beag! The Knights! I knew you'd come. And so did we. We've been waiting for you. That's right. To pay
+[quarton-battle] Slyger: you back for defeating us last time. In fact, every time. You've got lots of payback coming.
+[quarton-battle] Beag: Yeah, and this time we have a master plan. A
+[quarton-battle] Toxsa: master plan? More like a disaster plan. Bring it on, bucket heads. Let's go, guys. Level up!
+[quarton-battle] Slyger: Bravenwolf! Tenkai Firestorm! Titan Mode! Tributon! Tenkai Ice Blast! Titan Mode! Bravour! Tenkai Aeroblast! Titan Mode! Fly into Tenkai Lightning Strike! Titan Mode! Endgame!
+[quarton-battle] Slyger: Tenkai Elemental Titan Bomb! Hmph! Very impressive. Are you done? Can we fight now? Move!
+[quarton-battle] Beag: Retreat, Slyger! Retreat!
+[quarton-battle] Slyger: What? Oh! Oh, that's right! Retreat!
+[quarton-battle] Beag: Retreat!
+[quarton-battle] Toxsa: They're running away.
+[quarton-battle] Slyger: That's their master plan? Works for me. We've got to get them for my dad! Right!
+[quarton-battle] Beag: The knights have chased them off! Now we must do the same with their vile minions. Yeah!
+[quarton-battle] Slyger: Careful! Move! There's not a lot of room to maneuver in here. It's like the dungeon
+[quarton-battle] Toxsa: crawl in Doom's Floater 5. More like trying to thread a needle with a boa constrictor. You
+[quarton-battle] Ceylan: know what? I'm starting to wonder if they planned this whole thing. Guren's right! Hold
+[quarton] Slyger: up, guys! In these caves, we lose the advantage of speed and maneuverability. What if it's a trap?
 [quarton] Beni: Watch
-[quarton] Guren: out! That answers that. Where are they?
-[quarton] Unknown: I see them.
-[quarton] Guren: Eat this! You
-[quarton] Vilius: eat it! Lydendor.
-[quarton] Guren: Oh, no! Guys, you all right? You
-[quarton] Guren: too?
-[quarton] Unknown: Yeah.
-[quarton] Guren: Total systems freeze. There. Don't worry.
-[quarton] Guren: I'll thaw them out. Now you won't!
-[quarton] Guren: Now do you understand now? What's our master plan? Your powers do you little good in this confined space.
-[quarton] Vilius: Here,
-[quarton] Guren: we have the
-[quarton] Vilius: advantage.
-[quarton] Guren: In your dreams, Slyger. Yeah. We'll see about that. Meanwhile, we're stuck here like a couple of frozen turkeys. Don't freak. We'll get out of this. Leak Granox to me. Go for it! What
-[quarton] Guren: do you think of our master plan now?
-[quarton] Vilius: For
-[quarton] Guren: you guys. It's not the lamest. We've defeated the Tenkai Knights!
-[quarton] Vilius: Never thought I'd say this, but I couldn't have done it without you, Slyger.
-[quarton] Guren: Nor I without you, Granox.
-[quarton] Vilius: Oh, well. Let's just say we did it together. Together! Together! We make a great team!
-[quarton] Guren: Please, don't make me barf while I'm lying down.
-[quarton] Vilius: It's over, Tributon. I'm almost sorry to see
-[quarton] Guren: you go. Almost. Don't do it!
-[quarton] Vilius: We're in the what now? Vanessa, you clod!
+[quarton] Slyger: out! That answers that. Where are they?
+[quarton] Toxsa: I see them.
+[quarton] Slyger: Eat this! You
+[quarton] Beag: eat it! Lydendor.
+[quarton] Slyger: Oh, no! Guys, you all right? You
+[quarton] Slyger: too?
+[quarton] Toxsa: Yeah.
+[quarton] Slyger: Total systems freeze. There. Don't worry.
+[quarton] Ceylan: I'll thaw them out. Now you won't!
+[quarton] Slyger: Now do you understand now? What's our master plan? Your powers do you little good in this confined space.
+[quarton] Beag: Here,
+[quarton] Slyger: we have the
+[quarton] Beag: advantage.
+[quarton] Slyger: In your dreams, Slyger. Yeah. We'll see about that. Meanwhile, we're stuck here like a couple of frozen turkeys. Don't freak. We'll get out of this. Leak Granox to me. Go for it! What
+[quarton] Slyger: do you think of our master plan now?
+[quarton] Beag: For
+[quarton] Slyger: you guys. It's not the lamest. We've defeated the Tenkai Knights!
+[quarton] Beag: Never thought I'd say this, but I couldn't have done it without you, Slyger.
+[quarton] Slyger: Nor I without you, Granox.
+[quarton] Beag: Oh, well. Let's just say we did it together. Together! Together! We make a great team!
+[quarton] Slyger: Please, don't make me barf while I'm lying down.
+[quarton] Beag: It's over, Tributon. I'm almost sorry to see
+[quarton] Slyger: you go. Almost. Don't do it!
+[quarton] Beag: We're in the what now? Vanessa, you clod!
 [quarton] Beni: Told you I owed you one. And now I paid you back. The rest is up to you guys.
-[quarton] Unknown: For a pain in the neck, she comes in handy. Let's kick some butt.
-[quarton-battle] Guren: What? No! Game on, Toast of Faith! Me! The Tenkai Titans!
-[quarton-battle] Vilius: What you done? Me? Remember what I say about together? Thanks, Garneha.
-[quarton-battle] Guren: Hey, Valorn, you, uh, got a little freezer burn there on your nose? Okay. Let's
-[quarton-battle] Guren: finish this! It's time to split! It's time to split! No, you don't!
-[quarton-battle] Vilius: It's a master plan! It was as much
-[quarton-battle] Guren: your plan as it was mine! Take it down, Tenkai Titan! Ice blast! This one's for Guren's death! I
-[quarton-battle] Vilius: can't feel my toes! I can't feel your toes either, bro.
-[quarton-battle] Guren: Here. Let me thaw you guys out! Tenkai Titan, fire sword! No! Is
-[earth] Vilius: this part of your master plan? Just drop it, will you?
-[earth] Guren: There. That did it. Now I'll go home and Dad will be back to normal. I hope.
-[earth] Vilius: The Corrupted Army has vanished! That can only mean one thing. Victory! That peculiar noise. Where is it coming from? The fortress! What did it mean?
-[earth] Guren: Dad? Oh,
-[earth] Guren: hey there, Guren. Sorry. I was somewhere else.
-[earth] Guren: Dad! Dad! Wherever you were, I'm glad you're back. You don't know how glad.
-[earth] Guren: Thanks. Glad to hear it. You ready for dinner?
-[earth] Guren: I'm ready. Yeah. Happy? What's your favorite food of all time?
+[quarton] Toxsa: For a pain in the neck, she comes in handy. Let's kick some butt.
+[quarton-battle] Slyger: What? No! Game on, Toast of Faith! Me! The Tenkai Titans!
+[quarton-battle] Beag: What you done? Me? Remember what I say about together? Thanks, Garneha.
+[quarton-battle] Ceylan: Hey, Valorn, you, uh, got a little freezer burn there on your nose? Okay. Let's
+[quarton-battle] Slyger: finish this! It's time to split! It's time to split! No, you don't!
+[quarton-battle] Beag: It's a master plan! It was as much
+[quarton-battle] Slyger: your plan as it was mine! Take it down, Tenkai Titan! Ice blast! This one's for Guren's death! I
+[quarton-battle] Beag: can't feel my toes! I can't feel your toes either, bro.
+[quarton-battle] Slyger: Here. Let me thaw you guys out! Tenkai Titan, fire sword! No! Is
+[earth] Beag: this part of your master plan? Just drop it, will you?
+[earth] Ceylan: There. That did it. Now I'll go home and Dad will be back to normal. I hope.
+[earth] Beag: The Corrupted Army has vanished! That can only mean one thing. Victory! That peculiar noise. Where is it coming from? The fortress! What did it mean?
+[earth] Ceylan: Dad? Oh,
+[earth] Slyger: hey there, Guren. Sorry. I was somewhere else.
+[earth] Ceylan: Dad! Dad! Wherever you were, I'm glad you're back. You don't know how glad.
+[earth] Slyger: Thanks. Glad to hear it. You ready for dinner?
+[earth] Ceylan: I'm ready. Yeah. Happy? What's your favorite food of all time?
