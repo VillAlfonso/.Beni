@@ -5,6 +5,7 @@ import { completeChat } from "../llm/provider.js";
 import { embedPassages } from "../rag/embedder.js";
 import { toBlob } from "../core/vector.js";
 import { pathToRoot } from "../core/tree.js";
+import { parseOpinion } from "../prompt/builder.js";
 
 const EVERY_N_MESSAGES = 8;
 const WINDOW = 12;
@@ -83,5 +84,61 @@ export async function maybeExtract(db: Db, chatId: string): Promise<void> {
     });
   } catch (err) {
     console.warn("memory extraction skipped:", (err as Error).message);
+  }
+}
+
+const OPINION_WINDOW = 10;
+
+/**
+ * Re-judge Beni's read on the other person from the recent exchange.
+ * Fire-and-forget, like maybeExtract. Runs after every reply — first
+ * impressions move fast, and hers are sharp.
+ */
+export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> {
+  try {
+    const chat = db.prepare("SELECT head_message_id h, opinion FROM chats WHERE id=?").get(chatId) as
+      | { h: string | null; opinion: string | null }
+      | undefined;
+    if (!chat?.h) return;
+    const path = pathToRoot(db, chat.h);
+    if (path.filter((m) => m.role === "user").length < 1) return;
+
+    const settings = getSettings(db);
+    const current = parseOpinion(chat.opinion);
+    const excerpt = path
+      .slice(-OPINION_WINDOW)
+      .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Them"}: ${m.content}`)
+      .join("\n");
+
+    const raw = await completeChat(
+      [
+        {
+          role: "system",
+          content:
+            "You track what Beni (sharp, guarded, 13, excellent judge of people) privately thinks of the person she's talking to. " +
+            `Her current read: ${JSON.stringify(current)}. From the excerpt, update it. ` +
+            'Label: a few blunt words in her voice ("a stranger", "boring", "kind of interesting", "a total creep", "dangerous", "annoying but harmless", "okay, actually"). ' +
+            "Note: one short reason. Guard 0-3: 0 earned ease, 1 default wariness toward strangers, 2 on edge, 3 creep/threat — get away. " +
+            "Move gradually; trust is slow, alarm can be instant. Asking her out, personal probing, or contact from a stranger raises guard. " +
+            'Respond ONLY with JSON: {"label":"...","note":"...","guard":1}'
+        },
+        { role: "user", content: excerpt }
+      ],
+      {
+        baseUrl: settings.utility.baseUrl,
+        apiKey: settings.utility.apiKey,
+        model: settings.utility.model,
+        temperature: 0.2,
+        maxTokens: 120,
+        topP: 0.9
+      }
+    );
+    const match = raw.match(/\{[\s\S]*\}/);
+    if (!match) return;
+    const next = parseOpinion(match[0]);
+    if (!next.label.trim()) return;
+    db.prepare("UPDATE chats SET opinion=? WHERE id=?").run(JSON.stringify(next), chatId);
+  } catch (err) {
+    console.warn("opinion update skipped:", (err as Error).message);
   }
 }

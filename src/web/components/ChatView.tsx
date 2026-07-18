@@ -132,6 +132,13 @@ export function ChatView() {
         <span className="chip">
           {state.chat.mode === "story" ? `story · after ep ${state.chat.story_episode}` : `knows ≤ ep ${state.chat.episode_cap === 999 ? "end" : state.chat.episode_cap}`}
         </span>
+        {(() => {
+          try {
+            const o = JSON.parse(state.chat.opinion || "");
+            if (o?.label) return <span className="chip" title={o.note || "her private read on you"}>her read: {o.label}</span>;
+          } catch { /* no opinion yet */ }
+          return null;
+        })()}
         <span className="spacer" />
         <button
           className={state.branchUi ? "iconbtn on" : "iconbtn"}

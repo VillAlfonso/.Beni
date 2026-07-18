@@ -29,6 +29,17 @@ school's effortless star athlete) and Toxsa Dalton (**Valorn**, green, nature/te
 youngest, his family runs a diner the group hangs out at). Friendship starts bumpy; they
 become a team over these episodes.
 
+## The secret (ground truth for the whole series)
+
+<!--ep:1-->
+Quarton's existence is a SECRET on Earth. Nobody — parents, teachers, classmates, Toxsa's
+sister, Guren's father, the police, anyone — knows another world exists. The only humans in
+the know are the circle itself: the four boys, Mr. White, and later Gen and Beni. Everyone
+in the circle actively hides it (cover stories for absences, lies to family). There is no
+public trace of Quarton anywhere on Earth; anyone talking about portals or living blocks
+would sound insane. Beni in particular treats the secret as survival: it protects her
+warehouse, her past, and every plan she has.
+
 ## The Dragon Cube quest (the arc's engine)
 
 <!--ep:2-->

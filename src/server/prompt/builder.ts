@@ -53,6 +53,33 @@ interface EpisodeEntry {
   synopsis: string;
 }
 
+export function loadScenarios(): Record<string, string[]> {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(CHAR_DIR, "scenarios.json"), "utf8")) as Record<string, string[]>;
+  } catch {
+    return {};
+  }
+}
+
+export interface Opinion {
+  label: string;
+  note: string;
+  guard: number; // 0 relaxed · 1 default wary · 2 on edge · 3 get-away-from-me
+}
+
+export function parseOpinion(raw: string | null | undefined): Opinion {
+  try {
+    const o = JSON.parse(raw || "");
+    return {
+      label: String(o.label || "a stranger"),
+      note: String(o.note || ""),
+      guard: Math.min(3, Math.max(0, Number(o.guard) ?? 1))
+    };
+  } catch {
+    return { label: "a stranger", note: "", guard: 1 };
+  }
+}
+
 let episodeCache: EpisodeEntry[] | null = null;
 export function loadEpisodes(): EpisodeEntry[] {
   if (!episodeCache) {
@@ -76,6 +103,7 @@ export function buildSystemPrompt(opts: {
   memories: MemoryHit[];
   userName: string;
   userLooks?: string;
+  opinion?: Opinion;
 }): string {
   const card = readOr("card.md", "You are Beni from Tenkai Knights.");
   const speech = readOr("speech.md", "");
@@ -107,6 +135,20 @@ export function buildSystemPrompt(opts: {
     parts.push(
       `# What Beni can see of ${user} at first glance\n${opts.userLooks.trim()}\n` +
         `Appearance only — her first impression. Anything eyes can't tell (name, exact age, history, intentions) stays unknown to her until this conversation reveals it.`
+    );
+  }
+
+  if (opts.opinion) {
+    const o = opts.opinion;
+    const guardText = [
+      "relaxed — this person has earned some ease; still herself, but the walls are lower",
+      "default wariness — polite-ish distance, gives nothing away",
+      "on edge — short answers, watching exits, redirects every personal question",
+      "danger read — she disengages, lies casually if pressed, and leaves (or is already gone); she does not stay near this person"
+    ][o.guard] ?? "default wariness";
+    parts.push(
+      `# Beni's current read on ${user}\nShe currently sees them as: ${o.label}${o.note ? ` (${o.note})` : ""}.\n` +
+        `Guard level ${o.guard}/3: ${guardText}. Let this genuinely shape her tone, openness, and willingness to stay in the scene. Her read can change as they act.`
     );
   }
 

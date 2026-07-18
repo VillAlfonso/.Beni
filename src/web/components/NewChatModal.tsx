@@ -8,8 +8,21 @@ export function NewChatModal() {
   const [stageId, setStageId] = useState(stages[stages.length - 1]?.id ?? "");
   const [episode, setEpisode] = useState<number>(14);
   const [title, setTitle] = useState("");
-  const [userLooks, setUserLooks] = useState("");
+  const [lookGender, setLookGender] = useState("");
+  const [lookAge, setLookAge] = useState("");
+  const [lookHeight, setLookHeight] = useState("");
+  const [lookLevel, setLookLevel] = useState("");
+  const [lookExtra, setLookExtra] = useState("");
   const [busy, setBusy] = useState(false);
+
+  const composedLooks = [
+    lookHeight,
+    lookLevel,
+    lookAge && lookGender ? `${lookAge} ${lookGender}` : lookAge || lookGender,
+    lookExtra.trim()
+  ]
+    .filter(Boolean)
+    .join(", ");
 
   const stage = stages.find((s) => s.id === stageId) ?? stages[0];
 
@@ -27,7 +40,7 @@ export function NewChatModal() {
         mode,
         stageId: mode === "story" ? stageForEpisode.id : stageId,
         storyEpisode: mode === "story" ? episode : undefined,
-        userLooks: userLooks.trim() || undefined
+        userLooks: composedLooks || undefined
       });
     } finally {
       setBusy(false);
@@ -99,11 +112,42 @@ export function NewChatModal() {
 
         <div className="field">
           <label>You in this chat — what she can see at a glance (optional)</label>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+            <select value={lookGender} onChange={(e) => setLookGender(e.target.value)}>
+              <option value="">reads as…</option>
+              <option value="guy">a guy</option>
+              <option value="girl">a girl</option>
+              <option value="hard to tell">hard to tell</option>
+            </select>
+            <select value={lookAge} onChange={(e) => setLookAge(e.target.value)}>
+              <option value="">looks like…</option>
+              <option value="a kid">a kid</option>
+              <option value="her age">around her age</option>
+              <option value="an older teen">an older teen</option>
+              <option value="a young adult">a young adult</option>
+              <option value="an adult">an adult</option>
+            </select>
+            <select value={lookHeight} onChange={(e) => setLookHeight(e.target.value)}>
+              <option value="">height…</option>
+              <option value="short">short</option>
+              <option value="average height">average height</option>
+              <option value="tall">tall</option>
+            </select>
+            <select value={lookLevel} onChange={(e) => setLookLevel(e.target.value)}>
+              <option value="">looks…</option>
+              <option value="plain-looking">plain</option>
+              <option value="average-looking">average</option>
+              <option value="good-looking">good-looking</option>
+              <option value="striking">striking</option>
+            </select>
+          </div>
           <input
-            value={userLooks}
-            onChange={(e) => setUserLooks(e.target.value)}
-            placeholder="e.g. short girl her age, freckles, denim jacket — blank uses Settings"
+            style={{ marginTop: 6 }}
+            value={lookExtra}
+            onChange={(e) => setLookExtra(e.target.value)}
+            placeholder="extras: hair, clothes, vibe… (blank = Settings default)"
           />
+          {composedLooks && <span className="hint">She'll see: {composedLooks}</span>}
         </div>
 
         <div style={{ display: "flex", justifyContent: "flex-end", gap: 10 }}>

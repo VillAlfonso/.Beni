@@ -2,14 +2,14 @@ import { Router } from "express";
 import type { Db } from "../db.js";
 import { newId } from "../db.js";
 import { pathToRoot, siblingsOf, forkChat, setHead, getMessage, latestLeafFrom } from "../core/tree.js";
-import { loadStages, getStage } from "../prompt/builder.js";
+import { loadStages, getStage, loadScenarios } from "../prompt/builder.js";
 
 export function chatsRouter(db: Db): Router {
   const r = Router();
 
   r.get("/chats", (_req, res) => {
     const rows = db
-      .prepare("SELECT id,title,mode,stage_id,episode_cap,story_episode,forked_from,updated_at FROM chats ORDER BY updated_at DESC")
+      .prepare("SELECT id,title,mode,stage_id,episode_cap,story_episode,forked_from,opinion,updated_at FROM chats ORDER BY updated_at DESC")
       .all();
     res.json(rows);
   });
@@ -24,16 +24,20 @@ export function chatsRouter(db: Db): Router {
     const id = newId();
     const now = Date.now();
     const userLooks = String(b.userLooks ?? "").trim() || null;
+    const opinion = JSON.stringify({ label: "a stranger", note: "", guard: 1 });
     db.prepare(
-      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?)"
-    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, now, now);
+      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,opinion,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)"
+    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, opinion, now, now);
 
-    // Beni opens the chat in-character with the stage greeting.
-    if (stage.greeting) {
+    // Opening scene: she's minding her own business — the player sees her first.
+    // Rolled at random per chat from the stage's scenario pool; stage greeting is the fallback.
+    const pool = loadScenarios()[stage.id] ?? [];
+    const opening = pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : stage.greeting;
+    if (opening) {
       const mid = newId();
       db.prepare(
         "INSERT INTO messages(id,chat_id,parent_id,role,content,created_at,meta) VALUES(?,?,?,?,?,?,?)"
-      ).run(mid, id, null, "assistant", stage.greeting, now, JSON.stringify({ greeting: true }));
+      ).run(mid, id, null, "assistant", opening, now, JSON.stringify({ greeting: true }));
       setHead(db, id, mid);
     }
     res.json({ id });

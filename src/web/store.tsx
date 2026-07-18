@@ -9,6 +9,7 @@ export interface ChatSummary {
   episode_cap: number;
   story_episode: number | null;
   forked_from: string | null;
+  opinion?: string | null;
   updated_at: number;
 }
 
