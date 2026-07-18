@@ -80,6 +80,54 @@ export function parseOpinion(raw: string | null | undefined): Opinion {
   }
 }
 
+export interface StoryPressure {
+  who: string;
+  why: string;
+  start: number;
+}
+export interface StageStoryInfo {
+  busy: string;
+  watchers: StoryPressure[];
+  stakes: string;
+}
+export function loadStoryPressures(): Record<string, StageStoryInfo> {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(CHAR_DIR, "story-pressures.json"), "utf8")) as Record<string, StageStoryInfo>;
+  } catch {
+    return {};
+  }
+}
+
+export interface WorldState {
+  divergence: "none" | "minor" | "major";
+  clock: { day: number; timeOfDay: string };
+  pressures: { who: string; level: number; note: string }[];
+  events: string[];
+  beni: string; // her current condition/preoccupation in one line
+}
+
+export function parseWorld(raw: string | null | undefined): WorldState | null {
+  if (!raw) return null;
+  try {
+    const w = JSON.parse(raw);
+    return {
+      divergence: ["none", "minor", "major"].includes(w.divergence) ? w.divergence : "none",
+      clock: { day: Math.max(1, Number(w.clock?.day) || 1), timeOfDay: String(w.clock?.timeOfDay || "afternoon") },
+      pressures: Array.isArray(w.pressures)
+        ? w.pressures.slice(0, 6).map((p: Record<string, unknown>) => ({
+            who: String(p.who || ""),
+            level: Math.min(3, Math.max(0, Number(p.level) || 0)),
+            note: String(p.note || "")
+          }))
+        : [],
+      events: Array.isArray(w.events) ? w.events.slice(-12).map(String) : [],
+      beni: String(w.beni || "")
+    };
+  } catch {
+    return null;
+  }
+}
+
 let episodeCache: EpisodeEntry[] | null = null;
 export function loadEpisodes(): EpisodeEntry[] {
   if (!episodeCache) {
@@ -104,6 +152,7 @@ export function buildSystemPrompt(opts: {
   userName: string;
   userLooks?: string;
   opinion?: Opinion;
+  world?: WorldState | null;
 }): string {
   const card = readOr("card.md", "You are Beni from Tenkai Knights.");
   const speech = readOr("speech.md", "");
@@ -117,13 +166,38 @@ export function buildSystemPrompt(opts: {
   parts.push(`# Where Beni is in her story right now\n${stageBody}`);
 
   if (opts.mode === "story" && opts.storyEpisode) {
-    const ep = loadEpisodes().find((e) => e.no === opts.storyEpisode);
+    const eps = loadEpisodes();
+    const ep = eps.find((e) => e.no === opts.storyEpisode);
+    const next = eps.find((e) => e.no === (opts.storyEpisode ?? 0) + 1);
     if (ep) {
       parts.push(
-        `# Current point in the show\nThis roleplay happens within the events of the show, just after episode ${ep.no}, "${ep.title}".` +
+        `# Current point in the show — ALTERNATE TIMELINE\nThis roleplay begins just after episode ${ep.no}, "${ep.title}".` +
           (ep.synopsis ? ` What just happened: ${ep.synopsis}` : "") +
-          `\nStay consistent with the show's continuity up to this point. Events after episode ${ep.no} have not happened and Beni cannot know about them.`
+          `\nCanon from here is a TRAJECTORY, not a script: the war continues, characters pursue their goals, and canon events tend to happen on schedule — unless this timeline's own events bend or delay them. ${user}'s presence and choices are real interference; let consequences follow naturally. Beni cannot know events beyond episode ${ep.no}.`
       );
+      if (next?.synopsis) {
+        parts.push(
+          `# The world's momentum (DIRECTOR-ONLY — Beni knows none of this)\nIf nothing bends the timeline, roughly this comes next: ${next.synopsis.slice(0, 400)}\nUse this only to steer background events and NPC behavior plausibly. Beni has no knowledge or premonition of any of it.`
+        );
+      }
+      const info = loadStoryPressures()[opts.stageId];
+      if (info) {
+        parts.push(
+          `# Her life right now (story mode — her time is REAL)\nHow busy she is: ${info.busy}\nWho notices where her time goes: ${info.watchers.map((w) => `${w.who} — ${w.why}`).join(" | ")}\nWhat's at stake if she's distracted: ${info.stakes}\nShe is focused and smart, and she VALUES HER TIME. Missions and obligations outrank a stranger; free time is when longer scenes with ${user} plausibly happen. She may be called away mid-scene (Quarton summons, a job, a watcher checking in) — that is normal life in this timeline, not rudeness.`
+        );
+      }
+      if (opts.world) {
+        const w = opts.world;
+        parts.push(
+          `# This timeline so far (world state)\nDay ${w.clock.day}, ${w.clock.timeOfDay}. Divergence from canon: ${w.divergence}.` +
+            (w.beni ? `\nBeni right now: ${w.beni}` : "") +
+            (w.pressures.length
+              ? `\nPressure levels (0 calm → 3 acting on it): ${w.pressures.map((p) => `${p.who} ${p.level}/3${p.note ? ` (${p.note})` : ""}`).join("; ")}`
+              : "") +
+            (w.events.length ? `\nWhat has happened in this timeline:\n${w.events.map((e) => `- ${e}`).join("\n")}` : "") +
+            `\nHigh-pressure watchers act on it in-scene (a text from Gen, Granox lurking, a summons). Off-screen, the world kept moving.`
+        );
+      }
     }
   } else {
     parts.push(

@@ -5,7 +5,7 @@ import { completeChat } from "../llm/provider.js";
 import { embedPassages } from "../rag/embedder.js";
 import { toBlob } from "../core/vector.js";
 import { pathToRoot } from "../core/tree.js";
-import { parseOpinion } from "../prompt/builder.js";
+import { parseOpinion, parseWorld, loadStoryPressures } from "../prompt/builder.js";
 
 const EVERY_N_MESSAGES = 8;
 const WINDOW = 12;
@@ -115,11 +115,11 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
         {
           role: "system",
           content:
-            "You track what Beni (sharp, guarded, 13, excellent judge of people) privately thinks of the person she's talking to. " +
+            "You track what Beni (sharp, guarded, 13, excellent judge of people, values her time) privately thinks of the person she's talking to. " +
             `Her current read: ${JSON.stringify(current)}. From the excerpt, update it. ` +
-            'Label: a few blunt words in her voice ("a stranger", "boring", "kind of interesting", "a total creep", "dangerous", "annoying but harmless", "okay, actually"). ' +
+            'Label: a few blunt words in her voice ("a stranger", "boring", "kind of interesting", "a loser", "a desperate loser", "a simp", "a hopeless simp", "an absolute creep", "dangerous", "annoying but harmless", "useful — easy to manipulate", "okay, actually"). ' +
             "Note: one short reason. Guard 0-3: 0 earned ease, 1 default wariness toward strangers, 2 on edge, 3 creep/threat — get away. " +
-            "Move gradually; trust is slow, alarm can be instant. Asking her out, personal probing, or contact from a stranger raises guard. " +
+            "Move gradually; trust is slow, alarm can be instant. A stranger approaching her at all reads as suspicious (\"probably hitting on me — typical\"). Instant asks (dates, personal info, contact) → desperate/creep territory. Someone eager to please and easy to steer can earn \"useful — easy to manipulate\" — she files people like that as assets, not friends. " +
             'Respond ONLY with JSON: {"label":"...","note":"...","guard":1}'
         },
         { role: "user", content: excerpt }
@@ -140,5 +140,69 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
     db.prepare("UPDATE chats SET opinion=? WHERE id=?").run(JSON.stringify(next), chatId);
   } catch (err) {
     console.warn("opinion update skipped:", (err as Error).message);
+  }
+}
+
+const WORLD_WINDOW = 12;
+
+/**
+ * Story-mode world ticker: after each exchange, advance the living timeline —
+ * clock, watcher pressures, off-screen developments, divergence from canon.
+ * Fire-and-forget like the others.
+ */
+export async function maybeTickWorld(db: Db, chatId: string): Promise<void> {
+  try {
+    const chat = db
+      .prepare("SELECT head_message_id h, mode, stage_id, story_episode, world FROM chats WHERE id=?")
+      .get(chatId) as
+      | { h: string | null; mode: string; stage_id: string; story_episode: number | null; world: string | null }
+      | undefined;
+    if (!chat?.h || chat.mode !== "story") return;
+    const world = parseWorld(chat.world);
+    if (!world) return;
+
+    const settings = getSettings(db);
+    const info = loadStoryPressures()[chat.stage_id];
+    const path = pathToRoot(db, chat.h);
+    const excerpt = path
+      .slice(-WORLD_WINDOW)
+      .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Player"}: ${m.content}`)
+      .join("\n");
+
+    const raw = await completeChat(
+      [
+        {
+          role: "system",
+          content:
+            "You are the world-ticker for an alternate-timeline roleplay set inside the Tenkai Knights story, " +
+            `just after episode ${chat.story_episode}. Current world state: ${JSON.stringify(world)}. ` +
+            (info ? `Era pressures: busy=${info.busy} watchers=${info.watchers.map((w) => w.who).join(",")} stakes=${info.stakes} ` : "") +
+            "From the excerpt, update the state: advance clock only when scene time actually passes (day increments on explicit skips/sleep); " +
+            "raise a watcher's level when Beni neglects obligations or acts out of pattern, lower it when she covers her tracks; " +
+            "append at most 1-2 SHORT new events (things that happened, on-screen or plausibly off-screen); " +
+            "set divergence minor/major only when canon events are genuinely bent; keep 'beni' as one line on her condition/preoccupation. " +
+            "Be conservative — most exchanges change little. " +
+            'Respond ONLY with the full updated JSON, same shape: {"divergence":"none","clock":{"day":1,"timeOfDay":"afternoon"},"pressures":[{"who":"Gen","level":1,"note":""}],"events":["..."],"beni":"..."}'
+        },
+        { role: "user", content: excerpt }
+      ],
+      {
+        baseUrl: settings.utility.baseUrl,
+        apiKey: settings.utility.apiKey,
+        model: settings.utility.model,
+        temperature: 0.2,
+        maxTokens: 350,
+        topP: 0.9
+      }
+    );
+    const match = raw.match(/\{[\s\S]*\}/);
+    if (!match) return;
+    const next = parseWorld(match[0]);
+    if (!next) return;
+    // events only grow (the ticker may not rewrite history), capped by parseWorld
+    if (next.events.length < Math.min(world.events.length, 10)) next.events = [...world.events, ...next.events].slice(-12);
+    db.prepare("UPDATE chats SET world=? WHERE id=?").run(JSON.stringify(next), chatId);
+  } catch (err) {
+    console.warn("world tick skipped:", (err as Error).message);
   }
 }

@@ -5,6 +5,17 @@ kind: analysis
 episode: null
 ---
 
+## What this arc IS (frame)
+
+<!--ep:27-->
+The **brickification of Earth** arc: with Vilius controlling the corrupted Guardians he
+gains their transporter — which is how **Granox and Slyger reach Earth** in human-ish forms
+to haunt the Knights on their home ground, and how the war starts physically leaking into
+Benham City. Beni's role here is *free agent who assists* — she helps Granox and Slyger
+adjust to Earth and run their missions (her own choice of amusement and positioning, not
+direct employment; she's playing it passive, keeping options open). Vilius reveals his
+larger motivations in ep 27.
+
 ## The breakup that starts it (ep 26)
 
 <!--ep:26-->
@@ -14,9 +25,10 @@ klutz who managed to lose the Black Dragon Key! … Why is it that boys always m
 up?" Gen doesn't fight back. He simply leaves: "Maybe you're right. I won't get in your way
 anymore. From now on, Beni, you go your way and I'll go mine." Her reply — "Hang on,
 Dromus! I didn't mean to… Wait!" — is the one time her mask fails completely. Her sharp
-tongue cost her the only partnership she had. Gen turns toward redemption (he decides to
-defeat the Dragon rather than own it, fights beside the Knights this once); Beni goes
-rogue, alone.
+tongue is the surface of the moment — but the real split is allegiance: Gen chooses the
+Knights' side and redemption; Beni doesn't want redemption, she wants the world to burn,
+and it never mattered to her who lit the match. With Gen gone to the other side, she stays
+on destruction's side of the board — alone.
 
 <!--ep:26-->
 The Knights defeat the evil Tenkai Dragon and Vilius with it (his second defeat). Gen is

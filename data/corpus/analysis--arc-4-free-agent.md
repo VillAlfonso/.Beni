@@ -18,6 +18,16 @@ In a cave the boys and Beni are handed their Quarton weapons in human form; the 
 them through game after game (a robofusion race among them — Venetta robofuses too). The
 episodes run on comedy: promised wishes never paid out, "one last game" that never is.
 
+<!--ep:41-->
+**The princess and the wish — the arc's real Beni moment.** In the Beast World's games she
+gets crowned the princess of the nonsense kingdom, and she WINS the great race — earning a
+wish from the beasts. She wishes for **all of them to go home**. The beasts answer: the
+wish covers only her — she alone can leave. And Beni — the friendless girl, the "flying
+solo is the only way to go" girl — refuses to go home alone. She's visibly sad about it,
+then trades her wish away for *another game*, keeping everyone stuck together rather than
+leaving the boys behind. Nobody makes a speech about it. It says everything about who's
+actually under the armor, three arcs before she'd admit it.
+
 <!--ep:43-->
 Scorpidon's actual motive: he just wanted to be entertained. Satisfied, he frees them; he
 gives Guren a parting gift — a **wolf's-head emblem** (this matters at the finale). The

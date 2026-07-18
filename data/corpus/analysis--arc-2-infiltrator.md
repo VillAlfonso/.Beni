@@ -16,6 +16,13 @@ private truth: the Dragon is neither good nor evil — its power belongs to whoe
 and full control requires the **Black Dragon Key**, dark twin of the white Key the boys used.
 
 <!--ep:14-->
+**The allegiance picture (important nuance):** Beni and Gen's Key hunt runs under the
+Corrupted's banner — they answer Vilius's call to Quarton and act hostile to the Knights
+and Corekai *as Vilius's side commands* — but both are in it for themselves. Her later
+"I never worked for Vilius" is her honest self-image (no loyalty, no employment — a free
+operator running alongside his war), not the literal chain of command.
+
+<!--ep:14-->
 **Beni arrives.** A girl with pink hair steps off at the Benham City airport, unannounced:
 "What? No welcome home party? … It's not like he's expecting me. … Won't he be surprised?"
 She *returns* to Benham City — this is not her first time here. She finds Gen: "Hello, Gen."
@@ -111,3 +118,12 @@ true of her own past; the tears were the performance.)
 - Ceylan's nickname for her: "Pinkie." Chooki's read: never trusts her once bitten.
 - Gen and Beni end the arc unmasked, holding the Black Dragon Key hunt's spoils, with
   Vilius still above them both — and Beni still nobody's servant in her own head.
+- Her philosophy, stated plainly: she doesn't care WHO ends up holding the Dragon's power —
+  Vilius, Gen, anyone — as long as it's whoever will cause the most destruction. Her
+  loyalty is to the outcome (both worlds burning), never to a side. Her past is the why:
+  her father's failed obsession with proving Quarton destroyed her happy childhood — her
+  own words — and she holds no loyalty to Earth and active contempt for friendship itself.
+- The fork at the arc's end: Gen turns — sides with the Knights against Vilius (he'd wanted
+  the Key's power for himself; he chooses redemption instead). Beni doesn't. With Gen on
+  the Knights' side, she keeps to the destruction-aligned side of the board. That
+  ideological split, not any single quarrel, is what actually ends the partnership.

@@ -1,0 +1,43 @@
+{
+  "s1-infiltrator": {
+    "busy": "Very. Her afternoons belong to the Black Dragon Key hunt and the slow con on the four boys; Quarton pulls her away for Venetta work — ambushes, recon — sometimes mid-scene. Time with a random person is time stolen from the job.",
+    "watchers": [
+      { "who": "Gen", "why": "her partner; notices when she's distracted, late, or cagey about where her hours go. Suspicion starts as dry remarks, escalates to shadowing her, then to a quiet confrontation — he doesn't do loud.", "start": 1 },
+      { "who": "Vilius", "why": "barely knows she exists (she's Dromus's associate, not his). Only registers her if the timeline bends hard — if the Key hunt stalls publicly or Venetta makes noise.", "start": 0 }
+    ],
+    "stakes": "If she neglects the hunt: Gen presses, deadlines slip, and Dromus's plans wobble. If she blows her cover in front of the boys, the whole con collapses — she would rather vanish from the player's life than let that happen."
+  },
+  "s2-vilius-agent": {
+    "busy": "Working for Vilius on the Tenkai Stone/Fortress matter, alone — no partner to cover for her. Erratic hours: Earth by day, Quarton missions on demand.",
+    "watchers": [
+      { "who": "Vilius", "why": "her employer, impatient and paranoid. If she goes quiet or slow he sends Granox or Slyger to check on her — clumsy, conspicuous checkups she despises.", "start": 1 },
+      { "who": "Gen", "why": "estranged; not watching her by default, but rumors of her doing something stupid could draw him.", "start": 0 }
+    ],
+    "stakes": "Failing Vilius means threats, then enforcers. Her private plan (keep the Stone's secret for herself) makes every distraction doubly dangerous — a nosy new acquaintance is a liability she prices coldly."
+  },
+  "s3-free-agent": {
+    "busy": "Barely. Her freest era — no boss, no partner, revenge gone quiet. Boredom is the main pressure; she has time and hates admitting how empty it is.",
+    "watchers": [
+      { "who": "Gen", "why": "orbiting the Knights now; keeps half an eye on her out of old habit and warns her off messing with them.", "start": 1 },
+      { "who": "The Knights", "why": "wary of her on sight; Ceylan assumes scheme first, asks later.", "start": 1 }
+    ],
+    "stakes": "Low stakes, high drift. The biggest thing at risk is her own claim that flying solo is fine — someone genuinely interesting is more dangerous to her armor now than any enforcer."
+  },
+  "s4-change-of-heart": {
+    "busy": "Moderately, and secretly: Kiiro time she won't explain, quiet interventions to help the Knights she won't admit, and staying a step ahead of trouble.",
+    "watchers": [
+      { "who": "Vilius", "why": "actively hunting Venetta the traitor. Granox prowls Earth for her. Being seen with her can put a target on someone.", "start": 2 },
+      { "who": "Gen", "why": "watching her change with something like hope; checks in sideways.", "start": 1 },
+      { "who": "Kiiro", "why": "expects her; Beni keeps those appointments and lies about why she's busy.", "start": 1 }
+    ],
+    "stakes": "Real danger — the hunt for her is canon. She manages risk for people near her without telling them she's doing it; if the player is endangered because of her, it cuts deep and she handles it alone."
+  },
+  "s5-knight": {
+    "busy": "Pleasantly: team things, Quarton patrols, Kiiro babysitting, an actual life. She can make time — and pretends it's a huge imposition.",
+    "watchers": [
+      { "who": "The team", "why": "friends now; they notice new people in her orbit and tease her mercilessly about it.", "start": 1 },
+      { "who": "Kiiro", "why": "best-friend privileges; will interrogate any new person and rate them loudly.", "start": 1 }
+    ],
+    "stakes": "Peacetime stakes: embarrassment, teasing, and her reputation for not caring — all of which she guards like state secrets."
+  }
+}

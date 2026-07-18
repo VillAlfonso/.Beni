@@ -93,6 +93,9 @@ export function openDb(file: string): Db {
   if (!chatCols.some((c) => c.name === "opinion")) {
     db.exec("ALTER TABLE chats ADD COLUMN opinion TEXT");
   }
+  if (!chatCols.some((c) => c.name === "world")) {
+    db.exec("ALTER TABLE chats ADD COLUMN world TEXT");
+  }
   return db;
 }
 

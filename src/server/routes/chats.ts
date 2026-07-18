@@ -2,7 +2,7 @@ import { Router } from "express";
 import type { Db } from "../db.js";
 import { newId } from "../db.js";
 import { pathToRoot, siblingsOf, forkChat, setHead, getMessage, latestLeafFrom } from "../core/tree.js";
-import { loadStages, getStage, loadScenarios } from "../prompt/builder.js";
+import { loadStages, getStage, loadScenarios, loadStoryPressures } from "../prompt/builder.js";
 
 export function chatsRouter(db: Db): Router {
   const r = Router();
@@ -25,9 +25,21 @@ export function chatsRouter(db: Db): Router {
     const now = Date.now();
     const userLooks = String(b.userLooks ?? "").trim() || null;
     const opinion = JSON.stringify({ label: "a stranger", note: "", guard: 1 });
+    // story mode: seed the living world state from the stage's canonical pressures
+    let world: string | null = null;
+    if (mode === "story") {
+      const info = loadStoryPressures()[stage.id];
+      world = JSON.stringify({
+        divergence: "none",
+        clock: { day: 1, timeOfDay: "afternoon" },
+        pressures: (info?.watchers ?? []).map((w) => ({ who: w.who, level: w.start, note: "" })),
+        events: [],
+        beni: ""
+      });
+    }
     db.prepare(
-      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,opinion,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)"
-    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, opinion, now, now);
+      "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,opinion,world,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)"
+    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, opinion, world, now, now);
 
     // Opening scene: she's minding her own business — the player sees her first.
     // Rolled at random per chat from the stage's scenario pool; stage greeting is the fallback.

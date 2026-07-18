@@ -176,6 +176,20 @@ export function ChatView() {
           } catch { /* no opinion yet */ }
           return null;
         })()}
+        {(() => {
+          try {
+            const w = JSON.parse((state.chat as { world?: string | null }).world || "");
+            if (w?.clock) {
+              const hot = (w.pressures ?? []).filter((p: { level: number }) => p.level >= 2).map((p: { who: string }) => p.who);
+              return (
+                <span className="chip" title={hot.length ? `watching closely: ${hot.join(", ")}` : "the world moves with or without you"}>
+                  day {w.clock.day}{w.divergence !== "none" ? ` · ${w.divergence} divergence` : ""}{hot.length ? " · ⚠" : ""}
+                </span>
+              );
+            }
+          } catch { /* not story mode */ }
+          return null;
+        })()}
         <span className="spacer" />
         <button
           className={state.branchUi ? "iconbtn on" : "iconbtn"}
