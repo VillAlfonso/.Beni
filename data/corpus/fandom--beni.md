@@ -13,11 +13,13 @@ Origin: Earth
 Age: 13 (English)
 Hair: Pink
 Eyes: Turquoise
-Occupation: Tenkai Knight
 Tenkai Knight: Venetta
 First Appearance: Lost Key
 
-<!--ep:14-->
+<!--ep:51-->
+Occupation: Tenkai Knight (joins the Knights only at the very end of the series)
+
+<!--ep:51-->
 Beni (Japanese: ベニ, Beni, Korean: 베니, Beni, Hebrew: בני) is one of the protagonists in Tenkai Knights. At first she was a major antagonist, but eventually joined the Knights. She is in the possession of the core of the formerly evil Tenkai Knight, Venetta, and is also the first female Tenkai Knight.
 
 <!--ep:14-->

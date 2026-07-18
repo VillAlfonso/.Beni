@@ -87,11 +87,19 @@ function loadTranscriptDocs(): DocInput[] {
       const blocks: SectionBlock[] = [];
       const WINDOW = 15;
       const STEP = 10;
-      // pipeline keeps "UNKNOWN(SPEAKER_03)" for tooling; collapse it to a clean
-      // "Unknown" so retrieved dialogue reads naturally and speaker ids aren't embedded
-      const clean = (s: string) => (s.startsWith("UNKNOWN") ? "Unknown" : s);
-      for (let i = 0; i < data.lines.length; i += STEP) {
-        const win = data.lines.slice(i, i + WINDOW);
+      // pipeline keeps "UNKNOWN(SPEAKER_03)" for tooling; collapse to "Unknown".
+      // Slyger/Beag voice profiles absorb other characters' lines (audit flag) —
+      // demote those names to Unknown in RAG text: ambiguity over inaccuracy.
+      const clean = (s: string) => {
+        if (s.startsWith("UNKNOWN") || s === "Slyger" || s === "Beag") return "Unknown";
+        return s.replace(/_/g, " ");
+      };
+      // the rips embed TV promos; keep commercials out of her brain
+      const isAd = (t: string) =>
+        /cartoon network|new episode|watch the new series|only on|bey ?warriors|beyraiderz|see it first/i.test(t);
+      const usable = data.lines.filter((l) => !isAd(l.text));
+      for (let i = 0; i < usable.length; i += STEP) {
+        const win = usable.slice(i, i + WINDOW);
         if (win.length < 3) break;
         blocks.push({
           heading: `Episode ${data.episode} dialogue`,
