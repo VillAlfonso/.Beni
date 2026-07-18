@@ -109,7 +109,9 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   );
 }
 
-export function StreamingMessage({ text }: { text: string }) {
+/** Messaging-app behaviour: her reply stays hidden while it generates —
+ *  you just see that she's writing, then the finished message lands. */
+export function TypingBubble() {
   return (
     <div className="msg beni">
       <div className="who">
@@ -117,10 +119,9 @@ export function StreamingMessage({ text }: { text: string }) {
         <span className="n">Beni</span>
       </div>
       <div className="body">
-        <Markdown allowedElements={["p", "em", "strong", "br", "blockquote", "ul", "ol", "li", "code"]} unwrapDisallowed>
-          {text}
-        </Markdown>
-        <span className="caret" aria-hidden="true" />
+        <span className="typing" role="status" aria-label="Beni is typing">
+          <i /><i /><i />
+        </span>
       </div>
     </div>
   );

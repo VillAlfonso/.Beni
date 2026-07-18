@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useStore } from "../store.js";
-import { Message, StreamingMessage } from "./Message.js";
+import { Message, TypingBubble } from "./Message.js";
 
 function Composer() {
   const { state, actions } = useStore();
@@ -90,12 +90,49 @@ function Peek() {
 export function ChatView() {
   const { state, actions } = useStore();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const atBottomRef = useRef(true);
+  const [showJump, setShowJump] = useState(false);
   const stage = state.stages.find((s) => s.id === state.chat?.stage_id);
 
-  useEffect(() => {
+  const toBottom = useCallback((smooth = true) => {
     const el = scrollRef.current;
-    if (el) el.scrollTop = el.scrollHeight;
-  }, [state.path, state.streaming?.text]);
+    if (!el) return;
+    el.scrollTo({ top: el.scrollHeight, behavior: smooth ? "smooth" : "auto" });
+    atBottomRef.current = true;
+    setShowJump(false);
+  }, []);
+
+  const onScroll = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const fromBottom = el.scrollHeight - el.scrollTop - el.clientHeight;
+    atBottomRef.current = fromBottom < 80;
+    setShowJump(fromBottom > 240);
+  }, []);
+
+  // keep the composer above the on-screen keyboard (iOS/Android)
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!vv) return;
+    const apply = () => {
+      document.documentElement.style.setProperty("--app-h", `${vv.height}px`);
+      if (atBottomRef.current) toBottom(false);
+    };
+    apply();
+    vv.addEventListener("resize", apply);
+    return () => vv.removeEventListener("resize", apply);
+  }, [toBottom]);
+
+  // follow new messages only when the reader is already at the bottom
+  useEffect(() => {
+    if (atBottomRef.current) toBottom();
+  }, [state.path.length, state.streaming !== null, toBottom]);
+
+  // jumping into a chat starts at the latest message
+  useEffect(() => {
+    atBottomRef.current = true;
+    toBottom(false);
+  }, [state.activeId, toBottom]);
 
   if (!state.chat) {
     return (
@@ -154,15 +191,27 @@ export function ChatView() {
         }}>✕</button>
       </div>
 
-      <div className="msgs" ref={scrollRef}>
-        <div className="msgs-inner">
-          {state.path.map((m, i) => (
-            <Message key={m.id} m={m} isLast={i === state.path.length - 1 && m.role === "assistant"} />
-          ))}
-          {state.streaming && state.streaming.forChat === state.chat.id && (
-            <StreamingMessage text={state.streaming.text} />
-          )}
+      <div className="msgs-wrap">
+        <div className="msgs" ref={scrollRef} onScroll={onScroll}>
+          <div className="msgs-inner">
+            {state.path.map((m, i) => (
+              <Message key={m.id} m={m} isLast={i === state.path.length - 1 && m.role === "assistant"} />
+            ))}
+            {state.streaming && state.streaming.forChat === state.chat.id && (
+              <>
+                {state.streaming.pendingUser && (
+                  <div className="msg user">
+                    <div className="body">{state.streaming.pendingUser}</div>
+                  </div>
+                )}
+                <TypingBubble />
+              </>
+            )}
+          </div>
         </div>
+        {showJump && (
+          <button className="jump" onClick={() => toBottom()}>↓ latest</button>
+        )}
       </div>
 
       <Peek />

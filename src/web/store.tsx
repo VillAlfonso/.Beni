@@ -68,7 +68,7 @@ interface State {
   stages: Stage[];
   episodes: Episode[];
   settings: Record<string, any> | null;
-  streaming: { forChat: string; text: string; meta: RetrievalMeta | null } | null;
+  streaming: { forChat: string; text: string; meta: RetrievalMeta | null; pendingUser: string | null } | null;
   panel: "none" | "settings" | "memories" | "checkpoints" | "newchat";
   branchUi: boolean;
   sidebarOpen: boolean;
@@ -101,7 +101,7 @@ type Action =
   | { type: "memories"; v: Memory[] }
   | { type: "character"; stages: Stage[]; episodes: Episode[] }
   | { type: "settings"; v: Record<string, any> }
-  | { type: "stream-start"; forChat: string }
+  | { type: "stream-start"; forChat: string; pendingUser?: string | null }
   | { type: "stream-meta"; v: RetrievalMeta }
   | { type: "stream-token"; v: string }
   | { type: "stream-end" }
@@ -119,7 +119,7 @@ function reducer(s: State, a: Action): State {
     case "memories": return { ...s, memories: a.v };
     case "character": return { ...s, stages: a.stages, episodes: a.episodes };
     case "settings": return { ...s, settings: a.v };
-    case "stream-start": return { ...s, streaming: { forChat: a.forChat, text: "", meta: null }, error: null };
+    case "stream-start": return { ...s, streaming: { forChat: a.forChat, text: "", meta: null, pendingUser: a.pendingUser ?? null }, error: null };
     case "stream-meta": return s.streaming ? { ...s, streaming: { ...s.streaming, meta: a.v } } : s;
     case "stream-token": return s.streaming ? { ...s, streaming: { ...s.streaming, text: s.streaming.text + a.v } } : s;
     case "stream-end": return { ...s, streaming: null };
@@ -172,11 +172,11 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
     await boot();
   };
 
-  const runStream = async (url: string, body: unknown) => {
+  const runStream = async (url: string, body: unknown, pendingUser?: string) => {
     const chatId = getState().activeId;
     if (!chatId) return;
     abortRef.current = new AbortController();
-    dispatch({ type: "stream-start", forChat: chatId });
+    dispatch({ type: "stream-start", forChat: chatId, pendingUser: pendingUser ?? null });
     await stream(url, body, {
       signal: abortRef.current.signal,
       onMeta: (m) => dispatch({ type: "stream-meta", v: m }),
@@ -209,9 +209,9 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
 
     stop: () => abortRef.current?.abort(),
 
-    send: (content: string) => runStream(`/chats/${getState().activeId}/messages`, { content }),
+    send: (content: string) => runStream(`/chats/${getState().activeId}/messages`, { content }, content),
     regenerate: (messageId: string) => runStream(`/chats/${getState().activeId}/regenerate`, { messageId }),
-    editUser: (messageId: string, content: string) => runStream(`/messages/${messageId}/edit`, { content }),
+    editUser: (messageId: string, content: string) => runStream(`/messages/${messageId}/edit`, { content }, content),
 
     newChat: async (opts: { title?: string; mode: string; stageId: string; storyEpisode?: number; userLooks?: string }) => {
       const { id } = await api<{ id: string }>("POST", "/chats", opts);
