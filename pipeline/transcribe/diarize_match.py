@@ -57,15 +57,60 @@ def hf_token() -> str | None:
 
 _pyannote_pipe = None
 
+# pyannote pipelines to try, newest first; each needs its HF license accepted
+PYANNOTE_MODELS = ["pyannote/speaker-diarization-community-1", "pyannote/speaker-diarization-3.1"]
+
+
+def _apply_torchaudio_shims() -> None:
+    """torch 2.11 (needed for the Blackwell GPU) removed the torchaudio backend
+    APIs pyannote still probes. We feed waveforms directly, so these stubs are
+    never actually exercised for decoding."""
+    import types
+
+    import torchaudio
+
+    for n, f in [("list_audio_backends", lambda: ["soundfile"]),
+                 ("get_audio_backend", lambda: "soundfile"),
+                 ("set_audio_backend", lambda x=None: None)]:
+        if not hasattr(torchaudio, n):
+            setattr(torchaudio, n, f)
+    if not hasattr(torchaudio, "io"):
+        import sys
+
+        io = types.ModuleType("torchaudio.io")
+
+        class _Stub:
+            def __init__(self, *a, **k):
+                raise RuntimeError("torchaudio.io stub — pyannote should use in-memory waveforms")
+
+        io.StreamReader = _Stub
+        io.StreamWriter = _Stub
+        torchaudio.io = io
+        sys.modules["torchaudio.io"] = io
+
 
 def diarize_pyannote(wav: Path):
     import torch
+
+    _apply_torchaudio_shims()
     from pyannote.audio import Pipeline
 
     global _pyannote_pipe
     if _pyannote_pipe is None:
         token = hf_token()
-        _pyannote_pipe = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=token)
+        errors = []
+        for model in PYANNOTE_MODELS:
+            try:
+                _pyannote_pipe = Pipeline.from_pretrained(model, token=token)
+                break
+            except TypeError:
+                _pyannote_pipe = Pipeline.from_pretrained(model, use_auth_token=token)
+                break
+            except Exception as e:  # gated/403 or missing → try the next model
+                errors.append(f"{model}: {str(e).splitlines()[-1][:120]}")
+        if _pyannote_pipe is None:
+            raise SystemExit("No pyannote pipeline could load. Accept the license for one of:\n  "
+                             + "\n  ".join(PYANNOTE_MODELS) + "\nDetails:\n  " + "\n  ".join(errors))
         if torch.cuda.is_available():
             _pyannote_pipe.to(torch.device("cuda"))
     # feed a pre-loaded waveform (soundfile) so pyannote never invokes the
