@@ -9,7 +9,8 @@ Email, free) is the drop-in replacement.
 
 ## How it runs
 
-- **`Beni.bat`** (its Tunnel window) serves the permanent URL.
+- **`Beni.bat`** (its Tunnel window) serves the permanent URL. (`Beni-local.bat` = same
+  thing minus the tunnel, for localhost-only sessions.)
 - Its config lives in **`%USERPROFILE%\.cloudflared\beni-config.yml`** — deliberately a separate
   file. `config.yml` in the same folder belongs to the **Revelator** tunnel; neither project
   touches the other's file.
