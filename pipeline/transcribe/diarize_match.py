@@ -120,7 +120,11 @@ def diarize_pyannote(wav: Path):
         data = data.mean(axis=1)
     wf = torch.from_numpy(data).float().unsqueeze(0)  # (channel, time)
     dia = _pyannote_pipe({"waveform": wf, "sample_rate": sr})
-    return [(turn.start, turn.end, speaker) for turn, _, speaker in dia.itertracks(yield_label=True)]
+    # pyannote 4.x returns DiarizeOutput; older returns an Annotation directly.
+    ann = getattr(dia, "exclusive_speaker_diarization", None)
+    if ann is None:
+        ann = getattr(dia, "speaker_diarization", dia)
+    return [(turn.start, turn.end, speaker) for turn, _, speaker in ann.itertracks(yield_label=True)]
 
 
 _embedder = None
