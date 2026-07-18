@@ -9,7 +9,7 @@ Email, free) is the drop-in replacement.
 
 ## How it runs
 
-- **`start-tunnel.bat`** (or the `start-all.bat` bundle) serves the permanent URL.
+- **`Beni.bat`** (its Tunnel window) serves the permanent URL.
 - Its config lives in **`%USERPROFILE%\.cloudflared\beni-config.yml`** — deliberately a separate
   file. `config.yml` in the same folder belongs to the **Revelator** tunnel; neither project
   touches the other's file.
@@ -38,7 +38,7 @@ from the new URL once — different origin, the old install can't be migrated.)
 ## Optional: survive reboots
 
 `tools\cloudflared.exe service install` as admin installs the tunnel as a Windows service, plus
-Task Scheduler → `start-all.bat` at logon for the app + model.
+Task Scheduler → `Beni.bat` at logon for the app + model.
 
 ## Moving domains again later
 

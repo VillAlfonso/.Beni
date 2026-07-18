@@ -8,7 +8,7 @@ The app talks to any OpenAI-compatible `/chat/completions` endpoint. Set it in *
 
 - `models\TheDrummer_Cydonia-24B-v4.3-IQ4_XS.gguf`
 - `tools\koboldcpp.exe`
-- **`start-model.bat`** launches it: every layer on the GPU, **16k context**, FlashAttention, q8 KV cache → ~14GB VRAM used, ~1.4GB headroom for the desktop.
+- **`Beni.bat`** launches it (the Model window): every layer on the GPU, **16k context**, FlashAttention, q8 KV cache → ~14GB VRAM used, ~1.4GB headroom for the desktop.
 - Serves the OpenAI-compatible API at **http://127.0.0.1:5001/v1** — already the app's default endpoint; nothing to configure.
 
 Expected speed: ~20–30 tok/s. IQ4_XS over Q4_K_M was deliberate: near-identical quality (imatrix), but room for 16k context instead of 8k — long scenes + RAG win.

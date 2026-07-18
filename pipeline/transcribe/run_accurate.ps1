@@ -11,5 +11,5 @@ taskkill /IM koboldcpp.exe /F 2>$null
 & $py (Join-Path $PSScriptRoot "transcribe.py") *>> $log
 & $py (Join-Path $PSScriptRoot "align_speakers.py") *>> $log
 & $py (Join-Path $PSScriptRoot "make_label_sheet.py") *>> $log
-Start-Process "C:\.Beni\start-model.bat" -WorkingDirectory "C:\.Beni"
+Start-Process -FilePath "C:\.Beni\tools\koboldcpp.exe" -ArgumentList "--model","C:\.Beni\models\TheDrummer_Cydonia-24B-v4.3-IQ4_XS.gguf","--usecublas","normal","--gpulayers","999","--contextsize","16384","--flashattention","--quantkv","1","--port","5001" -WorkingDirectory "C:\.Beni"
 "[$(Get-Date)] accurate pass done — label speakers, then name_transcripts.py + npm run ingest" | Out-File -Append $log -Encoding utf8

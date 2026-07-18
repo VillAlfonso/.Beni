@@ -82,7 +82,7 @@ For the next Claude session (any model). Phase 1 + infra are DONE and live — d
 
 ## Live state
 - App http://localhost:3001 · public **https://beni.quert.site** (access key `beni-HMXN11g7cx1v`)
-  · `start-all.bat` boots model+app+tunnel. Model: Cydonia 24B v4.3 via KoboldCpp, port 5001.
+  · `Beni.bat` boots model+app+tunnel. Model: Cydonia 24B v4.3 via KoboldCpp, port 5001.
 - Episodes: `C:\.webdownloader\ep1..52` — **root files only** (user: ignore the subfolders there).
   `data\episodes` is a junction to it. All 52 files verified usable (small ones = low video
   bitrate, audio is fine 96kbps AAC). **49–52 = Japanese audio**; their embedded .ass subs are
@@ -120,7 +120,7 @@ For the next Claude session (any model). Phase 1 + infra are DONE and live — d
 
 ## Rules that already bit us (do not relearn these the hard way)
 - GPU is 16GB: KoboldCpp (~14.5GB) and whisper/ECAPA can't coexist — kill kobold first,
-  `start-model.bat` after (run_all.ps1 does both).
+  `Beni.bat (model window)` after (run_all.ps1 does both).
 - torch MUST be the cu128 build (RTX 5060 Ti = Blackwell). cu124 = "no kernel image".
 - cloudflared: every Beni command passes `--config %USERPROFILE%\.cloudflared\beni-config.yml`
   — bare commands load the Revelator project's config and hijack routes.

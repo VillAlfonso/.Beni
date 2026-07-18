@@ -59,7 +59,7 @@ foreach ($h in $hosts) {
 Get-CimInstance Win32_Process -Filter "Name='cloudflared.exe'" |
   Where-Object { $_.CommandLine -match "beni-config" } |
   ForEach-Object { Stop-Process -Id $_.ProcessId -Force -Confirm:$false }
-Start-Process -FilePath (Join-Path $root "start-tunnel.bat") -WorkingDirectory $root
+Start-Process -FilePath (Join-Path $root "Beni.bat") -WorkingDirectory $root
 
 Write-Host ""
 Write-Host "Done. https://$Hostname is Beni's home now (allow ~a minute, then check /api/health)."
