@@ -52,7 +52,8 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
       storyEpisode: chat.story_episode,
       canon,
       memories,
-      userName: settings.userName
+      userName: settings.userName,
+      userLooks: settings.userLooks
     });
 
     const messages = [{ role: "system" as const, content: system }, ...buildHistory(path)];

@@ -31,6 +31,7 @@ export function SettingsPanel() {
     "utility.apiKey": s.utility?.apiKey ?? "",
     "utility.model": s.utility?.model ?? "",
     userName: s.userName ?? "",
+    userLooks: s.userLooks ?? "",
     accessKey: ""
   });
   const [saved, setSaved] = useState(false);
@@ -82,6 +83,14 @@ export function SettingsPanel() {
       <div className="field">
         <label>Your name in the roleplay</label>
         <input value={f.userName} onChange={set("userName")} placeholder="what Beni's memories call you" />
+      </div>
+      <div className="field">
+        <label>Your appearance (what she can see at a glance)</label>
+        <input
+          value={f.userLooks}
+          onChange={set("userLooks")}
+          placeholder="e.g. tall-ish teen guy, average looks, black hair, hoodie"
+        />
       </div>
       <div className="field">
         <label>Access key {s.authEnabled ? "(enabled)" : "(off — set one before exposing the tunnel)"}</label>

@@ -75,6 +75,7 @@ export function buildSystemPrompt(opts: {
   canon: CanonHit[];
   memories: MemoryHit[];
   userName: string;
+  userLooks?: string;
 }): string {
   const card = readOr("card.md", "You are Beni from Tenkai Knights.");
   const speech = readOr("speech.md", "");
@@ -99,6 +100,13 @@ export function buildSystemPrompt(opts: {
   } else {
     parts.push(
       `# Scenario\nThis is a free-form roleplay. The scene and situation come from the conversation itself. Beni's knowledge, personality and relationships match her story stage above — she cannot know events from later in the show (anything after episode ${opts.episodeCap}).`
+    );
+  }
+
+  if (opts.userLooks?.trim()) {
+    parts.push(
+      `# What Beni can see of ${user} at first glance\n${opts.userLooks.trim()}\n` +
+        `Appearance only — her first impression. Anything eyes can't tell (name, exact age, history, intentions) stays unknown to her until this conversation reveals it.`
     );
   }
 
