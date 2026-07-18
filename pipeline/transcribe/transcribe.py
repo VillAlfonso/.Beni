@@ -81,8 +81,15 @@ def whisper_segments(wav: Path, language: str | None = "en", task: str = "transc
         except Exception:
             print("  CUDA unavailable, falling back to CPU int8 (slow)")
             _whisper = WhisperModel("large-v3", device="cpu", compute_type="int8")
-    segments, info = _whisper.transcribe(str(wav), language=language, task=task, vad_filter=True, hotwords=HOTWORDS)
-    out = [{"start": s.start, "end": s.end, "text": s.text.strip()} for s in segments if s.text.strip()]
+    segments, info = _whisper.transcribe(
+        str(wav), language=language, task=task, vad_filter=True, hotwords=HOTWORDS, word_timestamps=True
+    )
+    out = []
+    for s in segments:
+        if not s.text.strip():
+            continue
+        words = [{"w": w.word, "s": round(w.start, 2), "e": round(w.end, 2)} for w in (s.words or [])]
+        out.append({"start": s.start, "end": s.end, "text": s.text.strip(), "words": words})
     if language is None:
         print(f"  detected language: {info.language} ({info.language_probability:.2f})")
     return out

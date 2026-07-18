@@ -15,6 +15,7 @@ pipeline/transcribe/.venv/
 pipeline/transcribe/models/
 pipeline/transcribe/work/
 pipeline/transcribe/review/
+pipeline/transcribe/review_spk/
 pipeline/transcribe/hf_token.txt
 *.log
 .DS_Store

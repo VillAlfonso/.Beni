@@ -27,10 +27,13 @@ def main() -> None:
     ap.add_argument("labels", nargs="+", help="CLUSTER=CharacterName …")
     args = ap.parse_args()
 
+    # prefer pyannote speaker embeddings (accurate pipeline); fall back to legacy clusters
+    spk_file = WORK / f"ep{args.episode:02d}.spk_emb.npz"
     clusters_file = WORK / f"ep{args.episode:02d}.clusters.npz"
-    if not clusters_file.exists():
-        raise SystemExit(f"{clusters_file} not found — run diarize_match.py first.")
-    clusters = np.load(clusters_file)
+    src = spk_file if spk_file.exists() else clusters_file
+    if not src.exists():
+        raise SystemExit(f"{spk_file} not found — run align_speakers.py first.")
+    clusters = np.load(src)
     VOICES = HERE / "voices" / ("enrolled_jp.npz" if args.episode in JP_EPS else "enrolled.npz")
 
     existing: dict[str, np.ndarray] = {}

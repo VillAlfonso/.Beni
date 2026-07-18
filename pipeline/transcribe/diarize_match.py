@@ -124,7 +124,18 @@ def diarize_pyannote(wav: Path):
     ann = getattr(dia, "exclusive_speaker_diarization", None)
     if ann is None:
         ann = getattr(dia, "speaker_diarization", dia)
-    return [(turn.start, turn.end, speaker) for turn, _, speaker in ann.itertracks(yield_label=True)]
+    turns = [(turn.start, turn.end, speaker) for turn, _, speaker in ann.itertracks(yield_label=True)]
+
+    # pyannote's own per-speaker embeddings (ndarray aligned to sorted labels) —
+    # use these for name-matching so we need no separate ECAPA/speechbrain model.
+    spk_emb: dict[str, np.ndarray] = {}
+    emb = getattr(dia, "speaker_embeddings", None)
+    if emb is not None:
+        for i, lab in enumerate(ann.labels()):
+            if i < len(emb):
+                v = np.asarray(emb[i], dtype=float)
+                spk_emb[lab] = v / (np.linalg.norm(v) + 1e-9)
+    return turns, spk_emb
 
 
 _embedder = None
@@ -232,7 +243,7 @@ def process(ep: int) -> None:
     use_pyannote = bool(hf_token())
     if use_pyannote:
         print(f"ep{ep:02d}: diarizing (pyannote)…")
-        turns = diarize_pyannote(wav_file)
+        turns, _ = diarize_pyannote(wav_file)
         for s in segments:
             best, best_ov = None, 0.0
             for t0, t1, spk in turns:

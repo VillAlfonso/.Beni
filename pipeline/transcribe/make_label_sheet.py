@@ -18,6 +18,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 WORK = HERE / "work"
 REVIEW = HERE / "review"
+REVIEW_SPK = HERE / "review_spk"
 
 # characters likely present, offered as one-click buttons (you can also free-type)
 ROSTER = ["Beni", "Guren", "Ceylan", "Toxsa", "Chooki", "Gen", "Mr. White",
@@ -25,45 +26,55 @@ ROSTER = ["Beni", "Guren", "Ceylan", "Toxsa", "Chooki", "Gen", "Mr. White",
 
 
 def build(ep: int) -> bool:
-    rev = REVIEW / f"ep{ep:02d}"
+    # prefer the accurate pyannote speakers (review_spk + aligned.json)
+    rev = REVIEW_SPK / f"ep{ep:02d}"
+    aligned = WORK / f"ep{ep:02d}.aligned.json"
+    if not rev.exists():
+        rev = REVIEW / f"ep{ep:02d}"
+        aligned = None
     if not rev.exists():
         return False
     wavs = sorted(p.name for p in rev.glob("*_sample*.wav"))
     if not wavs:
         return False
 
-    # group clip files by cluster prefix (SNN); text is a bonus if tags were saved
     clusters: dict[str, list[str]] = {}
     for w in wavs:
         c = w.split("_sample")[0]
         clusters.setdefault(c, []).append(w)
 
+    # show a few of each speaker's actual lines to help identify them
     text_by_cluster: dict[str, list[str]] = {}
-    seg_file = WORK / f"ep{ep:02d}.segments.json"
-    if seg_file.exists():
-        for s in json.loads(seg_file.read_text(encoding="utf-8"))["segments"]:
-            c = s.get("cluster")
-            if c:
-                text_by_cluster.setdefault(c, []).append(s["text"])
+    if aligned and aligned.exists():
+        for ln in json.loads(aligned.read_text(encoding="utf-8"))["lines"]:
+            text_by_cluster.setdefault(ln["speaker"], []).append(ln["text"])
+    else:
+        seg_file = WORK / f"ep{ep:02d}.segments.json"
+        if seg_file.exists():
+            for s in json.loads(seg_file.read_text(encoding="utf-8"))["segments"]:
+                c = s.get("cluster")
+                if c:
+                    text_by_cluster.setdefault(c, []).append(s["text"])
 
-    # most sample clips first — main cast (3 samples) rises above bit parts (1)
-    order = sorted(clusters, key=lambda c: -len(clusters[c]))
+    # most-talkative speakers first — main cast rises above bit parts
+    order = sorted(clusters, key=lambda c: -len(text_by_cluster.get(c, clusters[c])))
 
     cards = []
     for c in order:
         lines = text_by_cluster.get(c, [])
         meta = f"{len(lines)} lines" if lines else f"{len(clusters[c])} clip(s)"
-        players = []
-        for i, w in enumerate(sorted(clusters[c])):
-            said = html.escape(lines[i]) if i < len(lines) else ""
-            players.append(
-                f'<div class="clip"><audio controls preload="none" src="{w}"></audio>'
-                f'<span class="said">{said}</span></div>'
-            )
+        players = "".join(
+            f'<div class="clip"><audio controls preload="none" src="{w}"></audio></div>'
+            for w in sorted(clusters[c])
+        )
+        # a few of the longer things this speaker said, to identify them by content
+        examples = sorted((l for l in lines if len(l) > 12), key=len, reverse=True)[:4]
+        said = "".join(f'<div class="said">“{html.escape(e[:90])}”</div>' for e in examples)
         cards.append(f"""
     <div class="card" data-cluster="{c}">
       <div class="head"><b>{c}</b><span class="meta">{meta}</span></div>
-      {''.join(players)}
+      {players}
+      {said}
       <input class="name" placeholder="who is this? (type or click below)" autocomplete="off">
       <div class="chips">{''.join(f'<button class="chip">{r}</button>' for r in ROSTER)}</div>
     </div>""")
