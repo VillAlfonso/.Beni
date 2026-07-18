@@ -1,0 +1,136 @@
+[quarton] Gen: Vilius has revived the Tenkai Dragon and commands all of its power. And by destabilizing the portal, he has put Quarton and the Earth on a collision course. The Tenkai Knights are all that stand between him and victory now.
+[quarton] Vilius: Not quite all. Perhaps the Knights have been forced to carry this burden alone for long enough. There is another way. We have another option.
+[quarton] Gen: Yes, but a forbidden one. The other Guardians may not agree with you, Boreas. We
+[quarton] Vilius: shall see. But there comes a point when only by disobeying a rule can you fulfill the purpose for which that rule was made.
+[quarton] Gen: Oh dear. When even Boreas starts speaking in riddles, the situation must be great indeed. Who
+[quarton] Guren: are you complaining about? Isn't this just what you wanted? What do you mean? Okay, so maybe it's not you riding the dragon, but you wanted to unleash its power. And boy, did you get what you wanted. Yes. But I didn't. I know. Or you. You just can't get a break, can you? Life isn't fair. So what are you gonna do? You just gonna give up? No, but... Whatever.
+[quarton] Guren: You do what you want. I'm taking this lizard now! Wait! Okay, you big bad hunk of junk! It's recycling time! I've took its tarts. The
+[quarton] Vilius: last time I put you down, you should have stayed down. Did you really think you could stop me? Or are you just eager to destroy yourself? What are
+[quarton] Guren: my choices again?
+[quarton] Vilius: Either way, the result will be the same. Dragon, finish him!
+[quarton] Guren: Tributon! I've
+[quarton] Guren: heard a hog in the spotlight, but you don't have to get burned to a crisp by it!
+[quarton] Guren: Listen, dude,
+[quarton] Guren: you're not the only one in this fight. If Vilius wins and destroys the Earth, there goes my audience! I know I kid around a lot, but right now I'm dead serious!
+[quarton] Vilius: Well, you're half right.
+[quarton] Guren: The breath on that dragon. They don't have a chance.
+[quarton] Beni: Of course they don't. Isn't that the whole idea? Can it, Venetta?
+[quarton] Vilius: The Tenkai Knights! Ha! It's hard to believe there was once a time when I considered you a threat! Now you're nothing more than target practice! Who dares?
+[quarton] Unknown: Not so fast, dumpster base! Yeah, did you forget? There are four Tenkai Knights! Well,
+[quarton] Vilius: soon, there will be none!
+[quarton] Guren: Huzzah! You can't win, Vilius! And I'm the guy who should know. See, back on Earth, I've won a lot. A lot of prizes in tournaments. A lot of games in just about every sport you can name. Especially when there's a lot on the line. That's why I'm so sure about this one. Because everything's on the line. This time, it's
+[quarton] Unknown: more than just a game. It's about more than just winning or losing. Couldn't have put it better myself. But what the heck, since we're making speeches. I know all about what it takes to win, too. You don't get to mage level in Doom's Floater by sitting at a keyboard. It takes training. And practice. And a good diet. And the support of a loving family. And this is the ultimate real-life Doom's Floater. It's the uber bonus level! It's what I've been training for my whole
+[quarton] Guren: life!
+[quarton] Unknown: Speech, though. Thanks. Yours, too.
+[quarton] Vilius: Unfortunately for you, words don't win battles.
+[quarton] Guren: Yes. They're more than just words, Vilius. Oh,
+[quarton] Vilius: no. Another speech? Oh, very well. At least your last words will be amusing. Go on. Tell me how you're going to defeat me.
+[quarton] Guren: It's simple. We're fighting for something. Our homes and families. Our friends. The people we love and care about. Our world. And a better tomorrow for everyone on it. What are you fighting for? Nothing but yourself! And that's why we're going to beat you, Vilius. And everything you stand for!
+[quarton] Unknown: As the bizarre cubing phenomenon continues to spread, authorities are calling on the public to remain calm while they search for an explanation. However, there are worries about its effect on taller structures. We take you live now, downtown, to Benham Tower.
+[quarton] Gen: You know, Boreas, perhaps we shouldn't lose faith in the Tenkai Knights quite so soon. They believe in their cause and in themselves. Both are powerful weapons.
+[quarton] Vilius: Even so, it would take what your people call a miracle for them to overcome such odds.
+[quarton] Gen: They've accomplished miracles before.
+[quarton] Vilius: True. But perhaps we should have a miracle of our own ready, just in case.
+[quarton] Vilius: It's exhausting, spouting all that blather, isn't it?
+[quarton] Vilius: Well, don't worry.
+[quarton] Vilius: You're about to get a nice long rest!
+[quarton] Vilius: I'm going to miss toying with you, Bravenwolf. But all good things must come to an end.
+[quarton] Unknown: Hold! Pete! The Knights are shining beacons of hope in the darkness! You will not extinguish their light, Vilius! Not while a single Corekai still stands!
+[quarton] Guren: Now that's a speech! You heard him, guys. We can't just sit on the sidelines after that! You're right! We're shining beacons! I feel like a dim light bulb.
+[quarton] Vilius: Ha! Enough talk! If empty threats were weapons, you would have defeated me long ago!
+[quarton] Beni: Did I miss something? After all our hard work, how did Vilius end up with a dragon? And why are you just standing here doing nothing? What do you expect
+[quarton] Guren: me to do? Go crawling back to Vilius? That's not going to happen!
+[quarton] Beni: Don't bite my head off, buddy! I'm not the klutz who managed to lose the Black Dragon Key! And oh man, I turn my back for one minute and our whole plan goes kaput! Why is it that boys always mess things up?
+[quarton] Gen: Maybe you're right. Okay, I won't get in your way anymore.
+[quarton] Beni: Huh? What are you talking about?
+[quarton] Gen: From now on, Beni, you go your way, and I'll just go mine.
+[quarton] Beni: Hang on, Dromus! I didn't mean to... Wait!
+[quarton] Guren: He... Dromus! What are you doing?
+[quarton] Gen: I've been thinking. Maybe you were right. Maybe I'd been searching in all the wrong places for something that was right here, staring me in the face all along. That's good. Your words really got to me. Anyway, I realized where I went wrong in my search for power. I was looking to gain strength by reviving the Tenkai Dragon. But my real strength is inside me, waiting to be unleashed. I know what I have to do. Not revive the dragon, but defeat it! Then I'll be the strongest of all! No! I meant... Stay
+[quarton] Guren: out of
+[quarton] Gen: it! This
+[quarton] Guren: is my battle, Bravenwolf! Stop being such a show-off! This is as much my fight as it is yours! Hmph. You forgetting something? Don't mean to crash the party or anything. But we're in this fight together!
+[quarton] Guren: Oh, yeah. I figured that went without saying.
+[quarton] Vilius: So, it's unanimous, is it? The whole lot of you are tired of your miserable existence. Well, so be it. Just stay right where you are, and you'll get your wish!
+[quarton] Guren: Not today, Vilius! I don't need the dragon to beat you! Dromus!
+[quarton] Vilius: The rest of you!
+[quarton] Vilius: Just like that! They're gone! For most, just silence at last. It was almost too easy. I'm
+[quarton] Guren: still in one piece. What happened? Did the big goon miss? I don't think so. Look! He didn't miss. He just didn't hit us. Okay, now I'm really confused.
+[quarton] Vilius: We, the Guardians, have voted to intervene. By attacking us and destabilizing the trans-dimensional portal, Vilius left us no choice but to take this drastic step. We will immobilize the Tenkai Dragon, Bravenwolf. Be
+[quarton] Vilius: ready to
+[quarton] Vilius: summon
+[quarton] Vilius: the White Dragon King. I see one of you is missing. Perhaps not all the Guardians are in agreement. We are, Vilius.
+[quarton] Unknown: The vote of the Council was unanimous. Eurus! You have gone too far. You must be stopped. Too
+[quarton] Vilius: far? You say that now, when it was you! All I ever sought was to maintain the balance between energies. Your
+[quarton] Vilius: ambitions
+[quarton] Vilius: have
+[quarton] Vilius: jeopardized that. You
+[quarton] Vilius: can't stop me! I'll fight you all! Yes. That
+[quarton] Vilius: is the role you must play in maintaining the balance. I
+[quarton] Vilius: am not your plaything! Are you forgetting? I control the Dragon! Now!
+[quarton] Guren: Yes! Yes! Forgive
+[quarton] Vilius: us, Dragon, for what we must do. It is not you that we fight, but those powers that have been taken from you and corrupted. We cannot allow such terrible powers to go unchecked.
+[quarton] Vilius: It is only when faced with the destruction of the Earth and Quarton itself that we have dared to defy the ancient decree forbidding us from interfering. And
+[quarton] Vilius: dared to unleash the full power of the Guardians. Smash! You are too late! The power is mine! Not for long! The key!
+[quarton] Guren: Now you have nothing, Bilius! Initiate convergence!
+[quarton] Vilius: Bravenwolf, summon the White Dragon Key!
+[quarton] Guren: That's our cue, guys! Let's go! You got it! Dragon Key, appear! Okay, time to revive the good dragon! This time, you're gonna stay good! Boy,
+[quarton] Guren: am I glad he's not playing for the other team anymore! We did it!
+[quarton] Vilius: Now bring the two keys together and you will discover that you have accomplished even more than you think.
+[quarton] Guren: Well, what do you say, Dromus? Do you even have to ask, Bravenwolf?
+[quarton] Gen: Breaking
+[quarton] Guren: up into Dragon Cubes again! Whoa!
+[quarton] Unknown: What?
+[quarton] Guren: Isn't this where we
+[quarton] Guren: came in? Like
+[quarton] Guren: a surge of power! Or acid reflux! Oh, yeah! What is this? You're
+[quarton] Vilius: now in Phoenix Mode!
+[quarton] Guren: Whoa, talk about bling!
+[quarton] Vilius: Your normal battle mode has been infused with the energy of the Tenkai
+[quarton] Vilius: Dragon.
+[quarton] Guren: Hear that, guys? This is our time to shine! Boom! A golden opportunity to finish this once and for all! You just had to go there, didn't you?
+[quarton] Vilius: Ha! Are you so dazzled by your own gaudy display that you actually thought I'd be impressed?
+[quarton] Guren: You should be! I'd be! Come on, check us out! Yay, you big party pooper! You're gonna be plenty impressed in a minute, Goonbot!
+[quarton] Vilius: Fools! Haven't you forgotten something? You're not the only ones who could be infused with the Dragon's Tenkai Energy! Behold! Of
+[quarton] Gen: course! Tenkai Reversal Inductor!
+[quarton] Vilius: Thanks to your device, Trunks! I was able to extract the Dragon's limitless power even before I had the key! And I don't need shiny new armor to unleash
+[quarton] Unknown: it! Ah, you're just jealous. You
+[quarton] Vilius: say you want to finish this once and for all? Then so be it! The
+[quarton] Guren: hatches! Here it comes! Ah! Ha!
+[quarton] Vilius: The Knights! No! They
+[quarton] Vilius: couldn't be! Even in Phoenix Mode, to withstand such a blow... We should never underestimate them. They were chosen for a reason. What?
+[quarton] Guren: Remember, guys! To think as one, is to be as one! And never forget a punchline! Yeah, that's right! One mind, one team! Bingo! The four become as one! How about we make it the five become as one? Okay? The more the merrier! Now let's go kick some butt! Laughing
+[quarton] Guren: at your own lame jokes! For cutting into my gaming time! And
+[quarton] Guren: for all the low blows! And for treating me like your servant! Who's master now? Finish him, Bravenwolf! This is it, Vilius! You're going down! I'd say it's been fun, but I'd be lying!
+[quarton] Vilius: What? No! No! No! No! No! No!
+[quarton] Unknown: No! Whoa, whoa, we've...
+[quarton] Guren: Whoa... You can hardly believe it... Well don't! Because it's not! Shape-shifted into the proto-jet! We've still got two planets that are going to collide with each other unless we stabilize the portal! Still
+[quarton] Guren: calling Shotgun this time?
+[quarton] Guren: How's the view, Dromus? Hey, sorry about that, but the proto-jet was only built for four. At least he gets a view. Me? I can't see anything. How come I have to... I called shotgun! There's the portal! Sorry. Okay, now. Remember what Boreas said. We can fix it with the dragon's Tenkai Energy. You ready? Yeah, but ready for what? What
+[quarton] Guren: are we supposed to do? Frankly, I'm still trying to figure out why I had to write a code again. Happens every time. We've each got part of the dragon's
+[quarton] Guren: energy inside of us now.
+[quarton] Guren: So
+[quarton] Guren: channel it and focus on the portal! Got it? Got it! Focus, guys! We're focusing!
+[quarton] Vilius: Balance has been restored. The crisis is past.
+[quarton] Gen: And just like that,
+[quarton] Vilius: it's over.
+[quarton] Gen: Almost as if it never happened.
+[quarton] Vilius: Yes, that's what troubles me.
+[quarton] Gen: What in the world are you talking about? Both Quarton and the Earth have been saved, and Vilius has been made to pay for his sins. Perhaps not enough. I wonder what he was talking about. What better outcome could he possibly want? Well done, Knights.
+[quarton] Gen: Well, don't tell me you asked to meet just so we could enjoy the sunset together. I wanted to give this back to you. I don't want it. It's yours. You can keep it.
+[quarton] Guren: What was it you said? That you and I are opposite sides of the same coin? Hmm. But we're not opposites. We're more like two separate coins. We both have two sides to us. So you see, Gen? You got it all wrong. Sometimes we can see eye to eye. I think you're right. Actually, that is a pretty spectacular sunset. So are we friends, then? I don't know. We'll have to see.
+[quarton] Guren: So the Earth was saved. I don't
+[quarton] Unknown: know. I think we can do something about it. Yeah, there it is. There's no such thing as a special place for bad people. It's just the Earth. And he said, no, no, no, no. I'm a little okay. I've been playing life
+[quarton] Guren: at home. But
+[quarton] Unknown: if I need to do something, there's something else. I've
+[quarton] Guren: got a plan. On Earth, too. For one thing, Ceylan and Gen are actually talking to each other. The
+[quarton] Guren: reason it's funny is because elephants don't usually wear pajamas.
+[quarton] Guren: That's why it's called a joke, get it? Well, Ceylan did most of the talking. Talk about a tough crowd. Hi, Gen! As for Gen, he's not exactly Mr. Warm and Fuzzy, but he's getting there. Meanwhile, Chooki's analyzing all the data we've learned about Quarton, so we'll be prepared for the next time we're needed up there. If there is a next time. And Toxsa claims to be honing his fighting skills.
+[quarton] Vilius: But we
+[quarton] Guren: all know what that really means. Me? I enjoy the peace and quiet as much as anyone. Though I don't want to let it make us too confident or lazy. But I gotta say, it's hard keeping the guys focused when there's not some earth-shattering crisis going on.
+[quarton] Guren: Lime parfait,
+[quarton] Guren: anyone? As for Beni, I don't know where she fits in. She's kinda gone rogue. At the moment, she's on her own.
+[quarton] Guren: So I was thinkin', since we never get summoned anymore. Oh, my big mouth.
+[quarton] Guren: You guys ready? Time to get Tenkai! Yeah! Shotenma just got a new babe! Run, Samurai Ephraim!
+[quarton] Vilius: And this time, he's waiting for
+[quarton] Guren: power! Oh yeah, baby! With the help of old friends! We did it, Sho! And new ones! Yahoo! A friend! He'll go Beast Mode to revive the six mythical beasts! And restore order throughout the land with everlasting peace for all! Ha! Watch the new series, Bay Warriors, Bay Raiders! See it first! New episode now! Only on Cartoon Network! Beast Mode!

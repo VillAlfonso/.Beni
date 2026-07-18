@@ -1,0 +1,185 @@
+[quarton] Guren: The pogs are ready for shapeshift reassembly,
+[quarton] Vilius: Vilius. Proceed. Oh, I wonder why I even bother. Rise, Granox and Slyger, and be grateful for this chance to redeem yourselves from this another display of incompetence. Thank
+[quarton] Guren: you,
+[quarton] Vilius: Vilius.
+[quarton] Guren: While I admit the last mission wasn't a complete success, it would have been if Granox here hadn't let himself get distracted.
+[quarton] Vilius: Yeah, yeah, trust me, Vilius, I would have destroyed the Tenkai Knights if this fool Slyger had... Silence! I've
+[quarton] Vilius: upgraded your abilities and given you so much genius in support, so this time there is no excuse for failure!
+[quarton] Guren: Understood. No failure, no excuses. None. But
+[quarton] Vilius: what sort of enhancement?
+[quarton-battle] Vilius: Robofusion. This should surprise the Knights. Robofusion!
+[quarton-battle] Vilius: Now you understand why we summoned
+[quarton-battle] Vilius: you brave Knights. We thought we were pursuing a small enemy patrol, but instead we found half the corrupted army waiting for us! Roger that, B. Computer, who's leading their attack? My sensors detected Granox and Slyger. The
+[quarton-battle] Vilius: Tenkai Knights are here! I
+[quarton-battle] Guren: can't take it! My circuits are overloading!
+[quarton-battle] Vilius: You're having a panic attack?
+[quarton-battle] Guren: I'm excited, you fool! Come on, let's go spread our little surprise on them right now!
+[quarton-battle] Vilius: All right! Show! Shake this! Fall in! Granox! Commencing robofusion sequence!
+[quarton-battle] Guren: Slyger! Commencing robofusion sequence!
+[quarton-battle] Vilius: Shady us! Commencing robofusion sequence!
+[quarton-battle] Vilius: Signal
+[quarton-battle] Guren: ship engaged! Guys, are you seeing what I see?
+[quarton-battle] Guren: Did
+[quarton-battle] Guren: they just robofuse?
+[quarton-battle] Guren: We can play that game! Fire up the protojet! All right! But this time I'm not getting stuck riding in the backseat again!
+[quarton-battle] Vilius: Commencing robofusion sequence! Tributon robofusion engaged! Bravenwolf robofusion engaged! Valorn robofusion engaged! Lydendor robofusion engaged!
+[quarton-battle] Vilius: Protojet online and operational!
+[quarton-battle] Guren: Hey! How did I wind up back here and get blown? Phoenix attack! Raven
+[quarton-battle] Vilius: attack! No! The
+[quarton-battle] Guren: raven just laid an egg! The Tenkai Knights are victorious again! Yeah! Hooray! But
+[quarton-battle] Vilius: if all of us have their way, this may be their last victory.
+[quarton-battle] Gen: Judging from your faces, this mission was a success.
+[quarton-battle] Guren: Totally aced it. Bucketheads never knew what hit them. You could see that from the backseat. Well
+[quarton-battle] Gen: done, boys. You should celebrate. What's that? An old fishing rod? Yes, Chooki. Very old indeed. I was planning to sell this in the shop, but now I've become rather attached to it. Which end do you poke the fish with? Have you ever gone
+[quarton-battle] Guren: fishing?
+[quarton-battle] Gen: Anyone?
+[quarton-battle] Guren: Played Shark Sploder
+[quarton-battle] Guren: 3? Does that count? I've never done it. Always wanted to. You're kidding. You've never caught a fish? No, really? And you have? What kind of fish did you ever catch? I won a couple goldfish at a carnival once. Such a
+[quarton-battle] Gen: shame. There's nothing like it for honing the mind and body.
+[quarton] Guren: So it'd make us better knights? There's
+[quarton] Gen: no better way to find out.
+[quarton] Guren: We fish. Awesome! But I don't have any gear.
+[quarton] Gen: Well, I have plenty for everyone.
+[quarton] Guren: In that case, I'll ride! I
+[quarton] Vilius: am convinced that somewhere there is another inhabited planet besides Quarton, and that Bravenwolf and the other knights come from this world.
+[quarton] Gen: What a fascinating theory, Vilius.
+[quarton] Vilius: Soon, I will have conquered Quarton, and then I will conquer this other planet as well. But to achieve that, I need the power of the Tenkai Dragon. Where is it?
+[quarton] Gen: Sir, almost there, but we're not quite ready to begin the extraction process yet.
+[quarton] Vilius: Speaking of not quite ready... We were so close this time, Vilius. So
+[quarton] Guren: close, in fact. I took my new paint job.
+[quarton] Vilius: Silence! And prepare yourselves. Fools that you are, you may still be useful.
+[quarton] Guren: I don't know about you guys, but my folks were happy to get me out of the house. Go figure. Are you sure we can't keep score? I usually win at everything. Well, fishing's not about
+[quarton] Gen: being the first or the
+[quarton] Guren: best. I betcha I catch the first one.
+[quarton] Guren: Who knew that fresh air had so much... air? Good old nature. Not a snack bar to be found. There's Wi-Fi, right?
+[quarton] Gen: There are no distractions here. It's a place to purify the mind and spirit. We're missing someone. Where's Chooki? Coming. Just changing.
+[quarton] Guren: You gotta suit up if you wanna play the game. My goodness. You went out and bought a fishing uniform? You never wanna underestimate your opponent. Yeah, but you bought a uniform? Fishing's harder than you think. I spent half the night researching it. Oh, Chooki. That's so Chooki.
+[quarton] Gen: Choose a worm. Fish will never bite without bait. Mm-hmm. Yeah.
+[quarton] Guren: But they're underwater. How do we even find them?
+[quarton] Gen: Uh...
+[quarton] Guren: Well, I'm gonna leave you rookies to figure it out. I've got my game plan.
+[quarton] Gen: These floats will bob up and down when you get a nibble. I
+[quarton] Guren: gotcha. It's like an old-school tracking device. Sweet.
+[quarton] Gen: A
+[quarton] Guren: silent, secluded spot.
+[quarton] Gen: Perfect. Relax. Patience is the very heart and soul of fishing.
+[quarton] Guren: Toxsa's here with his fishing pole of doom. Oh, yeah. Keep
+[quarton] Guren: it
+[quarton] Guren: down, will ya? Huh? Afraid of a little competition? Afraid you might lose for once? I'm afraid you might scare away the fish. Yeah, well, they'd better be scared of me. Can't you fish somewhere else? Sure. But this spot's nice and shady. So much for peace and quiet. I told you about Shark's Floater 3, right? You ever played it? No bragging, but I kinda rule at it. It took me less than two and a half days to reach the level of Rear Admiral. I would've made Fleet Commander, but my system froze. There was some kind of glitch in the interface and no tech support. I swear it was like a beta release. It's a
+[quarton] Guren: real fish, not computer fish. What's the dev? They don't care about video games. They don't?
+[quarton] Gen: Quiet, boys. If they can hear you, they'll stay far away from you. And you can't catch any fish if there are no fish around to be caught. I
+[quarton] Guren: don't get it. Restart.
+[quarton] Gen: You want to conceal your presence. Become part of the whole landscape.
+[quarton] Guren: Ninja invisibility. Got it. Whoa!
+[quarton] Gen: Did it work?
+[quarton] Guren: Why
+[quarton] Guren: don't you go get invisible someplace else, Toxsa? Whoa, it actually did work.
+[quarton] Gen: Steady, steady now.
+[quarton] Guren: You are like the fish whisperer of doom.
+[quarton] Gen: A fine looking little fish.
+[quarton] Guren: Watch whose fish you're calling little. I'm actually good at this. Isn't that right, little fishy? Where are you going, Chooki? I'm going to catch a bigger fish
+[quarton] Guren: over there.
+[quarton] Guren: Hey, Salary. Goodness,
+[quarton] Gen: what a whopper. It's
+[quarton] Guren: a barracuda. Well, it's not but awesome.
+[quarton] Gen: Come on.
+[quarton] Guren: Blocked another one and this one leveled off. Score. What gives? I never come in last in anything.
+[quarton] Gen: Now, boys, it wasn't a competition. That's
+[quarton] Guren: why I'm not bragging that I caught the most. That's because you're not counting the ones I threw back.
+[quarton] Guren: You guys are fighting over second place, right? Because I got the high score. Chooki, give it up. It's time to go. Come on. Save and quit.
+[quarton] Guren: Not yet. But it's starting to get dark. I read that's when the fish really start biting. Look, don't worry about it, Chook. It's only fishing. I know, but I've got to catch at least one. I'm not used to stinking. Don't feel bad, Chook. I stink all the time. There's lots else you're super awesome at. Like soccer,
+[quarton] Guren: basketball.
+[quarton] Guren: Really everything. But fishing. You
+[quarton] Guren: guys aren't
+[quarton] Guren: helping.
+[quarton] Guren: Any time you want a lesson, just ask the master. I'm happy to help. There
+[quarton] Gen: won't be any fish around for miles, ma'am. Don't
+[earth] Guren: worry. He'll be okay soon, I think. Poor guy's not used to striking out. Yeah, you could give him lessons in that, Ceylan. Zip it, microchip.
+[earth] Guren: All
+[earth] Gen: in all, it was a rewarding day. You
+[earth] Guren: bet. Wait till my dad sees all those fish.
+[quarton] Gen: Won't he
+[quarton] Guren: be proud. And plus, I got out of washing dishes at the diner. What more could I want? We should go again sometime.
+[quarton] Guren: Tomorrow. What? We're going again tomorrow. Sure.
+[quarton] Guren: Yay. That's a spirit. Never give up. Maybe he should give up. I mean, why go through all that misery? If he's that hopeless, then I'd really want to... Right.
+[quarton] Gen: Then we'll try our luck again tomorrow.
+[quarton] Vilius: No sign of the enemy in this sector. But I doubt that means they've given up. All units are to stay on full alert. Yes, sir, Commander Beag. Is no one else troubled by these recent events? We are all troubled when the balance of Tenkai Energy has been shifted too much to one side. The balance must be maintained. Do you doubt why I have done what I have done? By reviving the Tenkai Dragon, you have upset the balance between good and evil. Vilius had already seen to that. I was merely... Interfering. And so now you have forced us to interfere. A drastic step, never to be taken lightly. Very well. Is there a consensus on the council? Shall we intervene? Not yet. I agree. There is no consensus for what you recommend, Eurus. You'll do nothing to restore the balance? Then you have put both planets in grave danger.
+[quarton] Guren: Okay, I got this. It's like any other sport. You've got to believe you can win to win. All right, fish, game on.
+[quarton] Guren: Here we go.
+[quarton] Gen: Win or lose, you have to admire such perseverance.
+[quarton] Guren: You're either really dedicated or really nuts. I can't watch. I
+[quarton] Guren: don't want to look away either. I think he might have better luck if he wasn't dressed like the Ice Cream Man. Think of the rod as an extension of your body.
+[quarton] Gen: The energy conversion device is ready!
+[quarton] Vilius: Finally!
+[quarton] Vilius: Uh, ready for what?
+[quarton] Gen: The Knights revived the Tenkai Dragon using the White Dragon Key. While we will never have full control of the dragon until we can obtain the Black Key, with this device, we should be able to extract precious Tenkai Energy that Vilius will need to fulfill his master
+[quarton] Guren: plans. And now, it's time to put that dark energy to use.
+[quarton] Vilius: Granox, Slyder, prepare for battle. And Doompurr, I don't expect you to defeat the Knights. Leave that to me. That we can do. Got
+[quarton] Guren: one! Really? Oh dear,
+[quarton] Gen: don't get too excited, boys. I think he's just smacked something on the bottom.
+[quarton] Guren: Well, at least he caught something. Well,
+[quarton] Guren: this guy's a fighter! Oh no, you don't! You're not getting away!
+[quarton] Guren: As I thought.
+[quarton] Guren: Why do fish hate me?
+[quarton] Guren: He
+[quarton] Guren: couldn't catch a cold. In flu season. Forget the fish. The Knights have been summoned to Quarton.
+[quarton] Guren: Tributon!
+[quarton] Vilius: Tenkai Knights are here.
+[quarton] Guren: Remember, Vilius doesn't expect us to defeat them. B! What's the situation? Just
+[quarton] Guren: when we thought this sector was clear, Granox and Slyker attacked again! Those guys never learn, do they? It's like Chooki and fishing. So? Come on! Let's go!
+[quarton] Vilius: You may not expect to win, but I do!
+[quarton] Guren: Well, if you're going to be that way,
+[quarton] Vilius: I
+[quarton] Guren: do too!
+[quarton] Vilius: So, seniors, fall in! Granox, commencing robofusion sequence!
+[quarton] Guren: Slyker, commencing robofusion sequence! Geners, commencing robofusion sequence! The
+[quarton] Guren: ship engaged!
+[quarton] Vilius: Really
+[quarton] Guren: never learn, do they? Like I said,
+[quarton] Guren: Chooki and fishing.
+[quarton] Guren: Activate the device! Begin energy extraction and conversion now! Well,
+[quarton] Guren: we don't have to repeat ourselves. Yeah, let's go with the air lancer
+[quarton] Guren: jet.
+[quarton] Guren: Wait! Something's going on! It's not normal. Even my Quarton standards! Dark energy lightning! I
+[quarton] Guren: know that sound! Tenkai Dragon! We've been hit! It's all over!
+[quarton] Vilius: Oh, we've been upgraded! With Tenkai Dragon power! They
+[quarton] Guren: got upgraded! Hey, so they did learn!
+[quarton] Vilius: Now, let the Knights feel the power!
+[quarton] Guren: Can
+[quarton] Guren: you
+[quarton-battle] Guren: kill me?
+[quarton-battle] Guren: Good
+[quarton-battle] Guren: luck!
+[quarton-battle] Vilius: I know, right?
+[quarton-battle] Guren: Let's shapeshift to Titan mode! Right! Tenkai! Bravenwolf! Tenkai Titan mode! Activate!
+[quarton-battle] Guren: Tributon! Tenkai Titan mode! Activate! Get
+[quarton-battle] Guren: Titanically Tenkai! Bravore! Tenkai Titan mode! Activate! Fruits of bad luck!
+[quarton-battle] Vilius: Lydendor, why aren't you in Titan mode like the others? Lately, there's a lot of things I don't do like the others. I see. But I don't.
+[quarton-battle] Guren: Let them have it! We're good! They can't hit us! We're invincible! Calm down!
+[quarton-battle] Guren: They hit us! Dudes are fast! No problem. I've had years of arcade game practice. Uh
+[quarton-battle] Guren: -oh! Reset! You ever win any of these games? Hang on. Where'd it go? It vaporized. Uh, I don't think so. Unless this planet's got robot sand sharks. Can't fit it if it can't see it. No problem. AI, you've got some kind of sonar, right? Inoperative. A periscope! Anything! Unavailable.
+[quarton-battle] Vilius: Come
+[quarton] Guren: on! Let's not play word games again! You must have some way of tracking it!
+[quarton] Vilius: Unfortunately, the sudden surge in Tenkai Energy has damaged my systems. You will have to rely on your own capabilities. Thanks a lot!
+[quarton] Guren: Whoa! Watch out! Gotcha! Hey,
+[quarton] Guren: little sucker!
+[quarton] Guren: Come and get it, sand shark bot! Coming!
+[quarton] Guren: Ha!
+[quarton] Guren: Missed him again! Oh man, and I thought catching all those fish was hard! Oh, what fish? You got most of them out of my bucket? Wait, that's it. We just used what we learned. We couldn't see those fish either, but we managed to hook them, didn't we? You guys did.
+[quarton] Guren: Lydendor, you're not in Titan mode? It's my turn now! This fish is mine! Lydendor, Tenkai Titan mode! Activate!
+[quarton] Guren: You guys are the bait? Now we'll wait for him to bite! Watch it! Just
+[quarton] Guren: think of your weapon as an extension of your body.
+[quarton] Guren: How
+[quarton] Guren: come we're the bait? Yeah, I'd rather be the little... Quiet, guys! Stay on your toes!
+[quarton] Vilius: Shout! Finish them off!
+[quarton] Guren: I
+[quarton] Guren: thought you'd never ask! See the fish? See the fish! I may not be good at fishing, but I'm great at waterskiing! And I'm Rocket Tug of War! Yeah! Nice Tenkai Arrow Engage! Tenkai Staff Engage! Well, can it?
+[quarton] Vilius: Yes, it can! I know! That's
+[quarton] Guren: too in-cute of the bad guys!
+[quarton] Guren: I
+[quarton] Guren: know. Way to kick some cloth!
+[quarton] Guren: But that sudden surge in dark energy... Could it have something to do with the Tenkai Dragon? An
+[quarton] Vilius: excellent trial run, Vromis. Very promising.
+[quarton] Gen: And there's no telling how much more I can extract. Good! Surprise me! Oh, I intend to, Vilius. Now, saltwater fishing sometimes requires even more patience. Sometimes not! I've got a
+[quarton] Guren: bite! Hey! Me too! Me three! Hoot,
+[quarton] Guren: Chooki!

@@ -1,0 +1,109 @@
+[unknown] Guren: So those other Tenkai Knights, they're a couple of human kids like us? Yes, and no. Which is it? Why so mysterious? Ah, well...
+[unknown] Vilius: Hmm... Excellent question!
+[unknown] Guren: Huh?
+[unknown] Vilius: What
+[unknown] Guren: do you mean? So much wonderful curiosity, and the
+[unknown] Vilius: answers will be very satisfying.
+[quarton] Guren: As part of your training, you must discover the answers on your own, so think of this as a new adventure. Hey, I bet you don't even know who they are, do you, Mr. White?
+[quarton] Vilius: Give a man a fish you feed him for a day, but teach a man how
+[quarton] Guren: to fish you feed him... for life. I don't like fish. I can tell you this. The others may be closer than you think. Good luck, Tenkai Knights.
+[quarton] Vilius: It's true, sir. All four Tenkai Knights have returned, but there's something different about them. That's an understatement.
+[quarton] Vilius: They can barely control their own minds. Their own powers. And their teamwork? Well, it's pathetic, sir.
+[quarton] Vilius: Really, just pitiful. Strange, then, that they were able to defeat the two of you, and steal the Dragon Cube.
+[quarton] Vilius: It was Granix's fault, sir.
+[quarton] Vilius: Then this is your chance to prove yourself, Slyger. The time to destroy them is now! Before they regain control of their powers! Fail me again, and I won't be so forgiving. As you command, Vilius. If I
+[quarton] Guren: was a Tenkai Knight, where would I be?
+[quarton] Vilius: We
+[quarton] Guren: are Tenkai Knights, and I can tell you exactly where we are. Wasting our time on a wild goose chase when we could be anywhere else. Wait a
+[quarton] Vilius: minute.
+[quarton] Guren: Maybe these will find them for us. Yeah, right. Activate! Huh? Go,
+[quarton] Vilius: go, Tenkai!
+[quarton] Guren: Come on! I think you need to work on your dance moves, dude. Maybe I need to replace the batteries on this thing. Wait a sec. I've got a better idea. Hang on! I've got this under control. Please, no more dancing.
+[quarton] Vilius: Follow me. You'll see. Huh? Where are you going? First, the bathroom. Then I've got a plan.
+[quarton] Guren: Come
+[quarton] Vilius: on, Guren!
+[quarton] Guren: You know how scientists can figure out what a dinosaur looked like from just the tiniest knuckle bone? A knuckle bone? Reddit. On the internet. Are you feeling okay? We start with what we know. Lydendor was tall and thin, and his armor was yellow. So maybe on Earth he's a tall skinny guy with blonde hair. Valorn was shorter and stockier, and greener. So maybe he eats a lot of spinach or something.
+[quarton] Vilius: Pretty impressive how I did that, huh? That's
+[quarton] Guren: okay. Save your applause, folks. That won't be a problem. Lastly, if they're like us, I bet they're hanging in the mall right now. Uh... That guy. What do you think? I think I shouldn't have let you talk me into this. Him. He's stocky? Too stocky. Too tall. Too weird looking. Him. I hope not. Who wears turtlenecks? Hey, come on, Guren. Get with the program. What have we got to lose? Our dignity? Dignity?
+[quarton] Vilius: Huh?
+[quarton] Guren: I bet green's your favorite color, am I right?
+[quarton] Vilius: Get away from me, kid.
+[quarton] Guren: Hi there. Ever seen
+[quarton] Vilius: a shape-shifting robot?
+[quarton] Guren: Oh man, this is
+[quarton] Vilius: painful. I just can't watch.
+[quarton] Guren: Okay, that didn't go well, but in theory it was a good idea. Oh yeah, absolutely. Okay. If you're so smart, what's your brilliant plan? Well, I won't say it's brilliant, but it might actually work. Huh? What are we doing at Mr. White's shop? He won't tell us anything. No? But I wasn't planning on asking him. You lost me. One, we know they used the portal, right? So two, sooner or later they've got to show up here. And we'll be waiting for them. Like cops on a stakeout. Exactly. And number three, I've already staked out the perfect place for our stakeout. It's got a big window and free refills. Sweet. See anything?
+[quarton] Vilius: I'm looking
+[quarton] Guren: at the same thing as you. Oh yeah, right.
+[quarton] Guren: Oh. When are these robo-nuggets gonna show up? If we knew that, we wouldn't need to have a stakeout.
+[quarton] Vilius: Ugh. If I have to order another free refill, I might hurl.
+[quarton] Guren: What if they're better than us? Huh? These guys were chosen like we were. But you've got to wonder what they're like.
+[quarton] Vilius: I
+[quarton] Guren: already told you what they're like.
+[quarton] Vilius: One's tall and
+[quarton] Guren: blonde, and then- Give me a break,
+[quarton] Vilius: will ya?
+[quarton] Guren: I'm in the hospital. Hm? Huh? Dude, look. Someone just went in- Hey, wait! Ooh, sure. They're in here. Hiya, Mr. White. You don't mind if we take a look around, do you, bud?
+[quarton] Guren: Told you it was them. Well, then let's go. What are we waiting for? Right. Okay, Mystery Knights, we got you now! You
+[quarton] Guren: sure you saw them? You weren't just- Look,
+[quarton] Vilius: I'm telling you, I saw-
+[quarton] Guren: Well, somebody's here. In
+[quarton] Guren: yourself? Huh. Bounce wants to be housebroken! He
+[quarton] Vilius: shoots? I
+[quarton] Guren: got game. Okay, here's the plan. We blitz these bots and grab the Dragon Cube. Not sure I'd call that a plan. More like the rough outline of a general concept. Whatever. Just try not to get blown up.
+[quarton] Vilius: So, the legendary heroes have come back. That's so touching. I'll
+[quarton] Vilius: give them a welcome home they'll never forget!
+[quarton-battle] Guren: A plan should have a clearly specified sequence of- uh-oh. See
+[quarton-battle] Guren: what? Why, this clearly doesn't qualify as a plan! What
+[quarton-battle] Vilius: goes up, always comes down! And explodes!
+[quarton-battle] Vilius: For you, Tenkai Knight, it's the Claw of Doom!
+[quarton-battle] Guren: Mind if we crash the party? Good timing! You okay? Never mind that. Who are you guys? And how come you're- No time. We're running on Tenkai Fugues. Where's the Lord? I
+[quarton-battle] Vilius: don't know. If I'd known all four of them were coming, I'd have brought an army. Oh, wait! I did! Attack! Destroy them all! Not
+[quarton-battle] Guren: good. Lydendor, our Tenkai energy levels are flatlining. I know, I know! We've gotta bail! Bailing sounds good to me, too. Wait! We gotta make sure they get away okay, okay? We're running out of time! Okay,
+[quarton-battle] Vilius: that's good. You think? They look more like legendary cowards to me. What
+[quarton-battle] Guren: were you thinking? I was cutting it awfully close. Mm-hmm. Yeah, but we all made it back. At least, I think we did.
+[quarton-battle] Guren: Took you long enough. You get lost.
+[quarton-battle] Guren: So it's you. That was close. I don't recall asking for your tech support. We weren't trying to get in your way. You just seemed like you could use a little help. We were the ones who were summoned there, not you. We had those bot freaks on the ropes till you two glitches butted in. Yeah, right! Look to me like you and your friend were about to be turned into intergalactic cheese spread! You newbies! Ever heard of strategy?
+[quarton] Vilius: Forget it. The damage is done. Why were you guys there in the first place?
+[quarton] Guren: We heard two armpits were pretending to be Tenkai Knights. Ceylan, chill. You've been following us. We, uh... Think we didn't spot you in that burger joint. Why? Uh... Okay. Listen, I thought maybe the four of us should try working together. Together? No way. After all our research and field testing, we're not gonna nurse two rookies along. Look, since we're all in this, we should work together. Not like two separate teams competing against each other. No thanks. I like my team
+[quarton] Vilius: just fine. These
+[quarton] Guren: guys couldn't fight off a case of the sniffles. We're better off without them. Ceylan? Good. So we're all in agreement, then. Later. Hey, wait! Wait a second! Let him
+[quarton] Vilius: go, Guren.
+[quarton] Guren: Yeah,
+[quarton] Vilius: bud. Okay. Guess we'll just keep things the way they are for now.
+[quarton] Guren: Hmph.
+[quarton] Vilius: I've
+[quarton] Guren: gotta believe the Guardians chose four of us, not two sets of two. What does Guren want with those posers, anyway? We're fine on our own. Yeah, we're fine.
+[quarton] Guren: What? You guys go to school here? Wait a second. How come we never noticed them before?
+[quarton] Vilius: Ugh.
+[quarton] Guren: Cause they're lame? Ugh. Paul Revere was sent by Dr. Joseph Warren across the Charles River, where he borrowed a horse from Deacon John Larkin. This shows, by working together, the Patriots were able to defeat a stronger foe. Ugh. Toxsa, we've uploaded those 5D schematics.
+[quarton] Unknown: Yeah? I'm there. Shh. Come
+[quarton] Guren: on, Guren. Let's go. What are we hanging around for? What's wrong? You have the cafeteria tuna fish? Ceylan, there's gotta be a reason we've been thrown together. We can't just spend the rest of our lives ignoring each other. You know? Hey, man. You tried. What more can you do? Anyway, I think we make a primo team on our own. Huh? Whoa. Ceylan, we're being summoned. Let's move. Yeah. What are you doing here? That's our line. Teleport somewhere else. Hey, sour pants. We were summoned by the Guardians.
+[quarton] Vilius: Well, you snooze, you lose. We got here first. Let's go, Toxsa. Just a moment, boys. Before you go, it might be wise to learn a bit more about your enemy.
+[quarton] Guren: Oh, no. Not another speech. We're in kind of a hurry.
+[quarton] Vilius: Some might call it foolish to refuse a lantern when walking into the darkness. Huh? What?
+[quarton] Guren: Okay, Mr. White. Shoot. The Guardian can better explain.
+[quarton] Vilius: I feel the Tenkai energy of the four. Good. Now, to learn something of your adversary. Our home planet, Quarton, where Vilius came into being eons ago. Originally, there were five Tenkai Knights, and Vilius was one of them. But he was not content with being one among equals. He was ambitious and used any means, even forbidden practices, to his advantage. His Tenkai energy became dark and corrupted. While the other Corekai sought to preserve balance and order, Vilius sought only to destroy anything and anyone in his path. This brutality and ruthlessness were contrary to the way of the Corekai, and Vilius was condemned. He and those he had corrupted were banished. In revenge, Vilius launched raids against the Corekai, capturing warriors and infusing them with dark Tenkai energy. Until he had built an army of followers, the Corrupted. He declared all-out war on his former homeland, a war which raged for centuries. A war he was on the verge of winging when the Tenkai Knights stopped him. Then, Vilius unleashed the Tenkai Dragon. He was not strong enough to control its powers then. But now, he has returned, and he seeks to reunite the scattered pieces of the Dragon. If he succeeds, he will not only conquer Quarton, but he will use the portal to invade Earth. See anyone?
+[quarton] Guren: No, I suppose not. Well, now you have some idea of what you're up against. And how much the world is depending on you. All of you. The
+[quarton] Guren: Tenkai Knights have miraculously appeared. How'd you do that? You know, we're the Tenkai Knights. Yeah, that's just how we roll. Yeah. Yeah.
+[quarton-battle] Unknown: Roll? But you have no wheels. No matter. Once again, your timing is perfect. A detachment of the Corrupted stole the Dragon Cube we were transporting to our safe house. With your help, we can overpower them and rescue it. So we get another shot at a cube? Take a look at this. We've located a faint signal that is different from any other energy source on Quarton. We cannot pinpoint the exact location, but we have traced it to Sector 47. We believe it's one of the five missing Dragon Cubes. If it is, we must track the source of that signal so that we keep the Tenkai Dragon out of the hands of the Corrupted. And
+[quarton-battle] Guren: before his Viliusness gets his grips on him, right? Exactly. Lydendor and I will take over from here. Not to worry, we'll get your cube back. Whoa, hang on. Yeah, you had your chance and you blew it. It's our turn now. Oh yeah? Why don't we just see which team is best? What do you say? Sounds good. Whoever gets the Dragon Cube first wins. Bring it. Knock it off, you guys. This isn't a game, you know. Don't sweat it. We've got this in the bag. And look, if we do end up working with these guys, it's good they know who's boss. Yeah,
+[quarton-battle] Unknown: but- By the four moons of Quarton! Since when do the Tenkai Knights bicker? The enemy is getting awa- Correction! The enemy is upon us. Okay,
+[quarton-battle] Guren: newbie. Let's see if there's any substance behind all that static. Watch and learn, microchip. And stay out of my way so you don't get hurt. Huh.
+[quarton-battle] Guren: Laser jet, you're about to log off. Time to rip the bricks. Nice. We'll have this mission wrapped up before the rookies even get started. You know it. Get the point, punk. Hey, what do you think of that as a catchphrase? Get the point, punk. Not bad, huh? When are you gonna get the point? Our lives are in danger here. Oh, point taken.
+[quarton-battle] Vilius: Now to finish him. Attack and destroy! Isn't this where we came in last time?
+[quarton-battle] Guren: Oh, no. Not that gadget again.
+[quarton-battle] Guren: Well, any suggestions? Yeah. Duck and cover. Gotcha. The rookies are pinned down. Now's our chance. Glorf! You okay, bro? More or less. I guess. But Chooki, we've gotta knock out that storm cannon. Dude's too strong. We'd be crazy to try and take him head on. Yeah. That's right. You'd never expect that.
+[quarton-battle] Vilius: Bravenwolf! But what are you waiting for? Stop it, you fools!
+[quarton-battle] Guren: Look at him go. He's got game. Yeah, but no bonus points for strategy, that's for sure.
+[quarton-battle] Vilius: Corrupted soldiers, for the Tenkai Wall! That was not what I
+[quarton-battle] Guren: planned.
+[quarton-battle] Vilius: Can't move. Now, where were we? Oh, yes. I was going to blast you into fragments! He blasted his own guys to get me? Man,
+[quarton] Guren: that's cold. In your eye, bad guy. How's that for a catchphrase? It needs work, but
+[quarton] Vilius: your timing's great.
+[quarton] Vilius: Even two of you can't stop me. Better count again, buckethead. There are four Tenkai Knights. Right, guys? That's right! We're the Tenkai Knights! And we're back! Another
+[quarton] Guren: Void! Another Dragon Cube! You see? This teamwork thing. It's not so bad, huh? I mean, we are a team, right? Uh, sure. Why not? Yeah, sure. We are. Yes, we are. Nice work, guys. On this planet, you guys can call me Guren. My name's Chooki. And my name's Toxsa. Huh. So I guess we're like bros? I suppose it's better than foes.
+[quarton] Vilius: Sometimes four is more than two plus two, isn't it?
+[quarton] Guren: So it's agreed. We're a team. Okay? Sound good? Sure. Count us in. Sure. Why not?
+[quarton] Vilius: Slyger underestimated them, and has paid for his folly. I trust you won't make the same mistake, Granox. Now that the Knights have tasted victory, they too, like Slyger, will grow overconfident. And
+[quarton] Vilius: I will be ready.

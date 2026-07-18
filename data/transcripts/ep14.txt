@@ -1,0 +1,111 @@
+[quarton] Guren: You came in late. My friends and I have been chosen to be the new Tenkai Knights. And just like the original Knights, our mission is to save the planet Quarton and pretty much the whole universe from the evil warlord, Vilius. By finding the Dragon Cubes and the White Dragon Cube, we were finally able to revive the powerful Tenkai Dragon and defeat Vilius and his army of Corrupted. Or did we? Because you see, I lost the key. And that creep Dromus stole the dragon from us. So who knows whose side the dragon is on now. Oh
+[quarton] Guren: boy,
+[quarton] Guren: I have a strange feeling that our problems are about to get worse. We are
+[quarton] Guren: Tenkai!
+[quarton-battle] Beni: What? No welcome home party? Well, I guess I can't say that's a big shocker. It's not like he's expecting me.
+[quarton-battle] Guren: Not here.
+[quarton-battle] Gen: Not
+[quarton-battle] Beni: now. Won't he be surprised?
+[quarton-battle] Guren: Keep waiting for the other shoe to drop. It's like when you break something and you keep expecting to get in trouble for it. But you don't. It feels like weeks since the last battle and nothing's happened. Where are you going? We're gaming at Tox's. You in? Sure, why not? What about this mask for Halloween? Smells like a foot. Try this. No one will even know you're wearing a mask. Ha, almost funny. Everyone's right back into their everyday lives. Like there's nothing to freak out about. Who knows? Maybe they're right. You're still here and Quarton's still up there, somewhere. Maybe we really did save the universe after all. Of course, me dropping the key is what led to them getting the dragon. I mean, I wonder if that's why we haven't been summoned to Quarton.
+[quarton-battle] Guren: Who am I kidding? Something's gotta be up. I'm sure we sent the Corrupted Pack for now. Yeah, I went one-on-one with Vilius and actually beat the Kree. I can't believe he's gone for good. No, that last battle was anything but the last battle. Not by a long shot. Finally. Great, we're all here. Time to get our chow on. Check it out, Mr. White's upgraded his snackies. Unless you want tea.
+[quarton-battle] Guren: I'm
+[quarton-battle] Guren: good. So, what's our plan? You mean, beside checking out? Yeah, our long-term strategy. My strategy is to chow down Victor. I'm serious. Come on, you guys, we've gotta be ready to go for when we get summoned to Quarton. It's a strategy meeting?
+[quarton-battle] Guren: We've done all the prep work. I mean, seriously, how lame is that? It's kind of like a rival team snagging one of your best players during the off season.
+[quarton-battle] Guren: Great, now you've just ruined my appetite. And speaking of stealing things, what are you doing? Hey, I've gotta keep my strength up, right? So they stole the dragon. No problem, we'll steal it back. Now you're talking. I'm getting my appetite back. Yes. No. Too bad, Toxsa, but this last chip, it's all mine. Guys. Huh? Oh. Let's forget the snacks for a minute. Yes, indeed. Guren is quite right. Might I suggest we all
+[quarton] Gen: look
+[quarton] Guren: forward to the more important
+[quarton] Gen: things that... Well, okay,
+[quarton] Guren: those are already good. It's time we came up with our game plan. First we take the dragon back, then we take on Vilius.
+[quarton] Guren: Pause button, didn't we beat him? We did. Then he unbeat himself. Unbeaten. Our game plan is to fix all of the mistakes we made. Agreed, but not before you help me clean up these crumbs. Be
+[quarton] Vilius: grateful I've reassembled you. Fail me again, and I may not be so forgiving.
+[quarton] Guren: I know what you mean. No matter how many times you go through reassembly, it still feels disgusting.
+[quarton] Vilius: Yeah, but it's not as bad as disassembly. Quiet, you two. Dromus,
+[quarton] Gen: what's
+[quarton] Vilius: our status?
+[quarton] Gen: All is going according to plan, Vilius.
+[quarton] Vilius: Good. And the Tenkai Dragon is still secure?
+[quarton] Gen: Yes. Come see it for yourself. I've taken care of everything while you were re-emerging. Excellent. So
+[quarton] Vilius: bold as to think that I have easily defeated Dromus. The Tenkai Knights are not who you think they are.
+[quarton] Gen: Of course, Vilius. Your power knows no bounds. You've been one step ahead of them all along. You tricked them into collecting the Dragon Clues, finding the key, and reviving the Tenkai Dragon, and they never knew they were being fooled until it was too late, and the Dragon was ours. From the beginning, they've been nothing but pawns in my grand strategy. I mean, your grand strategy, Vilius. In fact, every step of your scheme has been so perfectly calculated that I almost believe you have been able to get away with it. You intended for Bravenwolf to defeat you. What do you mean, you
+[quarton] Vilius: almost believe? Of course I intended it.
+[quarton] Gen: Yes, I should have known. It's only that it looked so convincing.
+[quarton] Vilius: Dromus,
+[quarton] Gen: if
+[quarton] Vilius: your defiant tone goes any further, I shall deactivate you myself.
+[quarton] Gen: There, you see? It's just as I told you.
+[quarton] Vilius: Magnificent. Look at all that unimaginable power.
+[quarton] Gen: And yet it's all held in check by the containment sphere.
+[quarton] Vilius: Yes, it was an ingenious ploy to use the Dragon's own Tenkai Energy to restrain itself. The beast has built its own cage.
+[quarton] Gen: Giving us time to figure the exact way that will allow us to extract the Dragon's energy. Soon its limitless power will be yours.
+[quarton] Vilius: Ha! Never again will I be defeated by Bravenwolf.
+[quarton] Gen: Or pretend to be defeated by Briggs. Exactly.
+[quarton] Vilius: There will be no more need for clever tricks or stratagems. Give me that power, and I will take what I want by sheer force.
+[quarton] Gen: As
+[quarton] Vilius: Vilius commands.
+[quarton] Guren: Okay, so, we go back to Quarton and- First, I gotta give you props for the excellent snackage today, Mr. White. I'll say. These cheesy choco mints? It's like eating a whole birthday party. Are we here to talk about saving the universe for Vilius or to rate the snacks? I mean, seriously. Well, we can multi-task. Ugh, the spicy jalapeno bits? Hot like a hot tub on the sun, know what I mean? Guren's right. We really should go back to Quarton. At least to scout things out. Well, can we take the choco squares with us? I, uh, see what you mean by the spicy ones. Okay, but seriously, guys.
+[quarton] Vilius: Spicy.
+[quarton] Guren: Okay, but seriously, seriously. We'll all meet back here tomorrow after school lets out and head off to Quarton. Okay, but seriously. We'll all meet back here tomorrow after school lets out and head off to Quarton. You got it. Now that's a game plan. Okay. Let's hear it. One mind, one team, right? Right! Water!
+[quarton] Gen: Now, if you'll excuse me, Vilius. There's still work to be done, if we're to be ready. Ready? For what? We can't expect the Tenkai Knights to just sit back and do nothing. Sooner or later, they'll come for the dragon, and we must be ready for them. But of course, you knew that. Of
+[quarton] Vilius: course. I was just testing you. Well done. We'll honor you, mighty Vilius. Hmph. Vilius's pet. Just wait and you'll get his comeuppance one day. That's right.
+[quarton] Guren: This comeuppance is taking a long time coming up.
+[quarton] Gen: The Tenkai Dragon is neither good nor evil. Its power belongs to whoever possesses it. Which means, if the Corekai ever get the dragon back, they'll have the advantage again. I can't let that happen. I've come too far. That power must be mine. And the only way to ensure that is to find the Black Dragon Key. The
+[quarton] Guren: funny thing is, we keep worrying about Vilius and how to fight him. But I'm not so sure he's the most dangerous enemy we're up against. Dromus is the real problem. He's strong, yeah, but most of all, he's smart. But really, he keeps turning up all the time. It's like he's always one step ahead of us. There's
+[quarton] Gen: something about that guy. Guren. Guren. Gen. Is
+[quarton] Guren: there somewhere we can talk? Sure. Why not? Man, I need something to wash down all those snacks. How about you? Want one? Incoming.
+[quarton] Gen: Snacks?
+[quarton] Guren: Long story. So, what was it you wanted to talk about?
+[quarton] Gen: Oh. Still carrying the fate of the universe on your shoulders? I'm kidding. You just always look so worried. Anyway. Recognize this? Yeah. It's that coin you showed me before. You seemed pretty interested in it. So I decided to let you have it. Consider it a sort of good luck token. Really? Thanks a lot, Gen. Sure. Seems like you're gonna need some luck one of these days. Hey, is it, like, actually worth anything?
+[quarton] Guren: Hmph. Anyway, thanks
+[quarton] Gen: for the juice.
+[quarton] Guren: Sure.
+[quarton-battle] Gen: No problem. I'll take it to go. See you around. Heads or tails. There are two sides to every coin. Kinda like people. Some people never let you see both sides. That's you and me, Guren. Two sides of the same coin.
+[quarton-battle] Guren: I'm going crazy here. I've had slow days at school before. This one's endless. Maybe it's just because I'm the one who lost the key, so I feel responsible. Yeah. All I can think about is what's happening on Quarton. Everything else seems so... unimportant. Nice shot, Guren. What was that? You never play like that on my team. To make things even worse. It's like I'm the only one who cares. I had to practically beg Ceylan and the others to even think about going back to Quarton. I wish I could relax, too. But losing the key and the dragon means our problems are far from over. I just wish I could make the other guys see that. What's up with you, anyway? Who, me? It's nothing. The bells, finally! Well, it'll be time for snacks. I'm starving.
+[quarton-battle] Gen: Good luck, Knights, and safe return. And don't worry, Toxsa. I'll save you some snacks.
+[quarton-battle] Guren: Tenkai!
+[quarton-battle] Vilius: Cornered and outnumbered. It's times like this
+[quarton-battle] Guren: I really miss the Tenkai Knights. Thanks, Vig. We've missed you, too. Bravenwolf! Are my sensors happy to detect you? Looks like we came just in time. It seems the Corrupted we defeated are hungry for yet another battle! Oh, man. Why do you have to say hungry? Let's go Titan and kick some butt! Tenkai! Tenkai Titan Mode! Activate!
+[quarton-battle] Guren: Tenkai Titan Tributon! Tenkai Titan Mode! Activate! Time
+[quarton-battle] Guren: to get Titanically Tekkai! Go, Lord! Tenkai Titan Mode! Activate! I
+[quarton-battle] Guren: got some bad news for you, Toxsa-faces. Fun time's over. The Knights are back in town!
+[quarton-battle] Gen: Well, you kept me waiting, Bravenwolf.
+[quarton-battle] Guren: Right, Dromus. I should have known you'd be here. You're
+[quarton-battle] Guren: always butting in, aren't you, Dromus? This is one time. You're gonna wish you butted out!
+[quarton] Gen: Sure you're up to it? You've been on vacation for a while. Might be a little rusty.
+[quarton] Guren: Rusty? I am gonna fry this poser's processors! He's got a point. I may need to cut back on the triple cream filling. You know, if you say it's super fast, Dromus almost rhymes with doughnuts. Dromus doughnuts, get it? Speaking of doughnuts, let's punch a hole in these buckets so we can get back before Mr. White eats all the
+[quarton] Guren: gut stuff!
+[quarton] Guren: Right behind ya!
+[quarton] Guren: I
+[quarton] Guren: forgot how fast he is. Just watch. This'll slow him down. I'm watching.
+[quarton] Guren: Still
+[quarton] Guren: watching. See? Told ya. Yeah, look, you had anything to do with
+[quarton] Guren: that. Whatever. He stopped moving. Blast it! Okay, bad idea. Heads up! Slowed him down, huh? Way to go. T-fetch, guys. It's not us he wants. It's Bravenwolf. You think? We've gotta protect our quarterback! Whoa! We've been blitzed!
+[quarton] Gen: My quarrel's not with you. Yet. So stay out of my way!
+[quarton] Gen: So, Bravenwolf. Figured out the answer yet? Answer to what? My question. What
+[quarton] Guren: is it you're fighting for? Enough talking! Bring it on!
+[quarton] Gen: You don't know, do you? We still don't even know the reason you're fighting.
+[quarton] Guren: To stop your annoying questions, how's that for a reason?
+[quarton] Gen: If you don't know why you fight, how can you hope to win? If you don't have an objective, how would you even know if you did win?
+[quarton] Guren: You'll be a stimming pile of scrap metal! That's how I'll know! Is that really the best you can do?
+[quarton] Gen: It's over, Bravenwolf. At least you'll know the reason you lost. On
+[quarton] Guren: our team, if one guy's down, everyone else covers for him. And we're one mean Tenkai team!
+[quarton] Gen: Then I'll deal with you two first!
+[quarton] Guren: You weren't listening, were you, Fultbrain? You have to deal with all of us! We're a team! It's
+[quarton] Gen: true. I was wrong to focus on one of them and dismiss the others. It's not Bravenwolf I'm fighting. It's the Tenkai Knights. I won't forget that again. Send the word
+[quarton] Guren: to
+[quarton] Gen: all
+[quarton] Guren: units. Pull back for now. We're done here. Already? But... Okay. Victory!
+[quarton] Gen: We'll meet again soon, Knights.
+[quarton] Guren: Is it just me, or was that harder than it should have been? Maybe he was right. Maybe we are out of shape. Nah, we just let ourselves get lazy. So, okay. That just means we get back to training and cut out the snacks. No snacks? Okay, I'm in. First, I never got any snacks. And B, we gotta step up our game. Yeah, but one thing we all got is our teamwork, right? Right!
+[quarton] Gen: But
+[quarton] Guren: if we're such a great team, why is Dromus so focused on Guren? What's wrong, Chooki? Uh, what could
+[quarton] Guren: possibly be wrong? We're a team. We're gonna kick butt, right?
+[quarton] Guren: Yeah, but something tells me it's not gonna be that easy.
+[quarton] Vilius: Well, what have you found out so far?
+[quarton] Gen: Our analysis of the download from Valorn's database is not yet complete, Vilius. But we can say that the world shown in the imagery is definitely not Quarton, nor any planet in this quadrant. It's another world entirely unknown to us.
+[quarton] Vilius: Perhaps it's that world Bravenwolf spoke of. The one he called Earth.
+[quarton] Beni: Hello, Gen.
+[quarton] Gen: You took your time, Beni.
+[quarton] Beni: Can't you act even a little surprised? So how are things? I hear you've had some issues with the Tenkai Knights. It's...
+[quarton] Gen: complicated.
+[quarton] Beni: Well, don't worry. All that's about to change. Things'll get simpler... now that I'm in town.
+[quarton] Gen: Who knows? She might be right. Maybe I've been a one-man team long enough. Yeah. You're not the only one with friends, Guren. Not anymore.

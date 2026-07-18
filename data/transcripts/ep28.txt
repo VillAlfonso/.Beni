@@ -1,0 +1,144 @@
+[quarton] Guren: Now that's body smart! What
+[quarton] Guren: happened? Either I just blew a gasket, or I think I've got a whole new level of power! Wish Slyger was here to take this! I mean, see this! Tenkai Firestorm!
+[quarton-battle] Guren: That's what's gonna make me see! Move
+[quarton-battle] Guren: there,
+[quarton-battle] Beni: Guren! Yeah, I can't wait to use mine! Talk about a big power-up! That was like scoring a wizard potion!
+[quarton-battle] Guren: Yeah, and it made about as much sense. I have no idea where those powers came from. From within yourselves, you made the change happen. Really? We did that? You certainly did. How do you think you acquired these formidable new attributes? Because you were able to unlock the Dragon Cube's full potential.
+[quarton-battle] Guren: Wow, we're even better than I thought! Welcome
+[quarton-battle] Guren: to Tenkai Legend. You, Guren, are no longer merely Bravenwolf. You are now... Bravenwolf Tenkai Firestorm. And Ceylon, you are no longer merely Tributon, but Tributon Tenkai Ice Blast. Toxsa, your days of Valorn are over. You are now Valorn Tenkai Terrablast. And you, Chooki, are Lydendor no longer. Henceforth, you are Lydendor Tenkai Lightning Strike!
+[quarton-battle] Guren: Okay, but why?
+[quarton-battle] Guren: Why? Uh, why what? What's
+[quarton-battle] Guren: it mean? Why have we all been given new names?
+[quarton-battle] Guren: Excellent question. Wish I knew the answer.
+[quarton-battle] Beni: Well, that's typical. Anyway, there's more to it than just a new name.
+[quarton-battle] Guren: You saw that Firestorm move of Guren's, didn't you? That's right. And if I got a whole new attack mode, well, then something tells me that we all get one.
+[quarton-battle] Beni: Yes! And mine even sounds cool! Terrablast! Sounds like... something that happens when you eat a bad burrito. Yeah? Well, it's a lot better than Ice Blast. What kind of lame attack is that, hm? Know what it sounds like? A Snoo-cone! Does it come in different flavors?
+[quarton-battle] Guren: It's a bit familiar, guys. Guren's right. These new powers could be a game changer. They could put us in a whole new league. There was an old league?
+[quarton-battle] Beni: Yeah! It's like leveling up from Goblin Grunt to...
+[quarton-battle] Guren: Burrito Blaster!
+[quarton-battle] Beni: Yeah, but Snoo-cone. Yes,
+[quarton-battle] Guren: was right. His plan is working perfectly. Far be it from me to question your decisions, Vilius. But why did you choose Granox to fight the Tenkai Knights instead of me?
+[quarton] Vilius: Because, Slyger, I suspect there's a possibility that Granox will fail. Possibility? As in 100%? In that case, can I rely on you?
+[quarton] Guren: Of
+[quarton] Guren: course!
+[quarton] Vilius: Good. Because I have a trans-dimensional portal to this Earthworld, and you are going to test it. Me?
+[quarton] Guren: Oh, what an honor!
+[quarton] Vilius: Should Granox fail me, you will travel to this other world. Find the Knights and destroy them!
+[quarton] Guren: Understood, oh great one!
+[quarton] Vilius: Now go!
+[quarton] Guren: As Vilius commands! Uh, quick
+[quarton] Vilius: question.
+[quarton] Guren: What is our... Be
+[quarton] Guren: painful? Define painful. That
+[quarton] Guren: answers that question!
+[quarton] Guren: Portal travel. Not so fun. I
+[quarton] Guren: wish Granox had felt that. What peculiar terrain this planet has. Artificial rock formations with silica viewing ports? The inhabitants are so soft and spindly. Their vehicles so grooved and inefficient. This will be easier than I thought. What a backward, puny species they are. Some of them are really puny. But wait, I seem to be missing an essential element if I'm to fit in here. Outer guard. That could work. Replicating. Excellent, now I fit in perfectly. Core bricks detected. Hm. Hm? Those grunts are the Tenkai Knights? Pecker.
+[quarton] Guren: Okay, see you tomorrow, guys. Ciao! Anyone for
+[quarton] Guren: a
+[quarton] Guren: lime pie,
+[quarton] Guren: please? What's your
+[quarton] Guren: problem, mister? There's no problem, Bravenwolf. Who are you? You don't recognize me? Your old friend, Slyger. There's nowhere safe you can hide from me. Not anymore. You can't escape. Where
+[quarton] Guren: are you? I've got Slyger on my tail. Slyger? Where are you, Quarton? Wow, this is good reception. I can hear you clear as a bell. No, Slyger's right here on Earth. What? Since when? Since now. I'm heading back to Mr. White's shop. Right. We'll run in from there.
+[quarton] Guren: Very
+[quarton] Guren: clever, Bravenwolf. You found the one advantage of being puny. Tis far from over. I will find you again. And when I do, I will crush you.
+[quarton] Guren: You sure it was Slyger and not just some wacko in a funny suit? I'm sure. It was a robot with four eyes. And he called me Bravenwolf.
+[quarton-battle] Guren: Okay, but how does a guy from Quarton turn up here on Earth?
+[quarton-battle] Guren: No path runs in only one direction. The same means you use to travel to Quarton, Slyger used to come here. Now that it seems Vilius has the Guardians under his control, he must have access to a trans-dimensional portal. Which means what? Which means he and his minions can come and go as they wish.
+[quarton-battle] Guren: Terrific. So now we don't even get weekends off?
+[quarton-battle] Guren: I hope this isn't the start of a full-scale invasion. Have you any idea what Slyger's purpose here was?
+[quarton-battle] Guren: Oh, you know. Smashing stuff and trying to destroy me. The usual. The
+[quarton-battle] Guren: difference is, he's brought the battle to us. We must nip this in the bud before any others come. It's best you leave Slyger to me for now.
+[quarton-battle] Guren: All
+[quarton-battle] Guren: right. Meanwhile, try and keep a low profile. And travel in a group. Do not get separated.
+[quarton-battle] Guren: Right.
+[quarton-battle] Guren: It's
+[quarton] Guren: a total
+[quarton] Guren: mismatch if we have to fight Slyger here. No kidding. I mean, on Earth, we're just a bunch of kids. That's why we've got to send that toaster back to Quarton. So let's just hope Mr. White comes up with something we can use. Mm-hmm. I know it's here.
+[quarton] Unknown: I just have to remember. What? You lost it? Of course not. It's here in the shop.
+[quarton] Guren: I just can't remember where exactly.
+[quarton] Unknown: Think.
+[quarton] Guren: Where did you put it? I do wish you'd stop popping up like that, Boreas. It really doesn't help you, though.
+[quarton] Unknown: This is important. I entrusted you with that weapon. I
+[quarton] Guren: know, but will we really need it? The chances of Vilius ever
+[quarton] Unknown: accessing a portal? May seem remote right now, but who can say what the future will bring? That weapon could prove vital. I have
+[quarton] Guren: let the shop get a bit cluttered.
+[quarton] Unknown: Do what you must, but find it.
+[quarton] Guren: Seems it's time for spring cleaning. It's
+[quarton] Guren: okay with me if you want to hang out here for a while. Long as you don't snore or reek
+[quarton] Guren: oil. Thank you, Venetta. Or should I call you Beni? Yes, this will do nicely. What do you know about the Tenkai Knights?
+[quarton] Beni: Sorry, Slyger. You gotta get your own information. Just cause you're crashing here doesn't make us a team.
+[quarton] Guren: Suit yourself. Then I guess I won't share my Core Bricks sensor with you.
+[quarton] Beni: Did
+[quarton] Guren: you get the energy replenishment I requested?
+[quarton] Unknown: Bon appétit.
+[quarton] Guren: Not my usual diet, but...
+[quarton] Guren: The worst part of trans-dimensional travel is the food.
+[quarton] Unknown: Aren't you a bunch of sour pusses? What's wrong?
+[quarton] Beni: There's a robot called Slyger.
+[quarton] Unknown: What's going on? Were you guys up all night playing video games again? Whatever. Hurry up and finish your drinks, will ya? You're driving away the paying customers.
+[quarton] Guren: She's right. We can't just sit around. Yeah, but
+[quarton] Guren: there's
+[quarton] Guren: not much we can do
+[quarton] Guren: without our Tenkai powers.
+[quarton] Guren: I never thought I'd miss being on Quarton.
+[quarton] Beni: Come on. We can still beat that dumpster bot even without our powers. I don't buy it either.
+[quarton] Guren: Nice try, though, Toxsa. Don't look now, guys, but... We've got company.
+[quarton] Guren: Slyger's shown up again, Mr. White. All
+[quarton] Guren: right. Come here at once and help me clean up this shop. Hurry. There's no time to lose. Clean up the shop? But... It's our only chance. Toxsa, listen. We'll get Slyger to follow the three of us. You go help Mr. White clean the shop.
+[quarton] Beni: Really?
+[quarton] Guren: Yeah. Go on.
+[quarton] Beni: Oh, man. Shop's a disaster area. Analyzing.
+[quarton] Guren: Replicating.
+[quarton] Beni: How come I get all the crummy jobs? End of the road, Knight.
+[quarton] Guren: Quarton would never have ridden into a trap that obvious. I like you better this way. Okay,
+[quarton] Beni: what's all this about cleaning? Oh, it's
+[quarton] Guren: all right. False alarm. It wasn't that hard to find.
+[quarton] Beni: What wasn't hard to find? What I was looking for. This device. Hm?
+[quarton] Guren: It's called a portal weapon. Uh-huh. Your core brick, if you please. Oh. Here. You place your core brick in here. Wait for it to charge, then pull this trigger. And presto, any opponent from Quarton will be sent back through the portal.
+[quarton] Beni: That's brilliant! It's like a goblin deanimator!
+[quarton] Guren: But aim well, because it takes five minutes to recharge. Five
+[quarton] Beni: whole minutes? You gotta be kidding!
+[quarton] Guren: Well, it's old. It was state-of-the-art technology at the time.
+[quarton] Beni: Retro tech. I get it. Like a phone that's just a phone. Gotcha. Oh, and before you pull the trigger, there will be a slight delay before it fires.
+[quarton] Guren: I really hope you heard that.
+[quarton] Guren: So, running away is the only strategy the Tenkai Knights can come up with on this planet?
+[quarton] Guren: Yeah, I tell you, guys. This was a whole lot easier when we had wheels. I told you, you should work on your conditioning! Guys, a little help here.
+[quarton] Guren: It's hard to believe this is really you, Bravenwolf. Your structure is so limp and puny.
+[quarton] Guren: Keep fighting, Guren! Yeah, kick him in the gearbox!
+[quarton] Guren: Guren? Is that what
+[quarton] Guren: they call you on this planet? Even your name is
+[quarton] Guren: puny! At
+[quarton] Guren: least I'm not ugly! Let him go, four-eyes! Toxsa, you're here... with... something? You're
+[quarton] Beni: about to be deleted, Slyger!
+[quarton] Guren: Deleted, eh?
+[quarton] Guren: What
+[quarton] Guren: is that piece of junk, anyway?
+[quarton] Guren: Uh... a portal weapon? We gotta get it! Leave it to me! That's what I call conditioning! It needs time to recharge! Five minutes! Five minutes? You gotta be kiddin'! Let's get moving!
+[quarton] Beni: Come on! Right! I'll finish you
+[quarton] Guren: later!
+[quarton] Beni: Four and a half minutes. What's powering that thing? Gerbils? I
+[quarton] Guren: can keep this up as long as you can. Longer, in fact. How's it look? Still recharging. We need more time. How much more? We don't have more time, Chooki! Well, what do you want me to do? Blow on it? We have ignition! Go for it!
+[quarton] Guren: You look exhausted. Well, you'll be happy to hear that you get to take a rest now. Permanently!
+[quarton] Guren: Not that again! Right! What
+[quarton] Guren: the world?
+[quarton-battle] Guren: Yeah,
+[quarton-battle] Beni: finally. Well, better late than never, right? Speaking of late... Hey, Toxsa. You look a little winded there, buddy. My bike broke down. What'd I miss? Being summoned.
+[quarton-battle] Guren: Keep on your toes, guys. There's bound to be trouble. There better be. I'm dying to test-drive this new upgrade. Hooty-hoo! Thank the
+[quarton-battle] Guren: Guardians, you've come! We always come when we're summoned, B. I know. And it's just real every time. But never mind that now. The Corrupt interrupts us something. And what's worse, Slyger is with them!
+[quarton-battle] Guren: You can't achieve Titan Mode, but I can!
+[quarton-battle] Guren: Slyger! Tenkai Titan Mode! Activate! It's
+[quarton-battle] Guren: about to be deleted!
+[quarton-battle] Beni: Not good! Mr.
+[quarton-battle] Guren: White said! The change comes from within! My
+[quarton-battle] Beni: turn! I started this level, I'm gonna finish it! I'll see power up! Let's plug and play!
+[quarton] Guren: The Lord!
+[quarton] Beni: Tenkai! Yeah!
+[quarton] Guren: It was nuts in my face! I still say I'm doing good! But that doesn't say much for you, Vin. Does it, Toasted Face?
+[quarton-battle] Beni: That was better than serving
+[quarton-battle] Guren: a mage-level demon elder. It sure was. I mean, I think it was. Is that a good thing? Just totally excellent, that's all! Another glorious victory, Knights!
+[quarton-battle] Guren: Speak. Yes? You said the Corrupted were up to something? Oh yes! Come, I'll show you! As
+[quarton-battle] Guren: you can see, they've been busy. It goes deep within the mountain. Are they mining for something? Or searching for something. But what? We do not know. Did
+[quarton-battle] Beni: you guys see that? Yeah, yeah, we saw it, we saw it. I need one move. That's all it took! Just one shot of my mighty terror blast and we'd be over! I mean, was that like awesome or what? What? You did good, Toxty.
+[quarton-battle] Guren: Bring them all on, I'll take them back! Did someone pull the plug on him? Guys, this is no time to celebrate! Right.
+[quarton-battle] Guren: They know where we live now. And they know how to get here. We know they'll be back and we've got to make sure we're ready for them. Cause Slyger was right about one thing. There's no place that's safe anymore.
+[quarton-battle] Guren: Shotenma just got a new babe! What? Samurai Ephraim! And this time, he's plating for power! Oh yeah, baby! With the help of old friends. We did it, show! And new ones. Yahoo! A friend! He'll go beast mode to revive the six mythical beasts. And restore order throughout the land with everlasting peace for all. Watch the new series, Bay Warriors, Bay Raiders. See it first. New episode now. Only on Cartoon Network. Beast Mode.

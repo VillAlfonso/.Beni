@@ -1,0 +1,126 @@
+[unknown] Gen: Look at them. They think it will last forever.
+[quarton-battle] Vilius: This
+[quarton-battle] Gen: bright, peaceful world. This world full of laughter and joy. They have no idea how quickly the darkness can come. And everything changes. I see a very different world. One where all of that has been swept away. One where destruction and chaos will be the new masters of this world. But in the meantime, why shouldn't they laugh and play in the sunshine? Yeah, let them enjoy this world while it lasts. Did
+[quarton-battle] Guren: he retreat? We
+[quarton-battle] Vilius: won! Obviously
+[quarton-battle] Guren: not. Fire! I
+[quarton-battle] Gen: definitely need more of a challenge. You summoned me, Vilius.
+[quarton-battle] Vilius: Yes, Dromus, I did.
+[quarton-battle] Gen: To what do I owe this unexpected honor,
+[quarton] Vilius: if you don't mind my asking? I merely wanted to express my gratitude to you. That's all. Gratitude, Vilius? Yes. You have served me well, working tirelessly for our cause. I don't want you to think your efforts have gone unappreciated. You will be well rewarded once victory has been achieved.
+[quarton] Gen: Thank you. But serving you is rewarding. I'm not sure I'm worthy enough.
+[quarton] Vilius: Look, Adam, Vilius' pet. We're out there on the front lines fighting and getting blasted to bits. But do we get any appreciation? No. Hmm.
+[quarton] Unknown: Maybe if we didn't keep getting blasted to bits, we might.
+[quarton] Vilius: You've accomplished much, Dromus. You captured the Tenkai Dragon from the Knights and found a way to utilize its energy. Now you can only control the beast itself. Which reminds me, how goes the search for the Black Dragon Key?
+[quarton] Gen: It goes well. I'm getting close. I believe I'll soon have some very good news for you.
+[quarton] Vilius: I'm pleased to hear it. Just as I will be pleased when you've discovered the whereabouts of this mysterious other world. I find your silence puzzling, Dromus. I'm
+[quarton] Gen: sorry. I didn't know you'd asked a question. I've studied the information from Valorn's database. My findings are inconclusive so far.
+[quarton] Vilius: Inconclusive? Perhaps you need to be reminded that mere half-answers and excuses are not acceptable. As
+[quarton] Gen: you know, my primary focus has been on finding the Black Dragon Key.
+[quarton] Vilius: Which you have failed to do. I'm not satisfied with acquiring the Dragon's energy. I want control over the beast itself. And for that, I need the Black Key.
+[quarton] Gen: Understood. I'm close. Just a little more time, Vilius. I'm
+[quarton] Vilius: beginning to lose patience with all your promises.
+[quarton] Gen: You
+[quarton] Vilius: may go.
+[quarton] Gen: As Vilius commands.
+[quarton] Vilius: I'm counting on you, Dromus. Vilius, do not fail me. I warn you.
+[quarton] Unknown: I think I prefer being unappreciated.
+[quarton] Vilius: As for you two, prepare for battle. As
+[quarton] Guren: we've seen, the Aztec Empire was at its biggest and most powerful at the beginning of the...
+[quarton] Guren: So, Gen decided to come to school today. It's so weird. Even when he's here, he's not really here. Always keeps to himself. Has no friends. Doesn't even try to make any. Certainly can't count the couple of times he talked to me. I didn't understand half of what he said.
+[quarton] Guren: What's he hiding?
+[quarton] Guren: It's like he's leading a whole other life somewhere.
+[quarton] Guren: No way. Get a grip. He's weird, but he's not evil. I just wish I knew what his story was.
+[quarton] Guren: He cares what that weirdo's story is. Just curious, that's all. You know his story. He's an emo-mysterioso poser. Anyway, if you really care, what's the big deal? Why don't you just ask him? He's right there. Just seems rude. You're too polite. Fortunately, that's never been a problem of mine. Ceylan, wait!
+[quarton] Guren: Ceylan? Uh,
+[quarton] Gen: dude. It
+[quarton] Guren: was a joke.
+[quarton] Gen: Mind
+[quarton] Guren: your own business, okay? Hey, just trying to be sociable. Okay, fine. Go back to Transylvania. This is
+[quarton] Gen: going well. I don't make friends with people like you.
+[quarton] Guren: And why not?
+[quarton] Gen: Because I don't like wasting my time.
+[quarton] Guren: Flattered yourself much? If you think I'd ever want to be friends with you, you're dumber than your haircut.
+[quarton] Gen: The problem with you is, you're all mouth, no brains. Want to impress me? Prove there's something behind all those wisecracks. Try being smart, not just talking clever. Then we'll see. I've had enough of this.
+[quarton] Beni: Yeah,
+[quarton] Guren: whatever. That haircut's still a joke. Where
+[quarton] Vilius: is he? He knows we can't begin without him. I sense his presence. Yes, my fellow Guardians? Is there a problem? Stop hovering, Eurus. Let us begin. This council has been convened in order to discuss your actions, Eurus. My actions? Perhaps you need to be reminded that the Guardians are expected to refrain from interfering in the affairs of Quarton. Except in cases of the most dire necessity. Such interference risks destabilizing the balance between Tenkai energies. Balance must be maintained. It was Boreas who first interfered by reviving the dragon. The actions I took were to restore the balance. Then how do you
+[quarton] Vilius: explain the surge in dark energy and the fact that the two worlds are drawing closer together? You
+[quarton] Vilius: shifted the balance, Boreas, but you cannot shift the blame. It was your meddling that caused this. Now you would have us do nothing until it is too late. Who
+[quarton] Vilius: do you want us to fight, Boreas? And where? Just name it.
+[quarton] Unknown: Yes, Boreas. We'd follow you even if you led us into certain defeat and total annihilation. Not that that could ever happen. You
+[quarton] Vilius: know, we have to- Silence! You're aware of the data we recovered from one of the Tenkai Knights, including images of another world? The
+[quarton] Unknown: data being analyzed by
+[quarton] Vilius: Dromus? So he claims. But I have been doing some analysis of my own. And I've determined that the Knights, or these impostors who call themselves the Tenkai Knights, have been traveling here from this other world. I'm sure you've heard of them. No. Wait, I mean, really? Yes. And now the time has come to do something about it. Personally. You shall end your ineptness and prove your worth to me. Well,
+[quarton] Guren: looks like somebody had the corndog for lunch again. Worse than that. First time in my life I couldn't put down a heckler. What's
+[quarton] Guren: he talking about? It's a long story, moody
+[quarton] Guren: jerkasoid. What a floppy-haired emo weirdo. Something must have happened with Gen, huh?
+[quarton] Guren: Yeah.
+[quarton] Guren: Well, kinda.
+[quarton] Guren: They get in a fight? Nah. Not a fight. Ceylan was just trying to be friendly.
+[quarton] Guren: With
+[quarton] Guren: Gen?
+[quarton] Guren: What happened? He beat you up? We talked. Well, to be specific, he talked. Just talked? You lucked out, dude. Hey, I could take him. Take him where? Forget it. I'm through with him. Yeah. Good idea. You'll live longer. I meant he has no sense of humor.
+[quarton] Guren: Still, I wish there was a way we could break through that wall he's got around him. Why? You're never gonna make a team player out again. That dude's a team of one. I know he seems that way. Like he couldn't care less about anybody else. But then why did he reach out to me? Maybe it's me who's the problem. By not being able to understand what he was trying to tell me with all that mumbo jumbo. I don't know.
+[quarton] Gen: What is it, Beni?
+[quarton] Beni: Something's happening on Quarton.
+[quarton] Gen: Can you be more specific?
+[quarton] Beni: It's Vilius. He's assembling his army. And I mean an army. We're talking huge.
+[quarton] Gen: Go on.
+[quarton] Beni: Looks like he's gonna make a move. So? What? You're just gonna do nothing? Aren't you even a little bit curious?
+[quarton] Gen: Vilius can make all the moves he wants. Meanwhile, we stick to our plan.
+[quarton] Beni: Okay, it's your call. Just hope our plan doesn't include us getting vaporized.
+[quarton] Guren: Listen, Ceylan. About Gen.
+[quarton] Guren: Dude, he's never gonna come around. I tried. Frankly, I deserve a medal.
+[quarton] Guren: Yeah. It wasn't the first time, either. The day he transferred to our school, you were the first guy who tried to talk to him. Just to make fun of him. Come on, really. Why'd you do it? What did you see in him
+[quarton] Guren: that made you want- Dude,
+[quarton] Guren: who
+[quarton] Guren: knows? Must have been a slow day. I'm serious. Well, this might sound kind of weird. So what else is new? Ha ha, funny. There was something in Gen that reminded me of you. Hey, no offense. You must have been a whole lot moodier back then. There's
+[quarton] Guren: trouble. We better move. We're
+[quarton] Guren: here. Now, where are the bad guys? What robot is that?
+[quarton] Guren: That's a bull. Whatever it is. It sure looks mad. Bull, cow, or buffalo. It's headed our way. Well,
+[quarton] Guren: that didn't work. Maybe it's my accent.
+[quarton] Guren: We got him. That
+[quarton] Guren: thing's as tough as a cafeteria hamburger. Bad
+[quarton] Guren: enough. Oh,
+[quarton] Guren: you milked that one. Come on, guys. You're killing me with these puns. Level up. What's
+[quarton] Guren: for dinner? Bow
+[quarton] Guren: on our hands, or... Heads up, guys. Here's the board at 12 o
+[quarton] Guren: 'clock.
+[quarton] Guren: And
+[quarton] Gen: I'm just getting started. If
+[quarton] Guren: they can't
+[quarton] Gen: handle that, they won't stand a chance against what's coming next.
+[quarton] Guren: Dark energy lightning. Ha
+[quarton] Gen: ha ha. It got
+[quarton] Guren: bigger. Or else we got smaller. Bigger? It's like a level 12 cable.
+[quarton] Guren: And we're still playing peewee bowl. Robo fusion. That'll help level the playing field. Maybe ever focus our energy for Titan fusion with these guys hitting us from two sides. Is this a trick question?
+[quarton] Gen: Prove there's something behind all those wisecracks. Try being smart, not just talking clever. Then we'll see. I
+[quarton-battle] Guren: have an idea. Really?
+[quarton-battle] Guren: You
+[quarton-battle] Guren: don't have to sound so surprised. Sorry. What is it?
+[quarton-battle] Guren: Just follow my lead. Tenkai arrow.
+[quarton-battle] Gen: Huh. How can he miss a target that big? They
+[quarton-battle] Guren: go. I don't know. I can't see them. A smoke screen? There. What are they doing? Tickling him? Don't you see? No. It's a play-action fake. A what? They slid under there where the bull can't attack them. And neither can that robo buzzard up top. They bought themselves time. Whoa! Let's do this and get out of here. Quick. Before we get hit by a cow pie. All right. Tributon. Bravenwolf. Tens fusion chainship mobs. Engage!
+[quarton-battle] Guren: How
+[quarton-battle] Guren: do you like your beef? Medium rare. This heifer's history, and that's no bull.
+[quarton-battle] Gen: Very effective. I guess Tributon wasn't the weakling I thought he was. Perhaps I'll have to look. Maybe I can do this. elsewhere this
+[quarton-battle] Vilius: new power the knights have acquired this titan fusion is a threat to the balance between the energies you know so much about it Eurus perhaps you know how they acquired it what are you suggesting never mind with their latest victory the knights have restored the balance for now there is no need for us to intervene that may not be true for long i sense a darkness gathering and spreading across Quarton and even reaching towards worlds beyond Vilius is plotting something i
+[quarton-battle] Guren: was just thinking sometimes help comes to you from where you least expect it you know what i mean you sound like Mr. White take me for instance i'm not normally what you'd call the hero type but i gotta admit i was pretty awesome just now and you know why it was all on account again it was something that you said to me that got me going yeah it's like when the demon mage in doom's floater turns out to be a healer i
+[quarton-battle] Guren: get what you mean Ceylan yeah
+[quarton-battle] Guren: this seems like
+[quarton-battle] Guren: this big bad
+[quarton-battle] Guren: evil type
+[quarton-battle] Guren: but
+[quarton] Guren: actually
+[quarton] Guren: it's funny how the most surprising little things can end up being really important like
+[quarton] Guren: when it turns out that goblin toes give you wisdom points you just have to cook them in
+[quarton] Guren: the funky old sculpture
+[quarton] Guren: at school remember yeah it helped us find a dragon cube it's like this kid that was on the soccer team last year seemed like he had no skills but in the play on
+[quarton] Guren: playoffs he led the team in assists exactly you made the finals right world semifinals
+[quarton] Guren: hey hello is anybody even listening i'm trying to make a point here
+[quarton] Guren: yeah yeah we heard you Toxa the goblin master guy he's
+[quarton] Guren: a demon
+[quarton] Guren: mage well
+[quarton] Guren: anything that gives us an edge no matter who it comes from that's
+[quarton] Gen: smart guren because you're going to need all the help you can get

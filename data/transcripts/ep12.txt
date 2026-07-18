@@ -1,0 +1,136 @@
+[quarton] Guren: For those who came in late, my friends and I have been chosen to be the new Tenkai Knights. And just like the original Knights, our mission is to save the planet Quarton, pretty much the whole universe, from the evil warlord Vilius and his army of corrupted, shape-shifting robots. To do that, we needed to find the five Dragon Cubes that would bring the Tenkai Dragon back to life. So we finally scored the last cube, but then we learned that's not enough. Now we have to find the White Key to revive the Dragon. Man, nothing's simple in this job.
+[quarton] Beni: The Key is on Earth. You are on Earth. You are the Key.
+[quarton] Guren: Dude,
+[quarton] Guren: you got weird taste in music. Get real, will ya? Somebody sent me this message, and I have no idea who. That's probably some scam to get
+[quarton] Guren: you to buy more gems. Don't do it. You don't want to get sucked in like Toxsa.
+[quarton] Guren: Hang on, Guren's got a point. Whoever this is knows about us and the Key and everything. It's
+[quarton] Guren: freaky. Listen, Chook. You thought it was a rap song. That's what I call freaky. I've got it, Watson. Detective reasoning. What do you mean, Toxsa? To find the culprit. We begin by eliminating the suspects. But where do we start? It could have been anyone. Maybe even Max. It could have been anyone. Maybe even Max. It could have been anyone. Maybe even Max. Bingo. I wish
+[quarton] Guren: my dad could help. I wish my dad could help. Seriously, I mean, I hardly ever see him. He comes home to sleep, and that's pretty much it these days. The rest of the time, he's busy working on Benham Tower. It looks finished. I don't know why I still spend so much time there.
+[quarton] Unknown: Brilliant plan, Dromus.
+[quarton] Vilius: It
+[quarton] Guren: was a disaster, Slyger! I think he was being sarcastic. No one
+[quarton] Vilius: asked you! Think you so, Leather? You had Tilius convinced that you held the secret to defeating the Tenkai Knights. It was a foolproof plan. Until the Knights showed up! The next thing you know, our forces are in full retreat, and the Knights have grabbed the last Dragon Cube. While you and your friend, Bravenwolf, are off playing tag with each other! Come to think of it, what is it with you two anyway? Your allegiance to Vilius is questionable. At
+[quarton] Guren: least he gets sarcasm.
+[quarton] Vilius: What? Who do you think you're talking to? You dare to disrespect me, you little runt? Careful,
+[quarton] Unknown: Gromus. Don't forget Granox and I were serving Vilius long before you ever arrived.
+[quarton] Guren: Right. And what have you got to show for it? You insolent...
+[quarton] Vilius: Enough!
+[quarton] Unknown: Vilius! Don't
+[quarton] Vilius: blame Dronus! At least he had a plan, you fools! What?
+[quarton] Unknown: Yes, sir, quite right. Still, it's because of his plan that the Corekai now have possession of all the Dragon Cubes. Which just makes
+[quarton] Guren: our job easy. We know exactly what their next move will be, we do.
+[quarton] Unknown: That's true. There's only one place where they can revive the Tenkai Dragon. And we can be there waiting for them. Now
+[quarton] Vilius: you're telling me. Good. Then it's understood. You will assemble all your forces and move out at once. Capture the Dragon's nest and hold it at all costs.
+[earth] Guren: Really? Mr. White? Seriously, who else would have hacked into your computer and sent you that message? That old wingnut? He can barely use a coffee maker. I'd be surprised if he'd learned how to hack a computer. But still, who else would know about the Dragon Key and where it's located? Maybe he took a class? In hacking? Now you're just reaching. We better hope it's Mr. White, because if it's not...
+[earth] Guren: Then there's someone else out there following our every move. Some stranger that we don't know anything about. Me? How
+[earth] Unknown: did you guess? But alas, I'm no hacker. I can't even program my coffee machine.
+[earth] Guren: Okay, but do you at least have an idea who it could be, Mr. White?
+[earth] Unknown: Well,
+[earth] Guren: I
+[earth] Guren: can tell you this
+[earth] Guren: much.
+[quarton] Guren: It's a mystery.
+[quarton] Guren: Thanks a bunch. Toxsa, do I detect sarcasm? Uh, it's a mystery. Great. We're right back where we started.
+[quarton] Guren: Yeah. So okay, we've got some kind of mystery coach calling in plays to us from the sideline. What are we gonna do about
+[quarton] Guren: it? What if it turns out this coach is really coaching for the other team? They'd know all our moves. Seriously, what if it's a
+[quarton] Guren: trap? Whoever it is, they're right about one thing. The Tenkai Dragon can't be revived without the Dragon Key. And we've gotta find it. Uh, that's
+[quarton] Guren: two things, Chook. Oh, and don't forget about the other thing. What other thing? Seriously? Was I the only one listening? Activate Tenkai Hearing. Beag told us all about it.
+[quarton] Unknown: We've attained all five Dragon Cubes. But of course, as we all know, that is only the first step. Oh, of course.
+[quarton] Guren: The second step being, uh...
+[quarton] Unknown: The Tenkai Revival Ritual! Naturally.
+[quarton] Guren: Yeah, naturally.
+[quarton] Unknown: But Filius knows this too. The Tenkai Dragon can only be revived at that sacred place built by the Guardians in ancient times. He will be headed there. I foresee a mighty battle on the horizon. Thank you for letting me remind you of this. The sacred place? Is it still in the same sacred place? Yes, Lydendor. It is in ruins now, but it is still known by its ancient name, the Dragon's Nest.
+[quarton] Guren: Oh yeah,
+[quarton] Guren: right. I forgot about that. First things first. If we don't get that white key in our inventory, we're never gonna beat this level. Hello. The key isn't gonna do us any good if Filius captures the Dragon's Nest. It's a tough call. Do we fight Filius
+[quarton] Guren: or try and find the key? Got it. We do both. Huh? Who says we can't split up every once in a while? You know, do two things at once.
+[quarton] Guren: Yeah, sure. Even
+[quarton] Unknown: the mightiest river waters more fields when it divides in two. Tenkai! I hope they
+[quarton] Guren: got my river metaphor.
+[quarton] Unknown: Tenkai!
+[quarton] Unknown: Tributon, Quarton... That
+[quarton] Guren: was a pretty bold coaching decision. What do you mean? The way you divided up the team. Toxsa and Ceylan are like peanut butter and dill pickles. It was a pretty gutsy call putting them together. But sometimes switching the lineup makes the whole team play better. Yeah. Meanwhile, we'll find the Dragon Key. Mm
+[quarton] Guren: -hmm. Why don't we start at the History Museum downtown? Why the History Museum? Oh yeah, that's right. I forgot. You weren't there. Ceylan and I saw this ancient stone tablet covered in pictographs, and right as we were looking at it, it started glowing. We only saw it plain as day. Tenkai Dragon. And
+[quarton] Guren: then the tablet transformed itself into... Well, I'm guessing it might have been the Dragon Key. There has to be a connection. We just have to figure out what it is. I mean, how hard can it be, right? You're talking about... That thing that was stolen out of the museum? Yeah. Maybe we can pick up a clue and use our Hyper King Tenkai senses to find some kind of a trail. You're starting to sound like Ceylan to
+[quarton] Unknown: me. Guren?
+[quarton] Guren: Wait up! Dad!
+[earth] Unknown: Hey, what are you doing downtown?
+[earth] Guren: We're...
+[earth] Unknown: we're on our way to the History Museum. For extra credit. You don't say. The History Museum? Really? Oh yeah. We're like steady buddies.
+[earth] Guren: I'm Chooki Mason. Nice to meet you, Mr. Nash.
+[earth] Unknown: Likewise, Chooki. Glad you guys are having fun.
+[earth] Guren: Look, I'll just meet you there. I know you don't see each other much.
+[quarton] Unknown: He seems nice.
+[quarton] Guren: Yeah. Like all the kids in my new school. I
+[quarton] Unknown: laugh at danger! Ha!
+[quarton] Guren: Okay, okay. A little more attitude. Like this. Think you can beat me at grunt level, bucket heads? Don't make me
+[quarton] Unknown: laugh! Don't make me beat you, you bucket level grunt heads! I laugh at your attitude!
+[quarton] Guren: Valorn! What in the name of Lime Park Bay are you doing? Teaching Vig how to trash talk, onion breath.
+[quarton] Unknown: Well,
+[quarton] Guren: you want to keep it down a little, maybe? Who's ever heard of quiet trash talk? Look, dude, are you trying to let the whole Corrupted Army know that we're here? Why not? We are. Duh. And I want to do over on these teams. Come on, Tributon. Let's hear you try. Ugh. Bring it, you miserable blue excuse for a second-rate elven archer. Hey, zip it. Is that the best you can do? Quiet. Listen. Listen to what? Looks like you got your wish. What? No more trash talk? I'll laugh at your bucket heads! That's good, B, but we're kind of past the trash talk phase.
+[quarton] Unknown: I'm sorry, Guren. I know I haven't been around much lately.
+[quarton] Guren: You have a lot of work,
+[quarton] Unknown: Dad. I understand. I'm hoping it won't be too much longer. My designs for the tower are nearly complete. I think. It looks like it's pretty finished to me, Dad. From the outside, yeah. But there's so much of it that you can't see. Anyway, so, tell me, Guren. Are you fitting in all right? Do you like it here?
+[quarton] Guren: Mm-hmm.
+[quarton] Unknown: I
+[quarton] Guren: know it didn't seem like I liked it at first, but now it's starting to feel like home. Check out this holopic of my friends. Well,
+[quarton] Unknown: that's great to hear, because having good friends is important. Just make sure you look out for them, and that you look out for each other.
+[quarton] Guren: Yeah, we're pretty good at that.
+[quarton] Unknown: Eat lasers! Take the Dragon's Nest! So efficient.
+[quarton] Vilius: Yes. And I expect you to finish it. You two are in command of the main assault. Crush the Korokai and seize the Dragon's Nest! Yes, sir! But where's Dromus? Yes,
+[quarton-battle] Unknown: where is he? Weren't
+[quarton-battle] Vilius: we all supposed to be here? I'm confused. Don't worry about Dromus. He's exactly where he needs to be. Of course, because Dromus can do no
+[quarton-battle] Unknown: wrong.
+[quarton-battle] Vilius: Well,
+[quarton-battle] Vilius: who cares about him? I'm here, so leave it to me. I'll destroy them all. Not all right.
+[quarton-battle] Vilius: Not all. Any Tenkai Knights you find, bring them to me. I want to destroy them myself! As Vilius commands!
+[quarton-battle] Vilius: Who needs
+[quarton-battle] Vilius: Dromus anyway, right?
+[quarton-battle] Guren: Right! No reaction. If there was a clue here, it's long gone.
+[quarton-battle] Guren: Sorry I took so long.
+[quarton] Guren: How'd it go with your dad?
+[quarton] Guren: You cool? Yeah, absolutely. So what's up? You find out anything we can use? Nope, not a thing.
+[quarton] Guren: Except that cafeteria hot dogs are as old as the fossils. As far as the key goes, we struck out.
+[earth] Guren: Hang on, maybe not. Is it another message? Take a look.
+[earth] Beni: Go to the top of the clock tower. And hurry, the clock is ticking.
+[earth] Guren: Is this a joke? I don't know, but maybe it's talking about the clock tower back at school. We gotta check it out. Okay. This
+[quarton] Guren: is either a prank or we're being toyed with. Wait, that's a safety. Look, that thing on the door. Is it some kind of scanner code? Let's find out. It's
+[quarton] Guren: giving us directions. To the park by the mall. Whoever this is, he's got us on the hook.
+[quarton] Guren: You know, something tells me this
+[quarton] Guren: isn't gonna end well. You
+[quarton] Guren: starting to get the feeling we're being messed with?
+[quarton] Guren: I don't want to hear about how you beat level 11 teen in Dungeon Explode or whatever. Dude, what are you talking about? I was just going to suggest we level up to Titan mode. Oh. Okay, I'm down with that.
+[quarton] Unknown: Go,
+[quarton] Guren: Tenkai Knights!
+[quarton] Unknown: Go!
+[quarton] Unknown: To the
+[quarton] Beni: library. Give me a break. Go to the subway station at... Behind the soccer stadium. Under the overpass. A light post on the corner of... Go to... Go to... Says
+[quarton] Guren: we've gotta go to the 10th floor of the umlaut building. I'd like to tell that voice where to go. Hang in there. I had a volleyball coach who used to make us run around like this. Guy was really mean. A total dictator. But we won the championship that year. No pain, no gain, right? Mm-hmm. Okay, let's do it. That's it. There's a parking garage up there. That's where we're gonna find the next one. Moving or losing! Show off!
+[quarton] Unknown: I
+[quarton] Guren: saw the
+[quarton] Guren: hacker.
+[quarton] Guren: Seriously? What happened? He get away? Yeah, but he left this behind. Check it out. You're not gonna like it. Well, at least one thing's clear. The dude's definitely messing with us. Hey, wait a minute. Unreal. We gotta go right back to where we started. It can't be just a wild goose chase. Hope not. But, uh... Remember that story about the coach? The brutal one that I said ran us all really ragged? The team that won the championship? Actually... There was a lot of pain for that game. Whoa. That was a lot less pain than I thought. That must be it. Whoa! Hold on. Look at the roof. What
+[quarton] Guren: do you think it is? Some kind of puzzle? What now?
+[quarton] Beni: Searching. Searching for an answer when you've already found it. Huh? The search is the answer. We've
+[quarton] Guren: got it! Uh... That grid pattern on the roof. Does it remind you of anything? Uh... A checkerboard? A wall flyer. Oh! A map of the city! Yeah. Now lay in the coordinates of all the locations we visited. You see it? Yeah. Almost. Now line up the map and the grid. And bingo! Right! Those
+[quarton] Guren: are the squares we have to walk on to get to the key! Right. I'm on it. Spot me on this one, okay? No, Chooki. I'll risk it. Your call, dude. I got your back. Ready? Okay. First row. The fifth square from the right. You sure you don't want to tag out, dude?
+[quarton] Guren: Next one's one up and three to the left. You're gonna have to jump. Okay. You're gonna have to leap for this one, too. Up three. Whoa! You crush it, Hopscotch! Now up one, two to the left. Next one. It's up one, two to the right. Good job! Next one is two rows up and one to the left. One step straight ahead and you're there! You're either home free or you've just triggered the countdown to total planetary destruction. I think we're good. Here
+[quarton] Guren: goes.
+[quarton] Guren: No! Wait! Guren!
+[quarton] Guren: Relax, Chooki.
+[quarton] Unknown: Relax, he says. Sure. No problem. Planetary destruction, here we come!
+[quarton] Guren: Guren! We've got to move! The guys are waiting for us!
+[quarton] Guren: Let's go. Here we go again! Is
+[quarton] Unknown: it gonna change the stuff, you guys? Don't say so! Stop hungry! No, that's what I was gonna say. Okay,
+[quarton] Guren: now you're just burning my feet. Now I'm hungry, too. Could the guys take any longer fighting a king?
+[quarton-battle] Unknown: Tributon!
+[quarton-battle] Unknown: Valorn! The enemy's numbers are too great!
+[quarton-battle] Unknown: Perhaps
+[quarton-battle] Unknown: we should retreat! We can't give up the dragon's nest! Don't worry, the key will be here any minute!
+[quarton-battle] Unknown: Impossible as it is to believe, and as much as it frees me to suggest it, we must consider the possibility that Bravenwolf and Lydendor have failed to find the dragon key. Failed?
+[quarton-battle] Guren: Bravenwolf? What planet are you from? Never mind, they'll be here, okay? KG, retreat is not on today's menu. We play to win. Yeah, anyway, leave it to us, Geek. We're the
+[quarton-battle] Unknown: Tenkai Knights, right? Right! Let's open up a box of Tenkai Crunch on these goons! It's
+[quarton-battle] Vilius: request! Fight on, Tenkai Knights, for all the good it will do you! Soon, all worlds, seen and unseen, known and unknown, will be corrupted! The plans
+[quarton-battle] Guren: are now set, mighty commander.
+[quarton] Vilius: I
+[quarton] Guren: await your orders.
+[quarton] Guren: Finding the key took longer than I planned. I hope not too late.

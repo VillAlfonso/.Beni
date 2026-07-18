@@ -1,0 +1,28 @@
+[quarton] Guren: My name's Guren, and my friend Ceylan, Chooki, Toxsa, and I were chosen by the guardians of the planet Quarton to be the new Tenkai Knights. Our mission is to defeat the evil warlord, Vilius, and his army of shapeshifting robots, which was a tough enough job when all he wanted was to be master of Quarton. Now this power-mad goonbot is out to destroy and conquer the Earth, too.
+[quarton] Vilius: Eradicate the humans!
+[quarton-battle] Guren: When two of Vilius' strongest henchmen had a nasty falling out, we thought, cool, a weak spot in the enemy's ranks. Then he told us she was tired of serving the bad guys, and needed our help to find the Black Dragon Key. We should have known better. No sooner did we help her find it, than her pal Gin showed up and claimed it for himself. Remember how you said I wouldn't be able to get away? You were wrong about that. Bye-bye. We've been totally playing. On Quarton, Vilius has attacked the guardians and destabilized the dimensional portal. The
+[quarton-battle] Vilius: portal is mine! Soon, I will rule both worlds!
+[quarton-battle] Guren: And what about Earth during all of this? That's the scariest part. Thanks to the Haywire Portal, Quarton and the Earth are about to merge into one world. Which will actually mean the destruction of both, unless we can stop it. So it's planetary crunch time for the Tenkai Knights!
+[quarton-battle] Unknown: Is
+[quarton] Gen: there nothing we can do, Boreas? It
+[quarton] Unknown: is out of our hands, old friend. This battle will be won or lost on Quarton.
+[quarton-battle] Guren: Corekai! Quarton, out of our way! Yeah, and make it snappy, will ya? We're kind of in a race here. It's not a race, Toxsa. Let's just take these two goons down. Well, let's do it fast. I want to beat Ceylon. The important thing is achieving our objective. Oh, sure. And beating Ceylon.
+[quarton-battle] Guren: Dromus,
+[quarton-battle] Guren: any last
+[quarton-battle] Guren: words, Bravenwolf? Yeah.
+[quarton-battle] Guren: And... This
+[quarton-battle] Vilius: is it, Slyger! There's no retreat this
+[quarton-battle] Guren: time! There's not? But I thought... Sure you can retreat. We won't tell. Valorn, wait a minute. What for? More. Look, every time we KO these Palookas, they just jump up
+[quarton-battle] Gen: and get back in the ring.
+[quarton-battle] Guren: What's a Palooka?
+[quarton-battle] Gen: Never mind. Just listen. Let's take out the reassembly device and then fight them. Oh. That way they can't put themselves back together. So the next time
+[quarton-battle] Guren: we beat them, they'll stay beaten. Yeah, right. And we'll beat Ceylon. Whatever. You ready? Most dead. Then let's give these guys a swing.
+[quarton] Vilius: That's right. Come to your doom!
+[quarton] Guren: Bye. Bye-bye, rust buckets. Huh?
+[quarton] Vilius: Hey! They're running away!
+[quarton] Guren: No, you fool! They're getting away! After them!
+[quarton] Vilius: Okay.
+[quarton] Gen: Stop this game before it's too late! You don't know what you're doing! Talk, talk, talk. I know exactly what I'm doing. Can you say the same? What's
+[quarton] Gen: going on? It must be another side effect caused by the malfunctioning portal. Doesn't matter. I can beat you in any dimension. No, kid, don't! Stop calling me that! But it's who you are! Who I used to be! What's that supposed to mean? You would never understand! You're right, I won't! Not unless you can explain it to me! Why bother? You'll never understand until you know what I know. That life means absolutely nothing unless you have power! When I was younger, I didn't realize I was powerless. I thought my happy life would go on forever. But it didn't. One day, my family wasn't a family anymore. And the life I'd known was over. My whole world was taken from me. And I could do nothing, nothing to get back the way it was. But it's not like any of it was your fault! Of course it wasn't my fault, you fool! That would have meant that I mattered! That I had control over things. But I didn't have control. Nobody does!
+[quarton] Guren: Come on!
+[quarton] Gen: Back then, I was too ignorant to understand that. So I tried hard to make myself better. I drove myself relentlessly. I became an athlete. I got straight As in school.

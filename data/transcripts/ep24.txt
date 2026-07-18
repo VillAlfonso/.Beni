@@ -1,0 +1,155 @@
+[quarton] Guren: What
+[quarton] Unknown: in the name of the Guardians?
+[quarton] Guren: Hey!
+[quarton] Unknown: Huh? What's going on? I don't know, Bravenwolf. I've never seen anything like it in all of my existence. So
+[quarton] Guren: it's not just your typical weather for this time of year? I
+[quarton] Unknown: have a bad
+[quarton] Guren: feeling this isn't about the weather. I totally get you. What do you mean? I mean,
+[quarton-battle] Unknown: this has Vilius written all over it. Knights! Despite that disturbing phenomenon, the Corekai remain ready and eager to assist you in your final assault on the enemy.
+[quarton-battle] Guren: You're hoping this final assault is finally final, finally. This could
+[quarton-battle] Guren: get ugly. I still can't believe Dromus got away with the Black Dragon Key. Now we only have one option left. Getting to the dragon before he does. Because if he revives the dragon with the Black Key, that freaky light show will be the least of our problems. Mention
+[quarton-battle] Unknown: Corekai warriors of Quarton. We shall shift our army into two battalions in order to better achieve our two main objectives. Command Core and Strike Core, you will follow Bravenwolf and Tributon to help them secure the Tenkai Dragon. See that you live up to this great honor. Show that you are worthy of serving such fearless, mighty, and legendary heroes. Come on,
+[quarton-battle] Guren: don't overdo it, B. Speak for yourself, dude. I could listen to this all day. Our
+[quarton-battle] Unknown: other objective is the Reassembly Device, which the Corrupted use to repair and redeploy fighters that have been damaged or even destroyed. Assault Core and Blitz Core will go with Valorn and Lydendor to destroy the device. Hey, how come we're not legendary? With
+[quarton-battle] Guren: us, it goes without saying. The
+[quarton-battle] Unknown: remaining troops will draw the enemy's fire with a direct assault on the fortress.
+[quarton-battle] Guren: Hello. Incoming. Check it out. It's the dropship. Did someone order takeout? Maybe my new goggles came in. Somehow
+[quarton-battle] Guren: I've got a feeling this isn't good news.
+[quarton-battle] Vilius: Am
+[quarton-battle] Guren: I right, Guardian Boreas?
+[quarton-battle] Vilius: In fact, I bring very brave news indeed, Bravenwolf. Vilius has attacked the domain of the Guardians, which in turn has caused a serious disruption in the portal.
+[quarton] Vilius: You will pay for your incompetence, Slyger. Uh, I'm not Slyger. Silence! Why can't you be more like Granox, my mightiest warrior? You! You're a waste of Tenkai Energy, you clattering klutz!
+[quarton] Unknown: Vilius!
+[quarton] Vilius: Master, have you lost weight? For your sake, Granox. I'll pretend I didn't hear that. Thank
+[quarton] Vilius: you. There. How'd the battle go? I
+[quarton] Vilius: failed to seize the portal, but... It was Slyger's fault, right? Be silent! You fool! I have achieved something even better! Of course you did.
+[quarton] Vilius: Knew you would. You're so cool. Vilius's interference is drawing Earth and Quarton closer together. If something isn't done, the two planets will soon merge.
+[quarton-battle] Guren: Meaning what?
+[quarton-battle] Vilius: Disaster. Two worlds cannot occupy the same place at the same time.
+[quarton-battle] Guren: Even I know that. Yeah, even Tributon knows that, and he doesn't know
+[quarton] Vilius: anything.
+[quarton] Guren: So what do we do?
+[quarton] Vilius: The battle on this world will have to wait. We must return to Earth at once. Breathe!
+[quarton] Guren: We sure are racking up the portal miles. Huh? Mr. White, you here? Follow me. Check it out. Never seen it so dead. Maybe
+[quarton] Guren: it's past closing time. It's too
+[quarton] Guren: quiet even for that. Yeah, you're right. I don't even hear a yogurt machine humming. And where did Boreas go? Didn't he say to follow him? I don't know. Maybe he's playing hide and seek. Along with Mr. White? I doubt it.
+[quarton] Guren: Hello! The
+[quarton] Guren: place is totally deserted. And me without my hoverboard. What was that? An earthquake? No. It's coming from out there. Let's go! I
+[quarton] Guren: feel it, but I don't see it. Oh, there it is.
+[quarton] Guren: It's...Vilius! Either that or a really messed up Thanksgiving Day parade balloon. How did it get so big? How'd he get here?
+[quarton] Vilius: So, you're still survivors. Eradicate the humans! I
+[quarton] Guren: think he's talking about us. No kidding. Except, of course, Toxsa. You know, Ceylan, I
+[quarton] Guren: really don't
+[quarton] Guren: appreciate this. Never mind. Run! Did I miss something? Who did these goons invade the Earth?
+[quarton] Vilius: You are in the gap between time and space. This is not reality...yet. My
+[quarton] Guren: heart rate's telling me it's real enough!
+[quarton] Vilius: Due to the malfunctioning portal, you are experiencing one possible future that lies in store for this world.
+[quarton] Guren: I'll take a future with less running in it, thanks!
+[quarton] Vilius: If the two worlds merge, this could be Earth's fate, or worse.
+[quarton] Guren: Worse?
+[quarton] Guren: What's
+[quarton] Guren: worse than this?
+[quarton] Vilius: Take what you have seen as a warning. Now, I will try to adjust the portal and retransmit you.
+[quarton] Guren: You're back so soon? I wasn't expecting you to be... Is it really him?
+[quarton] Guren: He feels real.
+[quarton] Guren: We're glad to see you, Mr. White. Thank you.
+[quarton] Guren: I wish I could say the same.
+[quarton] Guren: Mr. White, did anything weird happen here while we were gone? You
+[quarton] Guren: mean, besides the fact that an actual customer came into the shop? There you are, Guardian Boreas. Is there any news? Everything
+[quarton] Guren: looks normal.
+[quarton] Guren: Yeah. It's like somebody hit the reset button. Quarton's still up
+[quarton] Guren: there. But the worlds haven't merged yet. So
+[quarton] Guren: has it really come to
+[quarton] Guren: this?
+[quarton] Guren: A merging of the worlds?
+[quarton] Vilius: Yes. Unless we can use the power of the Tenkai Dragon to repair the imbalance that Vilius has caused. Then
+[quarton] Guren: we'd better get back and get our hands on that dragon.
+[quarton] Vilius: You cannot be safely transmitted to Quarton until the portal has been stabilized. So
+[quarton] Guren: what then? We just sit on the bench and watch
+[quarton] Vilius: the other team rack up points? To add to our troubles, there is the matter of Eurus. Why? What's happened to Eurus? I fear his absence from the Council may mean he's aligned himself with Vilius.
+[quarton] Guren: Let's hope you're wrong. If a Guardian as powerful as Eurus has joined the enemy, our prospects have dimmed considerably. You sound like you know this Eurus pretty well, Mr. White. Not at all. But one hears things you know.
+[quarton] Vilius: The portal should be stabilized by tomorrow morning. Battle.
+[quarton] Guren: Waiting? That's a waste of time. It's a rip-off. Like a game without a bonus level. Except that this is no video game. If
+[quarton] Guren: it was,
+[quarton] Guren: I'd
+[quarton] Guren: hit the quit button. Don't say that. You know you don't mean it, Ceylan.
+[quarton] Guren: I know, but it's a lot for a kid to handle, you know?
+[quarton] Guren: Speak for yourself, scary cat. Except for that giant Vilius. That was totally scarifying.
+[quarton] Guren: It's my dad. Hi, Dad.
+[quarton] Unknown: Hi, Guren. I'm afraid I'm going to have to work late tonight. There's been some trouble at the tower.
+[quarton] Guren: Is it bad?
+[quarton] Unknown: Yeah. I don't know if I'll make it home for dinner. Sorry.
+[quarton] Guren: I'll be fine.
+[quarton] Unknown: Okay. I've got to run.
+[quarton] Guren: Trouble,
+[quarton] Guren: huh?
+[quarton] Guren: You
+[quarton] Guren: think it's something we did? Don't look at me. I didn't break anything. Well, don't look at me either. Guys, look! Oh,
+[quarton] Guren: man.
+[quarton] Guren: Serious freakage. It's like when the video chip went bad on my simulator.
+[quarton] Guren: Must mean the two worlds are getting close
+[quarton] Guren: to merging. This is a little more serious than your video chip. Well, my whole system crashed. It was pretty bad. Not going to happen to us. Not if we're on our game. We've got to be ready to take it to them tomorrow. Uh, Chooki, where are you going? To get ready. For what? For dinner? I'm going to the library to do a little research on the strategy of history's great generals. Really?
+[quarton] Guren: It's not like there's going to be a test.
+[quarton] Guren: I like the idea. Why don't I come with you? You guys want to join us? Love to, but I've got a date with a Lime Parfait. So low-tech. You
+[quarton] Guren: must be a fast reader. I could never get through all those books before tomorrow. Neither could I. Why
+[quarton] Guren: check them all out, then? I should have plenty of time to read them after we save the world. Yeah. This is a fine release. I know we will. Leave it.
+[quarton] Guren: Ceylan breaking a sweat? Is this some kind of detention or something? You
+[quarton] Guren: both are going to thank me if the Earth's still here tomorrow.
+[quarton] Guren: Huh? What's that mean?
+[quarton] Unknown: It means he's cray-cray. But
+[quarton] Guren: we already knew that. Yeah. See ya. Later. See ya. Hopefully.
+[quarton] Guren: Send in the
+[quarton] Guren: Berserkers! Take
+[quarton] Guren: that, goblin minions! Okay, what's wrong with this
+[quarton] Guren: picture? You're doing chores without me even having to ask you?
+[quarton] Guren: Well, it's just that I might be kind of busy tomorrow.
+[quarton] Guren: Oh, then you'll clean the toilet today, too?
+[quarton] Guren: Let's not get carried away, sis. This, at least, is kind of like training.
+[quarton] Guren: And what are you in training for? Hanging out with your little friends?
+[quarton] Guren: Hanging out? Look, if I told you what it was I had to do tomorrow, you would...
+[quarton] Guren: But no,
+[quarton] Guren: I
+[quarton] Guren: can't! The world can never know the pressures I'm under and the dangers I have to
+[quarton] Guren: face! Okay, okay, stop being so melodramatic. Oh, was
+[quarton] Guren: I?
+[quarton] Guren: Sorry. I'll clean the toilet. Thanks. You're the best,
+[quarton] Guren: Wakame.
+[quarton] Guren: This isn't about the toilet. I'm glad you're
+[quarton] Guren: my sister.
+[quarton] Guren: Remember that when my birthday comes around. Oh, then in the meantime, if you really feel that way, you can help fold the laundry!
+[quarton] Guren: You don't have to worry, Max. Even if the worst thing happens, and the two worlds merge tomorrow, you'll still have eight more lives left.
+[quarton] Guren: Okay, Max. Big day today. Yeah, I left you your dinner. In case I'm not home in time. See ya. Wish me luck.
+[quarton] Guren: Dear Dad, I had to go out. Sorry. Like you, I've got a busy day too. I hope we can have some fun together this weekend. If I'm a little late, don't worry. I'll be back. See you then. Guren. Now
+[quarton] Vilius: that Vilius has returned to the fortress, will you still proceed as planned, Dromus?
+[quarton] Gen: I don't think so. No, my plan is to wait for the Corekai to make their move first.
+[quarton] Guren: They're getting ready to launch their final assault.
+[quarton] Gen: Exactly. Their attack on the fortress will create a nice diversion. That's when I'll slip in and revive the dragon with the Black Key. That's
+[quarton] Guren: troubling news indeed, Boreas. Good morning, Mr. White. As for it being a good morning, Guren, let us hope so. Are there any new
+[quarton] Vilius: developments? Unfortunately, I have been unable to contact my fellow Guardians.
+[quarton] Guren: So we have no clear picture of what's happening on Quarton.
+[quarton] Vilius: I have succeeded in making the portal stable enough for your transmission. But the larger imbalance remains and can only be repaired with the power of the Tenkai Dragon.
+[quarton] Guren: And that means you'll have to retake the dragon. There's no way around it.
+[quarton] Guren: Mr. White, can I ask you a question? Certainly. I'm curious. How long have you known the Guardians? Well,
+[quarton] Guren: that's difficult to
+[quarton] Guren: say. But, uh, let me
+[quarton] Guren: see. What was the question? Huh? Oh, yes. You see, it depends on what you mean by know. I'm not sure that anyone can ever really know the Guardians. Well, you said you've been to Quarton before, but what did you do there? What did I do on Quarton? What did I do on Quarton?
+[quarton] Guren: That's a
+[quarton] Guren: tricky
+[quarton] Guren: question. Depends what I mean by do. Exactly. Okay, never mind. I never get a straight answer.
+[quarton] Guren: Perhaps not, Guren. But that doesn't mean the questions aren't worth asking. What I've done is unimportant. It's what you and your friends do today that matters.
+[quarton] Vilius: The Corekai are waiting for your arrival to begin the assault on the fortress. It's in your hands now, Tenkai Knights. You
+[quarton-battle] Guren: taking a vacation or something?
+[quarton-battle] Vilius: I must remain here to ensure that the portal doesn't malfunction again. I must not send you into an alternate dimension as I did before.
+[quarton-battle] Guren: We know you're up to the test, boys. Fear not.
+[quarton-battle] Guren: Well, okay, then. Let's move. Yeah! Tenkai!
+[quarton-battle] Unknown: Tributon, Corek!
+[quarton-battle] Vilius: Shall we march forth to meet them? There's no need. Let them attack first. Then destroy them as you wish.
+[quarton-battle] Guren: There it
+[quarton-battle] Guren: is. Vilius's fortress. The key to victory. It, uh, looks bigger, doesn't it? Anyone? Still, there's no defense that can't be scored against. No program that can't be hacked. New punchline? Can't be punched. No, wait, that was bad. Let me try another catchphrase. Forget the catchphrase. Let's just
+[quarton-battle] Guren: secure the dragon.
+[quarton-battle] Guren: Okay, I'll save it for
+[quarton-battle] Guren: later. And meanwhile, you and I will do a dungeon crawl to find the reassembly device. Right, Lightendor? Right. Guys, we all know what we have to
+[quarton] Guren: do, so let's make it happen. You got this. Let's do it. Corekai, are you ready? Yeah! And
+[quarton] Unknown: so it begins.
+[quarton] Guren: Yeah, the beginning of the end. Keep
+[quarton] Vilius: coming, Corekai, to your doom!
