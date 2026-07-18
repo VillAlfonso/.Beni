@@ -19,6 +19,14 @@ arc's transcript, fix attribution inline (dialogue logic: who's addressed, who a
 reading, two outputs. Back up to data/transcripts/pre_repair/ first; diff after. Labeling the
 three boys + Kiiro + ep49 JP cast remains the single biggest accuracy lever — do it FIRST.
 
+`annotate_address.py` (deterministic monologue/addressee tagger, user-requested) now adds
+mode/addressee to every line. Verified: vocatives, self-address ("Beni, Beni, Beni"),
+group-address and time-isolation fire correctly; BUT lines corrupted by boundary tears
+inherit the tear (ep15 shoe scene: her monologue tags as dialogue because the torn fragment
+keeps Guren time-adjacent). Order therefore: labels → read-through repairs → RERUN
+annotate_address.py (rerun-safe) → export_readable → ingest. Use mode=="monologue" lines —
+they're her unguarded inner voice, the most character-defining lines for speech.md/LoRA.
+
 ## How to build the world bible + deepen Beni (user will drive this)
 - **World bible**: read transcripts by ARC (1–13, 14–25, 26–38, 39–45, 46–52), sampled not
   dumped. Per arc write `data/corpus/analysis--arc-N.md` with frontmatter like the fandom
