@@ -1,5 +1,27 @@
 # Next-session briefing (written 2026-07-18 — read me first)
 
+## STATUS: accurate pass DONE — 52/52 eps have work/epNN.aligned.json (pyannote speaker-split,
+word-level). Beni enrolled from ep14. Remaining tail, in order:
+1. User labels Kiiro (review_spk/ep46 or 47 label.html) + optionally Wakame (ep19); rerun
+   `make_label_sheet.py` first so sheets show the new aligned speakers.
+2. `name_transcripts.py` (all) → `find_by_context.py` (proposes Guren's Dad/Wakame from
+   dialogue cues — user's idea) → confirm → re-run name_transcripts → `beni_frames.py` →
+   `npm run ingest` → leak-test (stage-1 chat must know nothing of Kiiro) → `npm run export-lora`.
+
+## How to build the world bible + deepen Beni (user will drive this)
+- **World bible**: read transcripts by ARC (1–13, 14–25, 26–38, 39–45, 46–52), sampled not
+  dumped. Per arc write `data/corpus/analysis--arc-N.md` with frontmatter like the fandom
+  files (`kind: analysis`) and **`<!--ep:N-->` before every block** — that tag is what keeps
+  episode-capping honest; an untagged spoiler block would leak into early-stage Beni. Cover:
+  events, who-knows-what-by-when, factions/mechanics, Beni's beats + exact quotes. Re-ingest.
+- **Deepen Beni**: `src/server/prompt/builder.ts:83` loads `character/beni/stages/<id>.md`
+  per stage — **these files don't exist yet** (each stage is one sentence today). Write the
+  five (s1-infiltrator … s5-knight) from her actual transcript lines per era + frames from
+  `beni_frames.py` (mannerisms — LOOK at them); each file ends with "what she does NOT know
+  yet". Add new verbatim lines to speech.md. Never put late-arc facts in card.md (always-on).
+- Kickoff prompt for a fresh session: "Read docs/NEXT-SESSION.md and do the remaining tail,
+  then the world bible + stage files exactly as specified there. Verify caps by leak-test."
+
 ## Overnight results (chain finished ~03:40, all verified)
 - **52/52 transcribed** → `pipeline\transcribe\work\epNN.segments.json`; 49–52 confirmed
   Japanese (0.90–0.98) and whisper-translated to English. KoboldCpp restarted, API answering.
