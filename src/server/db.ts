@@ -96,6 +96,17 @@ export function openDb(file: string): Db {
   if (!chatCols.some((c) => c.name === "world")) {
     db.exec("ALTER TABLE chats ADD COLUMN world TEXT");
   }
+  if (!chatCols.some((c) => c.name === "directives")) {
+    db.exec("ALTER TABLE chats ADD COLUMN directives TEXT");
+  }
+  db.exec(`CREATE TABLE IF NOT EXISTS ooc_messages(
+    id TEXT PRIMARY KEY,
+    chat_id TEXT NOT NULL REFERENCES chats(id) ON DELETE CASCADE,
+    role TEXT NOT NULL,
+    content TEXT NOT NULL,
+    created_at INTEGER NOT NULL
+  );
+  CREATE INDEX IF NOT EXISTS ooc_chat ON ooc_messages(chat_id);`);
   return db;
 }
 

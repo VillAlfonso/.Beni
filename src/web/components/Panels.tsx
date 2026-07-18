@@ -124,6 +124,96 @@ export function SettingsPanel() {
   );
 }
 
+interface OocMsg { id: string; role: string; content: string; created_at: number }
+
+export function OocPanel() {
+  const { state } = useStore();
+  const [msgs, setMsgs] = useState<OocMsg[]>([]);
+  const [directives, setDirectives] = useState<string[]>([]);
+  const [text, setText] = useState("");
+  const [busy, setBusy] = useState(false);
+  const chatId = state.activeId;
+
+  const load = React.useCallback(async () => {
+    if (!chatId) return;
+    const r = await fetch(`/api/chats/${chatId}/ooc`);
+    const d = await r.json();
+    setMsgs(d.messages ?? []);
+    setDirectives(d.directives ?? []);
+  }, [chatId]);
+  React.useEffect(() => { void load(); }, [load]);
+
+  const send = async () => {
+    const t = text.trim();
+    if (!t || busy || !chatId) return;
+    setBusy(true);
+    setText("");
+    setMsgs((m) => [...m, { id: "tmp", role: "user", content: t, created_at: Date.now() }]);
+    try {
+      const r = await fetch(`/api/chats/${chatId}/ooc`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ content: t })
+      });
+      const d = await r.json();
+      if (d.reply !== undefined) {
+        setMsgs((m) => [...m.filter((x) => x.id !== "tmp"), { id: `u${Date.now()}`, role: "user", content: t, created_at: Date.now() }, { id: `a${Date.now()}`, role: "assistant", content: d.reply, created_at: Date.now() }]);
+        setDirectives(d.directives ?? []);
+      }
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const removeDirective = async (i: number) => {
+    if (!chatId) return;
+    const r = await fetch(`/api/chats/${chatId}/directives/${i}`, { method: "DELETE" });
+    const d = await r.json();
+    setDirectives(d.directives ?? []);
+  };
+
+  return (
+    <Panel title="System channel (out of character)">
+      <p className="hint" style={{ marginBottom: 10 }}>
+        Talk to the system, not Beni — ask "was this really in the show?", or correct the
+        roleplay ("Beni wouldn't do that"). Corrections become standing directives for this
+        chat only.
+      </p>
+      {directives.length > 0 && (
+        <div style={{ marginBottom: 12 }}>
+          <div className="hint" style={{ marginBottom: 4 }}>Active directives for this chat:</div>
+          {directives.map((d, i) => (
+            <div key={i} style={{ display: "flex", gap: 6, alignItems: "baseline", fontSize: 13, marginBottom: 3 }}>
+              <span style={{ flex: 1 }}>• {d}</span>
+              <button className="iconbtn" onClick={() => void removeDirective(i)} aria-label="remove">✕</button>
+            </div>
+          ))}
+        </div>
+      )}
+      <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: "45vh", overflowY: "auto", marginBottom: 10 }}>
+        {msgs.length === 0 && <span className="hint">Nothing yet. This channel is separate per chat.</span>}
+        {msgs.map((m) => (
+          <div key={m.id} style={{ fontSize: 13.5, opacity: m.role === "user" ? 1 : 0.85 }}>
+            <strong>{m.role === "user" ? "You" : "System"}:</strong> {m.content}
+          </div>
+        ))}
+        {busy && <span className="hint">system is thinking…</span>}
+      </div>
+      <div style={{ display: "flex", gap: 8 }}>
+        <input
+          style={{ flex: 1, background: "transparent", border: "1px solid var(--line-strong)", borderRadius: 8, padding: "8px 10px" }}
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          onKeyDown={(e) => { if (e.key === "Enter") void send(); }}
+          placeholder='e.g. "Beni wouldn’t say that" or "was Eurus really a traitor?"'
+          disabled={busy || !chatId}
+        />
+        <button className="btn solid" disabled={busy || !text.trim()} onClick={() => void send()}>Send</button>
+      </div>
+    </Panel>
+  );
+}
+
 export function MemoriesPanel() {
   const { state, actions } = useStore();
   return (

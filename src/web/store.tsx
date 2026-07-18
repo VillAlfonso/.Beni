@@ -70,7 +70,7 @@ interface State {
   episodes: Episode[];
   settings: Record<string, any> | null;
   streaming: { forChat: string; text: string; meta: RetrievalMeta | null; pendingUser: string | null } | null;
-  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat";
+  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat" | "ooc";
   branchUi: boolean;
   sidebarOpen: boolean;
   error: string | null;

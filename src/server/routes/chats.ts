@@ -3,6 +3,9 @@ import type { Db } from "../db.js";
 import { newId } from "../db.js";
 import { pathToRoot, siblingsOf, forkChat, setHead, getMessage, latestLeafFrom } from "../core/tree.js";
 import { loadStages, getStage, loadScenarios, loadStoryPressures } from "../prompt/builder.js";
+import { retrieveCanon } from "../rag/retrieve.js";
+import { getSettings } from "../settings.js";
+import { completeChat } from "../llm/provider.js";
 
 export function chatsRouter(db: Db): Router {
   const r = Router();
@@ -162,6 +165,104 @@ export function chatsRouter(db: Db): Router {
   r.delete("/checkpoints/:id", (req, res) => {
     db.prepare("DELETE FROM checkpoints WHERE id=?").run(req.params.id);
     res.json({ ok: true });
+  });
+
+  // ---- per-chat out-of-character channel with the "director" ----
+
+  r.get("/chats/:id/ooc", (req, res) => {
+    const rows = db
+      .prepare("SELECT id,role,content,created_at FROM ooc_messages WHERE chat_id=? ORDER BY created_at ASC")
+      .all(req.params.id);
+    const chat = db.prepare("SELECT directives FROM chats WHERE id=?").get(req.params.id) as
+      | { directives: string | null }
+      | undefined;
+    let directives: string[] = [];
+    try {
+      directives = JSON.parse(chat?.directives || "[]");
+    } catch { /* fresh chat */ }
+    res.json({ messages: rows, directives });
+  });
+
+  r.post("/chats/:id/ooc", async (req, res) => {
+    const chat = db.prepare("SELECT * FROM chats WHERE id=?").get(req.params.id) as
+      | { id: string; stage_id: string; episode_cap: number; directives: string | null }
+      | undefined;
+    if (!chat) return res.status(404).json({ error: "not found" });
+    const content = String(req.body?.content ?? "").trim();
+    if (!content) return res.status(400).json({ error: "empty message" });
+
+    const now = Date.now();
+    db.prepare("INSERT INTO ooc_messages(id,chat_id,role,content,created_at) VALUES(?,?,?,?,?)").run(
+      newId(), chat.id, "user", content, now
+    );
+
+    try {
+      const settings = getSettings(db);
+      // full-canon retrieval (cap 51): the PLAYER is asking, not Beni — may spoil
+      const canon = await retrieveCanon(db, content, { cap: 51, k: 6 });
+      const history = db
+        .prepare("SELECT role,content FROM ooc_messages WHERE chat_id=? ORDER BY created_at DESC LIMIT 8")
+        .all(chat.id) as { role: string; content: string }[];
+      let directives: string[] = [];
+      try {
+        directives = JSON.parse(chat.directives || "[]");
+      } catch { /* none */ }
+
+      const raw = await completeChat(
+        [
+          {
+            role: "system",
+            content:
+              "You are the DIRECTOR of a Tenkai Knights roleplay app (the character is Beni). This is the out-of-character channel: the player talks to the system here, not to Beni. " +
+              "Answer canon questions honestly and concisely using the reference notes (cite episode numbers plainly; full-series knowledge allowed — warn briefly before real spoilers). If the notes don't cover it, say you're not sure rather than guess. " +
+              "When the player gives a correction or steering instruction about the roleplay ('Beni didn't do that', 'stop doing X', 'she should be colder'), acknowledge it and distill it into ONE short imperative directive for the character model. " +
+              `Existing directives: ${JSON.stringify(directives)}. ` +
+              "End your reply with exactly one line: 'DIRECTIVE: <short imperative>' if a new directive should be saved, or 'DIRECTIVE: none'.\n\nCanon reference notes:\n" +
+              canon.map((c) => `- [${c.docTitle}${c.episode !== null ? ` · ep ${c.episode}` : ""}] ${c.text.replace(/\n+/g, " ").slice(0, 300)}`).join("\n")
+          },
+          ...history.reverse().map((m) => ({ role: (m.role === "user" ? "user" : "assistant") as "user" | "assistant", content: m.content }))
+        ],
+        {
+          baseUrl: settings.llm.baseUrl,
+          apiKey: settings.llm.apiKey,
+          model: settings.llm.model,
+          temperature: 0.4,
+          maxTokens: 450,
+          topP: 0.9
+        }
+      );
+
+      let reply = raw.trim();
+      const dm = reply.match(/DIRECTIVE:\s*(.+)\s*$/i);
+      if (dm) {
+        reply = reply.slice(0, dm.index).trim();
+        const d = dm[1].trim();
+        if (d && d.toLowerCase() !== "none") {
+          directives = [...directives, d].slice(-12);
+          db.prepare("UPDATE chats SET directives=? WHERE id=?").run(JSON.stringify(directives), chat.id);
+        }
+      }
+      db.prepare("INSERT INTO ooc_messages(id,chat_id,role,content,created_at) VALUES(?,?,?,?,?)").run(
+        newId(), chat.id, "assistant", reply || "(no reply)", Date.now()
+      );
+      res.json({ reply, directives });
+    } catch (err) {
+      res.status(502).json({ error: (err as Error).message });
+    }
+  });
+
+  r.delete("/chats/:id/directives/:index", (req, res) => {
+    const chat = db.prepare("SELECT directives FROM chats WHERE id=?").get(req.params.id) as
+      | { directives: string | null }
+      | undefined;
+    if (!chat) return res.status(404).json({ error: "not found" });
+    let directives: string[] = [];
+    try {
+      directives = JSON.parse(chat.directives || "[]");
+    } catch { /* none */ }
+    directives.splice(Number(req.params.index), 1);
+    db.prepare("UPDATE chats SET directives=? WHERE id=?").run(JSON.stringify(directives), req.params.id);
+    res.json({ directives });
   });
 
   r.get("/chats/:id/memories", (req, res) => {

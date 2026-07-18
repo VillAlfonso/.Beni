@@ -110,6 +110,32 @@ export function ChatView() {
     setShowJump(fromBottom > 240);
   }, []);
 
+  // swipe right from the left edge opens the drawer (mobile)
+  useEffect(() => {
+    let startX = 0, startY = 0, tracking = false;
+    const down = (e: TouchEvent) => {
+      const t = e.touches[0];
+      if (t.clientX < 32) { startX = t.clientX; startY = t.clientY; tracking = true; }
+    };
+    const move = (e: TouchEvent) => {
+      if (!tracking) return;
+      const t = e.touches[0];
+      if (t.clientX - startX > 64 && Math.abs(t.clientY - startY) < 48) {
+        tracking = false;
+        actions.setSidebar(true);
+      }
+    };
+    const up = () => { tracking = false; };
+    window.addEventListener("touchstart", down, { passive: true });
+    window.addEventListener("touchmove", move, { passive: true });
+    window.addEventListener("touchend", up, { passive: true });
+    return () => {
+      window.removeEventListener("touchstart", down);
+      window.removeEventListener("touchmove", move);
+      window.removeEventListener("touchend", up);
+    };
+  }, [actions]);
+
   // keep the composer above the on-screen keyboard (iOS/Android)
   useEffect(() => {
     const vv = window.visualViewport;
@@ -200,6 +226,7 @@ export function ChatView() {
           <button className="iconbtn" title="Checkpoints" onClick={() => actions.setPanel("checkpoints")}>⚑</button>
         )}
         <button className="iconbtn" title="Memories" onClick={() => { void actions.loadMemories(); actions.setPanel("memories"); }}>✦</button>
+        <button className="iconbtn" title="System channel (out of character)" onClick={() => actions.setPanel("ooc")}>⌗</button>
         <button className="iconbtn" title="Delete chat" onClick={() => {
           if (window.confirm("Delete this chat and its memories?")) void actions.deleteChat(state.chat!.id);
         }}>✕</button>

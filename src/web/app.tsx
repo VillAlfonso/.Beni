@@ -4,7 +4,7 @@ import { Sidebar } from "./components/Sidebar.js";
 import { ChatView } from "./components/ChatView.js";
 import { LoginGate } from "./components/LoginGate.js";
 import { NewChatModal } from "./components/NewChatModal.js";
-import { SettingsPanel, MemoriesPanel, CheckpointsPanel } from "./components/Panels.js";
+import { SettingsPanel, MemoriesPanel, CheckpointsPanel, OocPanel } from "./components/Panels.js";
 
 export function App() {
   const { state, actions } = useStore();
@@ -21,6 +21,7 @@ export function App() {
       {state.panel === "settings" && <SettingsPanel />}
       {state.panel === "memories" && <MemoriesPanel />}
       {state.panel === "checkpoints" && <CheckpointsPanel />}
+      {state.panel === "ooc" && <OocPanel />}
     </div>
   );
 }

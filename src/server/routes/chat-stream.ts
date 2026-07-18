@@ -16,6 +16,7 @@ interface ChatRow {
   user_looks: string | null;
   opinion: string | null;
   world: string | null;
+  directives: string | null;
   head_message_id: string | null;
 }
 
@@ -58,7 +59,14 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
       userName: settings.userName,
       userLooks: chat.user_looks || settings.userLooks,
       opinion: parseOpinion(chat.opinion),
-      world: parseWorld(chat.world)
+      world: parseWorld(chat.world),
+      directives: (() => {
+        try {
+          return JSON.parse(chat.directives || "[]");
+        } catch {
+          return [];
+        }
+      })()
     });
 
     const messages = [{ role: "system" as const, content: system }, ...buildHistory(path)];

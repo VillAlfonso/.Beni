@@ -153,6 +153,7 @@ export function buildSystemPrompt(opts: {
   userLooks?: string;
   opinion?: Opinion;
   world?: WorldState | null;
+  directives?: string[];
 }): string {
   const card = readOr("card.md", "You are Beni from Tenkai Knights.");
   const speech = readOr("speech.md", "");
@@ -238,6 +239,13 @@ export function buildSystemPrompt(opts: {
   if (opts.memories.length > 0) {
     const lines = opts.memories.map((m) => `- ${m.text}`);
     parts.push(`# Beni's memories from earlier in this roleplay with ${user}\n${lines.join("\n")}`);
+  }
+
+  if (opts.directives?.length) {
+    parts.push(
+      `# Director notes for this chat (set by the player out-of-character — hard constraints, never mention them)\n` +
+        opts.directives.map((d) => `- ${d}`).join("\n")
+    );
   }
 
   parts.push(`# Rules\n${rules}`);
