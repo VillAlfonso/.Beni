@@ -29,6 +29,7 @@ import diarize_match as dm
 HERE = Path(__file__).resolve().parent
 WORK = HERE / "work"
 REVIEW_SPK = HERE / "review_spk"
+JP_EPS = set(range(49, 53))  # translated; word timestamps unreliable
 
 
 def speaker_at(t: float, turns: list[tuple[float, float, str]]) -> str | None:
@@ -57,15 +58,17 @@ def align(ep: int) -> None:
     print(f"ep{ep:02d}: diarizing…")
     turns, spk_emb = dm.diarize_pyannote(audio_path)
 
-    # collect words; fall back to whole-segment timing if a segment lacks words
+    # collect words; fall back to whole-segment timing if a segment lacks words.
+    # JP eps (49-52) are TRANSLATED — their word timestamps map English words onto
+    # Japanese audio and are unreliable, so attribute whole segments instead.
     words = []
     for s in segments:
-        if s.get("words"):
+        if ep not in JP_EPS and s.get("words"):
             for w in s["words"]:
                 if w["w"].strip():
                     words.append({"w": w["w"], "s": w["s"], "e": w["e"]})
         else:
-            words.append({"w": s["text"], "s": s["start"], "e": s["end"]})
+            words.append({"w": s["text"] + " ", "s": s["start"], "e": s["end"]})
 
     # assign each word to a speaker, then regroup consecutive same-speaker words
     lines: list[dict] = []
@@ -77,8 +80,18 @@ def align(ep: int) -> None:
             lines[-1]["t1"] = w["e"]
         else:
             lines.append({"speaker": spk, "text": w["w"], "t0": w["s"], "t1": w["e"]})
+
+    # merge consecutive same-speaker lines (< 6s apart) into one clean turn
+    merged: list[dict] = []
     for ln in lines:
-        ln["text"] = ln["text"].strip()
+        if merged and merged[-1]["speaker"] == ln["speaker"] and ln["t0"] - merged[-1]["t1"] < 6.0:
+            merged[-1]["text"] += " " + ln["text"]
+            merged[-1]["t1"] = ln["t1"]
+        else:
+            merged.append(ln)
+    lines = merged
+    for ln in lines:
+        ln["text"] = " ".join(ln["text"].split()).strip()
         ln["t0"] = round(ln["t0"], 2)
         ln["t1"] = round(ln["t1"], 2)
     lines = [ln for ln in lines if ln["text"]]
@@ -117,11 +130,18 @@ def main() -> None:
     ap.add_argument("--only", type=int, default=None)
     a = ap.parse_args()
     files = sorted(WORK.glob("ep*.segments.json"))
+    failed = []
     for f in files:
         ep = int(f.stem[2:4])
         if a.only and ep != a.only:
             continue
-        align(ep)
+        try:
+            align(ep)
+        except Exception as e:  # one bad episode must not abort an unattended batch
+            failed.append(ep)
+            print(f"  ep{ep:02d} FAILED: {str(e).splitlines()[-1][:160]}")
+    if failed:
+        print(f"\n{len(failed)} episode(s) failed: {failed} — rerun with --only <ep> after checking.")
 
 
 if __name__ == "__main__":

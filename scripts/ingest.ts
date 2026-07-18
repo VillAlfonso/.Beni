@@ -87,12 +87,15 @@ function loadTranscriptDocs(): DocInput[] {
       const blocks: SectionBlock[] = [];
       const WINDOW = 15;
       const STEP = 10;
+      // pipeline keeps "UNKNOWN(SPEAKER_03)" for tooling; collapse it to a clean
+      // "Unknown" so retrieved dialogue reads naturally and speaker ids aren't embedded
+      const clean = (s: string) => (s.startsWith("UNKNOWN") ? "Unknown" : s);
       for (let i = 0; i < data.lines.length; i += STEP) {
         const win = data.lines.slice(i, i + WINDOW);
         if (win.length < 3) break;
         blocks.push({
           heading: `Episode ${data.episode} dialogue`,
-          text: win.map((l) => `${l.speaker}: ${l.text}`).join("\n"),
+          text: win.map((l) => `${clean(l.speaker)}: ${l.text}`).join("\n"),
           episode: data.episode
         });
       }

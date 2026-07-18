@@ -43,8 +43,14 @@ def name_episode(ep: int) -> None:
         return
 
     enrolled = np.load(voices)
-    names = list(enrolled.files)
     spk_emb = np.load(spk_file)
+    dim = spk_emb[spk_emb.files[0]].shape[0] if spk_emb.files else 0
+    # only compare against profiles of the same embedding space (guards against a
+    # stale ECAPA enrolled.npz vs pyannote 256-d embeddings)
+    names = [n for n in enrolled.files if enrolled[n].shape[0] == dim]
+    if not names:
+        print(f"ep{ep:02d}: enrolled profiles don't match embedding dim {dim} — re-enroll")
+        return
 
     label: dict[str, str] = {}
     for spk in spk_emb.files:
