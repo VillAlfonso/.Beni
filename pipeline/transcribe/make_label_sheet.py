@@ -21,8 +21,9 @@ REVIEW = HERE / "review"
 REVIEW_SPK = HERE / "review_spk"
 
 # characters likely present, offered as one-click buttons (you can also free-type)
-ROSTER = ["Beni", "Guren", "Ceylan", "Toxsa", "Chooki", "Gen", "Mr. White",
-          "Vilius", "Boreas", "Granox", "Slyger", "Kiiro", "Narrator", "Other"]
+ROSTER = ["Beni", "Guren", "Ceylan", "Toxsa", "Chooki", "Gen", "Kiiro", "Mr. White",
+          "Vilius", "Boreas", "Granox", "Slyger", "Wakame", "Guren's Dad",
+          "Narrator", "ViliusGoon", "Other"]
 
 
 def build(ep: int) -> bool:
