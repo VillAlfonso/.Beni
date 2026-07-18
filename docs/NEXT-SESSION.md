@@ -1,5 +1,10 @@
 # Next-session briefing (written 2026-07-18 — read me first)
 
+**PRIME RULE (user's law): ambiguity over inaccuracy — never give Beni false memories.**
+Unknown is fine; wrong is not. No unaudited LLM edits to transcripts. Do not `npm run ingest`
+transcript data until the read-through repair has passed over it. When unsure, drop the data
+point. Play it safe — the important thing is that this gets BUILT, correctly.
+
 ## STATUS: accurate pass DONE — 52/52 eps have work/epNN.aligned.json (pyannote speaker-split,
 word-level). Beni enrolled from ep14. Remaining tail, in order:
 1. User labels Kiiro (review_spk/ep46 or 47 label.html) + optionally Wakame (ep19); rerun
