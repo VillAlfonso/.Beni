@@ -135,6 +135,7 @@ export function NewChatModal() {
             </select>
             <select value={lookLevel} onChange={(e) => setLookLevel(e.target.value)}>
               <option value="">looks…</option>
+              <option value="ugly">ugly</option>
               <option value="plain-looking">plain</option>
               <option value="average-looking">average</option>
               <option value="good-looking">good-looking</option>
