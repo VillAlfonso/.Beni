@@ -27,19 +27,14 @@ async function fetchSiblings(id: string): Promise<string[]> {
   return data.ids;
 }
 
-/** Mood cues for the voice: derive an emotion instruction from her prose.
- *  The fine-tuned model takes free-text emotion directions (Qwen3-TTS instruct). */
-function moodInstruct(text: string): string {
+/** Mood key for the voice server: each key maps to a user-approved reference
+ *  clip of HER (clone mode) — only registers that passed the user's ear exist. */
+function moodKey(text: string): string {
   const t = text.toLowerCase();
-  const base = "a sharp-tongued, playfully sarcastic thirteen-year-old girl";
-  if (/\b(cold|flat|icy|narrow|glare|hiss)\b/.test(t)) return `Speak coldly and flat, clipped and unimpressed — ${base}.`;
-  if (/\b(yell|shout|snap|slam|furious|angry)\b/.test(t) || (text.match(/!/g)?.length ?? 0) >= 3)
-    return `Speak sharply and angrily, fast and cutting — ${base}.`;
-  if (/\b(whisper|quiet|soft|murmur|small voice)\b/.test(t)) return `Speak quietly and softly, guarded, almost gentle — ${base} letting the armor down an inch.`;
-  if (/\b(scared|afraid|panic|trembl|flinch)\b/.test(t)) return `Speak with a hint of fear under forced composure — ${base} pretending she isn't rattled.`;
-  if (/\b(sigh|tired|bored|yawns?)\b/.test(t)) return `Speak with drawling boredom, unimpressed — ${base}.`;
-  if (/\b(grin|smirk|laugh|giggle|tease)\b/.test(t)) return `Speak with amused, teasing mischief — ${base} enjoying herself.`;
-  return `Speak playfully and sarcastically with a confident drawl — ${base}.`;
+  if (/\b(yell|shout|snap|slam|furious|angry|glare|hiss)\b/.test(t) || (text.match(/!/g)?.length ?? 0) >= 3) return "angry";
+  if (/\b(whisper|quiet|soft|murmur|small voice|gentle|pink)\b/.test(t)) return "soft";
+  if (/\b(grin|smirk|laugh|giggle|tease)\b/.test(t)) return "sass";
+  return "default";
 }
 
 export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
@@ -56,7 +51,7 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
       const r = await fetch("/api/tts", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ text: m.content, instruct: moodInstruct(m.content) })
+        body: JSON.stringify({ text: m.content, mood: moodKey(m.content) })
       });
       if (!r.ok) throw new Error("voice unavailable");
       const url = URL.createObjectURL(await r.blob());

@@ -55,7 +55,7 @@ export function miscRouter(db: Db): Router {
       const up = await fetch(s.ttsUrl.replace(/\/+$/, "") + "/speak", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ text: String(req.body?.text ?? ""), instruct: req.body?.instruct })
+        body: JSON.stringify({ text: String(req.body?.text ?? ""), mood: req.body?.mood })
       });
       if (!up.ok) {
         const err = await up.text().catch(() => "");

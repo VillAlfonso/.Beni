@@ -27,35 +27,35 @@ DEFAULT_INSTRUCT = (
 )
 
 _model = None
-_speaker = "beni"
+_refs = None
 
 
-def find_checkpoint() -> str:
-    cfg = ADDON / "config.json"
-    if cfg.exists():
-        try:
-            c = json.loads(cfg.read_text(encoding="utf-8"))
-            if c.get("checkpoint"):
-                return str(c["checkpoint"])
-        except json.JSONDecodeError:
-            pass
-    ckpts = sorted((ADDON / "output").glob("checkpoint-epoch-*"),
-                   key=lambda p: int(p.name.rsplit("-", 1)[-1]))
-    if not ckpts:
-        raise SystemExit("no fine-tuned checkpoint found — run training first")
-    return str(ckpts[-1])
+def load_refs() -> dict:
+    global _refs
+    if _refs is None:
+        _refs = json.loads((ADDON / "voice" / "beni-refs.json").read_text(encoding="utf-8"))
+    return _refs
 
 
 def load_model():
+    """Serve in CLONE mode on the Base model — the user-approved recipe:
+    timbre cloned from her real clips, mood steered by which approved anchor
+    is used as the reference. Falls back to CPU if the GPU is full (KoboldCpp)."""
     global _model
     if _model is None:
         import torch
         from qwen_tts import Qwen3TTSModel
 
-        ckpt = find_checkpoint()
-        device = "cuda:0" if torch.cuda.is_available() else "cpu"
-        print(f"loading {ckpt} on {device} …")
-        _model = Qwen3TTSModel.from_pretrained(ckpt, device_map=device, dtype=torch.bfloat16)
+        base = str(ADDON / "models" / "1.7B-Base")
+        try:
+            free, _ = torch.cuda.mem_get_info()
+            device = "cuda:0" if free > 5 * 1024**3 else "cpu"
+        except Exception:
+            device = "cpu"
+        print(f"loading {base} on {device} …")
+        _model = Qwen3TTSModel.from_pretrained(
+            base, device_map=device,
+            dtype=torch.bfloat16 if device.startswith("cuda") else torch.float32)
         print("ready")
     return _model
 
@@ -93,13 +93,16 @@ class Handler(BaseHTTPRequestHandler):
             text = clean_text(str(req.get("text", "")))
             if not text:
                 raise ValueError("empty text")
-            instruct = str(req.get("instruct") or DEFAULT_INSTRUCT)[:200]
+            mood = str(req.get("mood") or "default")
+            refs = load_refs()
+            ref = refs.get(mood, refs["default"])
 
             import soundfile as sf
 
             model = load_model()
-            wavs, sr = model.generate_custom_voice(
-                text=text, language="English", speaker=_speaker, instruct=instruct
+            wavs, sr = model.generate_voice_clone(
+                text=text, language="English",
+                ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"]
             )
             buf = io.BytesIO()
             sf.write(buf, wavs[0], sr, format="WAV")
