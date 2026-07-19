@@ -62,10 +62,25 @@ export function miscRouter(db: Db): Router {
         return res.status(502).json({ error: err.slice(0, 200) || up.statusText });
       }
       res.setHeader("content-type", "audio/wav");
+      const restId = up.headers.get("x-voice-rest");
+      if (restId) res.setHeader("x-voice-rest", restId);
       const buf = Buffer.from(await up.arrayBuffer());
       res.send(buf);
     } catch {
       res.status(503).json({ error: "voice server unreachable — run Beni-voice.bat" });
+    }
+  });
+
+  // second half of a streamed line (see x-voice-rest header)
+  r.get("/tts/rest/:id", async (req, res) => {
+    const s = getSettings(db);
+    try {
+      const up = await fetch(s.ttsUrl.replace(/\/+$/, "") + `/rest/${req.params.id}`);
+      if (!up.ok) return res.status(up.status).end();
+      res.setHeader("content-type", "audio/wav");
+      res.send(Buffer.from(await up.arrayBuffer()));
+    } catch {
+      res.status(503).end();
     }
   });
 

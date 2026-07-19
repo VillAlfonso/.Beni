@@ -58,12 +58,25 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
         body: JSON.stringify({ text: m.content, mood: moodKey(m.content) })
       });
       if (!r.ok) throw new Error("voice unavailable");
+      const restId = r.headers.get("x-voice-rest");
+      // start fetching the remainder while the first sentence plays
+      const restPromise = restId
+        ? fetch(`/api/tts/rest/${restId}`).then(async (rr) => (rr.ok ? ctx.decodeAudioData(await rr.arrayBuffer()) : null)).catch(() => null)
+        : Promise.resolve(null);
       const buf = await ctx.decodeAudioData(await r.arrayBuffer());
-      const srcNode = ctx.createBufferSource();
-      srcNode.buffer = buf;
-      srcNode.connect(ctx.destination);
-      srcNode.onended = () => { setSpeaking(false); void ctx.close(); };
-      srcNode.start();
+      const first = ctx.createBufferSource();
+      first.buffer = buf;
+      first.connect(ctx.destination);
+      first.onended = async () => {
+        const restBuf = await restPromise;
+        if (!restBuf) { setSpeaking(false); void ctx.close(); return; }
+        const restNode = ctx.createBufferSource();
+        restNode.buffer = restBuf;
+        restNode.connect(ctx.destination);
+        restNode.onended = () => { setSpeaking(false); void ctx.close(); };
+        restNode.start();
+      };
+      first.start();
     } catch {
       setSpeaking(false);
       void ctx.close();

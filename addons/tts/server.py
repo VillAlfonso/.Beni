@@ -15,7 +15,9 @@ from __future__ import annotations
 import io
 import json
 import re
-from http.server import BaseHTTPRequestHandler, HTTPServer
+import threading
+import uuid
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ADDON = Path(__file__).resolve().parent
@@ -28,6 +30,8 @@ DEFAULT_INSTRUCT = (
 
 _model = None
 _refs = None
+_model_lock = threading.Lock()  # one synthesis at a time
+_rest_jobs: dict[str, dict] = {}  # id -> {"event": Event, "wav": bytes|None}
 
 
 def load_refs() -> dict:
@@ -71,6 +75,24 @@ class Handler(BaseHTTPRequestHandler):
         pass
 
     def do_GET(self):
+        if self.path.startswith("/rest/"):
+            job = _rest_jobs.get(self.path.rsplit("/", 1)[-1])
+            if not job:
+                self.send_response(404)
+                self.end_headers()
+                return
+            job["event"].wait(timeout=180)
+            data = job.pop("wav", None)
+            if not data:
+                self.send_response(504)
+                self.end_headers()
+                return
+            self.send_response(200)
+            self.send_header("content-type", "audio/wav")
+            self.send_header("content-length", str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+            return
         if self.path == "/health":
             body = json.dumps({"ok": True, "loaded": _model is not None}).encode()
             self.send_response(200)
@@ -99,17 +121,41 @@ class Handler(BaseHTTPRequestHandler):
 
             import soundfile as sf
 
-            model = load_model()
-            wavs, sr = model.generate_voice_clone(
-                text=text, language="English",
-                ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"]
-            )
-            buf = io.BytesIO()
-            sf.write(buf, wavs[0], sr, format="WAV")
-            data = buf.getvalue()
+            def synth(t: str) -> bytes:
+                with _model_lock:
+                    model = load_model()
+                    wavs, sr = model.generate_voice_clone(
+                        text=t, language="English",
+                        ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"])
+                buf = io.BytesIO()
+                sf.write(buf, wavs[0], sr, format="WAV")
+                return buf.getvalue()
+
+            # perceived-latency trick: return the FIRST sentence fast, render
+            # the rest in the background; client fetches /rest/<id> during playback
+            sentences = re.split(r"(?<=[.!?…])\s+", text)
+            first = sentences[0]
+            rest = " ".join(sentences[1:]).strip()
+            # first sentence FIRST (it must win the model lock), rest in background
+            data = synth(first)
+            job_id = ""
+            if rest:
+                job_id = uuid.uuid4().hex[:12]
+                job = {"event": threading.Event(), "wav": None}
+                _rest_jobs[job_id] = job
+
+                def bg():
+                    try:
+                        job["wav"] = synth(rest)
+                    finally:
+                        job["event"].set()
+
+                threading.Thread(target=bg, daemon=True).start()
             self.send_response(200)
             self.send_header("content-type", "audio/wav")
             self.send_header("content-length", str(len(data)))
+            if job_id:
+                self.send_header("x-voice-rest", job_id)
             self.end_headers()
             self.wfile.write(data)
         except Exception as e:  # report, don't die
@@ -123,4 +169,4 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print(f"Beni voice server on http://127.0.0.1:{PORT}")
-    HTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
