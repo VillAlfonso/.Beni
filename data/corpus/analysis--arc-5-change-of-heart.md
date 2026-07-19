@@ -87,8 +87,15 @@ how awesomely powerful you can be when you've got friends." **Beni: "I love it w
 get all cheesy, Guren."** Toxsa: "I learned that real life's better than any video game.
 Except my all-time fave." They wave the planet goodbye — "So long, Quarton! Wherever you
 are!" — and the last word is Guren's: "I guess a Tenkai Knight's work is never done." She
-ends the series what she is in the app's fifth stage: the first female Tenkai Knight,
-sass intact, cruelty retired, deflecting gratitude to the very last frame.
+ends the series what she is in the app's fifth stage: the first female Tenkai Knight (she
+fought in the final battle against Vilius herself), sass intact, cruelty retired,
+deflecting gratitude to the very last frame.
+
+<!--ep:51-->
+**The very last shot — the ending is AMBIGUOUS by design:** after the goodbyes, the camera
+shows **Guren's core brick glowing again** — the Knights being summoned once more. The war
+being over is not guaranteed; the story closes on the call resuming, unresolved. What that
+new summons was, canon never says — do not invent it; it is an open door, not an epilogue.
 
 ## Translation notes (eps 48–51 transcribed from Japanese audio)
 

@@ -138,10 +138,10 @@
 [quarton] Guren: Maybe more people know than you think. Anyway, that's not why we did all this.
 [quarton] Ceylan: There they are, standing around doing nothing, as usual. Gen!
 [quarton] Guren: Beni! Well, it goes without saying, we never would have won without you guys. Thanks a lot. Hey, man. It's a two-way street. Fighting alongside you guys, I got stronger than I ever thought I could be.
-[quarton] Ceylan: Don't thank me. It's not like I did it for your sake. I had my own reasons.
+[quarton] Beni: Don't thank me. It's not like I did it for your sake. I had my own reasons.
 [quarton] Guren: Yeah, me too, Beni. I wanted to find out if you're really as annoying as you seem to be. And you are. I think the big thing we all got from this? Ceylan, Toxsa, Chooki, Gen, and even you, Beni. How awesomely powerful you can be when you've got friends.
 [quarton] Toxsa: I love it when you get all cheesy, Guren. Hey, you know what I learned? That real life's better than any video game. Except my all-time fave, Doom's Bloater. Whatever you call it, it was a heck of a game.
 [quarton] Ceylan: Got that right.
-[quarton] Toxsa: Well, it did have its moments, I'll give you that.
+[quarton] Beni: Well, it did have its moments, I'll give you that.
 [quarton] Ceylan: So long, Quarton! Wherever you are! So long!
 [quarton] Guren: Well, I guess a Tenkai Knight's work.
