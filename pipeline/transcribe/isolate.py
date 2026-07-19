@@ -35,9 +35,11 @@ def media_for(ep: int) -> Path | None:
 
 def isolate(ep: int) -> None:
     out = WORK / f"ep{ep:02d}.vocals.wav"
-    if out.exists():
+    out24 = WORK / f"ep{ep:02d}.vocals24.wav"
+    if out.exists() and out24.exists():
         print(f"ep{ep:02d}: vocals exist, skip")
         return
+    out.unlink(missing_ok=True)  # re-separate so both rates come from one pass
     media = media_for(ep)
     if not media:
         return
@@ -48,6 +50,9 @@ def isolate(ep: int) -> None:
     subprocess.run([PY, "-m", "demucs", "--two-stems", "vocals", "-n", "htdemucs", "-o", str(TMP), str(hi)], check=True)
     voc = TMP / "htdemucs" / hi.stem / "vocals.wav"
     subprocess.run([FFMPEG, "-y", "-v", "error", "-i", str(voc), "-ac", "1", "-ar", "16000", str(out)], check=True)
+    # full-band copy for TTS training (Qwen3-TTS requires 24 kHz)
+    out24 = WORK / f"ep{ep:02d}.vocals24.wav"
+    subprocess.run([FFMPEG, "-y", "-v", "error", "-i", str(voc), "-ac", "1", "-ar", "24000", str(out24)], check=True)
     hi.unlink(missing_ok=True)
     shutil.rmtree(TMP / "htdemucs" / hi.stem, ignore_errors=True)
     print(f"ep{ep:02d}: -> {out.name}")

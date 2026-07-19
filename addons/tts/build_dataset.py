@@ -45,11 +45,13 @@ def main() -> None:
             continue
         ep = int(m.group(1))
         data = json.loads(f.read_text(encoding="utf-8"))
+        vocals24 = WORK / f"ep{ep:02d}.vocals24.wav"
         vocals = WORK / f"ep{ep:02d}.vocals.wav"
         raw = WORK / f"ep{ep:02d}.wav"
-        src = vocals if vocals.exists() else raw
+        src = vocals24 if vocals24.exists() else (vocals if vocals.exists() else raw)
         if not src.exists():
             continue
+        clean_src = vocals24.exists() or vocals.exists()
         for ln in data["lines"]:
             if ln["speaker"] != "Beni":
                 continue
@@ -61,14 +63,13 @@ def main() -> None:
                 continue
             name = f"ep{ep:02d}_{ln['t0']:07.1f}.wav"
             dest = wavs / name
-            if not dest.exists():
-                subprocess.run([FFMPEG, "-y", "-v", "error", "-ss", f"{ln['t0']:.2f}", "-i", str(src),
-                                "-t", f"{dur:.2f}", "-ac", "1", "-ar", "16000", str(dest)], check=False)
+            subprocess.run([FFMPEG, "-y", "-v", "error", "-ss", f"{ln['t0']:.2f}", "-i", str(src),
+                            "-t", f"{dur:.2f}", "-ac", "1", "-ar", "24000", str(dest)], check=False)
             if dest.exists():
                 rows.append({"audio": f"wavs/{name}", "text": text, "duration": round(dur, 2),
-                             "clean": vocals.exists(), "episode": data.get("episode", ep)})
+                             "clean": clean_src, "episode": data.get("episode", ep)})
                 stats["total"] += 1
-                stats["vocals"] += int(vocals.exists())
+                stats["vocals"] += int(clean_src)
 
     (DATASET / "metadata.jsonl").write_text(
         "\n".join(json.dumps(r, ensure_ascii=False) for r in rows), encoding="utf-8")
