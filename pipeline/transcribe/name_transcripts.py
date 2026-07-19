@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 import numpy as np
@@ -42,7 +43,18 @@ def voices_path(ep: int) -> Path:
     return HERE / "voices" / ("enrolled_jp.npz" if ep in JP_EPS else "enrolled.npz")
 
 
+SELF_VOCATIVE = re.compile(r"^(hi|hey|hello|oh|wow|yo|well)?[,!\s]*beni\b[,!.?]", re.I)
+
+
 def name_episode(ep: int) -> None:
+    existing = OUT / f"ep{ep:02d}.json"
+    if existing.exists():
+        try:
+            if json.loads(existing.read_text(encoding="utf-8")).get("locked"):
+                print(f"ep{ep:02d}: LOCKED (user-corrected) — skipped")
+                return
+        except json.JSONDecodeError:
+            pass
     aligned = WORK / f"ep{ep:02d}.aligned.json"
     spk_file = WORK / f"ep{ep:02d}.spk_emb.npz"
     voices = voices_path(ep)
@@ -73,6 +85,10 @@ def name_episode(ep: int) -> None:
     data = json.loads(aligned.read_text(encoding="utf-8"))
     for ln in data["lines"]:
         ln["speaker"] = label.get(ln["speaker"], ln["speaker"])
+        # lines OPENING with her name are spoken TO her, not by her (she never
+        # self-addresses except one canon triple-repeat) — demote to Unknown
+        if ln["speaker"] == "Beni" and SELF_VOCATIVE.match(ln["text"]) and "beni, beni" not in ln["text"].lower():
+            ln["speaker"] = "UNKNOWN(vocative)"
     scene_tag.tag(data["lines"])
 
     # filenames keep the FILE number (matches the media); the episode field

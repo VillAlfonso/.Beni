@@ -21,6 +21,15 @@ def main() -> None:
     for f in sorted(OUT.glob("ep*.json")):
         data = json.loads(f.read_text(encoding="utf-8"))
         lines = data["lines"]
+        if data.get("locked"):
+            # user-corrected episode: never overwrite their .txt; count stats only
+            for ln in lines:
+                total += 1
+                spk = ln["speaker"]
+                if not spk.startswith("UNKNOWN") and not spk.startswith("SPEAKER"):
+                    named += 1
+                    per_char[spk] = per_char.get(spk, 0) + 1
+            continue
         txt = []
         for ln in lines:
             spk = ln["speaker"]

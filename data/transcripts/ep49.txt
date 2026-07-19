@@ -57,7 +57,7 @@
 [quarton] Gen: What are you doing here?
 [quarton] Vilius: If you thought you could attack Vilius and get away with it, you're right. Wrong. I meant wrong.
 [quarton] Guren: Gen?
-[quarton] Beni: Hi, Beni. I don't have any idea where Gen is. Yeah, but you live next door to each other. So you think I spy on my neighbors? No, just... Is he in some kind of trouble? I'm
+[quarton] Unknown: Hi, Beni. I don't have any idea where Gen is. Yeah, but you live next door to each other. So you think I spy on my neighbors? No, just... Is he in some kind of trouble? I'm
 [quarton] Guren: not
 [quarton] Ceylan: sure, but I think...
 [quarton] Guren: There
@@ -82,7 +82,7 @@
 [quarton] Vilius: you're both right. But you're wrong, too. What makes you think I'll settle for just one of you? Won't Vilius be happy when he finds out I've eliminated all two of you?
 [quarton] Beni: Bon voyage, Granox. Don't forget to write.
 [quarton] Vilius: Venetta!
-[quarton] Beni: Oh, Beni! You raced out. I guess Gen was in trouble. I didn't even get to tell you I still had the portal device from the last time. Good thing, too.
+[quarton] Unknown: Oh, Beni! You raced out. I guess Gen was in trouble. I didn't even get to tell you I still had the portal device from the last time. Good thing, too.
 [quarton] Ceylan: Where are you going? We're not finished here. I can't believe you went after Vilius on your own without even telling the rest of us. Why would you do it? Why? I thought we were supposed to be friends. Well, maybe that's why.
 [quarton] Gen: Friends try and keep their friends out of danger. You've
 [quarton] Ceylan: covered just about everywhere except the ocean.

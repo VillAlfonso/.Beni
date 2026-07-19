@@ -6,13 +6,11 @@
 [quarton] Toxsa: Mr. White's up to? Well, at least we get out of there without having any tea and old people cookies for once. Yeah,
 [quarton] Ceylan: that's true. Hm-hm-hm. Beni? What are you doing hiding? We can see you. Huh? Don't be ridiculous. Well, anyway, thanks to that Tenkai stone, we were able to unseal the fortress before Vilius had the chance to. In other words, thank you, Beni. Thank Kiiro, not me. Mm, and how about you, Gen? You probably don't want us thanking you for everything you did either. You got that right. That's what friends do for each other, right? I mean, we are friends, aren't we? You
 [quarton] Beni: guys starting your own fan club? You're a member too. We saved you a spot. In your dreams, I'd rather join the basket weaving club.
-[quarton] Ceylan: In
-[quarton] Toxsa: your
-[quarton] Beni: dreams, I'd rather join the basket weaving club. Bye,
-[quarton] Ceylan: Binnie!
+[quarton] Beni: In your dreams, I'd rather join the basket weaving club. Bye,
+[quarton] Ceylan: Bye Beni!
 [quarton] Beni: What are you guys gonna do after you defeat Vilius and save the universe? Huh? What happens to the team? To
-[quarton] Ceylan: be honest, I have no idea. You
-[quarton] Beni: could always collect stamps or coins or something. What's this?
+[quarton] Ceylan: be honest, I have no idea.
+[quarton] Beni: You could always collect stamps or coins or something. What's this?
 [quarton] Ceylan: Isn't it amazing how much Gen's loosened up since he's joined the team? Isn't it amazing how much Gen's
 [quarton] Toxsa: loosened up since he's joined the team? You're right. What happened to your bike? It's sabotage! Someone... It's sabotage! Someone... Uh, Keishin!
 [quarton] Ceylan: Oh no, not again! Oh, we searched everywhere. No sign of the secret chamber Valorn spoke of. Oh,
@@ -46,10 +44,9 @@
 [quarton-battle] Toxsa: planted those flowers in life science. Dude,
 [quarton-battle] Ceylan: it's a flower. He's
 [quarton-battle] Ceylan: got all 8-bit graphics. His worst nightmare. What do we do? Well, first thing, we can't let anyone see him like this. We've gotta hide him.
-[quarton-battle] Beni: Boys?
-[quarton-battle] Ceylan: Miss
-[quarton-battle] Beni: Fenwick!
-[quarton-battle] Ceylan: Hi! Hey, what on earth are you all doing here on the weekend? We love school so much we couldn't wait. Guess you feel the same way, huh? Wait just
+[quarton-battle] Teacher: Boys?
+[quarton-battle] Ceylan: Miss Fenwick!
+[quarton-battle] Teacher: Hi! Hey, what on earth are you all doing here on the weekend? We love school so much we couldn't wait. Guess you feel the same way, huh? Wait just
 [quarton-battle] Toxsa: a minute.
 [quarton-battle] Ceylan: Now
 [quarton-battle] Toxsa: that I think of it, you boys are just the ones I want to see. I was preparing a quiz for Monday, but I can't get the internet connection to work properly. Is that your friend Toxsa? I hear you're a whiz-bang with the old computers. Think you might be able to help me out a little? Uh, is
@@ -60,16 +57,15 @@
 [earth] Ceylan: big
 [earth] Toxsa: quiz. Mm
 [earth] Ceylan: -hmm,
-[earth] Beni: mm
+[earth] Teacher: mm
 [earth] Ceylan: -hmm. Well, goodbye! See you Monday! Huh? I think
-[earth] Beni: Mr. White had this cart and tarp lying around his old shop.
+[earth] Ceylan: Mr. White had this cart and tarp lying around his old shop.
 [earth] Ceylan: Yeah, but if we're not careful, Toxsa's gonna be lying around the street in a million pieces.
-[earth] Beni: You? Old
 [earth] Ceylan: Gustaf had landed on Toxsa? Yeah, he'd have been dog-kibble!
-[earth] Toxsa: Hey! You know where my brother is? He was supposed to clean out the grease trap on the deep fryer today. Oh man, I'm still gonna mangle him! If you guys see him, you tell him I've had it with him trying to get out of doing his job! Hey, grease trap! Yeah, didn't Toxsa say something about having to do that?
+[earth] Wakame: Hey! You know where my brother is? He was supposed to clean out the grease trap on the deep fryer today. Oh man, I'm still gonna mangle him! If you guys see him, you tell him I've had it with him trying to get out of doing his job! Hey, grease trap! Yeah, didn't Toxsa say something about having to do that?
 [earth] Ceylan: Mm-hmm. Yeah,
 [earth] Toxsa: Wackamay, he's probably already at the diner. Yeah! What are you guys hauling around anyway? What's under that thing? What are you up to if you guys are trying to hide my brother under there? Huh?
-[earth] Beni: That's crazy! Oh
+[earth] Chooki: That's crazy! Oh
 [earth] Toxsa: yeah? Why don't I believe you?
 [earth] Vilius: Quickification is spreading on Earth. The balance between the worlds must have been disrupted when the Tenkai Fortress was unsealed. But there also appears to be a huge force broadcasting anti
 [earth] Toxsa: -quickification signals and preventing it from fully taking hold.
@@ -81,24 +77,25 @@
 [quarton] Toxsa: You bring- Can't keep this up
 [quarton] Ceylan: much
 [quarton] Toxsa: longer!
-[quarton] Ceylan: Uh oh! There must be trouble on Quarton! I'd rather face Vilius' goons than her any day! Doesn't make any sense. Why is it happening now? What
+[quarton] Gen: Uh oh! There must be trouble on Quarton! I'd rather face Vilius' goons than her any day! Doesn't make any sense. Why is it happening now? What
 [quarton] Beni: is it?
-[quarton] Ceylan: What's the one change that occurred before the brickification started? It was big. Do you remember what it was?
+[quarton] Gen: What's the one change that occurred before the brickification started? It was big. Do you remember what it was?
 [quarton] Beni: You don't mean-
 [quarton] Ceylan: Mhm. We thought unsealing the Tenkai Fortress would solve all our problems, but looks like it created some new ones. Then
 [quarton] Beni: how do we stop it? Hey,
 [quarton] Ceylan: Guren. What's the matter? We got a problem.
-[quarton] Beni: I see you!
+[quarton] Wakame: I see you!
 [quarton] Ceylan: But that head lies easier to shake than her!
 [quarton] Beni: Oh man, what's Toxsa's sister so upset about? Where is he anyway? Right here.
 [quarton] Beni: Where's Quarton? Let
 [quarton] Ceylan: me guess. You were summoned?
 [quarton] Beni: Right. We'll take care of him. Leave the big bad sister to Gen and me.
 [quarton] Ceylan: Huh?
-[quarton] Beni: Well, go on! Save the
-[quarton] Toxsa: universe! Thanks, Beni! Yeah! Thanks a lot! What do you think you're doing? You two think you can protect Toxsa better than those wimps could?
+[quarton] Beni: Well, go on! Save the universe!
+[quarton] Guren: Thanks, Beni! Yeah! Thanks a lot! 
+[quarton] Wakame: What do you think you're doing? You two think you can protect Toxsa better than those wimps could?
 [quarton] Beni: Gen had something to say to you. Here you go. Come on, say it!
-[quarton] Ceylan: I've always wondered. Oh, boy. Uh, does green hair like running your family? Huh? Uh. We
+[quarton] Gen: I've always wondered. Oh, boy. Uh, does green hair like running your family? Huh? Uh. We
 [quarton] Beag: do that? No! It is the Tenkai Fortress defending itself!
 [quarton] Vilius: Go,
 [quarton] Beag: Tenkai Fortress!
