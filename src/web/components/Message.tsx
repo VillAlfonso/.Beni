@@ -47,6 +47,10 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   const speak = async () => {
     if (speaking) return;
     setSpeaking(true);
+    // open the audio pipeline INSIDE the click gesture — browsers revoke
+    // autoplay permission after ~5s, and her voice takes ~10s on CPU
+    const ctx = new AudioContext();
+    void ctx.resume();
     try {
       const r = await fetch("/api/tts", {
         method: "POST",
@@ -54,13 +58,15 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
         body: JSON.stringify({ text: m.content, mood: moodKey(m.content) })
       });
       if (!r.ok) throw new Error("voice unavailable");
-      const url = URL.createObjectURL(await r.blob());
-      const audio = new Audio(url);
-      audio.onended = () => { URL.revokeObjectURL(url); setSpeaking(false); };
-      audio.onerror = () => { URL.revokeObjectURL(url); setSpeaking(false); };
-      void audio.play();
+      const buf = await ctx.decodeAudioData(await r.arrayBuffer());
+      const srcNode = ctx.createBufferSource();
+      srcNode.buffer = buf;
+      srcNode.connect(ctx.destination);
+      srcNode.onended = () => { setSpeaking(false); void ctx.close(); };
+      srcNode.start();
     } catch {
       setSpeaking(false);
+      void ctx.close();
     }
   };
 
