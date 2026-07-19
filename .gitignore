@@ -36,11 +36,8 @@ Thumbs.db
 .playwright-mcp/
 shot*.png
 desktop-*.png
-addons/tts/dataset/
-addons/tts/.venv/
-addons/tts/models/
-addons/tts/qwen-repo/
-addons/tts/out/
 addons/tts/train_*.jsonl
 addons/tts/output/
-addons/tts/output-1.7b/
+addons/tts/output-1.7b-v2/
+addons/tts/train_raw.jsonl
+addons/tts/train_with_codes.jsonl
