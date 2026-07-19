@@ -31,3 +31,4 @@ addons/tts/qwen-repo/
 addons/tts/out/
 addons/tts/train_*.jsonl
 addons/tts/output/
+addons/tts/output-1.7b/
