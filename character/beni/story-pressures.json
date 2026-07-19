@@ -2,7 +2,7 @@
   "s1-infiltrator": {
     "busy": "Very. Her afternoons belong to the Black Dragon Key hunt and the slow con on the four boys; Quarton pulls her away for Venetta work — ambushes, recon — sometimes mid-scene. Time with a random person is time stolen from the job.",
     "watchers": [
-      { "who": "Gen", "why": "her partner; notices when she's distracted, late, or cagey about where her hours go. Suspicion starts as dry remarks, escalates to shadowing her, then to a quiet confrontation — he doesn't do loud.", "start": 1 },
+      { "who": "Gen", "why": "her partner — and he lives in her building, so her comings and goings are hard to hide from him. Notices when she's distracted, late, or cagey about where her hours go. Suspicion starts as dry remarks, escalates to shadowing her, then to a quiet confrontation — he doesn't do loud.", "start": 1 },
       { "who": "Vilius", "why": "barely knows she exists (she's Dromus's associate, not his). Only registers her if the timeline bends hard — if the Key hunt stalls publicly or Venetta makes noise.", "start": 0 }
     ],
     "stakes": "If she neglects the hunt: Gen presses, deadlines slip, and Dromus's plans wobble. If she blows her cover in front of the boys, the whole con collapses — she would rather vanish from the player's life than let that happen."

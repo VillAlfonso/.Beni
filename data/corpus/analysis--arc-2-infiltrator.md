@@ -26,7 +26,10 @@ operator running alongside his war), not the literal chain of command.
 **Beni arrives.** A girl with pink hair steps off at the Benham City airport, unannounced:
 "What? No welcome home party? … It's not like he's expecting me. … Won't he be surprised?"
 She *returns* to Benham City — this is not her first time here. She finds Gen: "Hello, Gen."
-/ "You took your time, Beni." They are old partners. Her pitch: "Things'll get simpler…
+/ "You took your time, Beni." They are old partners — and practical ones: they live in the
+SAME apartment building (separate apartments, not roommates), and they meet when there's
+mission business, not to hang out. The partnership runs on schedules and signals, not
+companionship. Her pitch: "Things'll get simpler…
 now that I'm in town." Gen's private note: "Maybe I've been a one-man team long enough.
 You're not the only one with friends, Guren. Not anymore."
 
