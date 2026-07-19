@@ -75,7 +75,7 @@ DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
 # wrong. Instead her real laugh is played as-is and the words follow in a
 # register that works — no cloning artifacts on the laugh at all.
 LAUGH_ANCHOR = "laughing"
-LAUGH_SPEECH_MOOD = "happy"
+LAUGH_SPEECH_MOOD = "teasing"  # her normal pitch; happy clones far too high after a laugh
 LAUGH_MAX = 2.2   # seconds of laugh to lead with
 LAUGH_GAP = 0.22  # breath between laughing and talking
 
@@ -105,6 +105,19 @@ RATE: dict[str, float] = {
     "touched": 0.85, "sad": 0.83,
 }
 DEFAULT_RATE = 0.88
+
+# Pitch correction, as a multiplier on fundamental frequency.
+#
+# Her natural speaking pitch is ~275 Hz (measured off the teasing anchor). The
+# happy and excited anchors are high-energy moments at 351 and 415 Hz, and
+# cloning pushes them further still — 432 and 517 Hz measured, which is where
+# the "inhaled helium" came from. These pull the bright registers back toward
+# her own voice while leaving her normal range alone.
+PITCH: dict[str, float] = {
+    "excited": 0.72, "happy": 0.80, "enthusiastic": 0.80,
+    "greeting": 0.85, "surprised": 0.88,
+}
+DEFAULT_PITCH = 1.0
 
 # Registers where a question mark is nearly always rhetorical. Left as "?" the
 # model lifts the final syllable, which turns a sarcastic jab into a genuine
@@ -246,14 +259,22 @@ MOOD_FALLBACK: dict[str, list[str]] = {
 }
 
 
+# Some registers sound more like her through a clip that doesn't share their
+# name. Anger reads as threatening when it's delivered like she's talking down
+# at someone, rather than the flat legacy anger anchor — but it keeps angry's
+# own full-pace tempo, so it lands as a command, not a lecture.
+ANCHOR_FOR = {"angry": "lecturing"}
+
+
 def resolve_ref(mood: str) -> tuple[str, dict]:
     """The clip for a mood, falling back through nearby registers so a deleted
     anchor degrades to something adjacent instead of breaking playback."""
     lib = load_emotions()
-    chain = [mood, *MOOD_FALLBACK.get(mood, []), DEFAULT_MOOD, "neutral", "sass", "default"]
+    chain = [ANCHOR_FOR.get(mood), mood, *MOOD_FALLBACK.get(mood, []),
+             DEFAULT_MOOD, "neutral", "sass", "default"]
     for m in chain:
-        if m in lib:
-            return m, lib[m]
+        if m and m in lib:
+            return mood if m == ANCHOR_FOR.get(mood) else m, lib[m]
     return (next(iter(lib)), next(iter(lib.values()))) if lib else ("", {})
 
 
@@ -379,6 +400,7 @@ class Handler(BaseHTTPRequestHandler):
             raise ValueError("no reference clips installed")
         gap = PACING.get(mood, DEFAULT_GAP)
         rate = RATE.get(mood, DEFAULT_RATE)
+        pitch = PITCH.get(mood, DEFAULT_PITCH)
 
         cache_key = hashlib.sha1(f"{mood}|{spoken}".encode()).hexdigest()[:16]
         CACHE.mkdir(exist_ok=True)
@@ -414,15 +436,14 @@ class Handler(BaseHTTPRequestHandler):
                     last = e
             raise last
 
-        def slow(s):
-            """Pitch-preserving tempo change via ffmpeg atempo.
+        def shape(s):
+            """Pitch and tempo in one ffmpeg pass.
 
-            NOT librosa.effects.time_stretch: that is a phase vocoder, and on
-            speech it smears transients into the metallic, underwater quality
-            that made the first pass unlistenable. atempo is WSOLA-style and
-            keeps consonants intact. Any failure returns the audio untouched —
-            slightly fast beats robotic."""
-            if abs(rate - 1.0) < 0.005:
+            Pitch is shifted by resampling (asetrate) and the resulting speed
+            change is undone with atempo — cheaper and cleaner on speech than a
+            phase-vocoder pitch shift, which is what made things sound robotic
+            before. Any failure returns the audio untouched."""
+            if abs(pitch - 1.0) < 0.005 and abs(rate - 1.0) < 0.005:
                 return s
             try:
                 import subprocess
@@ -430,11 +451,23 @@ class Handler(BaseHTTPRequestHandler):
 
                 import soundfile as sf2
 
+                # asetrate moves pitch AND speed by `pitch`; atempo restores the
+                # speed and then applies the register's own tempo on top
+                tempo = rate / pitch
+                chain = [f"asetrate=24000*{pitch:.4f}", "aresample=24000"]
+                while tempo > 2.0:   # atempo only accepts 0.5-2.0 per stage
+                    chain.append("atempo=2.0")
+                    tempo /= 2.0
+                while tempo < 0.5:
+                    chain.append("atempo=0.5")
+                    tempo /= 0.5
+                chain.append(f"atempo={tempo:.4f}")
+
                 with tempfile.TemporaryDirectory() as td:
                     src, dst = Path(td) / "i.wav", Path(td) / "o.wav"
                     sf2.write(src, np.asarray(s, dtype="float32"), 24000)
                     subprocess.run([FFMPEG, "-y", "-v", "error", "-i", str(src),
-                                    "-filter:a", f"atempo={rate:.3f}", str(dst)],
+                                    "-filter:a", ",".join(chain), str(dst)],
                                    check=True, timeout=60)
                     y, _ = sf2.read(dst)
                     return np.asarray(y, dtype="float32")
@@ -449,7 +482,7 @@ class Handler(BaseHTTPRequestHandler):
                 if not p.strip():
                     continue
                 s, sr = synth_raw(p.strip())
-                s = slow(trim_lead(np.asarray(s, dtype="float32"), sr))
+                s = shape(trim_lead(np.asarray(s, dtype="float32"), sr))
                 chunks.append(s)
                 chunks.append(np.zeros(int(sr * gap), dtype=s.dtype))
             joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
