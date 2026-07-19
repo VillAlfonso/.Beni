@@ -58,11 +58,7 @@ function keep(a: Active): void {
  * Speak `text`. Interrupts anything already playing.
  * `setSpeaking` drives the button state for the calling message.
  */
-export async function speak(
-  text: string,
-  mood: string,
-  setSpeaking: (v: boolean) => void
-): Promise<void> {
+export async function speak(text: string, setSpeaking: (v: boolean) => void): Promise<void> {
   stopVoice();
 
   const ctx = new AudioContext();
@@ -77,7 +73,7 @@ export async function speak(
     const r = await fetch("/api/tts", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ text, mood })
+      body: JSON.stringify({ text })
     });
     if (!r.ok) throw new Error("voice unavailable");
     if (abandoned()) return; // superseded while she was rendering

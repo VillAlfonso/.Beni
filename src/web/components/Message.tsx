@@ -28,15 +28,8 @@ async function fetchSiblings(id: string): Promise<string[]> {
   return data.ids;
 }
 
-/** Mood key for the voice server: each key maps to a user-approved reference
- *  clip of HER (clone mode) — only registers that passed the user's ear exist. */
-function moodKey(text: string): string {
-  const t = text.toLowerCase();
-  if (/\b(yell|shout|snap|slam|furious|angry|glare|hiss)\b/.test(t) || (text.match(/!/g)?.length ?? 0) >= 3) return "angry";
-  if (/\b(whisper|quiet|soft|murmur|small voice|gentle|pink)\b/.test(t)) return "soft";
-  if (/\b(grin|smirk|laugh|giggle|tease)\b/.test(t)) return "sass";
-  return "default";
-}
+// Mood is decided server-side by fixed rules over her own stage directions
+// (the narration around the quoted line), so the whole reply goes over as-is.
 
 export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   const { state, actions } = useStore();
@@ -52,7 +45,7 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
       stopVoice();
       return;
     }
-    void speak(m.content, moodKey(m.content), setSpeaking);
+    void speak(m.content, setSpeaking);
   };
 
   const copy = () => void navigator.clipboard.writeText(m.content).catch(() => {});

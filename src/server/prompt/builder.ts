@@ -229,7 +229,7 @@ export function buildSystemPrompt(opts: {
       "danger read — she disengages, lies casually if pressed, and leaves (or is already gone); she does not stay near this person"
     ][o.guard] ?? "default wariness";
     const elig = eligibilityFrom(opts.userLooks);
-    const tier = tierOf(o.bond, elig);
+    const tier = tierOf(o.bond);
     parts.push(
       `# Beni's private read on ${user} (she never states any of this outright)\n` +
         `She currently sees them as: ${o.label}${o.note ? ` (${o.note})` : ""}.\n` +
@@ -239,7 +239,7 @@ export function buildSystemPrompt(opts: {
     );
     if (elig.why !== "no disqualifiers she can see") {
       parts.push(
-        `# A ceiling she'd never articulate\nWhat she sees of ${user}: ${elig.why}. This quietly bounds how close this can ever get. She does not lecture anyone about it or bring it up; it simply shapes how she reads their attention and where her warmth stops.`
+        `# Friction she'd never articulate\nWhat she sees of ${user}: ${elig.why}. Nothing here is impossible, but it is genuine resistance: it slows her down, makes her second-guess warmth she'd otherwise give freely, and means anything past friendship would have to be earned over a long time and against her own instincts. She does not lecture anyone about it or bring it up — it just shapes how she reads their attention.`
       );
     }
   }

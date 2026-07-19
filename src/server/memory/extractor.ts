@@ -130,7 +130,7 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
       .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Them"}: ${m.content}`)
       .join("\n");
 
-    const tier = tierOf(current.bond, elig);
+    const tier = tierOf(current.bond);
     const raw = await completeChat(
       [
         {

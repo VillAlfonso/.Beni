@@ -26,6 +26,10 @@ addons/tts/output-1.7b/
 addons/tts/dataset/
 addons/tts/cache/
 addons/tts/spoken/
+# emotion anchors are cut from your local episode files by build_emotions.py —
+# the manifest is tracked, the derived audio is not
+addons/tts/voice/emotions/
+addons/tts/out/
 .DS_Store
 Thumbs.db
 

@@ -95,8 +95,7 @@ export async function sealDay(
 
     const settings = getSettings(db);
     const user = settings.userName || "them";
-    const elig = eligibilityFrom(chat.user_looks || settings.userLooks);
-    const tier = tierOf(bond, elig);
+    const tier = tierOf(bond);
     const stage = getStage(chat.stage_id);
     const world = parseWorld(chat.world);
     const pressures = loadStoryPressures()[chat.stage_id];

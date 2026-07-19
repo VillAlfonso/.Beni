@@ -5,21 +5,21 @@
  */
 import { applyDelta, eligibilityFrom, tierOf, FRESH_BOND, type Bond } from "../src/server/prompt/bond.js";
 
-function run(label: string, looks: string, deltaPerExchange: number, exchangesPerDay = 6, maxDays = 400) {
+function run(label: string, looks: string, deltaPerExchange: number, exchangesPerDay = 6, maxDays = 1200) {
   const e = eligibilityFrom(looks);
   let b: Bond = { ...FRESH_BOND };
   const firstReached = new Map<string, number>();
   for (let day = 1; day <= maxDays; day++) {
     for (let i = 0; i < exchangesPerDay; i++) b = applyDelta(b, deltaPerExchange, `d${day}`, e);
-    const t = tierOf(b, e);
+    const t = tierOf(b);
     if (!firstReached.has(t)) firstReached.set(t, day);
   }
   const reached = [...firstReached.entries()].map(([t, d]) => `${t}@day${d}`).join("  ");
   console.log(`\n${label}`);
-  console.log(`  sees: ${e.why}`);
-  console.log(`  ceiling: ${e.ceiling}   rate: ${e.rate.toFixed(2)}`);
+  console.log(`  sees: ${e.why.slice(0, 96)}`);
+  console.log(`  rate ${e.rate.toFixed(2)}  romanceRate ${e.romanceRate.toFixed(2)}`);
   console.log(`  ${reached}`);
-  console.log(`  after ${maxDays} days: bond=${b.bond.toFixed(1)} spark=${b.spark.toFixed(1)} days=${b.days} → ${tierOf(b, e)}`);
+  console.log(`  after ${maxDays} days: bond=${b.bond.toFixed(1)} spark=${b.spark.toFixed(1)} → ${tierOf(b)}`);
 }
 
 // an unrealistically ideal player: every exchange lands as something real
@@ -40,9 +40,9 @@ run("SAINT ADULT (+7)", "tall, striking, an adult guy", 7);
   const e = eligibilityFrom("average-looking, her age guy");
   let b: Bond = { ...FRESH_BOND };
   for (let day = 1; day <= 60; day++) for (let i = 0; i < 6; i++) b = applyDelta(b, 3, `d${day}`, e);
-  const before = { tier: tierOf(b, e), bond: b.bond, spark: b.spark };
+  const before = { tier: tierOf(b), bond: b.bond, spark: b.spark };
   for (let i = 0; i < 3; i++) b = applyDelta(b, -6, "d61", e); // one genuinely bad day
   console.log(`\nONE BAD DAY after 60 good ones`);
   console.log(`  before: ${before.tier} (bond ${before.bond.toFixed(1)}, spark ${before.spark.toFixed(1)})`);
-  console.log(`  after : ${tierOf(b, e)} (bond ${b.bond.toFixed(1)}, spark ${b.spark.toFixed(1)})`);
+  console.log(`  after : ${tierOf(b)} (bond ${b.bond.toFixed(1)}, spark ${b.spark.toFixed(1)})`);
 }

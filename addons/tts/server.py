@@ -1,12 +1,18 @@
 """Beni voice server — standalone, decoupled from the app.
 
-Serves POST /speak {"text": "...", "instruct": "..."} -> audio/wav
-       GET  /health -> {"ok": true, "loaded": bool}
+  POST /speak {"text": "...", "mood": "..."} -> audio/wav (first sentence)
+  GET  /rest/<id>                            -> audio/wav (the remainder)
+  POST /keep  {"voice_id","text"}            -> file a finished line
+  GET  /health
 
-Loads the fine-tuned checkpoint named in config.json (created by training);
-falls back to the newest checkpoint in output/. Model loads lazily on the
-first request. Default port 5002. The main app proxies /api/tts here so the
-phone (through the tunnel) can use her voice too.
+Serves in CLONE mode on the 1.7B Base model against a library of her own
+clips (voice/beni-emotions.json), each one cut from a hand-marked moment in an
+episode with the music stripped out.
+
+Mood is chosen by FIXED RULES, not by asking a model: her replies carry their
+own stage direction ("*a small smirk*", or narration around the quoted line),
+so the descriptor is scored against a keyword table and the winning emotion
+picks the reference clip and the pacing. Deterministic, inspectable, free.
 
 Run: .venv\\Scripts\\python.exe server.py          (or Beni-voice.bat)
 """
@@ -26,35 +32,133 @@ CACHE = ADDON / "cache"    # rendered lines, keyed by mood+text — replay is in
 SPOKEN = ADDON / "spoken"  # lines she actually finished saying, named by her words
 PORT = 5002
 
-DEFAULT_INSTRUCT = (
-    "Speak as a sharp-tongued, playfully sarcastic thirteen-year-old girl — "
-    "quick, teasing, faintly amused, with a confident drawl."
-)
-
 _model = None
-_refs = None
+_emotions = None
 _model_lock = threading.Lock()  # one synthesis at a time
-_rest_jobs: dict[str, dict] = {}  # id -> {"event": Event, "wav": bytes|None}
-_finished: dict[str, tuple] = {}  # voice_id -> (samples, sr) — completed lines, LRU-ish
+_rest_jobs: dict[str, dict] = {}
+_finished: dict[str, tuple] = {}
 
 
-def _finish_voice(voice_id: str, samples, sr: int) -> None:
-    _finished[voice_id] = (samples, sr)
-    while len(_finished) > 8:
-        _finished.pop(next(iter(_finished)))
+# --------------------------------------------------------------------------
+# emotion selection — fixed rules over her own stage directions
+# --------------------------------------------------------------------------
+
+# Each emotion scores on words appearing in the narration/action beats around
+# her line (weighted 3x, since that text literally describes her state) and in
+# the spoken words themselves (weighted 1x). Highest score wins; ties fall back
+# to DEFAULT_MOOD. Order here is only for readability.
+MOOD_RULES: dict[str, list[str]] = {
+    "laughing":     [r"laugh", r"giggl", r"cackl", r"snicker", r"cracks up", r"\bhaha", r"\bhehe"],
+    "happy":        [r"\bhappy", r"\bsmil", r"\bbeams?\b", r"delight", r"pleased", r"cheerful", r"brightens"],
+    "excited":      [r"excit", r"\beager", r"can'?t wait", r"thrill", r"bounc", r"lights? up", r"buzzing"],
+    "enthusiastic": [r"enthusiast", r"\bkeen\b", r"\bhypes?\b", r"animated", r"\bperks? up"],
+    "greeting":     [r"\bwaves?\b", r"waving", r"calls? out", r"shouts? (?:over|across)", r"\bhey!", r"from afar"],
+    "teasing":      [r"teas", r"smirk", r"\bsmug", r"playful", r"needl", r"\bsly\b", r"mischiev", r"\bgrins?\b"],
+    "belittling":   [r"belittl", r"conde?scend", r"scoff", r"sneer", r"dismissiv", r"mock", r"looks? down", r"\bpity"],
+    "judging":      [r"judg", r"apprais", r"sizes? (?:him|her|them|you) up", r"skeptic", r"suspicio", r"narrows? her eyes", r"unimpressed"],
+    "angry":        [r"angr", r"\bfurious", r"snaps?\b", r"snarl", r"glare", r"shouts?\b", r"yell", r"seeth", r"\bsharp(?:ly)?\b"],
+    "surprised":    [r"surpris", r"startl", r"\bblinks?\b", r"taken aback", r"stunned", r"\bgapes?\b", r"eyes widen"],
+    "sad":          [r"\bsad", r"melanchol", r"\bquiet(?:ly)?\b", r"\bsoft(?:ly)?\b", r"wistful", r"trails? off", r"looks? away", r"\bsighs?\b"],
+    "touched":      [r"touched", r"\bmoved\b", r"grateful", r"apprecia", r"\bthank", r"\bgentle", r"softens"],
+    "desperate":    [r"desperat", r"plead", r"\bbegs?\b", r"urgent", r"\bfrantic", r"bargain", r"negotiat"],
+    "explaining":   [r"explain", r"\bpoints? out", r"clarif", r"matter-of-fact", r"\bnotes?\b", r"\binforms?\b"],
+    "asking":       [r"\basks?\b", r"\bwonders?\b", r"\bcurious", r"hesitat", r"\brequests?\b", r"tentativ"],
+    "warm":         [r"\bwarm", r"\bfond", r"affection", r"\bkind(?:ly)?\b", r"leans? in"],
+    "neutral":      [r"\bflat(?:ly)?\b", r"\bevenly\b", r"deadpan", r"shrugs?\b", r"\bcalm"],
+}
+
+DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
+
+# Sentence gap per emotion, in seconds. Her biggest complaint was rushing, so
+# the floor is generous and reflective moods breathe more than excited ones.
+PACING: dict[str, float] = {
+    "excited": 0.16, "enthusiastic": 0.17, "greeting": 0.18, "laughing": 0.20,
+    "happy": 0.22, "angry": 0.20, "surprised": 0.22, "warm": 0.26,
+    "teasing": 0.26, "belittling": 0.28, "judging": 0.30, "explaining": 0.28,
+    "asking": 0.30, "desperate": 0.22, "neutral": 0.28, "touched": 0.34,
+    "sad": 0.40,
+}
+DEFAULT_GAP = 0.26
+
+# Delivery speed per emotion, as a tempo multiplier applied to the rendered
+# audio (pitch-preserving). Gaps only control the space BETWEEN sentences; this
+# is what stops her rushing inside one. Under 1.0 = slower. Excitement is
+# allowed to be quick — that's the point of it — while anything reflective gets
+# room to land.
+RATE: dict[str, float] = {
+    "excited": 1.0, "enthusiastic": 1.0, "greeting": 1.0, "laughing": 0.97,
+    "angry": 0.95, "surprised": 0.95, "happy": 0.94, "desperate": 0.96,
+    "teasing": 0.86, "belittling": 0.88, "warm": 0.88, "neutral": 0.89,
+    "explaining": 0.88, "judging": 0.88, "asking": 0.88,
+    "touched": 0.85, "sad": 0.83,
+}
+DEFAULT_RATE = 0.88
+
+_MOOD_RE = {m: [re.compile(p, re.I) for p in pats] for m, pats in MOOD_RULES.items()}
 
 
-def load_refs() -> dict:
-    global _refs
-    if _refs is None:
-        _refs = json.loads((ADDON / "voice" / "beni-refs.json").read_text(encoding="utf-8"))
-    return _refs
+def split_speech(text: str) -> tuple[str, str]:
+    """Separate what she SAYS from what the prose says ABOUT her.
+
+    Her replies come in two shapes: narration with the dialogue in quotes, or
+    plain speech with *action beats* between asterisks. Either way the prose is
+    not spoken — it is the stage direction that decides how the line sounds.
+    """
+    quoted = re.findall(r'"([^"]{2,})"', text)
+    if quoted:
+        spoken = " ".join(q.strip() for q in quoted)
+        descriptor = re.sub(r'"[^"]{2,}"', " ", text)
+    else:
+        spoken = re.sub(r"\*[^*]*\*", " ", text)
+        descriptor = " ".join(re.findall(r"\*([^*]*)\*", text))
+    tidy = lambda s: re.sub(r"\s+", " ", s).strip()
+    return tidy(spoken)[:900], tidy(descriptor)[:900]
+
+
+def pick_mood(spoken: str, descriptor: str) -> str:
+    """Score the stage direction against the rule table. No model involved."""
+    best, best_score = DEFAULT_MOOD, 0.0
+    for mood, pats in _MOOD_RE.items():
+        score = 0.0
+        for p in pats:
+            if p.search(descriptor):
+                score += 3.0
+            if p.search(spoken):
+                score += 1.0
+        if score > best_score:
+            best, best_score = mood, score
+    if best_score == 0 and spoken.count("!") >= 2:
+        return "excited"
+    return best
+
+
+def load_emotions() -> dict:
+    global _emotions
+    if _emotions is None:
+        p = ADDON / "voice" / "beni-emotions.json"
+        _emotions = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+        # legacy anchors still answer to their old names
+        legacy = ADDON / "voice" / "beni-refs.json"
+        if legacy.exists():
+            for k, v in json.loads(legacy.read_text(encoding="utf-8")).items():
+                _emotions.setdefault(k, v)
+    return _emotions
+
+
+def resolve_ref(mood: str) -> tuple[str, dict]:
+    """The clip for a mood, with graceful fallbacks so a missing anchor (one
+    the user deleted for not sounding like her) never breaks playback."""
+    lib = load_emotions()
+    chain = [mood, DEFAULT_MOOD, "neutral", "sass", "default"]
+    for m in chain:
+        if m in lib:
+            return m, lib[m]
+    return (next(iter(lib)), next(iter(lib.values()))) if lib else ("", {})
 
 
 def load_model():
-    """Serve in CLONE mode on the Base model — the user-approved recipe:
-    timbre cloned from her real clips, mood steered by which approved anchor
-    is used as the reference. Falls back to CPU if the GPU is full (KoboldCpp)."""
+    """Clone mode on the Base model: timbre from her real clips, register
+    chosen by which clip is used as the reference. CPU if the GPU is full."""
     global _model
     if _model is None:
         import torch
@@ -74,27 +178,39 @@ def load_model():
     return _model
 
 
-def clean_text(t: str) -> str:
-    t = re.sub(r"\*[^*]*\*", " ", t)  # strip action beats — speak only her words
-    t = re.sub(r"\s+", " ", t).strip()
-    return t[:900]
+def _finish_voice(voice_id: str, samples, sr: int) -> None:
+    _finished[voice_id] = (samples, sr)
+    while len(_finished) > 8:
+        _finished.pop(next(iter(_finished)))
 
 
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, *a):  # quiet
         pass
 
+    def _json(self, code: int, obj: dict) -> None:
+        body = json.dumps(obj).encode()
+        self.send_response(code)
+        self.send_header("content-type", "application/json")
+        self.send_header("content-length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
     def do_GET(self):
+        if self.path == "/health":
+            self._json(200, {"ok": True, "loaded": _model is not None,
+                             "emotions": sorted(load_emotions().keys())})
+            return
         if self.path.startswith("/rest/"):
-            job = _rest_jobs.get(self.path.rsplit("/", 1)[-1])
+            job = _rest_jobs.pop(self.path.split("/rest/", 1)[1], None)
             if not job:
                 self.send_response(404)
                 self.end_headers()
                 return
-            job["event"].wait(timeout=180)
-            data = job.pop("wav", None)
+            job["event"].wait(timeout=600)
+            data = job.get("wav")
             if not data:
-                self.send_response(504)
+                self.send_response(204)
                 self.end_headers()
                 return
             self.send_response(200)
@@ -103,155 +219,160 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(data)
             return
-        if self.path == "/health":
-            body = json.dumps({"ok": True, "loaded": _model is not None}).encode()
-            self.send_response(200)
-            self.send_header("content-type", "application/json")
-            self.send_header("content-length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-        else:
-            self.send_response(404)
-            self.end_headers()
+        self.send_response(404)
+        self.end_headers()
 
     def do_POST(self):
         if self.path == "/keep":
-            # playback finished uninterrupted -> archive it, named by her words
-            try:
-                import soundfile as sf
-
-                n = int(self.headers.get("content-length", 0))
-                req = json.loads(self.rfile.read(n) or b"{}")
-                vid = str(req.get("voice_id", ""))
-                text = clean_text(str(req.get("text", ""))) or "line"
-                got = _finished.pop(vid, None)
-                if got:
-                    safe = re.sub(r"[^\w \-']", "", text)[:60].strip() or "line"
-                    SPOKEN.mkdir(exist_ok=True)
-                    sf.write(SPOKEN / f"{safe}.wav", got[0], got[1])
-                body = json.dumps({"kept": bool(got)}).encode()
-                self.send_response(200)
-                self.send_header("content-type", "application/json")
-                self.send_header("content-length", str(len(body)))
-                self.end_headers()
-                self.wfile.write(body)
-            except Exception:
-                self.send_response(500)
-                self.end_headers()
+            self._keep()
             return
         if self.path != "/speak":
             self.send_response(404)
             self.end_headers()
             return
         try:
-            n = int(self.headers.get("content-length", 0))
-            req = json.loads(self.rfile.read(n) or b"{}")
-            text = clean_text(str(req.get("text", "")))
-            if not text:
-                raise ValueError("empty text")
-            mood = str(req.get("mood") or "default")
-            refs = load_refs()
-            ref = refs.get(mood, refs["default"])
+            self._speak()
+        except Exception as e:
+            self._json(500, {"error": str(e)[:300]})
 
-            import numpy as np
+    def _keep(self) -> None:
+        """Playback finished uninterrupted → archive it, named by her words."""
+        try:
             import soundfile as sf
 
-            # replay cache: same line + mood -> serve the finished wav instantly
-            cache_key = hashlib.sha1(f"{mood}|{text}".encode("utf-8")).hexdigest()[:16]
-            CACHE.mkdir(exist_ok=True)
-            cached = CACHE / f"{cache_key}.wav"
-            voice_id = uuid.uuid4().hex[:12]
-            if cached.exists():
-                samples, sr = sf.read(cached)
-                _finish_voice(voice_id, samples, sr)
-                data = cached.read_bytes()
-                self.send_response(200)
-                self.send_header("content-type", "audio/wav")
-                self.send_header("content-length", str(len(data)))
-                self.send_header("x-voice-id", voice_id)
-                self.send_header("x-voice-cached", "1")
-                self.end_headers()
-                self.wfile.write(data)
-                return
+            n = int(self.headers.get("content-length", 0))
+            req = json.loads(self.rfile.read(n) or b"{}")
+            got = _finished.pop(str(req.get("voice_id", "")), None)
+            if got:
+                spoken, _ = split_speech(str(req.get("text", "")))
+                safe = re.sub(r"[^\w \-']", "", spoken)[:60].strip() or "line"
+                SPOKEN.mkdir(exist_ok=True)
+                sf.write(SPOKEN / f"{safe}.wav", got[0], got[1])
+            self._json(200, {"kept": bool(got)})
+        except Exception as e:
+            self._json(500, {"error": str(e)[:200]})
 
-            def synth_raw(t: str):
-                """One sentence -> (samples, sr); retry once on a model hiccup
-                so a bad sample never silently swallows part of her line."""
-                last = None
-                for attempt in (0, 1):
-                    try:
-                        with _model_lock:
-                            model = load_model()
-                            wavs, sr = model.generate_voice_clone(
-                                text=t, language="English",
-                                ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"])
-                        return wavs[0], sr
-                    except Exception as e:
-                        last = e
-                raise last
+    def _speak(self) -> None:
+        import numpy as np
+        import soundfile as sf
 
-            def sentences_to_wav(parts):
-                """Synthesize sentence by sentence — short inputs keep natural
-                pacing and can't drop tails — joined with small breath gaps."""
-                chunks, sr = [], 24000
-                for p in parts:
-                    if not p.strip():
-                        continue
-                    samples, sr = synth_raw(p.strip())
-                    chunks.append(np.asarray(samples))
-                    chunks.append(np.zeros(int(sr * 0.18), dtype=np.asarray(samples).dtype))
-                joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
-                buf = io.BytesIO()
-                sf.write(buf, joined, sr, format="WAV")
-                return buf.getvalue(), joined, sr
+        n = int(self.headers.get("content-length", 0))
+        req = json.loads(self.rfile.read(n) or b"{}")
+        raw = str(req.get("text", ""))
+        spoken, descriptor = split_speech(raw)
+        if not spoken:
+            raise ValueError("nothing to say")
 
-            def save_cache(samples, sr):
-                try:
-                    sf.write(cached, samples, sr)
-                except Exception:
-                    pass
+        # an explicit mood wins; otherwise her own stage direction decides
+        mood = str(req.get("mood") or "").strip() or pick_mood(spoken, descriptor)
+        mood, ref = resolve_ref(mood)
+        if not ref:
+            raise ValueError("no reference clips installed")
+        gap = PACING.get(mood, DEFAULT_GAP)
+        rate = RATE.get(mood, DEFAULT_RATE)
 
-            # stream: first sentence now, the rest rendered during playback
-            sentences = [s for s in re.split(r"(?<=[.!?…])\s+", text) if s.strip()]
-            first_wav, first_samples, sr0 = sentences_to_wav(sentences[:1])
-            job_id = ""
-            if len(sentences) > 1:
-                job_id = uuid.uuid4().hex[:12]
-                job = {"event": threading.Event(), "wav": None}
-                _rest_jobs[job_id] = job
+        cache_key = hashlib.sha1(f"{mood}|{spoken}".encode()).hexdigest()[:16]
+        CACHE.mkdir(exist_ok=True)
+        cached = CACHE / f"{cache_key}.wav"
+        voice_id = uuid.uuid4().hex[:12]
 
-                def bg():
-                    try:
-                        wav, samples, sr = sentences_to_wav(sentences[1:])
-                        job["wav"] = wav
-                        full = np.concatenate([first_samples, samples])
-                        _finish_voice(voice_id, full, sr)
-                        save_cache(full, sr)
-                    finally:
-                        job["event"].set()
-
-                threading.Thread(target=bg, daemon=True).start()
-            else:
-                _finish_voice(voice_id, first_samples, sr0)
-                save_cache(first_samples, sr0)
-
+        if cached.exists():
+            samples, sr = sf.read(cached)
+            _finish_voice(voice_id, samples, sr)
+            data = cached.read_bytes()
             self.send_response(200)
             self.send_header("content-type", "audio/wav")
-            self.send_header("content-length", str(len(first_wav)))
+            self.send_header("content-length", str(len(data)))
             self.send_header("x-voice-id", voice_id)
-            if job_id:
-                self.send_header("x-voice-rest", job_id)
+            self.send_header("x-voice-mood", mood)
+            self.send_header("x-voice-cached", "1")
             self.end_headers()
-            self.wfile.write(first_wav)
-        except Exception as e:  # report, don't die
-            body = json.dumps({"error": str(e)[:300]}).encode()
-            self.send_response(500)
-            self.send_header("content-type", "application/json")
-            self.send_header("content-length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
+            self.wfile.write(data)
+            return
+
+        def synth_raw(t: str):
+            """One sentence; retry once so a hiccup never eats part of a line."""
+            last = None
+            for _ in range(2):
+                try:
+                    with _model_lock:
+                        model = load_model()
+                        wavs, sr = model.generate_voice_clone(
+                            text=t, language="English",
+                            ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"])
+                    return wavs[0], sr
+                except Exception as e:
+                    last = e
+            raise last
+
+        def slow(s):
+            """Pitch-preserving tempo change — she keeps her voice, loses the rush."""
+            if abs(rate - 1.0) < 0.005:
+                return s
+            try:
+                import librosa
+
+                return librosa.effects.time_stretch(np.asarray(s, dtype="float32"), rate=rate)
+            except Exception:
+                return s
+
+        def render(parts):
+            """Sentence-by-sentence: short inputs keep her pacing natural and
+            can't drop tails. Gap and tempo both come from the emotion."""
+            chunks, sr = [], 24000
+            for p in parts:
+                if not p.strip():
+                    continue
+                s, sr = synth_raw(p.strip())
+                s = slow(np.asarray(s))
+                chunks.append(s)
+                chunks.append(np.zeros(int(sr * gap), dtype=s.dtype))
+            joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
+            buf = io.BytesIO()
+            sf.write(buf, joined, sr, format="WAV")
+            return buf.getvalue(), joined, sr
+
+        sentences = [s for s in re.split(r"(?<=[.!?…])\s+", spoken) if s.strip()]
+        first_wav, first_samples, sr0 = render(sentences[:1])
+
+        job_id = ""
+        if len(sentences) > 1:
+            job_id = uuid.uuid4().hex[:12]
+            job = {"event": threading.Event(), "wav": None}
+            _rest_jobs[job_id] = job
+
+            def bg():
+                try:
+                    wav, samples, sr = render(sentences[1:])
+                    job["wav"] = wav
+                    full = np.concatenate([first_samples, samples])
+                    _finish_voice(voice_id, full, sr)
+                    try:
+                        sf.write(cached, full, sr)
+                    except Exception:
+                        pass
+                finally:
+                    job["event"].set()
+
+            threading.Thread(target=bg, daemon=True).start()
+        else:
+            _finish_voice(voice_id, first_samples, sr0)
+            try:
+                sf.write(cached, first_samples, sr0)
+            except Exception:
+                pass
+
+        self.send_response(200)
+        self.send_header("content-type", "audio/wav")
+        self.send_header("content-length", str(len(first_wav)))
+        self.send_header("x-voice-id", voice_id)
+        self.send_header("x-voice-mood", mood)
+        if job_id:
+            self.send_header("x-voice-rest", job_id)
+        self.end_headers()
+        self.wfile.write(first_wav)
 
 
 if __name__ == "__main__":
-    print(f"Beni voice server on http://127.0.0.1:{PORT}")
+    print(f"Beni voice on :{PORT}  ({len(load_emotions())} emotion anchors)")
     ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()

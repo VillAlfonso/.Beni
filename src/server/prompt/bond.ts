@@ -52,37 +52,43 @@ export function parseBond(o: Record<string, unknown> | null | undefined): Bond {
 }
 
 export interface Eligibility {
-  ceiling: Tier; // the highest rung this person can ever reach
-  rate: number;  // multiplier on positive movement (the subconscious thumb)
-  why: string;   // internal note — never shown to the player
+  rate: number;        // multiplier on warmth generally (the subconscious thumb)
+  romanceRate: number; // multiplier on romantic charge specifically
+  why: string;         // internal note — never shown to the player
 }
 
 /**
  * Read the player's appearance string (as composed by the new-chat dialog) and
- * decide how far they can go and how fast. Anything she can't see can't gate:
- * an unspecified appearance is treated as a plausible peer.
+ * decide how fast this can move. Nothing here is a wall: anything can happen,
+ * given enough of the right kind of time. But what she sees decides how hard
+ * the story has to work, and some of it has to work very hard indeed — a
+ * thirteen-year-old falling for a grown adult should take a story that
+ * genuinely earns it, not a fortnight of chatting.
+ *
+ * Anything she can't see can't weigh on her: an unspecified appearance is
+ * treated as a plausible peer.
  */
 export function eligibilityFrom(looks: string | null | undefined): Eligibility {
   const t = (looks ?? "").toLowerCase();
   const reasons: string[] = [];
-  let ceiling: Tier = "inlove";
   let rate = 1;
+  let romanceRate = 1;
 
   // --- age: she is thirteen -------------------------------------------------
   if (/\ban adult\b|\byoung adult\b/.test(t)) {
-    ceiling = "friendly";
     rate *= 0.7;
-    reasons.push("a grown adult — friendly at the absolute most, and closeness from an adult reads as wrong to her, not flattering");
+    romanceRate *= 0.06;
+    reasons.push("a grown adult — an adult angling to get close reads as wrong to her long before it reads as flattering, and she is more guarded for it, not less");
   } else if (/\bolder teen\b/.test(t)) {
-    ceiling = "close";
     rate *= 0.85;
-    reasons.push("years older than her — she can like them a lot, but not that way");
+    romanceRate *= 0.3;
+    reasons.push("years older than her — she can like them enormously, but the gap sits there and she feels it");
   }
 
   // --- gender: she isn't into girls -----------------------------------------
   if (/\bgirl\b|\bwoman\b/.test(t)) {
-    if (rank(ceiling) > rank("close")) ceiling = "close";
-    reasons.push("a girl — she can love her as a friend and nothing past it");
+    romanceRate *= 0.12;
+    reasons.push("a girl — as far as Beni knows about herself, that isn't where any of this goes, and friendship is the shape it naturally takes");
   }
 
   // --- looks: the part she'd deny -------------------------------------------
@@ -91,15 +97,19 @@ export function eligibilityFrom(looks: string | null | undefined): Eligibility {
   else if (/\bgood-looking\b/.test(t)) rate *= 1.08;
   else if (/\bstriking\b/.test(t)) rate *= 1.15;
 
-  return { ceiling, rate, why: reasons.join("; ") || "no disqualifiers she can see" };
+  return { rate, romanceRate, why: reasons.join("; ") || "no disqualifiers she can see" };
 }
 
 export function rank(t: Tier): number {
   return TIERS.indexOf(t);
 }
 
-/** Where the hidden numbers currently put her — capped by what she can see. */
-export function tierOf(b: Bond, e: Eligibility): Tier {
+/**
+ * Where the hidden numbers currently put her. No ceilings — the thresholds are
+ * the same for everyone. What differs is how long the romantic charge takes to
+ * accumulate, which is where resistance lives.
+ */
+export function tierOf(b: Bond): Tier {
   let t: Tier = "wary";
   if (b.bond <= -55) t = "hostile";
   else if (b.bond < 12) t = "wary";
@@ -108,11 +118,11 @@ export function tierOf(b: Bond, e: Eligibility): Tier {
   else if (b.bond < 64) t = "friendly";
   else t = "close";
 
-  // the romantic rungs need charge AND time AND eligibility — all three
+  // the romantic rungs need charge AND time — both, for anyone
   if (b.bond >= 78 && b.spark >= 35 && b.days >= 60) t = "drawn";
   if (b.bond >= 92 && b.spark >= 80 && b.days >= 130) t = "inlove";
 
-  return rank(t) > rank(e.ceiling) ? e.ceiling : t;
+  return t;
 }
 
 /** Diminishing returns: the closer she already is, the harder every inch gets. */
@@ -173,11 +183,12 @@ export function applyDelta(prev: Bond, delta: number, dayKey: string, e: Eligibi
       if (firstGainToday) b.days += 1; // one credit per day, however long you talk
 
       // romance only starts charging once she already trusts them a lot, and
-      // only for someone who could ever be that person to her
-      if (rank(e.ceiling) >= rank("drawn") && b.bond >= 70) {
+      // then at whatever pace what she sees of them allows — slow for some,
+      // glacial for others, never zero
+      if (b.bond >= 70) {
         const sparkGain = Math.min(
           Math.max(0, DAY_SPARK_CAP - b.daySpark),
-          quality(d) * e.rate * 0.35 * fatigue
+          quality(d) * e.rate * e.romanceRate * 0.35 * fatigue
         );
         b.spark = Math.min(100, b.spark + sparkGain);
         b.daySpark += sparkGain;
