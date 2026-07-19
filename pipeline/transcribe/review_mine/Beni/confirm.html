@@ -1,0 +1,33 @@
+<!doctype html><meta charset=utf-8><title>Is this Beni?</title>
+<style>body{font-family:system-ui;background:#111;color:#eee;max-width:680px;margin:0 auto;padding:20px}
+.card{background:#1c1c1c;border:1px solid #333;border-radius:10px;padding:12px;margin:10px 0}
+.t{color:#8a8;font-size:12px;margin:6px 0 2px}.q{color:#bbb;font-size:13px;font-style:italic;margin-bottom:6px}
+audio{width:100%;height:34px}label{font-size:13px;cursor:pointer}
+#bar{position:sticky;bottom:0;background:#000;border-top:1px solid #333;padding:12px}
+#cmd{width:100%;font-family:monospace;font-size:12px;background:#111;color:#6f6;border:1px solid #333;padding:8px;box-sizing:border-box}</style>
+<h2>Tick every clip that is definitely Beni — skip anything mixed or unsure</h2>
+
+  <div class=card data-i="0">
+    <audio controls preload=none src="clip00.wav"></audio>
+    <div class=t>ep49 · reply after &quot;Beni&quot; was addressed</div>
+    <div class=q>“Thanks. You don&#x27;t know what this means to us.”</div>
+    <label><input type=checkbox class=yes> yes, that's Beni</label>
+  </div>
+  <div class=card data-i="1">
+    <audio controls preload=none src="clip01.wav"></audio>
+    <div class=t>ep50 · reply after &quot;Beni&quot; was addressed</div>
+    <div class=q>“Gen had something to say to you. Here you go. Come on, say it!”</div>
+    <label><input type=checkbox class=yes> yes, that's Beni</label>
+  </div>
+  <div class=card data-i="2">
+    <audio controls preload=none src="clip02.wav"></audio>
+    <div class=t>ep52 · reply after &quot;Beni&quot; was addressed</div>
+    <div class=q>“Don&#x27;t thank me. It&#x27;s not like I did it for your sake. I had my own reasons.”</div>
+    <label><input type=checkbox class=yes> yes, that's Beni</label>
+  </div>
+<div id=bar><textarea id=cmd readonly></textarea></div>
+<script>
+function r(){const p=[...document.querySelectorAll('.card')].filter(c=>c.querySelector('.yes').checked).map(c=>c.dataset.i);
+document.getElementById('cmd').value=p.length?'pipeline\\transcribe\\.venv\\Scripts\\python.exe pipeline\\transcribe\\enroll_clips.py Beni '+p.join(','):'(tick at least one)';}
+document.querySelectorAll('.yes').forEach(c=>c.addEventListener('change',r));r();
+</script>

@@ -1,0 +1,147 @@
+[quarton] Guren: Guren here. In case you came in late, it's crunch time. The other knights and I are about to take on Vilius in the ultimate showdown with the fate of the two worlds hanging in the balance. We've got a new ally on our side, the legendary Tenkai Wolf. Will that be enough? Amazing! But what are we supposed to do with it?
+[quarton] Vilius: So, that's the legendary beast, is it?
+[quarton] Ceylan: Oh man, what did we unleash? I hope he's housebroken. Nice doggie, nice wolfie. Are we sure he's friendly?
+[quarton] Guren: Let's hope he's not.
+[quarton] Ceylan: Least, not friendly to Vilius. Tenkai
+[quarton] Toxsa: Wolf? Careful, Bravenwolf.
+[quarton] Guren: Climb on? I was hoping you'd say that.
+[quarton] Vilius: Shifted. Power
+[quarton] Ceylan: up is that!
+[quarton] Beag: Should Quarton be in grave danger, the mighty beast will be summoned. And he who writes it will bring victory! So sayeth the legend, or as you call it, the cheat code. Every game has one. This
+[quarton] Vilius: changes nothing! Your Tenkai Wolf is no match for my Tenkai Dragons!
+[quarton] Ceylan: Let's see! Attack! Sink him, boy! Ah! Ah! Ah! Ah! Ah! Tenkai Smackdown!
+[quarton] Ceylan: Got our Dragon Cubes back! That's because the wolf just pwned both Dragons! Yeah, but we still got Vilius! Eh, you can't have everything. At least he's on foot. Almost. Almost there. Had enough, Vilius?
+[quarton] Vilius: Dragons or no Dragons, I'm still more than a match for you! All
+[quarton] Ceylan: of us? I don't think so! Let's go! What? Yeah! All together!
+[quarton] Vilius: Not so fast! Have you forgotten us? The Guardians? You'll have to defeat us first! The Guardians can't save you, Vilius! Come on, kids! To your doom!
+[quarton] Vilius: Guess that anti-brickification device is better protected than we thought. Hey, you in there, Slyger? Still in one piece?
+[quarton] Ceylan: Yes, thanks for asking.
+[quarton] Vilius: So, what now? How do we get back into the tower without that energy barrier kicking us in the exhaust port?
+[quarton] Vilius: Our mystique was letting the Knights distract us from our primary mission.
+[quarton] Vilius: Yeah, I guess we should've ignored them, but they're just so annoying.
+[quarton] Vilius: If Tenkai Energy is transmitted from the top of the tower, then it's likely the device generating the energy is in its substructure.
+[quarton] Vilius: You mean like the basement? Duh. Then we don't need to go through there. Through the barrier? We can go under it! Like this! Everybody into
+[quarton] Vilius: the hole! Woohoo! I knew that holocranium of his was good for something!
+[quarton] Ceylan: Oh, they're tunneling toward the device? If they should reach it, and manage to sabotage it, the entire planet will be doomed!
+[quarton] Vilius: Love it.
+[quarton] Vilius: What do you think? Of course that's it! I say again, duh! This
+[quarton] Ceylan: is like playing an all-star team! Look at the bright side! At least we don't have Granox and Slyger to worry about! Yuck! Time to get down!
+[quarton] Toxsa: Speaking of deleted... Valorn, what is it? Where are Granox and Slyger? Are they still there?
+[quarton] Beag: What do you mean, are they still there?
+[quarton] Toxsa: Earth! For all we know, they're still there trying to knock out the Brickification device! Oh, I see!
+[quarton] Beag: The Knights have done so much to save our world! I must try and do something for theirs!
+[quarton] Vilius: That did it! Hehehe! Nope.
+[quarton] Vilius: Yep.
+[quarton] Vilius: Nope.
+[quarton] Vilius: That Brickification thingy isn't even scratched! Hmm... There must be some kind of force field. We just
+[quarton-battle] Ceylan: need to find the source and destroy it!
+[quarton-battle] Vilius: No... No... Aha!
+[quarton-battle] Beag: There it
+[quarton-battle] Ceylan: is!
+[quarton-battle] Vilius: Hmm? I'll
+[quarton-battle] Beag: blast it! No, you won't! Sorry, Granox! But it's back to Quarton with you! Is that big? Correct! And I brought something with me! A portal device! Say goodbye, Slyger!
+[quarton] Vilius: Didn't the Knights tell you? The device takes a while to recharge after each use. So sorry! Say whaaaat?
+[quarton] Ceylan: And
+[quarton] Vilius: now I think I'll finish the mission! You've
+[quarton] Vilius: grown stronger, Dromus! They all have! This isn't as easy as we'd hoped! What useless allies these Guardians are!
+[quarton] Ceylan: Yep, pretty much! Yeah! The Guardians are on the ropes! Now for the boss fight! It's just you now, Vilius! There's no one to help you! Ha
+[quarton] Vilius: ha ha! You little fool! Don't you think I foresaw this?
+[quarton] Ceylan: You
+[quarton] Vilius: did?
+[quarton] Vilius: There's more than one way the Guardians can be of use to me! What?
+[quarton] Vilius: Vilius! Where are you going? He's draining us of all our Tenkai energy! This is how he repays us for serving him!
+[quarton] Vilius: Vilius! Ultra Guardian Tenkai Megafusion! Engage!
+[quarton] Toxsa: Can I go home now? He's absorbed their entire
+[quarton] Ceylan: forms!
+[quarton] Toxsa: Like
+[quarton] Ceylan: he needed it! Stay focused! This battle isn't over yet! But
+[quarton-battle] Vilius: soon, it will be! With the Guardians' energy, I'm more powerful than ever! I shall grind you all into dust!
+[quarton-battle] Ceylan: Oh yeah? Game on, dude-bunch! Lydendor! Back ahead!
+[quarton-battle] Vilius: Were those meant to damage me? I don't know whether to find that a mutant... or just hopelessly sad! The legendary Tenkai Knights! Well, you're about to become nothing more than a legend! Be gone, traitor!
+[quarton-battle] Ceylan: We can try playing possum! Gotta... distract him! Oh my!
+[quarton-battle] Beag: Did she have a power surge?
+[quarton] Ceylan: Now, Tenkai Wolf! Fire! Oh,
+[quarton] Vilius: yes! I almost forgot it! You!
+[quarton] Ceylan: Bravenwolf! And
+[quarton] Vilius: so it ends at last!
+[quarton] Ceylan: Don't count your chickens, chump! Come on, guys!
+[quarton] Vilius: Run! Stay back! Or I'll crush them into nothing!
+[quarton] Ceylan: Oh no! Pause button! Go for it!
+[quarton] Vilius: Don't worry
+[quarton] Ceylan: about me! I'm fine! Just do it, guys! Hey! No offense, but you don't look fine! Go on! Take him out!
+[quarton] Vilius: Impossible! Even if they were foolish enough to try!
+[quarton-battle] Ceylan: The Tenkai Fortress! Yeah! But what's he doing with it?
+[quarton-battle] Vilius: Now you shall learn the true power of a fortress! As it grants me the means to infuse the ultimate power! Don't give a doubt, knights! You're a part of this, too!
+[quarton-battle] Ceylan: You
+[quarton-battle] Vilius: see, Bravenwolf? All the Tenkai Energy you once used against me is now mine! It is with your help that I will become master of the Tenkai Fortress! To wars! Now to destroy it! Blasting it is too easy! I think I'll do this the old-fashioned way! I've
+[quarton-battle] Vilius: done it!
+[quarton-battle] Ceylan: I've done it! Ha ha ha ha ha! The Untyped Equivocation Shield protecting the Earth has been lifted! Soon, this whole wretched planet will be nothing but useless bricks! Ha ha ha ha ha! When Vilius finds out, I'll be promoted to number one lackey!
+[quarton-battle] Vilius: Don't
+[quarton-battle] Beag: count on it! This isn't over yet! Not by a long shot! Big leap, big hug! What are you doing? Returning to Quarton! And I'm taking you with me, you corrupted, sabotaging villain! Are you
+[quarton-battle] Vilius: mad? I just smashed that cursed device! You can't transport one of us back, let alone both of us! We'll end up dematerializing into nothingness!
+[quarton] Beag: Yes, there's a good chance you're right. So you just have to ask yourself, do I feel lucky?
+[quarton] Vilius: No! No! You're ruining my big moment!
+[quarton] Ceylan: The intruders are finally gone.
+[quarton] Unknown: Okay, good. Then I'm going to try an emergency reboot to stabilize the system. Do
+[quarton] Ceylan: you think it will work? No
+[quarton] Unknown: guarantees. But it's our only option. Okay, here goes. Oh
+[quarton-battle] Ceylan: no! The reboot failed! That means it's over. Farewell,
+[quarton-battle] Unknown: my
+[quarton-battle] Ceylan: friend. I
+[quarton-battle] Unknown: said that was our only option. But they're still the Knights. If they defeat
+[quarton-battle] Ceylan: Vilius, they'll restore the balance. You haven't seen the battle on Quarton. It is all but over. Vilius has become unstoppable. It
+[quarton-battle] Vilius: is pointless. And to prove it, there is something you should see before I destroy you. Look upwards! The brickification of your planet is almost complete. So you see, it's hopeless. There is no escape. It's over!
+[quarton-battle] Ceylan: Bravenwolf! No, you're wrong. Bravenwolf! Bravenwolf! I have all my friends. Bravenwolf! Bravenwolf! With friends, nothing is hopeless. And this is far from over!
+[quarton-battle] Vilius: What? A surge of good Tenkai energy? Impossible!
+[quarton-battle] Ceylan: Now then, what were you about to say, Vilius? Before destroying me? Let these be the last words
+[quarton-battle] Vilius: you hear. I will annihilate you and your friends!
+[quarton-battle] Ceylan: One mind and one team, right guys? Right! Okay, all together! Let's go elemental on them!
+[quarton-battle] Vilius: Bah! Enough of this nonsense! Blast! I get points for hitting him first!
+[quarton-battle] Ceylan: Tributon, Tenkai Titan! He's
+[quarton-battle] Vilius: been reduced to his core brick! It really
+[quarton-battle] Guren: is over. I get it. You'll take it from here, right? I'll stand guard over Vilius and make sure he never comes back. I suppose that's the main reason you were summoned, isn't it? Goodbye,
+[quarton-battle] Guren: Wolf. Take care of Quarton.
+[quarton-battle] Toxsa: Wasn't I amazing, Bravenwolf? Big Wolf, you squirted him in the eye. I distracted him by pretending to faint. You didn't notice? No.
+[quarton] Ceylan: Uh...
+[quarton] Toxsa: Must have
+[quarton] Ceylan: missed it. Wait
+[quarton] Guren: a minute. Hey, look! The brickification effect is reversing! The Earth!
+[quarton] Beag: It's
+[quarton] Ceylan: normal again!
+[quarton] Beag: Well done, Knights! A glorious victory! What a terrific battle it must have been! Too bad
+[quarton] Toxsa: you missed it, Bee. Yeah, where were you?
+[quarton] Beag: Me? Oh, I was off trying to do my own small bit. Don't
+[quarton] Toxsa: matter. It took the whole team to put us in the win column.
+[quarton] Beag: Well, thank you, I think. Anyway, it's a great victory! Long live the Corekai! Long
+[quarton] Guren: live the Tenkai Knights! You know, we couldn't have done it if we hadn't had you on our side all this time, Bee. Put her there. Put what? Where?
+[quarton] Beag: Oh, you mean the classic Earth gesture signifying comradeship? I'd be honored, Bravenwolf.
+[quarton] Guren: Okay, everybody, ready to head home? Yeah!
+[quarton] Ceylan: Let's go!
+[quarton] Ceylan: Bee did what to what, Mr. White? If
+[quarton] Guren: Bee hadn't caused a delay to the start of brickification, the effect could have been permanent.
+[quarton] Ceylan: Of course, your defeat of Vilius helped a little bit, too.
+[quarton] Guren: Well, I'm glad we at least get some of the credit. Yeah, no doubt. Props to us! We knocked it out of the park with the bases loaded. It's more
+[quarton] Ceylan: like we nuked the Troll King in Doom's Waterfly!
+[quarton] Guren: Well, to use Chooki's baseball analogy, I think we should all give ourselves a big GOOOOOOAL!
+[quarton] Ceylan: Don't you? That's soccer, but we get the picture, Mr. White. Good. Always happy to help. Hey,
+[quarton] Guren: Dad. I know I'm late for dinner and I haven't done my homework or my chores, but I've got a good reason.
+[earth] Unknown: I know you do, Guren. Or... Bravenwolf.
+[quarton] Guren: What?
+[quarton] Beag: WHAT?! Without your master, you are a pain. I
+[quarton] Vilius: hate to
+[quarton] Beag: admit it,
+[quarton] Vilius: but...
+[quarton] Beag: Yeah, he's got a point. He's running away now. Again. Quarton for the Corekai! Balance
+[quarton] Vilius: has been restored to the two worlds. Alas, with little help from us.
+[quarton] Vilius: True. For too long we were part of the imbalance. It must never happen again. It won't. Now that Vilius is gone forever. Forever is a long time. As guardians, we must remain vigilant.
+[quarton] Toxsa: You know what's even weirder than us saving the whole planet? It's that nobody will ever know we saved the whole planet. Like a little credit. Is that so wrong?
+[quarton] Guren: Maybe more people know than you think. Anyway, that's not why we did all this.
+[quarton] Ceylan: There they are, standing around doing nothing, as usual. Gen!
+[quarton] Guren: Beni! Well, it goes without saying, we never would have won without you guys. Thanks a lot. Hey, man. It's a two-way street. Fighting alongside you guys, I got stronger than I ever thought I could be.
+[quarton] Ceylan: Don't thank me. It's not like I did it for your sake. I had my own reasons.
+[quarton] Guren: Yeah, me too, Beni. I wanted to find out if you're really as annoying as you seem to be. And you are. I think the big thing we all got from this? Ceylan, Toxsa, Chooki, Gen, and even you, Beni. How awesomely powerful you can be when you've got friends.
+[quarton] Toxsa: I love it when you get all cheesy, Guren. Hey, you know what I learned? That real life's better than any video game. Except my all-time fave, Doom's Bloater. Whatever you call it, it was a heck of a game.
+[quarton] Ceylan: Got that right.
+[quarton] Toxsa: Well, it did have its moments, I'll give you that.
+[quarton] Ceylan: So long, Quarton! Wherever you are! So long!
+[quarton] Guren: Well, I guess a Tenkai Knight's work.

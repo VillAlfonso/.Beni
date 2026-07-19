@@ -1,0 +1,2 @@
+file 'clip08.wav'
+file 'clip12.wav'

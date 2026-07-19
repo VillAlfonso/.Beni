@@ -7,9 +7,9 @@
 [quarton-battle] Unknown: Normally, the council would vote on how we should respond to this insolence, but we can't vote, not with our viewers here.
 [quarton-battle] 4_Guardians: Yes, that is another troubling matter, but I don't think we need to vote, do we? It's clear what our response must be. What
 [quarton-battle] Ceylan: happened in the last battle? As soon as I can get this gizmo to work. Oh, there we go. See, the green one's us. By advancing on the enemy like this. Chooki, why don't you explain that plan we came up with?
-[quarton-battle] Slyger: Okay, it's kinda like faking the Blitz in order to make the other team call an audible up at the line. Great, now explain the explanation. Chooki, you know Toxsa doesn't speak sports that well. Dude, I don't speak sports all the time. Don't exaggerate. It's more like rope-a-doping your opponent till you get an opening for a right hook. You just can't help yourself, can you? In other words, make them think you're doing one thing when you're really doing something else. Exactly! Last time we tricked the Corrupted
+[quarton-battle] Chooki: Okay, it's kinda like faking the Blitz in order to make the other team call an audible up at the line. Great, now explain the explanation. Chooki, you know Toxsa doesn't speak sports that well. Dude, I don't speak sports all the time. Don't exaggerate. It's more like rope-a-doping your opponent till you get an opening for a right hook. You just can't help yourself, can you? In other words, make them think you're doing one thing when you're really doing something else. Exactly! Last time we tricked the Corrupted
 [quarton-battle] Ceylan: into leading us straight to their main base. Right. I was just about to get to that. Go ahead. That's where they keep the reassembly device that allows them to repair themselves. All we have to do is locate that thing and destroy it. If we can do
-[quarton-battle] Slyger: that... It's game over. And if that's where they're holding the dragon and we can get it back, then it's game, set, and match, dude. All your base are belong to us! I guess. What's that, Geek's beak? Sometimes I need a translator for you, Toxsa. So, in something like English,
+[quarton-battle] Chooki: that... It's game over. And if that's where they're holding the dragon and we can get it back, then it's game, set, and match, dude. All your base are belong to us! I guess. What's that, Geek's beak? Sometimes I need a translator for you, Toxsa. So, in something like English,
 [quarton-battle] Ceylan: we could be close to wrapping all this up? Yep. Beak's holding down the fort till we get there. So how about it? You ready? Wanna go kick some butt? Yes! This
 [quarton-battle] Slyger: is gonna be awesome!
 [quarton] Mr._White: Such confidence is infectious. If I were a few years younger... You know
@@ -32,18 +32,18 @@
 [quarton-battle] Ceylan: Bring it on, buckethead!
 [quarton] Slyger: So
 [quarton] Slyger: much for gratitude! Dromus! Come back here!
-[quarton] Slyger: Ravenwolf! There's a battle going on, remember? Right. How do we stand? Beads troops have pushed the bad guys back into their own end zone. But it's a heavily
+[quarton] Chooki: Ravenwolf! There's a battle going on, remember? Right. How do we stand? Beads troops have pushed the bad guys back into their own end zone. But it's a heavily
 [quarton-battle] Ceylan: fortified end zone. I need to stop saying end zone. For that, we're gonna need a strategy. And a full tank of Tenkai Energy. Okay. Let's head back.
 [quarton-battle] Mr._White: What a surprising twist. And quite encouraging. You've got the enemy fighting amongst themselves.
 [quarton-battle] Toxsa: It's like scoring a Seeds of Discord spell!
 [quarton-battle] Mr._White: I'm sure I'd agree, if I knew what that was.
 [quarton-battle] Ceylan: Maybe we can take advantage of this. You know, that whole my enemy's enemy is my friend thing. Hey, come on. She may be pretty and pink, but you don't really trust her, do ya? I know she's just another bad bot, but... Dromus was right. It's none of our business. Next thing you're gonna ask her is to join the team! Well, as a matter of fact, you've seen her in action. We could do worse. Don't! Come on! You can't be serious! You are.
 [quarton] Mr._White: Stranger things have happened in the universe, but the important thing now is preparing for the battle ahead.
-[quarton] Slyger: Agreed. Bring
+[quarton] Chooki: Agreed. Bring
 [quarton] Toxsa: out
-[quarton] Slyger: the snacks, Mr. White. I've got a better idea, Toxsa. I vote we go to your diner and talk strategy while we carb up. Second it. I third it. Rhyme parfait, here
+[quarton] Chooki: the snacks, Mr. White. I've got a better idea, Toxsa. I vote we go to your diner and talk strategy while we carb up. Second it. I third it. Rhyme parfait, here
 [quarton] Ceylan: I come.
-[earth] Slyger: You
+[earth] Chooki: You
 [earth] Ceylan: gotta try our new
 [earth] Toxsa: hickory jalapeno peanut butter burger. Let me
 [earth] Ceylan: guess, your invention? Your name should be Toxic. That's what Wakame calls me.
@@ -60,10 +60,10 @@
 [quarton] Slyger: of course not. I didn't mean to imply that...
 [quarton] Vilius: Vilius! Tenkai Titan Mode! Engage! It
 [quarton] Vilius: is a new age for a Quarton now! She's
-[quarton] Slyger: got a Core Brick, and she's not one of us. It's gotta mean she's playing for the other side. Come to
+[quarton] Chooki: got a Core Brick, and she's not one of us. It's gotta mean she's playing for the other side. Come to
 [quarton] Ceylan: think of it, that would explain a lie. I wondered why she seemed to know so much about us, and Quarton, and everything. If she was our enemy, I don't think she is anymore. All
 [quarton] Beni: right! Yeah, I've been to find something in my... Just this.
-[quarton] Slyger: Is this what you're looking for? A Core Brick. Which means you're the same as us, right? Only not. You're playing for Team Vilius, aren't you? You're one of those guys trying to beat us.
+[quarton] Chooki: Is this what you're looking for? A Core Brick. Which means you're the same as us, right? Only not. You're playing for Team Vilius, aren't you? You're one of those guys trying to beat us.
 [quarton] Beni: I was. I'm Venetta.
 [quarton] Ceylan: You're Venetta?
 [quarton] Beni: You
@@ -72,13 +72,13 @@
 [quarton] Toxsa: robot, and... Seriously, all the pink video game characters? How'd I miss that? So what do you want us to call you? Huh?
 [quarton] Beni: Oh, that's easy. The name you know me by, Guren.
 [quarton] Ceylan: You got
-[quarton] Slyger: it,
+[quarton] Chooki: it,
 [quarton-battle] Ceylan: Beni.
-[quarton-battle] Slyger: Okay. So anyway, what's your story, Beni? How'd you happen to wind up on our doorstep? They bailed on Dromus, and didn't know where else to go. No offense, but I'm not sure I'm totally sold on this fight you had with Dromus. Whoa, Chook. Give her a break. It's okay. I don't
+[quarton-battle] Chooki: Okay. So anyway, what's your story, Beni? How'd you happen to wind up on our doorstep? They bailed on Dromus, and didn't know where else to go. No offense, but I'm not sure I'm totally sold on this fight you had with Dromus. Whoa, Chook. Give her a break. It's okay. I don't
 [quarton-battle] Beni: blame him for being suspicious. But maybe he'll change your mind when I tell you that I betrayed Dromus, because I found out what he's really planning.
 [quarton-battle] Toxsa: What's that?
 [quarton-battle] Beni: You've got to understand. When I first met him in the Otherworld, I was just learning about Quarton. It was all new to me, and terrifying. I don't know how long I would have survived on my own. The fact is, Dromus saved my life. He was strong. He made me feel safe. He taught me things. The Otherworld made sense when I was with him. So I stayed with him. And trusted him. And all the while, he was luring me into his web of lies. And so, that's why you fought against us. He told me you were a threat to Quarton. It took me a while to realize that that wasn't true. What made you change your mind? When I found out why Dromus wants the Dragon Key. He wants to make the Dragon his own, and use its powers to destroy both Quarton and the Earth. That's why I came to you. You're the only ones who can help me stop it before it's too late.
-[quarton-battle] Slyger: Wait, wait, wait. Dromus actually told you he's planning to destroy the Earth? You give a reason? I know it sounds crazy, but
+[quarton-battle] Chooki: Wait, wait, wait. Dromus actually told you he's planning to destroy the Earth? You give a reason? I know it sounds crazy, but
 [quarton-battle] Beni: he wants to be master of the devastation that remains. You're right. That
 [quarton-battle] Toxsa: does sound crazy.
 [quarton-battle] Beni: You have no idea how much he despises both worlds, and everything on them. Where does
@@ -87,22 +87,22 @@
 [quarton-battle] Beni: don't know what happened exactly. But sometime in his past, he was betrayed by someone he trusted. He sees the Tenkai Dragon as his way of getting revenge. He wants to destroy and start again. Wipe the slate clean. That's what he says. I'll wipe his slate!
 [quarton-battle] Ceylan: Hang on. Why should we take Empress Bubblegum's word for all this? Fine.
 [quarton-battle] Beni: Don't believe me. Sit by and watch while two worlds are destroyed. I'm just saying. Look, I can't erase the past. I can only try to make amends by telling you what I know. What you choose to do with the information is up to you. There's
-[quarton-battle] Slyger: one thing I don't get. Really? Only one? I mean, how can Dromus want to destroy the Earth? No one up there on Quarton has any idea that Earth exists. Dromus knows.
+[quarton-battle] Chooki: one thing I don't get. Really? Only one? I mean, how can Dromus want to destroy the Earth? No one up there on Quarton has any idea that Earth exists. Dromus knows.
 [quarton-battle] Beni: And it won't be long before Vilius knows too. If you think you're safe because you're half a universe away, you're wrong.
-[quarton-battle] Slyger: You sit tight. The four of us need to talk alone.
+[quarton-battle] Chooki: You sit tight. The four of us need to talk alone.
 [quarton] Toxsa: Do you
 [quarton] Ceylan: believe her? She seems sincere. But on the other hand, she might just be sincerely trying to lead us into a trap. She better not. She's not. You could be right.
-[quarton] Slyger: At any rate, maybe we should play along with her. The key. We need to find that Black Dragon key before Dromus does.
+[quarton] Chooki: At any rate, maybe we should play along with her. The key. We need to find that Black Dragon key before Dromus does.
 [quarton] Ceylan: Okay, but if we end up getting vaporized, don't come whining to me. So you're on board, Chooki? Yeah.
-[quarton] Slyger: Just keep an eye open for the play fake. Okay,
+[quarton] Chooki: Just keep an eye open for the play fake. Okay,
 [quarton] Ceylan: then it's decided. We help Beni. Okay.
 [quarton] Mr._White: A decision I profoundly hope we don't all live to regret.
 [quarton] Beni: What's
 [quarton] Ceylan: the verdict? Okay, you've got our help. Thank you. Thank you, Fioran. So, how are we supposed to find this Dragon key? Yeah, you don't even know where to
-[quarton] Slyger: look.
+[quarton] Chooki: look.
 [quarton] Ceylan: Not where, but
 [quarton] Beni: how you look. Okay, you all downloaded the app I sent you, right? What is it? I called it the Enhanced Black Dragon Key Global Positioning System. You need to work on the name. And here's the part where you all come in. We spread out across town. Then when you pick up the key's energy reading, we measure its distance from each one of you. Oh yeah, like GPS. We locate it by triangulation.
-[quarton] Slyger: Yeah.
+[quarton] Chooki: Yeah.
 [quarton] Beni: I'll assign each of you a position. East, west, north, and south of town. I get to be the one in charge of the operation. Cause after all, it was my idea. Later. There
 [quarton] Ceylan: they go. We're off and running, I guess. Why
 [quarton] Beni: are you staring?
@@ -114,11 +114,11 @@
 [quarton] Beni: Oh.
 [quarton] Ceylan: Now who's staring? I
 [quarton] Beni: won't let you down, Guren. And when we're done saving the planet, I'll even let you take me out to dinner.
-[quarton] Slyger: Okay, I'm in position. Ready to go.
+[quarton] Chooki: Okay, I'm in position. Ready to go.
 [quarton] Beni: What about you, Toxsa? You ready? Come in.
 [quarton] Toxsa: I'm ready, and I found a strange cat.
 [quarton] Beni: Forget the cat. Everyone, fire up your software.
-[quarton] Slyger: It's hard to follow a game plan when you don't even know what the game is. What are we looking for, anyway? Hold
+[quarton] Chooki: It's hard to follow a game plan when you don't even know what the game is. What are we looking for, anyway? Hold
 [quarton] Beni: your horses. There, you see? I programmed this app to pick up the Tenkai Energy from your Core Bricks. When that energy achieves a certain level, the Dragon Key should respond. And when it does, we'll be able to triangulate on its position. Now is everybody ready? Ceylan? Still
 [quarton] Toxsa: ready. No
 [quarton] Beni: need to get snippy. Chooki? Ready. Toxsa, how about you? The

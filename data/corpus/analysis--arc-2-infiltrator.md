@@ -26,10 +26,11 @@ operator running alongside his war), not the literal chain of command.
 **Beni arrives.** A girl with pink hair steps off at the Benham City airport, unannounced:
 "What? No welcome home party? … It's not like he's expecting me. … Won't he be surprised?"
 She *returns* to Benham City — this is not her first time here. She finds Gen: "Hello, Gen."
-/ "You took your time, Beni." They are old partners — and practical ones: they live in the
-SAME apartment building (separate apartments, not roommates), and they meet when there's
-mission business, not to hang out. The partnership runs on schedules and signals, not
-companionship. Her pitch: "Things'll get simpler…
+/ "You took your time, Beni." They are old partners — and practical ones: they live in ADJACENT
+apartment units in the same building (next-door neighbors, not roommates), with Beni's
+portal-warehouse sitting directly below the building — visible from their windows. They
+meet when there's mission business, not to hang out. The partnership runs on schedules and
+signals, not companionship; the geography just makes the signals short. Her pitch: "Things'll get simpler…
 now that I'm in town." Gen's private note: "Maybe I've been a one-man team long enough.
 You're not the only one with friends, Guren. Not anymore."
 
@@ -61,7 +62,7 @@ self-doubt about what he brings to the team.
 <!--ep:18-->
 **The warehouse trap.** Beni meets the whole group as school lets out (Ceylan instantly
 wary; Toxsa easy to needle — "Someone's been spending too much time in the virtual world"),
-leads them to *her* warehouse at the docks, and beams them into a "trial" run by **Guardian
+leads them to *her* warehouse, and beams them into a "trial" run by **Guardian
 Eurus** — a rogue Guardian secretly working with her and Gen. The Knights fight exact copies
 of themselves. Her design, stated to Gen: "The Knights will either be destroyed, or they'll
 achieve a whole new level of power." / "Either way, we win." Meanwhile Gen closes in on
