@@ -20,39 +20,11 @@
     "source": "ep15 7:47-7:52",
     "voice_match": null
   },
-  "explaining": {
-    "audio": "voice/emotions/explaining.wav",
-    "text": "Why not? I mean, it would probably cost more than their",
-    "descriptor": "explaining something",
-    "source": "ep15 8:32-8:35",
-    "voice_match": null
-  },
-  "asking": {
-    "audio": "voice/emotions/asking.wav",
-    "text": "Yeah. Can I... feel...",
-    "descriptor": "requesting something personal",
-    "source": "ep15 8:38-8:41",
-    "voice_match": null
-  },
   "teasing": {
     "audio": "voice/emotions/teasing.wav",
     "text": "Are you trying to make a new friend? It couldn't be you're scared of him, because there's no surprises with this boy. I could take him out without even trying.",
     "descriptor": "teasing",
     "source": "ep15 11:05-11:14",
-    "voice_match": null
-  },
-  "greeting": {
-    "audio": "voice/emotions/greeting.wav",
-    "text": "You're in! I'm late, I know! Sorry I kept-",
-    "descriptor": "greeting someone from afar, enthusiastically",
-    "source": "ep15 11:33-11:38",
-    "voice_match": null
-  },
-  "enthusiastic": {
-    "audio": "voice/emotions/enthusiastic.wav",
-    "text": "What do you want to do? We could go shopping for hats or whatever you",
-    "descriptor": "enthusiastic and happy",
-    "source": "ep15 11:41-11:46",
     "voice_match": null
   },
   "neutral": {
@@ -62,39 +34,11 @@
     "source": "ep15 21:03-21:09",
     "voice_match": null
   },
-  "neutral2": {
-    "audio": "voice/emotions/neutral2.wav",
-    "text": "just double-checking so it must be",
-    "descriptor": "neutral",
-    "source": "ep18 0:45-0:48",
-    "voice_match": null
-  },
   "neutral3": {
     "audio": "voice/emotions/neutral3.wav",
     "text": "The nights on the white cage is sitting there at that museum doesn't seem fair that we have to go searching all over the place",
     "descriptor": "neutral",
     "source": "ep18 0:55-1:02",
-    "voice_match": null
-  },
-  "belittling": {
-    "audio": "voice/emotions/belittling.wav",
-    "text": "Someone's been spending too much time in the virtual world. Real life's more complicated than scoring bonus points and-",
-    "descriptor": "belittling someone",
-    "source": "ep18 5:58-6:05",
-    "voice_match": null
-  },
-  "belittling2": {
-    "audio": "voice/emotions/belittling2.wav",
-    "text": "sports and video games such typical boys but then I'm forgetting maybe not so typical after all most",
-    "descriptor": "belittling someone",
-    "source": "ep18 6:16-6:27",
-    "voice_match": null
-  },
-  "surprised": {
-    "audio": "voice/emotions/surprised.wav",
-    "text": "How did they do that? They look so hopeless. I never thought they would win.",
-    "descriptor": "surprised",
-    "source": "ep18 19:21-19:26",
     "voice_match": null
   },
   "sad": {
@@ -116,20 +60,6 @@
     "text": "Wait, I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over what-",
     "descriptor": "desperately negotiating",
     "source": "ep41 20:52-20:58",
-    "voice_match": null
-  },
-  "angry": {
-    "audio": "voice/emotions/angry.wav",
-    "text": "How dumb can you get? You're gonna let yourselves get clobbered just to entertain the-",
-    "descriptor": "lecturing people angrily",
-    "source": "ep43 1:24-1:28",
-    "voice_match": null
-  },
-  "judging": {
-    "audio": "voice/emotions/judging.wav",
-    "text": "I don't trust that mechanical monkey. It's weird the way he keeps hanging around us. He's...",
-    "descriptor": "judging someone",
-    "source": "ep43 11:30-11:36",
     "voice_match": null
   },
   "touched": {

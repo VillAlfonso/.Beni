@@ -31,6 +31,7 @@ ADDON = Path(__file__).resolve().parent
 CACHE = ADDON / "cache"    # rendered lines, keyed by mood+text — replay is instant
 SPOKEN = ADDON / "spoken"  # lines she actually finished saying, named by her words
 PORT = 5002
+FFMPEG = "C:/ffmpeg/ffmpeg"
 
 _model = None
 _emotions = None
@@ -68,6 +69,15 @@ MOOD_RULES: dict[str, list[str]] = {
 }
 
 DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
+
+# Her laugh is a SOUND, not a way of speaking. The laughing anchor is pure
+# laughter with no words in it, so cloning sentences through it always came out
+# wrong. Instead her real laugh is played as-is and the words follow in a
+# register that works — no cloning artifacts on the laugh at all.
+LAUGH_ANCHOR = "laughing"
+LAUGH_SPEECH_MOOD = "happy"
+LAUGH_MAX = 2.2   # seconds of laugh to lead with
+LAUGH_GAP = 0.22  # breath between laughing and talking
 
 # Sentence gap per emotion, in seconds. Her biggest complaint was rushing, so
 # the floor is generous and reflective moods breathe more than excited ones.
@@ -145,11 +155,34 @@ def load_emotions() -> dict:
     return _emotions
 
 
+# An anchor only earns its place if it actually sounds like her, so several got
+# cut. What's left has to cover for them: each emotion names the nearest
+# surviving register rather than letting everything collapse to the default.
+MOOD_FALLBACK: dict[str, list[str]] = {
+    "enthusiastic": ["excited", "happy"],
+    "greeting":     ["excited", "happy"],
+    "surprised":    ["excited", "happy"],
+    "belittling":   ["teasing", "neutral"],
+    "judging":      ["teasing", "neutral"],
+    "angry":        ["desperate", "excited"],
+    "explaining":   ["neutral", "teasing"],
+    "asking":       ["neutral", "warm"],
+    "laughing":     ["happy", "teasing"],
+    "touched":      ["warm", "sad"],
+    "warm":         ["happy", "neutral"],
+    "desperate":    ["excited", "teasing"],
+    "sad":          ["touched", "neutral"],
+    "excited":      ["happy", "teasing"],
+    "happy":        ["warm", "teasing"],
+    "neutral":      ["neutral3", "teasing"],
+}
+
+
 def resolve_ref(mood: str) -> tuple[str, dict]:
-    """The clip for a mood, with graceful fallbacks so a missing anchor (one
-    the user deleted for not sounding like her) never breaks playback."""
+    """The clip for a mood, falling back through nearby registers so a deleted
+    anchor degrades to something adjacent instead of breaking playback."""
     lib = load_emotions()
-    chain = [mood, DEFAULT_MOOD, "neutral", "sass", "default"]
+    chain = [mood, *MOOD_FALLBACK.get(mood, []), DEFAULT_MOOD, "neutral", "sass", "default"]
     for m in chain:
         if m in lib:
             return m, lib[m]
@@ -265,7 +298,15 @@ class Handler(BaseHTTPRequestHandler):
 
         # an explicit mood wins; otherwise her own stage direction decides
         mood = str(req.get("mood") or "").strip() or pick_mood(spoken, descriptor)
+
+        # laughter leads with the real clip, then she talks normally
+        detected = mood
+        laughs = mood == LAUGH_ANCHOR and LAUGH_ANCHOR in load_emotions()
+        if laughs:
+            mood = LAUGH_SPEECH_MOOD
+
         mood, ref = resolve_ref(mood)
+        reported = detected if laughs else mood
         if not ref:
             raise ValueError("no reference clips installed")
         gap = PACING.get(mood, DEFAULT_GAP)
@@ -284,7 +325,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("content-type", "audio/wav")
             self.send_header("content-length", str(len(data)))
             self.send_header("x-voice-id", voice_id)
-            self.send_header("x-voice-mood", mood)
+            self.send_header("x-voice-mood", reported)
             self.send_header("x-voice-cached", "1")
             self.end_headers()
             self.wfile.write(data)
@@ -306,13 +347,29 @@ class Handler(BaseHTTPRequestHandler):
             raise last
 
         def slow(s):
-            """Pitch-preserving tempo change — she keeps her voice, loses the rush."""
+            """Pitch-preserving tempo change via ffmpeg atempo.
+
+            NOT librosa.effects.time_stretch: that is a phase vocoder, and on
+            speech it smears transients into the metallic, underwater quality
+            that made the first pass unlistenable. atempo is WSOLA-style and
+            keeps consonants intact. Any failure returns the audio untouched —
+            slightly fast beats robotic."""
             if abs(rate - 1.0) < 0.005:
                 return s
             try:
-                import librosa
+                import subprocess
+                import tempfile
 
-                return librosa.effects.time_stretch(np.asarray(s, dtype="float32"), rate=rate)
+                import soundfile as sf2
+
+                with tempfile.TemporaryDirectory() as td:
+                    src, dst = Path(td) / "i.wav", Path(td) / "o.wav"
+                    sf2.write(src, np.asarray(s, dtype="float32"), 24000)
+                    subprocess.run([FFMPEG, "-y", "-v", "error", "-i", str(src),
+                                    "-filter:a", f"atempo={rate:.3f}", str(dst)],
+                                   check=True, timeout=60)
+                    y, _ = sf2.read(dst)
+                    return np.asarray(y, dtype="float32")
             except Exception:
                 return s
 
@@ -332,8 +389,26 @@ class Handler(BaseHTTPRequestHandler):
             sf.write(buf, joined, sr, format="WAV")
             return buf.getvalue(), joined, sr
 
+        def laugh_lead():
+            """Her actual laugh, untouched — no cloning, no stretching."""
+            lib = load_emotions()
+            y, lsr = sf.read(ADDON / lib[LAUGH_ANCHOR]["audio"])
+            y = np.asarray(y, dtype="float32")
+            if y.ndim > 1:
+                y = y.mean(axis=1)
+            y = y[: int(lsr * LAUGH_MAX)]
+            fade = int(lsr * 0.12)  # don't cut the laugh off mid-breath
+            if len(y) > fade:
+                y[-fade:] *= np.linspace(1.0, 0.0, fade)
+            return np.concatenate([y, np.zeros(int(lsr * LAUGH_GAP), dtype="float32")])
+
         sentences = [s for s in re.split(r"(?<=[.!?…])\s+", spoken) if s.strip()]
         first_wav, first_samples, sr0 = render(sentences[:1])
+        if laughs:
+            first_samples = np.concatenate([laugh_lead(), np.asarray(first_samples, dtype="float32")])
+            buf = io.BytesIO()
+            sf.write(buf, first_samples, sr0, format="WAV")
+            first_wav = buf.getvalue()
 
         job_id = ""
         if len(sentences) > 1:
@@ -366,7 +441,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("content-type", "audio/wav")
         self.send_header("content-length", str(len(first_wav)))
         self.send_header("x-voice-id", voice_id)
-        self.send_header("x-voice-mood", mood)
+        self.send_header("x-voice-mood", reported)
         if job_id:
             self.send_header("x-voice-rest", job_id)
         self.end_headers()

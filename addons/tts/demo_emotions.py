@@ -44,21 +44,12 @@ LINES: list[tuple[str, str | None, str]] = [
     ("excited", None,
      '*She bounces on her heels, eyes lighting up.* "Come on, hurry up! I\'ve been waiting all week '
      'for this!"'),
-    ("enthusiastic", None,
-     '*She grabs your sleeve, animated.* "No, listen, we do it my way and it actually works. Trust me '
-     'for once!"'),
-    ("greeting", None,
-     '*She waves from across the courtyard, calling out.* "Hey! Over here! You\'re late, you know!"'),
-    ("belittling", None,
-     '*She looks him up and down, dismissive.* "Cute. Did you come up with that yourself, or did it '
-     'take a group effort?"'),
-    ("judging", None,
-     '*She narrows her eyes, unimpressed.* "Right. And I\'m just supposed to believe that. Sure."'),
+    # a second laugh line — the laugh is real audio, the words are cloned normally
+    ("laughing", None,
+     '*She bursts out laughing.* "Stop. Stop it. I\'m not laughing, that wasn\'t funny."'),
     ("angry", None,
      '*She snaps, glaring at him.* "Are you serious right now? Knock it off before somebody gets '
      'hurt!"'),
-    ("surprised", None,
-     '*She blinks, taken aback.* "Wait. You actually did it? Huh."'),
     ("sad", None,
      '*Her voice goes quiet, and she looks away.* "I used to think it would be fun. Being the one '
      'nobody expects anything from."'),
@@ -67,24 +58,20 @@ LINES: list[tuple[str, str | None, str]] = [
     ("desperate", None,
      '*She grabs his arm, pleading.* "Wait, listen to me. There\'s still a way to fix this. Just give '
      'me one minute!"'),
-    ("explaining", None,
-     '*She points at the map, matter-of-fact.* "It\'s not complicated. The tower is here, we are '
-     'here, and that gap is the only way through."'),
-    ("asking", None,
-     '*She hesitates, then asks quietly.* "Can I ask you something? And you don\'t get to laugh."'),
     ("warm", None,
      '*She leans in, fond despite herself.* "You\'re kind of a disaster. But you\'re my disaster, I '
      'guess."'),
     ("neutral", None,
      '*She shrugs, evenly.* "It is what it is. We deal with it and we move on."'),
-    # same line through the alternate anchors, so duplicates can be compared by ear
-    ("neutral2", "neutral2",
-     '*She shrugs, evenly.* "It is what it is. We deal with it and we move on."'),
     ("neutral3", "neutral3",
      '*She shrugs, evenly.* "It is what it is. We deal with it and we move on."'),
-    ("belittling2", "belittling2",
+    # registers whose own anchor was cut — these now borrow a neighbour, so the
+    # point of these two is whether the fallback still sounds like her
+    ("belittling", None,
      '*She looks him up and down, dismissive.* "Cute. Did you come up with that yourself, or did it '
      'take a group effort?"'),
+    ("asking", None,
+     '*She hesitates, then asks quietly.* "Can I ask you something? And you don\'t get to laugh."'),
 ]
 
 
