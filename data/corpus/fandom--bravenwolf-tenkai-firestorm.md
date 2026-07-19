@@ -12,7 +12,10 @@ url: "https://tenkai-knights.fandom.com/wiki/Bravenwolf_Tenkai_Firestorm"
 Origin: Quarton
 Owner: Guren Nash
 Race: Corekai
-First Appearance: Two Worlds|Modes = Titan Mode
+First Appearance: Two Worlds
+
+<!--ep:51-->
+Modes (gained across the whole series): Titan Mode
 Phoenix Mode
 Elemental Mode
 Elemental Titan Mode

@@ -11,7 +11,7 @@ is the first Tenkai Knights video game to be released. Its publishment by Banda
 
 ## Description
 
-<!--ep:1-->
+<!--ep:51-->
 Saving the world is serious business and should never be taken lightly... It is only for the brave of heart. Guren, Ceylan, Chooki, and Toxsa were not planning on being heroes when they accidentally stumbled into an inter-dimensional portal. Ripped through space and time, they reemerged on the world of Quarton as Bravenwolf, Tributon, Lydendor, and Valorn... the legendary and powerfully robotic Tenkai Knights! Oh, by the way, Quarton is definitely a world like no other. Powered by a special Tenkai energy everything in this world can transform, combine and shapeshift. Now our four heroes hold the fate of two worlds in their powerful robotic hands and must master amazing powers in order to stop the evil Vilius and his army of shape shifting robots from destroying two worlds...
 
 ## Features
@@ -61,7 +61,7 @@ The "Ten Kai Night" of the popular game of finally in the anime, toys! Erabaresh
 
 ## Gameplay
 
-<!--ep:17-->
+<!--ep:51-->
 Tenkai Knights: Brave Battle lets the player chose a Tenkai Knight (Bravenwolf, Tributon, Valorn, or Lydendor) to play as. It is unconfirmed, but it is hinted that this character will be the basis of your game, may change the storyline a bit, and/or may be your permanent character for this game. There are two ways to play in this game: story mode, which follows along with the show, or versus, which is a type of head-to-head battle where you compete against other players to see who is the strongest. In either mode, players can customize their parts, enter various modes (such as Robofusion and Titan Mode), and modify their battling style to become the greatest hero of Quarton and Earth.
 
 ## Playable Characters

@@ -41,6 +41,7 @@ Chooki is friends with Toxsa, although they have different likings; Chooki plays
 
 ## Kiiro
 
+<!--ep:37-->
 They are cousins and get along well.
 
 ## Trivia
