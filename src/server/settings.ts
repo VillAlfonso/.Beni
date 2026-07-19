@@ -7,6 +7,7 @@ export interface AppSettings {
   gen: { temperature: number; maxTokens: number; topP: number };
   userName: string;
   userLooks: string;
+  ttsUrl: string;
 }
 
 const env = (k: string, dflt = "") => process.env[k] ?? dflt;
@@ -29,7 +30,8 @@ export function getSettings(db: Db): AppSettings {
       topP: Number(g("gen.topP", "0.95"))
     },
     userName: g("userName", ""),
-    userLooks: g("userLooks", "")
+    userLooks: g("userLooks", ""),
+    ttsUrl: g("ttsUrl", "http://127.0.0.1:5002")
   };
 }
 
@@ -37,7 +39,7 @@ const WRITABLE = new Set([
   "llm.baseUrl", "llm.apiKey", "llm.model",
   "utility.baseUrl", "utility.apiKey", "utility.model",
   "gen.temperature", "gen.maxTokens", "gen.topP",
-  "userName", "userLooks", "accessKey"
+  "userName", "userLooks", "ttsUrl", "accessKey"
 ]);
 
 export function updateSettings(db: Db, flat: Record<string, string>): void {
@@ -57,6 +59,7 @@ export function maskedSettings(db: Db): Record<string, unknown> {
     gen: s.gen,
     userName: s.userName,
     userLooks: s.userLooks,
+    ttsUrl: s.ttsUrl,
     authEnabled: Boolean(process.env.ACCESS_KEY || getSetting(db, "accessKey"))
   };
 }

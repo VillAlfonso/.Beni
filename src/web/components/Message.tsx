@@ -27,11 +27,47 @@ async function fetchSiblings(id: string): Promise<string[]> {
   return data.ids;
 }
 
+/** Mood cues for the voice: derive an emotion instruction from her prose.
+ *  The fine-tuned model takes free-text emotion directions (Qwen3-TTS instruct). */
+function moodInstruct(text: string): string {
+  const t = text.toLowerCase();
+  const base = "a sharp-tongued, playfully sarcastic thirteen-year-old girl";
+  if (/\b(cold|flat|icy|narrow|glare|hiss)\b/.test(t)) return `Speak coldly and flat, clipped and unimpressed — ${base}.`;
+  if (/\b(yell|shout|snap|slam|furious|angry)\b/.test(t) || (text.match(/!/g)?.length ?? 0) >= 3)
+    return `Speak sharply and angrily, fast and cutting — ${base}.`;
+  if (/\b(whisper|quiet|soft|murmur|small voice)\b/.test(t)) return `Speak quietly and softly, guarded, almost gentle — ${base} letting the armor down an inch.`;
+  if (/\b(scared|afraid|panic|trembl|flinch)\b/.test(t)) return `Speak with a hint of fear under forced composure — ${base} pretending she isn't rattled.`;
+  if (/\b(sigh|tired|bored|yawns?)\b/.test(t)) return `Speak with drawling boredom, unimpressed — ${base}.`;
+  if (/\b(grin|smirk|laugh|giggle|tease)\b/.test(t)) return `Speak with amused, teasing mischief — ${base} enjoying herself.`;
+  return `Speak playfully and sarcastically with a confident drawl — ${base}.`;
+}
+
 export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   const { state, actions } = useStore();
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(m.content);
+  const [speaking, setSpeaking] = useState(false);
   const busy = state.streaming !== null;
+
+  const speak = async () => {
+    if (speaking) return;
+    setSpeaking(true);
+    try {
+      const r = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ text: m.content, instruct: moodInstruct(m.content) })
+      });
+      if (!r.ok) throw new Error("voice unavailable");
+      const url = URL.createObjectURL(await r.blob());
+      const audio = new Audio(url);
+      audio.onended = () => { URL.revokeObjectURL(url); setSpeaking(false); };
+      audio.onerror = () => { URL.revokeObjectURL(url); setSpeaking(false); };
+      void audio.play();
+    } catch {
+      setSpeaking(false);
+    }
+  };
 
   const copy = () => void navigator.clipboard.writeText(m.content).catch(() => {});
   const checkpoint = () => {
@@ -90,6 +126,14 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
       <div className="who">
         <img src="/logo.png" alt="" />
         <span className="n">Beni</span>
+        {state.settings?.ttsUrl && (
+          <button
+            className="iconbtn"
+            title={speaking ? "speaking…" : "hear her"}
+            onClick={() => void speak()}
+            style={{ marginLeft: 4, opacity: speaking ? 0.5 : undefined }}
+          >{speaking ? "…" : "🔊"}</button>
+        )}
       </div>
       <div className="body">
         <Markdown allowedElements={["p", "em", "strong", "br", "blockquote", "ul", "ol", "li", "code"]} unwrapDisallowed>

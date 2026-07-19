@@ -27,3 +27,7 @@ desktop-*.png
 addons/tts/dataset/
 addons/tts/.venv/
 addons/tts/models/
+addons/tts/qwen-repo/
+addons/tts/out/
+addons/tts/train_*.jsonl
+addons/tts/output/

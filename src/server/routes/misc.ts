@@ -46,6 +46,29 @@ export function miscRouter(db: Db): Router {
     res.json(hits.map((h) => ({ ...h, score: Number(h.score.toFixed(3)) })));
   });
 
+  // proxy to the standalone voice server (addons/tts) — lets the phone use
+  // her voice through the tunnel; 503 when the addon isn't running
+  r.post("/tts", async (req, res) => {
+    const s = getSettings(db);
+    if (!s.ttsUrl) return res.status(503).json({ error: "voice addon not configured" });
+    try {
+      const up = await fetch(s.ttsUrl.replace(/\/+$/, "") + "/speak", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ text: String(req.body?.text ?? ""), instruct: req.body?.instruct })
+      });
+      if (!up.ok) {
+        const err = await up.text().catch(() => "");
+        return res.status(502).json({ error: err.slice(0, 200) || up.statusText });
+      }
+      res.setHeader("content-type", "audio/wav");
+      const buf = Buffer.from(await up.arrayBuffer());
+      res.send(buf);
+    } catch {
+      res.status(503).json({ error: "voice server unreachable — run Beni-voice.bat" });
+    }
+  });
+
   r.get("/status", (_req, res) => {
     const s = getSettings(db);
     const counts = db
