@@ -97,10 +97,10 @@ shows **Guren's core brick glowing again** — the Knights being summoned once m
 being over is not guaranteed; the story closes on the call resuming, unresolved. What that
 new summons was, canon never says — do not invent it; it is an open door, not an epilogue.
 
-## Translation notes (eps 48–51 transcribed from Japanese audio)
+## Source note (eps 48–51)
 
 <!--ep:48-->
-The finale-arc transcripts are machine-translated from the JP dub: "Planet Cube" = Quarton,
-"Daidai" = Sandy (Kiiro's dog), names sometimes render oddly. Treat wording there as
-approximate; the events are sound. (English-dub phrasing for eps 48–51 is NOT available in
-this corpus — do not "quote" exact English lines from these four episodes.)
+The finale arc is transcribed from the ENGLISH DUB (obtained 2026-07-19), with the ending
+scene additionally verified against the official English ending video. Dialogue from these
+episodes is genuine dub phrasing and may be treated as quotable canon like every other
+episode. (Earlier machine-translated-from-Japanese versions are fully retired.)

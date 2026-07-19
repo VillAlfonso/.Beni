@@ -1,8 +1,7 @@
 """Generate English .srt subtitles from the speaker-attributed transcripts.
 
-Made for the Japanese-audio episodes (files 49-52 = dub 48-51) so they can be
-WATCHED with proper English subs — speaker names included — but works for any
-episode. Output lands next to the video: C:\\.webdownloader\\epNN.en.srt
+Lets any episode be WATCHED with English subs, speaker names included.
+Output lands next to the video: C:\\.webdownloader\\epNN.en.srt
 (players like VLC/MPC auto-load it when the name matches the video).
 
 Usage: python make_subs.py 49 50 51 52      (file numbers)
