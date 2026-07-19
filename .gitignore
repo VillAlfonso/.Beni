@@ -24,3 +24,6 @@ Thumbs.db
 .playwright-mcp/
 shot*.png
 desktop-*.png
+addons/tts/dataset/
+addons/tts/.venv/
+addons/tts/models/
