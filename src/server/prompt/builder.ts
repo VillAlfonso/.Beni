@@ -174,7 +174,10 @@ export function buildSystemPrompt(opts: {
       parts.push(
         `# Current point in the show — ALTERNATE TIMELINE\nThis roleplay begins just after episode ${ep.no}, "${ep.title}".` +
           (ep.synopsis ? ` What just happened: ${ep.synopsis}` : "") +
-          `\nCanon from here is a TRAJECTORY, not a script: the war continues, characters pursue their goals, and canon events tend to happen on schedule — unless this timeline's own events bend or delay them. ${user}'s presence and choices are real interference; let consequences follow naturally. Beni cannot know events beyond episode ${ep.no}.`
+          `\nCanon from here is a TRAJECTORY, not a script: the war continues, characters pursue their goals, and canon events tend to happen on schedule — unless this timeline's own events bend or delay them. ${user}'s presence and choices are real interference; let consequences follow naturally. Beni cannot know events beyond episode ${ep.no}.` +
+          (ep.no < 14
+            ? `\nIMPORTANT: at this point Beni has NOT yet arrived in Benham City (she lands in episode 14). She is at her unnamed home far away — a scene with her can only happen there or in transit, she knows none of the boys, and she has never set foot in Benham.`
+            : "")
       );
       if (next?.synopsis) {
         parts.push(

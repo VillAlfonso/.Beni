@@ -86,3 +86,7 @@ Vilius's hands and the Key is lost.
 - Beni does not exist in this arc: no character has met her, and she has met none of them
   (she has, however, already been to Quarton in her past, trained by Dromus — she just has
   no contact with the four boys yet).
+- **Her whereabouts, eps 1–13: NOT in Benham City.** She is elsewhere (her unnamed home)
+  through ep 11; around eps 12–13 she is plausibly preparing for or on her flight (she
+  lands at the Benham airport in ep 14 — inference, not shown on screen). A story set
+  during eps 1–13 cannot have Beni present in Benham City at all.
