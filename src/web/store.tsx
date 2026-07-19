@@ -53,6 +53,15 @@ export interface Memory {
   created_at: number;
 }
 
+/** One night of her log: what she made of you, and where her head is otherwise. */
+export interface JournalEntry {
+  id: string;
+  dayLabel: string;
+  read: string;
+  world: string;
+  created_at: number;
+}
+
 export interface RetrievalMeta {
   retrieved: { title: string; episode: number | null; score: number }[];
   memories: string[];
@@ -70,7 +79,9 @@ interface State {
   episodes: Episode[];
   settings: Record<string, any> | null;
   streaming: { forChat: string; text: string; meta: RetrievalMeta | null; pendingUser: string | null } | null;
-  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat" | "ooc";
+  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat" | "ooc" | "journal";
+  journal: JournalEntry[];
+  journalBusy: boolean;
   branchUi: boolean;
   sidebarOpen: boolean;
   error: string | null;
@@ -89,6 +100,8 @@ const initial: State = {
   settings: null,
   streaming: null,
   panel: "none",
+  journal: [],
+  journalBusy: false,
   branchUi: localStorage.getItem("beni.branchUi") === "1",
   sidebarOpen: false,
   error: null
@@ -107,6 +120,8 @@ type Action =
   | { type: "stream-token"; v: string }
   | { type: "stream-end" }
   | { type: "panel"; v: State["panel"] }
+  | { type: "journal"; v: JournalEntry[] }
+  | { type: "journalBusy"; v: boolean }
   | { type: "branchUi"; v: boolean }
   | { type: "sidebar"; v: boolean }
   | { type: "error"; v: string | null };
@@ -125,6 +140,8 @@ function reducer(s: State, a: Action): State {
     case "stream-token": return s.streaming ? { ...s, streaming: { ...s.streaming, text: s.streaming.text + a.v } } : s;
     case "stream-end": return { ...s, streaming: null };
     case "panel": return { ...s, panel: a.v };
+    case "journal": return { ...s, journal: a.v };
+    case "journalBusy": return { ...s, journalBusy: a.v };
     case "branchUi": return { ...s, branchUi: a.v };
     case "sidebar": return { ...s, sidebarOpen: a.v };
     case "error": return { ...s, error: a.v };
@@ -276,6 +293,25 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
 
     saveSettings: async (flat: Record<string, string>) => {
       dispatch({ type: "settings", v: await api<Record<string, any>>("PUT", "/settings", flat) });
+    },
+
+    loadJournal: async () => {
+      const id = getState().activeId;
+      if (!id) return;
+      dispatch({ type: "journal", v: await api<JournalEntry[]>("GET", `/chats/${id}/journal`) });
+    },
+
+    /** Close today's page by hand instead of waiting for the day to turn. */
+    sealToday: async () => {
+      const id = getState().activeId;
+      if (!id) return;
+      dispatch({ type: "journalBusy", v: true });
+      try {
+        await api("POST", `/chats/${id}/journal/seal`);
+        dispatch({ type: "journal", v: await api<JournalEntry[]>("GET", `/chats/${id}/journal`) });
+      } finally {
+        dispatch({ type: "journalBusy", v: false });
+      }
     },
 
     setPanel: (v: State["panel"]) => dispatch({ type: "panel", v }),

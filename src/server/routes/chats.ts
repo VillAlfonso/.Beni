@@ -2,7 +2,8 @@ import { Router } from "express";
 import type { Db } from "../db.js";
 import { newId } from "../db.js";
 import { pathToRoot, siblingsOf, forkChat, setHead, getMessage, latestLeafFrom } from "../core/tree.js";
-import { loadStages, getStage, loadScenarios, loadStoryPressures } from "../prompt/builder.js";
+import { loadStages, getStage, loadScenarios, loadStoryPressures, parseOpinion } from "../prompt/builder.js";
+import { listJournal, sealDay, currentDay } from "../memory/journal.js";
 import { retrieveCanon } from "../rag/retrieve.js";
 import { getSettings } from "../settings.js";
 import { completeChat } from "../llm/provider.js";
@@ -133,6 +134,31 @@ export function chatsRouter(db: Db): Router {
 
   r.get("/messages/:id/siblings", (req, res) => {
     res.json(siblingsOf(db, req.params.id));
+  });
+
+  // her log — the only view the player gets of what she actually thinks
+  r.get("/chats/:id/journal", (req, res) => {
+    const rows = listJournal(db, req.params.id).map((j) => ({
+      id: j.id,
+      dayLabel: j.day_label,
+      read: j.read_entry,
+      world: j.world_entry,
+      created_at: j.created_at
+    }));
+    res.json(rows);
+  });
+
+  // seal today by hand, for when you want to read it without waiting for the
+  // day to roll over on its own
+  r.post("/chats/:id/journal/seal", async (req, res) => {
+    const chat = db.prepare("SELECT mode, world, opinion FROM chats WHERE id=?").get(req.params.id) as
+      | { mode: string; world: string | null; opinion: string | null }
+      | undefined;
+    if (!chat) return res.status(404).json({ error: "not found" });
+    const day = currentDay(chat);
+    await sealDay(db, req.params.id, day.key, day.label, parseOpinion(chat.opinion).bond);
+    const sealed = listJournal(db, req.params.id).some((j) => j.day_key === day.key);
+    res.json({ sealed });
   });
 
   r.post("/chats/:id/checkpoints", (req, res) => {

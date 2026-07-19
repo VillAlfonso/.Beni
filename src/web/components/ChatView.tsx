@@ -195,13 +195,8 @@ export function ChatView() {
         <span className="chip">
           {state.chat.mode === "story" ? `story · after ep ${state.chat.story_episode}` : `knows ≤ ep ${state.chat.episode_cap === 999 ? "end" : state.chat.episode_cap}`}
         </span>
-        {(() => {
-          try {
-            const o = JSON.parse(state.chat.opinion || "");
-            if (o?.label) return <span className="chip" title={o.note || "her private read on you"}>her read: {o.label}</span>;
-          } catch { /* no opinion yet */ }
-          return null;
-        })()}
+        {/* what she thinks of you is deliberately NOT shown here — it lives in
+            her log, in her words, and only once a day has closed */}
         {(() => {
           try {
             const w = JSON.parse((state.chat as { world?: string | null }).world || "");
@@ -226,6 +221,7 @@ export function ChatView() {
           <button className="iconbtn" title="Checkpoints" onClick={() => actions.setPanel("checkpoints")}>⚑</button>
         )}
         <button className="iconbtn" title="Memories" onClick={() => { void actions.loadMemories(); actions.setPanel("memories"); }}>✦</button>
+        <button className="iconbtn" title="Her log" onClick={() => { void actions.loadJournal(); actions.setPanel("journal"); }}>❦</button>
         <button className="iconbtn" title="System channel (out of character)" onClick={() => actions.setPanel("ooc")}>⌗</button>
         <button className="iconbtn" title="Delete chat" onClick={() => {
           if (window.confirm("Delete this chat and its memories?")) void actions.deleteChat(state.chat!.id);

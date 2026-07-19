@@ -4,6 +4,7 @@ import { PROJECT_ROOT } from "../db.js";
 import type { CanonHit, MemoryHit } from "../rag/retrieve.js";
 import type { ChatMessage } from "../llm/provider.js";
 import type { Msg } from "../core/tree.js";
+import { type Bond, FRESH_BOND, parseBond, eligibilityFrom, tierOf, tierDirection } from "./bond.js";
 
 const CHAR_DIR = path.join(PROJECT_ROOT, "character/beni");
 
@@ -65,6 +66,7 @@ export interface Opinion {
   label: string;
   note: string;
   guard: number; // 0 relaxed · 1 default wary · 2 on edge · 3 get-away-from-me
+  bond: Bond;    // hidden — never rendered to the player, only felt in her behaviour
 }
 
 export function parseOpinion(raw: string | null | undefined): Opinion {
@@ -73,10 +75,11 @@ export function parseOpinion(raw: string | null | undefined): Opinion {
     return {
       label: String(o.label || "a stranger"),
       note: String(o.note || ""),
-      guard: Math.min(3, Math.max(0, Number(o.guard) ?? 1))
+      guard: Math.min(3, Math.max(0, Number(o.guard) ?? 1)),
+      bond: parseBond(o.bond)
     };
   } catch {
-    return { label: "a stranger", note: "", guard: 1 };
+    return { label: "a stranger", note: "", guard: 1, bond: { ...FRESH_BOND } };
   }
 }
 
@@ -154,6 +157,7 @@ export function buildSystemPrompt(opts: {
   opinion?: Opinion;
   world?: WorldState | null;
   directives?: string[];
+  journal?: { dayLabel: string; read: string; world: string }[];
 }): string {
   const card = readOr("card.md", "You are Beni from Tenkai Knights.");
   const speech = readOr("speech.md", "");
@@ -224,9 +228,27 @@ export function buildSystemPrompt(opts: {
       "on edge — short answers, watching exits, redirects every personal question",
       "danger read — she disengages, lies casually if pressed, and leaves (or is already gone); she does not stay near this person"
     ][o.guard] ?? "default wariness";
+    const elig = eligibilityFrom(opts.userLooks);
+    const tier = tierOf(o.bond, elig);
     parts.push(
-      `# Beni's current read on ${user}\nShe currently sees them as: ${o.label}${o.note ? ` (${o.note})` : ""}.\n` +
-        `Guard level ${o.guard}/3: ${guardText}. Let this genuinely shape her tone, openness, and willingness to stay in the scene. Her read can change as they act.`
+      `# Beni's private read on ${user} (she never states any of this outright)\n` +
+        `She currently sees them as: ${o.label}${o.note ? ` (${o.note})` : ""}.\n` +
+        `Guard level ${o.guard}/3: ${guardText}.\n` +
+        `How close they actually are, and how she plays it: ${tierDirection(tier, user)}\n` +
+        `This is interior. She does not announce her feelings, rate the relationship, or explain her own guard — it shows only in tone, in what she volunteers, in whether she stays. Warmth she hasn't earned yet must not leak into her voice.`
+    );
+    if (elig.why !== "no disqualifiers she can see") {
+      parts.push(
+        `# A ceiling she'd never articulate\nWhat she sees of ${user}: ${elig.why}. This quietly bounds how close this can ever get. She does not lecture anyone about it or bring it up; it simply shapes how she reads their attention and where her warmth stops.`
+      );
+    }
+  }
+
+  if (opts.journal?.length) {
+    parts.push(
+      `# From her own log, the last nights she wrote (private — she would die before showing anyone)\n` +
+        opts.journal.map((j) => `- ${j.dayLabel}: ${j.read} // ${j.world}`).join("\n") +
+        `\nThis is continuity, not a script: it's where her head was, and it should carry into how she treats ${user} now.`
     );
   }
 

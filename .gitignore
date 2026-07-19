@@ -18,6 +18,14 @@ pipeline/transcribe/review/
 pipeline/transcribe/review_spk/
 pipeline/transcribe/hf_token.txt
 *.log
+__pycache__/
+addons/tts/.venv/
+addons/tts/models/
+addons/tts/qwen-repo/
+addons/tts/output-1.7b/
+addons/tts/dataset/
+addons/tts/cache/
+addons/tts/spoken/
 .DS_Store
 Thumbs.db
 

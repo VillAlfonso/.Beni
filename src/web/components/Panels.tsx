@@ -238,6 +238,42 @@ export function MemoriesPanel() {
   );
 }
 
+/**
+ * Her log. No meters, no numbers, no bar — deliberately. Whatever she thinks of
+ * you is only ever readable here, in her words, one night at a time.
+ */
+export function JournalPanel() {
+  const { state, actions } = useStore();
+  return (
+    <Panel title="Her log">
+      {state.journal.length === 0 && (
+        <p className="hint" style={{ color: "var(--ghost)", fontSize: 13 }}>
+          Nothing written yet. She closes a page at the end of each day — the next in-world day in
+          story mode, the next real day otherwise. Or seal today now and see what she'd have put down.
+        </p>
+      )}
+      {state.journal.map((j) => (
+        <div className="log-day" key={j.id}>
+          <div className="log-date">{j.dayLabel}</div>
+          <div className="log-entry">
+            <span className="log-tag">on you</span>
+            <p>{j.read}</p>
+          </div>
+          <div className="log-entry">
+            <span className="log-tag">on everything else</span>
+            <p>{j.world}</p>
+          </div>
+        </div>
+      ))}
+      <div style={{ marginTop: 14 }}>
+        <button className="btn quiet" disabled={state.journalBusy} onClick={() => void actions.sealToday()}>
+          {state.journalBusy ? "she's writing…" : "seal today"}
+        </button>
+      </div>
+    </Panel>
+  );
+}
+
 export function CheckpointsPanel() {
   const { state, actions } = useStore();
   const [name, setName] = useState("");

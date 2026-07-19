@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Markdown from "react-markdown";
 import { useStore, type Msg } from "../store.js";
+import { speak, stopVoice } from "../voice.js";
 
 function Sibnav({ m }: { m: Msg }) {
   const { state, actions } = useStore();
@@ -44,43 +45,14 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   const [speaking, setSpeaking] = useState(false);
   const busy = state.streaming !== null;
 
-  const speak = async () => {
-    if (speaking) return;
-    setSpeaking(true);
-    // open the audio pipeline INSIDE the click gesture — browsers revoke
-    // autoplay permission after ~5s, and her voice takes ~10s on CPU
-    const ctx = new AudioContext();
-    void ctx.resume();
-    try {
-      const r = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ text: m.content, mood: moodKey(m.content) })
-      });
-      if (!r.ok) throw new Error("voice unavailable");
-      const restId = r.headers.get("x-voice-rest");
-      // start fetching the remainder while the first sentence plays
-      const restPromise = restId
-        ? fetch(`/api/tts/rest/${restId}`).then(async (rr) => (rr.ok ? ctx.decodeAudioData(await rr.arrayBuffer()) : null)).catch(() => null)
-        : Promise.resolve(null);
-      const buf = await ctx.decodeAudioData(await r.arrayBuffer());
-      const first = ctx.createBufferSource();
-      first.buffer = buf;
-      first.connect(ctx.destination);
-      first.onended = async () => {
-        const restBuf = await restPromise;
-        if (!restBuf) { setSpeaking(false); void ctx.close(); return; }
-        const restNode = ctx.createBufferSource();
-        restNode.buffer = restBuf;
-        restNode.connect(ctx.destination);
-        restNode.onended = () => { setSpeaking(false); void ctx.close(); };
-        restNode.start();
-      };
-      first.start();
-    } catch {
-      setSpeaking(false);
-      void ctx.close();
+  // clicking the same button again stops her; clicking a different message's
+  // button interrupts this one — either way an unfinished clip is discarded
+  const onSpeak = () => {
+    if (speaking) {
+      stopVoice();
+      return;
     }
+    void speak(m.content, moodKey(m.content), setSpeaking);
   };
 
   const copy = () => void navigator.clipboard.writeText(m.content).catch(() => {});
@@ -143,10 +115,10 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
         {state.settings?.ttsUrl && (
           <button
             className="iconbtn"
-            title={speaking ? "speaking…" : "hear her"}
-            onClick={() => void speak()}
+            title={speaking ? "stop" : "hear her"}
+            onClick={onSpeak}
             style={{ marginLeft: 4, opacity: speaking ? 0.5 : undefined }}
-          >{speaking ? "…" : "🔊"}</button>
+          >{speaking ? "◼" : "🔊"}</button>
         )}
       </div>
       <div className="body">

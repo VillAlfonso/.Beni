@@ -107,6 +107,19 @@ export function openDb(file: string): Db {
     created_at INTEGER NOT NULL
   );
   CREATE INDEX IF NOT EXISTS ooc_chat ON ooc_messages(chat_id);`);
+  // her end-of-day log: two entries per day, the only visible trace of a
+  // relationship score that is deliberately never shown
+  db.exec(`CREATE TABLE IF NOT EXISTS journal(
+    id TEXT PRIMARY KEY,
+    chat_id TEXT NOT NULL REFERENCES chats(id) ON DELETE CASCADE,
+    day_key TEXT NOT NULL,
+    day_label TEXT NOT NULL,
+    read_entry TEXT NOT NULL,
+    world_entry TEXT NOT NULL,
+    until_at INTEGER NOT NULL,
+    created_at INTEGER NOT NULL
+  );
+  CREATE UNIQUE INDEX IF NOT EXISTS journal_chat_day ON journal(chat_id, day_key);`);
   return db;
 }
 

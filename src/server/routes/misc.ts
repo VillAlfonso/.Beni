@@ -62,12 +62,32 @@ export function miscRouter(db: Db): Router {
         return res.status(502).json({ error: err.slice(0, 200) || up.statusText });
       }
       res.setHeader("content-type", "audio/wav");
-      const restId = up.headers.get("x-voice-rest");
-      if (restId) res.setHeader("x-voice-rest", restId);
+      for (const h of ["x-voice-rest", "x-voice-id", "x-voice-cached"]) {
+        const v = up.headers.get(h);
+        if (v) res.setHeader(h, v);
+      }
+      res.setHeader("access-control-expose-headers", "x-voice-rest, x-voice-id, x-voice-cached");
       const buf = Buffer.from(await up.arrayBuffer());
       res.send(buf);
     } catch {
       res.status(503).json({ error: "voice server unreachable — run Beni-voice.bat" });
+    }
+  });
+
+  // she finished the line without being cut off → keep the wav, named by what
+  // she said. Interrupted lines are simply never kept.
+  r.post("/tts/keep", async (req, res) => {
+    const s = getSettings(db);
+    if (!s.ttsUrl) return res.status(503).json({ error: "voice addon not configured" });
+    try {
+      const up = await fetch(s.ttsUrl.replace(/\/+$/, "") + "/keep", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ voice_id: req.body?.voiceId, text: String(req.body?.text ?? "") })
+      });
+      res.status(up.ok ? 200 : 502).json(await up.json().catch(() => ({})));
+    } catch {
+      res.status(503).json({ error: "voice server unreachable" });
     }
   });
 

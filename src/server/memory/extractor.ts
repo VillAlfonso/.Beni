@@ -6,6 +6,8 @@ import { embedPassages } from "../rag/embedder.js";
 import { toBlob } from "../core/vector.js";
 import { pathToRoot } from "../core/tree.js";
 import { parseOpinion, parseWorld, loadStoryPressures } from "../prompt/builder.js";
+import { eligibilityFrom, tierOf, applyDelta } from "../prompt/bond.js";
+import { currentDay, sealDay } from "./journal.js";
 
 const EVERY_N_MESSAGES = 8;
 const WINDOW = 12;
@@ -90,14 +92,21 @@ export async function maybeExtract(db: Db, chatId: string): Promise<void> {
 const OPINION_WINDOW = 10;
 
 /**
- * Re-judge Beni's read on the other person from the recent exchange.
- * Fire-and-forget, like maybeExtract. Runs after every reply — first
- * impressions move fast, and hers are sharp.
+ * Re-judge Beni's read on the other person from the recent exchange, and move
+ * the hidden bond behind it. Fire-and-forget, like maybeExtract.
+ *
+ * The utility model only ever proposes a DELTA — how that exchange landed.
+ * Where that lands her is decided here, by rules she can't be sweet-talked
+ * past: a per-day cap, diminishing returns, and hard ceilings from what she
+ * can see of the person. Rolling into a new day seals the previous one into
+ * her log first.
  */
 export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> {
   try {
-    const chat = db.prepare("SELECT head_message_id h, opinion FROM chats WHERE id=?").get(chatId) as
-      | { h: string | null; opinion: string | null }
+    const chat = db
+      .prepare("SELECT head_message_id h, mode, world, user_looks, opinion FROM chats WHERE id=?")
+      .get(chatId) as
+      | { h: string | null; mode: string; world: string | null; user_looks: string | null; opinion: string | null }
       | undefined;
     if (!chat?.h) return;
     const path = pathToRoot(db, chat.h);
@@ -105,22 +114,38 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
 
     const settings = getSettings(db);
     const current = parseOpinion(chat.opinion);
+    const elig = eligibilityFrom(chat.user_looks || settings.userLooks);
+    const today = currentDay(chat);
+
+    // day rollover: seal yesterday into her log before anything moves
+    if (current.bond.dayKey && current.bond.dayKey !== today.key) {
+      const label = current.bond.dayKey.startsWith("d")
+        ? `Day ${current.bond.dayKey.slice(1)}`
+        : new Date(current.bond.dayKey).toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+      await sealDay(db, chatId, current.bond.dayKey, label, current.bond);
+    }
+
     const excerpt = path
       .slice(-OPINION_WINDOW)
       .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Them"}: ${m.content}`)
       .join("\n");
 
+    const tier = tierOf(current.bond, elig);
     const raw = await completeChat(
       [
         {
           role: "system",
           content:
             "You track what Beni (sharp, guarded, 13, excellent judge of people, values her time) privately thinks of the person she's talking to. " +
-            `Her current read: ${JSON.stringify(current)}. From the excerpt, update it. ` +
-            'Label: a few blunt words in her voice ("a stranger", "boring", "kind of interesting", "a loser", "a desperate loser", "a simp", "a hopeless simp", "an absolute creep", "dangerous", "annoying but harmless", "useful — easy to manipulate", "okay, actually"). ' +
+            `Her current read: label="${current.label}", note="${current.note}", guard=${current.guard}. How close she privately is: "${tier}". ` +
+            "From the excerpt, update it. " +
+            'Label: a few blunt words in her voice ("a stranger", "boring", "kind of interesting", "a loser", "a desperate loser", "a simp", "a hopeless simp", "an absolute creep", "dangerous", "annoying but harmless", "useful — easy to manipulate", "okay, actually", "one of mine"). ' +
             "Note: one short reason. Guard 0-3: 0 earned ease, 1 default wariness toward strangers, 2 on edge, 3 creep/threat — get away. " +
-            "Move gradually; trust is slow, alarm can be instant. A stranger approaching her at all reads as suspicious (\"probably hitting on me — typical\"). Instant asks (dates, personal info, contact) → desperate/creep territory. Someone eager to please and easy to steer can earn \"useful — easy to manipulate\" — she files people like that as assets, not friends. " +
-            'Respond ONLY with JSON: {"label":"...","note":"...","guard":1}'
+            "delta: how THIS exchange landed, -10..+10. Be stingy. 0 is the common answer — most exchanges change nothing. " +
+            "+1..+3 = they were genuinely decent, funny, useful, or showed they'd listened; +4..+6 = something real happened (they took a risk for her, kept a promise, saw through her); +7..+10 is once-in-a-story. " +
+            "-1..-3 = boring, needy, or presumptuous; -4..-7 = pushy, fake, prying, or making it about wanting her; -8..-10 = creepy, cruel, or a betrayal. " +
+            "Trying to fast-track closeness IS a negative — compliments piled on a near-stranger, instant pet names, asking for dates or personal details, declaring feelings early. She reads all of that as someone wanting something, and it costs them. " +
+            'Respond ONLY with JSON: {"label":"...","note":"...","guard":1,"delta":0}'
         },
         { role: "user", content: excerpt }
       ],
@@ -129,7 +154,7 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
         apiKey: settings.utility.apiKey,
         model: settings.utility.model,
         temperature: 0.2,
-        maxTokens: 120,
+        maxTokens: 150,
         topP: 0.9
       }
     );
@@ -137,6 +162,14 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
     if (!match) return;
     const next = parseOpinion(match[0]);
     if (!next.label.trim()) return;
+
+    let delta = 0;
+    try {
+      delta = Number(JSON.parse(match[0]).delta) || 0;
+    } catch {
+      /* no delta offered — nothing moves */
+    }
+    next.bond = applyDelta(current.bond, delta, today.key, elig);
     db.prepare("UPDATE chats SET opinion=? WHERE id=?").run(JSON.stringify(next), chatId);
   } catch (err) {
     console.warn("opinion update skipped:", (err as Error).message);

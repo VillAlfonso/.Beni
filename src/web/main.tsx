@@ -9,7 +9,7 @@ import "./styles.css";
 
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./app.js";
+import { App } from "./App.js";
 import { StoreProvider } from "./store.js";
 
 const saved = localStorage.getItem("beni-theme");

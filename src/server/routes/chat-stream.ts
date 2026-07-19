@@ -6,6 +6,7 @@ import { buildSystemPrompt, buildHistory, parseOpinion, parseWorld } from "../pr
 import { streamChat } from "../llm/provider.js";
 import { getSettings } from "../settings.js";
 import { maybeExtract, maybeUpdateOpinion, maybeTickWorld } from "../memory/extractor.js";
+import { recentJournal } from "../memory/journal.js";
 
 interface ChatRow {
   id: string;
@@ -60,6 +61,7 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
       userLooks: chat.user_looks || settings.userLooks,
       opinion: parseOpinion(chat.opinion),
       world: parseWorld(chat.world),
+      journal: recentJournal(db, chat.id, 2),
       directives: (() => {
         try {
           return JSON.parse(chat.directives || "[]");
