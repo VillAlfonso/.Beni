@@ -53,7 +53,8 @@
     "text": "Wait, I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over what-",
     "descriptor": "desperately negotiating",
     "source": "ep41 20:52-20:58",
-    "voice_match": null
+    "voice_match": null,
+    "confirmed_by_ear": true
   },
   "touched": {
     "audio": "voice/emotions/touched.wav",
@@ -68,5 +69,76 @@
     "descriptor": "lecturing, talking down to someone she considers beneath her",
     "source": "ep18 0:55-1:02",
     "voice_match": null
+  },
+  "angry_hi2": {
+    "audio": "voice/emotions/angry_hi2.wav",
+    "text": "Makes life a lot more fun.",
+    "descriptor": "angry and threatening, high energy",
+    "source": "ep34 9:01-9:04",
+    "voice_match": null
+  },
+  "laugh2": {
+    "audio": "voice/emotions/laugh2.wav",
+    "text": "Ha ha ha ha ha ha ha ha!",
+    "descriptor": "laughing",
+    "source": "ep34 9:19-9:21",
+    "voice_match": null
+  },
+  "happy_long": {
+    "audio": "voice/emotions/happy_long.wav",
+    "text": "Benny Benny Benny you're such a troublemaker you should be ashamed of yourself messing with poor girl like that and as if that wasn't bad enough it's nothing compared to this just think of all the trouble you could cause unleashing the power of the Tenkai fortress disrupting the cosmic balance ending life on earth as we know it destroying the Tenkai Knights",
+    "descriptor": "monologuing, happy, laughing",
+    "source": "ep34 9:35-10:05",
+    "voice_match": null
+  },
+  "belittling": {
+    "audio": "voice/emotions/belittling.wav",
+    "text": "your idea of a friend, Gurren. I guess it's no wonder you're such a hopeless loser.",
+    "descriptor": "belittling someone",
+    "source": "ep34 11:45-11:50",
+    "voice_match": null
+  },
+  "assertive": {
+    "audio": "voice/emotions/assertive.wav",
+    "text": "honestly what are you gonna grow up friends are boring and anyone who thinks they are",
+    "descriptor": "lecturing, being assertive",
+    "source": "ep34 12:19-12:25",
+    "voice_match": null
+  },
+  "angry_low": {
+    "audio": "voice/emotions/angry_low.wav",
+    "text": "because I don't want one what's so great about them anyway friends tie you down and hold you back they're just one more hassle that gets in your way and you needs that",
+    "descriptor": "angry, mid to low energy",
+    "source": "ep34 12:29-12:40",
+    "voice_match": null
+  },
+  "angry_laugh": {
+    "audio": "voice/emotions/angry_laugh.wav",
+    "text": "Oh really? Is that what you think? Hahaha! Just wait! One day your friends are gonna get in your way! Then you'll be sorry you had them!",
+    "descriptor": "angry, laughing mid-way to cover it",
+    "source": "ep34 12:57-13:12",
+    "voice_match": null
+  },
+  "angry": {
+    "audio": "voice/emotions/angry.wav",
+    "text": "What? You expect me to jump up and down and kiss you or something?",
+    "descriptor": "angry",
+    "source": "ep47 20:02-20:08",
+    "voice_match": null
+  },
+  "flustered": {
+    "audio": "voice/emotions/flustered.wav",
+    "text": "None of your business why I'm here. Just leave me alone.",
+    "descriptor": "flustered",
+    "source": "ep47 20:27-20:30",
+    "voice_match": null
+  },
+  "flustered2": {
+    "audio": "voice/emotions/flustered2.wav",
+    "text": "Huh? Hiding? Don't be ridiculous!",
+    "descriptor": "flustered",
+    "source": "ep50 1:47-1:51",
+    "voice_match": 0.481,
+    "confirmed_by_ear": true
   }
 }
