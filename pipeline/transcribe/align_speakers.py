@@ -29,7 +29,7 @@ import diarize_match as dm
 HERE = Path(__file__).resolve().parent
 WORK = HERE / "work"
 REVIEW_SPK = HERE / "review_spk"
-JP_EPS = set(range(49, 53))  # translated; word timestamps unreliable
+JP_EPS: set[int] = set()  # empty since the EN dub of 49-52 arrived (2026-07-19)
 
 
 def speaker_at(t: float, turns: list[tuple[float, float, str]]) -> str | None:

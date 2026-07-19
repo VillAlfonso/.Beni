@@ -24,8 +24,9 @@ WORK = Path(__file__).resolve().parent / "work"
 
 MEDIA_EXT = {".mkv", ".mp4", ".avi", ".m4a", ".mp3", ".wav", ".webm", ".ts"}
 
-# eps without an English dub (Japanese audio): Whisper translates ja→en directly
-JP_EPS = set(range(49, 53))
+# eps without an English dub (Japanese audio): Whisper translates ja→en directly.
+# Empty since 2026-07-19 — the user found the English dub for the finale arc.
+JP_EPS: set[int] = set()
 
 # proper nouns Whisper would otherwise mangle ("brave and wolf", "kwarton"…)
 HOTWORDS = (

@@ -23,7 +23,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 WORK = HERE / "work"
 OUT = ROOT / "data" / "transcripts"
-JP_EPS = set(range(49, 53))
+JP_EPS: set[int] = set()  # empty since the EN dub of 49-52 arrived (2026-07-19)
 MATCH_THRESHOLD = 0.60  # strict: a wrong name poisons context; Unknown is honest
                         # (0.45 let Corekai soldiers/boys match "Guren")
 
