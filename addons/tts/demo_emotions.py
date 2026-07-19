@@ -63,8 +63,9 @@ LINES: list[tuple[str, str | None, str]] = [
      'guess."'),
     ("neutral", None,
      '*She shrugs, evenly.* "It is what it is. We deal with it and we move on."'),
-    ("neutral3", "neutral3",
-     '*She shrugs, evenly.* "It is what it is. We deal with it and we move on."'),
+    ("lecturing", None,
+     '*She looks down at him, condescending.* "Let me explain this slowly, since you clearly need '
+     'it. You had one job. One."'),
     # registers whose own anchor was cut — these now borrow a neighbour, so the
     # point of these two is whether the fallback still sounds like her
     ("belittling", None,

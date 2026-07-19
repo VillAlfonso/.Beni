@@ -34,13 +34,6 @@
     "source": "ep15 21:03-21:09",
     "voice_match": null
   },
-  "neutral3": {
-    "audio": "voice/emotions/neutral3.wav",
-    "text": "The nights on the white cage is sitting there at that museum doesn't seem fair that we have to go searching all over the place",
-    "descriptor": "neutral",
-    "source": "ep18 0:55-1:02",
-    "voice_match": null
-  },
   "sad": {
     "audio": "voice/emotions/sad.wav",
     "text": "I was just learning about Gorton. It was all new to me, and terrifying. I don't know how long I would have survived on my own. The fact is, Dromas saved my life. He was strong. He made me feel safe. He taught me things. The other world made sense when I was with him. So I stayed with him. And trusted him. And all the while he was luring me into his web of lies.",
@@ -67,6 +60,13 @@
     "text": "A four leaf clover? So you were here, right here all this time, looking for one of these to give to me?",
     "descriptor": "touched and appreciative",
     "source": "ep47 12:54-13:05",
+    "voice_match": null
+  },
+  "lecturing": {
+    "audio": "voice/emotions/lecturing.wav",
+    "text": "The nights on the white cage is sitting there at that museum doesn't seem fair that we have to go searching all over the place",
+    "descriptor": "lecturing, talking down to someone she considers beneath her",
+    "source": "ep18 0:55-1:02",
     "voice_match": null
   }
 }

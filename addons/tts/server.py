@@ -96,13 +96,25 @@ DEFAULT_GAP = 0.26
 # allowed to be quick — that's the point of it — while anything reflective gets
 # room to land.
 RATE: dict[str, float] = {
-    "excited": 1.0, "enthusiastic": 1.0, "greeting": 1.0, "laughing": 0.97,
-    "angry": 0.95, "surprised": 0.95, "happy": 0.94, "desperate": 0.96,
+    # anything commanding or high-energy keeps its full pace — slowing an order
+    # down is what made it sound read-aloud rather than meant
+    "excited": 1.0, "enthusiastic": 1.0, "greeting": 1.0, "angry": 1.0,
+    "surprised": 0.97, "laughing": 0.97, "desperate": 0.98, "happy": 0.94,
     "teasing": 0.86, "belittling": 0.88, "warm": 0.88, "neutral": 0.89,
-    "explaining": 0.88, "judging": 0.88, "asking": 0.88,
+    "explaining": 0.88, "judging": 0.88, "asking": 0.88, "lecturing": 0.90,
     "touched": 0.85, "sad": 0.83,
 }
 DEFAULT_RATE = 0.88
+
+# Registers where a question mark is nearly always rhetorical. Left as "?" the
+# model lifts the final syllable, which turns a sarcastic jab into a genuine
+# enquiry; swapping in a period makes the pitch fall the way sarcasm does.
+SARCASTIC = {"teasing", "belittling", "judging", "lecturing"}
+
+# Autoregressive TTS renders one- and two-word fragments badly — "Stop." on its
+# own comes out clipped and robotic. Short sentences are merged with the next
+# before synthesis so every chunk has room to sound like speech.
+MIN_CHUNK = 28
 
 _MOOD_RE = {m: [re.compile(p, re.I) for p in pats] for m, pats in MOOD_RULES.items()}
 
@@ -123,6 +135,60 @@ def split_speech(text: str) -> tuple[str, str]:
         descriptor = " ".join(re.findall(r"\*([^*]*)\*", text))
     tidy = lambda s: re.sub(r"\s+", " ", s).strip()
     return tidy(spoken)[:900], tidy(descriptor)[:900]
+
+
+def chunk_sentences(spoken: str, mood: str) -> list[str]:
+    """Split into synthesis units, then shape each for prosody.
+
+    Two fixed rules, both about how the model reads punctuation:
+      - fragments shorter than MIN_CHUNK are glued to the next sentence, since
+        a lone "Stop." synthesizes as a clipped, robotic bark
+      - in sarcastic registers a trailing "?" becomes "." so the line lands
+        flat and dry instead of lifting like a real question
+    """
+    raw = [s.strip() for s in re.split(r"(?<=[.!?…])\s+", spoken) if s.strip()]
+    merged: list[str] = []
+    for s in raw:
+        if merged and len(merged[-1]) < MIN_CHUNK:
+            merged[-1] = f"{merged[-1]} {s}"
+        else:
+            merged.append(s)
+    if len(merged) > 1 and len(merged[-1]) < MIN_CHUNK:
+        tail = merged.pop()  # pop first: indexing after a pop in one statement misreads the list
+        merged[-1] = f"{merged[-1]} {tail}"
+
+    if mood in SARCASTIC:
+        merged = [re.sub(r"\?(\s*)$", r".\1", s) for s in merged]
+    return merged
+
+
+def trim_lead(y, sr: int, max_trim: float = 0.45):
+    """Drop a stray blip or breath before her first real word.
+
+    The model sometimes opens on a half-syllable — the little bump at the top
+    of a line. Same rule as the anchor trimmer: find the first sustained voiced
+    run and start just before it, but never cut far enough to lose a word."""
+    import numpy as np
+
+    hop = int(sr * 0.02)
+    if len(y) < hop * 4:
+        return y
+    frames = np.array([np.sqrt(np.mean(y[i:i + hop] ** 2)) for i in range(0, len(y) - hop, hop)])
+    if not len(frames) or frames.max() <= 0:
+        return y
+    voiced = frames > frames.max() * 0.10
+    run_start, run_len = 0, 0
+    for i, v in enumerate(voiced):
+        if v:
+            if run_len == 0:
+                run_start = i
+            run_len += 1
+            if run_len * 0.02 >= 0.18:  # a real word, not a tick
+                cut = max(0.0, run_start * 0.02 - 0.06)
+                return y[int(min(cut, max_trim) * sr):] if cut > 0.02 else y
+        else:
+            run_len = 0
+    return y
 
 
 def pick_mood(spoken: str, descriptor: str) -> str:
@@ -162,10 +228,11 @@ MOOD_FALLBACK: dict[str, list[str]] = {
     "enthusiastic": ["excited", "happy"],
     "greeting":     ["excited", "happy"],
     "surprised":    ["excited", "happy"],
-    "belittling":   ["teasing", "neutral"],
-    "judging":      ["teasing", "neutral"],
+    # talking down at someone is its own register, not a flavour of teasing
+    "belittling":   ["lecturing", "teasing"],
+    "judging":      ["lecturing", "teasing"],
+    "explaining":   ["lecturing", "neutral"],
     "angry":        ["desperate", "excited"],
-    "explaining":   ["neutral", "teasing"],
     "asking":       ["neutral", "warm"],
     "laughing":     ["happy", "teasing"],
     "touched":      ["warm", "sad"],
@@ -174,7 +241,8 @@ MOOD_FALLBACK: dict[str, list[str]] = {
     "sad":          ["touched", "neutral"],
     "excited":      ["happy", "teasing"],
     "happy":        ["warm", "teasing"],
-    "neutral":      ["neutral3", "teasing"],
+    "neutral":      ["lecturing", "teasing"],
+    "lecturing":    ["neutral", "teasing"],
 }
 
 
@@ -381,7 +449,7 @@ class Handler(BaseHTTPRequestHandler):
                 if not p.strip():
                     continue
                 s, sr = synth_raw(p.strip())
-                s = slow(np.asarray(s))
+                s = slow(trim_lead(np.asarray(s, dtype="float32"), sr))
                 chunks.append(s)
                 chunks.append(np.zeros(int(sr * gap), dtype=s.dtype))
             joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
@@ -389,23 +457,33 @@ class Handler(BaseHTTPRequestHandler):
             sf.write(buf, joined, sr, format="WAV")
             return buf.getvalue(), joined, sr
 
-        def laugh_lead():
-            """Her actual laugh, untouched — no cloning, no stretching."""
+        def laugh_lead(speech):
+            """Her actual laugh, untouched — no cloning, no stretching.
+
+            Level-matched to the speech that follows: a real recording sitting
+            noticeably louder than the synthesis makes the synthesis sound
+            robotic by contrast, even when it's fine on its own."""
             lib = load_emotions()
             y, lsr = sf.read(ADDON / lib[LAUGH_ANCHOR]["audio"])
             y = np.asarray(y, dtype="float32")
             if y.ndim > 1:
                 y = y.mean(axis=1)
             y = y[: int(lsr * LAUGH_MAX)]
+
+            lr, sr_ = float(np.sqrt(np.mean(y**2))), float(np.sqrt(np.mean(np.asarray(speech) ** 2)))
+            if lr > 1e-6 and sr_ > 1e-6:
+                y *= min(3.0, max(0.33, sr_ / lr))
+
             fade = int(lsr * 0.12)  # don't cut the laugh off mid-breath
             if len(y) > fade:
                 y[-fade:] *= np.linspace(1.0, 0.0, fade)
             return np.concatenate([y, np.zeros(int(lsr * LAUGH_GAP), dtype="float32")])
 
-        sentences = [s for s in re.split(r"(?<=[.!?…])\s+", spoken) if s.strip()]
+        sentences = chunk_sentences(spoken, mood)
         first_wav, first_samples, sr0 = render(sentences[:1])
         if laughs:
-            first_samples = np.concatenate([laugh_lead(), np.asarray(first_samples, dtype="float32")])
+            first_samples = np.asarray(first_samples, dtype="float32")
+            first_samples = np.concatenate([laugh_lead(first_samples), first_samples])
             buf = io.BytesIO()
             sf.write(buf, first_samples, sr0, format="WAV")
             first_wav = buf.getvalue()
