@@ -113,10 +113,11 @@ DEFAULT_RATE = 0.88
 # cloning pushes them further still — 432 and 517 Hz measured, which is where
 # the "inhaled helium" came from. These pull the bright registers back toward
 # her own voice while leaving her normal range alone.
-PITCH: dict[str, float] = {
-    "excited": 0.72, "happy": 0.80, "enthusiastic": 0.80,
-    "greeting": 0.85, "surprised": 0.88,
-}
+# Measured empirically: raw output lands at 330 Hz for happy against her own
+# anchor's 351 Hz, i.e. already close. The earlier correction aimed at her
+# NEUTRAL pitch (274 Hz) and so flattened the emotion out of the bright
+# registers — she genuinely is higher when excited. Left off by default.
+PITCH: dict[str, float] = {}
 DEFAULT_PITCH = 1.0
 
 # Registers where a question mark is nearly always rhetorical. Left as "?" the

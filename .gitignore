@@ -41,3 +41,4 @@ addons/tts/output/
 addons/tts/output-1.7b-v2/
 addons/tts/train_raw.jsonl
 addons/tts/train_with_codes.jsonl
+addons/tts/sovits/refs/
