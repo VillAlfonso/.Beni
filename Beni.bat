@@ -1,10 +1,13 @@
 @echo off
 rem ============================================================
-rem  BENI — one button. Starts everything she needs:
+rem  BENI — the light one. Her, without the voice:
 rem    1. Model  (KoboldCpp / Cydonia 24B on the GPU)
 rem    2. App    (http://localhost:3001)
 rem    3. Tunnel (https://beni.quert.site)
 rem  Close a window to stop that piece. Run this again anytime.
+rem
+rem  Use Beni-voice.bat for the full stack with her voice as well.
+rem  This one leaves the card free for anything else you're doing.
 rem ============================================================
 cd /d "%~dp0"
 start "Beni - Model" cmd /k tools\koboldcpp.exe --model models\TheDrummer_Cydonia-24B-v4.3-IQ4_XS.gguf --usecublas normal --gpulayers 999 --contextsize 16384 --flashattention --quantkv 1 --port 5001
