@@ -41,6 +41,12 @@ export default defineConfig({
         ]
       },
       workbox: {
+        // Without these the new worker sits in "waiting" until every tab is
+        // closed, so a rebuilt UI keeps serving the old cached bundle no matter
+        // how many times you reload. Take over straight away instead.
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
         navigateFallbackDenylist: [/^\/api/],
         runtimeCaching: [
           {
