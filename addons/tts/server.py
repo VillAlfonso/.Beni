@@ -76,7 +76,8 @@ DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
 # register that works — no cloning artifacts on the laugh at all.
 LAUGH_ANCHOR = "laughing"
 LAUGH_SPEECH_MOOD = "teasing"  # her normal pitch; happy clones far too high after a laugh
-LAUGH_MAX = 2.2   # seconds of laugh to lead with
+LAUGH_MAX = 8.0   # play the laugh clip whole; truncating a hand-picked span
+                  # from the front can cut into the wrong part of it
 LAUGH_GAP = 0.22  # breath between laughing and talking
 
 # The same idea, generalised. Sighs, chuckles and little noticing sounds have no
@@ -293,12 +294,14 @@ MOOD_FALLBACK: dict[str, list[str]] = {
     "angry":        ["desperate", "excited"],
     "asking":       ["neutral", "warm"],
     "laughing":     ["happy", "teasing"],
-    "touched":      ["warm", "sad"],
-    "warm":         ["happy", "neutral"],
+    # warm was culled for not sounding like her, so anything that leaned on it
+    # falls through to the nearest register still in the library
+    "warm":         ["happy_soft", "appreciative", "neutral"],
+    "touched":      ["appreciative", "sad"],
     "desperate":    ["excited", "teasing"],
     "sad":          ["touched", "neutral"],
     "excited":      ["happy", "teasing"],
-    "happy":        ["warm", "teasing"],
+    "happy":        ["happy_soft", "teasing"],
     "neutral":      ["lecturing", "teasing"],
     "lecturing":    ["neutral", "teasing"],
 }

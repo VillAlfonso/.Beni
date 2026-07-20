@@ -41,13 +41,6 @@
     "source": "ep22 12:44-13:13",
     "voice_match": null
   },
-  "warm": {
-    "audio": "voice/emotions/warm.wav",
-    "text": "Yeah! I'll assign each of you a position, east, west, north, and south of town. I get to be the one in charge of the operation, because after all, it was my idea!",
-    "descriptor": "happy",
-    "source": "ep22 16:46-16:58",
-    "voice_match": null
-  },
   "desperate": {
     "audio": "voice/emotions/desperate.wav",
     "text": "Wait, I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over what-",
@@ -68,13 +61,6 @@
     "text": "The nights on the white cage is sitting there at that museum doesn't seem fair that we have to go searching all over the place",
     "descriptor": "lecturing, talking down to someone she considers beneath her",
     "source": "ep18 0:55-1:02",
-    "voice_match": null
-  },
-  "angry_hi2": {
-    "audio": "voice/emotions/angry_hi2.wav",
-    "text": "Makes life a lot more fun.",
-    "descriptor": "angry and threatening, high energy",
-    "source": "ep34 9:01-9:04",
     "voice_match": null
   },
   "laugh2": {
@@ -110,13 +96,6 @@
     "text": "because I don't want one what's so great about them anyway friends tie you down and hold you back they're just one more hassle that gets in your way and you needs that",
     "descriptor": "angry, mid to low energy",
     "source": "ep34 12:29-12:40",
-    "voice_match": null
-  },
-  "angry_laugh": {
-    "audio": "voice/emotions/angry_laugh.wav",
-    "text": "Oh really? Is that what you think? Hahaha! Just wait! One day your friends are gonna get in your way! Then you'll be sorry you had them!",
-    "descriptor": "angry, laughing mid-way to cover it",
-    "source": "ep34 12:57-13:12",
     "voice_match": null
   },
   "angry": {

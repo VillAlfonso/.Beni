@@ -4,20 +4,10 @@
     "descriptor": "a sigh",
     "source": "ep15 3:39-3:41"
   },
-  "huh_noticing": {
-    "audio": "voice/nonverbal/huh_noticing.wav",
-    "descriptor": "a soft sigh, noticing something",
-    "source": "ep48 2:44-2:45"
-  },
   "chuckle_soft": {
     "audio": "voice/nonverbal/chuckle_soft.wav",
     "descriptor": "a soft chuckle",
     "source": "ep48 9:18-9:20"
-  },
-  "sigh_relief": {
-    "audio": "voice/nonverbal/sigh_relief.wav",
-    "descriptor": "a sigh of relief",
-    "source": "ep48 12:27-12:28"
   },
   "chuckle_soft2": {
     "audio": "voice/nonverbal/chuckle_soft2.wav",
