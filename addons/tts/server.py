@@ -79,6 +79,30 @@ LAUGH_SPEECH_MOOD = "teasing"  # her normal pitch; happy clones far too high aft
 LAUGH_MAX = 2.2   # seconds of laugh to lead with
 LAUGH_GAP = 0.22  # breath between laughing and talking
 
+# The same idea, generalised. Sighs, chuckles and little noticing sounds have no
+# words in them, so cloning speech through them produces mush — the laughing
+# anchor proved that. Her real recording is pasted in front of the line instead.
+#
+# This is also the closest thing available to prosody control: Qwen's clone mode
+# ignores `instruct` entirely (verified — byte-identical output for "shout
+# furiously" and "whisper gently"), so the anchor plus these sounds ARE the
+# expressive range. A line that opens with her actual sigh stops sounding like
+# a machine reading a sentence.
+# Order matters: the first match wins, so the specific cases are listed above
+# the general ones ("sighs with relief" must not fall through to a plain sigh).
+NONVERBAL_RULES: dict[str, list[str]] = {
+    "sigh_relief":   [r"sighs? (?:in|with) relief", r"relieved sigh", r"breathes? out",
+                      r"relief"],
+    "chuckle_soft2": [r"quiet(?:ly)? laughs?", r"under her breath", r"stifles? a laugh"],
+    "chuckle_soft":  [r"\bchuckles?\b", r"soft laugh", r"\bsnickers?\b", r"huffs? a laugh"],
+    "huh_noticing":  [r"\bhuh\b", r"\bnotices?\b", r"catches? sight", r"\bpauses?\b",
+                      r"\bblinks?\b"],
+    "sigh":          [r"\bsighs?\b", r"\bsighing\b", r"lets? out a breath", r"exhales?\b"],
+}
+_NONVERBAL_RE = {k: [re.compile(p, re.I) for p in v] for k, v in NONVERBAL_RULES.items()}
+NONVERBAL_MAX = 2.2
+NONVERBAL_GAP = 0.20
+
 # Sentence gap per emotion, in seconds. Her biggest complaint was rushing, so
 # the floor is generous and reflective moods breathe more than excited ones.
 PACING: dict[str, float] = {
@@ -220,6 +244,26 @@ def pick_mood(spoken: str, descriptor: str) -> str:
     if best_score == 0 and spoken.count("!") >= 2:
         return "excited"
     return best
+
+
+_nonverbal = None
+
+
+def load_nonverbal() -> dict:
+    global _nonverbal
+    if _nonverbal is None:
+        p = ADDON / "voice" / "beni-nonverbal.json"
+        _nonverbal = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    return _nonverbal
+
+
+def pick_nonverbal(descriptor: str) -> str:
+    """Which of her real sounds, if any, this line should open with."""
+    lib = load_nonverbal()
+    for tag, pats in _NONVERBAL_RE.items():
+        if tag in lib and any(p.search(descriptor) for p in pats):
+            return tag
+    return ""
 
 
 def load_emotions() -> dict:
@@ -394,6 +438,8 @@ class Handler(BaseHTTPRequestHandler):
         laughs = mood == LAUGH_ANCHOR and LAUGH_ANCHOR in load_emotions()
         if laughs:
             mood = LAUGH_SPEECH_MOOD
+        # a sigh/chuckle/noticing sound can lead any register, laughter aside
+        lead_sound = "" if laughs else pick_nonverbal(descriptor)
 
         mood, ref = resolve_ref(mood)
         reported = detected if laughs else mood
@@ -491,33 +537,39 @@ class Handler(BaseHTTPRequestHandler):
             sf.write(buf, joined, sr, format="WAV")
             return buf.getvalue(), joined, sr
 
-        def laugh_lead(speech):
-            """Her actual laugh, untouched — no cloning, no stretching.
+        def real_sound(path: Path, speech, max_sec: float, gap: float):
+            """One of her actual recordings, untouched — no cloning, no stretch.
 
             Level-matched to the speech that follows: a real recording sitting
             noticeably louder than the synthesis makes the synthesis sound
             robotic by contrast, even when it's fine on its own."""
-            lib = load_emotions()
-            y, lsr = sf.read(ADDON / lib[LAUGH_ANCHOR]["audio"])
+            y, lsr = sf.read(path)
             y = np.asarray(y, dtype="float32")
             if y.ndim > 1:
                 y = y.mean(axis=1)
-            y = y[: int(lsr * LAUGH_MAX)]
+            y = y[: int(lsr * max_sec)]
 
             lr, sr_ = float(np.sqrt(np.mean(y**2))), float(np.sqrt(np.mean(np.asarray(speech) ** 2)))
             if lr > 1e-6 and sr_ > 1e-6:
                 y *= min(3.0, max(0.33, sr_ / lr))
 
-            fade = int(lsr * 0.12)  # don't cut the laugh off mid-breath
+            fade = int(lsr * 0.12)  # don't cut it off mid-breath
             if len(y) > fade:
                 y[-fade:] *= np.linspace(1.0, 0.0, fade)
-            return np.concatenate([y, np.zeros(int(lsr * LAUGH_GAP), dtype="float32")])
+            return np.concatenate([y, np.zeros(int(lsr * gap), dtype="float32")])
 
         sentences = chunk_sentences(spoken, mood)
         first_wav, first_samples, sr0 = render(sentences[:1])
+
+        lead = None
         if laughs:
+            lead = (ADDON / load_emotions()[LAUGH_ANCHOR]["audio"], LAUGH_MAX, LAUGH_GAP)
+        elif lead_sound:
+            lead = (ADDON / load_nonverbal()[lead_sound]["audio"], NONVERBAL_MAX, NONVERBAL_GAP)
+        if lead:
             first_samples = np.asarray(first_samples, dtype="float32")
-            first_samples = np.concatenate([laugh_lead(first_samples), first_samples])
+            first_samples = np.concatenate(
+                [real_sound(lead[0], first_samples, lead[1], lead[2]), first_samples])
             buf = io.BytesIO()
             sf.write(buf, first_samples, sr0, format="WAV")
             first_wav = buf.getvalue()

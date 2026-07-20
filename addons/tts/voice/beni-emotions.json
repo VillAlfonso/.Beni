@@ -140,5 +140,47 @@
     "source": "ep50 1:47-1:51",
     "voice_match": 0.481,
     "confirmed_by_ear": true
+  },
+  "appreciative": {
+    "audio": "voice/emotions/appreciative.wav",
+    "text": "I used to think it would be fun to watch Benham City get rickified and crumble into pieces. I never really saw how beautiful it is.",
+    "descriptor": "appreciative",
+    "source": "ep48 3:09-3:18"
+  },
+  "happy_soft": {
+    "audio": "voice/emotions/happy_soft.wav",
+    "text": "that was it funny isn't it how the littlest things can change a person's whole point of view corny right yeah well",
+    "descriptor": "happy, softly",
+    "source": "ep48 3:32-3:44"
+  },
+  "defensive": {
+    "audio": "voice/emotions/defensive.wav",
+    "text": "What do you mean, Shriek of the W-",
+    "descriptor": "defensive",
+    "source": "ep48 9:28-9:29"
+  },
+  "shouting": {
+    "audio": "voice/emotions/shouting.wav",
+    "text": "I hope you're a good marathoner because I can keep this up for hours!",
+    "descriptor": "shouting",
+    "source": "ep48 10:14-10:17"
+  },
+  "shouting2": {
+    "audio": "voice/emotions/shouting2.wav",
+    "text": "BONE!",
+    "descriptor": "shouting",
+    "source": "ep48 10:21-10:22"
+  },
+  "teasing_aww": {
+    "audio": "voice/emotions/teasing_aww.wav",
+    "text": "Aww, you guys startin' your own fai-",
+    "descriptor": "teasing, opening with an 'aww'",
+    "source": "ep50 2:22-2:25"
+  },
+  "flustered3": {
+    "audio": "voice/emotions/flustered3.wav",
+    "text": "In your dreams, I'd rather join the basket.",
+    "descriptor": "flustered",
+    "source": "ep50 2:29-2:35"
   }
 }
