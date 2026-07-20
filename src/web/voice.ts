@@ -1,27 +1,46 @@
 /**
  * One voice at a time.
  *
- * Clicking 🔊 on a message kills whatever she was saying — that clip is thrown
- * away, unfinished. A clip that runs to the end is kept: the server files the
- * wav under what she actually said. So `addons/tts/spoken/` fills up with the
- * lines you sat through, and nothing else.
+ * Interrupting her — by clicking 🔊 again, by clicking another message's
+ * button, or by her starting a new reply — throws the clip away unfinished. A
+ * clip that runs to the end is kept: the server files the wav under what she
+ * actually said. So `data/voice/spoken/` fills up with the lines you sat
+ * through, and nothing else.
  *
- * The AudioContext is opened synchronously inside the click, because browsers
- * revoke autoplay permission a few seconds later and her first sentence can
- * take longer than that to render.
+ * THE AUDIO CONTEXT IS SHARED AND LONG-LIVED, and that is the whole trick
+ * behind her speaking on her own. Browsers only allow audio to start from a
+ * user gesture, which is why this used to open a context inside the 🔊 click —
+ * autoplay permission is revoked a few seconds later, and her first sentence
+ * can take longer than that to render. An automatic reply has no click to hang
+ * from. But sending a message IS a gesture, and she only ever speaks in answer
+ * to one, so the context is unlocked there and then kept for the session.
  */
 const KEEP_URL = "/api/tts/keep";
 
 interface Active {
-  ctx: AudioContext;
   nodes: AudioBufferSourceNode[];
   voiceId: string | null;
   text: string;
   finished: boolean;
-  setSpeaking: (v: boolean) => void;
+  onState: (speaking: boolean) => void;
 }
 
+let ctx: AudioContext | null = null;
 let active: Active | null = null;
+
+/**
+ * Open (or wake) the shared context. MUST be called synchronously inside a real
+ * user gesture — see the note above. Safe to call repeatedly; browsers suspend
+ * the context when a tab is backgrounded, so this also resumes it.
+ */
+export function unlockAudio(): void {
+  try {
+    if (!ctx || ctx.state === "closed") ctx = new AudioContext();
+    if (ctx.state === "suspended") void ctx.resume();
+  } catch {
+    /* no audio available in this browser; speak() will no-op */
+  }
+}
 
 /** Stop the current line and discard it. Safe to call when nothing is playing. */
 export function stopVoice(): void {
@@ -37,8 +56,7 @@ export function stopVoice(): void {
       /* already ended */
     }
   }
-  void a.ctx.close().catch(() => {});
-  a.setSpeaking(false);
+  a.onState(false);
 }
 
 export function isSpeaking(): boolean {
@@ -56,18 +74,29 @@ function keep(a: Active): void {
 
 /**
  * Speak `text`. Interrupts anything already playing.
- * `setSpeaking` drives the button state for the calling message.
+ * `onState` drives the button for the calling message.
+ *
+ * Failures are silent by design: when she speaks automatically, a voice server
+ * that is down must not put an error in front of a reply that is otherwise fine.
  */
-export async function speak(text: string, setSpeaking: (v: boolean) => void): Promise<void> {
+export async function speak(text: string, onState: (speaking: boolean) => void): Promise<void> {
   stopVoice();
+  unlockAudio();
+  if (!ctx) return;
+  const audio = ctx;
 
-  const ctx = new AudioContext();
-  void ctx.resume();
-  const a: Active = { ctx, nodes: [], voiceId: null, text, finished: false, setSpeaking };
+  const a: Active = { nodes: [], voiceId: null, text, finished: false, onState };
   active = a;
-  setSpeaking(true);
+  onState(true);
 
   const abandoned = () => active !== a;
+  const done = () => {
+    if (abandoned()) return;
+    a.finished = true;
+    keep(a);
+    active = null;
+    onState(false);
+  };
 
   try {
     const r = await fetch("/api/tts", {
@@ -84,18 +113,18 @@ export async function speak(text: string, setSpeaking: (v: boolean) => void): Pr
     // fetch the remainder while the first sentence is already playing
     const restPromise = restId
       ? fetch(`/api/tts/rest/${restId}`)
-          .then(async (rr) => (rr.ok ? ctx.decodeAudioData(await rr.arrayBuffer()) : null))
+          .then(async (rr) => (rr.ok ? audio.decodeAudioData(await rr.arrayBuffer()) : null))
           .catch(() => null)
       : Promise.resolve(null);
 
-    const firstBuf = await ctx.decodeAudioData(await r.arrayBuffer());
+    const firstBuf = await audio.decodeAudioData(await r.arrayBuffer());
     if (abandoned()) return;
 
-    const play = (buf: AudioBuffer, onDone: () => void) => {
-      const node = ctx.createBufferSource();
+    const play = (buf: AudioBuffer, onEnded: () => void) => {
+      const node = audio.createBufferSource();
       node.buffer = buf;
-      node.connect(ctx.destination);
-      node.onended = onDone;
+      node.connect(audio.destination);
+      node.onended = onEnded;
       a.nodes.push(node);
       node.start();
     };
@@ -105,27 +134,15 @@ export async function speak(text: string, setSpeaking: (v: boolean) => void): Pr
       const restBuf = await restPromise;
       if (abandoned()) return;
       if (!restBuf) {
-        a.finished = true;
-        keep(a);
-        active = null;
-        void ctx.close().catch(() => {});
-        setSpeaking(false);
+        done();
         return;
       }
-      play(restBuf, () => {
-        if (abandoned()) return;
-        a.finished = true;
-        keep(a);
-        active = null;
-        void ctx.close().catch(() => {});
-        setSpeaking(false);
-      });
+      play(restBuf, done);
     });
   } catch {
     if (active === a) {
       active = null;
-      void ctx.close().catch(() => {});
+      onState(false);
     }
-    setSpeaking(false);
   }
 }

@@ -154,7 +154,7 @@ def main() -> None:
             note = "   <-- LOW speaker match, check this one"
         print(f"  {tag:13s} ep{ep} {a}-{b}  {t1-t0:5.1f}s  match {sim:5.2f}  {len(text):3d} chars{note}")
 
-        lib[tag] = {"audio": f"voice/emotions/{tag}.wav", "text": text or "(laughs)",
+        lib[tag] = {"audio": f"clips/emotions/{tag}.wav", "text": text or "(laughs)",
                     "descriptor": desc, "source": f"ep{ep} {a}-{b}",
                     "voice_match": round(sim, 3) if sim == sim else None}
 

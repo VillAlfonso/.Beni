@@ -1,18 +1,18 @@
 {
  "default": {
-  "audio": "voice/default.wav",
+  "audio": "clips/default.wav",
   "text": "The Knights found the white key just sitting there at that museum. Doesn't seem fair that we have to go searching all over the place for the black one."
  },
  "sass": {
-  "audio": "voice/default.wav",
+  "audio": "clips/default.wav",
   "text": "The Knights found the white key just sitting there at that museum. Doesn't seem fair that we have to go searching all over the place for the black one."
  },
  "soft": {
-  "audio": "voice/soft.wav",
+  "audio": "clips/soft.wav",
   "text": "I used to think it would be fun to watch Benham City get brickified and crumble into pieces. I never really saw how beautiful it is."
  },
  "angry": {
-  "audio": "voice/angry.wav",
+  "audio": "clips/angry.wav",
   "text": "Typical. You really thought that would work on me?"
  }
 }

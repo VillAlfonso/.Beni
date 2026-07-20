@@ -101,7 +101,7 @@ def main() -> None:
         text = transcribe(dest)
         window = "" if 3.0 <= dur <= 10.0 else "   <-- outside 3-10s, needs a reference window"
         print(f"  {tag:14s} ep{ep} {a}-{b}  {dur:5.1f}s  {len(text):3d} chars{window}")
-        lib[tag] = {"audio": f"voice/emotions/{tag}.wav", "text": text or "(no words)",
+        lib[tag] = {"audio": f"clips/emotions/{tag}.wav", "text": text or "(no words)",
                     "descriptor": desc, "source": f"ep{ep} {a}-{b}"}
 
     print("\n=== NON-VERBAL (pasted verbatim, never cloned) ===")
@@ -113,7 +113,7 @@ def main() -> None:
             print(f"  SKIP {tag}: no audio for ep{ep}")
             continue
         print(f"  {tag:14s} ep{ep} {a}-{b}  {dur:5.1f}s  {desc}")
-        nonverbal[tag] = {"audio": f"voice/nonverbal/{tag}.wav",
+        nonverbal[tag] = {"audio": f"clips/nonverbal/{tag}.wav",
                           "descriptor": desc, "source": f"ep{ep} {a}-{b}"}
 
     lib_path.write_text(json.dumps(lib, indent=2, ensure_ascii=False), encoding="utf-8")

@@ -1,16 +1,16 @@
 {
   "sigh": {
-    "audio": "voice/nonverbal/sigh.wav",
+    "audio": "clips/nonverbal/sigh.wav",
     "descriptor": "a sigh",
     "source": "ep15 3:39-3:41"
   },
   "chuckle_soft": {
-    "audio": "voice/nonverbal/chuckle_soft.wav",
+    "audio": "clips/nonverbal/chuckle_soft.wav",
     "descriptor": "a soft chuckle",
     "source": "ep48 9:18-9:20"
   },
   "chuckle_soft2": {
-    "audio": "voice/nonverbal/chuckle_soft2.wav",
+    "audio": "clips/nonverbal/chuckle_soft2.wav",
     "descriptor": "a soft chuckle",
     "source": "ep32 21:17-21:18"
   }

@@ -8,6 +8,8 @@ export interface AppSettings {
   userName: string;
   userLooks: string;
   ttsUrl: string;
+  /** Speak her replies without being asked. On by default. */
+  ttsAuto: boolean;
 }
 
 const env = (k: string, dflt = "") => process.env[k] ?? dflt;
@@ -31,7 +33,8 @@ export function getSettings(db: Db): AppSettings {
     },
     userName: g("userName", ""),
     userLooks: g("userLooks", ""),
-    ttsUrl: g("ttsUrl", "http://127.0.0.1:5002")
+    ttsUrl: g("ttsUrl", "http://127.0.0.1:5002"),
+    ttsAuto: g("ttsAuto", "1") !== "0"
   };
 }
 
@@ -39,7 +42,7 @@ const WRITABLE = new Set([
   "llm.baseUrl", "llm.apiKey", "llm.model",
   "utility.baseUrl", "utility.apiKey", "utility.model",
   "gen.temperature", "gen.maxTokens", "gen.topP",
-  "userName", "userLooks", "ttsUrl", "accessKey"
+  "userName", "userLooks", "ttsUrl", "ttsAuto", "accessKey"
 ]);
 
 export function updateSettings(db: Db, flat: Record<string, string>): void {
@@ -60,6 +63,7 @@ export function maskedSettings(db: Db): Record<string, unknown> {
     userName: s.userName,
     userLooks: s.userLooks,
     ttsUrl: s.ttsUrl,
+    ttsAuto: s.ttsAuto,
     authEnabled: Boolean(process.env.ACCESS_KEY || getSetting(db, "accessKey"))
   };
 }

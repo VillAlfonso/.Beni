@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Markdown from "react-markdown";
 import { useStore, type Msg } from "../store.js";
-import { speak, stopVoice } from "../voice.js";
 
 function Sibnav({ m }: { m: Msg }) {
   const { state, actions } = useStore();
@@ -35,17 +34,19 @@ export function Message({ m, isLast }: { m: Msg; isLast: boolean }) {
   const { state, actions } = useStore();
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(m.content);
-  const [speaking, setSpeaking] = useState(false);
+  // She may already be speaking this one on her own, so the store decides who
+  // is talking rather than each button tracking itself.
+  const speaking = state.speakingId === m.id;
   const busy = state.streaming !== null;
 
   // clicking the same button again stops her; clicking a different message's
   // button interrupts this one — either way an unfinished clip is discarded
   const onSpeak = () => {
     if (speaking) {
-      stopVoice();
+      actions.stopSpeaking();
       return;
     }
-    void speak(m.content, setSpeaking);
+    actions.speakMessage(m.id, m.content);
   };
 
   const copy = () => void navigator.clipboard.writeText(m.content).catch(() => {});

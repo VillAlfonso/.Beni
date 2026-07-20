@@ -19,35 +19,29 @@ pipeline/transcribe/review_spk/
 pipeline/transcribe/hf_token.txt
 *.log
 __pycache__/
-addons/tts/.venv/
-addons/tts/models/
-addons/tts/qwen-repo/
-addons/tts/output-1.7b/
-addons/tts/dataset/
-addons/tts/cache/
-addons/tts/spoken/
-# emotion anchors are cut from your local episode files by build_emotions.py —
-# the manifest is tracked, the derived audio is not
-addons/tts/voice/emotions/
-addons/tts/out/
+
+# The voice she actually uses lives in voice/ and is tracked. Everything below
+# is either third-party bulk or an experiment that lost.
+
+# RVC: the library fork, its venv, and ~1.7 GB of weights, index and models.
+voice-runtime/
+
+# Her rendered audio — the replay cache and the lines she finished saying.
+# Kept beside beni.db because that is what it is: runtime state, not code.
+data/voice/
+
+# Emotion anchors are cut from your local episode files by build_emotions.py —
+# the manifest is tracked, the derived audio is not.
+voice/clips/emotions/
+
+# Dead ends, kept only until RVC has earned their disk space: the Piper
+# fine-tune, the Qwen3-TTS models and venv, GPT-SoVITS. Nothing on the RVC
+# path resolves in here, so this whole directory is safe to delete.
+addons/
+
 .DS_Store
 Thumbs.db
 
 .playwright-mcp/
 shot*.png
 desktop-*.png
-addons/tts/train_*.jsonl
-addons/tts/output/
-addons/tts/output-1.7b-v2/
-addons/tts/train_raw.jsonl
-addons/tts/train_with_codes.jsonl
-addons/tts/sovits/refs/
-addons/sovits/.venv/
-addons/sovits/GPT_SoVITS/pretrained_models/
-addons/sovits/logs/
-addons/sovits/GPT_weights/
-addons/sovits/SoVITS_weights/
-addons/sovits/tmp_s*.json
-addons/sovits/tmp_s*.yaml
-addons/overnight.log
-addons/tts/sovits/

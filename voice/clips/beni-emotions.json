@@ -1,48 +1,48 @@
 {
   "laughing": {
-    "audio": "voice/emotions/laughing.wav",
+    "audio": "clips/emotions/laughing.wav",
     "text": "Ha ha ha ha ha!",
     "descriptor": "laughing",
     "source": "ep15 0:59-1:02",
     "voice_match": null
   },
   "happy": {
-    "audio": "voice/emotions/happy.wav",
+    "audio": "clips/emotions/happy.wav",
     "text": "Actually, I've still got a little time. If only there was a mall nearby. Oh look! There's one! Let's go shoosh-",
     "descriptor": "happy and excited",
     "source": "ep15 6:49-6:58",
     "voice_match": null
   },
   "excited": {
-    "audio": "voice/emotions/excited.wav",
+    "audio": "clips/emotions/excited.wav",
     "text": "should I go with the blue heels or red flats I can't decide which would you",
     "descriptor": "happy and excited",
     "source": "ep15 7:47-7:52",
     "voice_match": null
   },
   "teasing": {
-    "audio": "voice/emotions/teasing.wav",
+    "audio": "clips/emotions/teasing.wav",
     "text": "Are you trying to make a new friend? It couldn't be you're scared of him, because there's no surprises with this boy. I could take him out without even trying.",
     "descriptor": "teasing",
     "source": "ep15 11:05-11:14",
     "voice_match": null
   },
   "neutral": {
-    "audio": "voice/emotions/neutral.wav",
+    "audio": "clips/emotions/neutral.wav",
     "text": "I was just toying with him, not trying to beat him. I didn't want the fun to be over that quickly.",
     "descriptor": "neutral",
     "source": "ep15 21:03-21:09",
     "voice_match": null
   },
   "sad": {
-    "audio": "voice/emotions/sad.wav",
+    "audio": "clips/emotions/sad.wav",
     "text": "I was just learning about Gorton. It was all new to me, and terrifying. I don't know how long I would have survived on my own. The fact is, Dromas saved my life. He was strong. He made me feel safe. He taught me things. The other world made sense when I was with him. So I stayed with him. And trusted him. And all the while he was luring me into his web of lies.",
     "descriptor": "sad and melancholic",
     "source": "ep22 12:44-13:13",
     "voice_match": null
   },
   "desperate": {
-    "audio": "voice/emotions/desperate.wav",
+    "audio": "clips/emotions/desperate.wav",
     "text": "Wait, I haven't officially wished yet. My wish is that we all start over from scratch, and you give us a new mission over what-",
     "descriptor": "desperately negotiating",
     "source": "ep41 20:52-20:58",
@@ -50,70 +50,70 @@
     "confirmed_by_ear": true
   },
   "touched": {
-    "audio": "voice/emotions/touched.wav",
+    "audio": "clips/emotions/touched.wav",
     "text": "A four leaf clover? So you were here, right here all this time, looking for one of these to give to me?",
     "descriptor": "touched and appreciative",
     "source": "ep47 12:54-13:05",
     "voice_match": null
   },
   "lecturing": {
-    "audio": "voice/emotions/lecturing.wav",
+    "audio": "clips/emotions/lecturing.wav",
     "text": "The nights on the white cage is sitting there at that museum doesn't seem fair that we have to go searching all over the place",
     "descriptor": "lecturing, talking down to someone she considers beneath her",
     "source": "ep18 0:55-1:02",
     "voice_match": null
   },
   "laugh2": {
-    "audio": "voice/emotions/laugh2.wav",
+    "audio": "clips/emotions/laugh2.wav",
     "text": "Ha ha ha ha ha ha ha ha!",
     "descriptor": "laughing",
     "source": "ep34 9:19-9:21",
     "voice_match": null
   },
   "happy_long": {
-    "audio": "voice/emotions/happy_long.wav",
+    "audio": "clips/emotions/happy_long.wav",
     "text": "Benny Benny Benny you're such a troublemaker you should be ashamed of yourself messing with poor girl like that and as if that wasn't bad enough it's nothing compared to this just think of all the trouble you could cause unleashing the power of the Tenkai fortress disrupting the cosmic balance ending life on earth as we know it destroying the Tenkai Knights",
     "descriptor": "monologuing, happy, laughing",
     "source": "ep34 9:35-10:05",
     "voice_match": null
   },
   "belittling": {
-    "audio": "voice/emotions/belittling.wav",
+    "audio": "clips/emotions/belittling.wav",
     "text": "your idea of a friend, Gurren. I guess it's no wonder you're such a hopeless loser.",
     "descriptor": "belittling someone",
     "source": "ep34 11:45-11:50",
     "voice_match": null
   },
   "assertive": {
-    "audio": "voice/emotions/assertive.wav",
+    "audio": "clips/emotions/assertive.wav",
     "text": "honestly what are you gonna grow up friends are boring and anyone who thinks they are",
     "descriptor": "lecturing, being assertive",
     "source": "ep34 12:19-12:25",
     "voice_match": null
   },
   "angry_low": {
-    "audio": "voice/emotions/angry_low.wav",
+    "audio": "clips/emotions/angry_low.wav",
     "text": "because I don't want one what's so great about them anyway friends tie you down and hold you back they're just one more hassle that gets in your way and you needs that",
     "descriptor": "angry, mid to low energy",
     "source": "ep34 12:29-12:40",
     "voice_match": null
   },
   "angry": {
-    "audio": "voice/emotions/angry.wav",
+    "audio": "clips/emotions/angry.wav",
     "text": "What? You expect me to jump up and down and kiss you or something?",
     "descriptor": "angry",
     "source": "ep47 20:02-20:08",
     "voice_match": null
   },
   "flustered": {
-    "audio": "voice/emotions/flustered.wav",
+    "audio": "clips/emotions/flustered.wav",
     "text": "None of your business why I'm here. Just leave me alone.",
     "descriptor": "flustered",
     "source": "ep47 20:27-20:30",
     "voice_match": null
   },
   "flustered2": {
-    "audio": "voice/emotions/flustered2.wav",
+    "audio": "clips/emotions/flustered2.wav",
     "text": "Huh? Hiding? Don't be ridiculous!",
     "descriptor": "flustered",
     "source": "ep50 1:47-1:51",
@@ -121,43 +121,43 @@
     "confirmed_by_ear": true
   },
   "appreciative": {
-    "audio": "voice/emotions/appreciative.wav",
+    "audio": "clips/emotions/appreciative.wav",
     "text": "I used to think it would be fun to watch Benham City get rickified and crumble into pieces. I never really saw how beautiful it is.",
     "descriptor": "appreciative",
     "source": "ep48 3:09-3:18"
   },
   "happy_soft": {
-    "audio": "voice/emotions/happy_soft.wav",
+    "audio": "clips/emotions/happy_soft.wav",
     "text": "that was it funny isn't it how the littlest things can change a person's whole point of view corny right yeah well",
     "descriptor": "happy, softly",
     "source": "ep48 3:32-3:44"
   },
   "defensive": {
-    "audio": "voice/emotions/defensive.wav",
+    "audio": "clips/emotions/defensive.wav",
     "text": "What do you mean, Shriek of the W-",
     "descriptor": "defensive",
     "source": "ep48 9:28-9:29"
   },
   "shouting": {
-    "audio": "voice/emotions/shouting.wav",
+    "audio": "clips/emotions/shouting.wav",
     "text": "I hope you're a good marathoner because I can keep this up for hours!",
     "descriptor": "shouting",
     "source": "ep48 10:14-10:17"
   },
   "shouting2": {
-    "audio": "voice/emotions/shouting2.wav",
+    "audio": "clips/emotions/shouting2.wav",
     "text": "BONE!",
     "descriptor": "shouting",
     "source": "ep48 10:21-10:22"
   },
   "teasing_aww": {
-    "audio": "voice/emotions/teasing_aww.wav",
+    "audio": "clips/emotions/teasing_aww.wav",
     "text": "Aww, you guys startin' your own fai-",
     "descriptor": "teasing, opening with an 'aww'",
     "source": "ep50 2:22-2:25"
   },
   "flustered3": {
-    "audio": "voice/emotions/flustered3.wav",
+    "audio": "clips/emotions/flustered3.wav",
     "text": "In your dreams, I'd rather join the basket.",
     "descriptor": "flustered",
     "source": "ep50 2:29-2:35"

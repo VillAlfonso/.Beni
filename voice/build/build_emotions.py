@@ -12,7 +12,7 @@ A speaker-similarity number is reported per clip for information only — it nev
 drops a clip. Ears decide, not cosine.
 
 Usage: python build_emotions.py
-Output: voice/emotions/<tag>.wav + voice/beni-emotions.json + out/emotions-report.txt
+Output: clips/emotions/<tag>.wav + voice/beni-emotions.json + out/emotions-report.txt
 """
 from __future__ import annotations
 
@@ -184,7 +184,7 @@ def main() -> None:
         report.append(line)
 
         library[tag] = {
-            "audio": f"voice/emotions/{tag}.wav",
+            "audio": f"clips/emotions/{tag}.wav",
             "text": text or "(laughs)",
             "descriptor": descriptor,
             "source": f"ep{ep} {a}-{b}",
@@ -195,7 +195,7 @@ def main() -> None:
         json.dumps(library, indent=2, ensure_ascii=False), encoding="utf-8")
     (ADDON / "out" / "emotions-report.txt").write_text("\n".join(report), encoding="utf-8")
     print(f"\n{len(library)} clips -> voice/beni-emotions.json")
-    print("Listen in addons/tts/voice/emotions/ — delete any that aren't her and rerun the wiring.")
+    print("Listen in voice/clips/emotions/ — delete any that aren't her and rerun the wiring.")
 
 
 if __name__ == "__main__":

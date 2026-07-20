@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useMemo, useReducer, useRef } from "react";
 import { api, stream, setUnauthorizedHandler } from "./api.js";
+import { speak, stopVoice, unlockAudio } from "./voice.js";
 
 export interface ChatSummary {
   id: string;
@@ -84,6 +85,9 @@ interface State {
   journalBusy: boolean;
   branchUi: boolean;
   sidebarOpen: boolean;
+  /** Which message is being spoken, if any. Lives here rather than in Message
+   *  because she also starts speaking on her own, from outside any component. */
+  speakingId: string | null;
   error: string | null;
 }
 
@@ -104,6 +108,7 @@ const initial: State = {
   journalBusy: false,
   branchUi: localStorage.getItem("beni.branchUi") === "1",
   sidebarOpen: false,
+  speakingId: null,
   error: null
 };
 
@@ -124,6 +129,7 @@ type Action =
   | { type: "journalBusy"; v: boolean }
   | { type: "branchUi"; v: boolean }
   | { type: "sidebar"; v: boolean }
+  | { type: "speaking"; v: string | null }
   | { type: "error"; v: string | null };
 
 function reducer(s: State, a: Action): State {
@@ -142,6 +148,7 @@ function reducer(s: State, a: Action): State {
     case "panel": return { ...s, panel: a.v };
     case "journal": return { ...s, journal: a.v };
     case "journalBusy": return { ...s, journalBusy: a.v };
+    case "speaking": return { ...s, speakingId: a.v };
     case "branchUi": return { ...s, branchUi: a.v };
     case "sidebar": return { ...s, sidebarOpen: a.v };
     case "error": return { ...s, error: a.v };
@@ -164,6 +171,22 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
   const reloadActive = async () => {
     const id = getState().activeId;
     if (id) await openChat(id);
+  };
+
+  /** Speak one message, routing the button state through the store so that
+   *  automatic playback and the 🔊 button can't disagree about who's talking. */
+  const speakMessage = (id: string, text: string) => {
+    void speak(text, (on) => dispatch({ type: "speaking", v: on ? id : null }));
+  };
+
+  /** Her latest reply, spoken unprompted — unless you've turned that off. */
+  const autoSpeak = () => {
+    if (getState().settings?.ttsAuto === false) return;
+    const path = getState().path;
+    const last = path[path.length - 1];
+    if (last && last.role === "assistant" && last.content.trim()) {
+      speakMessage(last.id, last.content);
+    }
   };
 
   const boot = async () => {
@@ -204,6 +227,11 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
         await reloadActive();
         await refreshChats();
         api<Memory[]>("GET", `/chats/${chatId}/memories`).then((m) => dispatch({ type: "memories", v: m })).catch(() => {});
+        // She says it herself. Only here — not on onError, and not on the abort
+        // path below — so an interrupted or failed generation stays silent.
+        // reloadActive() has already run, so the reply is the tail of the path
+        // and carries the real message id the 🔊 button is keyed on.
+        autoSpeak();
       },
       onError: async (message) => {
         dispatch({ type: "stream-end" });
@@ -227,7 +255,16 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
 
     stop: () => abortRef.current?.abort(),
 
-    send: (content: string) => runStream(`/chats/${getState().activeId}/messages`, { content }, content),
+    speakMessage,
+    stopSpeaking: stopVoice,
+
+    // unlockAudio() runs inside the click or Enter that got us here. That
+    // gesture is what buys permission to play her reply a few seconds later,
+    // when there is no gesture left to borrow.
+    send: (content: string) => {
+      unlockAudio();
+      return runStream(`/chats/${getState().activeId}/messages`, { content }, content);
+    },
     regenerate: (messageId: string) => runStream(`/chats/${getState().activeId}/regenerate`, { messageId }),
     editUser: (messageId: string, content: string) => runStream(`/messages/${messageId}/edit`, { content }, content),
 

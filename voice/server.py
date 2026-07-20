@@ -5,39 +5,71 @@
   POST /keep  {"voice_id","text"}            -> file a finished line
   GET  /health
 
-Serves in CLONE mode on the 1.7B Base model against a library of her own
-clips (voice/beni-emotions.json), each one cut from a hand-marked moment in an
-episode with the music stripped out.
+Two backends, one port, chosen by the launcher:
+
+  --backend rvc    Windows SAPI reads the line, the model trained on her
+                   episodes swaps the timbre. Fast. The everyday path.
+  --backend qwen   Clone mode on the 1.7B Base model, using her own clips as
+                   references. Better in places, far slower. Dormant.
+
+Only one runs at a time — you start Beni.bat or Beni-voice.bat, not both — so
+sharing :5002 is safe and the app never has to know which it got.
 
 Mood is chosen by FIXED RULES, not by asking a model: her replies carry their
 own stage direction ("*a small smirk*", or narration around the quoted line),
 so the descriptor is scored against a keyword table and the winning emotion
-picks the reference clip and the pacing. Deterministic, inspectable, free.
+picks the pacing, the tempo, and which of her real sounds leads the line.
+Deterministic, inspectable, free.
 
-Run: .venv\\Scripts\\python.exe server.py          (or Beni-voice.bat)
+Everything here is backend-independent. The backends only turn one sentence of
+text into samples; the shaping around them is shared.
+
+Run: voice-runtime\\.venv\\Scripts\\python.exe server.py   (or Beni.bat)
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
+import importlib
 import io
 import json
 import re
+import sys
 import threading
 import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-ADDON = Path(__file__).resolve().parent
-CACHE = ADDON / "cache"    # rendered lines, keyed by mood+text — replay is instant
-SPOKEN = ADDON / "spoken"  # lines she actually finished saying, named by her words
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(HERE))  # so backends/ can import anchors regardless of cwd
+
+# Her audio lives with her chat history, not with the code. RVC chdir's into
+# voice-runtime/, so every path here is absolute on purpose.
+CACHE = ROOT / "data" / "voice" / "cache"    # rendered lines — replay is instant
+SPOKEN = ROOT / "data" / "voice" / "spoken"  # lines she finished, named by her words
 PORT = 5002
 FFMPEG = "C:/ffmpeg/ffmpeg"
 
-_model = None
-_emotions = None
-_model_lock = threading.Lock()  # one synthesis at a time
+_backend = None
+_backend_lock = threading.Lock()  # one synthesis at a time; RVC chdir's, so this matters
 _rest_jobs: dict[str, dict] = {}
 _finished: dict[str, tuple] = {}
+
+from anchors import DEFAULT_MOOD, load_emotions, load_nonverbal, path_of  # noqa: E402
+
+
+def load_backend(name: str = ""):
+    """Import the selected backend and nothing else.
+
+    Each one needs a different venv — RVC's dependencies and Qwen's cannot
+    coexist — so the launcher picks the interpreter and this picks the module
+    to match. Importing the other would fail here, which is why it is lazy.
+    """
+    global _backend
+    if _backend is None:
+        _backend = importlib.import_module(f"backends.{name or 'rvc'}")
+    return _backend
 
 
 # --------------------------------------------------------------------------
@@ -68,16 +100,14 @@ MOOD_RULES: dict[str, list[str]] = {
     "neutral":      [r"\bflat(?:ly)?\b", r"\bevenly\b", r"deadpan", r"shrugs?\b", r"\bcalm"],
 }
 
-DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
-
 # Her laugh is a SOUND, not a way of speaking. The laughing anchor is pure
 # laughter with no words in it, so cloning sentences through it always came out
 # wrong. Instead her real laugh is played as-is and the words follow in a
 # register that works — no cloning artifacts on the laugh at all.
 LAUGH_ANCHOR = "laughing"
 LAUGH_SPEECH_MOOD = "teasing"  # her normal pitch; happy clones far too high after a laugh
-LAUGH_MAX = 8.0   # play the laugh clip whole; truncating a hand-picked span
-                  # from the front can cut into the wrong part of it
+LAUGH_MAX = 2.6   # the clip is the laugh alone (ep15 0:59-1:02), so it plays
+                  # essentially whole without dragging speech in front of it
 LAUGH_GAP = 0.22  # breath between laughing and talking
 
 # The same idea, generalised. Sighs, chuckles and little noticing sounds have no
@@ -247,17 +277,6 @@ def pick_mood(spoken: str, descriptor: str) -> str:
     return best
 
 
-_nonverbal = None
-
-
-def load_nonverbal() -> dict:
-    global _nonverbal
-    if _nonverbal is None:
-        p = ADDON / "voice" / "beni-nonverbal.json"
-        _nonverbal = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
-    return _nonverbal
-
-
 def pick_nonverbal(descriptor: str) -> str:
     """Which of her real sounds, if any, this line should open with."""
     lib = load_nonverbal()
@@ -265,87 +284,6 @@ def pick_nonverbal(descriptor: str) -> str:
         if tag in lib and any(p.search(descriptor) for p in pats):
             return tag
     return ""
-
-
-def load_emotions() -> dict:
-    global _emotions
-    if _emotions is None:
-        p = ADDON / "voice" / "beni-emotions.json"
-        _emotions = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
-        # legacy anchors still answer to their old names
-        legacy = ADDON / "voice" / "beni-refs.json"
-        if legacy.exists():
-            for k, v in json.loads(legacy.read_text(encoding="utf-8")).items():
-                _emotions.setdefault(k, v)
-    return _emotions
-
-
-# An anchor only earns its place if it actually sounds like her, so several got
-# cut. What's left has to cover for them: each emotion names the nearest
-# surviving register rather than letting everything collapse to the default.
-MOOD_FALLBACK: dict[str, list[str]] = {
-    "enthusiastic": ["excited", "happy"],
-    "greeting":     ["excited", "happy"],
-    "surprised":    ["excited", "happy"],
-    # talking down at someone is its own register, not a flavour of teasing
-    "belittling":   ["lecturing", "teasing"],
-    "judging":      ["lecturing", "teasing"],
-    "explaining":   ["lecturing", "neutral"],
-    "angry":        ["desperate", "excited"],
-    "asking":       ["neutral", "warm"],
-    "laughing":     ["happy", "teasing"],
-    # warm was culled for not sounding like her, so anything that leaned on it
-    # falls through to the nearest register still in the library
-    "warm":         ["happy_soft", "appreciative", "neutral"],
-    "touched":      ["appreciative", "sad"],
-    "desperate":    ["excited", "teasing"],
-    "sad":          ["touched", "neutral"],
-    "excited":      ["happy", "teasing"],
-    "happy":        ["happy_soft", "teasing"],
-    "neutral":      ["lecturing", "teasing"],
-    "lecturing":    ["neutral", "teasing"],
-}
-
-
-# Some registers sound more like her through a clip that doesn't share their
-# name. Anger reads as threatening when it's delivered like she's talking down
-# at someone, rather than the flat legacy anger anchor — but it keeps angry's
-# own full-pace tempo, so it lands as a command, not a lecture.
-ANCHOR_FOR = {"angry": "lecturing"}
-
-
-def resolve_ref(mood: str) -> tuple[str, dict]:
-    """The clip for a mood, falling back through nearby registers so a deleted
-    anchor degrades to something adjacent instead of breaking playback."""
-    lib = load_emotions()
-    chain = [ANCHOR_FOR.get(mood), mood, *MOOD_FALLBACK.get(mood, []),
-             DEFAULT_MOOD, "neutral", "sass", "default"]
-    for m in chain:
-        if m and m in lib:
-            return mood if m == ANCHOR_FOR.get(mood) else m, lib[m]
-    return (next(iter(lib)), next(iter(lib.values()))) if lib else ("", {})
-
-
-def load_model():
-    """Clone mode on the Base model: timbre from her real clips, register
-    chosen by which clip is used as the reference. CPU if the GPU is full."""
-    global _model
-    if _model is None:
-        import torch
-        from qwen_tts import Qwen3TTSModel
-
-        base = str(ADDON / "models" / "1.7B-Base")
-        try:
-            free, _ = torch.cuda.mem_get_info()
-            device = "cuda:0" if free > 5 * 1024**3 else "cpu"
-        except Exception:
-            device = "cpu"
-        print(f"loading {base} on {device} …")
-        _model = Qwen3TTSModel.from_pretrained(
-            base, device_map=device,
-            dtype=torch.bfloat16 if device.startswith("cuda") else torch.float32)
-        print("ready")
-    return _model
 
 
 def _finish_voice(voice_id: str, samples, sr: int) -> None:
@@ -368,7 +306,10 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/health":
-            self._json(200, {"ok": True, "loaded": _model is not None,
+            b = load_backend()
+            self._json(200, {"ok": True, "backend": b.NAME,
+                             "loaded": getattr(b, "_vc", None) is not None
+                                       or getattr(b, "_model", None) is not None,
                              "emotions": sorted(load_emotions().keys())})
             return
         if self.path.startswith("/rest/"):
@@ -416,7 +357,7 @@ class Handler(BaseHTTPRequestHandler):
             if got:
                 spoken, _ = split_speech(str(req.get("text", "")))
                 safe = re.sub(r"[^\w \-']", "", spoken)[:60].strip() or "line"
-                SPOKEN.mkdir(exist_ok=True)
+                SPOKEN.mkdir(parents=True, exist_ok=True)
                 sf.write(SPOKEN / f"{safe}.wav", got[0], got[1])
             self._json(200, {"kept": bool(got)})
         except Exception as e:
@@ -444,16 +385,18 @@ class Handler(BaseHTTPRequestHandler):
         # a sigh/chuckle/noticing sound can lead any register, laughter aside
         lead_sound = "" if laughs else pick_nonverbal(descriptor)
 
-        mood, ref = resolve_ref(mood)
-        reported = detected if laughs else mood
-        if not ref:
-            raise ValueError("no reference clips installed")
+        reported = detected
         gap = PACING.get(mood, DEFAULT_GAP)
         rate = RATE.get(mood, DEFAULT_RATE)
         pitch = PITCH.get(mood, DEFAULT_PITCH)
 
-        cache_key = hashlib.sha1(f"{mood}|{spoken}".encode()).hexdigest()[:16]
-        CACHE.mkdir(exist_ok=True)
+        # The backend name belongs in the key. The same line through RVC and
+        # through Qwen are two different recordings, and without it whichever
+        # rendered first would be served for both.
+        backend = load_backend()
+        cache_key = hashlib.sha1(
+            f"{backend.NAME}|{mood}|{spoken}".encode()).hexdigest()[:16]
+        CACHE.mkdir(parents=True, exist_ok=True)
         cached = CACHE / f"{cache_key}.wav"
         voice_id = uuid.uuid4().hex[:12]
 
@@ -472,27 +415,30 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         def synth_raw(t: str):
-            """One sentence; retry once so a hiccup never eats part of a line."""
+            """One sentence; retry once so a hiccup never eats part of a line.
+
+            Serialized: RVC chdir's into its own tree and neither backend is
+            safe to run twice at once."""
             last = None
             for _ in range(2):
                 try:
-                    with _model_lock:
-                        model = load_model()
-                        wavs, sr = model.generate_voice_clone(
-                            text=t, language="English",
-                            ref_audio=str(ADDON / ref["audio"]), ref_text=ref["text"])
-                    return wavs[0], sr
+                    with _backend_lock:
+                        return backend.synth(t, mood)
                 except Exception as e:
                     last = e
             raise last
 
-        def shape(s):
+        def shape(s, sr: int):
             """Pitch and tempo in one ffmpeg pass.
 
             Pitch is shifted by resampling (asetrate) and the resulting speed
             change is undone with atempo — cheaper and cleaner on speech than a
             phase-vocoder pitch shift, which is what made things sound robotic
-            before. Any failure returns the audio untouched."""
+            before. Any failure returns the audio untouched.
+
+            The rate is the BACKEND'S, passed in rather than assumed: Qwen
+            returns 24 kHz and RVC 40 kHz, and hardcoding either one transposes
+            the other by the ratio between them — a major sixth, in that case."""
             if abs(pitch - 1.0) < 0.005 and abs(rate - 1.0) < 0.005:
                 return s
             try:
@@ -504,7 +450,7 @@ class Handler(BaseHTTPRequestHandler):
                 # asetrate moves pitch AND speed by `pitch`; atempo restores the
                 # speed and then applies the register's own tempo on top
                 tempo = rate / pitch
-                chain = [f"asetrate=24000*{pitch:.4f}", "aresample=24000"]
+                chain = [f"asetrate={sr}*{pitch:.4f}", f"aresample={sr}"]
                 while tempo > 2.0:   # atempo only accepts 0.5-2.0 per stage
                     chain.append("atempo=2.0")
                     tempo /= 2.0
@@ -515,7 +461,7 @@ class Handler(BaseHTTPRequestHandler):
 
                 with tempfile.TemporaryDirectory() as td:
                     src, dst = Path(td) / "i.wav", Path(td) / "o.wav"
-                    sf2.write(src, np.asarray(s, dtype="float32"), 24000)
+                    sf2.write(src, np.asarray(s, dtype="float32"), sr)
                     subprocess.run([FFMPEG, "-y", "-v", "error", "-i", str(src),
                                     "-filter:a", ",".join(chain), str(dst)],
                                    check=True, timeout=60)
@@ -527,12 +473,12 @@ class Handler(BaseHTTPRequestHandler):
         def render(parts):
             """Sentence-by-sentence: short inputs keep her pacing natural and
             can't drop tails. Gap and tempo both come from the emotion."""
-            chunks, sr = [], 24000
+            chunks, sr = [], getattr(backend, "SR_HINT", 24000)
             for p in parts:
                 if not p.strip():
                     continue
                 s, sr = synth_raw(p.strip())
-                s = shape(trim_lead(np.asarray(s, dtype="float32"), sr))
+                s = shape(trim_lead(np.asarray(s, dtype="float32"), sr), sr)
                 chunks.append(s)
                 chunks.append(np.zeros(int(sr * gap), dtype=s.dtype))
             joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
@@ -540,39 +486,48 @@ class Handler(BaseHTTPRequestHandler):
             sf.write(buf, joined, sr, format="WAV")
             return buf.getvalue(), joined, sr
 
-        def real_sound(path: Path, speech, max_sec: float, gap: float):
+        def real_sound(path: Path, speech, sr: int, max_sec: float, gap: float):
             """One of her actual recordings, untouched — no cloning, no stretch.
 
-            Level-matched to the speech that follows: a real recording sitting
-            noticeably louder than the synthesis makes the synthesis sound
-            robotic by contrast, even when it's fine on its own."""
+            Resampled to the speech it will sit in front of. Her clips were cut
+            at whatever rate the episode had; splicing them onto 40 kHz output
+            without reconciling the two plays them fast and sharp.
+
+            Level-matched too: a real recording sitting noticeably louder than
+            the synthesis makes the synthesis sound robotic by contrast, even
+            when it's fine on its own."""
             y, lsr = sf.read(path)
             y = np.asarray(y, dtype="float32")
             if y.ndim > 1:
                 y = y.mean(axis=1)
             y = y[: int(lsr * max_sec)]
 
+            if lsr != sr and len(y):
+                n = int(round(len(y) * sr / lsr))
+                y = np.interp(np.linspace(0, len(y) - 1, n),
+                              np.arange(len(y)), y).astype("float32")
+
             lr, sr_ = float(np.sqrt(np.mean(y**2))), float(np.sqrt(np.mean(np.asarray(speech) ** 2)))
             if lr > 1e-6 and sr_ > 1e-6:
                 y *= min(3.0, max(0.33, sr_ / lr))
 
-            fade = int(lsr * 0.12)  # don't cut it off mid-breath
+            fade = int(sr * 0.12)  # don't cut it off mid-breath
             if len(y) > fade:
                 y[-fade:] *= np.linspace(1.0, 0.0, fade)
-            return np.concatenate([y, np.zeros(int(lsr * gap), dtype="float32")])
+            return np.concatenate([y, np.zeros(int(sr * gap), dtype="float32")])
 
         sentences = chunk_sentences(spoken, mood)
         first_wav, first_samples, sr0 = render(sentences[:1])
 
         lead = None
         if laughs:
-            lead = (ADDON / load_emotions()[LAUGH_ANCHOR]["audio"], LAUGH_MAX, LAUGH_GAP)
+            lead = (path_of(load_emotions()[LAUGH_ANCHOR]), LAUGH_MAX, LAUGH_GAP)
         elif lead_sound:
-            lead = (ADDON / load_nonverbal()[lead_sound]["audio"], NONVERBAL_MAX, NONVERBAL_GAP)
+            lead = (path_of(load_nonverbal()[lead_sound]), NONVERBAL_MAX, NONVERBAL_GAP)
         if lead:
             first_samples = np.asarray(first_samples, dtype="float32")
             first_samples = np.concatenate(
-                [real_sound(lead[0], first_samples, lead[1], lead[2]), first_samples])
+                [real_sound(lead[0], first_samples, sr0, lead[1], lead[2]), first_samples])
             buf = io.BytesIO()
             sf.write(buf, first_samples, sr0, format="WAV")
             first_wav = buf.getvalue()
@@ -616,5 +571,23 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print(f"Beni voice on :{PORT}  ({len(load_emotions())} emotion anchors)")
+    ap = argparse.ArgumentParser(description="Beni voice server")
+    ap.add_argument("--backend", default="rvc", choices=["rvc", "qwen"],
+                    help="rvc (default, fast) or qwen (dormant, slower)")
+    ap.add_argument("--warm", action="store_true",
+                    help="load the model at startup instead of on the first line")
+    args = ap.parse_args()
+
+    # Config in the RVC tree parses sys.argv itself and rejects flags it does
+    # not own, so our own arguments must be out of the way before it loads.
+    backend = load_backend(args.backend)
+    sys.argv = sys.argv[:1]
+
+    SPOKEN.mkdir(parents=True, exist_ok=True)
+    CACHE.mkdir(parents=True, exist_ok=True)
+
+    print(f"Beni voice on :{PORT}  backend={backend.NAME}  "
+          f"({len(load_emotions())} emotion anchors)")
+    if args.warm:
+        backend.load()
     ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
