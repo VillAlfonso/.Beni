@@ -124,7 +124,7 @@ export async function sealDay(
             (prior ? `What she wrote about them last time: "${prior}" ` : "") +
             "Write TWO entries.\n" +
             `"read" — what she makes of ${user} after today. Her honest private assessment, 2-4 sentences, in her voice. It must MATCH the closeness above without ever naming it, quoting a score, or explaining a system. If today went badly, it gets colder or sharper; warmth she hasn't earned must not appear. She never writes the words "guard", "bond", "level" or "tier".\n` +
-            `"world" — 2-4 sentences on everything else: how the fight and her place in it look to her tonight, how she's going about what she has to do next, and what ${user} is actually doing to her and to where this is all heading. Concrete, not abstract.\n` +
+            `"world" — 2-4 sentences on what ${user} is CHANGING. Cover both halves: what they're doing to her — her goals, what she wants, who she's becoming, what she'd have done differently without them — and what they're doing to the story around her: the fight, her missions, the other people in it, where all of it is now heading. Concrete and specific, naming actual things that happened. Not a mood summary.\n` +
             'Respond ONLY with JSON: {"read":"...","world":"..."}'
         },
         { role: "user", content: excerpt }

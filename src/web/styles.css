@@ -269,15 +269,21 @@ input, textarea, select { font: inherit; color: inherit; }
 .list-item .li-actions button:hover { color: var(--text); }
 
 /* ---------- her log ---------- */
-.log-day { border-left: 1px solid var(--line-strong); padding: 2px 0 2px 14px; margin-bottom: 20px; }
+.log-day { border-bottom: 1px solid var(--line); }
 .log-date {
-  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--ghost); margin-bottom: 10px;
+  width: 100%; display: flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--dim);
+  padding: 13px 2px; background: none; border: none; text-align: left; cursor: pointer;
 }
-.log-entry + .log-entry { margin-top: 12px; }
+.log-date:hover { color: var(--text); }
+.log-day.open .log-date { color: var(--text); }
+.log-caret { font-size: 9px; color: var(--ghost); width: 10px; }
+.log-body { padding: 0 2px 16px 18px; animation: rise 140ms ease-out; }
+.log-entry + .log-entry { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
 .log-entry .log-tag {
   font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.06em;
-  color: var(--ghost); display: block; margin-bottom: 4px;
+  color: var(--ghost); display: block; margin-bottom: 5px;
 }
 .log-entry p { font-size: 13px; line-height: 1.62; color: var(--text); }
 

@@ -244,6 +244,10 @@ export function MemoriesPanel() {
  */
 export function JournalPanel() {
   const { state, actions } = useStore();
+  // newest day open, the rest folded away — the log gets long fast
+  const [open, setOpen] = useState<string | null>(state.journal[0]?.id ?? null);
+  const newest = state.journal[0]?.id;
+
   return (
     <Panel title="Her log">
       {state.journal.length === 0 && (
@@ -252,19 +256,28 @@ export function JournalPanel() {
           story mode, the next real day otherwise. Or seal today now and see what she'd have put down.
         </p>
       )}
-      {state.journal.map((j) => (
-        <div className="log-day" key={j.id}>
-          <div className="log-date">{j.dayLabel}</div>
-          <div className="log-entry">
-            <span className="log-tag">on you</span>
-            <p>{j.read}</p>
+      {state.journal.map((j) => {
+        const isOpen = open === j.id || (open === null && j.id === newest);
+        return (
+          <div className={`log-day${isOpen ? " open" : ""}`} key={j.id}>
+            <button className="log-date" onClick={() => setOpen(isOpen ? "" : j.id)} aria-expanded={isOpen}>
+              <span className="log-caret">{isOpen ? "▾" : "▸"}</span>
+              {j.dayLabel}
+            </button>
+            {isOpen && (
+              <div className="log-body">
+                <div className="log-entry">
+                  <p>{j.read}</p>
+                </div>
+                <div className="log-entry">
+                  <span className="log-tag">what you're changing</span>
+                  <p>{j.world}</p>
+                </div>
+              </div>
+            )}
           </div>
-          <div className="log-entry">
-            <span className="log-tag">on everything else</span>
-            <p>{j.world}</p>
-          </div>
-        </div>
-      ))}
+        );
+      })}
       <div style={{ marginTop: 14 }}>
         <button className="btn quiet" disabled={state.journalBusy} onClick={() => void actions.sealToday()}>
           {state.journalBusy ? "she's writing…" : "seal today"}
