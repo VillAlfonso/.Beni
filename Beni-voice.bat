@@ -8,10 +8,14 @@ rem
 rem  Use Beni.bat instead if you also want the 24B model on the GPU.
 rem  Running both is fine — the voice falls back to CPU when the model
 rem  owns the card, which costs a few seconds per line.
+rem
+rem  NOTE: use start's /d switch for the working directory. Wrapping a
+rem  cd inside cmd /k "..." nests double quotes, which cmd mis-parses and
+rem  the window closes instantly.
 rem ============================================================
 cd /d "%~dp0"
-start "Beni - Voice" cmd /k "cd /d "%~dp0addons\tts" && .venv\Scripts\python.exe server.py"
-start "Beni - App" cmd /k npm start
+start "Beni - Voice" /d "%~dp0addons\tts" cmd /k .venv\Scripts\python.exe server.py
+start "Beni - App" /d "%~dp0" cmd /k npm start
 echo.
 echo  Two windows opened: Voice / App.
 echo    On this PC:  http://localhost:3001
