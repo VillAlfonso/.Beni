@@ -1,6 +1,6 @@
 // Pure functions over the canon timeline — no I/O, no DB. Everything takes its
 // data as arguments so tests run on fixtures and callers run on loadTimeline().
-import type { TimelineEpisode, Arc, Artifact, ArtifactOverride, WorldV2 } from "./types.js";
+import type { TimelineEpisode, Arc, Artifact, ArtifactOverride, WorldV2, GoalState } from "./types.js";
 
 export type DayEntry =
   | { episode: TimelineEpisode }
@@ -67,7 +67,7 @@ export function capabilitiesAsOf(day: number, artifacts: Artifact[], overrides: 
 
 /** Fresh world state for a chat starting at the START of an episode. */
 export function seedWorld(ep: TimelineEpisode, arc: Arc | null): WorldV2 {
-  const goals = ep.goals.map((g) => ({
+  const goals: GoalState[] = ep.goals.map((g) => ({
     id: g.id,
     who: g.who,
     text: g.text,
