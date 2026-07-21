@@ -8,6 +8,10 @@ import { pathToRoot } from "../core/tree.js";
 import { parseOpinion, parseWorld, loadStoryPressures } from "../prompt/builder.js";
 import { eligibilityFrom, tierOf, applyDelta } from "../prompt/bond.js";
 import { currentDay, sealDay } from "./journal.js";
+import { episodeEntry, allEpisodes, allArcs, allArtifacts } from "../timeline/load.js";
+import { entryFor, arcForEpisode, capabilitiesAsOf, advanceCursor, autoMiss } from "../timeline/state.js";
+import { parseWorldV2 } from "../timeline/world.js";
+import { mergeTick } from "../timeline/merge.js";
 
 const EVERY_N_MESSAGES = 8;
 const WINDOW = 12;
@@ -178,44 +182,84 @@ export async function maybeUpdateOpinion(db: Db, chatId: string): Promise<void> 
 
 const WORLD_WINDOW = 12;
 
+interface TickChatRow {
+  h: string | null;
+  mode: string;
+  stage_id: string;
+  story_episode: number | null;
+  world: string | null;
+}
+
 /**
- * Story-mode world ticker: after each exchange, advance the living timeline —
- * clock, watcher pressures, off-screen developments, divergence from canon.
+ * Story-mode world ticker: after each exchange, advance the living timeline.
+ * Chats on timeline-covered episodes get the canon-aware v2 tick (goal
+ * ledger, divergence ledger, custody overrides, code-owned rollover);
+ * chats on episodes without timeline data keep the original v1 behavior.
  * Fire-and-forget like the others.
  */
 export async function maybeTickWorld(db: Db, chatId: string): Promise<void> {
   try {
     const chat = db
       .prepare("SELECT head_message_id h, mode, stage_id, story_episode, world FROM chats WHERE id=?")
-      .get(chatId) as
-      | { h: string | null; mode: string; stage_id: string; story_episode: number | null; world: string | null }
-      | undefined;
+      .get(chatId) as TickChatRow | undefined;
     if (!chat?.h || chat.mode !== "story") return;
-    const world = parseWorld(chat.world);
+
+    if (!episodeEntry(chat.story_episode ?? 0)) return tickLegacy(db, chatId, chat);
+
+    const eps = allEpisodes();
+    const world = parseWorldV2(chat.world, chat.story_episode, eps);
     if (!world) return;
 
     const settings = getSettings(db);
-    const info = loadStoryPressures()[chat.stage_id];
+    const artifacts = allArtifacts();
+    const arc = arcForEpisode(world.cursor.episode, allArcs());
+    const caps = capabilitiesAsOf(world.cursor.day, artifacts, world.artifactOverrides);
+    const here = entryFor(world.cursor.day, eps);
+    const today = "episode" in here ? here.episode : null;
+    const upNext = "between" in here ? here.between[1] : eps.find((e) => e.no === world.cursor.episode + 1) ?? null;
+
     const path = pathToRoot(db, chat.h);
     const excerpt = path
       .slice(-WORLD_WINDOW)
       .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Player"}: ${m.content}`)
       .join("\n");
 
+    const canonBlock = today
+      ? `Today is Day ${world.cursor.day}, inside episode ${today.no} "${today.title}". ` +
+        `Canon rest-of-episode trajectory (bend it only when this timeline's events force it): ${today.outcome} ` +
+        `Other actors today: ${today.actors.map((a) => `${a.who} — ${a.doing}`).join(" | ")} ` +
+        `Quarton: ${today.quarton.situation}`
+      : `Today is Day ${world.cursor.day} — a free day between episodes; canon has nothing scheduled.` +
+        (upNext ? ` Next on canon's schedule: episode ${upNext.no} "${upNext.title}" beginning day ${upNext.days.start}.` : "");
+
+    const capsBlock = caps.length
+      ? `Powers in play (HARD constraints from artifact custody — nothing may violate these): ${caps
+          .map((c) => `${c.capability}: ${c.active ? "ACTIVE" : "unavailable"} (${c.why})`)
+          .join("; ")}`
+      : "";
+
+    const arcBlock = arc
+      ? `Era: ${arc.label}. Watchers: ${arc.watchers.map((w) => w.who).join(", ")}. Stakes: ${arc.stakes} ` +
+        `Actor motivations (adaptations must stay inside these): ${arc.actors.map((a) => `${a.who}: ${a.motivation}`).join(" | ")}`
+      : "";
+
     const raw = await completeChat(
       [
         {
           role: "system",
           content:
-            "You are the world-ticker for an alternate-timeline roleplay set inside the Tenkai Knights story, " +
-            `just after episode ${chat.story_episode}. Current world state: ${JSON.stringify(world)}. ` +
-            (info ? `Era pressures: busy=${info.busy} watchers=${info.watchers.map((w) => w.who).join(",")} stakes=${info.stakes} ` : "") +
-            "From the excerpt, update the state: advance clock only when scene time actually passes (day increments on explicit skips/sleep); " +
-            "raise a watcher's level when Beni neglects obligations or acts out of pattern, lower it when she covers her tracks; " +
-            "append at most 1-2 SHORT new events (things that happened, on-screen or plausibly off-screen); " +
-            "set divergence minor/major only when canon events are genuinely bent; keep 'beni' as one line on her condition/preoccupation. " +
-            "Be conservative — most exchanges change little. " +
-            'Respond ONLY with the full updated JSON, same shape: {"divergence":"none","clock":{"day":1,"timeOfDay":"afternoon"},"pressures":[{"who":"Gen","level":1,"note":""}],"events":["..."],"beni":"..."}'
+            "You are the world-ticker for an alternate-timeline roleplay inside the Tenkai Knights story. " +
+            `Current world state: ${JSON.stringify(world)}\n${canonBlock}\n${capsBlock}\n${arcBlock}\n` +
+            "From the excerpt, update the state. Rules:\n" +
+            "- Advance the clock only when scene time actually passes; the day increments only on explicit skips or sleep.\n" +
+            "- goals: change status/note ONLY (pending→done/missed/abandoned; missed→done when achieved late). Never remove or rewrite canon goals. You may add at most 1-2 NEW adaptation goals for NON-Beni actors, only as a reaction to a logged divergence, staying inside that actor's motivation.\n" +
+            "- If this timeline's events blocked or changed a canon event, append a divergence entry {day,what,effect,level} — choose the smallest plausible adaptation.\n" +
+            "- artifactOverrides (custody changes) are allowed ONLY together with a matching new divergence entry, and may never grant a power the constraints above mark unavailable.\n" +
+            "- events: append at most 1-2 SHORT new happenings (on-screen or plausibly off-screen).\n" +
+            "- pressures: raise a watcher when Beni neglects obligations or acts out of pattern; lower when she covers her tracks.\n" +
+            "- beni: one line on her condition/preoccupation.\n" +
+            "Be conservative — most exchanges change little.\n" +
+            "Respond ONLY with the full updated JSON, exactly the same shape as the current world state."
         },
         { role: "user", content: excerpt }
       ],
@@ -224,18 +268,82 @@ export async function maybeTickWorld(db: Db, chatId: string): Promise<void> {
         apiKey: settings.utility.apiKey,
         model: settings.utility.model,
         temperature: 0.2,
-        maxTokens: 350,
+        maxTokens: 600,
         topP: 0.9
       }
     );
     const match = raw.match(/\{[\s\S]*\}/);
     if (!match) return;
-    const next = parseWorld(match[0]);
-    if (!next) return;
-    // events only grow (the ticker may not rewrite history), capped by parseWorld
-    if (next.events.length < Math.min(world.events.length, 10)) next.events = [...world.events, ...next.events].slice(-12);
+    let proposed: unknown;
+    try {
+      proposed = JSON.parse(match[0]);
+    } catch {
+      return;
+    }
+
+    const merged = mergeTick(world, proposed, artifacts);
+    const advanced = advanceCursor(merged, eps);
+    const next = autoMiss(advanced.world);
+
     db.prepare("UPDATE chats SET world=? WHERE id=?").run(JSON.stringify(next), chatId);
+    if (advanced.entered.length > 0) {
+      const newest = advanced.entered[advanced.entered.length - 1];
+      db.prepare("UPDATE chats SET story_episode=?, episode_cap=?, updated_at=? WHERE id=?").run(
+        newest.no,
+        newest.no,
+        Date.now(),
+        chatId
+      );
+    }
   } catch (err) {
     console.warn("world tick skipped:", (err as Error).message);
   }
+}
+
+/** The original v1 ticker, kept for chats on episodes without timeline data. */
+async function tickLegacy(db: Db, chatId: string, chat: TickChatRow): Promise<void> {
+  const world = parseWorld(chat.world);
+  if (!world) return;
+
+  const settings = getSettings(db);
+  const info = loadStoryPressures()[chat.stage_id];
+  const path = pathToRoot(db, chat.h as string);
+  const excerpt = path
+    .slice(-WORLD_WINDOW)
+    .map((m) => `${m.role === "assistant" ? "Beni" : settings.userName || "Player"}: ${m.content}`)
+    .join("\n");
+
+  const raw = await completeChat(
+    [
+      {
+        role: "system",
+        content:
+          "You are the world-ticker for an alternate-timeline roleplay set inside the Tenkai Knights story, " +
+          `just after episode ${chat.story_episode}. Current world state: ${JSON.stringify(world)}. ` +
+          (info ? `Era pressures: busy=${info.busy} watchers=${info.watchers.map((w) => w.who).join(",")} stakes=${info.stakes} ` : "") +
+          "From the excerpt, update the state: advance clock only when scene time actually passes (day increments on explicit skips/sleep); " +
+          "raise a watcher's level when Beni neglects obligations or acts out of pattern, lower it when she covers her tracks; " +
+          "append at most 1-2 SHORT new events (things that happened, on-screen or plausibly off-screen); " +
+          "set divergence minor/major only when canon events are genuinely bent; keep 'beni' as one line on her condition/preoccupation. " +
+          "Be conservative — most exchanges change little. " +
+          'Respond ONLY with the full updated JSON, same shape: {"divergence":"none","clock":{"day":1,"timeOfDay":"afternoon"},"pressures":[{"who":"Gen","level":1,"note":""}],"events":["..."],"beni":"..."}'
+      },
+      { role: "user", content: excerpt }
+    ],
+    {
+      baseUrl: settings.utility.baseUrl,
+      apiKey: settings.utility.apiKey,
+      model: settings.utility.model,
+      temperature: 0.2,
+      maxTokens: 350,
+      topP: 0.9
+    }
+  );
+  const match = raw.match(/\{[\s\S]*\}/);
+  if (!match) return;
+  const next = parseWorld(match[0]);
+  if (!next) return;
+  // events only grow (the ticker may not rewrite history), capped by parseWorld
+  if (next.events.length < Math.min(world.events.length, 10)) next.events = [...world.events, ...next.events].slice(-12);
+  db.prepare("UPDATE chats SET world=? WHERE id=?").run(JSON.stringify(next), chatId);
 }
