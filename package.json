@@ -14,7 +14,7 @@
     "images": "tsx scripts/download-images.ts",
     "icons": "tsx scripts/make-icons.ts",
     "export-lora": "tsx scripts/export-lora-dataset.ts",
-    "test": "tsx --test src/server/core/tree.test.ts src/server/core/vector.test.ts src/server/core/chunker.test.ts src/server/timeline/load.test.ts src/server/timeline/state.test.ts",
+    "test": "tsx --test src/server/core/tree.test.ts src/server/core/vector.test.ts src/server/core/chunker.test.ts src/server/timeline/load.test.ts src/server/timeline/state.test.ts src/server/timeline/world.test.ts",
     "timeline:check": "tsx scripts/timeline-check.ts",
     "typecheck": "tsc --noEmit",
     "tunnel:quick": "tools\\cloudflared.exe tunnel --url http://localhost:3001"
