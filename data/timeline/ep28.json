@@ -1,0 +1,117 @@
+{
+  "no": 28,
+  "title": "Elemental Knights",
+  "days": {
+    "start": 54,
+    "end": 55,
+    "evidence": "Opens in direct continuation of ep 27's second battle (the naming ceremony follows it on the spot); Slyger tests the portal and stalks Guren that evening ('Okay, see you tomorrow, guys'), and the diner morning, portal-weapon hunt, deletion, and Quarton battle fill the next day.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "The new power has names now: Bravenwolf Tenkai Firestorm, Tributon Tenkai Ice Blast, Valorn Tenkai Terrablast, Lydendor Tenkai Lightning Strike — 'you were able to unlock the Dragon Cubes' full potential.' And Vilius has a working trans-dimensional portal to Earth: 'you are going to test it,' he tells Slyger. The war is about to knock on Benham's door.",
+    "beni": {
+      "where": "Benham City — off-screen at the episode's start; that night, her warehouse gains a very large houseguest",
+      "doing": "Rogue and unbothered — until Slyger arrives on Earth and she offers him a corner to crash in, strictly transactional",
+      "evidence": "ep28: 'It's okay with me if you want to hang out here for a while. Long as you don't snore or reek oil.' / 'Thank you, Venetta. Or should I call you Beni?'"
+    },
+    "firstContact": "*At the docks she leans on the railing, flicking pebbles into the gray water one by one, each throw a little sharper than the last. The city noise doesn't reach her, and neither do you.*"
+  },
+  "arcAtStart": "s2-vilius-agent",
+  "goals": [
+    {
+      "id": "ep28-beni-host-slyger",
+      "who": "Beni",
+      "text": "Take in the enemy's first Earth agent on her own terms: shelter and 'energy replenishment', zero intelligence — 'Just cause you're crashing here doesn't make us a team.' Standing with Vilius's side bought cheap, independence kept whole.",
+      "due": { "day": 55 },
+      "window": "repeatable-later",
+      "evidence": "ep28: Slyger: 'What do you know about the Tenkai Knights?' / Beni: 'Sorry, Slyger. You gotta get your own information.'"
+    },
+    {
+      "id": "ep28-slyger-earth-test",
+      "who": "Granox & Slyger",
+      "text": "Test Vilius's portal to Earth, blend in ('Replicating. Excellent, now I fit in perfectly'), find the Knights, and destroy them — ends with a portal-weapon deletion back to Quarton.",
+      "due": { "day": 55 },
+      "window": "episode",
+      "evidence": "ep28: Vilius: 'I have a trans-dimensional portal to this Earthworld, and you are going to test it.'"
+    },
+    {
+      "id": "ep28-portal-weapon",
+      "who": "Knights",
+      "text": "Survive being hunted as ordinary kids ('on Earth, we're just a bunch of kids'), keep Slyger running while Mr. White excavates the portal weapon Boreas once entrusted to him, and fire it on the second try.",
+      "due": { "day": 55 },
+      "window": "episode",
+      "evidence": "ep28: 'You place your core brick in here … and presto, any opponent from Quarton will be sent back through the portal.'"
+    },
+    {
+      "id": "ep28-corrupted-mining",
+      "who": "Vilius",
+      "text": "Keep the Corrupted digging 'deep within the mountain' — mining, or searching, for something the Corekai can't identify.",
+      "due": { "day": 57 },
+      "window": "repeatable-later",
+      "evidence": "ep28: Beag: 'Are they mining for something? Or searching for something. But what? We do not know.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Opens the warehouse door to Slyger, feeds him something that is 'not my usual diet', refuses the intel question flat, and lets him keep his core-brick sensor to himself in retaliation.",
+      "why": "A free agent assisting, not enlisting: goodwill with the winning-side's errand boy costs her nothing and commits her to nothing.",
+      "evidence": "ep28: Slyger: 'Then I guess I won't share my Core Bricks sensor with you.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Slyger takes the painful portal ride, sneers at Earth ('What a backward, puny species'), stalks Guren through the streets in disguise, and gets deleted back to Quarton — where he can still do the Titan Mode the Knights can't.",
+      "why": "'Should Granox fail me, you will travel to this other world. Find the Knights and destroy them!'",
+      "evidence": "ep28: Slyger: 'There's no place safe you can hide from me. Not anymore.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Get their Tenkai Legend names, discover what being hunted at home feels like, run Slyger ragged on foot and bike, and win the day twice — the portal-weapon shot on Earth, the elemental power-up on Quarton.",
+      "why": "'They know where we live now. And they know how to get here.'",
+      "evidence": "ep28: Mr. White: 'There's no place that's safe anymore.'"
+    },
+    {
+      "who": "Mr. White",
+      "doing": "Christens the Elemental Knights, then spring-cleans his own shop under Boreas's glare to find the portal weapon he was entrusted with ages ago.",
+      "why": "Boreas: 'That weapon could prove vital.'",
+      "evidence": "ep28: 'It was state-of-the-art technology at the time.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Operates the stolen Guardian portal like a weapons test — Slyger first, threats of 'painful' for questions — while his diggers work the mountain.",
+      "why": "The Earth front opens on his schedule now.",
+      "evidence": "ep28: 'Now that it seems Vilius has the Guardians under his control, he must have access to a trans-dimensional portal.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The war is two-front now: on Earth, a disguised Slyger hunts schoolboys until the portal weapon fires; on Quarton, the Corrupted attack with Slyger Titan-moded while the Knights answer with their new elemental attacks — and behind the lines, Corrupted excavators bore into a mountain after something unnamed.",
+    "evidence": "ep28: 'The Corrupted are up to something. And what's worse, Slyger is with them!'"
+  },
+  "artifacts": [
+    {
+      "item": "guardians-control",
+      "event": "the stolen transporter sees first offensive use — Slyger deployed to Earth through Vilius's trans-dimensional portal",
+      "evidence": "ep28: Mr. White: 'he and his minions can come and go as they wish.'"
+    },
+    {
+      "item": "shop-portal",
+      "event": "the portal weapon surfaces — Boreas's old gift to Mr. White, core-brick-charged, able to send any Quarton visitor back through the portal (five-minute recharge)",
+      "evidence": "ep28: 'And presto, any opponent from Quarton will be sent back through the portal.'"
+    }
+  ],
+  "outcome": "The Earth front is open: Vilius can deploy at will, the Knights own exactly one slow-charging counter, and 'there's no place that's safe anymore.' The Elemental Knights have their names and attacks. Slyger's first Earth tour ends deleted — after a night in a pink-haired landlady's warehouse that bought her quiet credit with the Corrupted and cost her nothing. The mountain dig continues.",
+  "recall": "The portal opened and the first thing it spat onto my planet was Slyger, four eyes and zero manners, suddenly very interested in somewhere to sleep. I let him have the warehouse corner. Fed him, even — he complained about the cuisine, which takes nerve from a robot eating for free. Then he asked what I know about the Tenkai Knights and I reminded him that crashing here doesn't make us a team. He sulked and hugged his little core-brick sensor like I'd wanted it. Please. By the next evening the boys had zapped him back to Quarton with some antique — heard him grumbling about it clear across the dimensions, probably. Worth it: Vilius's side now knows the rogue girl's door is open, rates reasonable, loyalty not included.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay (continuation of ep 27's battle afternoon)",
+      "the hosting scene falls on the night of Slyger's arrival",
+      "the hosting location is her warehouse ('Yes, this will do nicely' — space not named on screen)"
+    ],
+    "unknown": [
+      "what she knows of the Knights' new elemental powers at this point",
+      "whether Slyger returns to her warehouse after his deletion back to Quarton"
+    ]
+  }
+}
