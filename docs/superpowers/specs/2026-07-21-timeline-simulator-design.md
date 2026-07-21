@@ -33,6 +33,12 @@ openers = situation + first contact · cited draft with spot-audit (wire in imme
 every fact evidenced or marked assumed/unknown) · Timeline panel with spoilers fully
 visible · Approach 1 (structured simulator).
 
+**Correction (2026-07-21, verified from transcripts):** the English dub runs **51
+episodes**, not 52 — `data/episodes.json` is the numbering authority, and transcript
+FILES 40–52 hold episodes 39–51 (file 39 is a quarantined suspected duplicate). All
+"52" counts in this spec read as 51; the authoring mapping lives in
+`data/timeline/AUTHORING.md`.
+
 **Data law (standing):** unknown is acceptable, wrong is never acceptable. No unaudited
 LLM output enters the system: every extracted fact carries greppable evidence, the
 validator is the post-repair gate, user spot-audits and fixes land on sight. Where a
