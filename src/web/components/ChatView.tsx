@@ -193,18 +193,27 @@ export function ChatView() {
         <span className="title" onDoubleClick={rename} title="double-click to rename">{state.chat.title}</span>
         <span className="chip stage">{stage?.label ?? state.chat.stage_id}</span>
         <span className="chip">
-          {state.chat.mode === "story" ? `story · after ep ${state.chat.story_episode}` : `knows ≤ ep ${state.chat.episode_cap === 999 ? "end" : state.chat.episode_cap}`}
+          {state.chat.mode === "story" ? `story · ep ${state.chat.story_episode}` : `legacy · knows ≤ ep ${state.chat.episode_cap === 999 ? "end" : state.chat.episode_cap}`}
         </span>
         {/* what she thinks of you is deliberately NOT shown here — it lives in
             her log, in her words, and only once a day has closed */}
         {(() => {
           try {
             const w = JSON.parse((state.chat as { world?: string | null }).world || "");
-            if (w?.clock) {
+            const day = w?.cursor?.day ?? w?.clock?.day;
+            if (day) {
               const hot = (w.pressures ?? []).filter((p: { level: number }) => p.level >= 2).map((p: { who: string }) => p.who);
+              const div = Array.isArray(w?.divergence)
+                ? w.divergence.length ? ` · ${w.divergence.length} divergence` : ""
+                : w?.divergence !== "none" ? ` · ${w.divergence} divergence` : "";
               return (
-                <span className="chip" title={hot.length ? `watching closely: ${hot.join(", ")}` : "the world moves with or without you"}>
-                  day {w.clock.day}{w.divergence !== "none" ? ` · ${w.divergence} divergence` : ""}{hot.length ? " · ⚠" : ""}
+                <span
+                  className="chip"
+                  style={{ cursor: "pointer" }}
+                  title={hot.length ? `watching closely: ${hot.join(", ")} — tap for the timeline` : "tap for the timeline"}
+                  onClick={() => { void actions.loadTimeline(); actions.setPanel("timeline"); }}
+                >
+                  day {day}{div}{hot.length ? " · ⚠" : ""}
                 </span>
               );
             }
@@ -219,6 +228,9 @@ export function ChatView() {
         >⑂</button>
         {state.branchUi && (
           <button className="iconbtn" title="Checkpoints" onClick={() => actions.setPanel("checkpoints")}>⚑</button>
+        )}
+        {state.chat.mode === "story" && (
+          <button className="iconbtn" title="Timeline — the simulator's ledgers" onClick={() => { void actions.loadTimeline(); actions.setPanel("timeline"); }}>⧗</button>
         )}
         <button className="iconbtn" title="Memories" onClick={() => { void actions.loadMemories(); actions.setPanel("memories"); }}>✦</button>
         <button className="iconbtn" title="Her log" onClick={() => { void actions.loadJournal(); actions.setPanel("journal"); }}>❦</button>

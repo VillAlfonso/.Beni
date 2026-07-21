@@ -4,7 +4,7 @@ import { Sidebar } from "./components/Sidebar.js";
 import { ChatView } from "./components/ChatView.js";
 import { LoginGate } from "./components/LoginGate.js";
 import { NewChatModal } from "./components/NewChatModal.js";
-import { SettingsPanel, MemoriesPanel, CheckpointsPanel, OocPanel, JournalPanel } from "./components/Panels.js";
+import { SettingsPanel, MemoriesPanel, CheckpointsPanel, OocPanel, JournalPanel, TimelinePanel } from "./components/Panels.js";
 
 /**
  * Drag in from the right edge to open her log; drag it back off to close.
@@ -71,6 +71,7 @@ export function App() {
       {state.panel === "checkpoints" && <CheckpointsPanel />}
       {state.panel === "ooc" && <OocPanel />}
       {state.panel === "journal" && <JournalPanel />}
+      {state.panel === "timeline" && <TimelinePanel />}
     </div>
   );
 }

@@ -40,7 +40,7 @@ export function Sidebar() {
           >
             {c.forked_from && <span className="fork-mark" title="branched chat">⑂</span>}
             <span className="t">{c.title}</span>
-            <span className="cap">{c.mode === "story" ? `ep ${c.story_episode}` : `≤${c.episode_cap === 999 ? "end" : c.episode_cap}`}</span>
+            <span className="cap">{c.mode === "story" ? `ep ${c.story_episode}` : `legacy`}</span>
           </button>
         ))}
       </nav>

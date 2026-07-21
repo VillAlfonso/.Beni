@@ -71,6 +71,21 @@ export interface RetrievalMeta {
   memories: string[];
 }
 
+/** The per-chat simulation state served by GET /chats/:id/timeline. */
+export interface TimelineView {
+  covered: boolean;
+  cursor?: { day: number; timeOfDay: string; episode: number };
+  arc?: { id: string; label: string } | null;
+  episode?: { no: number; title: string; days: [number, number] } | null;
+  goals?: { id: string; who: string; text: string; status: string; due: number | null; au: boolean; note: string }[];
+  divergence?: { day: number; what: string; effect: string; level: string }[];
+  artifactCustody?: { item: string; name: string; holder: string; overridden: boolean }[];
+  capabilities?: { capability: string; active: boolean; why: string }[];
+  pressures?: { who: string; level: number; note: string }[];
+  events?: string[];
+  beni?: string;
+}
+
 interface State {
   auth: "unknown" | "ok" | "needed";
   chats: ChatSummary[];
@@ -83,9 +98,10 @@ interface State {
   episodes: Episode[];
   settings: Record<string, any> | null;
   streaming: { forChat: string; text: string; meta: RetrievalMeta | null; pendingUser: string | null } | null;
-  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat" | "ooc" | "journal";
+  panel: "none" | "settings" | "memories" | "checkpoints" | "newchat" | "ooc" | "journal" | "timeline";
   journal: JournalEntry[];
   journalBusy: boolean;
+  timeline: TimelineView | null;
   branchUi: boolean;
   sidebarOpen: boolean;
   /** Which message is being spoken, if any. Lives here rather than in Message
@@ -109,6 +125,7 @@ const initial: State = {
   panel: "none",
   journal: [],
   journalBusy: false,
+  timeline: null,
   branchUi: localStorage.getItem("beni.branchUi") === "1",
   sidebarOpen: false,
   speakingId: null,
@@ -130,6 +147,7 @@ type Action =
   | { type: "panel"; v: State["panel"] }
   | { type: "journal"; v: JournalEntry[] }
   | { type: "journalBusy"; v: boolean }
+  | { type: "timeline"; v: TimelineView | null }
   | { type: "branchUi"; v: boolean }
   | { type: "sidebar"; v: boolean }
   | { type: "speaking"; v: string | null }
@@ -151,6 +169,7 @@ function reducer(s: State, a: Action): State {
     case "panel": return { ...s, panel: a.v };
     case "journal": return { ...s, journal: a.v };
     case "journalBusy": return { ...s, journalBusy: a.v };
+    case "timeline": return { ...s, timeline: a.v };
     case "speaking": return { ...s, speakingId: a.v };
     case "branchUi": return { ...s, branchUi: a.v };
     case "sidebar": return { ...s, sidebarOpen: a.v };
@@ -339,6 +358,13 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
       const id = getState().activeId;
       if (!id) return;
       dispatch({ type: "journal", v: await api<JournalEntry[]>("GET", `/chats/${id}/journal`) });
+    },
+
+    loadTimeline: async () => {
+      const id = getState().activeId;
+      if (!id) return;
+      dispatch({ type: "timeline", v: null });
+      dispatch({ type: "timeline", v: await api<TimelineView>("GET", `/chats/${id}/timeline`) });
     },
 
     /** Close today's page by hand instead of waiting for the day to turn. */

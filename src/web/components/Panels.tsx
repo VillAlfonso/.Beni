@@ -322,3 +322,122 @@ export function CheckpointsPanel() {
     </Panel>
   );
 }
+
+const GOAL_MARK: Record<string, string> = { pending: "○", done: "●", missed: "✕", abandoned: "–" };
+
+/** The simulator's ledgers, spoilers fully visible — the director's view. */
+export function TimelinePanel() {
+  const { state } = useStore();
+  const t = state.timeline;
+  if (!t) {
+    return (
+      <Panel title="Timeline">
+        <p className="hint">Reading the world state…</p>
+      </Panel>
+    );
+  }
+
+  const goals = t.goals ?? [];
+  const beniGoals = goals.filter((g) => g.who === "Beni");
+  const otherGoals = goals.filter((g) => g.who !== "Beni");
+
+  return (
+    <Panel title="Timeline">
+      {t.cursor && (
+        <p style={{ fontWeight: 500 }}>
+          Day {t.cursor.day}, {t.cursor.timeOfDay}
+          {t.episode ? <> · Ep {t.episode.no} "{t.episode.title}" (days {t.episode.days[0]}–{t.episode.days[1]})</> : <> · between episodes</>}
+          {t.arc ? <> · {t.arc.label}</> : null}
+        </p>
+      )}
+      {!t.covered && (
+        <p className="hint">
+          This chat's current episode has no timeline data yet — the engine is running in synopsis mode.
+          Ledgers below reflect what is tracked.
+        </p>
+      )}
+      {t.beni && <p className="hint">Beni right now: {t.beni}</p>}
+
+      {beniGoals.length > 0 && (
+        <div className="field">
+          <label>Beni's missions</label>
+          {beniGoals.map((g) => (
+            <p key={g.id} style={{ margin: "4px 0" }}>
+              <span title={g.status}>{GOAL_MARK[g.status] ?? "?"}</span> {g.text}
+              {g.au ? <span className="hint"> · this timeline's own</span> : null}
+              {g.status === "missed" ? <span className="hint"> · canon moment passed — still possible</span> : null}
+              {g.note ? <span className="hint"> · {g.note}</span> : null}
+            </p>
+          ))}
+        </div>
+      )}
+
+      {otherGoals.length > 0 && (
+        <div className="field">
+          <label>Everyone else's moves</label>
+          {otherGoals.map((g) => (
+            <p key={g.id} style={{ margin: "4px 0" }}>
+              <span title={g.status}>{GOAL_MARK[g.status] ?? "?"}</span> <strong>{g.who}</strong> — {g.text}
+              {g.au ? <span className="hint"> · adaptation</span> : null}
+            </p>
+          ))}
+        </div>
+      )}
+
+      {(t.capabilities ?? []).length > 0 && (
+        <div className="field">
+          <label>Powers in play</label>
+          {t.capabilities!.map((c) => (
+            <p key={c.capability} style={{ margin: "4px 0" }}>
+              {c.active ? "▲" : "▽"} {c.capability} — <span className="hint">{c.why}</span>
+            </p>
+          ))}
+        </div>
+      )}
+
+      {(t.artifactCustody ?? []).length > 0 && (
+        <div className="field">
+          <label>Who holds what</label>
+          {t.artifactCustody!.map((a) => (
+            <p key={a.item} style={{ margin: "4px 0" }}>
+              {a.name}: <strong>{a.holder}</strong>
+              {a.overridden ? <span className="hint"> · DIVERGED from canon</span> : null}
+            </p>
+          ))}
+        </div>
+      )}
+
+      <div className="field">
+        <label>Divergence from canon</label>
+        {(t.divergence ?? []).length === 0 ? (
+          <p className="hint">None — this timeline still tracks the show.</p>
+        ) : (
+          t.divergence!.map((d, i) => (
+            <p key={i} style={{ margin: "4px 0" }}>
+              Day {d.day} <span className="hint">({d.level})</span>: {d.what}
+              {d.effect ? <span className="hint"> → {d.effect}</span> : null}
+            </p>
+          ))
+        )}
+      </div>
+
+      {(t.pressures ?? []).length > 0 && (
+        <div className="field">
+          <label>Watchers (0 calm → 3 acting on it)</label>
+          <p style={{ margin: "4px 0" }}>
+            {t.pressures!.map((p) => `${p.who} ${p.level}/3${p.note ? ` (${p.note})` : ""}`).join(" · ")}
+          </p>
+        </div>
+      )}
+
+      {(t.events ?? []).length > 0 && (
+        <div className="field">
+          <label>What has happened in this timeline</label>
+          {t.events!.map((e, i) => (
+            <p key={i} className="hint" style={{ margin: "3px 0" }}>— {e}</p>
+          ))}
+        </div>
+      )}
+    </Panel>
+  );
+}
