@@ -55,10 +55,17 @@
       },
       {
         "fromDay": 44,
-        "toDay": null,
+        "toDay": 45,
         "holder": "Gen/Dromus",
-        "how": "Unsealed on the tower roof by the Knights' core bricks (ep 23, night of day 44), then seized by Dromus under Eurus's time-freeze. LOSS PENDING AUTHORING: used/lost around the eps-25–26 Dragon awakening ('I'm not the klutz who managed to lose the Black Dragon Key!') — span will be closed when those days are authored.",
-        "evidence": "ep23: Gen: 'This belongs to me. Thanks for holding it.'; analysis--arc-3 <!--ep:26-->: Beni's jab about losing it"
+        "how": "Unsealed on the tower roof by the Knights' core bricks (ep 23, night of day 44), then seized by Dromus under Eurus's time-freeze.",
+        "evidence": "ep23: Gen: 'This belongs to me. Thanks for holding it.'"
+      },
+      {
+        "fromDay": 46,
+        "toDay": null,
+        "holder": "Vilius",
+        "how": "Seized from the mutinous Dromus with one blast during the fortress battle (ep 25) and used at once to wake the Dragon dark. FATE PENDING AUTHORING: the Key's whereabouts after the ep-26 Dragon battle ('I'm not the klutz who managed to lose the Black Dragon Key!' — her jab at Gen) will close this span when arc 3 days are authored.",
+        "evidence": "ep25: Vilius: 'You hold only the means to power. Not power itself.' / 'Awaken, Dragon! Vilius commands you!'"
       }
     ],
     "rules": []
@@ -100,10 +107,46 @@
     "custody": [
       {
         "fromDay": 1,
-        "toDay": null,
+        "toDay": 12,
         "holder": "Not yet assembled",
-        "how": "Awakened ep 13 and immediately captured by Dromus's trap; held in the Corrupted HQ inside a containment sphere through arc 2; awakened EVIL at the arc-2/3 boundary, seized by Vilius, and defeated with him (ep 26); revived by Vilius late in arc 5. Spans will be split as episode days are authored.",
-        "evidence": "analysis--arc-1 <!--ep:13-->: 'the Dragon is captured, transported to the Corrupted headquarters'; ep14 [quarton] Gen: 'And the Tenkai Dragon is still secure? Yes.'; analysis--arc-3 <!--ep:26-->: 'The awakened Dragon emerged EVIL; Vilius seized its power'"
+        "how": "Exists only as the five scattered Dragon Cubes until the ep-13 awakening (day per the arc-1 one-day-per-episode anchor assumption).",
+        "evidence": "analysis--arc-1 <!--ep:2-->: 'split into five Dragon Cubes scattered across Quarton'"
+      },
+      {
+        "fromDay": 13,
+        "toDay": 45,
+        "holder": "Corrupted HQ (captured, contained)",
+        "how": "Awakened ep 13 and immediately captured by Dromus's trap; held inside a containment sphere spun from its own energy while Dromus taps its power.",
+        "evidence": "analysis--arc-1 <!--ep:13-->: 'the Dragon is captured, transported to the Corrupted headquarters'; ep14: 'The beast has built its own cage.'"
+      },
+      {
+        "fromDay": 46,
+        "toDay": null,
+        "holder": "Vilius",
+        "how": "Revived DARK by the Black Key in Vilius's hand (ep 25); under his command. FATE PENDING AUTHORING: defeated with Vilius in ep 26 — span closes when arc 3 days are authored.",
+        "evidence": "ep25: 'Awaken, Dragon! Vilius commands you!'; analysis--arc-3 <!--ep:26-->: 'The Knights defeat the evil Tenkai Dragon and Vilius with it'"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "reassembly-device",
+    "name": "The Corrupted's Reassembly Device",
+    "grants": ["Repair and redeploy Corrupted fighters that have been damaged or even destroyed"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": 45,
+        "holder": "Corrupted",
+        "how": "The chamber inside the fortress that rebuilds Vilius's fighters after every defeat — the reason Granox and Slyger never stay beaten.",
+        "evidence": "ep24: Beag: 'the Reassembly Device, which the Corrupted use to repair and redeploy fighters that have been damaged or even destroyed.'"
+      },
+      {
+        "fromDay": 46,
+        "toDay": null,
+        "holder": "Destroyed",
+        "how": "Wrecked by Valorn and Lydendor during the fortress assault (ep 25).",
+        "evidence": "ep25: 'You are currently standing in it. This chamber is the reassembly device.' / 'And you can't be reassembled. So there.'"
       }
     ],
     "rules": []

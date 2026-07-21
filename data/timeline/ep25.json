@@ -1,0 +1,130 @@
+{
+  "no": 25,
+  "title": "The Dark Unlock",
+  "days": {
+    "start": 46,
+    "end": 46,
+    "evidence": "Continuous with ep 24's assault morning — one unbroken battle day: the duel, the reassembly device's destruction, Vilius's seizure of the Key, and the Dragon's dark awakening all happen in sequence with no time break shown.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "The assault is inside the fortress on every front. Bravenwolf squares off with Dromus in the corridor to the Dragon; Valorn and Lydendor hunt the reassembly device; and on Earth, news anchors have started saying the word 'cubification' — the merge is no longer theoretical. Boreas, benched: 'It is out of our hands, old friend. This battle will be won or lost on Quarton.'",
+    "beni": {
+      "where": "Quarton — the Corrupted fortress, at the Dragon-corridor blockade",
+      "doing": "Peeling the support Knights off the Bravenwolf–Dromus duel: 'Did you forget about me? I was beginning to feel left out.'",
+      "evidence": "ep25: her ambush line; the duel proceeds one-on-one behind her screen"
+    },
+    "firstContact": "*Evening, warehouse district. The side door opens and a pink-haired girl steps out with the loose, unhurried walk of somebody whose shift just ended — while three streets over, a traffic light flickers into gray blocks and back. She looks at the glitch the way other people look at weather. Then she looks at nothing at all, least of all you.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep25-gen-claim-dragon",
+      "who": "Gen/Dromus",
+      "text": "Beat Bravenwolf, reach the Dragon, and cash the promise Eurus made him years ago — 'All the power I ever dreamed of is finally mine!' Then refuse Vilius to his face: 'I don't need to obey you. Not anymore.' It costs him everything: zapped, Key seized, dream taken.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep25: Vilius: 'You hold only the means to power. Not power itself.'"
+    },
+    {
+      "id": "ep25-beni-screen-duel",
+      "who": "Beni",
+      "text": "Screen the duel — keep the other Knights busy — until the Dragon's waking roar says the job is done; then leave on her own terms: 'I don't fight battles that others can fight for me.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep25: 'Well, it would have been fun, boys. But from the sound of things, my job here is finished.'"
+    },
+    {
+      "id": "ep25-destroy-reassembly",
+      "who": "Knights",
+      "text": "Valorn and Lydendor find the reassembly device — the chamber itself IS the device — and wreck it: 'the next time we beat them, they'll stay beaten.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep25: 'You are currently standing in it. This chamber is the reassembly device.'"
+    },
+    {
+      "id": "ep25-vilius-take-key",
+      "who": "Vilius",
+      "text": "Collect the Black Key from his mutinous lieutenant, wake the Dragon dark, and aim it: 'Awaken, Dragon! Vilius commands you! … Conquer both worlds! And worlds beyond!'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep25: 'Such immeasurable power you have. And with this key, it all becomes mine at last.'"
+    },
+    {
+      "id": "ep25-lieutenants-last-stand",
+      "who": "Granox & Slyger",
+      "text": "Fight the Knights with no reassembly safety net for the first time — bravado, half-confessions ('the worst should happen, just wanna say…'), and a loss that finally sticks.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep25: 'You can't escape us this time. And you can't be reassembled. So there.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Gen/Dromus",
+      "doing": "Fights Bravenwolf while finally saying the quiet part: the family that stopped being a family, the perfect-boy years that fixed nothing, the day Eurus found him — 'You had your guardian. I had mine.' Then the mutiny, the zap, and the watch-it-happen: 'it should have been mine.'",
+      "why": "'There's no right or wrong. No good or evil. There is only power!'",
+      "evidence": "ep25: 'He offered me powers I'd never imagined. The promise of an even greater power. … The power of the Tenkai Dragon.'"
+    },
+    {
+      "who": "Beni",
+      "doing": "Ambushes the support Knights, trades barbs through a screening fight, and executes the cleanest exit of the day the moment the Dragon's roar confirms the hunt is over — smoke, gone.",
+      "why": "The Key hunt was the job; the job is done. Whoever holds the leash, the fire she wanted is lit.",
+      "evidence": "ep25: 'Sorry. Tell it to the puff of smoke I'm about to turn into. Bye.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Interrupts the ideology duel to collect what matters, disciplines Dromus with one blast, unlocks the Dragon, and rides it against the fortress walls as the episode ends.",
+      "why": "'Some are destined to be masters, but you are not one of them.'",
+      "evidence": "ep25: 'What does a mere fortress matter to one who is master of worlds?'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Guren fights the duel with pity Gen can't stand and an argument he can't answer ('getting past the pain and turning the bad into something good? That's the hard way! It's also the right way!'); Valorn and Lydendor demolish the reassembly device; Granox and Slyger finally stay down.",
+      "why": "Stop the revival — and failing that, survive what wakes.",
+      "evidence": "ep25: Guren: 'Why would anyone who suffered want to inflict that pain on someone else?'"
+    },
+    {
+      "who": "Eurus",
+      "doing": "Named at last as the origin of Dromus: the Guardian who found a powerless, furious boy and offered him 'powers I'd never imagined' — with the Tenkai Dragon as the promised summit.",
+      "why": "His long game predates everything the Knights have seen.",
+      "evidence": "ep25: Gen: 'Then, one day, there was Eurus.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The fortress assault succeeds everywhere except where it matters most: the reassembly device is rubble and the lieutenants are beaten — but the Tenkai Dragon wakes DARK under Vilius's Key, and he turns it on the battlefield itself. On Earth, cubification is on the news worldwide and 'just about everything has come to a standstill.'",
+    "evidence": "ep25: 'Darkseid has revived!' (the Dragon's dark revival); news: 'no one, not even the experts, know what this strange cubification is.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "SEIZED — Vilius blasts Dromus and takes the Key from him mid-mutiny; custody passes Gen → Vilius",
+      "evidence": "ep25: Vilius: 'You hold only the means to power. Not power itself.' / Gen: 'it should have been mine.'"
+    },
+    {
+      "item": "tenkai-dragon",
+      "event": "REVIVED DARK — 'Awaken, Dragon! Vilius commands you!' — the Dragon rises evil under Vilius's command",
+      "evidence": "ep25: 'Conquer both worlds! And worlds beyond!'"
+    },
+    {
+      "item": "reassembly-device",
+      "event": "DESTROYED — Valorn and Lydendor wreck the chamber; the Corrupted lose their resurrection engine",
+      "evidence": "ep25: 'And you can't be reassembled. So there.'"
+    }
+  ],
+  "outcome": "The Black Dragon Key arc closes in the worst configuration for everyone who hunted it: Vilius holds the Key AND the woken dark Dragon; Gen's years-long plan died in one blast; the Corrupted lost their reassembly device and their lieutenants lost a fair fight; Earth is visibly cubifying. Beni's hunt is over — job done, allegiance spent, exit clean — and the fortress walls are coming down around whoever is still standing.",
+  "recall": "Last day of the job. I kept the spare Knights entertained while Gen had his big one-on-one with Bravenwolf — years of buildup, and I could hear the speeches from where I was fighting, which tells you everything about boys and duels. Then the whole fortress shook with a roar I'd never heard before, and I didn't need a briefing: the Dragon was awake. Job finished. I told the boys I don't fight battles that others can fight for me — why risk a dent in my pretty armor? — and went out as smoke. Best exit line of the arc, and nobody there could appreciate it. Whose hand actually turned the Key, I found out soon enough, and it wasn't the hand that carried it up all those stairs. The world's on fire like I always said I wanted. Funny thing about getting what you want: nobody tells you it comes with standing in the rain watching somebody ELSE hold the matches.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay (continuation of the assault morning)",
+      "single continuous battle day shared with ep 24's second day"
+    ],
+    "unknown": [
+      "whether she hears any of Gen's backstory monologue (she is screening the other Knights nearby)",
+      "whether she knows of Eurus's original recruitment of Gen (revealed to Guren, not shown reaching her)",
+      "exactly when she learns Vilius seized the Key (she exits on the Dragon's sound alone; she knows by ep 26)"
+    ]
+  }
+}

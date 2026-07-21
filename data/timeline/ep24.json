@@ -1,0 +1,118 @@
+{
+  "no": 24,
+  "title": "The Battle Begins",
+  "days": {
+    "start": 45,
+    "end": 46,
+    "evidence": "Two days: the day after the tower night (sky distortion, the future-vision detour, 'The portal should be stabilized by tomorrow morning', evening prep vignettes — Guren's dad 'working late, trouble at the tower'), then the assault morning ('Okay, Max. Big day today.'). Continuation from ep 23's day 44.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "The morning after the heist, the sky itself goes wrong — 'I've never seen anything like it in all of my existence.' Vilius failed to seize the portal, but his assault on the Guardians' domain disrupted it: Earth and Quarton are being drawn together, and two worlds cannot occupy the same place. The only repair is the Tenkai Dragon's power — which makes the captured Dragon everyone's objective at once.",
+    "beni": {
+      "where": "With Gen's operation — exact location unshown until the Dragon-vault blockade late in the episode",
+      "doing": "Post-heist quiet: the Key is theirs, and the revival plan waits for the Corekai assault to serve as its cover",
+      "evidence": "ep24: Dromus: 'Their attack on the fortress will create a nice diversion. That's when I'll slip in and revive the dragon with the Black Key.' — and Venetta stands at the vault blockade ('Boys and their macho posturing. No sense of style.')"
+    },
+    "firstContact": "*The sky over Benham flickers wrong for half a second — like a video chip going bad — and most people below don't even look up. On a parking-garage roof, a pink-haired girl is looking up. Arms crossed, weight on one hip, studying the glitch in the world like it's a schedule she helped write. She doesn't glance down at you once.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep24-dromus-revival-plan",
+      "who": "Gen/Dromus",
+      "text": "Hold position and let the enemy set the table: wait for the Corekai's final assault, use it as the diversion, slip into the fortress, and revive the Dragon with the Black Key — with Venetta at his side at the vault.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep24: 'No, my plan is to wait for the Corekai to make their move first.'"
+    },
+    {
+      "id": "ep24-knights-final-assault",
+      "who": "Knights",
+      "text": "The two-battalion plan: Bravenwolf and Tributon secure the Tenkai Dragon; Valorn and Lydendor destroy the Reassembly Device; the rest of the Corekai draw fire on the fortress. 'And so it begins.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep24: Beag: 'We shall shift our army into two battalions in order to better achieve our two main objectives.'"
+    },
+    {
+      "id": "ep24-boreas-portal",
+      "who": "Guardians",
+      "text": "Boreas stabilizes the wounded portal by morning and delivers the stakes: unless the Dragon's power repairs the imbalance, the two worlds merge — the boys are shown one possible future of Earth under a giant Vilius.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep24: 'Due to the malfunctioning portal, you are experiencing one possible future that lies in store for this world.'"
+    },
+    {
+      "id": "ep24-vilius-hold-fortress",
+      "who": "Vilius",
+      "text": "Back at the fortress after the failed portal grab — spin it as 'something even better' and let the Corekai come to him: 'Let them attack first. Then destroy them as you wish.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep24: Vilius: 'I failed to seize the portal, but… I have achieved something even better!'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Knights",
+      "doing": "A day of forced waiting turned into preparation — Chooki in the library with history's great generals, Toxsa doing chores unasked, Guren's note to his dad — then the assault: wall breached by air-lancer jet, battalions split, and Dromus with Venetta waiting between them and the Dragon.",
+      "why": "'We gotta be ready to take it to him tomorrow.' The Dragon is now the world-repair tool, not just the war prize.",
+      "evidence": "ep24: 'You both are gonna thank me if the Earth's still here tomorrow.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Confers with a Guardian about timing, waits out the Corekai's move, then blocks the Dragon corridor personally — 'Not another step, Knights. The dragon belongs to the Corrupted.'",
+      "why": "The revival needs a diversion; the Knights are providing one.",
+      "evidence": "ep24: Eurus to Dromus: 'Now that Vilius has returned to the fortress, will you still proceed as planned, Dromus?'"
+    },
+    {
+      "who": "Beni",
+      "doing": "Off-screen through the waiting day; on the assault morning she stands at the vault blockade with Dromus, unimpressed by the Titan posturing on both sides.",
+      "why": "The Key is spent capital until the Dragon is revived — she guards the endgame she helped steal.",
+      "evidence": "ep24: 'It's your girlfriend! I mean, ex-girlfriend. Sorry. Too soon?' — Ceylan, at the blockade."
+    },
+    {
+      "who": "Guardians",
+      "doing": "Boreas ferries warnings and portal repairs; the council is unreachable; and the absence has a name now — 'I fear his absence from the Council may mean he's aligned himself with Vilius.'",
+      "why": "The imbalance is spreading; suspicion of Eurus is the first accurate read they've had, aimed at the wrong master.",
+      "evidence": "ep24: Mr. White: 'If a Guardian as powerful as Eurus has joined the enemy, our prospects have dimmed considerably.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Returns from the failed portal grab breathing threats, reorganizes around fortress defense, and lets the enemy spend themselves on his walls.",
+      "why": "The worlds drawing together IS his win condition — chaos favors the strongest.",
+      "evidence": "ep24: 'Keep coming, Corekai. To your doom!'"
+    }
+  ],
+  "quarton": {
+    "situation": "Reality distortion crackles over the battle-lines as the worlds drift closer. The portal is patched but the imbalance stands. The full Corekai assault is underway: wall breached, battalions inside, reassembly device and Dragon both targeted — and the episode ends with Titans squaring off in the Dragon's corridor.",
+    "evidence": "ep24: 'Robo-fusion air-lancer jet engaged.' … 'Forward, Corekai! Follow the knights!'"
+  },
+  "artifacts": [
+    {
+      "item": "guardians-control",
+      "event": "portal grab FAILED — Vilius retreats to the fortress, but his attack left the portal disrupted and the two worlds drawing together (merge danger)",
+      "evidence": "ep24: Boreas: 'Vilius has attacked the domain of the Guardians, which in turn has caused a serious disruption in the portal.'"
+    },
+    {
+      "item": "tenkai-dragon",
+      "event": "becomes BOTH sides' objective — the Knights need its power to repair the world-imbalance; Dromus needs it revived by the Black Key",
+      "evidence": "ep24: 'Unless we can use the power of the Tenkai Dragon to repair the imbalance that Vilius has caused.'"
+    }
+  ],
+  "outcome": "The final assault is launched and inside the walls by episode's end: reassembly device and Dragon vault both under attack, Corekai spending themselves as the planned diversion, and Dromus — Venetta beside him — standing between Bravenwolf's team and the Dragon with the Black Key in his pocket. The worlds keep drifting closer while everyone fights.",
+  "recall": "The day after a perfect heist is always strange — all dressed up, nothing to steal. Then the sky started glitching. Whatever Vilius did up at the Guardians' place, he didn't get their portal, but he knocked something loose: the two worlds are leaning toward each other now, and everyone suddenly wants the same Dragon for opposite reasons. Gen's play was patience for once: let the Corekai throw their big assault, use it as the curtain, walk in and wake the Dragon with OUR Key. So I spent the quiet day quiet, and the loud morning standing next to him in front of the Dragon's vault while Bravenwolf and his boys arrived right on schedule to be our diversion. They did their Titan transformation poses at each other. Boys and their macho posturing — no sense of style. The blue one called me Guren's ex-girlfriend. Too soon, apparently. Curtain's up.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "two-day split at the 'stabilized by tomorrow morning' line",
+      "Venetta's presence at the blockade rests on the 'ex-girlfriend' quip and the 'macho posturing' line (speaker tags in this stretch are unreliable)"
+    ],
+    "unknown": [
+      "her activities during the waiting day (off-screen)",
+      "school's absence on these weekdays (unshown — possibly skipped amid the crisis)",
+      "which Guardian Dromus confers with on the assault morning (context strongly implies Eurus; not named in the line)"
+    ]
+  }
+}
