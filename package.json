@@ -16,6 +16,7 @@
     "export-lora": "tsx scripts/export-lora-dataset.ts",
     "test": "tsx --test src/server/core/tree.test.ts src/server/core/vector.test.ts src/server/core/chunker.test.ts src/server/timeline/load.test.ts src/server/timeline/state.test.ts src/server/timeline/world.test.ts src/server/timeline/merge.test.ts",
     "timeline:check": "tsx scripts/timeline-check.ts",
+    "ingest:recall": "tsx scripts/ingest-recall.ts",
     "typecheck": "tsc --noEmit",
     "tunnel:quick": "tools\\cloudflared.exe tunnel --url http://localhost:3001"
   },

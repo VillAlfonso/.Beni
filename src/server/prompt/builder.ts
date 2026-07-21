@@ -96,12 +96,16 @@ export interface StageStoryInfo {
   watchers: StoryPressure[];
   stakes: string;
 }
+/**
+ * Era pressures by stage id, derived from the timeline's arc dossiers.
+ * (story-pressures.json is retired — arcs.json is the single source of truth.)
+ */
 export function loadStoryPressures(): Record<string, StageStoryInfo> {
-  try {
-    return JSON.parse(fs.readFileSync(path.join(CHAR_DIR, "story-pressures.json"), "utf8")) as Record<string, StageStoryInfo>;
-  } catch {
-    return {};
+  const out: Record<string, StageStoryInfo> = {};
+  for (const arc of allArcs()) {
+    out[arc.id] = { busy: arc.busy, watchers: arc.watchers, stakes: arc.stakes };
   }
+  return out;
 }
 
 export interface WorldState {
