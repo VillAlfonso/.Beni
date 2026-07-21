@@ -65,6 +65,62 @@ export function capabilitiesAsOf(day: number, artifacts: Artifact[], overrides: 
   return out;
 }
 
+/**
+ * Code-owned rollover: after the tick moves the day, advance the episode
+ * cursor through every episode whose start day has been reached. Gap days
+ * between episodes are free days — the cursor stays on the finished episode
+ * until the next one's start day arrives. Entering an episode appends its
+ * canon goals (merge-only) and an event line.
+ */
+export function advanceCursor(world: WorldV2, eps: TimelineEpisode[]): { world: WorldV2; entered: TimelineEpisode[] } {
+  const entered: TimelineEpisode[] = [];
+  let cur = eps.find((e) => e.no === world.cursor.episode);
+  let w = world;
+  while (cur) {
+    const c = cur;
+    const next = eps.find((e) => e.no === c.no + 1);
+    if (!next || w.cursor.day <= c.days.end || w.cursor.day < next.days.start) break;
+    const fresh: GoalState[] = next.goals
+      .filter((g) => !w.goals.some((x) => x.id === g.id))
+      .map((g) => ({ id: g.id, who: g.who, text: g.text, status: "pending" as const, due: g.due.day, au: false, note: "" }));
+    w = {
+      ...w,
+      cursor: { ...w.cursor, episode: next.no },
+      goals: [...w.goals, ...fresh],
+      events: [...w.events, `— Episode ${next.no}, "${next.title}" begins (Day ${next.days.start})`].slice(-12)
+    };
+    entered.push(next);
+    cur = next;
+  }
+  return { world: w, entered };
+}
+
+/**
+ * Canon goals whose due day has passed while still pending become `missed`,
+ * each drafting a divergence entry for the tick to narrate consequences of.
+ * Arc-long goals (due null) and AU adaptation goals are never auto-missed.
+ * A missed goal REMAINS attemptable later — that is the adaptability rule.
+ */
+export function autoMiss(world: WorldV2): WorldV2 {
+  const newlyMissed: string[] = [];
+  const goals = world.goals.map((g) => {
+    if (g.status !== "pending" || g.au || g.due === null || world.cursor.day <= g.due) return g;
+    newlyMissed.push(`Canon expected: ${g.text} (by day ${g.due}) — didn't happen`);
+    return { ...g, status: "missed" as const, note: g.note || `canon window (day ${g.due}) passed` };
+  });
+  if (newlyMissed.length === 0) return world;
+  const divergence = [
+    ...world.divergence,
+    ...newlyMissed.map((what) => ({
+      day: world.cursor.day,
+      what,
+      effect: "consequences pending",
+      level: "minor" as const
+    }))
+  ].slice(-20);
+  return { ...world, goals, divergence };
+}
+
 /** Fresh world state for a chat starting at the START of an episode. */
 export function seedWorld(ep: TimelineEpisode, arc: Arc | null): WorldV2 {
   const goals: GoalState[] = ep.goals.map((g) => ({

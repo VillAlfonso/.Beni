@@ -1,7 +1,21 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { entryFor, arcForEpisode, custodyAsOf, capabilitiesAsOf, seedWorld } from "./state.js";
+import { entryFor, arcForEpisode, custodyAsOf, capabilitiesAsOf, seedWorld, advanceCursor, autoMiss } from "./state.js";
 import { ep, FX_ARTIFACTS, FX_ARC } from "./fixtures.test.js";
+import type { WorldV2 } from "./types.js";
+
+function world(day: number, episode: number, extra: Partial<WorldV2> = {}): WorldV2 {
+  return {
+    cursor: { day, timeOfDay: "morning", episode },
+    goals: [],
+    divergence: [],
+    artifactOverrides: [],
+    pressures: [],
+    events: [],
+    beni: "",
+    ...extra
+  };
+}
 
 const EPS = [ep(14, 1, 1), ep(15, 2, 3), ep(16, 6, 6)]; // gap: days 4–5
 
@@ -70,4 +84,77 @@ test("seedWorld without arc still works", () => {
   assert.equal(w.cursor.episode, 3);
   assert.equal(w.goals.length, 0);
   assert.equal(w.pressures.length, 0);
+});
+
+// ---- rollover ----
+
+const ROLL_EPS = [
+  ep(14, 1, 1),
+  ep(15, 2, 3, { goals: [{ id: "g15", who: "Beni", text: "x", due: { day: 2 }, window: "day", evidence: "fx" }] }),
+  ep(16, 6, 6, { goals: [{ id: "g16", who: "Vilius", text: "y", due: { day: 6 }, window: "day", evidence: "fx" }] })
+];
+
+test("advanceCursor is a no-op inside the current episode", () => {
+  const { world: w, entered } = advanceCursor(world(3, 15), ROLL_EPS);
+  assert.equal(w.cursor.episode, 15);
+  assert.equal(entered.length, 0);
+});
+
+test("advanceCursor stays put in gap days (free days)", () => {
+  const { world: w, entered } = advanceCursor(world(4, 15), ROLL_EPS);
+  assert.equal(w.cursor.episode, 15); // days 4–5 are the gap before ep 16
+  assert.equal(entered.length, 0);
+});
+
+test("advanceCursor enters the next episode when its start day is reached", () => {
+  const { world: w, entered } = advanceCursor(world(6, 15), ROLL_EPS);
+  assert.equal(w.cursor.episode, 16);
+  assert.equal(entered.length, 1);
+  assert.ok(w.goals.some((g) => g.id === "g16" && g.status === "pending"));
+  assert.ok(w.events.some((e) => e.includes('Episode 16')));
+});
+
+test("advanceCursor crosses multiple episodes on a big skip", () => {
+  const { world: w, entered } = advanceCursor(world(6, 14), ROLL_EPS);
+  assert.equal(w.cursor.episode, 16);
+  assert.equal(entered.map((e) => e.no).join(","), "15,16");
+  assert.ok(w.goals.some((g) => g.id === "g15"));
+  assert.ok(w.goals.some((g) => g.id === "g16"));
+});
+
+test("advanceCursor never duplicates goals already in the ledger", () => {
+  const start = world(6, 15, {
+    goals: [{ id: "g16", who: "Vilius", text: "y", status: "done", due: 6, au: false, note: "" }]
+  });
+  const { world: w } = advanceCursor(start, ROLL_EPS);
+  assert.equal(w.goals.filter((g) => g.id === "g16").length, 1);
+  assert.equal(w.goals[0].status, "done");
+});
+
+// ---- autoMiss ----
+
+test("autoMiss marks overdue pending canon goals and drafts divergence", () => {
+  const w = autoMiss(
+    world(5, 15, {
+      goals: [
+        { id: "late", who: "Beni", text: "do the thing", status: "pending", due: 2, au: false, note: "" },
+        { id: "arc", who: "Beni", text: "arc goal", status: "pending", due: null, au: false, note: "" },
+        { id: "aug", who: "Vilius", text: "au goal", status: "pending", due: 2, au: true, note: "" },
+        { id: "fine", who: "Beni", text: "done thing", status: "done", due: 2, au: false, note: "" }
+      ]
+    })
+  );
+  assert.equal(w.goals.find((g) => g.id === "late")?.status, "missed");
+  assert.equal(w.goals.find((g) => g.id === "arc")?.status, "pending");
+  assert.equal(w.goals.find((g) => g.id === "aug")?.status, "pending");
+  assert.equal(w.goals.find((g) => g.id === "fine")?.status, "done");
+  assert.equal(w.divergence.length, 1);
+  assert.match(w.divergence[0].what, /do the thing/);
+});
+
+test("autoMiss without overdue goals returns the world unchanged", () => {
+  const w0 = world(2, 15, {
+    goals: [{ id: "g", who: "Beni", text: "x", status: "pending", due: 2, au: false, note: "" }]
+  });
+  assert.equal(autoMiss(w0), w0);
 });
