@@ -58,6 +58,8 @@ One file per episode (`ep01.json`…`ep52.json`) plus `arcs.json`, `artifacts.js
     "beni": { "where": "…", "doing": "…", "evidence": "[earth] Beni: 'Target in sight.'" },
     "firstContact": "*authored opener — her first canon-plausible Earth encounter*"
   },
+  "arcAtStart": "s1-infiltrator",           // stage id valid at the FIRST frame —
+                                            // boundary episodes differ from arc ranges
   "goals": [ { "id": "ep15-con-guren", "who": "Beni", "text": "…",
                "due": { "day": 16 }, "window": "repeatable-later", "evidence": "…" } ],
   "actors": [ { "who": "Gen/Dromus", "doing": "…", "why": "…", "evidence": "…" } ],
@@ -213,7 +215,11 @@ greetings.
 ### Isolated-mode removal
 
 - POST /chats: mode forced `"story"`; `storyEpisode` required (default 14); body
-  `mode` ignored.
+  `mode` ignored. Post-series starts use `post: "s5-aftermath" | "s5-knight"`
+  (storyEpisode pinned to 52, cursor day offset from `post.json`).
+- Era at start comes from the episode's `arcAtStart` (at-START semantics shift the
+  old "just-after" stage ranges by one at boundaries; the field is evidence-based,
+  no formula).
 - `NewChatModal`: toggle + stage dial deleted; episode picker (52 + 2 post entries)
   showing `Ep NN — Title · Day D–D · <arc label>` + a one-liner of where she is
   (`start.beni.where`); "✓ simulated" badge when the timeline file exists; looks
