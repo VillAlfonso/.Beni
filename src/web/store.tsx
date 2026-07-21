@@ -44,7 +44,10 @@ export interface Stage {
 export interface Episode {
   no: number;
   title: string;
-  synopsis: string;
+  covered: boolean;
+  days: [number, number] | null;
+  arc: string | null;
+  where: string | null;
 }
 
 export interface Memory {
@@ -268,7 +271,7 @@ function makeActions(dispatch: React.Dispatch<Action>, getState: () => State, ab
     regenerate: (messageId: string) => runStream(`/chats/${getState().activeId}/regenerate`, { messageId }),
     editUser: (messageId: string, content: string) => runStream(`/messages/${messageId}/edit`, { content }, content),
 
-    newChat: async (opts: { title?: string; mode: string; stageId: string; storyEpisode?: number; userLooks?: string }) => {
+    newChat: async (opts: { title?: string; storyEpisode?: number; post?: "s5-aftermath" | "s5-knight"; userLooks?: string }) => {
       const { id } = await api<{ id: string }>("POST", "/chats", opts);
       await refreshChats();
       await openChat(id);

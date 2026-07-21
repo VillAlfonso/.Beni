@@ -1,12 +1,15 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { useStore } from "../store.js";
+
+const POSTS = [
+  { value: "post:s5-aftermath", label: "Three Days After — the war just ended" },
+  { value: "post:s5-knight", label: "The Knight — after the finale" }
+] as const;
 
 export function NewChatModal() {
   const { state, actions } = useStore();
   const stages = state.stages;
-  const [mode, setMode] = useState<"isolated" | "story">("isolated");
-  const [stageId, setStageId] = useState(stages[stages.length - 1]?.id ?? "");
-  const [episode, setEpisode] = useState<number>(14);
+  const [pick, setPick] = useState<string>("14");
   const [title, setTitle] = useState("");
   const [lookGender, setLookGender] = useState("");
   const [lookAge, setLookAge] = useState("");
@@ -24,22 +27,32 @@ export function NewChatModal() {
     .filter(Boolean)
     .join(", ");
 
-  const stage = stages.find((s) => s.id === stageId) ?? stages[0];
+  const isPost = pick.startsWith("post:");
+  const postId = isPost ? (pick.slice(5) as "s5-aftermath" | "s5-knight") : undefined;
+  const episodeNo = isPost ? 52 : Number(pick);
+  const ep = state.episodes.find((e) => e.no === episodeNo);
 
-  // story mode: the stage follows the chosen episode automatically
-  const stageForEpisode = useMemo(
-    () => stages.find((s) => episode >= s.episodeRange[0] && episode <= s.episodeRange[1]) ?? stages[stages.length - 1],
-    [episode, stages]
-  );
+  const arcLabel = (arcId: string | null | undefined): string => {
+    if (arcId === "s0-discovery") return "Before her arrival";
+    const byId = stages.find((s) => s.id === arcId);
+    if (byId) return byId.label;
+    const ranged = stages.find((s) => episodeNo >= s.episodeRange[0] && episodeNo <= s.episodeRange[1]);
+    return ranged?.label ?? "";
+  };
+
+  const hint = isPost
+    ? stages.find((s) => s.id === postId)?.short ?? ""
+    : ep?.covered
+      ? `${arcLabel(ep.arc)} · Day ${ep.days![0]}${ep.days![1] !== ep.days![0] ? `–${ep.days![1]}` : ""} · where she is: ${ep.where ?? "not in Benham City yet"}`
+      : `${arcLabel(null)} · synopsis mode — this episode's timeline data isn't authored yet, so the chat starts just after it instead of at its exact start.`;
 
   const create = async () => {
     setBusy(true);
     try {
       await actions.newChat({
         title: title.trim() || undefined,
-        mode,
-        stageId: mode === "story" ? stageForEpisode.id : stageId,
-        storyEpisode: mode === "story" ? episode : undefined,
+        storyEpisode: isPost ? undefined : episodeNo,
+        post: postId,
         userLooks: composedLooks || undefined
       });
     } finally {
@@ -53,57 +66,30 @@ export function NewChatModal() {
       <div className="modal" role="dialog" aria-label="New chat" style={{ position: "relative", zIndex: 61 }}>
         <h2>New chat</h2>
 
-        <div>
-          <div className="mode-toggle">
-            <button className={mode === "isolated" ? "on" : ""} onClick={() => setMode("isolated")}>Isolated</button>
-            <button className={mode === "story" ? "on" : ""} onClick={() => setMode("story")}>Story</button>
-          </div>
-          <p className="mode-hint" style={{ marginTop: 8 }}>
-            {mode === "isolated"
-              ? "Any scenario you want — a rooftop, a rainy bus stop, another world. Beni is herself at the stage you pick below."
-              : "Anchored inside the show. Pick the episode you're standing just after; Beni keeps continuity with everything up to it."}
-          </p>
-        </div>
+        <p className="mode-hint">
+          Anchored inside the show. Pick an episode and the story opens at its exact start — where she
+          canonically is, with her canon missions live. Whatever you change ripples forward from there.
+        </p>
 
-        {mode === "isolated" ? (
-          <div className="dial">
-            <div className="dial-track">
-              <div className="dial-stops">
-                {stages.map((s) => (
-                  <button
-                    key={s.id}
-                    className={`dial-stop${s.id === stageId ? " on" : ""}`}
-                    onClick={() => setStageId(s.id)}
-                    aria-label={s.label}
-                  >
-                    <span className="ep">
-                      {s.episodeRange[1] >= 999 ? "after end" : `ep ${s.episodeRange[0]}–${s.episodeRange[1]}`}
-                    </span>
-                    <span className="dot" />
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className="dial-info">
-              <span className="dl">{stage?.label}</span>
-              <span className="ds">{stage?.short}</span>
-            </div>
-          </div>
-        ) : (
-          <div className="field">
-            <label>Just after episode</label>
-            <select value={episode} onChange={(e) => setEpisode(Number(e.target.value))}>
-              {state.episodes.map((ep) => (
-                <option key={ep.no} value={ep.no}>
-                  {String(ep.no).padStart(2, "0")} — {ep.title}
-                </option>
-              ))}
-            </select>
-            <span className="hint">
-              She'll be <strong>{stageForEpisode?.label}</strong> here. {stageForEpisode?.short}
-            </span>
-          </div>
-        )}
+        <div className="field">
+          <label>Starting point</label>
+          <select value={pick} onChange={(e) => setPick(e.target.value)}>
+            {state.episodes.map((e) => (
+              <option key={e.no} value={String(e.no)}>
+                {String(e.no).padStart(2, "0")} — {e.title}
+                {e.covered
+                  ? ` · Day ${e.days![0]}${e.days![1] !== e.days![0] ? `–${e.days![1]}` : ""} ✓`
+                  : " · (synopsis)"}
+              </option>
+            ))}
+            {POSTS.map((p) => (
+              <option key={p.value} value={p.value}>
+                {p.label}
+              </option>
+            ))}
+          </select>
+          <span className="hint">{hint}</span>
+        </div>
 
         <div className="field">
           <label>Title (optional)</label>

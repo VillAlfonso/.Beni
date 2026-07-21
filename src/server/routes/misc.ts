@@ -4,6 +4,7 @@ import { login } from "../auth.js";
 import { maskedSettings, updateSettings, getSettings } from "../settings.js";
 import { loadStages, loadEpisodes } from "../prompt/builder.js";
 import { retrieveCanon } from "../rag/retrieve.js";
+import { episodeEntry } from "../timeline/load.js";
 
 export function miscRouter(db: Db): Router {
   const r = Router();
@@ -36,7 +37,24 @@ export function miscRouter(db: Db): Router {
     res.json({ name: "Beni", stages: loadStages() });
   });
 
-  r.get("/episodes", (_req, res) => res.json(loadEpisodes()));
+  // Episode picker rows: timeline-authored data wins over the old synopsis list.
+  r.get("/episodes", (_req, res) => {
+    const base = loadEpisodes();
+    const rows = [];
+    for (let no = 1; no <= 52; no++) {
+      const tl = episodeEntry(no);
+      const b = base.find((e) => e.no === no);
+      rows.push({
+        no,
+        title: tl?.title || b?.title || `Episode ${no}`,
+        covered: Boolean(tl),
+        days: tl ? [tl.days.start, tl.days.end] : null,
+        arc: tl?.arcAtStart ?? null,
+        where: tl && !tl.beniAbsent ? tl.start.beni.where : null
+      });
+    }
+    res.json(rows);
+  });
 
   r.post("/search", async (req, res) => {
     const q = String(req.body?.q ?? "").trim();
