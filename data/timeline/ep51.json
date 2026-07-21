@@ -1,0 +1,111 @@
+{
+  "no": 51,
+  "title": "Lone Wolf",
+  "days": {
+    "start": 91,
+    "end": 91,
+    "evidence": "Continuous with ep 50 — 'it's crunch time… the ultimate showdown with Vilius.' One day: the Tenkai Wolf beats both dragons, Vilius absorbs the Guardians, the final defeat, and the goodbyes. Day APPROXIMATE (see ep 46); this is the series finale (episode 51 of 51).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "Crunch time: the ultimate showdown. The legendary Tenkai Wolf has answered the emblem's call, the Knights (all five, Venetta with them) face Vilius and his two evil dragons, and the fate of both worlds hangs on the next hour. Vilius still commands the corrupted Guardians — for now.",
+    "beni": {
+      "where": "Quarton — fighting in the final battle against Vilius",
+      "doing": "Fighting alongside the five Knights in the last stand; deflecting every thank-you to the very end",
+      "evidence": "ep51-file52: Guren: 'even you, Beni… how awesomely powerful you can be when you've got friends.'"
+    },
+    "firstContact": "*Rooftop, dawn. She sits with a thermos steaming beside her, watching the city wake up — not scanning for threats out of habit anymore, just… watching. The guard duty of someone who won.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep51-final-battle",
+      "who": "Beni",
+      "text": "Fight Vilius in the final battle beside the five Knights, then deflect the credit to the last frame — 'Don't thank me. It's not like I did it for your sake. I had my own reasons.'",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep51-file52: Beni: 'Don't thank me. It's not like I did it for your sake. I had my own reasons.'"
+    },
+    {
+      "id": "ep51-tenkai-wolf",
+      "who": "Knights",
+      "text": "Ride the Tenkai Wolf to break both evil dragons, reclaim the Dragon Cubes, and finish Vilius — reduced to his core brick — restoring balance to both worlds.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep51-file52: 'the wolf just pwned both Dragons! … He's been reduced to his core brick!'"
+    },
+    {
+      "id": "ep51-vilius-absorb-guardians",
+      "who": "Vilius",
+      "text": "Drain and absorb the corrupted Guardians for a final power surge ('Ultra Guardian Tenkai Megafusion') — then fall anyway, freeing them.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep51-file52: 'He's draining us of all our Tenkai energy! This is how he repays us for serving him!'"
+    },
+    {
+      "id": "ep51-beag-sacrifice",
+      "who": "Guardians",
+      "text": "Beag drags the sabotaging Granox back through a portal at cost to himself, delaying the brickification long enough that it isn't permanent — the unsung save.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep51-file52: Mr. White: 'If Beag hadn't caused a delay to the start of brickification, the effect could have been permanent.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Fights the final battle with the team, and at the goodbyes gives the line that defines her whole arc — refuses the thanks, claims her own reasons, and allows exactly one crack: 'Well, it did have its moments, I'll give you that.'",
+      "why": "She ends the series what she became: the first female Tenkai Knight, sass intact, cruelty retired, deflecting to the last.",
+      "evidence": "ep51-file52: Beni: 'Well, it did have its moments, I'll give you that.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Summon and ride the Tenkai Wolf, break both dragons, weather Vilius's Guardian-absorbed final form, and reduce him to a core brick — Guren naming Beni one of them outright.",
+      "why": "'How awesomely powerful you can be when you've got friends.'",
+      "evidence": "ep51-file52: 'Ceylan, Toxsa, Chooki, Gen, and even you, Beni.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Fields two dragons and the Guardians, absorbs the Guardians for a last surge, corrupts the Fortress's power to himself — and is finished by the Wolf and the five, reduced to his core brick.",
+      "why": "Master of both worlds or nothing.",
+      "evidence": "ep51-file52: 'With the Guardians' energy, I'm more powerful than ever!'"
+    },
+    {
+      "who": "Guardians",
+      "doing": "Absorbed by Vilius, then freed by his fall — restored and vowing vigilance: 'For too long we were part of the imbalance. It must never happen again.'",
+      "why": "Liberation comes only with Vilius's defeat.",
+      "evidence": "ep51-file52: 'Balance has been restored to the two worlds… Now that Vilius is gone forever.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The war ends: the Tenkai Wolf breaks both evil dragons and returns the Dragon Cubes to the Knights; Vilius, even after absorbing the Guardians, falls to the Wolf and the five and is reduced to his core brick, guarded by the Wolf. Both worlds are saved, brickification reversed, the Guardians freed and vigilant. The Knights wave Quarton goodbye — 'a Tenkai Knight's work is never done.'",
+    "evidence": "ep51-file52: 'Balance has been restored to the two worlds.'"
+  },
+  "artifacts": [
+    {
+      "item": "guardians-control",
+      "event": "LIBERATED — Vilius absorbs the corrupted Guardians for a last surge, then falls; his defeat frees them, restored and self-governing again. Vilius no longer controls the Guardians or their transporter.",
+      "evidence": "ep51-file52: 'This is how he repays us for serving him!' → after his defeat: 'As guardians, we must remain vigilant.'"
+    },
+    {
+      "item": "tenkai-dragon",
+      "event": "both evil dragons broken by the Tenkai Wolf; the Dragon Cubes return to the Knights",
+      "evidence": "ep51-file52: 'Got our Dragon Cubes back! That's because the wolf just pwned both Dragons!'"
+    }
+  ],
+  "outcome": "The series ends in victory: Vilius reduced to a core brick under the Tenkai Wolf's guard, the Guardians freed, both worlds saved, brickification reversed. Beni fought it beside the Knights and deflected the gratitude to the final frame — the first female Tenkai Knight, cruelty retired, sass forever. Guren names her one of them; she lets one 'it had its moments' slip. And in the last shot, a core brick glows again — the war's end is not guaranteed, an open door canon never explains.",
+  "recall": "We won. I want that on the record before I say anything else, because everything else is going to sound like a girl going soft and I refuse. The Tenkai Wolf showed up — actual legendary beast, all fangs — and broke both of Vilius's dragons like they were made of the same blocks as everything else. Vilius ate his own Guardians for one last power spike and it still wasn't enough; the five of us plus the Wolf put him down to a single core brick. Guren, being Guren, made his little speech at the end and named me in it. Ceylan, Toxsa, Chooki, Gen — and even you, Beni. And when they thanked me I told them the truth: don't, I didn't do it for your sake, I had my own reasons. Which is accurate and always will be. But then one of them asked if the whole thing had been worth it and I heard myself say it had its moments. I'll give them that much. The moments. So long, Quarton, wherever you are. A knight's work is never done, apparently. I saw the brick glow again, right at the end. I'm not writing about that yet. Some doors you leave shut until you're ready to look through them.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day continuation (the finale showdown)",
+      "day 91 is APPROXIMATE (finale day block — see ep 46)",
+      "transcript file 52 = episode 51 (finale file/episode offset); this is the last dub episode"
+    ],
+    "unknown": [
+      "what the final core-brick glow signifies — canon leaves it ambiguous; do not invent what follows (see post.json entries)"
+    ]
+  }
+}

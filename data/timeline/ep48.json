@@ -1,0 +1,106 @@
+{
+  "no": 48,
+  "title": "A New Element",
+  "days": {
+    "start": 89,
+    "end": 89,
+    "evidence": "Continues from ep 47's rescue (Guren's dad restored, the search for the Stone resumes). One day: Dromus's solo loss to Vilius, Granox's Earth hunt, Kiiro's delivery of the Stone to Guren, and the fortress unsealing. Day APPROXIMATE (see ep 46).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "The Knights search Benham district by district for the Tenkai Stone, not knowing it's in Kiiro's little bag. Vilius decides to let them find it and take it at the Fortress. Gen, hungry to beat Vilius himself, goes to Quarton alone — and loses, drawing Granox to Earth after him.",
+    "beni": {
+      "where": "Benham City — near Gen, watching him self-destruct",
+      "doing": "Calling out Gen's lone-wolf relapse ('I thought the days when you and I used to fly solo were over') and finishing Granox for the boys",
+      "evidence": "ep48: Beni to Gen: 'Taking on Vilius alone? That's so old school… We've got friends now.'"
+    },
+    "firstContact": "*At a crosswalk she's holding the tiniest paper gift bag, the kind toy stores use. She holds it slightly behind her leg, like contraband. The light changes; she crosses fast.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep48-beni-lecture-gen",
+      "who": "Beni",
+      "text": "Turn her own old creed back on Gen: he took Vilius alone and lost, and she — of all people — tells him friends are the greatest power of all. Then finish Granox to cover them.",
+      "due": { "day": 89 },
+      "window": "episode",
+      "evidence": "ep48: Beni: 'Friends are the greatest power of all.'"
+    },
+    {
+      "id": "ep48-kiiro-delivers-stone",
+      "who": "Kiiro",
+      "text": "Finally deliver the Stone to Guren — the good-luck charm Beni sent. Guren's wolf emblem lights up: the Stone is found, handed to them by Beni and Kiiro.",
+      "due": { "day": 89 },
+      "window": "episode",
+      "evidence": "ep48: Kiiro: 'The Tenkai Stone! Beni gave that to you… To give to you.'"
+    },
+    {
+      "id": "ep48-unseal-fortress",
+      "who": "Knights",
+      "text": "Take the Stone to Quarton and unseal the Tenkai Fortress before Vilius — five Knights now, Gen fighting as the fifth. 'Tenkai Stone, show us your stuff! I unsealed it.'",
+      "due": { "day": 89 },
+      "window": "episode",
+      "evidence": "ep48: Guren: 'I unsealed it. Ready to go in, guys?'"
+    },
+    {
+      "id": "ep48-vilius-let-them-find",
+      "who": "Vilius",
+      "text": "Let the Knights find the Stone and unseal the Fortress, then take it from them at the ambush — the Guardians spring the trap and lose.",
+      "due": { "day": 89 },
+      "window": "episode",
+      "evidence": "ep48-file49: Vilius: 'I'll let the Tenkai Knights find it… they will bring it here to Unseal the Fortress, and I'll take it away from them.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Watches Gen relapse into solo heroics, throws his own redemption back at him ('friends are the greatest power of all'), finishes Granox to save the boys, and stands by as her season-long gift finally reaches Guren through Kiiro.",
+      "why": "She's become the thing she used to mock — and she'll only ever say it to Gen, sideways.",
+      "evidence": "ep48: Beni finishing Granox: 'Told you I owed you one. And now I paid you back.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Attacks Vilius alone out of the old hunger to win it himself, loses, brings Granox down on his own head, and finally accepts the team — declaring himself a Tenkai Knight, the fifth.",
+      "why": "'I wanted the power to defeat him myself!' — the exact trap Beni just climbed out of.",
+      "evidence": "ep48: Gen: 'I'm a Tenkai Knight!'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Receive the Stone from Kiiro, realize Beni sent it, transport it to Quarton via the dropship, and unseal the Fortress as a team of five.",
+      "why": "'We would have never found it at all without Beni and Kiiro.'",
+      "evidence": "ep48: Guren thanking them: 'You don't know what this means to us.'"
+    },
+    {
+      "who": "Vilius / corrupted Guardians",
+      "doing": "Let the Knights do the finding, then ambush them at the unsealing to take the Stone — the Guardian megafusion loses to five Knights.",
+      "why": "'If you won't give it to us, we will take it!'",
+      "evidence": "ep48: 'Guardian Tenkai Megafusion, engage!'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Tenkai Fortress is unsealed — by the KNIGHTS, with the Stone Beni gave them, ahead of Vilius. Gen is the fifth Knight now. Vilius's take-it-from-them ambush fails against the five. The endgame is open: the Fortress is theirs to enter, and the war's final act begins.",
+    "evidence": "ep48: 'Now we can unseal the fortress! This is the day we've been waiting for!'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-stone",
+      "event": "DELIVERED — Kiiro hands the Stone to Guren; custody passes Kiiro → Knights. This is the moment the open-tenkai-fortress capability becomes available to the Knights.",
+      "evidence": "ep48: Kiiro: 'The Tenkai Stone! Beni gave that to you.'"
+    }
+  ],
+  "outcome": "Beni's season-long gift lands: the Stone reaches Guren through Kiiro, and the Knights — five of them now, Gen included — unseal the Tenkai Fortress ahead of Vilius. Her larceny impulse is fully spent; she's now the one preaching friendship to Gen. The war's final act opens with the Fortress in the Knights' hands.",
+  "recall": "Gen went and took Vilius on ALONE, the absolute idiot, and lost, and dragged Granox back to Earth on his heels. So I found him sulking about wanting the power to beat Vilius himself, and I heard the words come out of my own mouth: friends are the greatest power of all. Me. Saying that. To him. The universe has a sense of humor and it is not a kind one. I finished Granox to buy the boys room — told you I owed you one, now we're square — and then it happened: Kiiro finally handed Guren the Stone. My Stone. The good-luck charm I sent a season ago through a courier who forgets things. His wolf emblem lit up like Christmas. They took it up to Quarton and unsealed the Fortress themselves, five of them now, before Vilius could. Everything I've been quietly building toward without admitting I was building toward anything — it's done. The Stone's where it should be. I don't feel lighter, exactly. I feel like someone who set down a weight and misses the shape of it.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day compression",
+      "day 89 is APPROXIMATE (finale day block — see ep 46)",
+      "transcript file 49 = episode 48 (finale file/episode offset)"
+    ],
+    "unknown": [
+      "the exact mechanism by which the Stone unseals the Fortress (shown as light/effect only)"
+    ]
+  }
+}

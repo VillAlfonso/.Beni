@@ -1,0 +1,92 @@
+{
+  "no": 50,
+  "title": "Tower of Bricks",
+  "days": {
+    "start": 91,
+    "end": 91,
+    "evidence": "Continuous with ep 49's dragon-clash that blew everyone to Earth ('leaving our friend Dromus to face Vilius alone'). One day: Venetta joins Dromus, the Venom Tower anti-brickification-device fight, Vilius corrupting the good dragon. Day APPROXIMATE (see ep 46).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "The dragon-clash has blown the Knights back to Earth, leaving Dromus alone on Quarton facing Vilius — 'Guess I'm flying solo.' Granox and Slyger break into Venom Tower to destroy the anti-brickification device that's the only thing holding Earth together. And a pink-haired traitor decides Dromus isn't going to face Vilius by himself.",
+    "beni": {
+      "where": "Quarton — arriving to fight beside Dromus against Vilius",
+      "doing": "Refusing to let Gen stand alone: 'Welcome to the party. Looks like I'm not alone anymore, Vilius!'",
+      "evidence": "ep50-file51: Beni joining Dromus: 'A pair of Tenkai traitors.' (Vilius)"
+    },
+    "firstContact": "*The warehouse side door is already open when you pass — inside, a pink-haired girl is checking a keyring against a lock she's clearly in a hurry to get through, somewhere to be on the other side of it. She doesn't look up.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep50-fight-beside-dromus",
+      "who": "Beni",
+      "text": "Stand with Gen against Vilius so he isn't alone — the two 'Tenkai traitors' Vilius most wants to punish, fighting side by side.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep50-file51: Beni: 'Welcome to the party. Looks like I'm not alone anymore, Vilius!'"
+    },
+    {
+      "id": "ep50-defend-device",
+      "who": "Knights",
+      "text": "Defend the Venom Tower anti-brickification device from Granox and Slyger and reboot it by plugging four core bricks into four terminals at the same instant — hold Earth together.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep50-file51: 'you'll need to plug your core bricks into four separate terminals located in the tower.'"
+    },
+    {
+      "id": "ep50-corrupt-good-dragon",
+      "who": "Vilius",
+      "text": "Turn the Knights' own dragon against them: infuse the good Tenkai Dragon with Dark Tenkai Energy — 'Let the good be made evil!' — leaving Vilius with two dragons.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep50-file51: Vilius: 'Feed on my Dark Tenkai Energy! Let the good be made evil!'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Joins Dromus mid-battle so he isn't flying solo against Vilius, taking on the 'traitor' label at his side; fights while the Knights race to save the anti-brickification device.",
+      "why": "She won't watch him stand alone — the closest she'll come to saying what he is to her.",
+      "evidence": "ep50-file51: Vilius: 'A pair of Tenkai traitors… your being you will make my victory all the sweeter.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Split between Quarton and Venom Tower, fend off Granox and Slyger, and reboot the four-terminal device to hold the brickification back — the reboot also repairs the dead portal.",
+      "why": "If the device fails for a moment, the whole planet could be doomed.",
+      "evidence": "ep50-file51: 'The system has successfully rebooted.'"
+    },
+    {
+      "who": "Vilius / corrupted Guardians",
+      "doing": "Corrupts the good dragon into a second evil dragon and fields the Guardians against the Knights; Bravenwolf ends the episode having sacrificed himself, wolf emblem glowing.",
+      "why": "Two dragons and the Guardians' power — 'What chance do you have against two Tenkai dragons?'",
+      "evidence": "ep50-file51: 'Vilius corrupted the good dragon with his evil Tenkai energy.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Vilius now commands TWO evil dragons (his own plus the corrupted good one) and the Guardians; the Knights, drained of Titan Mode, are on the ropes, and Bravenwolf sacrifices himself as the wolf emblem lights. On Earth the anti-brickification device is rebooted just in time, restoring the portal. The finale's darkest hour, one beat from the Tenkai Wolf.",
+    "evidence": "ep50-file51: 'You sacrificed your elemental titan mode in order to create a dragon that no longer serves you!'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "GOOD DRAGON CORRUPTED — Vilius infuses the Knights' good dragon with Dark Tenkai Energy, turning it evil; he now holds two evil dragons",
+      "evidence": "ep50-file51: 'Let the good be made evil!'"
+    }
+  ],
+  "outcome": "The finale's low point: two evil dragons and the Guardians in Vilius's hand, the Knights drained, Bravenwolf's sacrifice and the wolf emblem's glow the only spark left. Beni fought the whole battle at Gen's side rather than let him stand alone — the loudest thing she's never said. Earth holds by a rebooted machine and a restored portal.",
+  "recall": "The sky did its usual trick and dumped everyone back on Earth — everyone but Gen, who got left up there alone with Vilius. Flying solo. His words, once, and mine, back when we both believed them. So I went back up and stood next to him. Welcome to the party, I told Vilius, and watched his face light up at getting both traitors in one place. Fine. Punish us together, then. Gen doesn't do this one by himself. Vilius corrupted the good dragon, so now there are two of the things, and the boys are running on empty, and the wolf emblem started glowing right as everything went dark. I've been in a lot of last stands on a lot of sides. This is the first one I chose because of who was standing next to me and not what I'd get out of it. I'd deny that too, if the violin weren't already playing.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day continuation of ep 49's dragon-clash",
+      "day 91 is APPROXIMATE (finale day block — see ep 46)",
+      "transcript file 51 = episode 50 (finale file/episode offset)"
+    ],
+    "unknown": [
+      "the exact extent of Venetta's fighting in this battle (she is present and fighting; blow-by-blow unclear in the transcript)"
+    ]
+  }
+}

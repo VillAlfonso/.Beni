@@ -1,0 +1,105 @@
+{
+  "no": 46,
+  "title": "Heart Turns to Stone",
+  "days": {
+    "start": 85,
+    "end": 85,
+    "evidence": "One day: Guren babysits Kiiro, the park visit and lost-then-found sequence, the fortress-defense battle, and the Stone handoff all run in a single arc. Day is APPROXIMATE — eps 35–45 (unauthored, incl. the Beast World detour) fall between ep 34 (day 66) and here; reconcile when they're authored.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Guren is stuck babysitting Chooki's five-year-old cousin Kiiro (and her stuffed dog Sandy) while the others train with Gen. On Quarton the Corekai hold the unsealed-but-contested Tenkai Fortress, and Vilius has a new plan: bait the Knights into defending the Corekai so the fortress falls to Boreas. Beni, holding the Tenkai Stone, still thinks she might grab the Fortress's power for herself.",
+    "beni": {
+      "where": "Benham City — the park, colliding with Guren and Kiiro",
+      "doing": "Reflecting on the Stone's power ('Only this little guy can unseal the power of the Tenkai Fortress'), then getting roped into Kiiro's game against her will",
+      "evidence": "ep46: Beni: 'Tenkai Stone. No wonder everyone wants it. Only this little guy can unseal the power of the Tenkai Fortress.'"
+    },
+    "firstContact": "*A park path where little kids swarm the playground. She stands a careful distance off, one hand on the fence, watching a small blonde girl in pigtails with an expression she'd deny under oath — too soft for her face, gone the moment anyone might see it.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep46-kiiro-clover",
+      "who": "Beni",
+      "text": "Endure Kiiro (who has decided they're friends), wreck the moment and walk off when it lands too close — then be undone by a five-year-old who went looking for a four-leaf clover just to give her happiness.",
+      "due": { "day": 85 },
+      "window": "episode",
+      "evidence": "ep46: Kiiro: 'They're supposed to bring you happiness. Or is it good luck? Anyway, it's for you.'"
+    },
+    {
+      "id": "ep46-defend-fortress",
+      "who": "Beni",
+      "text": "Face the choice her whole arc turns on: with everyone fighting, slip in with the Stone and take the Fortress's power for herself — or step in front of Boreas and defend it. She defends it. 'I'm having an off day!'",
+      "due": { "day": 85 },
+      "window": "episode",
+      "evidence": "ep46: Beni: 'While they fight, no one's guarding the fortress. Now's my chance… grab its power for myself.' → she stops Boreas instead."
+    },
+    {
+      "id": "ep46-give-stone",
+      "who": "Beni",
+      "text": "Trade the Stone away: ask Kiiro to carry it to Guren — 'It's sort of a good luck charm… I've decided he deserves it.' The clover bought the Stone.",
+      "due": { "day": 85 },
+      "window": "episode",
+      "evidence": "ep46: Beni: 'Can you give this to Guren the next time you see him? … I've decided he deserves it.'"
+    },
+    {
+      "id": "ep46-vilius-fortress-bait",
+      "who": "Vilius",
+      "text": "Send Boreas (via Eurus) to take the unguarded Fortress while the Knights defend the Corekai — 'the Knights would choose the Corekai, which of course leaves the fortress to me.'",
+      "due": { "day": 85 },
+      "window": "episode",
+      "evidence": "ep46: Boreas (corrupted): 'I know how to use their selfless devotion to the Corekai against them.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Gets out-stubborned by Kiiro into playing Prince-and-Princess, bolts when the game turns to homes and families, is found out by Guren ('You dropped your guard and let Kiiro see the real you'), gets the clover, defends the Fortress beside the Knights, and hands the Stone to a courier for Guren.",
+      "why": "'Someone did something nice for me.' A five-year-old wanted to be her friend and wanted nothing from her — the one thing her defenses have no answer for.",
+      "evidence": "ep46: Guren: 'Was it because she liked you? You forgot to be mean for a minute.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Guren babysits and referees the park, then the team defends both the Corekai and the Fortress — saved when Venetta unexpectedly blocks Boreas.",
+      "why": "'It's us who should be thanking you, Venetta. As weird as that sounds.'",
+      "evidence": "ep46: Bravenwolf thanking Venetta."
+    },
+    {
+      "who": "Vilius / corrupted Guardians",
+      "doing": "Boreas and Eurus run the bait-the-Knights plan for the Fortress; it fails against Venetta's turn.",
+      "why": "The Fortress is the war's prize.",
+      "evidence": "ep46: 'which of course leaves the fortress to me.'"
+    },
+    {
+      "who": "Kiiro",
+      "doing": "Adopts Beni as a best friend on sight, plays Prince-and-Princess, gets briefly lost hunting a four-leaf clover for her, and becomes the courier for the Stone.",
+      "why": "Wants Beni's friendship and nothing else.",
+      "evidence": "ep46: 'Sandy likes you. … So we decided you can come to the park and play with us.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Vilius baits the Knights into defending the Corekai so Boreas can seize the unguarded Fortress. Venetta — inexplicably, to everyone including herself — fights BESIDE the Knights and stops him; the Fortress is saved. The corrupted Guardians remain Vilius's, the Stone is now in a five-year-old's pocket bound for Guren.",
+    "evidence": "ep46: 'If you hadn't stepped in, they might have gotten the Tenkai Fortress.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-stone",
+      "event": "TRANSFER — Beni gives the Stone to Kiiro to carry to Guren ('I've decided he deserves it'); custody passes Beni → Kiiro (courier)",
+      "evidence": "ep46: Beni: 'Can you give this to Guren the next time you see him?'"
+    }
+  ],
+  "outcome": "The pivot of her whole arc, in one afternoon: the clover cracks her armor, she defends the Fortress instead of stealing it, and she gives away the single most important object she owns — routed through a five-year-old to the boy she'd spent a season conning. She'd deny every word of it. The Stone is now in transit to Guren; the Fortress is held; Vilius's bait failed.",
+  "recall": "I don't want to talk about it, which is exactly why it's the only thing worth writing down. A five-year-old decided we were best friends and would not be talked out of it. Kiiro. Stuffed dog named Sandy. She made me play Prince — Prince, not even Princess, that was hers — and somewhere in the make-believe she started building us a house with rooms next to each other and I had to leave before my face did something unforgivable. So I walked off and left her, because she's not my problem, and then she got lost, and it turned out she'd wandered off hunting a four-leaf clover. For me. To bring me happiness, or luck, she wasn't sure which. Nobody has ever wanted to give me something without wanting something back. I put the clover in my pocket. Then on Quarton I had the perfect shot — everyone fighting, the Fortress wide open, the Stone right there, its power one step away — and I stepped in FRONT of Boreas instead. I can't explain it. Off day. And then I gave the Stone to Kiiro to give to Guren. I've decided he deserves it. That's the whole trade. The clover for the Stone. I made it myself, eyes open, and I'd throw the violin at anyone who called it sweet.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day compression",
+      "day 85 is APPROXIMATE — eps 35–45 unauthored; the whole finale's day numbers shift together once they land"
+    ],
+    "unknown": [
+      "exactly how many days after ep 34 this falls (depends on eps 35–45)"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "no": 47,
+  "title": "Too Close to Home",
+  "days": {
+    "start": 88,
+    "end": 88,
+    "evidence": "'a few days' after ep 46 — Guren: 'I haven't seen her [Kiiro] for a few days,' so the Stone is still in transit. One day: the rooftop talk, Guren's father brickified, and the Granox chase/rescue. Day APPROXIMATE (see ep 46).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "Vilius has pieced it together: Venetta found the Tenkai Stone and 'betrayed' him — 'I will have the stone, and my revenge!' Granox is dispatched to hunt her on Earth. The Stone is still with Kiiro, undelivered. And brickification strikes very close to home — Guren's own father is turned to bricks.",
+    "beni": {
+      "where": "Benham City — a rooftop with Guren, then hunted through the streets",
+      "doing": "Saying the quiet part to Guren ('I never really saw how beautiful it is'), then dodging Granox with the Knights' help",
+      "evidence": "ep47: Beni: 'I used to think it would be fun to watch Benham City get brickified and crumble into pieces. I never really saw how beautiful it is.'"
+    },
+    "firstContact": "*Outside the Dalton diner she stands with something small cupped carefully in her palm — it vanishes into her pocket the instant she notices you looking. Her eyes narrow: caught, and somehow it's your fault.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep47-rooftop-thesis",
+      "who": "Beni",
+      "text": "Say the thing she'd never say: the city is beautiful, she was wrong to want it burned, and 'someone did something nice for me' changed her whole point of view — then immediately wall back up.",
+      "due": { "day": 88 },
+      "window": "episode",
+      "evidence": "ep47: Beni: 'How the littlest things can change a person's whole point of view. Corny, right?'"
+    },
+    {
+      "id": "ep47-survive-granox",
+      "who": "Beni",
+      "text": "Survive Vilius's traitor-hunt: Granox prowls Earth for her; the boys shield her and lend the portal device — 'We helped each other out of a jam, that's all. Doesn't mean we're a team.'",
+      "due": { "day": 88 },
+      "window": "episode",
+      "evidence": "ep47: Beni: 'Hate to admit it, but I owe you guys one… Doesn't mean we're a team. Sorry.'"
+    },
+    {
+      "id": "ep47-vilius-revenge",
+      "who": "Vilius",
+      "text": "Get the Stone and revenge: send Granox to hunt Venetta the traitor on Earth — 'The impudent little vixen dares to betray me? … she will pay.'",
+      "due": { "day": 90 },
+      "window": "repeatable-later",
+      "evidence": "ep47: Vilius: 'I will have the stone, and my revenge!'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Confesses the change on a rooftop and instantly deflects it, checks whether Kiiro has delivered the Stone yet (not yet), and lets the Knights cover her escape from Granox — repaying the debt while denying the team.",
+      "why": "Someone did something nice for her; she is not built to say more than that, and won't.",
+      "evidence": "ep47: Beni to Guren: 'did little Kiiro give you something recently?' / Guren: 'No, but I haven't seen her for a few days.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Shield Beni from Granox with the portal device, then race to save Guren's brickified father — the war has reached his own home.",
+      "why": "'Admit it. You came here to help us.' They're adopting her whether she allows it or not.",
+      "evidence": "ep47: 'She did help us out up on Quarton. … Shall we?'"
+    },
+    {
+      "who": "Granox",
+      "doing": "Hunts Venetta across Earth as Vilius's enforcer and loses her to the boys' portal device.",
+      "why": "'I'm gonna get you, Venetta! And the Tenkai Stone!'",
+      "evidence": "ep47: Granox chasing Beni."
+    }
+  ],
+  "quarton": {
+    "situation": "The war is now a personal traitor-hunt on Earth: Granox prowls for Venetta and the Stone while brickification bites into Benham (Guren's father among the victims). The Stone remains with Kiiro, undelivered; the Fortress standoff continues off-page.",
+    "evidence": "ep47: 'the ripple effect has hit very close to home.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-stone",
+      "event": "still in transit — Kiiro holds it; Beni checks whether it's reached Guren (it hasn't)",
+      "evidence": "ep47: Guren: 'No, but I haven't seen her for a few days.'"
+    }
+  ],
+  "outcome": "Her change is spoken aloud for the first time and instantly disowned. Vilius knows she's the traitor and Granox is hunting her; the boys shield her and she pays them back without admitting what they are to her. Guren's father is brickified — the war is in his living room now. The Stone waits in a five-year-old's care.",
+  "recall": "Granox came to Earth with my name on his list, which is Vilius's way of saying he finally did the math: the traitor who found the Stone is me. Fine. Let him hunt. The boys shielded me — again — lent me their little portal toy, and I paid the debt back and made very sure to say it doesn't make us a team. Because it doesn't. What I don't have an explanation for is the rooftop. Guren up there, the whole city spread out gold underneath us, and I heard myself say it was beautiful. That I used to want to watch it crumble and now I don't. Someone did something nice for me, I said, and left it there, corny and true. I asked him, casual as weather, whether Kiiro had given him anything yet. Not yet. Good. When it comes, he'll understand. Or he won't, and it won't matter, because I'll have done it either way.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day compression",
+      "day 88 is APPROXIMATE (finale day block — see ep 46)"
+    ],
+    "unknown": [
+      "exactly how many days after ep 46 (only 'a few' is stated)"
+    ]
+  }
+}

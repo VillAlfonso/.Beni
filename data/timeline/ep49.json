@@ -1,0 +1,92 @@
+{
+  "no": 49,
+  "title": "Toxsa Blocked",
+  "days": {
+    "start": 90,
+    "end": 91,
+    "evidence": "Fortress exploration and the returning brickification ('it's the weekend'), Toxsa turned 8-bit and hidden from his sister/teacher, then the evil-dragon battle. Two days taken (exploration day, weekend brickification day). Day APPROXIMATE (see ep 46).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "The Knights explore the vast unsealed Tenkai Fortress, hunting a secret chamber and the legend of a beast with formidable fangs. But unsealing the Fortress disrupted the balance again: brickification spreads across Benham, Toxsa is turned into an 8-bit character, and an anti-brickification device (built by Vilius's mysterious Earth ally) barely holds it back. Vilius revives his evil Tenkai Dragon.",
+    "beni": {
+      "where": "Benham City — helping the boys cover for the brickified Toxsa",
+      "doing": "Running interference with Toxsa's sister and the diner so the Knights can answer the summons — 'go on! Save the universe!'",
+      "evidence": "ep49-file50: Beni: 'We'll take care of him. Leave the big bad sister to Gen and me.'"
+    },
+    "firstContact": "*Fountain edge. She tears pieces off a bun and scatters them for pigeons, scowling at the birds the entire time like this is a hostage situation and they should be grateful. One waddles too close; she moves her boot away first.*"
+  },
+  "arcAtStart": "s4-change-of-heart",
+  "goals": [
+    {
+      "id": "ep49-cover-toxsa",
+      "who": "Beni",
+      "text": "Quietly help the Knights again: cover the brickified Toxsa from his sister Wakamei and the diner while the team is summoned — buying them the time, deflecting with charm.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep49-file50: Beni: 'Get back here! … Don't worry, I got it.'"
+    },
+    {
+      "id": "ep49-fortress-secret",
+      "who": "Knights",
+      "text": "Explore the Fortress and unlock its secret: 'Should Quarton ever be in grave danger, summon the mighty beast with the formidable fangs' — the legend that becomes the Tenkai Wolf.",
+      "due": { "day": 91 },
+      "window": "repeatable-later",
+      "evidence": "ep49-file50: Beag: 'the beast exists… it is somewhere here, in the Tenkai Fortress.'"
+    },
+    {
+      "id": "ep49-vilius-evil-dragon",
+      "who": "Vilius",
+      "text": "Revive the evil Tenkai Dragon (the evil-cube half) and attack the Fortress — the battling dragons blow everyone off Quarton back to Earth, leaving Dromus alone with Vilius.",
+      "due": { "day": 91 },
+      "window": "episode",
+      "evidence": "ep51-file recap: 'Vilius revived his evil Tenkai Dragon and launched an attack on the Fortress.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Plays diner hostess and sister-wrangler so the summoned Knights can go, charming Wakamei and keeping the brickified Toxsa hidden — helping openly now, still calling it anything but help.",
+      "why": "She shows up for them and refuses to name it; 'Thank Kiiro, not me.'",
+      "evidence": "ep49-file50: 'Well, go on! Save the universe!'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Explore the Fortress, discover the beast legend, scramble to hide the 8-bit Toxsa on Earth, and fight the revived evil dragon until the dragon-clash blows them home.",
+      "why": "The Fortress they won is now causing the very brickification they're fighting.",
+      "evidence": "ep49-file50: 'unsealing the Tenkai Fortress would solve all our problems, but looks like it created some new ones.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Revives the evil Tenkai Dragon and assaults the Fortress; the dragon battle scatters the Knights back to Earth and isolates Dromus.",
+      "why": "Master of the Fortress means master of both worlds.",
+      "evidence": "ep49-file50: 'Destroy them, evil dragon!'"
+    }
+  ],
+  "quarton": {
+    "situation": "Unsealing the Fortress reopened the imbalance: brickification spreads on Earth, held back only by a mysterious anti-brickification device. Vilius revives the evil half of the Dragon and attacks; the clash of dragons blows the Knights off Quarton and strands Dromus alone facing Vilius — the finale's opening position.",
+    "evidence": "ep49-file50: 'The balance between the worlds must have been disrupted when the Tenkai Fortress was unsealed.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "EVIL DRAGON REVIVED — Vilius reconstitutes the evil-cube half as an evil Tenkai Dragon and attacks the Fortress; the Knights answer with the good dragon",
+      "evidence": "ep49-file50: 'Dragon Cube! Dragon again? So we bring out our own dragon!'"
+    }
+  ],
+  "outcome": "The Fortress's victory curdles: unsealing it spread brickification, and Vilius revives the evil Dragon to attack it. The clash blows the Knights back to Earth and leaves Dromus alone with Vilius — the finale begins. Beni is fully in the Knights' orbit now, covering for them without a word of acknowledgment. The Tenkai Wolf legend is uncovered.",
+  "recall": "Spent the day being a diner hostess and a human shield, which is not on any list of things I ever planned to be. Toxsa got himself turned into a blocky little video-game sprite and the boys needed to answer a summons, so I ran interference on his terrifying sister and kept the whole thing quiet. Go on, I told them. Save the universe. When did that become a sentence I say without choking on it? Unsealing the Fortress broke something — the brickification's back, worse — and Vilius woke up the evil half of the Dragon to smash the place. Then the dragons went at each other and the sky threw everyone home like always. Except Gen. Gen's up there alone with Vilius now. I don't love that. I'm not going to examine why I don't love that.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "two-day split (fortress exploration, weekend brickification)",
+      "day 90-91 is APPROXIMATE (finale day block — see ep 46)",
+      "transcript file 50 = episode 49 (finale file/episode offset)"
+    ],
+    "unknown": [
+      "the identity of Vilius's mysterious Earth ally who built the anti-brickification device (unnamed on screen)"
+    ]
+  }
+}

@@ -8,10 +8,24 @@
     "custody": [
       {
         "fromDay": 1,
-        "toDay": null,
+        "toDay": 84,
         "holder": "Beni",
-        "how": "Her father's parting gift in a fancy box, kept in her room for years without knowing what it was. She realizes its identity at Vilius's ep-34 briefing and tells no one. TRANSFER PENDING AUTHORING: ep 46 she hands it to Kiiro (courier), ep-48-range Kiiro delivers it to Guren — span will be split when arc-5 episode days are authored.",
-        "evidence": "analysis--arc-3 <!--ep:34-->: 'the \"shiny bling thing\" her dad left her in a fancy gift box'; analysis--arc-5 <!--ep:46-->: 'hands her the Tenkai Stone: \"Can you give this to Guren…\"'"
+        "how": "Her father's parting gift in a fancy box, kept for years without knowing what it was; realized as the Fortress key at Vilius's ep-34 briefing and kept secret.",
+        "evidence": "analysis--arc-3 <!--ep:34-->: 'the shiny bling thing her dad left her'; ep34: 'Not if I happen to find it first.'"
+      },
+      {
+        "fromDay": 85,
+        "toDay": 88,
+        "holder": "Kiiro (courier)",
+        "how": "Given to Kiiro at the park (ep 46) to carry to Guren — 'I've decided he deserves it.' Kiiro forgets to deliver it for a few days.",
+        "evidence": "ep46: 'Can you give this to Guren the next time you see him?'"
+      },
+      {
+        "fromDay": 89,
+        "toDay": null,
+        "holder": "Knights (Guren)",
+        "how": "Kiiro finally delivers it to Guren (ep 48); the Knights take it to Quarton and unseal the Tenkai Fortress with it, ahead of Vilius.",
+        "evidence": "ep48: Kiiro: 'The Tenkai Stone! Beni gave that to you.'; Guren: 'I unsealed it.'"
       }
     ],
     "rules": [
@@ -36,15 +50,22 @@
         "fromDay": 1,
         "toDay": 52,
         "holder": "Guardians",
-        "how": "The four Guardians govern themselves, watching over Quarton and choosing champions — through the ep-26 intervention, their last free act.",
-        "evidence": "analysis--arc-1 <!--ep:1-->: 'Four Guardians (Boreas chief among them) watch over Quarton'; ep26: 'We, the Guardians, have voted to intervene.'"
+        "how": "The four Guardians govern themselves through the ep-26 intervention — their last free act before the resurrection disaster.",
+        "evidence": "analysis--arc-1 <!--ep:1-->; ep26: 'We, the Guardians, have voted to intervene.'"
       },
       {
         "fromDay": 53,
-        "toDay": null,
+        "toDay": 90,
         "holder": "Vilius",
-        "how": "They revived his body to punish him (ep 27); his never-departed Tenkai energy overthrew them — corrupted black Guardians and their transporter serve him. LIBERATION PENDING AUTHORING: freed by/at the finale — span closes when arc-5 days are authored.",
-        "evidence": "ep27: 'Fools, it's only my physical form you revived. My Tenkai energy never left.' / 'their powers are his to control.'"
+        "how": "They revived his body to punish him (ep 27); his never-departed Tenkai energy overthrew them — corrupted black Guardians and their transporter served him through the finale run.",
+        "evidence": "ep27: 'Fools, it's only my physical form you revived. My Tenkai energy never left.'"
+      },
+      {
+        "fromDay": 91,
+        "toDay": null,
+        "holder": "Guardians",
+        "how": "Vilius absorbs them for a last power surge in the finale, then falls; his defeat frees them, restored and self-governing again — 'we must remain vigilant.'",
+        "evidence": "ep51: 'This is how he repays us for serving him!' → after: 'As guardians, we must remain vigilant.'"
       }
     ],
     "rules": [
@@ -174,10 +195,24 @@
       },
       {
         "fromDay": 47,
-        "toDay": null,
+        "toDay": 89,
         "holder": "Split in two — good half in the five Knights, evil half in Vilius",
-        "how": "Restored, drained into the five, then revealed (ep 27) to have split: its good energy lives in the Knights and Dromus, its evil energy is combined into Vilius, whose power grows. REVIVAL PENDING AUTHORING: an evil Tenkai Dragon returns late in arc 5.",
-        "evidence": "ep26: 'Breaking up into Dragon Cubes again!'; ep51-file recap: 'Vilius revived his evil Tenkai Dragon'"
+        "how": "The ep-26 forced convergence split the Dragon (revealed ep 27): good cubes' energy in the Knights, evil cubes combined into Vilius, whose power grows.",
+        "evidence": "ep27: 'The Dragon was essentially split in two, into good and evil, white and black Dragon Cubes.'"
+      },
+      {
+        "fromDay": 90,
+        "toDay": 90,
+        "holder": "Two evil dragons (Vilius)",
+        "how": "Vilius revives the evil half as an evil Tenkai Dragon (ep 49) and corrupts the Knights' good dragon into a second (ep 50); both his, briefly. (Finale days are compressed/approximate.)",
+        "evidence": "ep49: 'Destroy them, evil dragon!'; ep50: 'Let the good be made evil!'"
+      },
+      {
+        "fromDay": 91,
+        "toDay": null,
+        "holder": "Dragon Cubes (Knights)",
+        "how": "The Tenkai Wolf breaks both evil dragons in the finale (ep 51); the Dragon Cubes return to the Knights.",
+        "evidence": "ep51: 'Got our Dragon Cubes back! … the wolf just pwned both Dragons!'"
       }
     ],
     "rules": []
