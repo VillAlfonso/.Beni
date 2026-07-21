@@ -22,7 +22,9 @@ export function reloadTimeline(): void {
 export function loadTimeline(): TimelineData {
   if (cache) return cache;
   const episodes = new Map<number, TimelineEpisode>();
-  for (let no = 1; no <= 52; no++) {
+  // the English dub runs 51 episodes (episodes.json is the numbering authority;
+  // transcript FILES 40–52 hold episodes 39–51 — see name_transcripts.py)
+  for (let no = 1; no <= 51; no++) {
     const ep = readJson<TimelineEpisode>(`ep${String(no).padStart(2, "0")}.json`);
     if (ep && ep.no === no && ep.days) episodes.set(no, ep);
   }

@@ -25,11 +25,12 @@ function storySetup(storyEpisode: number, post: PostId | null, stages: Stage[]):
   if (post) {
     const stage = stages.find((s) => s.id === post) ?? stages[stages.length - 1];
     const entry = loadTimeline().post.find((p) => p.id === post);
-    const ep52 = episodeEntry(52);
-    const day = Math.max(1, (ep52 ? ep52.days.end : 0) + (entry?.daysAfterFinale ?? 3));
+    const finale = episodeEntry(51);
+    const day = Math.max(1, (finale ? finale.days.end : 0) + (entry?.daysAfterFinale ?? 3));
     const arc = arcs.find((a) => a.id === post) ?? null;
     const world = {
-      cursor: { day, timeOfDay: "morning", episode: 52 },
+      // pseudo-episode numbers past the 51-episode series select the post arcs
+      cursor: { day, timeOfDay: "morning", episode: post === "s5-aftermath" ? 52 : 53 },
       goals: [],
       divergence: [],
       artifactOverrides: [],
@@ -80,7 +81,7 @@ export function chatsRouter(db: Db): Router {
     const stages = loadStages();
     // Story-only creation: isolated mode is retired (legacy isolated chats stay readable).
     const post: PostId | null = b.post === "s5-aftermath" || b.post === "s5-knight" ? b.post : null;
-    const storyEpisode = post ? 52 : Math.min(52, Math.max(1, Number(b.storyEpisode) || 14));
+    const storyEpisode = post ? 51 : Math.min(51, Math.max(1, Number(b.storyEpisode) || 14));
     const setup = storySetup(storyEpisode, post, stages);
     const stage = getStage(setup.stageId);
     const id = newId();
@@ -143,7 +144,7 @@ export function chatsRouter(db: Db): Router {
     if (b.storyEpisode !== undefined && chat.mode === "story") {
       // Hard timeline jump: messages are kept, but the world reseeds at the
       // new episode's start — cursor, goals, pressures, divergence all fresh.
-      const ep = Math.min(52, Math.max(1, Number(b.storyEpisode) || 1));
+      const ep = Math.min(51, Math.max(1, Number(b.storyEpisode) || 1));
       const setup = storySetup(ep, null, loadStages());
       db.prepare("UPDATE chats SET story_episode=?, episode_cap=?, stage_id=?, world=?, updated_at=? WHERE id=?").run(
         ep,

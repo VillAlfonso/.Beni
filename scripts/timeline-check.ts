@@ -152,7 +152,7 @@ function main(): void {
   }
 
   // report
-  console.log(`timeline: authored ${eps.length}/52 episodes · ${t.arcs.length} arcs · ${t.artifacts.length} artifacts · ${t.post.length} post entries`);
+  console.log(`timeline: authored ${eps.length}/51 episodes · ${t.arcs.length} arcs · ${t.artifacts.length} artifacts · ${t.post.length} post entries`);
   console.log(`facts marked assumed: ${assumedCount} · marked unknown: ${unknownCount}`);
   if (errors.length) {
     console.error(`\n${errors.length} violation(s):`);

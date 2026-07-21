@@ -41,7 +41,7 @@ export function miscRouter(db: Db): Router {
   r.get("/episodes", (_req, res) => {
     const base = loadEpisodes();
     const rows = [];
-    for (let no = 1; no <= 52; no++) {
+    for (let no = 1; no <= 51; no++) {
       const tl = episodeEntry(no);
       const b = base.find((e) => e.no === no);
       rows.push({
