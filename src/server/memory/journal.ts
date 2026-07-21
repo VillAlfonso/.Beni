@@ -14,8 +14,9 @@ import { newId } from "../db.js";
 import { getSettings } from "../settings.js";
 import { completeChat } from "../llm/provider.js";
 import { pathToRoot } from "../core/tree.js";
-import { parseWorld, loadStoryPressures, getStage } from "../prompt/builder.js";
+import { loadStoryPressures, getStage } from "../prompt/builder.js";
 import { eligibilityFrom, tierOf, type Bond } from "../prompt/bond.js";
+import { worldDayKey } from "../timeline/world.js";
 
 export interface JournalRow {
   id: string;
@@ -28,11 +29,11 @@ export interface JournalRow {
   created_at: number;
 }
 
-/** Which day a chat is currently living in. */
+/** Which day a chat is currently living in (reads v2 and v1 world shapes). */
 export function currentDay(chat: { mode: string; world: string | null }): { key: string; label: string } {
   if (chat.mode === "story") {
-    const w = parseWorld(chat.world);
-    if (w) return { key: `d${w.clock.day}`, label: `Day ${w.clock.day}` };
+    const wd = worldDayKey(chat.world);
+    if (wd) return wd;
   }
   const d = new Date();
   const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -97,7 +98,20 @@ export async function sealDay(
     const user = settings.userName || "them";
     const tier = tierOf(bond);
     const stage = getStage(chat.stage_id);
-    const world = parseWorld(chat.world);
+    // loose world reader — handles both the v2 (cursor/ledger) and v1 (clock/enum) shapes
+    let worldLine = "";
+    try {
+      const w = JSON.parse(chat.world || "null");
+      const day = w?.cursor?.day ?? w?.clock?.day;
+      const div = Array.isArray(w?.divergence)
+        ? w.divergence.length
+          ? `${w.divergence.length} divergence entr${w.divergence.length === 1 ? "y" : "ies"} from canon`
+          : "none"
+        : String(w?.divergence ?? "none");
+      if (day) worldLine = `This timeline: day ${day}, divergence ${div}. ${w?.beni ? `Her condition: ${w.beni}. ` : ""}`;
+    } catch {
+      /* no world */
+    }
     const pressures = loadStoryPressures()[chat.stage_id];
 
     const excerpt = fresh
@@ -118,7 +132,7 @@ export async function sealDay(
           content:
             "You are writing Beni's private log for the night, in her own first-person voice — sharp, sarcastic, guarded, thirteen, allergic to sincerity but occasionally ambushed by it. " +
             `Where she is in her story: ${stage.label} — ${stage.short}. ` +
-            (world ? `This timeline: day ${world.clock.day}, divergence ${world.divergence}. ${world.beni ? `Her condition: ${world.beni}. ` : ""}` : "") +
+            worldLine +
             (pressures ? `What's on her plate: ${pressures.busy} Stakes: ${pressures.stakes} ` : "") +
             `How close she privately is to ${user} right now: "${tier}". ` +
             (prior ? `What she wrote about them last time: "${prior}" ` : "") +

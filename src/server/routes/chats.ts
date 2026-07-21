@@ -7,6 +7,63 @@ import { listJournal, sealDay, currentDay } from "../memory/journal.js";
 import { retrieveCanon } from "../rag/retrieve.js";
 import { getSettings } from "../settings.js";
 import { completeChat } from "../llm/provider.js";
+import { episodeEntry, allEpisodes, allArcs, allArtifacts, loadTimeline } from "../timeline/load.js";
+import { seedWorld, arcForEpisode, custodyAsOf, capabilitiesAsOf } from "../timeline/state.js";
+import { parseWorldV2 } from "../timeline/world.js";
+import type { Stage } from "../prompt/builder.js";
+
+type PostId = "s5-aftermath" | "s5-knight";
+
+/** Everything a new/reseeded story chat needs, derived from the chosen start. */
+function storySetup(storyEpisode: number, post: PostId | null, stages: Stage[]): {
+  stageId: string;
+  cap: number;
+  world: string;
+  opening: string | null;
+} {
+  const arcs = allArcs();
+  if (post) {
+    const stage = stages.find((s) => s.id === post) ?? stages[stages.length - 1];
+    const entry = loadTimeline().post.find((p) => p.id === post);
+    const ep52 = episodeEntry(52);
+    const day = Math.max(1, (ep52 ? ep52.days.end : 0) + (entry?.daysAfterFinale ?? 3));
+    const arc = arcs.find((a) => a.id === post) ?? null;
+    const world = {
+      cursor: { day, timeOfDay: "morning", episode: 52 },
+      goals: [],
+      divergence: [],
+      artifactOverrides: [],
+      pressures: (arc?.watchers ?? []).map((w) => ({ who: w.who, level: w.start, note: "" })),
+      events: [],
+      beni: ""
+    };
+    const opening = entry ? `*${entry.situation}*\n\n${stage.greeting}` : stage.greeting;
+    return { stageId: stage.id, cap: stage.cap, world: JSON.stringify(world), opening };
+  }
+
+  const tl = episodeEntry(storyEpisode);
+  if (tl) {
+    // era at the episode's FIRST frame; s0-discovery has no stage file — the
+    // pre-arrival prompt note carries that era, persona defaults to s1
+    const stageId = stages.some((s) => s.id === tl.arcAtStart) ? tl.arcAtStart : "s1-infiltrator";
+    const world = seedWorld(tl, arcForEpisode(tl.no, arcs));
+    const opening = `*${tl.start.situation}*\n\n${tl.start.firstContact}`;
+    return { stageId, cap: storyEpisode, world: JSON.stringify(world), opening };
+  }
+
+  // uncovered episode: legacy v1 world + stage from the old range derivation
+  const ranged = stages.find((s) => storyEpisode >= s.episodeRange[0] && storyEpisode <= s.episodeRange[1]);
+  const stageId = ranged?.id ?? stages[stages.length - 1].id;
+  const info = loadStoryPressures()[stageId];
+  const world = {
+    divergence: "none",
+    clock: { day: 1, timeOfDay: "afternoon" },
+    pressures: (info?.watchers ?? []).map((w) => ({ who: w.who, level: w.start, note: "" })),
+    events: [],
+    beni: ""
+  };
+  return { stageId, cap: storyEpisode, world: JSON.stringify(world), opening: null };
+}
 
 export function chatsRouter(db: Db): Router {
   const r = Router();
@@ -21,34 +78,26 @@ export function chatsRouter(db: Db): Router {
   r.post("/chats", (req, res) => {
     const b = req.body ?? {};
     const stages = loadStages();
-    const stage = stages.find((s) => s.id === b.stageId) ?? stages[stages.length - 1];
-    const mode = b.mode === "story" ? "story" : "isolated";
-    const storyEpisode = mode === "story" ? Number(b.storyEpisode) || stage.cap : null;
-    const cap = mode === "story" ? (storyEpisode as number) : stage.cap;
+    // Story-only creation: isolated mode is retired (legacy isolated chats stay readable).
+    const post: PostId | null = b.post === "s5-aftermath" || b.post === "s5-knight" ? b.post : null;
+    const storyEpisode = post ? 52 : Math.min(52, Math.max(1, Number(b.storyEpisode) || 14));
+    const setup = storySetup(storyEpisode, post, stages);
+    const stage = getStage(setup.stageId);
     const id = newId();
     const now = Date.now();
     const userLooks = String(b.userLooks ?? "").trim() || null;
     const opinion = JSON.stringify({ label: "a stranger", note: "", guard: 1 });
-    // story mode: seed the living world state from the stage's canonical pressures
-    let world: string | null = null;
-    if (mode === "story") {
-      const info = loadStoryPressures()[stage.id];
-      world = JSON.stringify({
-        divergence: "none",
-        clock: { day: 1, timeOfDay: "afternoon" },
-        pressures: (info?.watchers ?? []).map((w) => ({ who: w.who, level: w.start, note: "" })),
-        events: [],
-        beni: ""
-      });
-    }
     db.prepare(
       "INSERT INTO chats(id,title,mode,stage_id,episode_cap,story_episode,user_looks,opinion,world,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)"
-    ).run(id, String(b.title || "New chat"), mode, stage.id, cap, storyEpisode, userLooks, opinion, world, now, now);
+    ).run(id, String(b.title || "New chat"), "story", stage.id, setup.cap, storyEpisode, userLooks, opinion, setup.world, now, now);
 
-    // Opening scene: she's minding her own business — the player sees her first.
-    // Rolled at random per chat from the stage's scenario pool; stage greeting is the fallback.
-    const pool = loadScenarios()[stage.id] ?? [];
-    const opening = pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : stage.greeting;
+    // Opening scene: the episode's authored situation + first contact when the
+    // timeline covers it; otherwise the old per-stage scenario pool.
+    let opening = setup.opening;
+    if (!opening) {
+      const pool = loadScenarios()[stage.id] ?? [];
+      opening = pool.length > 0 ? pool[Math.floor(Math.random() * pool.length)] : stage.greeting;
+    }
     if (opening) {
       const mid = newId();
       db.prepare(
@@ -92,8 +141,18 @@ export function chatsRouter(db: Db): Router {
       );
     }
     if (b.storyEpisode !== undefined && chat.mode === "story") {
-      const ep = Number(b.storyEpisode) || 1;
-      db.prepare("UPDATE chats SET story_episode=?, episode_cap=?, updated_at=? WHERE id=?").run(ep, ep, Date.now(), req.params.id);
+      // Hard timeline jump: messages are kept, but the world reseeds at the
+      // new episode's start — cursor, goals, pressures, divergence all fresh.
+      const ep = Math.min(52, Math.max(1, Number(b.storyEpisode) || 1));
+      const setup = storySetup(ep, null, loadStages());
+      db.prepare("UPDATE chats SET story_episode=?, episode_cap=?, stage_id=?, world=?, updated_at=? WHERE id=?").run(
+        ep,
+        setup.cap,
+        setup.stageId,
+        setup.world,
+        Date.now(),
+        req.params.id
+      );
     }
     if (typeof b.userLooks === "string") {
       db.prepare("UPDATE chats SET user_looks=?, updated_at=? WHERE id=?").run(
@@ -159,6 +218,42 @@ export function chatsRouter(db: Db): Router {
     await sealDay(db, req.params.id, day.key, day.label, parseOpinion(chat.opinion).bond);
     const sealed = listJournal(db, req.params.id).some((j) => j.day_key === day.key);
     res.json({ sealed });
+  });
+
+  // the Timeline panel: cursor, ledgers, custody, capabilities — spoilers visible
+  r.get("/chats/:id/timeline", (req, res) => {
+    const chat = db.prepare("SELECT mode, stage_id, story_episode, world FROM chats WHERE id=?").get(req.params.id) as
+      | { mode: string; stage_id: string; story_episode: number | null; world: string | null }
+      | undefined;
+    if (!chat) return res.status(404).json({ error: "not found" });
+    if (chat.mode !== "story") return res.json({ covered: false });
+
+    const eps = allEpisodes();
+    const world = parseWorldV2(chat.world, chat.story_episode, eps);
+    if (!world) return res.json({ covered: false });
+
+    const entry = eps.find((e) => e.no === world.cursor.episode) ?? null;
+    const arc = arcForEpisode(world.cursor.episode, allArcs());
+    const artifacts = allArtifacts();
+    const custody = custodyAsOf(world.cursor.day, artifacts, world.artifactOverrides);
+    const overridden = new Set(
+      world.artifactOverrides.filter((o) => world.cursor.day >= o.sinceDay).map((o) => o.item)
+    );
+    res.json({
+      covered: entry !== null,
+      cursor: world.cursor,
+      arc: arc ? { id: arc.id, label: arc.label } : null,
+      episode: entry ? { no: entry.no, title: entry.title, days: [entry.days.start, entry.days.end] } : null,
+      goals: world.goals,
+      divergence: world.divergence,
+      artifactCustody: artifacts
+        .filter((a) => custody.has(a.id))
+        .map((a) => ({ item: a.id, name: a.name, holder: custody.get(a.id), overridden: overridden.has(a.id) })),
+      capabilities: capabilitiesAsOf(world.cursor.day, artifacts, world.artifactOverrides),
+      pressures: world.pressures,
+      events: world.events,
+      beni: world.beni
+    });
   });
 
   r.post("/chats/:id/checkpoints", (req, res) => {
