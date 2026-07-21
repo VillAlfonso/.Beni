@@ -48,10 +48,17 @@
     "custody": [
       {
         "fromDay": 1,
-        "toDay": null,
+        "toDay": 43,
         "holder": "Sealed — Benham Tower",
-        "how": "Hidden inside a tenkai seal in Benham Tower, the building where Guren's father works; undetected until the ep-22 triangulation con. TRANSFER PENDING AUTHORING: taken by Gen and Beni's side in ep 24; used/lost around the ep-25–26 Dragon awakening ('I'm not the klutz who managed to lose the Black Dragon Key!') — spans will be split when eps 22–26 days are authored (Task 5).",
-        "evidence": "analysis--arc-2 <!--ep:23-->: 'The Key sits sealed in Benham Tower … inside a tenkai seal'; <!--ep:24-->: 'the Key is taken'; analysis--arc-3 <!--ep:26-->: Beni's jab about losing it"
+        "how": "Hidden inside a tenkai seal in Benham Tower, the building where Guren's father works; undetected until the ep-22 triangulation ping.",
+        "evidence": "ep22: 'It's in Benham Tower.'; analysis--arc-2: 'The Key sits sealed in Benham Tower … inside a tenkai seal'"
+      },
+      {
+        "fromDay": 44,
+        "toDay": null,
+        "holder": "Gen/Dromus",
+        "how": "Unsealed on the tower roof by the Knights' core bricks (ep 23, night of day 44), then seized by Dromus under Eurus's time-freeze. LOSS PENDING AUTHORING: used/lost around the eps-25–26 Dragon awakening ('I'm not the klutz who managed to lose the Black Dragon Key!') — span will be closed when those days are authored.",
+        "evidence": "ep23: Gen: 'This belongs to me. Thanks for holding it.'; analysis--arc-3 <!--ep:26-->: Beni's jab about losing it"
       }
     ],
     "rules": []

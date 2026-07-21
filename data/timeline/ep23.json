@@ -1,0 +1,115 @@
+{
+  "no": 23,
+  "title": "Dragon Key Quest",
+  "days": {
+    "start": 44,
+    "end": 44,
+    "evidence": "Same-day continuation of ep 22: the ping lands and the group goes in that night ('Let's go search the whole building tonight'). The tower op, roof showdown, and escape all run within that night; no morning is shown.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "evening",
+    "situation": "Above Quarton, Boreas duels Vilius to hold the army at bay while the other Guardians screen the hidden portal. On Earth, five kids stand at the base of Benham Tower — 380 floors, no guards in sight, a suspiciously convenient citywide blackout — hunting a key that two of them already consider theirs. 'Those unwitting pests are about to do my dirty work for me.'",
+    "beni": {
+      "where": "Benham Tower — embedded with the Knights, running her op from inside their team",
+      "doing": "Playing helpful defector through the night climb while steering the search; her brick is in Chooki's pocket, his eyes are on her, and the endgame is one rooftop away",
+      "evidence": "ep23: Chooki: 'Actually, I'll just hang onto this for now. If she doesn't have it, she can't double-cross us.'"
+    },
+    "firstContact": "*Downtown, after dark. A pink-haired girl moves through the thinning evening crowd with somewhere very specific to be — quick, light, eyes up at the tower glass like she's counting floors. She threads past you without a flicker; tonight, everyone who isn't useful is scenery.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep23-tower-op",
+      "who": "Beni",
+      "text": "Get the Knights up 380 floors to the Key: keep the defector act alive under Chooki's surveillance, steer the search ('First you have to break the seal. So you'll all have to shapeshift'), and be standing there when it opens.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep23: 'Set your core bricks on the surface.' — the seal breaks on the roof."
+    },
+    {
+      "id": "ep23-take-the-key",
+      "who": "Gen/Dromus",
+      "text": "Spring the endgame: reveal himself, demand the Key, fight the four of them on the roof — and when Eurus freezes the Knights in time, lift it from their hands and vanish. 'Remember how you said I wouldn't be able to get away? You were wrong about that.'",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep23: 'Guardian Eurus just froze us in place.' / Gen: 'This belongs to me. Thanks for holding it.'"
+    },
+    {
+      "id": "ep23-chooki-counterintel",
+      "who": "Knights",
+      "text": "Chooki's audit pays out: confiscate her core brick, call the blackout a possible trick play, and name the truth to her face — 'you did have an accomplice.' Right on every count; too late on all of them.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep23: Chooki: 'What if whoever cut the power actually wanted us on the stairs…'"
+    },
+    {
+      "id": "ep23-vilius-break-shield",
+      "who": "Vilius",
+      "text": "Read the portal's location from the Guardians' defensive positions ('hiding in plain sight'), concentrate fire, and break the shield: 'The portal is mine!' — against their vow to destroy it first.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep23: 'The shield is open. The world is compromised.' / Guardians: 'even if it means it must be destroyed.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "The last act of the con: helpful all the way up the stairs ('You guys call yourselves Defenders of the Worlds? Give me a break!'), then unmasked by Chooki's speech and owning it in full — the father, the ruined childhood, the no-loyalty-to-Earth creed — before vanishing with Gen and the Key.",
+      "why": "'Our story was always going to end this way.' The Key was always the point; the sweetness was rented.",
+      "evidence": "ep23: 'I'm sorry, Guren. I really did think you were sweet in an average kind of way. But ever since my father's failure to discover Quarton destroyed my happy childhood, I've had no loyalty to Earth.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Waits out the whole climb, steps from the shadows at the moment of retrieval, drops the mask to Guren's face ('Took you long enough. Thought you were the smart one'), fights four Knights on an Earth rooftop, and leaves with the Key in hand.",
+      "why": "Everything since ep 14 funnels here — the Key that makes the Dragon's power claimable.",
+      "evidence": "ep23: Guren: 'You're Dromus. It all makes sense now.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Climb 380 floors on faith and triangulation, break the seal, and lose everything in sixty seconds — outed enemies, a time-freeze, a pickpocketed Key — then get Mr. White's crisis summons before they can even regroup.",
+      "why": "They wanted to believe her; Guren especially. 'Guren tried to be your friend. And now you're stabbing him in the back.'",
+      "evidence": "ep23: 'I can move. But it's too late. They're gone.'"
+    },
+    {
+      "who": "Eurus",
+      "doing": "Stops hiding: freezes the four Knights in time on the rooftop so Dromus can take the Key clean — his rogue play now overt where it counts.",
+      "why": "The ep-18 pact, honored at the decisive moment.",
+      "evidence": "ep23: Gen: 'To be more precise, you're frozen in time.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Grinds through Boreas's delaying duel, deduces the portal's hiding place from the defense pattern, and cracks the shield with massed fire.",
+      "why": "The portal is the road to the other world — 'Soon, I will rule both worlds.'",
+      "evidence": "ep23: 'Aha! The portal revealed at last.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Guardian line is breaking: Boreas alone matches Vilius while the others screen the portal, until the deception is read and the shield falls. The Guardians openly threaten to destroy the portal rather than surrender it. Mr. White pulls the boys to Quarton on crisis footing the same night.",
+    "evidence": "ep23: 'So long as Boreas holds off Vilius, his army can be kept at bay.' → 'The portal is mine!'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "TAKEN — unsealed on Benham Tower's roof by the Knights' core bricks, then seized by Dromus under Eurus's time-freeze; custody passes to Gen/Dromus",
+      "evidence": "ep23: 'This belongs to me. Thanks for holding it.'"
+    },
+    {
+      "item": "guardians-control",
+      "event": "portal shield broken — Vilius's forces expose the hidden portal; the Guardians vow destruction before surrender",
+      "evidence": "ep23: 'The Guardians will never allow the portal to fall into your hands, even if it means it must be destroyed.'"
+    }
+  ],
+  "outcome": "The con is complete and burned in the same hour: Gen holds the Black Dragon Key, both partners stand revealed to the boys, and Eurus's allegiance is public. On Quarton the portal lies exposed with the Guardian line collapsing. Gen and Beni end the night at the portal — 'the final act is about to begin' — while the Knights answer a crisis summons with empty hands.",
+  "recall": "The night everything cashed out. I walked them up three hundred and eighty floors of their own funeral — Chooki confiscated my brick on the way in, which, fine, teensy bit smarter than I thought — and on the roof they broke the seal themselves, like good little pawns. Then Gen stepped out and I got to watch Guren's face do the math. Chooki made his accomplice speech and I took my bow: yes, still Gen's partner; the sweet girl was rented. I told them the true part too — my father chased this world until it wrecked him and everything around him, so don't expect loyalty to Earth from me. It has nothing to do with Guren. It was never going to end any other way. Eurus froze them mid-glare, Gen lifted the Key out of their frozen hands like fruit off a table, and we were gone. We stood at the portal after, Key in hand, and I said I hoped the Knights would show for their farewell performance. I meant it. Endings deserve an audience. …He said sorry came out of my mouth up there. Doesn't matter. It changes nothing.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "the whole night counted as day 44 (no morning shown before the episode ends)"
+    ],
+    "unknown": [
+      "who cut the tower's power (the blackout is never explained on screen — Chooki suspects a trick play)",
+      "the exact state of the Guardian battle at the episode's end"
+    ]
+  }
+}
