@@ -2,7 +2,9 @@
   {
     "id": "tenkai-stone",
     "name": "Tenkai Stone (the Tenkai Fortress key)",
-    "grants": ["Finding and opening the Tenkai Fortress — 'What good's the Fortress without the key?'"],
+    "grants": [
+      "Finding and opening the Tenkai Fortress — 'What good's the Fortress without the key?'"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -15,7 +17,10 @@
     "rules": [
       {
         "capability": "open-tenkai-fortress",
-        "requires": { "item": "tenkai-stone", "holder": "Knights" },
+        "requires": {
+          "item": "tenkai-stone",
+          "holder": "Knights"
+        },
         "evidence": "analysis--arc-4 <!--ep:44-->: 'What good's the Fortress without the key?'; analysis--arc-5 <!--ep:48-->: Stone reaches Guren, then the Fortress is opened"
       }
     ]
@@ -23,7 +28,9 @@
   {
     "id": "guardians-control",
     "name": "The Guardians (who commands them, and their transporter)",
-    "grants": ["Interdimensional transport at Guardian scale — including deploying agents to Earth"],
+    "grants": [
+      "Interdimensional transport at Guardian scale — including deploying agents to Earth"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -36,7 +43,10 @@
     "rules": [
       {
         "capability": "deploy-minions-to-earth",
-        "requires": { "item": "guardians-control", "holder": "Vilius" },
+        "requires": {
+          "item": "guardians-control",
+          "holder": "Vilius"
+        },
         "evidence": "analysis--arc-3 <!--ep:27-->: 'with Vilius controlling the corrupted Guardians he gains their transporter — which is how Granox and Slyger reach Earth'"
       }
     ]
@@ -44,7 +54,9 @@
   {
     "id": "black-dragon-key",
     "name": "Black Dragon Key",
-    "grants": ["Full control of the Tenkai Dragon — dark twin of the white Key"],
+    "grants": [
+      "Full control of the Tenkai Dragon — dark twin of the white Key"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -62,10 +74,17 @@
       },
       {
         "fromDay": 46,
-        "toDay": null,
+        "toDay": 46,
         "holder": "Vilius",
-        "how": "Seized from the mutinous Dromus with one blast during the fortress battle (ep 25) and used at once to wake the Dragon dark. FATE PENDING AUTHORING: the Key's whereabouts after the ep-26 Dragon battle ('I'm not the klutz who managed to lose the Black Dragon Key!' — her jab at Gen) will close this span when arc 3 days are authored.",
-        "evidence": "ep25: Vilius: 'You hold only the means to power. Not power itself.' / 'Awaken, Dragon! Vilius commands you!'"
+        "how": "Seized from the mutinous Dromus at the battle's start and used to wake the Dragon dark — then stripped by the Guardians' intervention within the same day.",
+        "evidence": "ep25: 'You hold only the means to power.'; ep26: 'Not for long! The key!' / 'Now you have nothing, Vilius!'"
+      },
+      {
+        "fromDay": 47,
+        "toDay": null,
+        "holder": "Unknown — spent in the convergence",
+        "how": "Brought together with the White Key to restore and re-cube the Dragon (ep 26); its resting place afterward is never shown.",
+        "evidence": "ep26: 'Now bring the two keys together…'"
       }
     ],
     "rules": []
@@ -73,7 +92,9 @@
   {
     "id": "white-dragon-key",
     "name": "Dragon Key (white)",
-    "grants": ["Opening the united Dragon Cubes — awakening the Tenkai Dragon"],
+    "grants": [
+      "Opening the united Dragon Cubes — awakening the Tenkai Dragon"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -88,14 +109,30 @@
   {
     "id": "dragon-cubes",
     "name": "The five Dragon Cubes",
-    "grants": ["United and opened with the Dragon Key, they awaken the Tenkai Dragon"],
+    "grants": [
+      "United and opened with the Dragon Key, they awaken the Tenkai Dragon"
+    ],
     "custody": [
       {
         "fromDay": 1,
-        "toDay": null,
+        "toDay": 12,
         "holder": "Scattered across Quarton",
-        "how": "Won one by one across arc 1, united in ep 13. From ep 13 onward the assembled Dragon supersedes the cubes as the object in play. Spans will be split when arc-1 episode days are authored (Phase 4).",
-        "evidence": "analysis--arc-1 <!--ep:2-->: 'the mightiest force, was split into five Dragon Cubes scattered across Quarton'; <!--ep:13-->: 'the five cubes combine'"
+        "how": "Won one by one across arc 1 (days per the arc-1 one-day-per-episode anchor assumption).",
+        "evidence": "analysis--arc-1 <!--ep:2-->: 'split into five Dragon Cubes scattered across Quarton'"
+      },
+      {
+        "fromDay": 13,
+        "toDay": 46,
+        "holder": "United — the Tenkai Dragon",
+        "how": "Combined in ep 13; existence continues as the Dragon (see tenkai-dragon) through capture, dark revival, and restoration.",
+        "evidence": "analysis--arc-1 <!--ep:13-->: 'the five cubes combine'"
+      },
+      {
+        "fromDay": 47,
+        "toDay": null,
+        "holder": "The five cubes again",
+        "how": "Re-split after the ep-26 convergence; disposition afterward unshown.",
+        "evidence": "ep26: 'Breaking up into Dragon Cubes again!'"
       }
     ],
     "rules": []
@@ -103,7 +140,9 @@
   {
     "id": "tenkai-dragon",
     "name": "Tenkai Dragon",
-    "grants": ["The mightiest force on Quarton — its power belongs to whoever holds it"],
+    "grants": [
+      "The mightiest force on Quarton — its power belongs to whoever holds it"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -121,10 +160,17 @@
       },
       {
         "fromDay": 46,
-        "toDay": null,
+        "toDay": 46,
         "holder": "Vilius",
-        "how": "Revived DARK by the Black Key in Vilius's hand (ep 25); under his command. FATE PENDING AUTHORING: defeated with Vilius in ep 26 — span closes when arc 3 days are authored.",
-        "evidence": "ep25: 'Awaken, Dragon! Vilius commands you!'; analysis--arc-3 <!--ep:26-->: 'The Knights defeat the evil Tenkai Dragon and Vilius with it'"
+        "how": "Revived DARK by the Black Key and ridden into battle — immobilized by the Guardians and restored good by both keys within the same day.",
+        "evidence": "ep25: 'Awaken, Dragon! Vilius commands you!'; ep26: 'Forgive us, Dragon, for what we must do.'"
+      },
+      {
+        "fromDay": 47,
+        "toDay": null,
+        "holder": "Split — the five Dragon Cubes",
+        "how": "Restored good, its energy infused into the five Knights, then broken back into cubes (ep 26). REVIVAL PENDING AUTHORING: Vilius revives an evil Tenkai Dragon late in arc 5 — span will split when those days are authored.",
+        "evidence": "ep26: 'Breaking up into Dragon Cubes again!'; ep51-file recap: 'Vilius revived his evil Tenkai Dragon'"
       }
     ],
     "rules": []
@@ -132,7 +178,9 @@
   {
     "id": "reassembly-device",
     "name": "The Corrupted's Reassembly Device",
-    "grants": ["Repair and redeploy Corrupted fighters that have been damaged or even destroyed"],
+    "grants": [
+      "Repair and redeploy Corrupted fighters that have been damaged or even destroyed"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -154,7 +202,9 @@
   {
     "id": "warehouse-portal",
     "name": "Beni's warehouse (Transdimensional Portal)",
-    "grants": ["Her private door to Quarton, independent of Mr. White's shop"],
+    "grants": [
+      "Her private door to Quarton, independent of Mr. White's shop"
+    ],
     "custody": [
       {
         "fromDay": 1,
@@ -169,7 +219,9 @@
   {
     "id": "shop-portal",
     "name": "Mr. White's Shop of Wonders (portal)",
-    "grants": ["The Knights' door to Quarton"],
+    "grants": [
+      "The Knights' door to Quarton"
+    ],
     "custody": [
       {
         "fromDay": 1,

@@ -1,0 +1,131 @@
+{
+  "no": 26,
+  "title": "A New Knight",
+  "days": {
+    "start": 46,
+    "end": 46,
+    "evidence": "Continuous with ep 25's battle day — Vilius rides the woken Dragon and the fight runs unbroken to his destruction; the coin-sunset scene closes the same evening. (The peace montage that follows spans unspecified later days — see confidence.)",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Vilius commands the revived Dragon and the worlds are on a collision course — cubification is live on the Benham news, reaching for the Tower itself. The Knights stand between him and everything, Boreas is contemplating a forbidden option ('there comes a point when only by disobeying a rule can you fulfill the purpose for which that rule was made'), and two ex-partners are about to have the argument that ends them.",
+    "beni": {
+      "where": "Quarton — the battle's edge, spectating",
+      "doing": "Watching the endgame she helped build play out without her ('Of course they don't [have a chance]. Isn't that the whole idea?') — and demanding to know how the plan went kaput",
+      "evidence": "ep26: Beni at the battlefield; a Knight: 'Can it, Venetta!'"
+    },
+    "firstContact": "*In a shop window's reflection she fixes nothing — just stares her own scowl down like it's a rival, then exhales through her nose and keeps walking, boots clicking hard on the pavement.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep26-beni-postmortem",
+      "who": "Beni",
+      "text": "Get answers: how did VILIUS end up with their Dragon, and what is Gen going to do about it — 'I turn my back for one minute and our whole plan goes kaput!' The answer she gets instead ends the partnership.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep26: Gen: 'From now on, Beni, you go your way, and I'll just go mine.' / Beni: 'Hang on, Dromus! I didn't mean to... Wait!'"
+    },
+    {
+      "id": "ep26-knights-final-stand",
+      "who": "Knights",
+      "text": "Hold against the Dragon-riding Vilius, restore the Dragon good with both keys, absorb its energy, and finish Vilius with the five-as-one fusion — Gen fighting as the fifth.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep26: 'How about we make it the five become as one?' … Vilius: 'No! No! No!'"
+    },
+    {
+      "id": "ep26-guardians-intervene",
+      "who": "Guardians",
+      "text": "Break the ancient non-interference decree by unanimous vote, immobilize the Dragon, strip the Black Key from Vilius — and confront Eurus to his face: 'You have gone too far. You must be stopped.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep26: 'We, the Guardians, have voted to intervene. … It is only when faced with the destruction of the Earth and Quarton itself that we have dared to defy the ancient decree.'"
+    },
+    {
+      "id": "ep26-gen-new-path",
+      "who": "Gen/Dromus",
+      "text": "Walk away from Beni, reframe his hunger ('Not revive the dragon, but defeat it! Then I'll be the strongest of all!'), fight beside the Knights, and return Guren's coin at sunset — 'So are we friends, then?' / 'I don't know. We'll have to see.'",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep26: Gen: 'My real strength is inside me, waiting to be unleashed.'"
+    },
+    {
+      "id": "ep26-vilius-eradicate",
+      "who": "Vilius",
+      "text": "Finish the Knights with the Dragon and the Inductor-extracted power — 'Eradicate the humans!' — and be destroyed by the five instead: his second defeat.",
+      "due": { "day": 46 },
+      "window": "episode",
+      "evidence": "ep26: Vilius: 'Thanks to your device, Dromus! I was able to extract the Dragon's limitless power even before I had the key!'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Spectates the battle with commentary, corners Gen with the klutz jab — and watches her partnership end in two sentences. Her 'I didn't mean to... Wait!' is the one time the mask fails completely. By the epilogue she has 'kinda gone rogue. At the moment, she's on her own.'",
+      "why": "The jab was reflex; the split is allegiance — Gen walks toward redemption, and she doesn't want redemption.",
+      "evidence": "ep26: Guren's epilogue narration: 'As for Beni, I don't know where she fits in.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Ends the partnership without raising his voice, throws himself at the Dragon as his 'new path to strength', joins the five-way fusion that kills Vilius, and gives the coin back at sunset.",
+      "why": "'Maybe I'd been searching in all the wrong places for something that was right here, staring me in the face all along.'",
+      "evidence": "ep26: the coin scene: 'We're more like two separate coins. We both have two sides to us.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Speeches, then substance: survive the Dragon's fire, summon the White Key on the Guardians' cue, restore the Dragon good, take its energy into themselves ('You're now in Phoenix Mode!' — battle mode infused with Dragon energy), fuse as five, destroy Vilius, and heal the portal with the energy they carry.",
+      "why": "'We're fighting for something. Our homes and families. … What are you fighting for? Nothing but yourself!'",
+      "evidence": "ep26: 'Channel it and focus on the portal!' / Guardians: 'Balance has been restored. The crisis is past.'"
+    },
+    {
+      "who": "Guardians",
+      "doing": "Vote unanimously to intervene, immobilize the Dragon ('Forgive us, Dragon, for what we must do'), orchestrate the two-keys convergence, and put Eurus on notice mid-battle. Their closing worry: Vilius's last words — 'Perhaps not enough. I wonder what he was talking about.'",
+      "why": "Only the destruction of both worlds justified defying their own decree.",
+      "evidence": "ep26: 'The vote of the Council was unanimous. Eurus! You have gone too far.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Rides the Dragon, shrugs off Phoenix Mode, unveils his stored Inductor power — and is destroyed by the five-as-one strike, raging to the last.",
+      "why": "'It's hard to believe there was once a time when I considered you a threat!'",
+      "evidence": "ep26: 'Finish him, Bravenwolf! … I'd say it's been fun, but I'd be lying!'"
+    }
+  ],
+  "quarton": {
+    "situation": "The convergence crisis peaks and breaks in one day: the Dragon immobilized by Guardian power, restored good by both keys, split back into the five Dragon Cubes; Vilius destroyed by the five-Knight fusion; the portal healed by the Dragon energy the Knights now carry. 'Balance has been restored. The crisis is past.' The epilogue is peace — no summons, training montages, and a rogue girl on her own orbit.",
+    "evidence": "ep26: 'Breaking up into Dragon Cubes again!'; Guren: 'It's hard keeping the guys focused when there's not some earth-shattering crisis going on.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "STRIPPED from Vilius mid-battle by the Guardians' intervention ('Not for long! The key!' / 'Now you have nothing, Vilius!'), then brought together with the White Key in the convergence; its whereabouts after the battle are not shown",
+      "evidence": "ep26: 'Now bring the two keys together and you will discover that you have accomplished even more than you think.'"
+    },
+    {
+      "item": "tenkai-dragon",
+      "event": "restored GOOD by the two keys, its energy infused into the five Knights, then split back into the five Dragon Cubes",
+      "evidence": "ep26: 'Okay, time to revive the good dragon! This time, you're gonna stay good!' … 'Breaking up into Dragon Cubes again!'"
+    },
+    {
+      "item": "guardians-control",
+      "event": "the council acts FREELY and decisively (unanimous intervention) — their last free act before the ep-27 resurrection disaster",
+      "evidence": "ep26: 'We, the Guardians, have voted to intervene.'"
+    }
+  ],
+  "outcome": "Vilius destroyed (second defeat); the Dragon saved, drained into the Knights, and re-cubed; the portal healed; the worlds pulled back from merging. Gen stands with the Knights — coin returned, friendship 'we'll have to see'. The partnership that drove the whole Key arc is over on a sharp sentence and a softer one. Peace settles over both worlds; Beni goes rogue, alone by her own hand.",
+  "recall": "The day the war ended, temporarily, and my partnership ended, permanently. I asked Gen one question — how does VILIUS end up holding our Dragon after everything we built — and yes, I asked it with teeth. I'm not the klutz who lost the Black Key. And he just… agreed with me. Calm as Sunday. 'You go your way, and I'll just go mine.' I said his name. I said wait. Out loud. In front of the sky and everything. Filing that under moments that never happened. Then he went and fought BESIDE them — fused with them, five as one, and they put Vilius down for good this time. The Guardians finally got their hands dirty, the Dragon went back to being a pile of blocks, both worlds got saved, hooray. And me? Guren's little wrap-up apparently goes: Beni's gone rogue, she's on her own. For once the boy's reporting is accurate. On my own. Like always. Like I prefer it. Obviously.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay (battle continues from ep 25)",
+      "the coin-sunset scene falls on the same evening as the battle"
+    ],
+    "unknown": [
+      "whether she stays for the battle's end or learns the outcome after",
+      "how many days the closing peace montage spans (the ep-27 gap absorbs it)",
+      "where the two Dragon Keys rest after the convergence",
+      "what became of Eurus immediately after the council confronted him"
+    ]
+  }
+}
