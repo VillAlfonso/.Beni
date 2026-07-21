@@ -5,6 +5,9 @@ import type { CanonHit, MemoryHit } from "../rag/retrieve.js";
 import type { ChatMessage } from "../llm/provider.js";
 import type { Msg } from "../core/tree.js";
 import { type Bond, FRESH_BOND, parseBond, eligibilityFrom, tierOf, tierDirection } from "./bond.js";
+import { episodeEntry, allEpisodes, allArcs, allArtifacts } from "../timeline/load.js";
+import { entryFor, arcForEpisode, custodyAsOf, capabilitiesAsOf } from "../timeline/state.js";
+import { parseWorldV2 } from "../timeline/world.js";
 
 const CHAR_DIR = path.join(PROJECT_ROOT, "character/beni");
 
@@ -155,7 +158,7 @@ export function buildSystemPrompt(opts: {
   userName: string;
   userLooks?: string;
   opinion?: Opinion;
-  world?: WorldState | null;
+  worldRaw?: string | null;
   directives?: string[];
   journal?: { dayLabel: string; read: string; world: string }[];
 }): string {
@@ -170,7 +173,110 @@ export function buildSystemPrompt(opts: {
 
   parts.push(`# Where Beni is in her story right now\n${stageBody}`);
 
-  if (opts.mode === "story" && opts.storyEpisode) {
+  const tl = opts.mode === "story" && opts.storyEpisode ? episodeEntry(opts.storyEpisode) : null;
+  if (opts.mode === "story" && opts.storyEpisode && tl) {
+    // ---- timeline-covered episode: canon-day simulator blocks ----
+    const eps = allEpisodes();
+    const world = parseWorldV2(opts.worldRaw ?? null, opts.storyEpisode, eps);
+    const day = world?.cursor.day ?? tl.days.start;
+    const timeOfDay = world?.cursor.timeOfDay ?? tl.start.timeOfDay;
+    const cursorEpNo = world?.cursor.episode ?? tl.no;
+    const curEntry = eps.find((e) => e.no === cursorEpNo) ?? tl;
+    const here = entryFor(day, eps);
+    const today = "episode" in here ? here.episode : null;
+    const upNext = "between" in here ? here.between[1] : eps.find((e) => e.no === cursorEpNo + 1) ?? null;
+    const arc = arcForEpisode(cursorEpNo, allArcs());
+    const artifacts = allArtifacts();
+    const overrides = world?.artifactOverrides ?? [];
+    const atStart = day === tl.days.start && cursorEpNo === tl.no;
+
+    parts.push(
+      `# Current point — Day ${day}, ${timeOfDay} — episode ${curEntry.no}, "${curEntry.title}" — ALTERNATE TIMELINE\n` +
+        (atStart ? `This roleplay begins at the START of episode ${tl.no}. ${tl.start.situation}\n` : "") +
+        `Canon from here is a TRAJECTORY, not a script: the war continues, characters pursue their goals, and canon events tend to happen on schedule — unless this timeline's own events bend or delay them. ${user}'s presence and choices are real interference; let consequences follow naturally. Beni cannot know events beyond this point in the story.` +
+        (tl.beniAbsent
+          ? `\nIMPORTANT: at this point Beni has NOT yet arrived in Benham City (she lands in episode 14). She is at her unnamed home far away — a scene with her can only happen there or in transit, she knows none of the boys, and she has never set foot in Benham.`
+          : "")
+    );
+
+    // Today in canon — her missions, the other actors, the board
+    const beniGoals = (world?.goals ?? []).filter((g) => g.who === "Beni" && (g.status === "pending" || g.status === "missed"));
+    const custody = custodyAsOf(day, artifacts, overrides);
+    const overriddenItems = new Set(overrides.filter((o) => day >= o.sinceDay).map((o) => o.item));
+    const custodyLines = artifacts
+      .filter((a) => custody.has(a.id))
+      .map((a) => `${a.name}: ${custody.get(a.id)}${overriddenItems.has(a.id) ? " (DIVERGED from canon)" : ""}`);
+    const caps = capabilitiesAsOf(day, artifacts, overrides);
+    const todayBlock = today
+      ? `Beni's own missions right now (she knows these — they are her intentions, not orders):\n` +
+        (beniGoals.length
+          ? beniGoals.map((g) => `- [${g.status}${g.status === "missed" ? " — the canon moment passed, still possible" : ""}] ${g.text}${g.note ? ` (${g.note})` : ""}`).join("\n")
+          : "- (no mission today — her time is her own)") +
+        `\nOther actors today: ${today.actors.map((a) => `${a.who} — ${a.doing}`).join(" | ")}` +
+        `\nQuarton: ${today.quarton.situation}`
+      : `A free day — canon has nothing scheduled between episodes.` +
+        (upNext ? ` Next on canon's schedule: episode ${upNext.no}, "${upNext.title}" (Day ${upNext.days.start}).` : "") +
+        (beniGoals.length ? `\nStill on her plate:\n${beniGoals.map((g) => `- [${g.status}] ${g.text}`).join("\n")}` : "");
+    parts.push(
+      `# Today in canon (DIRECTOR-ONLY grounding — never recite)\n${todayBlock}` +
+        (caps.length
+          ? `\nPowers in play (HARD constraints — the fiction may never violate these): ${caps.map((c) => `${c.capability} ${c.active ? "ACTIVE" : "unavailable"} (${c.why})`).join("; ")}`
+          : "") +
+        (custodyLines.length ? `\nWho holds what: ${custodyLines.join(" · ")}` : "")
+    );
+
+    // The living ledger of this timeline
+    if (world) {
+      const ledger = world.goals.filter((g) => g.status !== "pending");
+      parts.push(
+        `# This timeline so far (world state)\nDay ${day}, ${timeOfDay}.` +
+          (world.beni ? `\nBeni right now: ${world.beni}` : "") +
+          (ledger.length
+            ? `\nGoal ledger: ${ledger.map((g) => `[${g.status}] ${g.who}: ${g.text}${g.au ? " (this timeline's own)" : ""}`).join("; ")}`
+            : "") +
+          (world.divergence.length
+            ? `\nDivergence from canon:\n${world.divergence.map((d) => `- Day ${d.day} (${d.level}): ${d.what} → ${d.effect}`).join("\n")}`
+            : "\nDivergence from canon: none — the timeline still tracks the show.") +
+          (world.pressures.length
+            ? `\nPressure levels (0 calm → 3 acting on it): ${world.pressures.map((p) => `${p.who} ${p.level}/3${p.note ? ` (${p.note})` : ""}`).join("; ")}`
+            : "") +
+          (world.events.length ? `\nWhat has happened in this timeline:\n${world.events.map((e) => `- ${e}`).join("\n")}` : "") +
+          `\nHigh-pressure watchers act on it in-scene (a text from Gen, Granox lurking, a summons). Off-screen, the world kept moving.`
+      );
+    }
+
+    // Momentum — the rest of the current episode, then the next one
+    const momentum: string[] = [];
+    if (today) momentum.push(`Rest of this episode, if nothing bends: ${today.outcome}`);
+    if (upNext && upNext.no !== today?.no) momentum.push(`Then episode ${upNext.no}, "${upNext.title}": ${upNext.outcome.slice(0, 400)}`);
+    if (momentum.length) {
+      parts.push(
+        `# The world's momentum (DIRECTOR-ONLY — Beni knows none of this)\n${momentum.join("\n")}\nUse this only to steer background events and NPC behavior plausibly. Beni has no knowledge or premonition of any of it.`
+      );
+    }
+
+    // Her own memory of the last days
+    const recallEntries = [cursorEpNo - 2, cursorEpNo - 1]
+      .map((no) => eps.find((e) => e.no === no))
+      .filter((e): e is NonNullable<typeof e> => Boolean(e && !e.beniAbsent && e.recall));
+    if (recallEntries.length) {
+      parts.push(
+        `# The last days, as she remembers them (her own memory — first person, private)\n` +
+          recallEntries.map((e) => `- Episode ${e.no}, "${e.title}": ${e.recall}`).join("\n")
+      );
+    }
+
+    // Her life right now — era pressures from the arc dossier
+    const busy = arc?.busy ?? loadStoryPressures()[opts.stageId]?.busy;
+    const stakes = arc?.stakes ?? loadStoryPressures()[opts.stageId]?.stakes;
+    const watchers = arc?.watchers ?? loadStoryPressures()[opts.stageId]?.watchers ?? [];
+    if (busy || stakes || watchers.length) {
+      parts.push(
+        `# Her life right now (story mode — her time is REAL)\nHow busy she is: ${busy ?? ""}\nWho notices where her time goes: ${watchers.map((w) => `${w.who} — ${w.why}`).join(" | ")}\nWhat's at stake if she's distracted: ${stakes ?? ""}\nShe is focused and smart, and she VALUES HER TIME. Missions and obligations outrank a stranger; free time is when longer scenes with ${user} plausibly happen. She may be called away mid-scene (Quarton summons, a job, a watcher checking in) — that is normal life in this timeline, not rudeness.`
+      );
+    }
+  } else if (opts.mode === "story" && opts.storyEpisode) {
+    // ---- legacy path: episode without timeline data (synopsis mode) ----
     const eps = loadEpisodes();
     const ep = eps.find((e) => e.no === opts.storyEpisode);
     const next = eps.find((e) => e.no === (opts.storyEpisode ?? 0) + 1);
@@ -194,8 +300,8 @@ export function buildSystemPrompt(opts: {
           `# Her life right now (story mode — her time is REAL)\nHow busy she is: ${info.busy}\nWho notices where her time goes: ${info.watchers.map((w) => `${w.who} — ${w.why}`).join(" | ")}\nWhat's at stake if she's distracted: ${info.stakes}\nShe is focused and smart, and she VALUES HER TIME. Missions and obligations outrank a stranger; free time is when longer scenes with ${user} plausibly happen. She may be called away mid-scene (Quarton summons, a job, a watcher checking in) — that is normal life in this timeline, not rudeness.`
         );
       }
-      if (opts.world) {
-        const w = opts.world;
+      const w = parseWorld(opts.worldRaw);
+      if (w) {
         parts.push(
           `# This timeline so far (world state)\nDay ${w.clock.day}, ${w.clock.timeOfDay}. Divergence from canon: ${w.divergence}.` +
             (w.beni ? `\nBeni right now: ${w.beni}` : "") +

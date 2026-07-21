@@ -2,7 +2,7 @@ import { Router, type Response } from "express";
 import type { Db } from "../db.js";
 import { createMessage, pathToRoot, setHead, getMessage, type Msg } from "../core/tree.js";
 import { retrieveCanon, retrieveMemories } from "../rag/retrieve.js";
-import { buildSystemPrompt, buildHistory, parseOpinion, parseWorld } from "../prompt/builder.js";
+import { buildSystemPrompt, buildHistory, parseOpinion } from "../prompt/builder.js";
 import { streamChat } from "../llm/provider.js";
 import { getSettings } from "../settings.js";
 import { maybeExtract, maybeUpdateOpinion, maybeTickWorld } from "../memory/extractor.js";
@@ -60,7 +60,7 @@ async function generate(db: Db, chat: ChatRow, parent: Msg, res: Response): Prom
       userName: settings.userName,
       userLooks: chat.user_looks || settings.userLooks,
       opinion: parseOpinion(chat.opinion),
-      world: parseWorld(chat.world),
+      worldRaw: chat.world,
       journal: recentJournal(db, chat.id, 2),
       directives: (() => {
         try {
