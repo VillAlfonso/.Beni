@@ -1,0 +1,98 @@
+{
+  "no": 16,
+  "title": "Oh No, I Didn't",
+  "days": {
+    "start": 31,
+    "end": 32,
+    "evidence": "Two days inferred: Tributon's solo defeat closes with 'I sure screwed up today'; a later classroom scene ('Moving on to ancient Persia') precedes the diner talk, his quitting, and the comeback battle. Start day taken as the day after ep 15 ends.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Guren is stewing — Gen's coin ('two sides to every coin… that's you and me'), the girl's question ('Are you really sure this planet is worth saving?'), Dromus's needling — and his gloom lands on Ceylan, who starts wondering out loud whether the Guardians picked the right Knights. On the enemy side, Dromus is a few adjustments from switching on the Tenkai Reversal Inductor.",
+    "beni": {
+      "where": "Benham City — off-screen this episode; exact whereabouts unshown",
+      "doing": "No on-screen moves. Her ep-15 hooks sit planted ('See you soon. Sooner than you think') while Guren stews on what she and Gen have been saying",
+      "evidence": "ep16 recap: 'the bad guys just got a new player on their side. And from what we've seen so far, she could be our toughest opponent yet.'; analysis--arc-2 <!--ep:16-->: 'Guren stews on what Gen, Beni and Dromus have been saying to him'"
+    },
+    "firstContact": "*Mall food court. She sits alone at a two-seat table, drink untouched, chin in her palm, watching shoppers drift past with half-lidded turquoise eyes — cataloguing, not daydreaming. You're just another entry in the crowd.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep16-ceylan-worth",
+      "who": "Knights",
+      "text": "Ceylan settles whether he belongs: solo-proves himself against Granox and Slyger (disaster), quits the team, then answers the call anyway — 'they're more than just teammates. They're my friends.'",
+      "due": { "day": 32 },
+      "window": "episode",
+      "evidence": "ep16: Ceylan: 'There's nothing left to say but goodbye, Tenkai.' … 'Friends are everything. And that's no joke!'"
+    },
+    {
+      "id": "ep16-inductor-testing",
+      "who": "Gen/Dromus",
+      "text": "Finish testing the Tenkai Reversal Inductor — 'a final few adjustments and the process can begin. Then, at last, the power of the Tenkai Dragon will be ours.'",
+      "due": { "day": 34 },
+      "window": "repeatable-later",
+      "evidence": "ep16: Gen to Vilius: 'I've nearly finished testing the Tenkai Reversal Inductor.'"
+    },
+    {
+      "id": "ep16-lieutenants-titan",
+      "who": "Granox & Slyger",
+      "text": "Press the new advantage: both can now enter Tenkai Titan Mode, and they rout the Corekai with it until the full team arrives.",
+      "due": { "day": 32 },
+      "window": "episode",
+      "evidence": "ep16: 'Come to think of it, our Titan Mode's better than his too.' — both go Titan and decimate the Corekai line."
+    }
+  ],
+  "actors": [
+    {
+      "who": "Knights",
+      "doing": "Ceylan's arc start to finish: the question ('why was I chosen?'), Mr. White's riddles, Beag's mortifying cheer-squad, the solo humiliation, quitting, and the return that wins the battle with the long-range game only Tributon has.",
+      "why": "'What did the Guardians see in me?' — answered by his friends needing exactly him.",
+      "evidence": "ep16: the Tributon spell-out cheer; 'The problem is, we're missing our long range attack specialist. Tributon.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Reporting progress on the Reversal Inductor to an impatient Vilius while swallowing the 'remember whom you serve' warning — 'Ours, Dromus?' / 'I mean yours, of course.'",
+      "why": "The Dragon's power, for himself, behind Vilius's back.",
+      "evidence": "ep16: Vilius: 'Ambition is a powerful weapon. But be careful you don't shoot yourself with it.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Back in the field with Titan Modes of their own, bullying Tributon's solo stand and routing Beag's Corekai until the Knights arrive.",
+      "why": "Prove themselves to Vilius after all the reassemblies.",
+      "evidence": "ep16: 'Not Tributon, and all by himself. Whatever will we do?' — then both activate Titan Mode."
+    },
+    {
+      "who": "Vilius",
+      "doing": "Pressing Dromus for progress and warning him about ambition; savoring what the Dragon's power will bring.",
+      "why": "'Once I possess the dragon's immeasurable power, the universe will serve me as well.'",
+      "evidence": "ep16: Vilius: 'Have you made progress? I grow impatient.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Corrupted's stock is up: Granox and Slyger fight in Titan Mode now, and a Corekai supply position gets routed protecting a solo Tributon. The full team's arrival plus Tributon's return turns it — the Knights hold the field, but the escalation is real.",
+    "evidence": "ep16: Beag: 'We must protect Tributon!' / 'Our guys are getting decimated.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "extraction nears — the Tenkai Reversal Inductor is in final testing; once it runs, the Dragon's power can be drained",
+      "evidence": "ep16: Gen: 'A final few adjustments and the process can begin.'"
+    }
+  ],
+  "outcome": "Ceylan's crisis resolves into the team's spine ('Friends are everything'); the Knights hold the field. Granox and Slyger now fight in Titan Mode — the Corrupted's floor just rose. The Reversal Inductor is nearly ready, and Vilius has put Dromus on notice about his ambition.",
+  "recall": "Not my episode. I let the hooks I'd set do their work — Guren was reportedly moping around with big questions on his face, which means the 'worth saving?' line landed deeper than my slip deserved. Word from Quarton: the blue one tried to be a hero alone, the Corekai got flattened, and the tin-can twins are suddenly strutting around in Titan Mode — everyone's leveling up. Gen kept to his lab; whatever he's building for the Dragon, he was closer to it by nightfall. A quiet day for me. Quiet days are when I sharpen things.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 15 ends",
+      "two-day split at the solo-defeat night"
+    ],
+    "unknown": [
+      "Beni's actual activities during this episode (entirely off-screen)",
+      "how much of the Quarton rout she hears about, and from whom"
+    ]
+  }
+}

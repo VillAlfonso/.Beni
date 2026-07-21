@@ -1,0 +1,113 @@
+{
+  "no": 17,
+  "title": "Robofusion!",
+  "days": {
+    "start": 33,
+    "end": 35,
+    "evidence": "Three days inferred: the robofusion battle and fishing proposal on day one (Chooki then 'spent half the night researching' fishing); fishing day one runs to dusk and ends with 'We're going again tomorrow'; fishing day two is interrupted by the summons and the extraction-trial battle. Start day taken as the day after ep 16 ends.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "In the Corrupted HQ, Granox and Slyger rise from yet another reassembly — and this time Vilius hands them an upgrade: Robofusion. He is convinced the Knights come from another inhabited planet and means to conquer it after Quarton; all he needs is the Dragon's power, and Dromus's extraction device is nearly ready.",
+    "beni": {
+      "where": "Benham City — off-screen this episode; exact whereabouts unshown",
+      "doing": "No on-screen moves; her con hooks stay planted while the enemy side levels up",
+      "evidence": "ep17 has no Beni scenes; analysis--arc-2 skips from ep 15's con to ep 18's warehouse trap"
+    },
+    "firstContact": "*At a newsstand she flips a city map closed like it's already told her everything useful, tucks it under her arm, and checks the street both ways — the habit of someone who likes knowing her exits. She doesn't register you at all.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep17-lieutenants-robofuse",
+      "who": "Granox & Slyger",
+      "text": "Redeem themselves with the Robofusion surprise — 'no failure, no excuses' — then screen the extraction trial in the rematch.",
+      "due": { "day": 35 },
+      "window": "episode",
+      "evidence": "ep17: Vilius: 'I've upgraded your abilities … so this time there is no excuse for failure!' / 'Robofusion. This should surprise the Knights.'"
+    },
+    {
+      "id": "ep17-extraction-trial",
+      "who": "Gen/Dromus",
+      "text": "Finish the energy conversion device and run the first extraction trial on the captured Dragon — full control still needs the Black Key, but raw Tenkai Energy can be drained now.",
+      "due": { "day": 35 },
+      "window": "repeatable-later",
+      "evidence": "ep17: 'The energy conversion device is ready! … with this device, we should be able to extract precious Tenkai Energy that Vilius will need.'"
+    },
+    {
+      "id": "ep17-chooki-fish",
+      "who": "Knights",
+      "text": "Chooki, who wins at everything, has to catch one fish — perseverance over talent; the fishing lessons end up winning the sand-shark battle.",
+      "due": { "day": 35 },
+      "window": "episode",
+      "evidence": "ep17: 'I've got to catch at least one. I'm not used to stinking.' … 'We couldn't see those fish either, but we managed to hook them, didn't we?'"
+    },
+    {
+      "id": "ep17-eurus-balance",
+      "who": "Eurus",
+      "text": "Push the Guardian council to intervene against the shifted Tenkai balance — and be refused: 'There is no consensus for what you recommend, Eurus.'",
+      "due": { "day": 35 },
+      "window": "repeatable-later",
+      "evidence": "ep17: Eurus: 'You'll do nothing to restore the balance? Then you have put both planets in grave danger.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Vilius",
+      "doing": "Arms his lieutenants with Robofusion, names his endgame out loud — conquer Quarton, then the Knights' home world — and savors the first successful extraction: 'Good! Surprise me!'",
+      "why": "'To achieve that, I need the power of the Tenkai Dragon.'",
+      "evidence": "ep17: Vilius: 'Soon, I will have conquered Quarton, and then I will conquer this other planet as well.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Brings the energy conversion device online and runs the trial mid-battle — Corrupted units surge with Dragon power; he reminds Vilius the Black Key is still the ceiling on control.",
+      "why": "Every extraction is progress on HIS plan — the Dragon's power, eventually his.",
+      "evidence": "ep17: 'An excellent trial run, Dromus. Very promising.' / 'And there's no telling how much more I can extract.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Counter the lieutenants' Robofusion with the Protojet, then spend two days learning patience from Mr. White's fishing rods — lessons that beat the invisible sand-shark bot when the summons comes.",
+      "why": "Team maintenance disguised as a day off; Chooki's perfect-at-everything armor cracks and holds.",
+      "evidence": "ep17: 'Did they just robofuse? We can play that game! Fire up the protojet!'"
+    },
+    {
+      "who": "Eurus",
+      "doing": "Stands alone in the Guardian council demanding intervention over the broken Tenkai balance — and is voted down.",
+      "why": "He believes both planets are now in grave danger; the council's refusal is the grievance that curdles.",
+      "evidence": "ep17: 'Is no one else troubled by these recent events? … Shall we intervene? Not yet.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Robofuse for the first time, lose anyway, get zapped, then ride the Dragon-energy upgrade in the rematch.",
+      "why": "'While I admit the last mission wasn't a complete success…' — survival by usefulness.",
+      "evidence": "ep17: 'Granox! Commencing robofusion sequence!' / 'We've been upgraded! With Tenkai Dragon power!'"
+    }
+  ],
+  "quarton": {
+    "situation": "Escalation on the Corrupted side: Granox and Slyger field Robofusion, and by episode's end Corrupted units can be surged with extracted Tenkai Dragon energy ('Dark energy lightning!'). The Knights answer with the Protojet and fishing-honed patience; the field holds, but the enemy's ceiling just rose twice in one episode.",
+    "evidence": "ep17: 'It's not normal. Even by my Quarton standards! Dark energy lightning!'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "first energy extraction trial succeeds — Corrupted units field-upgraded with Dragon power; full control still requires the Black Dragon Key",
+      "evidence": "ep17: 'While we will never have full control of the dragon until we can obtain the Black Key, with this device, we should be able to extract precious Tenkai Energy.'"
+    }
+  ],
+  "outcome": "The Corrupted now have Robofusion and a working Dragon-energy tap; Vilius has named Earth-conquest as his endgame. The Knights beat both surprises and Chooki learns to lose (then hooks his fish). Eurus leaves the council chamber refused and resentful — the balance grievance that pushes him toward Beni and Gen's orbit.",
+  "recall": "Still my quiet stretch — the con simmers on its own, and I let it. Quarton kept things entertaining without me: the tin twins learned to stack themselves into one bigger loser, and then the Corrupted came back glowing like someone had plugged them into the Dragon. Gen has been living in that lab; whatever he switched on, it worked. Which means the Black Key just became the only conversation that matters — his machine can siphon the Dragon's energy, but CONTROL still needs the Key. I told him weeks of hunting beats none of it if somebody else finds the thing first. He didn't disagree.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 16 ends",
+      "three-day split (battle/proposal day, fishing day one, fishing day two)"
+    ],
+    "unknown": [
+      "Beni's actual activities during this episode (entirely off-screen)",
+      "how much of Gen's extraction work she is told about, and when",
+      "whether the ep-18 warehouse trap was already being planned with Eurus during these days"
+    ]
+  }
+}

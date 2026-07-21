@@ -1,0 +1,105 @@
+{
+  "no": 14,
+  "title": "Lost Key",
+  "days": {
+    "start": 27,
+    "end": 28,
+    "evidence": "Two days on screen: the boys plan 'We'll all meet back here tomorrow after school lets out and head off to Quarton', then the next day runs school ('I've had slow days at school before. This one's endless') into the Quarton battle. Absolute numbering is anchored on the arc-1 assumption (see confidence).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "An uneasy peace, weeks after the last battle ('It feels like weeks since the last battle and nothing's happened'). Vilius stands physically reassembled; the captured Tenkai Dragon sits in the Corrupted HQ inside a containment sphere while Dromus works out how to extract its power. The boys drift back into everyday life, half-waiting for the other shoe to drop. And a pink-haired girl nobody is expecting lands at the Benham City airport.",
+    "beni": {
+      "where": "Benham City airport — just landed, one small suitcase, nobody expecting her",
+      "doing": "Arriving unannounced to rejoin Gen: sizing up the city, planning the surprise ('Won't he be surprised?') before finding him",
+      "evidence": "ep14: Beni: 'What? No welcome home party? Well, I guess I can't say that's a big shocker. It's not like he's expecting me. … Won't he be surprised?'"
+    },
+    "firstContact": "*Late afternoon at the Benham City airport curb. A pink-haired girl stands beside a single small suitcase, studying the skyline like she's comparing it against a memory. Whatever she's looking for, it isn't you — her eyes slide past without stopping.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep14-reconnect-gen",
+      "who": "Beni",
+      "text": "Find Gen and put the old partnership back together — 'Things'll get simpler… now that I'm in town.'",
+      "due": { "day": 28 },
+      "window": "repeatable-later",
+      "evidence": "ep14: Beni: 'Hello, Gen.' / Gen: 'You took your time, Beni.' / Beni: 'Well, don't worry. All that's about to change.'"
+    },
+    {
+      "id": "ep14-knights-scout",
+      "who": "Knights",
+      "text": "Return to Quarton after school — first trip back since losing the Key — to scout the board.",
+      "due": { "day": 28 },
+      "window": "episode",
+      "evidence": "ep14: 'We'll all meet back here tomorrow after school lets out and head off to Quarton.'"
+    },
+    {
+      "id": "ep14-dromus-ready",
+      "who": "Gen/Dromus",
+      "text": "Keep Vilius flattered and blind while readying defenses — the Knights will come for the Dragon sooner or later.",
+      "due": { "day": 28 },
+      "window": "episode",
+      "evidence": "ep14: Gen: 'We can't expect the Tenkai Knights to just sit back and do nothing. Sooner or later, they'll come for the dragon, and we must be ready for them.'"
+    },
+    {
+      "id": "ep14-vilius-earth-intel",
+      "who": "Vilius",
+      "text": "Finish analyzing the download from Valorn's database — identify the unknown world in the imagery (Earth).",
+      "due": { "day": 30 },
+      "window": "repeatable-later",
+      "evidence": "ep14: 'Our analysis of the download from Valorn's database is not yet complete, Vilius. … It's another world entirely unknown to us.' / Vilius: 'Perhaps it's that world Bravenwolf spoke of. The one he called Earth.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Vilius",
+      "doing": "Reassembled and impatient — no more 'clever tricks or stratagems'; he wants the Dragon's power extracted and taken by sheer force, and his analysts are decoding Valorn's database toward Earth.",
+      "why": "'Never again will I be defeated by Bravenwolf.'",
+      "evidence": "ep14: Vilius: 'Give me that power, and I will take what I want by sheer force.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Managing Vilius with flattery ('pawns in my grand strategy — I mean, your grand strategy'), probing Guren on Earth with the two-sided-coin gift, withdrawing from the battle once it teaches him to fight the team, not the man.",
+      "why": "His private truth: the Dragon's power belongs to whoever holds it — 'That power must be mine. And the only way to ensure that is to find the Black Dragon Key.'",
+      "evidence": "ep14: Gen (private): 'the only way to ensure that is to find the Black Dragon Key.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Snack-fueled strategy meeting at Mr. White's, one endless school day, then the first Quarton sortie in weeks — rusty but covering for each other; they resolve to train and cut the snacks.",
+      "why": "'First we take the dragon back, then we take on Vilius' — and Guren feels responsible for the lost Key.",
+      "evidence": "ep14: Guren: 'Maybe it's just because I'm the one who lost the key, so I feel responsible.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Freshly reassembled ('it still feels disgusting'), grumbling about Vilius behind his back, probing with Corrupted units that the returning Knights drive off.",
+      "why": "Fear of Vilius — 'Fail me again, and I may not be so forgiving.'",
+      "evidence": "ep14: Slyger: 'No matter how many times you go through reassembly, it still feels disgusting.'"
+    }
+  ],
+  "quarton": {
+    "situation": "An uneasy lull after the Dragon's capture: leftover Corrupted units probe ('hungry for yet another battle'), the returning Knights beat them back in Titan Mode, and Dromus breaks off deliberately — 'It's not Bravenwolf I'm fighting. It's the Tenkai Knights. I won't forget that again.'",
+    "evidence": "ep14 [quarton-battle] scenes; Gen: 'Send the word to all units. Pull back for now. We're done here.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "contained — held at Corrupted HQ in a sphere spun from its own energy while extraction is worked out",
+      "evidence": "ep14: Vilius: 'And the Tenkai Dragon is still secure?' / Gen: 'Yes. Come see it for yourself.' … 'The beast has built its own cage.'"
+    }
+  ],
+  "outcome": "Beni is in Benham and the partnership with Gen is re-formed ('Maybe I've been a one-man team long enough'). The Knights have made their first trip back, won an ugly skirmish, and committed to training. Dromus has stated his private objective — the Black Dragon Key — and re-read the Knights as a team. Vilius's analysts have put the word 'Earth' on his map.",
+  "recall": "I landed in Benham with one suitcase and no welcome party — big shocker, nobody knew I was coming. That was the point. I took my time, got the lay of the city, and then gave Gen his surprise: 'Hello, Gen.' He said I took my time, which from him is practically a hug. Word is he's been having 'issues' with the Tenkai Knights — 'complicated,' he called it, which means they've been winning. Not my problem yet. The one-man team era is over; things get simpler now that I'm in town. Tomorrow the real work starts.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "absolute day numbering: arc 1 taken as days 1–13 (one day per episode, sparse transcript cues) plus a 14-day gap from 'It feels like weeks since the last battle' — every later day number shifts together if arc-1 authoring revises this anchor"
+    ],
+    "unknown": [
+      "where exactly she finds Gen at the episode's end",
+      "her exact hours between landing and finding Gen"
+    ]
+  }
+}

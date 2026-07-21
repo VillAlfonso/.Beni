@@ -1,0 +1,99 @@
+{
+  "no": 15,
+  "title": "Tenkai Rogue",
+  "days": {
+    "start": 29,
+    "end": 30,
+    "evidence": "Two days on screen: the staged meet-cute and mall trip end with 'I'll meet you right here. Tomorrow after school', and the shoes Guren repairs overnight come back at that next-day park meeting. Start day taken as the day after ep 14 ends (minimal consistent gap).",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "A Corekai scouting party is being picked apart by something nobody can see — webs, speed, a giggle ('Tag! You're it!'). Nobody on either side knows Venetta exists yet. On Earth, Gen's Black Dragon Key search has burned through Quarton and Europe with nothing to show, and his new-old partner is about to pick her own target.",
+    "beni": {
+      "where": "Quarton — shadowing a Corekai scouting party unseen",
+      "doing": "Her first anonymous strike: tangling scouts in webs for fun, testing the board before anyone knows she exists",
+      "evidence": "ep15: Ceylan's patrol: 'Something just passed by!' / Beni: 'Tag! You're it! … Something tells me this is gonna be fun!'; later: 'So that explains what we got tangled up in last time.'"
+    },
+    "firstContact": "*Across the street from the school gates at dismissal, a girl with long pink twin-tails works through an ice-cream cone with surgical patience, eyes tracking the flood of students the way a scout reads a field. She hasn't looked at you once.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep15-con-guren",
+      "who": "Beni",
+      "text": "Open the sweet-girl con on Guren: research him ('Let's see what makes you tick'), stage the meet-cute ('Target in sight' — the trip, the catch, the broken shoe), and hook him with charm.",
+      "due": { "day": 29 },
+      "window": "repeatable-later",
+      "evidence": "ep15: Beni: 'I've done my research. Now it's time to turn on the charm. He doesn't stand a chance.'"
+    },
+    {
+      "id": "ep15-test-bravenwolf",
+      "who": "Beni",
+      "text": "Find out what Gen sees in Guren by testing Bravenwolf herself on Quarton — 'I'll never understand why Dromus didn't finish you off ages ago. … I'll do what he couldn't.'",
+      "due": { "day": 30 },
+      "window": "episode",
+      "evidence": "ep15: Venetta toys with all four Knights without Titan mode and leaves when bored ('luckily for you, I need a recharge')."
+    },
+    {
+      "id": "ep15-gen-key-search",
+      "who": "Gen/Dromus",
+      "text": "Keep hunting the Black Dragon Key — Quarton is ruled out, Europe turned up postcards; 'I'm getting close. I know it.'",
+      "due": { "day": 32 },
+      "window": "repeatable-later",
+      "evidence": "ep15: Beni: 'You couldn't find the Black Key on Quarton, and you only found postcards in Europe. So we know two places where the Black Key isn't.'"
+    },
+    {
+      "id": "ep15-knights-smoke-enemy",
+      "who": "Knights",
+      "text": "Figure out and counter the unknown single enemy wrecking Corekai scouts — spread-out formation to beat the smoke screen, then Titan mode.",
+      "due": { "day": 30 },
+      "window": "episode",
+      "evidence": "ep15: 'We lost a scouting party in this quadrant. Unconfirmed reports are saying the damage was done by a single enemy unit.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Runs the full playbook in one episode: Guren research, the staged trip and broken shoe, mall shopping on his arm, then Venetta's named debut on Quarton — dominating all four Knights without Titan mode.",
+      "why": "Prove she can do what Dromus couldn't, and open her own line into the Knights — 'He's just a typical boy. There's nothing special about him at all.'",
+      "evidence": "ep15: 'Target in sight.' … 'My name's Venetta, but you won't have to remember it.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Frustrated key-hunting and watching her work; warns her off arrogance and needles her after the battle ('I thought you could beat Guren without even trying').",
+      "why": "The Black Dragon Key is everything to his plan; and he knows the Knights better than she does — 'Don't make the same mistake I did by underestimating him. You'll be sorry, Beni.'",
+      "evidence": "ep15: Gen's warning and post-battle debrief."
+    },
+    {
+      "who": "Knights",
+      "doing": "Grinding the three-job life (homework, training, Quarton), losing an hour to Guren's mystery girl, then getting handed their bots by a pink unknown — twice — and planning the counter-formation.",
+      "why": "'If we're ever gonna beat this guy… I mean, girl, whatever. We're gonna have to seriously up our game.'",
+      "evidence": "ep15: 'It's like working three jobs and not getting paid for any of them.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Corekai scouting parties are being picked off by a single unknown enemy — smoke screens, spider webs, untouchable speed. The Knights' first encounter ends in retreat; the second ends with Venetta named, bored, and leaving on her own terms while Bravenwolf drops out of Titan mode.",
+    "evidence": "ep15: 'We lost a scouting party in this quadrant…'; Venetta: 'Surrender or more humiliation?'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "search narrowed — not on Quarton, not in Europe; Gen believes he is getting close",
+      "evidence": "ep15: 'So we know two places where the Black Key isn't. … I'm getting close. I know it.'"
+    }
+  ],
+  "outcome": "Venetta exists now — the Knights' new problem with a name, faster than all four of them un-Titaned. The con on Guren is rooted: the shoes he repaired overnight genuinely surprised her ('You really went to all that trouble for me?'), her cover slipped once ('Are you really sure this planet is worth saving?' — 'Sounded familiar'), and Benham Tower is planted ('That's where my dad works'). Her closing verdict: 'Guren, maybe you're not so ordinary.'",
+  "recall": "Two days of actual work. Did my homework on Guren Nash — typical boy, decent skills, no idea why Gen is obsessed — then ran the classic: trip, catch, broken shoe, big grateful eyes. He fell for all of it, took me shoe shopping, even pointed out Benham Tower where his dad works. Filed that away. Then the idiot went and REPAIRED my broken shoes overnight and gave them back like it was nothing. Nobody does that. I almost forgot my lines. I slipped once — asked him if this planet's even worth saving, which is Gen's question, not mine — and he noticed it 'sounded familiar.' Sloppy. On Quarton I introduced myself properly: Venetta. Took all four of them apart without breaking a sweat, got bored, left. Gen wanted to know why Bravenwolf's still standing. I was toying with him. Obviously. …Maybe he's not so ordinary.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 14 ends (no explicit gap shown)"
+    ],
+    "unknown": [
+      "how much earlier Gen's Europe search happened",
+      "whether her opening Quarton strike is the same day as the meet-cute or shortly before"
+    ]
+  }
+}
