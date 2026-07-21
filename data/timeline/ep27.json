@@ -1,0 +1,123 @@
+{
+  "no": 27,
+  "title": "Vilius Returns",
+  "days": {
+    "start": 53,
+    "end": 54,
+    "evidence": "A stretch of ordinary school days follows the ep-26 victory ('I had to run laps for missing practice') — taken as one week (days 47–52, assumed minimal). Then two days on screen: the summons, first battle and pizza-dinner evening; and the fight-smarter rematch the next day.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "Peacetime homework and missed sports practice — until every core brick lights at once. Vilius has been revived. Not by any reassembly device (that's rubble): by the Guardians themselves, who voted — on Boreas's own proposal — to bring him back and punish him. The dissenter's warning about 'residual control over his Tenkai energy' was exactly right: 'Fools, it's only my physical form you revived. My Tenkai energy never left.'",
+    "beni": {
+      "where": "Benham City — off-screen this episode; rogue, on her own orbit",
+      "doing": "No on-screen moves; the partnership is a week dead and nobody is tasking her",
+      "evidence": "ep26 epilogue: 'As for Beni … she's kinda gone rogue. At the moment, she's on her own.'; ep27 has no Beni scenes"
+    },
+    "firstContact": "*She's on a rooftop edge overlooking the glow of Benham Tower, knees pulled up, chin resting on them — a small silhouette against the evening sky, still as a gargoyle. From the street, you're nothing to her.*"
+  },
+  "arcAtStart": "s2-vilius-agent",
+  "goals": [
+    {
+      "id": "ep27-guardians-revival",
+      "who": "Guardians",
+      "text": "Revive Vilius to punish him properly — 'disassembly is too merciful a fate' — over one dissenter's warning. The ritual works; the control doesn't: his never-departed Tenkai energy overthrows them.",
+      "due": { "day": 53 },
+      "window": "episode",
+      "evidence": "ep27: 'My fellow Guardians, I feel we have made a dreadful mistake.'"
+    },
+    {
+      "id": "ep27-vilius-return",
+      "who": "Vilius",
+      "text": "Return infused with the Black Dragon Cubes' dark energy, command the overthrown Guardians' powers, suppress the Knights' Titan Mode, revive his lieutenants, and set the old list going again: 'The defeat of the Corekai, the overthrow of the Guardians, the conquest of the two worlds… and the annihilation of the Tenkai Knights.'",
+      "due": { "day": 54 },
+      "window": "repeatable-later",
+      "evidence": "ep27: 'I now have the power to suppress your Titan Mode.' / 'My appearance has changed because I have changed. I have been infused with the dark energy of the Black Dragon Cubes.'"
+    },
+    {
+      "id": "ep27-knights-adapt",
+      "who": "Knights",
+      "text": "Absorb a rout without Titan Mode, then come back fighting smarter, not harder — bait Granox's overconfidence, immobilize him limb by limb, and feel 'a whole new level of power' answer from within.",
+      "due": { "day": 54 },
+      "window": "episode",
+      "evidence": "ep27: 'If the old strategy won't work, then we change it.' / Mr. White: 'From within yourselves, you made the change happen.'"
+    },
+    {
+      "id": "ep27-vilius-lieutenant-plans",
+      "who": "Granox & Slyger",
+      "text": "Prove themselves under the new regime: Granox is dared to match the Guardians; 'I have other plans for Slyger' — the seed of the Earth missions.",
+      "due": { "day": 56 },
+      "window": "repeatable-later",
+      "evidence": "ep27: Vilius: 'If Granox thinks he's the equal of the Guardians, let him prove it. I have other plans for Slyger.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Vilius",
+      "doing": "Rises mid-ritual, seizes the council that revived him, re-forms his army 'in greater numbers than ever', revives Granox and Slyger himself, gathers the dark cubes' power, and shuts off the Knights' Titan Mode in the field.",
+      "why": "'You fools should have learned your lesson last time.'",
+      "evidence": "ep27: 'It appears our mighty master has overthrown them and their powers are his to control.'"
+    },
+    {
+      "who": "Guardians",
+      "doing": "Propose, debate, and perform the revival — one coerced dissent aside — and end the day overthrown, their powers in Vilius's hands.",
+      "why": "Boreas: punishment over mercy; the risk-warning voted down 'to not oppose the will of the Council.'",
+      "evidence": "ep27: 'There is a danger that even a disassembled Vilius will still retain some residual control over his Tenkai energy.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Summoned out of a comfortable peace, beaten without Titan Mode, schooled by Mr. White's seasons-of-change tea talk and Guren's dad's advice, then earn the rematch with brains and a first taste of the power growing inside them.",
+      "why": "'We've got to adapt to circumstances and start thinking on our feet.'",
+      "evidence": "ep27: 'He's immobilized. Now that's fighting smart.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Warns the boys off fighting Vilius at all ('You're crazy if you think you can beat Vilius'), then watches them go anyway — orbiting the team, not in it.",
+      "why": "He carries the Dragon's good energy like they do, and he knows exactly how strong Vilius is getting.",
+      "evidence": "ep27: 'Suit yourself, but don't say I didn't warn you.'"
+    },
+    {
+      "who": "Mr. White",
+      "doing": "Delivers the arc's lore: the forced fusion split the Dragon into good and evil cubes — the good energy infused in the five, 'all the evil Cubes were combined with Vilius.'",
+      "why": "'Without the winter, there cannot be a spring.'",
+      "evidence": "ep27: 'The Dragon was essentially split in two, into good and evil, white and black Dragon Cubes.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The board flips in a day: the Guardians fall, the Corrupted return in record numbers with both lieutenants revived, Titan Mode stops working, and Vilius fights infused with the Dragon's whole evil half — 'his power is growing every minute.' The Knights' only wins are a smart immobilization and the first stirrings of a new power within.",
+    "evidence": "ep27: Beag: 'Alas, our great victory has been short-lived, Bravenwolf.'"
+  },
+  "artifacts": [
+    {
+      "item": "guardians-control",
+      "event": "ENSLAVED — the revived Vilius's never-departed Tenkai energy overthrows the council that restored his body; their powers, and their transporter, are his",
+      "evidence": "ep27: 'It appears our mighty master has overthrown them and their powers are his to control.'"
+    },
+    {
+      "item": "dragon-cubes",
+      "event": "the ep-26 split clarified: white (good) cubes' energy lives in the five Knights; the black (evil) cubes are combined into Vilius himself",
+      "evidence": "ep27: Mr. White: '[the five] were infused with those Cubes containing the Dragon's good energy, while all the evil Cubes were combined with Vilius.'"
+    },
+    {
+      "item": "reassembly-device",
+      "event": "still destroyed — its absence is why the Guardians' hands were needed for any revival at all",
+      "evidence": "ep27: 'We destroyed the reassembly device. He can't be revived.' / 'The Guardians don't need a reassembly device.'"
+    }
+  ],
+  "outcome": "Vilius stands revived, dark-cube-infused, and in command of the Guardians' stolen powers — Titan Mode is off the table, the Corrupted outnumber everything, and his lieutenants have new assignments ('other plans for Slyger'). The Knights end the arc-opener alive, adapting, and beginning to change from within. The era of the corrupted black Guardians has begun.",
+  "recall": "A week of glorious nothing — no partner, no boss, no schedule — and then the sky got interesting again. Vilius is back. The GUARDIANS brought him back, if you can believe it, to 'punish' him, and he ate them alive for the favor: their powers are his now, which means their transporter is his, which means the walls between the worlds just got doors in them. He switched off the boys' precious Titan Mode like a light. I heard all of it the way I hear everything — by paying attention while everyone else panics. Nobody came knocking for me. Good. The new board has a bored girl on it with no piece to play yet, and I intend to price my next move properly.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "the post-ep-26 peace gap taken as one week (days 47–52)",
+      "two-day split at the pizza-dinner evening"
+    ],
+    "unknown": [
+      "Beni's actual activities during the peace week and this episode (off-screen)",
+      "how quickly she learns of the Guardian overthrow and by what channel",
+      "Eurus's individual fate inside the overthrown council (the corrupted black Guardians serve Vilius from here per the arc analysis)"
+    ]
+  }
+}

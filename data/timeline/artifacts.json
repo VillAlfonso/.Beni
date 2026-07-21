@@ -34,10 +34,17 @@
     "custody": [
       {
         "fromDay": 1,
-        "toDay": null,
+        "toDay": 52,
         "holder": "Guardians",
-        "how": "The four Guardians govern themselves, watching over Quarton and choosing champions. TRANSFER PENDING AUTHORING: at ep 27 they resurrect Vilius and are enslaved — corrupted black Guardians serve him until the finale; span will be split when arc-3 episode days are authored.",
-        "evidence": "analysis--arc-1 <!--ep:1-->: 'Four Guardians (Boreas chief among them) watch over Quarton'; analysis--arc-3 <!--ep:27-->: 'resurrect Vilius — and are enslaved by him'"
+        "how": "The four Guardians govern themselves, watching over Quarton and choosing champions — through the ep-26 intervention, their last free act.",
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'Four Guardians (Boreas chief among them) watch over Quarton'; ep26: 'We, the Guardians, have voted to intervene.'"
+      },
+      {
+        "fromDay": 53,
+        "toDay": null,
+        "holder": "Vilius",
+        "how": "They revived his body to punish him (ep 27); his never-departed Tenkai energy overthrew them — corrupted black Guardians and their transporter serve him. LIBERATION PENDING AUTHORING: freed by/at the finale — span closes when arc-5 days are authored.",
+        "evidence": "ep27: 'Fools, it's only my physical form you revived. My Tenkai energy never left.' / 'their powers are his to control.'"
       }
     ],
     "rules": [
@@ -130,9 +137,9 @@
       {
         "fromDay": 47,
         "toDay": null,
-        "holder": "The five cubes again",
-        "how": "Re-split after the ep-26 convergence; disposition afterward unshown.",
-        "evidence": "ep26: 'Breaking up into Dragon Cubes again!'"
+        "holder": "Split white/black — good energy in the five Knights, evil cubes combined into Vilius",
+        "how": "The ep-26 forced convergence split the Dragon in two (revealed ep 27): the white cubes' good energy is infused in the five Knights; all the evil cubes were combined with Vilius.",
+        "evidence": "ep27: Mr. White: 'The Dragon was essentially split in two, into good and evil, white and black Dragon Cubes.'"
       }
     ],
     "rules": []
@@ -168,8 +175,8 @@
       {
         "fromDay": 47,
         "toDay": null,
-        "holder": "Split — the five Dragon Cubes",
-        "how": "Restored good, its energy infused into the five Knights, then broken back into cubes (ep 26). REVIVAL PENDING AUTHORING: Vilius revives an evil Tenkai Dragon late in arc 5 — span will split when those days are authored.",
+        "holder": "Split in two — good half in the five Knights, evil half in Vilius",
+        "how": "Restored, drained into the five, then revealed (ep 27) to have split: its good energy lives in the Knights and Dromus, its evil energy is combined into Vilius, whose power grows. REVIVAL PENDING AUTHORING: an evil Tenkai Dragon returns late in arc 5.",
         "evidence": "ep26: 'Breaking up into Dragon Cubes again!'; ep51-file recap: 'Vilius revived his evil Tenkai Dragon'"
       }
     ],
