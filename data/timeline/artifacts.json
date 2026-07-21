@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "id": "tenkai-stone",
+    "name": "Tenkai Stone (the Tenkai Fortress key)",
+    "grants": ["Finding and opening the Tenkai Fortress — 'What good's the Fortress without the key?'"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Beni",
+        "how": "Her father's parting gift in a fancy box, kept in her room for years without knowing what it was. She realizes its identity at Vilius's ep-34 briefing and tells no one. TRANSFER PENDING AUTHORING: ep 46 she hands it to Kiiro (courier), ep-48-range Kiiro delivers it to Guren — span will be split when arc-5 episode days are authored.",
+        "evidence": "analysis--arc-3 <!--ep:34-->: 'the \"shiny bling thing\" her dad left her in a fancy gift box'; analysis--arc-5 <!--ep:46-->: 'hands her the Tenkai Stone: \"Can you give this to Guren…\"'"
+      }
+    ],
+    "rules": [
+      {
+        "capability": "open-tenkai-fortress",
+        "requires": { "item": "tenkai-stone", "holder": "Knights" },
+        "evidence": "analysis--arc-4 <!--ep:44-->: 'What good's the Fortress without the key?'; analysis--arc-5 <!--ep:48-->: Stone reaches Guren, then the Fortress is opened"
+      }
+    ]
+  },
+  {
+    "id": "guardians-control",
+    "name": "The Guardians (who commands them, and their transporter)",
+    "grants": ["Interdimensional transport at Guardian scale — including deploying agents to Earth"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Guardians",
+        "how": "The four Guardians govern themselves, watching over Quarton and choosing champions. TRANSFER PENDING AUTHORING: at ep 27 they resurrect Vilius and are enslaved — corrupted black Guardians serve him until the finale; span will be split when arc-3 episode days are authored.",
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'Four Guardians (Boreas chief among them) watch over Quarton'; analysis--arc-3 <!--ep:27-->: 'resurrect Vilius — and are enslaved by him'"
+      }
+    ],
+    "rules": [
+      {
+        "capability": "deploy-minions-to-earth",
+        "requires": { "item": "guardians-control", "holder": "Vilius" },
+        "evidence": "analysis--arc-3 <!--ep:27-->: 'with Vilius controlling the corrupted Guardians he gains their transporter — which is how Granox and Slyger reach Earth'"
+      }
+    ]
+  },
+  {
+    "id": "black-dragon-key",
+    "name": "Black Dragon Key",
+    "grants": ["Full control of the Tenkai Dragon — dark twin of the white Key"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Sealed — Benham Tower",
+        "how": "Hidden inside a tenkai seal in Benham Tower, the building where Guren's father works; undetected until the ep-22 triangulation con. TRANSFER PENDING AUTHORING: taken by Gen and Beni's side in ep 24; used/lost around the ep-25–26 Dragon awakening ('I'm not the klutz who managed to lose the Black Dragon Key!') — spans will be split when eps 22–26 days are authored (Task 5).",
+        "evidence": "analysis--arc-2 <!--ep:23-->: 'The Key sits sealed in Benham Tower … inside a tenkai seal'; <!--ep:24-->: 'the Key is taken'; analysis--arc-3 <!--ep:26-->: Beni's jab about losing it"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "white-dragon-key",
+    "name": "Dragon Key (white)",
+    "grants": ["Opening the united Dragon Cubes — awakening the Tenkai Dragon"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Undiscovered — Quarton",
+        "how": "Found in ep 12 (Guren carries it), used in the ep-13 awakening, and lost in that battle ('I lost the key' — ep 14 recap). Spans will be split when arc-1 episode days are authored (Phase 4).",
+        "evidence": "analysis--arc-1 <!--ep:12-->: 'The Dragon Key is found (Guren carries it)'; ep14 [quarton] Guren: 'Because you see, I lost the key.'"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "dragon-cubes",
+    "name": "The five Dragon Cubes",
+    "grants": ["United and opened with the Dragon Key, they awaken the Tenkai Dragon"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Scattered across Quarton",
+        "how": "Won one by one across arc 1, united in ep 13. From ep 13 onward the assembled Dragon supersedes the cubes as the object in play. Spans will be split when arc-1 episode days are authored (Phase 4).",
+        "evidence": "analysis--arc-1 <!--ep:2-->: 'the mightiest force, was split into five Dragon Cubes scattered across Quarton'; <!--ep:13-->: 'the five cubes combine'"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "tenkai-dragon",
+    "name": "Tenkai Dragon",
+    "grants": ["The mightiest force on Quarton — its power belongs to whoever holds it"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Not yet assembled",
+        "how": "Awakened ep 13 and immediately captured by Dromus's trap; held in the Corrupted HQ inside a containment sphere through arc 2; awakened EVIL at the arc-2/3 boundary, seized by Vilius, and defeated with him (ep 26); revived by Vilius late in arc 5. Spans will be split as episode days are authored.",
+        "evidence": "analysis--arc-1 <!--ep:13-->: 'the Dragon is captured, transported to the Corrupted headquarters'; ep14 [quarton] Gen: 'And the Tenkai Dragon is still secure? Yes.'; analysis--arc-3 <!--ep:26-->: 'The awakened Dragon emerged EVIL; Vilius seized its power'"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "warehouse-portal",
+    "name": "Beni's warehouse (Transdimensional Portal)",
+    "grants": ["Her private door to Quarton, independent of Mr. White's shop"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Beni",
+        "how": "Her territory — the warehouse four floors below her apartment building, shared operationally with Gen during their partnership.",
+        "evidence": "analysis--arc-2 <!--ep:18-->: 'leads them to *her* warehouse'; <!--ep:25-->: 'Beni's warehouse (with portal) is established as her territory (ep 18)'"
+      }
+    ],
+    "rules": []
+  },
+  {
+    "id": "shop-portal",
+    "name": "Mr. White's Shop of Wonders (portal)",
+    "grants": ["The Knights' door to Quarton"],
+    "custody": [
+      {
+        "fromDay": 1,
+        "toDay": null,
+        "holder": "Mr. White",
+        "how": "The hidden interdimensional portal's Earth side, inside his antiques shop.",
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'A hidden interdimensional portal links the worlds; its Earth side sits inside Mr. White's Shop of Wonders'"
+      }
+    ],
+    "rules": []
+  }
+]

@@ -1,1 +1,433 @@
-[]
+[
+  {
+    "id": "s0-discovery",
+    "label": "Discovery & the Dragon Cubes",
+    "episodes": [1, 13],
+    "beniPrime": null,
+    "busy": "Beni is not in this arc at all: she is at her unnamed home far from Benham City through ep 11, and around eps 12–13 plausibly preparing for or on her flight (inference — her airport landing is ep 14). She has been to Quarton in her past, trained by Dromus, but has no contact with the four boys.",
+    "stakes": "None of hers on screen. The arc's stakes belong to the boys: the Dragon Cube race, and keeping Quarton secret on Earth.",
+    "watchers": [],
+    "actors": [
+      {
+        "who": "Vilius",
+        "motivation": "Win the Dragon Cube race, awaken the Tenkai Dragon, and rule Quarton — the wars over Tenkai Energy are his.",
+        "alliance": "Leads the Corrupted",
+        "powers": ["Commands the Corrupted army", "Granox and Slyger as lieutenants"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'wars were driven by the evil Tenkai Knight Vilius'; <!--ep:2-->: 'Both sides race for the cubes.'"
+      },
+      {
+        "who": "Knights",
+        "motivation": "Answer the Guardians' summons: protect both worlds, collect the Dragon Cubes before Vilius.",
+        "alliance": "Corekai side; guided by Mr. White and Boreas",
+        "powers": ["Core-brick transfer to Quarton", "Titan Mode (unlocked one by one)", "First Robofusion (ep 9)"],
+        "artifactsHeld": ["white-dragon-key"],
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'The four Knights of legend once sealed Vilius; the Guardians have summoned successors.'; <!--ep:12-->: 'The Dragon Key is found (Guren carries it)'"
+      },
+      {
+        "who": "Gen/Dromus",
+        "motivation": "A lone operator with his own agenda — needles Guren about 'choosing sides', shadows the boys, and springs the ep-13 trap that captures the Dragon.",
+        "alliance": "Runs with the Corrupted's war, loyal only to himself",
+        "powers": ["Dromus, the black doppelganger of Bravenwolf", "Core Corrupter (turns Corekai evil, ep 11)"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-1 <!--ep:7-->: 'a black doppelganger of Bravenwolf, Dromus, debuts'; <!--ep:13-->: 'Dromus springs a trap and the Dragon is captured'"
+      },
+      {
+        "who": "Guardians",
+        "motivation": "Watch over Quarton, choose and counsel champions; warn the boys against overconfidence.",
+        "alliance": "Corekai side (Boreas chief among them)",
+        "powers": ["Choose champions", "Interdimensional transport"],
+        "artifactsHeld": ["guardians-control"],
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'Four Guardians (Boreas chief among them) watch over Quarton and choose champions.'"
+      },
+      {
+        "who": "Mr. White",
+        "motivation": "Keeper of the portal inside his Shop of Wonders; guides the boys and guards the secret.",
+        "alliance": "Corekai side, Earth anchor",
+        "powers": ["Portal keeper", "Later revealed ninja-master depths (ep 31)"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-1 <!--ep:1-->: 'its Earth side sits inside Mr. White's Shop of Wonders'"
+      },
+      {
+        "who": "Beag",
+        "motivation": "Field commander of the Corekai; fights Vilius's army and protects the Knights, at his own cost.",
+        "alliance": "Corekai",
+        "powers": ["Commands the Corekai army"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-1 <!--ep:9-->: 'Commander Beag sacrifices himself to save the Knights'"
+      }
+    ]
+  },
+  {
+    "id": "s1-infiltrator",
+    "label": "The Infiltrator",
+    "episodes": [14, 25],
+    "beniPrime": {
+      "text": "Find the Black Dragon Key before the Knights can — the hunt is the job; the sweet-girl act on Earth and Venetta's ambushes on Quarton are both in its service.",
+      "evidence": "analysis--arc-2 <!--ep:14-->: 'full control requires the Black Dragon Key, dark twin of the white Key the boys used.'"
+    },
+    "busy": "Mission-busy, not schedule-busy: she attends no school in Benham, so outside the Black Dragon Key hunt, the slow con on the boys, and Venetta work on Quarton (which can pull her mid-scene), her hours are genuinely her own. The job comes first; the free time is real but hers to guard.",
+    "stakes": "If she neglects the hunt: Gen presses, deadlines slip, and Dromus's plans wobble. If she blows her cover in front of the boys, the whole con collapses — she would rather vanish from the player's life than let that happen.",
+    "watchers": [
+      {
+        "who": "Gen",
+        "why": "her partner — and his apartment is the unit RIGHT NEXT to hers, with the portal-warehouse visible below their windows. Her door, her hours, her trips downstairs: all effectively public to him. Notices when she's distracted, late, or cagey. Suspicion starts as dry remarks, escalates to shadowing her, then to a quiet confrontation — he doesn't do loud.",
+        "start": 1
+      },
+      {
+        "who": "Eurus",
+        "why": "the rogue Guardian secretly working with her and Gen — her sometime mentor in the Key hunt, and the one tasking it. Expects progress; a stalled hunt draws his attention through Gen or directly.",
+        "start": 1
+      },
+      {
+        "who": "Vilius",
+        "why": "barely knows she exists (she's Dromus's associate, not his). Only registers her if the timeline bends hard — if the Key hunt stalls publicly or Venetta makes noise.",
+        "start": 0
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "The Black Dragon Key, and through it the outcome she actually wants: both worlds burning. Her loyalty is to destruction as an outcome, never to a side — 'I never worked for Vilius' is her honest self-image.",
+        "alliance": "Gen's partner; runs under the Corrupted's banner without loyalty to it",
+        "powers": ["Venetta: pink spider-motif armor, smoke screens, webs, untouchable speed", "Twin daggers / Dark Energy Blast", "The sweet-girl con"],
+        "artifactsHeld": ["tenkai-stone", "warehouse-portal"],
+        "evidence": "analysis--arc-2 <!--ep:14-->: 'both are in it for themselves'; <!--ep:25-->: 'she doesn't care WHO ends up holding the Dragon's power … as long as it's whoever will cause the most destruction.'"
+      },
+      {
+        "who": "Gen/Dromus",
+        "motivation": "Find the Black Dragon Key and take the Dragon's power for himself — he flatters Vilius to his face and holds him in contempt behind it ('pawns in my grand strategy — I mean, your grand strategy'). His nihilism grows from his family wound (mother left, father collapsed).",
+        "alliance": "Beni's partner; nominally under Vilius",
+        "powers": ["Dromus", "Titan-capable", "Cover identity at the boys' school"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-2 <!--ep:14-->: Dromus's private truth: 'the Dragon is neither good nor evil — its power belongs to whoever holds it'; <!--ep:25-->: 'he'd wanted the Key's power for himself'"
+      },
+      {
+        "who": "Vilius",
+        "motivation": "Extract the captured Tenkai Dragon's power and never again be defeated by Bravenwolf; by ep 21 he admits ambitions beyond Quarton.",
+        "alliance": "Leads the Corrupted; Dromus and Venetta answer his side's call",
+        "powers": ["Physically reassembled after his defeat", "Holds the captured Dragon in a containment sphere", "Readies an army (ep 21)"],
+        "artifactsHeld": ["tenkai-dragon"],
+        "evidence": "ep14 [quarton] Vilius: 'Ha! Never again will I be defeated by Bravenwolf.'; analysis--arc-2 <!--ep:21-->: 'Vilius readies an army and admits ambitions beyond Quarton.'"
+      },
+      {
+        "who": "Knights",
+        "motivation": "Steal the Tenkai Dragon back and stop Vilius — they react to Corrupted moves; between summons they are ordinary schoolboys.",
+        "alliance": "Corekai side; Mr. White's shop is their door",
+        "powers": ["Titan Mode", "Robofusion", "Core-brick transfer"],
+        "artifactsHeld": [],
+        "evidence": "ep14 [quarton] transcript: 'First we take the dragon back, then we take on Vilius.'"
+      },
+      {
+        "who": "Eurus",
+        "motivation": "A rogue Guardian playing his own game against his kin — runs the Knights through a warehouse 'trial' with Beni and Gen; mentors the Key hunt.",
+        "alliance": "Secretly with Gen and Beni",
+        "powers": ["Guardian-grade power", "Trial constructs (exact copies of the Knights)"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-2 <!--ep:18-->: 'a \"trial\" run by Guardian Eurus — a rogue Guardian secretly working with her and Gen.'"
+      },
+      {
+        "who": "Granox & Slyger",
+        "motivation": "Serve Vilius, avoid his punishments, and bicker — the lieutenants who keep failing him.",
+        "alliance": "Corrupted",
+        "powers": ["Field command of Corrupted troops"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-1 <!--ep:5-->: 'Granox and Slyger — Vilius's two bickering lieutenants — keep failing him'; ep14 [quarton] Vilius: 'Be grateful I've reassembled you. Fail me again…'"
+      }
+    ]
+  },
+  {
+    "id": "s2-vilius-agent",
+    "label": "Rogue, then Vilius's Agent",
+    "episodes": [26, 38],
+    "beniPrime": {
+      "text": "None at first — Gen walked, the Key era ended, and she drifts on boredom and spite. From Vilius's summons (ep 34): hunt the Tenkai Fortress as his agent while secretly racing to claim it for herself — she holds the Stone, tells no one, and serves no one.",
+      "evidence": "analysis--arc-3 <!--ep:34-->: 'So Vilius thinks this will help him find the Fortress, huh? Not if I happen to find it first.'"
+    },
+    "busy": "Eps 26–33: barely — boredom is the engine ('Even my breakfast is boring'); she stirs trouble for fun and helps Granox and Slyger settle on Earth, buying standing with Vilius without joining him. From ep 34: working the Tenkai Stone/Fortress matter alone — Earth by day, Quarton missions on demand, no partner to cover for her.",
+    "stakes": "Failing Vilius means threats, then enforcers. Her private plan — keep the Stone's secret for herself — makes every distraction doubly dangerous; a nosy new acquaintance is a liability she prices coldly.",
+    "watchers": [
+      {
+        "who": "Vilius",
+        "why": "from ep 34 her employer, impatient and paranoid. If she goes quiet or slow he sends Granox or Slyger to check on her — clumsy, conspicuous checkups she despises. Before ep 34 he barely tracks her.",
+        "start": 1
+      },
+      {
+        "who": "Gen",
+        "why": "estranged — 'you go your way and I'll go mine' (ep 26). Not watching her by default, but rumors of her doing something stupid could draw him.",
+        "start": 0
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "Boredom, spite, and the Stone. She helps Slyger and Granox on Earth a little (her own amusement and positioning, not employment), cons Toxsa into challenging Guren's leadership for a day's entertainment (ep 32), and from ep 34 runs both sides of the Fortress hunt.",
+        "alliance": "Nobody's — 'free agent who assists' the Corrupted",
+        "powers": ["Venetta", "The Stone's secret (it projects images/light when activated; she can't fully control it)"],
+        "artifactsHeld": ["tenkai-stone", "warehouse-portal"],
+        "evidence": "analysis--arc-3 <!--ep:27-->: 'Beni's role here is free agent who assists'; <!--ep:32-->: 'a flattery con on Toxsa to make him challenge Guren's leadership'"
+      },
+      {
+        "who": "Vilius",
+        "motivation": "Resurrected by the Guardians and enslaving them (ep 27), he pushes the war onto Earth itself — brickification — and hunts the Tenkai Fortress: 'whoever controls the Fortress controls both worlds' (ep 38).",
+        "alliance": "Leads the Corrupted; the corrupted black Guardians now serve him",
+        "powers": ["Commands the enslaved Guardians and their transporter", "Sends lieutenants to Earth in human-ish forms", "Zaps his own failures"],
+        "artifactsHeld": ["guardians-control"],
+        "evidence": "analysis--arc-3 <!--ep:27-->: 'The Guardians, trying to manage the aftermath, resurrect Vilius — and are enslaved by him'; <!--ep:38-->: 'whoever controls the Fortress controls both worlds.'"
+      },
+      {
+        "who": "Gen/Dromus",
+        "motivation": "Chose the Knights' side and redemption at the split (ep 26); drifts at the team's edge, keeping half an eye on Beni out of old habit.",
+        "alliance": "Knights' side (orbiting)",
+        "powers": ["Dromus"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-3 <!--ep:26-->: 'Gen chooses the Knights' side and redemption'"
+      },
+      {
+        "who": "Knights",
+        "motivation": "Answer each escalation: defeat the evil Dragon (ep 26), absorb its energy into Elemental Knight forms (ep 28), unlock Elemental Titan Mode (eps 31+), and defend both worlds as the war leaks onto Earth.",
+        "alliance": "Corekai side",
+        "powers": ["Elemental Knight forms (ep 28+)", "Elemental Titan Mode (eps 31–34)", "Robofusion"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-3 <!--ep:28-->: 'The energy the Knights absorbed grants Elemental Knight forms'; <!--ep:31-->: 'the boys unlock Elemental Titan Mode one by one'"
+      },
+      {
+        "who": "Granox & Slyger",
+        "motivation": "Vilius's Earth operations: reach Benham in human-ish forms via the Guardians' transporter, haunt the Knights at home, and locate the Fortress (ep 36) — squabbling over credit the whole way.",
+        "alliance": "Corrupted",
+        "powers": ["Earth deployment via the enslaved Guardians' transporter", "Human-ish disguise forms"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-3 <!--ep:27-->: 'he gains their transporter — which is how Granox and Slyger reach Earth'; <!--ep:36-->: 'Granox and Slyger locate the Fortress'"
+      },
+      {
+        "who": "Guardians",
+        "motivation": "Corrupted and enslaved from ep 27 — black Guardians serving the enemy. Eurus among them: Beni's old secret ally, now Vilius's puppet, a quiet loss she never mentions.",
+        "alliance": "Vilius's (enslaved)",
+        "powers": ["Interdimensional transporter, now in Vilius's service"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-3 <!--ep:27-->: 'corrupted BLACK Guardians now serve the enemy. (Eurus among them…)'"
+      }
+    ]
+  },
+  {
+    "id": "s3-free-agent",
+    "label": "The Free Agent & the Beast World",
+    "episodes": [39, 45],
+    "beniPrime": null,
+    "busy": "Eps 39–43: trapped — the Beast World's lords make everyone (Knights, Vilius's forces, Beag, Venetta) play games for their freedom; forced proximity, grudging cooperation, and one wish she spent on nobody-left-behind. Eps 44–45: her freest stretch — no boss, no partner, watching the Fortress standoff 'like a bad soap opera' with the Stone in her pocket.",
+    "stakes": "Low stakes, high drift. The biggest thing at risk is her own claim that flying solo is fine — the Beast World keeps forcing the alternative on her, and someone genuinely interesting is more dangerous to her armor now than any enforcer. Vilius still believes she serves him; the Stone says otherwise; both clocks are ticking.",
+    "watchers": [
+      {
+        "who": "Gen",
+        "why": "orbiting the Knights now; keeps half an eye on her out of old habit and warns her off messing with them — 'Mess with the Tenkai Knights and you'll have to deal with me' (ep 44).",
+        "start": 1
+      },
+      {
+        "who": "The Knights",
+        "why": "wary of her on sight; Ceylan assumes scheme first, asks later — though Beast World cooperation is quietly complicating the picture.",
+        "start": 1
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "Get out of the Beast World (39–43) — and when her winning wish could take her home alone, she refuses and trades it for another game so nobody is left behind. After: enjoy being the only one who understands the board — 'What good's the Fortress without the key?'",
+        "alliance": "Her own; cooperates with the Knights under Beast World duress",
+        "powers": ["Venetta (robofuses in the great race)", "Quarton weapons in human form (Beast World rules)"],
+        "artifactsHeld": ["tenkai-stone", "warehouse-portal"],
+        "evidence": "analysis--arc-4 <!--ep:41-->: 'My wish is that we all start over from scratch, and you give us a new mission.'; <!--ep:44-->: 'What good's the Fortress without the key?'"
+      },
+      {
+        "who": "Beast lords (Orangor, Scorpidon)",
+        "motivation": "Entertainment. They trap visitors and run them through game after game; satisfied, Scorpidon frees everyone and gifts Guren a wolf's-head emblem.",
+        "alliance": "Nobody's — the Beast World plays by nonsense rules",
+        "powers": ["Rule the Beast World", "No one portals home until the hosts are entertained"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-4 <!--ep:43-->: 'Scorpidon's actual motive: he just wanted to be entertained.'"
+      },
+      {
+        "who": "Knights",
+        "motivation": "Survive the beast lords' games, get home, then resume the Fortress defense rusty (ep 44).",
+        "alliance": "Corekai side; Gen orbiting",
+        "powers": ["Elemental forms", "Robofusion", "Beast World: weapons in human form"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-4 <!--ep:44-->: 'Back on Quarton the fortress standoff resumes; the Knights come home rusty.'"
+      },
+      {
+        "who": "Vilius",
+        "motivation": "The Fortress, still — control of it means control of both worlds; his forces besiege it while the Beast World detour scrambles everyone.",
+        "alliance": "Leads the Corrupted and the enslaved Guardians",
+        "powers": ["Commands the enslaved Guardians and their transporter", "Fortress siege forces"],
+        "artifactsHeld": ["guardians-control"],
+        "evidence": "analysis--arc-4 <!--ep:44-->: 'Trying to prove how macho they are by fighting over the Tenkai Fortress' (her read of the standoff)"
+      },
+      {
+        "who": "Gen/Dromus",
+        "motivation": "Redemption outpacing hers: unlocks Elemental Mode through his bond with Bravenwolf (ep 44) and stands guard over the Knights' backs — including against Beni.",
+        "alliance": "Knights' side",
+        "powers": ["Dromus, Elemental Mode (ep 44)"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-4 <!--ep:44-->: 'Dromus unlocks Elemental Mode through his bond with Bravenwolf'"
+      }
+    ]
+  },
+  {
+    "id": "s4-change-of-heart",
+    "label": "The Change of Heart & the Finale",
+    "episodes": [46, 52],
+    "beniPrime": {
+      "text": "No mission anyone gave her. Ep 46: the clover buys the Stone — she gives it to Kiiro for Guren by her own choice. From ep 47: survive Vilius's traitor-hunt, and decide — without ever saying so — whose side she's actually on. By the finale she fights beside the Knights.",
+      "evidence": "analysis--arc-5 <!--ep:46-->: 'Can you give this to Guren the next time you see him? … I've decided he deserves it.'; <!--ep:47-->: 'Vilius pieces it together — Venetta found the Stone and \"betrayed\" him — and swears revenge.'"
+    },
+    "busy": "Moderately, and secretly: Kiiro time she won't explain, quiet interventions to help the Knights she won't admit, and staying a step ahead of the hunt for her.",
+    "stakes": "Real danger — the hunt for her is canon: Granox prowls Earth for Venetta the traitor. Being seen with her can put a target on someone; she manages that risk for people near her without telling them she's doing it. If the player is endangered because of her, it cuts deep and she handles it alone.",
+    "watchers": [
+      {
+        "who": "Vilius",
+        "why": "actively hunting Venetta the traitor. Granox prowls Earth for her. Being seen with her can put a target on someone.",
+        "start": 2
+      },
+      {
+        "who": "Gen",
+        "why": "watching her change with something like hope; checks in sideways.",
+        "start": 1
+      },
+      {
+        "who": "Kiiro",
+        "why": "expects her; Beni keeps those appointments and lies about why she's busy.",
+        "start": 1
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "'Someone did something nice for me. … Funny, isn't it? How the littlest things can change a person's whole point of view.' She defends the Fortress against Boreas because she can't explain not to, gives the Stone away, and ends the series fighting Vilius beside the Knights — deflecting gratitude to the last frame.",
+        "alliance": "Sliding from nobody's to the Knights' — she'd deny it at every step",
+        "powers": ["Venetta", "First female Tenkai Knight by the finale"],
+        "artifactsHeld": ["warehouse-portal"],
+        "evidence": "analysis--arc-5 <!--ep:47-->: rooftop scene; finale scene: 'Don't thank me, it's not like I did it for your sake. I had my own reasons.'"
+      },
+      {
+        "who": "Vilius",
+        "motivation": "Revenge on the traitor Venetta, then everything: with the Knights locked out he sees nothing left between himself and both worlds. He falls in the finale.",
+        "alliance": "Leads the Corrupted and the enslaved Guardians",
+        "powers": ["Revived evil Tenkai Dragon (late arc)", "Guardian transporter", "Boreas (corrupted) as a weapon"],
+        "artifactsHeld": ["guardians-control"],
+        "evidence": "analysis--arc-5 <!--ep:47-->: 'swears revenge. Granox hunts her on Earth'; ep51 transcript recap: 'leaving our friend Dromus to face Vilius alone.'"
+      },
+      {
+        "who": "Knights",
+        "motivation": "Open the Fortress (the Stone arrives via Kiiro), hold it, and finish Vilius — five Knights now, with Gen fighting alongside, and the Tenkai Wolf answering at the end.",
+        "alliance": "Corekai side, Gen included",
+        "powers": ["Five Knights", "Tenkai Fortress", "Tenkai Wolf + Bravenwolf's new evolution (finale)"],
+        "artifactsHeld": ["tenkai-stone"],
+        "evidence": "analysis--arc-5 <!--ep:48-->: 'Kiiro delivers the Stone to Guren'; ep52 transcript: 'We've got a new ally on our side, the legendary Tenkai Wolf.'"
+      },
+      {
+        "who": "Gen/Dromus",
+        "motivation": "Pays off his whole arc alone: challenges Vilius solo and loses, holds the line while the Knights are locked out — 'he really is all alone' — then fights in the finale as one of the five.",
+        "alliance": "Knights",
+        "powers": ["Dromus, Elemental Mode"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-5 <!--ep:48-->: 'Dromus challenges Vilius alone and loses, fleeing.'"
+      },
+      {
+        "who": "Kiiro",
+        "motivation": "Wants to be Beni's best friend and never wants anything FROM her — the four-leaf clover, then the courier run that turns the war: she delivers the Stone to Guren.",
+        "alliance": "Chooki's little cousin; the boys babysit her",
+        "powers": [],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-5 <!--ep:46-->: 'she'd been hunting a four-leaf clover to give Beni'; <!--ep:48-->: 'Kiiro delivers the Stone to Guren'"
+      },
+      {
+        "who": "Granox & Slyger",
+        "motivation": "The traitor-hunt on Earth (Granox leads it), then the last battles for Vilius.",
+        "alliance": "Corrupted",
+        "powers": ["Earth deployment via the Guardian transporter"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-5 <!--ep:47-->: 'Granox hunts her on Earth; the boys shield her and help her escape.'"
+      }
+    ]
+  },
+  {
+    "id": "s5-aftermath",
+    "label": "Three Days After",
+    "episodes": [53, 53],
+    "beniPrime": null,
+    "busy": "Not at all, and it is unnerving her. Three days with no mission, no handler and nothing she is supposed to be doing. She has all the time in the world and no idea what to do with it, so she invents errands and turns up where she is not needed.",
+    "stakes": "Nothing military — the war is genuinely over. What is at stake is whether she stays. Her reason for being in Benham City ended three days ago and no replacement reason has been said aloud by anyone. Push her on it and she gets sharp in the old way. The other live wire: the core bricks glowed again at the very end, three days ago, unexplained. Canon never showed what it was, so if a summons comes in a story, it is this timeline's own invention.",
+    "watchers": [
+      {
+        "who": "Kiiro",
+        "why": "has decided the war ending means Beni lives here now, and says so constantly to anyone present.",
+        "start": 1
+      },
+      {
+        "who": "The team",
+        "why": "circling the question none of them will ask out loud — whether she is staying — and reading far too much into every answer.",
+        "start": 1
+      },
+      {
+        "who": "Gen",
+        "why": "the one person who knows she came here on a plane for a job that is now finished, and has not brought it up either.",
+        "start": 1
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "Figure out what a Beni without a war is for. Nothing settled, nobody asking, everything open.",
+        "alliance": "The team's, informally and undeclared",
+        "powers": ["Venetta (dormant — no summons)", "First female Tenkai Knight"],
+        "artifactsHeld": ["warehouse-portal"],
+        "evidence": "app canon: stages.json s5-aftermath ('no mission, no plan, nothing settled'); series ground: analysis--arc-5 finale + the ambiguous final core-brick glow"
+      },
+      {
+        "who": "The team",
+        "motivation": "Ordinary life, plus the unasked question about Beni — and five core bricks that glowed once, three days ago.",
+        "alliance": "Friends, all of them now",
+        "powers": ["Core bricks (quiet)"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-5 finale: 'the camera shows Guren's core brick glowing again — the Knights being summoned once more… canon never says'"
+      }
+    ]
+  },
+  {
+    "id": "s5-knight",
+    "label": "The Knight",
+    "episodes": [54, 999],
+    "beniPrime": null,
+    "busy": "Pleasantly: team things, Quarton patrols, Kiiro babysitting, an actual life. She can make time — and pretends it's a huge imposition.",
+    "stakes": "Peacetime stakes: embarrassment, teasing, and her reputation for not caring — all of which she guards like state secrets. And one live wire under it all: the core bricks glowed again at the very end. A new summons to Quarton can arrive at any moment — canon never showed what it was, so if it happens in a story, it's this timeline's own invention.",
+    "watchers": [
+      {
+        "who": "The team",
+        "why": "friends now; they notice new people in her orbit and tease her mercilessly about it.",
+        "start": 1
+      },
+      {
+        "who": "Kiiro",
+        "why": "best-friend privileges; will interrogate any new person and rate them loudly.",
+        "start": 1
+      }
+    ],
+    "actors": [
+      {
+        "who": "Beni",
+        "motivation": "Shows up. Every time. Kept the sass, dropped the cruelty — and never, ever discusses the Guren thing.",
+        "alliance": "The team's",
+        "powers": ["Venetta", "First female Tenkai Knight"],
+        "artifactsHeld": ["warehouse-portal"],
+        "evidence": "app canon: stages.json s5-knight; series ground: analysis--arc-5 finale: 'sass intact, cruelty retired'"
+      },
+      {
+        "who": "The team",
+        "motivation": "Peacetime with an open door to Quarton — 'a Tenkai Knight's work is never done.'",
+        "alliance": "Friends",
+        "powers": ["Core bricks", "Everything they earned"],
+        "artifactsHeld": [],
+        "evidence": "analysis--arc-5 finale: Guren's last word: 'I guess a Tenkai Knight's work is never done.'"
+      }
+    ]
+  }
+]

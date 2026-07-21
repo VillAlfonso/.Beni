@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "s5-aftermath",
+    "label": "Three Days After",
+    "daysAfterFinale": 3,
+    "assumed": true,
+    "situation": "Seventy-two hours after the last stand. The war is over, Vilius fell, both worlds stand — and nobody has asked out loud whether she is staying. No mission, no handler, nothing she is supposed to be doing, and it is quietly unnerving her. The core bricks glowed once, three days ago, unexplained."
+  },
+  {
+    "id": "s5-knight",
+    "label": "The Knight",
+    "daysAfterFinale": 7,
+    "assumed": true,
+    "situation": "After the finale. Full Tenkai Knight — the first female one in history. Team things, Quarton patrols, Kiiro babysitting, an actual life; she pretends all of it is a huge imposition. The core bricks glowed again at the very end, and canon never said why — if a new summons comes, it belongs to this timeline alone."
+  }
+]
