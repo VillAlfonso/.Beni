@@ -1,0 +1,120 @@
+{
+  "no": 22,
+  "title": "Dromus Betrayed",
+  "days": {
+    "start": 44,
+    "end": 44,
+    "evidence": "One day (a Sunday by the weekday grid — no school scenes, consistent): the staged Quarton betrayal, the diner collapse, the recruitment, and the evening triangulation op, while the Vilius–Guardian battle begun in ep 21 rages above as background. Start day taken as the day after ep 21.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Above the clouds, Vilius presses his assault on the Guardians — and names his real prize: their Portal ('Soon, I will rule both worlds!'). Down on the field, Corrupted units wheel on one of their own: 'You'll pay for your treachery, Venetta!' The falling-out the Knights are about to witness is a script only two people have read.",
+    "beni": {
+      "where": "Quarton — mid-'betrayal', fighting Corrupted units as Venetta in front of exactly the audience she wants",
+      "doing": "Opening act of the staged falling-out: draw the Knights' eyes, take Dromus's ultimatum, refuse on principle ('I don't beg!'), and take the cannon hit that sells it",
+      "evidence": "ep22: 'You're the one who betrayed me, Dromus! You lied to me! This is not what I signed up for!'"
+    },
+    "firstContact": "*A block from the Dalton diner, a pink-haired girl makes her way along the storefronts too carefully — one hand trailing the wall, steps measured, like the ground owes her an apology. To anyone watching she's just a kid having a rough day. She picked this street, this pace, this audience.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep22-staged-betrayal",
+      "who": "Beni",
+      "text": "Run the double-con end to end: stage the public break with Dromus, collapse where the boys will find her, own the Venetta reveal, sell the sob story (real ingredients, performed tears), and be recruited by her marks.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep22: 'I was. I'm Venetta.' … 'That's why I came to you. You're the only ones who can help me stop it before it's too late.'"
+    },
+    {
+      "id": "ep22-triangulation",
+      "who": "Beni",
+      "text": "Get the Knights to find the Black Dragon Key FOR her: the 'Enhanced Black Dragon Key Global Positioning System' app, four Core Bricks at four compass points, her in command ('it was my idea') — and the ping: Benham Tower.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep22: 'We locate it by triangulation.' … 'It's in Benham Tower.'"
+    },
+    {
+      "id": "ep22-knights-decide-beni",
+      "who": "Knights",
+      "text": "Decide what to do with a fallen enemy at their doorstep: shield her mid-battle, hear her story, argue it out, and vote to help — with Chooki's caveat standing: 'keep an eye open for the play fake.'",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep22: 'Okay, then it's decided. We help Beni.' / Mr. White: 'A decision I profoundly hope we don't all live to regret.'"
+    },
+    {
+      "id": "ep22-vilius-portal",
+      "who": "Vilius",
+      "text": "Break the Guardians and take what he actually came for: 'Your destruction will only be an added bonus. It's the Portal I'm after! … Soon, I will rule both worlds!'",
+      "due": { "day": 46 },
+      "window": "repeatable-later",
+      "evidence": "ep22: Vilius vs the Guardians: 'I've had eons to learn your moves.'"
+    },
+    {
+      "id": "ep22-dromus-double-act",
+      "who": "Gen/Dromus",
+      "text": "Play the betrayed master: the ultimatum, the Dark Energy Cannon, the cold withdrawal ('So much for gratitude!') — then stay off-stage while she works their marks.",
+      "due": { "day": 44 },
+      "window": "episode",
+      "evidence": "ep22: Dromus: 'Either you beg my forgiveness and agree to serve me, or I'll destroy you right here and now!'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "The performance of her arc: treachery theater on Quarton, the too-weak walk to the diner, the reveal, the story that borrows her real past (Dromus DID save her, teach her, lie to her) with the tears added for effect, the app, the command seat, and the flirt-as-payment ('when we're done saving the planet, I'll even let you take me out to dinner').",
+      "why": "The Eurus plan from ep 18, executed: the enhanced Knights find the Key for them, never knowing they're pawns.",
+      "evidence": "ep22: 'I get to be the one in charge of the operation. Cause after all, it was my idea.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "His half of the script — ultimatum, cannon, exit — played so straight that Bravenwolf steps in front of her exactly on cue.",
+      "why": "The 'betrayal' needs to be believed; the boys' heroism is the mechanism.",
+      "evidence": "ep22: Bravenwolf: 'To get to her, you'll have to go through me!'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Shield a fallen enemy, feed her at the diner, split over her story (Guren wants to believe, Ceylan needles — 'Empress Bubblegum' — Chooki audits), then fan out across town as her triangulation antennas.",
+      "why": "'That whole my enemy's enemy is my friend thing' — plus Guren: 'I want to believe you, Beni.'",
+      "evidence": "ep22: Ceylan: 'She might just be sincerely trying to lead us into a trap.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Fights the Guardian council itself over their ancient banishment — and reveals the Portal as his objective, with both worlds as the stakes.",
+      "why": "'You think that's all I want? Then you're the fool! … It's the Portal I'm after!'",
+      "evidence": "ep22: the Guardians: 'We thought you would have learned your lesson, Vilius.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Two wars at once: Vilius's sky army besieges the Guardians for their Portal ('if overthrowing the Guardians was easy, he would have done it centuries ago'), while on the ground Beag's Corekai have pushed the Corrupted back toward a heavily fortified base — where the reassembly device and the captured Dragon wait. And in the middle of it, the Corrupted publicly hunt their own 'traitor.'",
+    "evidence": "ep22: 'Beag's troops have pushed the bad guys back into their own end zone. But it's a heavily fortified end zone.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "LOCATED — the triangulation ping lands on Benham Tower; only Beni and the Knights (her unwitting antennas) know",
+      "evidence": "ep22: 'It's in Benham Tower.'"
+    },
+    {
+      "item": "guardians-control",
+      "event": "under siege — Vilius assaults the council for their Portal, the road to the other world",
+      "evidence": "ep22: Vilius: 'It's the Portal I'm after! … Soon, I will rule both worlds!'"
+    }
+  ],
+  "outcome": "The con paid out in one day: the Knights believe her, work for her, and found the Key's location for her — Benham Tower, the building Guren's own father is finishing. Nobody outside the two partners knows the falling-out was staged. Chooki alone keeps his eye on the play fake. Above it all, Vilius's war on the Guardians continues with the Portal — and Earth behind it — as the prize.",
+  "recall": "My best work to date, if I'm keeping score, and I am. Act one: public treachery — real cannon fire, by the way; Dromus doesn't pull punches, which is exactly why it sells — and Bravenwolf stepped in front of me RIGHT on cue, because boys like him can't not. Act two: the wobbly walk to the diner, the collapse, the big reveal. 'I was. I'm Venetta.' You should have seen their faces. Act three: the story. Mostly true, which is what makes a good lie — Dromus did find me when Quarton was new and terrifying, did save my life, did teach me everything, did wrap it all in lies. I just aimed it and added tears. Then I handed them my app, put myself in charge — my idea, my op — and had all four of them stand at compass points holding their glowing bricks like good little antennas. Ping. Benham Tower. The Key's been sleeping in the building Guren's daddy is building. The blue one calls me Empress Bubblegum and the athlete is watching me like a hawk with a grudge — noted, both of them. Guren said he WANTS to believe me. They always do. I told him I won't let him down and promised him dinner. One of those might even be true.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 21 (the Guardian battle running continuously as background)",
+      "single-day compression"
+    ],
+    "unknown": [
+      "when and where she and Gen scripted the staged betrayal (planning never shown)",
+      "how badly the cannon hit actually hurt her",
+      "the state of the Guardian siege at day's end"
+    ]
+  }
+}

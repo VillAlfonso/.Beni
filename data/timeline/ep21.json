@@ -1,0 +1,117 @@
+{
+  "no": 21,
+  "title": "Checkmate",
+  "days": {
+    "start": 43,
+    "end": 43,
+    "evidence": "Guren's dad: 'It's the weekend, Dad. Do you really have to go to work?' — with ep 19 an on-screen Sunday (day 37) and ep 20 a school day, the next weekend day is Saturday, day 43. Days 39–42 pass off-screen (gap days). One day on screen: morning at Guren's, park chess, the trap battle, the fortress reveal.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Vilius's assembled army stands ready — 'No force on the planet could withstand such an army' — and he isn't stopping at Quarton. On Earth it's a weekend morning: Guren's dad heads to Benham Tower ('last stages of construction'), and Gen has picked his next target — Chooki's confidence.",
+    "beni": {
+      "where": "Benham City — off-screen this episode; exact whereabouts unshown",
+      "doing": "No on-screen moves; the army she flagged in ep 20 is about to move",
+      "evidence": "ep21 has no Beni scenes (one stray one-word speaker tag aside); analysis--arc-2 <!--ep:21--> covers Gen's Chooki gambit and Vilius's army"
+    },
+    "firstContact": "*Weekend crowd in the plaza. She drifts through it at half the crowd's speed, licking an ice pop, reading storefronts like headlines — a girl with an entire empty Saturday and no intention of explaining it to anyone. Her eyes pass over you the way they pass over pigeons.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep21-gen-shake-chooki",
+      "who": "Gen/Dromus",
+      "text": "Break the 'weak link' that isn't one yet: beat Chooki at his own perfection — the Grand Master queen-sacrifice — because 'weaken one of the Knights, and all of the Knights are weakened.' Then run the same exchange on the battlefield.",
+      "due": { "day": 43 },
+      "window": "episode",
+      "evidence": "ep21: Gen: 'Let's see how he handles not being the best at something. It might shake his confidence a little.'"
+    },
+    {
+      "id": "ep21-vilius-strike-guardians",
+      "who": "Vilius",
+      "text": "Use the battle as a diversion and take the real army — on a Dragon-powered levitation platform — above the clouds, to the Guardians who banished him: 'Now, at last, I have the power to return the favor!'",
+      "due": { "day": 43 },
+      "window": "episode",
+      "evidence": "ep21: Vilius: 'They were just a diversion. No! The real battle will take place up there! Above the clouds!'"
+    },
+    {
+      "id": "ep21-knights-counter-trap",
+      "who": "Knights",
+      "text": "Survive the queen-exchange trap and the fortress guns — Chooki turns his chess loss into the day's save: 'unlike chess, we can't afford to sacrifice a single one of us.'",
+      "due": { "day": 43 },
+      "window": "episode",
+      "evidence": "ep21: Lydendor: 'No exchanging queens this time!' / 'If we hadn't kept our distance, we'd all have been Tenkai toast.'"
+    },
+    {
+      "id": "ep21-council-vs-eurus",
+      "who": "Eurus",
+      "text": "Weather the council's hardening line — 'Eurus's actions risk throwing that balance into total disarray… he must be stopped before it is too late' — while keeping his own game alive.",
+      "due": { "day": 43 },
+      "window": "repeatable-later",
+      "evidence": "ep21: council: 'Be careful, Eurus. Moves can have hidden consequences.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Gen/Dromus",
+      "doing": "The chess op on Chooki, then the mirrored battlefield gambit with Granox as the cannon; ends the day satisfied: 'The board is set. The pieces are all in place. Now, let the game begin.'",
+      "why": "Psychological attrition serves the Key plan — and Vilius ordered the Knights crushed.",
+      "evidence": "ep21: Vilius: 'I need you to destroy the Tenkai Knights.' / Gen: 'Consider them crushed.'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Springs the real move: the army rises on a levitation platform 'powered with enough energy from the Tenkai Dragon to lift an army into the sky', and he confronts the Guardians in person over his ancient banishment.",
+      "why": "'Defenders of Quarton! But who defends you?'",
+      "evidence": "ep21: the Guardians: 'You are forbidden here, warlord. … By attacking us, you will only bring destruction on yourself.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "A weekend morning that turns into the queen-trap battle; Chooki studies his chess loss mid-day and cashes the lesson in twice — the draw against Dromus, and the call that keeps everyone out of the fortress's range.",
+      "why": "'Every chess piece has its own strengths. You can't win the game without all of them.'",
+      "evidence": "ep21: Mr. White's chess-pieces talk; Lydendor's paranoia vindicated."
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Granox robofuses into Centaur Mode as the long-range cannon of Dromus's trap — then abandons the script for 'juicier targets at point-blank range.'",
+      "why": "Dragon-enhanced and finally trusted with a role; discipline optional.",
+      "evidence": "ep21: 'Granox Centaur Mode! Forward, Corrupted!'"
+    },
+    {
+      "who": "Guardians",
+      "doing": "Close ranks against Eurus in council — then find Vilius himself at their door with an army above the clouds.",
+      "why": "Balance-keeping, suddenly under existential threat.",
+      "evidence": "ep21: 'I do not know what Eurus is up to, but he must be stopped before it is too late.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Corrupted's main fortress FLIES now — lifted on a Dragon-energy levitation platform with the full army aboard. The ground battle was a screen; the Knights fought it to a draw and only Lydendor's caution kept them out of the fortress guns' kill zone. The war's ceiling moved to the sky, and its next target is the Guardians themselves.",
+    "evidence": "ep21: 'That's gotta be the Corrupted's main fortress. … To get us in range of the fortress's defenses.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-dragon",
+      "event": "extracted energy powers the levitation platform that lifts the Corrupted fortress and army into the sky",
+      "evidence": "ep21: Vilius: 'A levitation platform. Powered with enough energy from the Tenkai Dragon to lift an army into the sky!'"
+    },
+    {
+      "item": "guardians-control",
+      "event": "assaulted — Vilius, once banished by the Guardians, brings his sky army to their sanctum to 'return the favor'; the confrontation's outcome is not shown this episode",
+      "evidence": "ep21: Vilius: 'I seem to recall you banishing me once long ago. Now, at last, I have the power to return the favor!'"
+    }
+  ],
+  "outcome": "The fortress is airborne, the army is aboard, and Vilius stands at the Guardians' door mid-threat as the episode ends. The Knights survived the queen-trap and learned the day's chess lesson twice over. Gen considers the board set. Benham Tower — where the Key sleeps — is in its last stages of construction, and Guren's dad works weekends now.",
+  "recall": "Told him. I flagged that army days ago, and this weekend it moved — the whole Corrupted fortress went AIRBORNE, riding Dragon power, army and all. You don't miss a thing like that; the sky changed shape. Gen spent his Saturday playing chess games, board ones and battlefield ones, and calling it strategy. Fine. His board, his pieces. I keep my own ledger of who saw the avalanche coming first.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "Saturday day 43 (weekend stated; minimal consistent weekend after ep 19's Sunday anchor)",
+      "single-day compression"
+    ],
+    "unknown": [
+      "Beni's actual activities this day and during the day 39–42 gap (off-screen)",
+      "how and when she learns of the fortress lift and the Guardian assault"
+    ]
+  }
+}
