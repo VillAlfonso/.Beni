@@ -1,0 +1,86 @@
+{
+  "no": 29,
+  "title": "No \"I\" in Team",
+  "days": {
+    "start": 56,
+    "end": 57,
+    "evidence": "Soccer practice and the broken Wonder Park promise ('you promised you'd take me this weekend'), then the championship soccer game the game-day itself. Two days taken (promise day, game day), continuing from ep 28's day 55.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "afternoon",
+    "situation": "The Elemental Knights are settling into their new forms while Guren nurses a broken promise — his father cancelled their Wonder Park trip for work, again. On Quarton, Granox digs at an excavation site for something the Corekai can't identify, and Vilius sends Slyger to join him. Nobody has named what's in the hole yet.",
+    "beni": {
+      "where": "Benham City — off-screen this episode; exact whereabouts unshown",
+      "doing": "No on-screen moves; rogue and uninvolved while the war digs for the Fortress",
+      "evidence": "ep29 has no Beni scenes"
+    },
+    "firstContact": "*She sits on the rim of the plaza fountain, heels kicking, watching the crowd like a chessboard with no opponent left on it. Her eyes pass over you once — flat, unimpressed — and keep moving.*"
+  },
+  "arcAtStart": "s2-vilius-agent",
+  "goals": [
+    {
+      "id": "ep29-guren-team",
+      "who": "Knights",
+      "text": "Guren relearns the lesson under his father's broken-then-kept promise: 'There's no I in team' — he leaves the soccer final to answer the summons, then makes the game after all.",
+      "due": { "day": 57 },
+      "window": "episode",
+      "evidence": "ep29: Guren: 'I almost forgot what it's all about. The Tenkai Knights are a team.'"
+    },
+    {
+      "id": "ep29-fortress-dig",
+      "who": "Granox & Slyger",
+      "text": "Excavate for the legendary Tenkai Fortress — Granox digs, Slyger is reassigned to join him after his Earth failure; their bickering nearly loses the fight.",
+      "due": { "day": 59 },
+      "window": "repeatable-later",
+      "evidence": "ep29: Granox: 'while Granox gets to stay here and search for the legendary fortress?'"
+    },
+    {
+      "id": "ep29-knights-hold-dig",
+      "who": "Knights",
+      "text": "Raid the excavation to stop whatever the Corrupted are unearthing — even three-handed without Bravenwolf, then five-strong once he arrives.",
+      "due": { "day": 57 },
+      "window": "episode",
+      "evidence": "ep29: Beag: 'An army of corrupted is in that hole, searching for something.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Knights",
+      "doing": "Play short-handed while Guren wrestles his dad's broken promise, then reunite — Guren choosing the team over the soccer final he'd been aching for.",
+      "why": "The Tenkai Knights are the team that matters most.",
+      "evidence": "ep29: Guren: 'There's no I in team, isn't that right?'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Dig for the Fortress and fight the Knights while sniping at each other — 'If you exert as much energy fighting the Knights as you do sniffing at each other, I would be master of both worlds by now.'",
+      "why": "Prove themselves to Vilius; the rivalry keeps sabotaging it.",
+      "evidence": "ep29: Vilius's rebuke of both lieutenants."
+    },
+    {
+      "who": "Mr. White",
+      "doing": "Names the prize at last: the legendary Tenkai Fortress, 'rumored to have great powers hidden within its walls. If the fortress does exist, we must find it before Vilius does.'",
+      "why": "The dig's target is now the war's stake.",
+      "evidence": "ep29: 'The legendary Tenkai Fortress.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Corrupted excavate for the Tenkai Fortress; the Knights raid the dig and win despite Granox and Slyger's infighting. By episode's end both sides know the prize has a name — the Fortress — and the race for it is on.",
+    "evidence": "ep29: Mr. White: 'we must find it before Vilius does.'"
+  },
+  "artifacts": [],
+  "outcome": "The Tenkai Fortress is named as the war's new prize, and the race to find it begins. The Knights hold the excavation and Guren recommits to the team. Granox and Slyger's rivalry is now Vilius's biggest liability. Beni, uninvolved, still holds the plain rock that will decide this race — its importance unknown to everyone, herself included, until ep 34.",
+  "recall": "Not my episode. The boys had some soccer-and-feelings day and the war spent it digging a hole in a mountain. Whatever's down there is the Corekai's problem and the Corrupted's obsession, not mine. I kept to my own orbit and my own business, which right now is mostly the luxury of having none.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "two-day split (promise day, game day)",
+      "day numbering continuing the weekday grid from ep 28"
+    ],
+    "unknown": [
+      "Beni's actual activities this episode (off-screen)",
+      "whether she yet connects the Fortress talk to the rock her father left her (the ep-34 realization is still ahead)"
+    ]
+  }
+}

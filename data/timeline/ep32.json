@@ -1,0 +1,100 @@
+{
+  "no": 32,
+  "title": "Toxic Toxsa",
+  "days": {
+    "start": 63,
+    "end": 63,
+    "evidence": "One day: boring breakfast and morning combat training, the online-then-in-person con on Toxsa, the leadership challenge, the Zephyrus battle, and Toxsa's resignation all run in a single arc. Day is APPROXIMATE — eps 30–31 (unauthored) fall between ep 29 (day 57) and this; leave room and reconcile when they're authored.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Peace is boring her to death. The Knights have Elemental Titan Mode now (Mr. White's ninja training paid off for Guren) and drill with foam sabers; the corrupted Guardians chafe under Vilius, who sends Zephyrus to Earth to destroy the Knights 'in one quick, merciless blow.' And Beni, croissant in hand, is looking for something to break just to feel awake.",
+    "beni": {
+      "where": "Her place — a boring breakfast, then out hunting entertainment",
+      "doing": "Diagnosing her own boredom ('even my breakfast is boring') and lining up a target: Toxsa, whose game stats she's already studied",
+      "evidence": "ep32: Beni: 'Happy people go about their business. It's another beautiful day. How boring. Croissant and orange juice. Man, even my breakfast is boring.'"
+    },
+    "firstContact": "*Arcade doorway. She stands just inside, arms crossed, watching kids hammer buttons with a face that gives away absolutely nothing. Whatever she thinks of the noise, of them, of anything — it stays hers.*"
+  },
+  "arcAtStart": "s2-vilius-agent",
+  "goals": [
+    {
+      "id": "ep32-toxsa-con",
+      "who": "Beni",
+      "text": "Divide the Knights for sport: flatter Toxsa into challenging Guren's leadership — study his game ('You were, like, totally amazing'), agree with his self-doubts to disarm them ('That's just being sensible'), close with 'So is Napoleon.' A day's entertainment that wrecks nothing permanent.",
+      "due": { "day": 63 },
+      "window": "episode",
+      "evidence": "ep32: Beni: 'I think you could be just as good a leader as Guren. Maybe better.' / Toxsa: 'call me Team Leader.'"
+    },
+    {
+      "id": "ep32-toxsa-elemental-titan",
+      "who": "Knights",
+      "text": "Toxsa's leadership stint collapses into the real lesson under Zephyrus's attack — 'It's not about being team leader. It's about being a team!' — and unlocks his Elemental Titan Mode, then resigns.",
+      "due": { "day": 63 },
+      "window": "episode",
+      "evidence": "ep32: Toxsa: 'I should have listened to Guren. He was right the whole time.' — then Terra Blast Titan Mode."
+    },
+    {
+      "id": "ep32-zephyrus-strike",
+      "who": "Guardians",
+      "text": "Zephyrus, corrupted and eager to outshine the disgraced Boreas, corners the Corekai and attacks the Knights with the dark energy Vilius gave him — and is destroyed by Toxsa's new Titan Mode.",
+      "due": { "day": 63 },
+      "window": "episode",
+      "evidence": "ep32: Zephyrus: 'Send me to the other world and I will use the dark energy you've given me to destroy the Knights in one quick, merciless blow.'"
+    },
+    {
+      "id": "ep32-vilius-discipline",
+      "who": "Vilius",
+      "text": "Keep the corrupted Guardians in line — 'You are corrupted Guardians who exist only to serve me' — punishing Boreas's failure and Eurus's backtalk, and dispatching Zephyrus to prove the point.",
+      "due": { "day": 63 },
+      "window": "episode",
+      "evidence": "ep32: Vilius: 'You will be treated no differently than any other lackey who questions my orders.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Runs the flattery con end to end — reveals she was the other warrior in his game, praises the leadership he's starving for, reframes every flaw ('short?' → 'So is Napoleon'), dares him to prove it against Guren — then watches the chaos from the sidelines, entertained, having risked and lost nothing.",
+      "why": "Boredom is the engine now. Chaos is fun; hurting the helpless isn't. Dividing the team is a toy she picks up for a day and drops.",
+      "evidence": "ep32: the boys' standing verdict: 'a sneaky little troublemaker.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Toxsa seizes the leader title (cookies, orange juice, 'no more sports metaphors'), fails to lead under fire, learns team over title, unlocks Elemental Titan Mode, resigns — and is told 'we are all the Tenkai Knights.'",
+      "why": "'No one's ever given me a chance' — the itch Beni pressed on.",
+      "evidence": "ep32: Ceylan: 'It takes all of us to make a team. There's no one leader, Toxsa.'"
+    },
+    {
+      "who": "Guardians",
+      "doing": "Eurus questions Vilius and is slapped down; Boreas is punished for his defeat; Zephyrus volunteers to do better and dies trying.",
+      "why": "Enslaved and scrambling for the master's favor.",
+      "evidence": "ep32: Eurus: 'We are the Guardians. You cannot treat us like this.' / Vilius: 'You are what, Eurus?'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Rules the corrupted Guardians by fear, dispatches Zephyrus, and savors the Knights' self-inflicted division from afar — 'How power corrupts.'",
+      "why": "The Guardians are lackeys now; failure is punished, ambition rewarded.",
+      "evidence": "ep32: Vilius watching the leadership squabble: 'How power corrupts.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Zephyrus corners the Corekai survivors and attacks the Knights with Guardian-grade dark power — 'I'm not weak like Boreas. I will not take pity on you.' Toxsa's leadership fumble nearly costs them until his Elemental Titan Mode ignites and destroys Zephyrus. Another corrupted Guardian down; the Fortress race continues off-page.",
+    "evidence": "ep32: Zephyrus: 'Now feel the true power of the Guardians!'"
+  },
+  "artifacts": [],
+  "outcome": "The team fractures for exactly one day and heals stronger — Toxsa with a new Titan Mode and a lesson, the Knights reaffirmed as leaderless equals, Zephyrus destroyed. Beni's con worked precisely as intended: maximum entertainment, zero lasting damage, no exposure. She remains rogue, bored, and dangerous in small doses. The boys' file on her hardens: sneaky little troublemaker.",
+  "recall": "Best morning I'd had in weeks, and it started with the worst breakfast. Boredom was eating me alive — happy people going about their happy business, my own croissant tasting like cardboard — so I went and found a toy. Toxsa. I'd already studied his little game; turns out I was the other warrior carrying him through the labyrinth, so the flattery had teeth. Natural-born leader, I told him. Better than Guren, maybe. Every insecurity he coughed up I agreed with and flipped: short? So was Napoleon, and you've got two inches on him. Snores? You're generating power. It was almost too easy — he crowned himself Team Leader before lunch and had the blue one fetching him cookies. Then it all came apart on Quarton exactly the way these things do, he learned some warm lesson about teams, unlocked a shiny new mode, gave the title back. Nothing broke that couldn't glue itself. That's the art of it. You don't smash the toy; you just wind it up and watch it walk into the wall. They called me a sneaky little troublemaker afterward. I've been called worse. Rarely more accurately.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day compression (leadership stint to resignation)",
+      "day 63 is APPROXIMATE — eps 30–31 between ep 29 (day 57) and here are unauthored; adjust when they land"
+    ],
+    "unknown": [
+      "exactly which day of the week this falls on (depends on eps 30–31 authoring)",
+      "how she learned Toxsa's game handle / that he was the warrior she carried (she just knows — con groundwork off-screen)"
+    ]
+  }
+}

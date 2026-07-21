@@ -1,0 +1,114 @@
+{
+  "no": 34,
+  "title": "Beware Betrayal",
+  "days": {
+    "start": 66,
+    "end": 66,
+    "evidence": "One continuous crisis day: Vilius's summons and the Stone experiment, the brickification wave and temporary tea-fix, the Earth friendship-taunt of Guren, the Quarton battle where Ceylan unlocks Elemental Titan Mode, and the closing Fortress deal. Day is APPROXIMATE — ep 33 (unauthored) falls between ep 32 (day 63) and here.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Vilius has summoned Venetta with a lead that changes everything: the key to finding the Tenkai Fortress is the Tenkai Stone, and it's on Earth — 'Find it and bring it to me, or face my wrath.' What he doesn't know is that the 'shiny bling thing' Beni's father left her in a fancy box IS the Stone. Meanwhile brickification is bleeding back onto Earth, and the boys' core bricks are throwing distress signals.",
+    "beni": {
+      "where": "Quarton — before Vilius, taking the Fortress assignment",
+      "doing": "Sassing Vilius to his face, accepting with mock servility, then privately realizing what she's been carrying: 'Not if I happen to find it first.'",
+      "evidence": "ep34: Beni: 'I knew that shiny bling thing my dad gave me must be important. But this important? … Not if I happen to find it first.'"
+    },
+    "firstContact": "*Warehouse district, dusk. A pink-haired girl walks the empty lane like she owns the deed to it, a keyring spinning lazy circles around one finger. She passes you without a flicker of interest.*"
+  },
+  "arcAtStart": "s2-vilius-agent",
+  "goals": [
+    {
+      "id": "ep34-stone-realization",
+      "who": "Beni",
+      "text": "Take Vilius's Fortress commission — and secretly turn it: she owns the Tenkai Stone already (her father's gift), so she'll find the Fortress FIRST, for herself. Test the Stone (it projects light she can't control — 'Piece of junk!').",
+      "due": { "day": 66 },
+      "window": "repeatable-later",
+      "evidence": "ep34: Beni: 'So Vilius thinks this will help him find the Tenkai Fortress, huh? Not if I happen to find it first.'"
+    },
+    {
+      "id": "ep34-fortress-deal",
+      "who": "Beni",
+      "text": "Undercut Granox and buy free rein: convince Vilius he's digging in the wrong place and take the Fortress contract herself — 'With the right incentive, of course.' / 'Whatever you want, just find me the fortress.' / 'You've got a deal.'",
+      "due": { "day": 66 },
+      "window": "episode",
+      "evidence": "ep34: the closing Vilius deal."
+    },
+    {
+      "id": "ep34-beni-divide-guren",
+      "who": "Beni",
+      "text": "Work on Guren directly: preach that friends tie you down ('flying solo's the only way to go'), then nearly finish Bravenwolf on Quarton to prove it — 'Friends just tie you down. But you had to learn the hard way.'",
+      "due": { "day": 66 },
+      "window": "episode",
+      "evidence": "ep34: Beni to Bravenwolf: 'Poor Bravenwolf. Tried to warn you.'"
+    },
+    {
+      "id": "ep34-brickification-fortress-link",
+      "who": "Knights",
+      "text": "Trace the returning brickification to the Fortress: temporary tea-energy fixes hold, the core bricks signal distress, and Ceylan unlocks Elemental Titan Mode saving Bravenwolf from Venetta.",
+      "due": { "day": 66 },
+      "window": "episode",
+      "evidence": "ep34: Mr. White: 'Something on Quarton is disrupting the balance … It's all connected to that fortress somehow.'; Ceylan's Elemental Titan Mode unlock."
+    },
+    {
+      "id": "ep34-vilius-fortress-hunt",
+      "who": "Vilius",
+      "text": "Get the Tenkai Stone off Earth to find the Fortress — trust Granox's dig, then be talked into hiring the impudent Venetta instead.",
+      "due": { "day": 68 },
+      "window": "repeatable-later",
+      "evidence": "ep34: Vilius: 'the key to finding the Fortress is the Tenkai Stone. And we both know where that is, don't we?'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Takes the assignment, realizes she holds the prize, tests the Stone (uncontrollable), lectures Guren on solitude, nearly kills Bravenwolf on Quarton, escapes a three-on-one ('one of me is worth four of you'), and closes by contracting herself as Vilius's Fortress-finder — running both sides.",
+      "why": "The Stone is her father's only worthwhile inheritance and now the most important object in the war. She serves no one; she'll find the Fortress first and decide its fate herself.",
+      "evidence": "ep34: 'I'm on no one's side but my own. You should try it sometime.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Chase the brickification's cause to the Fortress, hold it back with Tenkai teachings, and fight Venetta and Slyger — Ceylan's Elemental Titan Mode igniting to save a downed Bravenwolf.",
+      "why": "'You mess with my friend. You mess with me!' — the exact bond she's trying to break.",
+      "evidence": "ep34: Tributon: 'You mess with my friend. You mess with me!'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Hands Beni the Stone assignment, threatens wrath, then — impressed and impatient with Granox's failures — hires her to find the Fortress on her own terms.",
+      "why": "'I may be closer than you think, for I've learned that the key to finding the Fortress is the Tenkai Stone.'",
+      "evidence": "ep34: 'Whatever you want, just find me the fortress.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Granox digs at the Fortress pit ('If you damage the fortress, I'll damage you'); Slyger fights the Knights on Quarton and loses. Their failures are what let Beni take the contract.",
+      "why": "Prove themselves to Vilius; keep failing.",
+      "evidence": "ep34: Beni to Vilius: 'Seriously, Granox? He couldn't find his own gearbox with both hands.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The brickification of Earth is now explicitly tied to the Fortress and the imbalance around it. On Quarton, Slyger and Venetta fight the Knights; Venetta nearly finishes Bravenwolf until Ceylan's newly-unlocked Elemental Titan Mode turns it. Granox keeps digging at the Fortress pit. The race for the Fortress is now a three-way scramble — Corrupted, Knights, and one rogue girl who already holds its key.",
+    "evidence": "ep34: 'It's all connected to that fortress somehow.'"
+  },
+  "artifacts": [
+    {
+      "item": "tenkai-stone",
+      "event": "REVEALED — its identity as the key to finding/opening the Tenkai Fortress becomes known: Vilius names it, and Beni realizes the rock her father left her IS it. Custody unchanged (still hers, still secret), but its significance is now known to both.",
+      "evidence": "ep34: Vilius: 'the key to finding the Fortress is the Tenkai Stone.'; Beni: 'I knew that shiny bling thing my dad gave me must be important. But this important?'"
+    }
+  ],
+  "outcome": "The whole late-war shape is set here: the Tenkai Stone is the Fortress key, Beni has secretly held it all along, and she's now Vilius's contracted Fortress-finder while quietly racing to claim the Fortress for herself. The brickification-Fortress link is established. Ceylan has Elemental Titan Mode. And in the middle of preaching that friends only tie you down, she looked — Ceylan swears — about to cry.",
+  "recall": "Turns out I've been carrying the most important object in two worlds around in a gift box, and I didn't even know it. Vilius summoned me all puffed up — the key to the Fortress is the Tenkai Stone, find it on Earth, bring it to me, face my wrath, blah blah. I told him it was kind of lame he still hadn't found the place, took the job with a curtsey, and then went home and looked at the shiny rock my father left me the way you look at a stranger you suddenly recognize. THIS important? That's why the fancy box. So now Vilius wants me to fetch the Fortress for him with the very thing sitting in my pocket. Not if I find it first. I tried to make the Stone do its trick — fetch, Fortress, come on — and it just threw light around and ignored me. Piece of junk. Dad's idea of a knuckle. I spent the rest of the day on Guren, telling him the truth for once: friends tie you down, flying solo's the only way, one day the people you trust will be the thing standing in your way. He looked at me like a confused puppy. And when I turned to leave — I don't want to talk about it. Something in my face did something it shouldn't have. Doesn't matter. Nearly finished Bravenwolf on Quarton to make the point, until the blue one found a new gear and pulled him out. Escaped three-on-one, obviously — one of me is worth four of them. Then I went back to Vilius and made him hire me properly to find the Fortress, with the right incentive, of course. Both sides paying, nobody holding the leash. Exactly where I like it. So why did my face do that.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "single-day compression",
+      "day 66 is APPROXIMATE — ep 33 between ep 32 (day 63) and here is unauthored; adjust when it lands"
+    ],
+    "unknown": [
+      "whether she gives Vilius any actual Fortress location this episode (the transcript shows her securing the CONTRACT to find it, not handing over coordinates — the arc analysis's 'gives Vilius the location' may compress a later beat)",
+      "how the Stone's projection actually works (she can't control it; mechanism unshown)"
+    ]
+  }
+}
