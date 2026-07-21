@@ -5,12 +5,12 @@
   POST /keep  {"voice_id","text"}            -> file a finished line
   GET  /health
 
-Two backends, one port, chosen by the launcher:
+Three backends, one port, chosen by the launcher:
 
-  --backend rvc    Windows SAPI reads the line, the model trained on her
-                   episodes swaps the timbre. Fast. The everyday path.
-  --backend qwen   Clone mode on the 1.7B Base model, using her own clips as
-                   references. Better in places, far slower. Dormant.
+  --backend gptsovits  GPT-SoVITS v2 clones Beni from a tone-matched audio
+                       reference. Natural everyday path.
+  --backend rvc        Windows SAPI plus an RVC timbre conversion. Fast fallback.
+  --backend qwen       Clone mode on the 1.7B Base model. Dormant.
 
 Only one runs at a time — you start Beni.bat or Beni-voice.bat, not both — so
 sharing :5002 is safe and the app never has to know which it got.
@@ -24,7 +24,7 @@ Deterministic, inspectable, free.
 Everything here is backend-independent. The backends only turn one sentence of
 text into samples; the shaping around them is shared.
 
-Run: voice-runtime\\.venv\\Scripts\\python.exe server.py   (or Beni.bat)
+Run: voice-runtime\\gptsovits\\.venv\\Scripts\\python.exe server.py
 """
 from __future__ import annotations
 
@@ -68,7 +68,7 @@ def load_backend(name: str = ""):
     """
     global _backend
     if _backend is None:
-        _backend = importlib.import_module(f"backends.{name or 'rvc'}")
+        _backend = importlib.import_module(f"backends.{name or 'gptsovits'}")
     return _backend
 
 
@@ -82,6 +82,8 @@ def load_backend(name: str = ""):
 # to DEFAULT_MOOD. Order here is only for readability.
 MOOD_RULES: dict[str, list[str]] = {
     "laughing":     [r"laugh", r"giggl", r"cackl", r"snicker", r"cracks up", r"\bhaha", r"\bhehe"],
+    "happy_soft":   [r"gentle.*(?:happy|smil)", r"(?:happy|smil).*gentle", r"soft(?:ly)? delighted"],
+    "happy_long":   [r"monologu", r"rambl(?:es|ing)?"],
     "happy":        [r"\bhappy", r"\bsmil", r"\bbeams?\b", r"delight", r"pleased", r"cheerful", r"brightens"],
     "excited":      [r"excit", r"\beager", r"can'?t wait", r"thrill", r"bounc", r"lights? up", r"buzzing"],
     "enthusiastic": [r"enthusiast", r"\bkeen\b", r"\bhypes?\b", r"animated", r"\bperks? up"],
@@ -89,7 +91,11 @@ MOOD_RULES: dict[str, list[str]] = {
     "teasing":      [r"teas", r"smirk", r"\bsmug", r"playful", r"needl", r"\bsly\b", r"mischiev", r"\bgrins?\b"],
     "belittling":   [r"belittl", r"conde?scend", r"scoff", r"sneer", r"dismissiv", r"mock", r"looks? down", r"\bpity"],
     "judging":      [r"judg", r"apprais", r"sizes? (?:him|her|them|you) up", r"skeptic", r"suspicio", r"narrows? her eyes", r"unimpressed"],
+    "assertive":    [r"assertive", r"\bfirm(?:ly)?\b", r"commands?", r"insists?"],
+    "angry_low":    [r"low[- ]?voiced", r"voice (?:drops|is) low", r"cold(?:ly)?"],
     "angry":        [r"angr", r"\bfurious", r"snaps?\b", r"snarl", r"glare", r"shouts?\b", r"yell", r"seeth", r"\bsharp(?:ly)?\b"],
+    "shouting":     [r"screams?", r"raises? her voice", r"\broars?\b"],
+    "flustered":    [r"fluster", r"embarrass", r"\bblush", r"defensiv", r"stammers?", r"indignant"],
     "surprised":    [r"surpris", r"startl", r"\bblinks?\b", r"taken aback", r"stunned", r"\bgapes?\b", r"eyes widen"],
     "sad":          [r"\bsad", r"melanchol", r"\bquiet(?:ly)?\b", r"\bsoft(?:ly)?\b", r"wistful", r"trails? off", r"looks? away", r"\bsighs?\b"],
     "touched":      [r"touched", r"\bmoved\b", r"grateful", r"apprecia", r"\bthank", r"\bgentle", r"softens"],
@@ -138,7 +144,9 @@ NONVERBAL_GAP = 0.20
 # the floor is generous and reflective moods breathe more than excited ones.
 PACING: dict[str, float] = {
     "excited": 0.16, "enthusiastic": 0.17, "greeting": 0.18, "laughing": 0.20,
-    "happy": 0.22, "angry": 0.20, "surprised": 0.22, "warm": 0.26,
+    "happy": 0.22, "happy_soft": 0.30, "happy_long": 0.20, "angry": 0.20,
+    "angry_low": 0.25, "shouting": 0.18, "flustered": 0.20, "assertive": 0.22,
+    "surprised": 0.22, "warm": 0.26,
     "teasing": 0.26, "belittling": 0.28, "judging": 0.30, "explaining": 0.28,
     "asking": 0.30, "desperate": 0.22, "neutral": 0.28, "touched": 0.34,
     "sad": 0.40,
@@ -155,6 +163,8 @@ RATE: dict[str, float] = {
     # down is what made it sound read-aloud rather than meant
     "excited": 1.0, "enthusiastic": 1.0, "greeting": 1.0, "angry": 1.0,
     "surprised": 0.97, "laughing": 0.97, "desperate": 0.98, "happy": 0.94,
+    "happy_soft": 0.88, "happy_long": 0.94, "angry_low": 0.92, "shouting": 1.0,
+    "flustered": 0.98, "assertive": 0.95,
     "teasing": 0.86, "belittling": 0.88, "warm": 0.88, "neutral": 0.89,
     "explaining": 0.88, "judging": 0.88, "asking": 0.88, "lecturing": 0.90,
     "touched": 0.85, "sad": 0.83,
@@ -203,7 +213,19 @@ def split_speech(text: str) -> tuple[str, str]:
         spoken = re.sub(r"\*[^*]*\*", " ", text)
         descriptor = " ".join(re.findall(r"\*([^*]*)\*", text))
     tidy = lambda s: re.sub(r"\s+", " ", s).strip()
-    return tidy(spoken)[:900], tidy(descriptor)[:900]
+    # Long replies render sentence by sentence, not through a character cap.
+    # Truncating here silently discarded the tail of a long monologue.
+    return tidy(spoken), tidy(descriptor)
+
+
+def _split_sentences(spoken: str) -> list[str]:
+    """Return every written sentence as an independent synthesis unit.
+
+    Per-sentence tone selection needs this boundary intact: joining a short
+    angry sentence to a following soft one would force one reference over both.
+    GPT-SoVITS handles short sentences cleanly.
+    """
+    return [s.strip() for s in re.split(r"(?<=[.!?\u2026])\s+", spoken) if s.strip()]
 
 
 def chunk_sentences(spoken: str, mood: str) -> list[str]:
@@ -229,6 +251,55 @@ def chunk_sentences(spoken: str, mood: str) -> list[str]:
     if mood in SARCASTIC:
         merged = [re.sub(r"\?(\s*)$", r".\1", s) for s in merged]
     return merged
+
+
+def _ordered_segments(raw: str) -> list[tuple[str, str]]:
+    """Walk a reply in reading order as ``(speech|direction, text)`` pairs."""
+    segments: list[tuple[str, str]] = []
+    if re.search(r'"[^"]{2,}"', raw):
+        position = 0
+        for match in re.finditer(r'"([^"]{2,})"', raw):
+            if raw[position : match.start()].strip():
+                segments.append(("direction", raw[position : match.start()]))
+            segments.append(("speech", match.group(1)))
+            position = match.end()
+        if raw[position:].strip():
+            segments.append(("direction", raw[position:]))
+    else:
+        position = 0
+        for match in re.finditer(r"\*([^*]*)\*", raw):
+            if raw[position : match.start()].strip():
+                segments.append(("speech", raw[position : match.start()]))
+            if match.group(1).strip():
+                segments.append(("direction", match.group(1)))
+            position = match.end()
+        if raw[position:].strip():
+            segments.append(("speech", raw[position:]))
+    return segments
+
+
+def segment_reply(raw: str, forced_mood: str = "") -> list[tuple[str, str]]:
+    """Return ordered ``(sentence, mood)`` pairs for one complete reply.
+
+    A sentence scores against itself and the nearest preceding direction.  The
+    reply's full set of directions is only a fallback when there is no local
+    beat.  An explicit mood overrides every sentence.
+    """
+    tidy = lambda text: re.sub(r"\s+", " ", text).strip()
+    segments = _ordered_segments(raw)
+    reply_direction = tidy(" ".join(text for kind, text in segments if kind == "direction"))
+    pairs: list[tuple[str, str]] = []
+    recent_direction = ""
+    for kind, text in segments:
+        if kind == "direction":
+            recent_direction = tidy(text)
+            continue
+        for sentence in _split_sentences(tidy(text)):
+            mood = forced_mood or pick_mood(sentence, recent_direction or reply_direction)
+            if mood in SARCASTIC:
+                sentence = re.sub(r"\?(\s*)$", r".\1", sentence)
+            pairs.append((sentence, mood))
+    return pairs
 
 
 def trim_lead(y, sr: int, max_trim: float = 0.45):
@@ -308,8 +379,9 @@ class Handler(BaseHTTPRequestHandler):
         if self.path == "/health":
             b = load_backend()
             self._json(200, {"ok": True, "backend": b.NAME,
-                             "loaded": getattr(b, "_vc", None) is not None
-                                       or getattr(b, "_model", None) is not None,
+                              "loaded": getattr(b, "_vc", None) is not None
+                                       or getattr(b, "_model", None) is not None
+                                       or getattr(b, "_pipe", None) is not None,
                              "emotions": sorted(load_emotions().keys())})
             return
         if self.path.startswith("/rest/"):
@@ -374,28 +446,26 @@ class Handler(BaseHTTPRequestHandler):
         if not spoken:
             raise ValueError("nothing to say")
 
-        # an explicit mood wins; otherwise her own stage direction decides
-        mood = str(req.get("mood") or "").strip() or pick_mood(spoken, descriptor)
+        forced_mood = str(req.get("mood") or "").strip()
+        sentences = segment_reply(raw, forced_mood)
+        if not sentences:
+            raise ValueError("nothing to say")
 
-        # laughter leads with the real clip, then she talks normally
-        detected = mood
-        laughs = mood == LAUGH_ANCHOR and LAUGH_ANCHOR in load_emotions()
+        # The opening sentence sets the header and can lead with her real
+        # laugh. Later sentences retain their independently scored register.
+        opening_mood = sentences[0][1]
+        laughs = opening_mood == LAUGH_ANCHOR and LAUGH_ANCHOR in load_emotions()
         if laughs:
-            mood = LAUGH_SPEECH_MOOD
-        # a sigh/chuckle/noticing sound can lead any register, laughter aside
+            sentences[0] = (sentences[0][0], LAUGH_SPEECH_MOOD)
         lead_sound = "" if laughs else pick_nonverbal(descriptor)
-
-        reported = detected
-        gap = PACING.get(mood, DEFAULT_GAP)
-        rate = RATE.get(mood, DEFAULT_RATE)
-        pitch = PITCH.get(mood, DEFAULT_PITCH)
+        reported = opening_mood
 
         # The backend name belongs in the key. The same line through RVC and
         # through Qwen are two different recordings, and without it whichever
         # rendered first would be served for both.
         backend = load_backend()
         cache_key = hashlib.sha1(
-            f"{backend.NAME}|{mood}|{spoken}".encode()).hexdigest()[:16]
+            f"{backend.NAME}|{forced_mood or 'auto'}|{raw}".encode()).hexdigest()[:16]
         CACHE.mkdir(parents=True, exist_ok=True)
         cached = CACHE / f"{cache_key}.wav"
         voice_id = uuid.uuid4().hex[:12]
@@ -414,7 +484,7 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(data)
             return
 
-        def synth_raw(t: str):
+        def synth_raw(t: str, mood: str):
             """One sentence; retry once so a hiccup never eats part of a line.
 
             Serialized: RVC chdir's into its own tree and neither backend is
@@ -428,7 +498,7 @@ class Handler(BaseHTTPRequestHandler):
                     last = e
             raise last
 
-        def shape(s, sr: int):
+        def shape(s, sr: int, pitch: float, rate: float):
             """Pitch and tempo in one ffmpeg pass.
 
             Pitch is shifted by resampling (asetrate) and the resulting speed
@@ -471,16 +541,16 @@ class Handler(BaseHTTPRequestHandler):
                 return s
 
         def render(parts):
-            """Sentence-by-sentence: short inputs keep her pacing natural and
-            can't drop tails. Gap and tempo both come from the emotion."""
+            """Render complete sentences with tone-specific cloning and pacing."""
             chunks, sr = [], getattr(backend, "SR_HINT", 24000)
-            for p in parts:
-                if not p.strip():
+            for sentence, mood in parts:
+                if not sentence.strip():
                     continue
-                s, sr = synth_raw(p.strip())
-                s = shape(trim_lead(np.asarray(s, dtype="float32"), sr), sr)
+                s, sr = synth_raw(sentence.strip(), mood)
+                s = shape(trim_lead(np.asarray(s, dtype="float32"), sr), sr,
+                          PITCH.get(mood, DEFAULT_PITCH), RATE.get(mood, DEFAULT_RATE))
                 chunks.append(s)
-                chunks.append(np.zeros(int(sr * gap), dtype=s.dtype))
+                chunks.append(np.zeros(int(sr * PACING.get(mood, DEFAULT_GAP)), dtype=s.dtype))
             joined = np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
             buf = io.BytesIO()
             sf.write(buf, joined, sr, format="WAV")
@@ -516,7 +586,6 @@ class Handler(BaseHTTPRequestHandler):
                 y[-fade:] *= np.linspace(1.0, 0.0, fade)
             return np.concatenate([y, np.zeros(int(sr * gap), dtype="float32")])
 
-        sentences = chunk_sentences(spoken, mood)
         first_wav, first_samples, sr0 = render(sentences[:1])
 
         lead = None
@@ -572,8 +641,8 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Beni voice server")
-    ap.add_argument("--backend", default="rvc", choices=["rvc", "qwen"],
-                    help="rvc (default, fast) or qwen (dormant, slower)")
+    ap.add_argument("--backend", default="gptsovits", choices=["gptsovits", "rvc", "qwen"],
+                    help="gptsovits (default), rvc (fast fallback), or qwen (dormant)")
     ap.add_argument("--warm", action="store_true",
                     help="load the model at startup instead of on the first line")
     args = ap.parse_args()

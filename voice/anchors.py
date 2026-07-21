@@ -17,6 +17,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CLIPS = HERE / "clips"
+GSV_REFS = CLIPS / "emotions" / "gsv-refs"
 
 _emotions: dict | None = None
 _nonverbal: dict | None = None
@@ -47,24 +48,50 @@ def load_nonverbal() -> dict:
     return _nonverbal
 
 
+def load_gsv_refs() -> dict:
+    """Return the legal GPT-SoVITS references currently built on disk.
+
+    GPT-SoVITS uses audio-only references, so unlike ``load_emotions`` this
+    deliberately carries no transcript.  Keeping this as a separate library
+    means moods whose original anchors are too short (or non-verbal) naturally
+    follow the same nearby-tone fallback chain instead of failing synthesis.
+    """
+    if not GSV_REFS.exists():
+        return {}
+    return {
+        p.stem: {"audio": f"clips/emotions/gsv-refs/{p.name}"}
+        for p in sorted(GSV_REFS.glob("*.wav"))
+    }
+
+
 # An anchor only earns its place if it actually sounds like her, so several got
 # cut. What's left has to cover for them: each emotion names the nearest
 # surviving register rather than letting everything collapse to the default.
 MOOD_FALLBACK: dict[str, list[str]] = {
+    "happy_soft":  ["happy", "appreciative", "teasing"],
+    "happy_long":  ["happy", "teasing"],
     "enthusiastic": ["excited", "happy"],
     "greeting":     ["excited", "happy"],
     "surprised":    ["excited", "happy"],
     # talking down at someone is its own register, not a flavour of teasing
     "belittling":   ["lecturing", "teasing"],
     "judging":      ["lecturing", "teasing"],
+    "assertive":    ["lecturing", "angry", "teasing"],
     "explaining":   ["lecturing", "neutral"],
     "angry":        ["desperate", "excited"],
+    "angry_low":    ["angry", "lecturing"],
+    "shouting":     ["angry", "assertive", "excited"],
+    "shouting2":    ["shouting", "angry"],
+    "defensive":    ["flustered", "angry", "teasing"],
     "asking":       ["neutral", "warm"],
     "laughing":     ["happy", "teasing"],
     # warm was culled for not sounding like her, so anything that leaned on it
     # falls through to the nearest register still in the library
     "warm":         ["happy_soft", "appreciative", "neutral"],
     "touched":      ["appreciative", "sad"],
+    "flustered":    ["flustered2", "flustered3", "teasing"],
+    "flustered2":   ["flustered", "flustered3", "teasing"],
+    "flustered3":   ["flustered", "flustered2", "teasing"],
     "desperate":    ["excited", "teasing"],
     "sad":          ["touched", "neutral"],
     "excited":      ["happy", "teasing"],
@@ -81,10 +108,15 @@ ANCHOR_FOR = {"angry": "lecturing"}
 DEFAULT_MOOD = "teasing"  # her resting register: amused, three steps ahead
 
 
-def resolve_ref(mood: str) -> tuple[str, dict]:
-    """The clip for a mood, falling back through nearby registers so a deleted
-    anchor degrades to something adjacent instead of breaking playback."""
-    lib = load_emotions()
+def resolve_ref(mood: str, lib: dict | None = None) -> tuple[str, dict]:
+    """Resolve a mood through ``lib`` with nearby-tone fallbacks.
+
+    ``lib`` defaults to the complete emotion library for the existing Qwen
+    path.  GPT-SoVITS passes its trimmed 3--10-second reference library, so a
+    missing source clip resolves to the closest usable register.
+    """
+    if lib is None:
+        lib = load_emotions()
     chain = [ANCHOR_FOR.get(mood), mood, *MOOD_FALLBACK.get(mood, []),
              DEFAULT_MOOD, "neutral", "sass", "default"]
     for m in chain:
