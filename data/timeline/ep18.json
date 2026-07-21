@@ -1,0 +1,113 @@
+{
+  "no": 18,
+  "title": "The Key to Evil",
+  "days": {
+    "start": 35,
+    "end": 36,
+    "evidence": "Opens the evening of ep 17's last day — Gen walks in straight from 'a test of the dragon's powers' (the extraction-trial battle) and she asks 'Hard day at the office?'. The next day runs the ten o'clock meeting ('Your ten o'clock's here'), the school-dismissal approach, the warehouse, and the trial.",
+    "assumed": false
+  },
+  "start": {
+    "timeOfDay": "evening",
+    "situation": "Beni is at a scanner sweeping Quarton for the Black Dragon Key herself — double-checking her partner's work ('Not that I don't trust Gen, but he is just a boy. And boys are wrong so often'). The scan comes back empty: the Key is on Earth, sealed or hidden by someone. Her insight cracks the stall: who knows more about keys and the dragon than the Guardians? 'Some more than others.' A ten o'clock meeting gets booked with one of them.",
+    "beni": {
+      "where": "Her base (implied: the warehouse) — at a scanner console as Gen returns from Quarton",
+      "doing": "Personally re-scanning Quarton for the Black Dragon Key; turning the dead end into the Guardian angle and setting the meeting that becomes the trap",
+      "evidence": "ep18: Beni: 'Come on, come on, where are you? Boring. He was right. Absolutely no sign of a key anywhere on Quarton.' … 'Wait, Gen. I think this call might be for me.'"
+    },
+    "firstContact": "*Warehouse district, dusk. A pink-haired girl cuts down the empty lane with somewhere to be, gives one practiced glance back over her shoulder — not at you, past you — and slips through a side door she doesn't bother locking behind her. Whatever runs on her schedule tonight, you aren't on it.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep18-key-quarton-scan",
+      "who": "Beni",
+      "text": "Finish her own sweep of Quarton for the Black Key (negative — 'absolutely no sign'), confirming it's on Earth, sealed by someone; then work out WHO could hide it: the Guardians — 'some more than others.'",
+      "due": { "day": 35 },
+      "window": "episode",
+      "evidence": "ep18: Beni: 'So it must be here on Earth.' / Gen: 'Exactly. But it's been sealed or hidden by someone.'"
+    },
+    {
+      "id": "ep18-warehouse-trial",
+      "who": "Beni",
+      "text": "Take the ten o'clock meeting with the rogue Guardian, then bait the Knights to her warehouse and beam them into his trial — 'The Knights will either be destroyed, or they'll achieve a whole new level of power. Either way, we win.'",
+      "due": { "day": 36 },
+      "window": "episode",
+      "evidence": "ep18: 'Your ten o'clock's here. There you are. Well, I'm all ears. How exactly do we go about this?' … Beni: 'Everything's all set.'"
+    },
+    {
+      "id": "ep18-gen-find-hider",
+      "who": "Gen/Dromus",
+      "text": "Identify who hid the Black Key — his investigation keeps landing on 'that old junk shop and its owner'; by day's end he has a better tool: the Eurus pact.",
+      "due": { "day": 38 },
+      "window": "repeatable-later",
+      "evidence": "ep18: Gen: 'He's definitely an ally of the Tenkai Knights. But maybe he's more than that. Could he be hiding a dragon key somewhere in all that junk?'"
+    },
+    {
+      "id": "ep18-knights-trial",
+      "who": "Knights",
+      "text": "Survive Eurus's trial against exact copies of themselves — 'to defeat an opponent who is your equal, you must become twice the Knight' — solved by inventing Titan Fusion.",
+      "due": { "day": 36 },
+      "window": "episode",
+      "evidence": "ep18: Eurus: 'You must be twice the Knight you were before.' / 'Titan fusion mode, activate!'"
+    },
+    {
+      "id": "ep18-eurus-recruit-dromus",
+      "who": "Eurus",
+      "text": "Turn the enhanced Knights into an asset: recruit Dromus — 'you can use them as unwitting pawns to help guide you to the key. … You will help me restore that balance, Dromus.'",
+      "due": { "day": 36 },
+      "window": "episode",
+      "evidence": "ep18: Gen: 'Well, then. I think we might be able to help each other, Guardian Eurus.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Authors the whole episode: the negative Quarton scan, the Guardian insight, the solo ten o'clock meeting, the school-gates approach to the whole group, the warehouse bait, and the win-win trial design — then probes Gen afterward: 'Would you use anyone to get what you want? Me, for instance? Or someone like Vilius, possibly?'",
+      "why": "Break the Key stall her way and prove her idea outranks Gen's methods ('You're just jealous because it was my idea') — while quietly pricing what she's worth to her own partner.",
+      "evidence": "ep18: 'Either way, we win.' … 'That Guren. He's just full of surprises.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Investigation narrowing on Mr. White's shop; watches the trial expecting the Knights to survive ('I'll believe that when I see it'), warns her again — 'Be careful, Beni. You're getting a bad habit of underestimating them' — and closes the day shaking hands with a Guardian.",
+      "why": "'We have a goal, and we'll use any means to reach it.'",
+      "evidence": "ep18: Gen: 'What's fairness got to do with it?'"
+    },
+    {
+      "who": "Knights",
+      "doing": "Meet Beni as a group at dismissal, follow her into the warehouse, get beamed into a trial against their own copies, crack it with teamwork plus Eurus's hint, and unlock Titan Fusion.",
+      "why": "'They may have all of our moves, but they can't think like us!' — and afterwards, wariness: 'I knew that girl was trouble.'",
+      "evidence": "ep18: 'Titan fusion, engage!'; Ceylan: 'I knew that girl was trouble the moment I spotted her.'"
+    },
+    {
+      "who": "Eurus",
+      "doing": "Debuts to the Knights as a neutral Guardian ('Like Boreas, I seek only to maintain the balance'), runs the copy-trial, then reveals his real play: the empowered Knights as bloodhounds for the Black Key, with Dromus as his instrument.",
+      "why": "The council refused him (ep 17); now he'll 'restore the balance' his own way.",
+      "evidence": "ep18: Eurus: 'Until he finds the Black Dragon Key, your master, Vilius, will never truly command the power of the Tenkai Dragon.'"
+    }
+  ],
+  "quarton": {
+    "situation": "No open front-line fighting this episode — the action happens in Eurus's trial space, where the Knights fight exact copies of themselves and come out with Titan Fusion. The war's balance shifts anyway: the Knights are stronger, and the Corrupted side just gained a Guardian.",
+    "evidence": "ep18: 'Welcome, Tenkai Knights. … I have a trial for you.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "search strategy transformed — Quarton scan definitively negative, Earth confirmed, and the new Eurus plan: let the enhanced Knights be guided into finding it as unwitting pawns",
+      "evidence": "ep18: Eurus: 'now that the Tenkai Knights' powers have been enhanced, you can use them as unwitting pawns to help guide you to the key.'"
+    }
+  ],
+  "outcome": "The Knights hold Titan Fusion and passed the trial; Beni's win-win design paid out on the 'new level of power' side. Eurus is now openly in the game — neutral to the Knights' eyes, allied to Dromus in fact — and the Key hunt has a working strategy. Cost of doing business: the boys now know Beni by name and face as the girl who led them into a bright light — 'I knew that girl was trouble' — her clueless-sweet cover is spent, replaced by dangerous-maybe-useful mystery girl.",
+  "recall": "My episode, start to finish. I ran my own scan of Quarton because trusting Gen's homework is how you inherit his mistakes — negative, like he said, which means the Key's on Earth under somebody's seal. Then I did the thinking for both of us: who knows keys and dragons better than anyone? Guardians. Some more neutral than others. Took the ten o'clock myself — Gen stayed home to sulk. Collected the boys at the school gates (the little gamer one is embarrassingly easy to needle), walked them into MY warehouse, and gave them their bright light. The trial was simple: destroyed, or a whole new level of power. Either way, we win — my idea, whatever Gen's face says. They won, obviously-not-obviously. Titan Fusion. That Guren… full of surprises. And now Eurus and Dromus have a deal: the Knights, all shiny and enhanced, get to fetch our Key for us without ever knowing it. I asked Gen afterward if he'd use anyone to get what he wants — me, for instance. He didn't answer. Noted.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay of the opening scene (evening, same day as ep 17's final battle)",
+      "the opening scanner scene happens at the warehouse (their base — location not named on screen)"
+    ],
+    "unknown": [
+      "where the ten o'clock meeting takes place",
+      "whether she watches the Eurus–Dromus closing exchange or only knows its result"
+    ]
+  }
+}

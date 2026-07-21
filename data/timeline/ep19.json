@@ -1,0 +1,106 @@
+{
+  "no": 19,
+  "title": "Extreme Titan",
+  "days": {
+    "start": 37,
+    "end": 37,
+    "evidence": "One packed day, stated to be a Sunday ('Chill out, Wakamei, it's Sunday'): breakfast, the morning temple skirmish, the shop visit and track-team lie, the afternoon confrontation and Nagaslyger battle, dinner resolution. Start day taken as the day after ep 18 ends.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Sunday morning in the Dalton house — Wakamei has made Frenchified toast and a plan for the diner's brunch rush, and her little brother is about to vanish on her again. On Quarton, Vilius's Corrupted hold the sacred ruins, searching an ancient temple for something. The extracted Dragon energy is still 'very unstable' — and Slyger just volunteered as the guinea pig.",
+    "beni": {
+      "where": "Benham City — off-screen this episode; exact whereabouts unshown",
+      "doing": "No on-screen moves this day",
+      "evidence": "ep19 has no Beni scenes; analysis--arc-2 <!--ep:19--> covers only Wakamei's shop discovery"
+    },
+    "firstContact": "*A park bench in the sun. She holds her phone up like she's fixing her hair in the camera — but the angle's wrong for that; it's aimed over her shoulder, at the path behind her. After a moment she pockets it, satisfied, and goes back to watching clouds.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep19-corrupted-temple",
+      "who": "Granox & Slyger",
+      "text": "Search the ancient temple in the sacred ruins for what Vilius's side is after — found on the second sweep: a stone tablet with ancient writing.",
+      "due": { "day": 37 },
+      "window": "episode",
+      "evidence": "ep19: 'We found something in the temple. I think it might be what you're looking for. … That's it. The stone tablet with ancient writing.'"
+    },
+    {
+      "id": "ep19-wakamei-truth",
+      "who": "Wakamei",
+      "text": "Find out what Toxsa is hiding — she gets the whole truth from his own mouth, sees the battle through the portal viewer, and is defused by Mr. White's 'video arcade' cover story.",
+      "due": { "day": 37 },
+      "window": "episode",
+      "evidence": "ep19: Toxsa: 'This core brick is the key to a different world.' / Wakamei, after: 'So you're hooked on some video game. Big surprise.'"
+    },
+    {
+      "id": "ep19-dromus-stabilize",
+      "who": "Gen/Dromus",
+      "text": "Wrestle the unstable extracted Dragon energy toward usability — Slyger's volunteer infusion (Nagaslyger) is the live test, and it loses anyway.",
+      "due": { "day": 39 },
+      "window": "repeatable-later",
+      "evidence": "ep19: Dromus: 'The small amount of energy I've been able to extract from the Tenkai Dragon remains very unstable.'"
+    },
+    {
+      "id": "ep19-knights-hold-ruins",
+      "who": "Knights",
+      "text": "Drive the Corrupted from the sacred ruins twice, read the tablet, and set the new mission: 'we've got to get the Tenkai dragon back before they can find that key.'",
+      "due": { "day": 37 },
+      "window": "episode",
+      "evidence": "ep19: 'The inscription reads: The Black Dragon Key has been taken by the Guardian.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Knights",
+      "doing": "Morning babysit-grade skirmish, then the real one: Valorn finally gets his Titan Fusion turn and drops the supercharged Nagaslyger; the tablet tells them what the enemy wants.",
+      "why": "Guard the ruins' secret; and Toxsa needs the win his sister just watched.",
+      "evidence": "ep19: 'Valorn, Bravenwolf, Titan fusion.' / 'We're twice the knight with twice the might.'"
+    },
+    {
+      "who": "Wakamei",
+      "doing": "Tails her brother to the Shop of Wonders, corners him at home, hears the truth, sees Quarton through the portal viewer — and accepts the arcade story because a hero kid brother is easier to file under 'video games.'",
+      "why": "'We're family. That means we look out for each other, whether you like it or not.'",
+      "evidence": "ep19: Wakamei: 'My little brother. Saving the universe.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Reports the extraction still unstable, then greenlights Slyger's infusion — 'If this fool is willing to volunteer as guinea pig, let him.'",
+      "why": "Every test is data toward stable Dragon power.",
+      "evidence": "ep19: 'Behold, Nagaslyger the Magnificent.'"
+    },
+    {
+      "who": "Granox & Slyger",
+      "doing": "Hold and search the ruins, find the tablet, and field-test the Dragon infusion — Slyger struts as Nagaslyger and gets flattened by the new fusion.",
+      "why": "'Master, infuse me with the dragon's energy! No, me!' — status, as always.",
+      "evidence": "ep19: 'I can feel the power. Now let them feel it, too.'"
+    }
+  ],
+  "quarton": {
+    "situation": "The Corrupted hold the sacred ruins long enough to find the stone tablet; the Knights break them twice, the second time against a Dragon-supercharged Nagaslyger. The tablet's message is now on both sides' boards: the Black Dragon Key was taken by a Guardian.",
+    "evidence": "ep19: Beag's Corekai guard the location; 'The Black Dragon Key has been taken by the Guardian.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "intel breakthrough — the temple tablet says the Key 'has been taken by the Guardian'; the Knights resolve to retake the Dragon before the Key is found",
+      "evidence": "ep19: 'So they're looking for the Black Key. Yeah, the one that revives the evil dragon.'"
+    }
+  ],
+  "outcome": "The tablet's sentence changes the race: everyone now knows a Guardian took the Black Key. The Knights commit to retaking the Dragon first. Toxsa's sister is inside the secret and safely back out of it (arcade story). The Dragon-energy infusion works but doesn't win fights — still unstable, still promising.",
+  "recall": "A Sunday, by their calendar. Nothing of mine on the board that day — the machine Gen and Eurus built runs without me pushing it, which is the point of building machines. What I did with the day is my business.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 18 ends",
+      "single-day compression (breakfast to dinner)"
+    ],
+    "unknown": [
+      "Beni's actual activities this day (entirely off-screen)",
+      "when she and Gen learn what the tablet said — not shown this episode"
+    ]
+  }
+}

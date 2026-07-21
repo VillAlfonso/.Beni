@@ -1,0 +1,120 @@
+{
+  "no": 20,
+  "title": "Double Crossed",
+  "days": {
+    "start": 38,
+    "end": 38,
+    "evidence": "One day: Gen's morning melancholy and Vilius's summons, the school day (Aztec lesson, Ceylan's failed befriending), the after-school talk, Beni's army report, and the bull/buzzard battle. Start day taken as the day after ep 19.",
+    "assumed": true
+  },
+  "start": {
+    "timeOfDay": "morning",
+    "situation": "Gen watches Benham City laugh in the sunshine and privately promises it darkness ('let them enjoy this world while it lasts'). Vilius summons Dromus for gratitude with teeth: the energy tap isn't enough — he wants the Black Key and the other world's whereabouts, and his patience with promises is ending. He has also started analyzing Earth himself.",
+    "beni": {
+      "where": "Her base — on Quarton surveillance (exact scene placement unshown)",
+      "doing": "Watching the Corrupted mobilize: 'It's Vilius. He's assembling his army. And I mean an army. We're talking huge.'",
+      "evidence": "ep20: Beni: 'Something's happening on Quarton. … Looks like he's gonna make a move.'"
+    },
+    "firstContact": "*Rooftop edge above the plaza, morning glare. A pink-haired girl sits with her knees drawn up, watching the city wake like it owes her a report — streets, tower, skyline, in that order. You cross her field of view and leave exactly no impression.*"
+  },
+  "arcAtStart": "s1-infiltrator",
+  "goals": [
+    {
+      "id": "ep20-beni-watch-vilius",
+      "who": "Beni",
+      "text": "Run Quarton surveillance: catch Vilius's army assembling and brief Gen — then log that her partner would rather 'stick to our plan' than look up at the avalanche.",
+      "due": { "day": 38 },
+      "window": "repeatable-later",
+      "evidence": "ep20: Beni: 'So? What? You're just gonna do nothing? Aren't you even a little bit curious?' / 'Just hope our plan doesn't include us getting vaporized.'"
+    },
+    {
+      "id": "ep20-gen-manage-vilius",
+      "who": "Gen/Dromus",
+      "text": "Survive Vilius's 'gratitude': keep the Key hunt sold as nearly done, keep the Earth analysis 'inconclusive', and absorb the warning — 'mere half-answers and excuses are not acceptable.'",
+      "due": { "day": 38 },
+      "window": "episode",
+      "evidence": "ep20: Vilius: 'I'm beginning to lose patience with all your promises.'"
+    },
+    {
+      "id": "ep20-ceylan-smart",
+      "who": "Knights",
+      "text": "Ceylan tries to crack Gen's wall, gets burned ('I don't make friends with people like you'), and answers the challenge the only way that counts — the play-action fake that wins the battle.",
+      "due": { "day": 38 },
+      "window": "episode",
+      "evidence": "ep20: Gen: 'Try being smart, not just talking clever. Then we'll see.' / Dromus: 'I guess Tributon wasn't the weakling I thought he was.'"
+    },
+    {
+      "id": "ep20-eurus-council-heat",
+      "who": "Eurus",
+      "text": "Face the council convened over HIS interference and deflect: 'It was Boreas who first interfered by reviving the dragon. The actions I took were to restore the balance.'",
+      "due": { "day": 38 },
+      "window": "episode",
+      "evidence": "ep20: 'This council has been convened in order to discuss your actions, Eurus.'"
+    },
+    {
+      "id": "ep20-vilius-own-analysis",
+      "who": "Vilius",
+      "text": "Stop waiting on Dromus: his own analysis confirms the Knights travel from another world — 'the time has come to do something about it. Personally.' The army assembles.",
+      "due": { "day": 40 },
+      "window": "repeatable-later",
+      "evidence": "ep20: Vilius: 'I have been doing some analysis of my own.'"
+    }
+  ],
+  "actors": [
+    {
+      "who": "Beni",
+      "doing": "Surveillance duty and one sharp report; needles Gen's tunnel vision and files his non-answer next to the last one.",
+      "why": "Somebody in this partnership should be watching the whole board — and she'd rather not be vaporized by a surprise.",
+      "evidence": "ep20: 'Okay, it's your call.'"
+    },
+    {
+      "who": "Gen/Dromus",
+      "doing": "Poetic doom-watching over Benham, a razor-wire audience with Vilius, one contemptuous school clash with Ceylan, and a battlefield reassessment of Tributon.",
+      "why": "Everything serves the Key plan; Vilius's patience and the Knights' growth are both just clocks to beat.",
+      "evidence": "ep20: Gen: 'If they can't handle that, they won't stand a chance against what's coming next.'"
+    },
+    {
+      "who": "Knights",
+      "doing": "School-day friction over the Gen mystery ('He's weird, but he's not evil'), then a two-front fight against dark-energy-boosted beasts, won by Ceylan's brains and Tenkai Fusion.",
+      "why": "Guren can't let the Gen question go — 'There was something in Gen that reminded me of you.'",
+      "evidence": "ep20: Guren: 'I just wish I knew what his story was.'"
+    },
+    {
+      "who": "Eurus",
+      "doing": "Under council scrutiny twice in one episode — accused of interference, then quizzed on how the Knights got Titan Fusion ('you know so much about it, Eurus').",
+      "why": "Keep his rogue game hidden inside the balance rhetoric.",
+      "evidence": "ep20: council: 'perhaps you know how they acquired it?' / Eurus: 'What are you suggesting?'"
+    },
+    {
+      "who": "Vilius",
+      "doing": "Squeezes Dromus, runs his own Earth analysis, and assembles a huge army — the move Beni spots from the monitors.",
+      "why": "'I'm not satisfied with acquiring the Dragon's energy. I want control over the beast itself.'",
+      "evidence": "ep20: Beni's report + Vilius: 'And for that, I need the Black Key.'"
+    }
+  ],
+  "quarton": {
+    "situation": "Dark-energy-boosted war-beasts (the bull, the robo-buzzard) test the Knights from two sides and lose to the play-action fake plus Tenkai Fusion. Behind the front, Vilius is massing an army big enough to make Beni's monitors crowded, and the Guardians sense 'a darkness gathering and spreading across Quarton.'",
+    "evidence": "ep20: the two-front battle; council: 'Vilius is plotting something.'"
+  },
+  "artifacts": [
+    {
+      "item": "black-dragon-key",
+      "event": "pressure spike — Vilius states the Key as his explicit requirement for controlling the Dragon and puts Dromus on his last stretch of patience",
+      "evidence": "ep20: Vilius: 'I want control over the beast itself. And for that, I need the Black Key.'"
+    }
+  ],
+  "outcome": "Vilius is done waiting: his own analysis points at Earth, his army is massing, and Dromus is on notice. The council's suspicion of Eurus is now explicit. The Knights won the day on Ceylan's brains, and Guren's Gen-question got dismissed exactly once ('he's weird, but he's not evil') — the doubt exists now. Beni's warning is on the record; Gen chose the plan over the board.",
+  "recall": "Surveillance pays. I caught Vilius stacking an army on the monitors — not a raiding party, an ARMY, the kind you notice from orbit — and took it straight to Gen. His whole reaction: 'we stick to our plan.' Of course. The plan. I told him I just hope the plan doesn't include us getting vaporized, and he looked at me like I'd interrupted something important. One of these days his tunnel vision is going to cost us, and I intend to be standing somewhere else when it does.",
+  "beniAbsent": false,
+  "confidence": {
+    "assumed": [
+      "timeOfDay",
+      "start day = day after ep 19",
+      "single-day compression"
+    ],
+    "unknown": [
+      "where her surveillance setup physically is",
+      "whether she watches the bull/buzzard battle or only the army build-up"
+    ]
+  }
+}
